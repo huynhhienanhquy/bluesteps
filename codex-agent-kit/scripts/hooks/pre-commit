@@ -1,0 +1,56 @@
+﻿#!/usr/bin/env bash
+# pre-commit hook for codex-agent-kit
+# Rebuilds generated instructions and validates the kit when a source or
+# configuration file is staged.
+#
+# Install:
+#   cp scripts/hooks/pre-commit .git/hooks/pre-commit
+#   chmod +x .git/hooks/pre-commit
+#
+# Or use install_hooks.sh to install automatically.
+
+set -euo pipefail
+
+CHANGED=$(git diff --cached --name-only)
+
+KIT_CHANGED=$(echo "$CHANGED" | grep -E '^(\.agent-kit\.json|\.agents/skills/|agents/|rules/|profiles/|guides/|workflows/|examples/|templates/|evals/|scripts/|definition-of-done\.md|README\.md|CONTRIBUTING\.md)' || true)
+EVAL_CHANGED=$(echo "$CHANGED" | grep -E '^(evals/|scripts/run_behavior_evals\.mjs|scripts/tests/behavior-evals\.test\.mjs)' || true)
+
+if [ -z "$KIT_CHANGED" ]; then
+    exit 0
+fi
+
+echo "[pre-commit] agent-kit source changed; rebuilding and validating..."
+
+if command -v python >/dev/null 2>&1; then
+    python -B scripts/build_agents_md.py
+    python -B scripts/validate_kit.py
+elif command -v python3 >/dev/null 2>&1; then
+    python3 -B scripts/build_agents_md.py
+    python3 -B scripts/validate_kit.py
+elif command -v py >/dev/null 2>&1 && py -3 --version >/dev/null 2>&1; then
+    py -3 -B scripts/build_agents_md.py
+    py -3 -B scripts/validate_kit.py
+elif command -v pwsh >/dev/null 2>&1; then
+    pwsh -NoProfile -File scripts/kit.ps1 build
+    pwsh -NoProfile -File scripts/kit.ps1 validate
+elif command -v powershell.exe >/dev/null 2>&1; then
+    powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/kit.ps1 build
+    powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/kit.ps1 validate
+else
+    echo "[pre-commit] FAIL: install Python 3 or PowerShell to rebuild and validate the kit." >&2
+    exit 1
+fi
+
+if [ -n "$EVAL_CHANGED" ]; then
+    if ! command -v node >/dev/null 2>&1; then
+        echo "[pre-commit] FAIL: Node.js 22+ is required to validate behavioral eval changes." >&2
+        exit 1
+    fi
+    node --test scripts/tests/*.test.mjs
+    node scripts/run_behavior_evals.mjs --responses evals/fixtures/perfect-responses.json --threshold 1
+fi
+
+git add AGENTS.md CLAUDE.md MANIFEST.txt .cursorrules .clinerules .github/copilot-instructions.md
+
+echo "[pre-commit] generated files are synced and validation passed."

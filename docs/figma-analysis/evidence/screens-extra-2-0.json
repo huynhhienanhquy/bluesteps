@@ -1,0 +1,2091 @@
+{
+  "bytes": 19916,
+  "screens": [
+    {
+      "id": "386:7390",
+      "name": "12 · Đăng ký tài khoản",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 22,
+        "TEXT": 15,
+        "VECTOR": 11,
+        "INSTANCE": 4,
+        "RECTANGLE": 1
+      },
+      "texts": [
+        "9:41",
+        "TẠO TÀI KHOẢN",
+        "Bắt đầu cùng\nBlueSteps.",
+        "Lưu hành trình sống xanh và nhận những gợi ý dành riêng cho bạn.",
+        "Họ và tên",
+        "Linh Chi",
+        "Email",
+        "linhchi@example.com",
+        "Mật khẩu",
+        "••••••••••••",
+        "Tôi đồng ý với Điều khoản và Chính sách bảo mật.",
+        {
+          "hidden": "Vui lòng đồng ý điều khoản để tiếp tục."
+        },
+        "Tạo tài khoản",
+        "Đã có tài khoản? Đăng nhập",
+        "Một tài khoản. Nhiều hành động có ý nghĩa."
+      ],
+      "parts": [
+        [
+          "386:7390",
+          "12 · Đăng ký tài khoản",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "461:5267",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5269",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "461:5275",
+          "Thanh điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5276",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "461:5281",
+          "Tiêu đề",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "461:5284",
+          "Icon / leaf",
+          54,
+          54,
+          "NONE"
+        ],
+        [
+          "461:5287",
+          "Thông tin đăng ký",
+          380,
+          284,
+          "VERTICAL"
+        ],
+        [
+          "461:5288",
+          "Trường / Họ và tên",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "461:5292",
+          "Trường / Email",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "461:5296",
+          "Mật khẩu",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "461:5307",
+          "Điều khoản",
+          380,
+          44,
+          "VERTICAL"
+        ],
+        [
+          "461:5308",
+          "Tôi đồng ý với Điều khoản và Chính sách bảo mật.",
+          380,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5317",
+          "Nút / Tạo tài khoản",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5320",
+          "Liên kết / Đã có tài khoản? Đăng nhập",
+          380,
+          48,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Trường / Họ và tên": 1,
+        "Trường / Email": 1,
+        "Trường / Mật khẩu": 1,
+        "Nút / Tạo tài khoản": 1
+      },
+      "reactions": [
+        {
+          "id": "461:5276",
+          "name": "Quay lại",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "461:5302",
+          "name": "Hiện hoặc ẩn mật khẩu",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "461:5308",
+          "name": "Tôi đồng ý với Điều khoản và Chính sách bảo mật.",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "461:5317",
+          "name": "Nút / Tạo tài khoản",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "461:5320",
+          "name": "Liên kết / Đã có tài khoản? Đăng nhập",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7420",
+      "name": "18 · Profile — Cá nhân",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 81,
+        "TEXT": 41,
+        "VECTOR": 40,
+        "INSTANCE": 1,
+        "RECTANGLE": 7
+      },
+      "texts": [
+        "9:41",
+        "Cá nhân",
+        "Linh Chi",
+        "linhchi@example.com",
+        "THÀNH VIÊN BLUESTEPS",
+        "Cấp độ 2 · Chiến binh tái chế",
+        "Chỉnh sửa hồ sơ",
+        "180",
+        "Điểm hiện có",
+        "120 / 200",
+        "Tiến độ cấp độ",
+        "Hành trình của bạn",
+        "Thành tích",
+        "Lịch sử",
+        "Đã lưu",
+        "Thống kê",
+        "Tài khoản của bạn",
+        "Thông tin cá nhân",
+        "Cập nhật tên, email và ảnh đại diện",
+        "Thông báo",
+        "Theo dõi các cập nhật dành cho bạn",
+        "Cài đặt ứng dụng",
+        "Giao diện, bảo mật và tùy chọn khác",
+        "Hoạt động gần đây",
+        "Xem tất cả",
+        "Hoàn thành 3 việc",
+        "08:00 · Hôm nay",
+        "+60",
+        "Thắng giải game",
+        "Hôm qua",
+        "+60",
+        "Hành trình xanh,\ncùng nhau sẽ vui hơn.",
+        "Ghé thăm cộng đồng →",
+        "Một hành động nhỏ, một phiên bản tốt hơn.",
+        "Trang chủ",
+        "Thu gom",
+        "Quét rác",
+        "Đổi quà",
+        "Cá nhân",
+        {
+          "hidden": "✓ Hồ sơ đã được cập nhật."
+        },
+        {
+          "hidden": "×"
+        }
+      ],
+      "parts": [
+        [
+          "386:7420",
+          "18 · Profile — Cá nhân",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "489:4783",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "489:4785",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "489:4791",
+          "Thanh tiêu đề cá nhân",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "489:4792",
+          "Về trang chủ",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "489:4797",
+          "Mở cài đặt",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "489:4802",
+          "Nội dung Profile · Cuộn dọc",
+          428,
+          686,
+          "NONE"
+        ],
+        [
+          "489:4803",
+          "Hồ sơ và hành trình sống xanh",
+          380,
+          1301,
+          "VERTICAL"
+        ],
+        [
+          "489:4937",
+          "Điều hướng chính · Cố định",
+          428,
+          104,
+          "NONE"
+        ],
+        [
+          "489:4938",
+          "Năm mục điều hướng",
+          380,
+          64,
+          "HORIZONTAL"
+        ],
+        [
+          "489:4970",
+          "Thông báo lưu hồ sơ",
+          380,
+          58,
+          "NONE"
+        ],
+        [
+          "489:4972",
+          "Đóng thông báo",
+          44,
+          58,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Chỉnh sửa hồ sơ": 1
+      },
+      "reactions": [
+        {
+          "id": "489:4792",
+          "name": "Về trang chủ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4797",
+          "name": "Mở cài đặt",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8451",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4805",
+          "name": "Ảnh đại diện thành viên",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8516",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4813",
+          "name": "Nút / Chỉnh sửa hồ sơ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8516",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4821",
+          "name": "Điểm hiện có",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4828",
+          "name": "Tiến độ cấp độ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7550",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4840",
+          "name": "Thành tích",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7550",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4846",
+          "name": "Lịch sử",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4853",
+          "name": "Đã lưu",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18069",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4859",
+          "name": "Thống kê",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25009",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4868",
+          "name": "Thông tin cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8516",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4880",
+          "name": "Thông báo",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7913",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4891",
+          "name": "Cài đặt ứng dụng",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8451",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4905",
+          "name": "Liên kết / Xem tất cả",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4909",
+          "name": "Hoàn thành 3 việc",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4919",
+          "name": "Thắng giải game",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4933",
+          "name": "Liên kết / Ghé thăm cộng đồng →",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4939",
+          "name": "Trang chủ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4944",
+          "name": "Thu gom",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4950",
+          "name": "Quét rác",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4956",
+          "name": "Đổi quà",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4962",
+          "name": "Cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "489:4804",
+                  "navigation": "SCROLL_TO"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "489:4972",
+          "name": "Đóng thông báo",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7550",
+      "name": "Thành tích",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 22,
+        "RECTANGLE": 20,
+        "INSTANCE": 3,
+        "VECTOR": 23,
+        "GROUP": 18,
+        "BOOLEAN_OPERATION": 2,
+        "ELLIPSE": 12,
+        "TEXT": 21,
+        "LINE": 1
+      },
+      "texts": [
+        "Thành tích",
+        "Healing",
+        "120/200",
+        "120/200",
+        "100/200",
+        "90/200",
+        "Linh Chi",
+        "Thu Phương",
+        "Mỹ Duyên",
+        "4",
+        "Quang Huy",
+        "90/200",
+        "5",
+        "Hoàng Bảo",
+        "89/200",
+        "6",
+        "Khánh Linh",
+        "85/200",
+        "7",
+        "Bảo An",
+        "80/200"
+      ],
+      "parts": [
+        [
+          "386:7550",
+          "Thành tích",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:7552",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:7553",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:7554",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:7555",
+          "Frame 36721",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7556",
+          "Frame 36714",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7559",
+          "Iconly/Sharp/Light/Notification",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:7566",
+          "Frame 36722",
+          93,
+          24,
+          "NONE"
+        ],
+        [
+          "386:7569",
+          "Frame 36723",
+          93,
+          24,
+          "NONE"
+        ],
+        [
+          "386:7572",
+          "Frame 36724",
+          93,
+          24,
+          "NONE"
+        ],
+        [
+          "386:7575",
+          "Frame 36725",
+          93,
+          24,
+          "NONE"
+        ],
+        [
+          "386:7582",
+          "Frame 37230",
+          383,
+          267,
+          "VERTICAL"
+        ],
+        [
+          "386:7583",
+          "Group 37237",
+          383,
+          343,
+          null
+        ],
+        [
+          "386:7614",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:7622",
+          "Group 36739",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:7623",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:7627",
+          "Group 36734",
+          144,
+          47,
+          null
+        ],
+        [
+          "386:7638",
+          "Group 36732",
+          110,
+          30.5457763671875,
+          null
+        ],
+        [
+          "386:7643",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "491:4749",
+          "Prototype / Nav / Trang chủ",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "491:4751",
+          "Prototype / Nav / Thu gom",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "491:4753",
+          "Prototype / Nav / Quét rác",
+          68,
+          70,
+          "NONE"
+        ],
+        [
+          "491:4755",
+          "Prototype / Nav / Đổi quà",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "491:4757",
+          "Prototype / Nav / Cá nhân",
+          66,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1,
+        "Iconly/Sharp/Light/Notification": 1
+      },
+      "reactions": [
+        {
+          "id": "386:7552",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7555",
+          "name": "Frame 36721",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7913",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7628",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7634",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7639",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7643",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "491:4749",
+          "name": "Prototype / Nav / Trang chủ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "491:4751",
+          "name": "Prototype / Nav / Thu gom",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "491:4753",
+          "name": "Prototype / Nav / Quét rác",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "491:4755",
+          "name": "Prototype / Nav / Đổi quà",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "491:4757",
+          "name": "Prototype / Nav / Cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7647",
+      "name": "Cộng đồng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 36,
+        "RECTANGLE": 19,
+        "INSTANCE": 25,
+        "VECTOR": 74,
+        "GROUP": 62,
+        "BOOLEAN_OPERATION": 8,
+        "ELLIPSE": 21,
+        "TEXT": 24,
+        "LINE": 1
+      },
+      "texts": [
+        "Cộng đồng",
+        "Tìm kiếm ....",
+        "Hôm nay bạn nghĩ gì ?",
+        "100",
+        "5 Bình luận",
+        "50",
+        "Tôi vừa phân loại xong rác hôm nay!  Cảm giác thật nhẹ lòng 💚",
+        "99",
+        "5 Bình luận",
+        "50",
+        "Healing",
+        "Just now",
+        "99",
+        "5 Bình luận",
+        "50",
+        "Tôi vừa phân loại xong rác hôm nay!  Cảm giác thật nhẹ lòng 💚",
+        "Save",
+        "10 mins ago",
+        "99",
+        "5 Bình luận",
+        "50",
+        "Tôi vừa phân loại xong rác hôm nay!  Cảm giác thật nhẹ lòng 💚",
+        "Save",
+        "10 mins ago"
+      ],
+      "parts": [
+        [
+          "386:7647",
+          "Cộng đồng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:7649",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:7650",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:7651",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:7652",
+          "Frame 36721",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7653",
+          "Frame 36714",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7656",
+          "Frame 36784",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7657",
+          "Frame 36714",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7668",
+          "Frame 36780",
+          55,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7669",
+          "Iconly/Regular/Bold/Heart",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7671",
+          "Frame 36781",
+          103,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7672",
+          "Iconly/Regular/Bold/Heart",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7674",
+          "Iconly/Regular/Light/Chat",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7675",
+          "Iconly/Regular/Light/Download",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:7675;29221:1724",
+          "Downlaod",
+          18.5,
+          16.976900100708008,
+          null
+        ],
+        [
+          "386:7676",
+          "Frame 36782",
+          50,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7677",
+          "Iconly/Regular/Light/Send",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7679",
+          "Frame 36852",
+          428,
+          574,
+          "VERTICAL"
+        ],
+        [
+          "386:7680",
+          "Group 37194",
+          428,
+          356,
+          null
+        ],
+        [
+          "386:7711",
+          "Group 37204",
+          428,
+          356,
+          null
+        ],
+        [
+          "386:7748",
+          "Group 37205",
+          428,
+          356,
+          null
+        ],
+        [
+          "386:7785",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:7787",
+          "Iconly/Regular/Light/Image",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:7787;29221:1572",
+          "Image",
+          18.459999084472656,
+          18.450000762939453,
+          null
+        ],
+        [
+          "386:7788",
+          "Group 36739",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:7789",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:7793",
+          "Group 36734",
+          144,
+          47,
+          null
+        ],
+        [
+          "386:7804",
+          "Group 36732",
+          110,
+          30.5457763671875,
+          null
+        ],
+        [
+          "386:7809",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "478:4774",
+          "Prototype / Nav / Trang chủ",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4776",
+          "Prototype / Nav / Thu gom",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4778",
+          "Prototype / Nav / Quét rác",
+          68,
+          70,
+          "NONE"
+        ],
+        [
+          "478:4780",
+          "Prototype / Nav / Đổi quà",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4782",
+          "Prototype / Nav / Cá nhân",
+          66,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1,
+        "Iconly/Regular/Outline/Activity": 1,
+        "Iconly/Regular/Outline/Heart": 1,
+        "Iconly/Regular/Bold/Heart": 8,
+        "Iconly/Regular/Light/Chat": 4,
+        "Iconly/Regular/Light/Download": 4,
+        "Iconly/Regular/Light/Send": 4,
+        "Iconly/Regular/Light/Image": 1
+      },
+      "reactions": [
+        {
+          "id": "386:7649",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7652",
+          "name": "Frame 36721",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7656",
+          "name": "Frame 36784",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8003",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7667",
+          "name": "Hôm nay bạn nghĩ gì ?",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15047",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7688",
+          "name": "Frame 36775",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7813",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7696",
+          "name": "Frame 36777",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17262",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7718",
+          "name": "Frame 36775",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7813",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7755",
+          "name": "Frame 36775",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7813",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7794",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7800",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7805",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7809",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4774",
+          "name": "Prototype / Nav / Trang chủ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4776",
+          "name": "Prototype / Nav / Thu gom",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4778",
+          "name": "Prototype / Nav / Quét rác",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4780",
+          "name": "Prototype / Nav / Đổi quà",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4782",
+          "name": "Prototype / Nav / Cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7813",
+      "name": "Cộng đồng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 20,
+        "RECTANGLE": 11,
+        "INSTANCE": 15,
+        "VECTOR": 54,
+        "GROUP": 31,
+        "BOOLEAN_OPERATION": 6,
+        "ELLIPSE": 16,
+        "TEXT": 15,
+        "LINE": 1
+      },
+      "texts": [
+        "Cộng đồng",
+        "Tìm kiếm ....",
+        "Hôm nay bạn nghĩ gì ?",
+        "Healing",
+        "Just now",
+        "Tôi vừa phân loại xong rác hôm nay!  Cảm giác thật nhẹ lòng 💚",
+        "100",
+        "5 Bình luận",
+        "50",
+        "Save",
+        "10 mins ago",
+        "Tôi vừa phân loại xong rác hôm nay!  Cảm giác thật nhẹ lòng 💚",
+        "100",
+        "5 Bình luận",
+        "50"
+      ],
+      "parts": [
+        [
+          "386:7813",
+          "Cộng đồng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:7815",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7816",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:7817",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:7818",
+          "Frame 36721",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7819",
+          "Frame 36714",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7822",
+          "Frame 36784",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7823",
+          "Frame 36714",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:7834",
+          "Group 37189",
+          428,
+          356,
+          null
+        ],
+        [
+          "386:7836",
+          "Frame 36774",
+          132,
+          60,
+          "NONE"
+        ],
+        [
+          "386:7847",
+          "Frame 36775",
+          55,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7850",
+          "Frame 36776",
+          103,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7854",
+          "Iconly/Regular/Light/Download",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:7855",
+          "Frame 36777",
+          50,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7858",
+          "Frame 36778",
+          28,
+          6,
+          "NONE"
+        ],
+        [
+          "386:7862",
+          "Group 37190",
+          444,
+          356,
+          null
+        ],
+        [
+          "386:7864",
+          "Group 36739",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:7889",
+          "Frame 36779",
+          132,
+          60,
+          "NONE"
+        ],
+        [
+          "386:7897",
+          "Frame 36780",
+          55,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7900",
+          "Frame 36781",
+          103,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7904",
+          "Iconly/Regular/Light/Download",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:7905",
+          "Frame 36782",
+          50,
+          28,
+          "NONE"
+        ],
+        [
+          "386:7908",
+          "Frame 36783",
+          28,
+          6,
+          "NONE"
+        ],
+        [
+          "386:7912",
+          "Iconly/Regular/Light/Image",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:7912;29221:1572",
+          "Image",
+          18.459999084472656,
+          18.450000762939453,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1,
+        "Iconly/Regular/Outline/Activity": 1,
+        "Iconly/Regular/Outline/Heart": 1,
+        "Iconly/Regular/Bold/Heart": 4,
+        "Iconly/Regular/Light/Chat": 2,
+        "Iconly/Regular/Light/Download": 2,
+        "Iconly/Regular/Light/Send": 2,
+        "Iconly/Regular/Light/Image": 1
+      },
+      "reactions": [
+        {
+          "id": "386:7815",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:7818",
+          "name": "Frame 36721",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7822",
+          "name": "Frame 36784",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8003",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7855",
+          "name": "Frame 36777",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17262",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7870",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7876",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7881",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7885",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

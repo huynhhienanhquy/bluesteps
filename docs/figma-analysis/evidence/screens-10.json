@@ -1,0 +1,2911 @@
+{
+  "bytes": 32601,
+  "screens": [
+    {
+      "id": "386:14037",
+      "name": "RacTaiChe1",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "GROUP": 52,
+        "RECTANGLE": 35,
+        "INSTANCE": 4,
+        "VECTOR": 52,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 2,
+        "TEXT": 16,
+        "ELLIPSE": 10
+      },
+      "texts": [
+        "Sổ tay rác",
+        "Tìm kiếm.....",
+        "Chai nhựa",
+        "Giấy - Báo - Tạp chí",
+        "Ni lông",
+        "Hộp carton",
+        "Thủy tinh(chai lọ)",
+        "Áo quần-giày dép",
+        "Đồ nhựa",
+        "Lon bia-nước ngọt",
+        "Chai nhựa",
+        "Vui lòng tách rác tái chế khỏi rác hữu cơ và nguy hại. Đảm bảo không lẫn pin, kim tiêm hoặc chất độc hại.",
+        "Rác tái chế",
+        "Rác tái chế",
+        "Rửa sạch rác trước khi bỏ đi để tránh mùi và nấm mốc.\nPhân loại riêng theo chất liệu (nhựa, giấy, kim loại, thủy tinh).\nLàm khô, bó gọn hoặc nén lại để tiết kiệm diện tích.\nGửi đến các điểm thu gom, đổi rác lấy quà hoặc cửa hàng thu hồi tái chế.\nKhông vứt lẫn với rác ướt (rác thực phẩm) vì sẽ làm hỏng khả năng tái chế.\n\n     Ví dụ: Rửa chai nước suối, phơi khô rồi bỏ vào thùng rác tái chế.",
+        "Cách xử lý:"
+      ],
+      "parts": [
+        [
+          "386:14037",
+          "RacTaiChe1",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14038",
+          "Group 36930",
+          444,
+          926,
+          null
+        ],
+        [
+          "386:14040",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14042",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:14044",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "386:14045",
+          "Group 36734",
+          88.61671447753906,
+          81.1417236328125,
+          null
+        ],
+        [
+          "386:14048",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:14075",
+          "fi-rr-zoom-in",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:14076",
+          "Frame 36799",
+          361,
+          426,
+          "VERTICAL"
+        ],
+        [
+          "386:14148",
+          "Group 36910",
+          302.999267578125,
+          75,
+          null
+        ],
+        [
+          "386:14151",
+          "Group 36882",
+          167,
+          38.999488830566406,
+          null
+        ],
+        [
+          "386:14167",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:14169",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:14173",
+          "Group 36911",
+          167,
+          38.999488830566406,
+          null
+        ],
+        [
+          "386:14174",
+          "Group",
+          41.9996223449707,
+          38.999488830566406,
+          null
+        ],
+        [
+          "386:14189",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "fi-rr-zoom-in": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14189",
+          "name": "time",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:13929",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13929",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14194",
+      "name": "Scan",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 6,
+        "RECTANGLE": 8,
+        "GROUP": 19,
+        "VECTOR": 23,
+        "TEXT": 4,
+        "INSTANCE": 5,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 2,
+        "ELLIPSE": 4
+      },
+      "texts": [
+        "Scan your waste",
+        "Scan your item",
+        "Sẵn sàng quét rác chưa?",
+        "nhấn “Scan your waste” để bắt đầu nhé!"
+      ],
+      "parts": [
+        [
+          "386:14194",
+          "Scan",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14196",
+          "Group 36731",
+          362,
+          420,
+          null
+        ],
+        [
+          "386:14198",
+          "Group 36700",
+          253.6305694580078,
+          268.0323486328125,
+          null
+        ],
+        [
+          "386:14201",
+          "Group 36728",
+          284.7579650878906,
+          68.2264175415039,
+          null
+        ],
+        [
+          "386:14204",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14205",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14206",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:14209",
+          "Group 36733",
+          6,
+          19.99997329711914,
+          null
+        ],
+        [
+          "386:14213",
+          "Group 36933",
+          279.61669921875,
+          201.1417236328125,
+          null
+        ],
+        [
+          "386:14214",
+          "message-square",
+          274,
+          160,
+          "NONE"
+        ],
+        [
+          "386:14218",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14218;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14219",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "478:4740",
+          "Prototype / Nav / Trang chủ",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4742",
+          "Prototype / Nav / Thu gom",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4744",
+          "Prototype / Nav / Đổi quà",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4746",
+          "Prototype / Nav / Cá nhân",
+          66,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "message-square": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14201",
+          "name": "Group 36728",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14221",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14221",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14219",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "BACK"
+              },
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4740",
+          "name": "Prototype / Nav / Trang chủ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:25197",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4742",
+          "name": "Prototype / Nav / Thu gom",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4744",
+          "name": "Prototype / Nav / Đổi quà",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4746",
+          "name": "Prototype / Nav / Cá nhân",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14220",
+      "name": "Group 36934",
+      "type": "INSTANCE",
+      "w": 444,
+      "h": 116,
+      "types": {
+        "INSTANCE": 2,
+        "GROUP": 9,
+        "RECTANGLE": 3,
+        "VECTOR": 9,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [],
+      "parts": [
+        [
+          "386:14220",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14220;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14220;306:9830;2560:21249",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "I386:14220;306:9830;2560:21253",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "I386:14220;306:9830;2560:21262",
+          "Group 36732",
+          138,
+          47,
+          null
+        ],
+        [
+          "I386:14220;306:9830;2560:21268",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Group 36934": 2
+      },
+      "reactions": [
+        {
+          "id": "I386:14220;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14220;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14220;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14220;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14220;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14221",
+      "name": "Scan1",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 3,
+        "GROUP": 9,
+        "INSTANCE": 2,
+        "VECTOR": 17,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1,
+        "ELLIPSE": 6
+      },
+      "texts": [],
+      "parts": [
+        [
+          "386:14221",
+          "Scan1",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14224",
+          "Group 1",
+          428,
+          53,
+          null
+        ],
+        [
+          "386:14225",
+          "iPhone/Status Bar",
+          428,
+          53,
+          "NONE"
+        ],
+        [
+          "386:14226",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:14228",
+          "Line arrow-left",
+          26,
+          26,
+          "NONE"
+        ],
+        [
+          "I386:14228;8011:21790",
+          "vuesax/linear/arrow-left",
+          26,
+          26,
+          null
+        ],
+        [
+          "386:14229",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:14238",
+          "Group 36700",
+          428,
+          552,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Line arrow-left": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14228",
+          "name": "Line arrow-left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14237",
+          "name": "Ellipse 6",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14241",
+      "name": "Loading",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 4,
+        "GROUP": 9,
+        "INSTANCE": 3,
+        "VECTOR": 17,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1,
+        "ELLIPSE": 10,
+        "TEXT": 1
+      },
+      "texts": [
+        "Loading..."
+      ],
+      "parts": [
+        [
+          "386:14241",
+          "Loading",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14244",
+          "Group 1",
+          428,
+          53,
+          null
+        ],
+        [
+          "386:14245",
+          "iPhone/Status Bar",
+          428,
+          53,
+          "NONE"
+        ],
+        [
+          "386:14246",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:14252",
+          "Group 36700",
+          428,
+          552,
+          null
+        ],
+        [
+          "386:14256",
+          "loading 2",
+          160,
+          160,
+          "NONE"
+        ],
+        [
+          "386:14258",
+          "Line arrow-left",
+          26,
+          26,
+          "NONE"
+        ],
+        [
+          "I386:14258;8011:21790",
+          "vuesax/linear/arrow-left",
+          26,
+          26,
+          null
+        ],
+        [
+          "386:14259",
+          "Group 36732",
+          5,
+          19,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "loading 2": 1,
+        "Line arrow-left": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14256",
+          "name": "loading 2",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1102",
+                "navigation": "CHANGE_TO",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false,
+                "preserveScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1102",
+                  "navigation": "CHANGE_TO",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "LINEAR"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false,
+                  "preserveScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.0010000000474974513
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14264",
+      "name": "Kqua_Scan2",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 8,
+        "GROUP": 18,
+        "INSTANCE": 5,
+        "VECTOR": 29,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1,
+        "ELLIPSE": 6,
+        "TEXT": 3
+      },
+      "texts": [
+        "Quét lại",
+        "Sổ tay rác",
+        "Không nhận diện được rác"
+      ],
+      "parts": [
+        [
+          "386:14264",
+          "Kqua_Scan2",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14267",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14268",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14269",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:14271",
+          "Line arrow-left",
+          26,
+          26,
+          "NONE"
+        ],
+        [
+          "I386:14271;8011:21790",
+          "vuesax/linear/arrow-left",
+          26,
+          26,
+          null
+        ],
+        [
+          "386:14272",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:14281",
+          "Group 36700",
+          428,
+          552,
+          null
+        ],
+        [
+          "386:14285",
+          "Group 36733",
+          320,
+          220.29165649414062,
+          null
+        ],
+        [
+          "386:14287",
+          "Group 36734",
+          149,
+          47,
+          null
+        ],
+        [
+          "386:14291",
+          "Group 36728",
+          145,
+          47,
+          null
+        ],
+        [
+          "386:14296",
+          "Group 36760",
+          20,
+          20,
+          null
+        ],
+        [
+          "386:14299",
+          "Group 36847",
+          230,
+          42,
+          null
+        ],
+        [
+          "386:14301",
+          "Group",
+          17,
+          38,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Line arrow-left": 2,
+        "arrow-refresh-01": 1,
+        "close": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14264",
+          "name": "Kqua_Scan2",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14285",
+          "name": "Group 36733",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14287",
+          "name": "Group 36734",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14291",
+          "name": "Group 36728",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14454",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14454",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14309",
+      "name": "Kqu_Scan2",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 9,
+        "GROUP": 14,
+        "INSTANCE": 2,
+        "VECTOR": 16,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 5,
+        "ELLIPSE": 6,
+        "TEXT": 3
+      },
+      "texts": [
+        "Kết quả",
+        "Chai nhựa",
+        "Chi tiết ....."
+      ],
+      "parts": [
+        [
+          "386:14309",
+          "Kqu_Scan2",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14311",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14312",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14313",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:14315",
+          "Line arrow-left",
+          26,
+          26,
+          "NONE"
+        ],
+        [
+          "I386:14315;8011:21790",
+          "vuesax/linear/arrow-left",
+          26,
+          26,
+          null
+        ],
+        [
+          "386:14316",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:14325",
+          "Group 36700",
+          428,
+          477,
+          null
+        ],
+        [
+          "386:14327",
+          "Group 36932",
+          429,
+          827,
+          null
+        ],
+        [
+          "386:14328",
+          "Group 36920",
+          429,
+          827,
+          null
+        ],
+        [
+          "386:14333",
+          "Group 36931",
+          216,
+          573,
+          null
+        ],
+        [
+          "386:14338",
+          "Group 182",
+          310.84967041015625,
+          103,
+          null
+        ],
+        [
+          "386:14343",
+          "Group 36728",
+          247,
+          56,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Line arrow-left": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14338",
+          "name": "Group 182",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14343",
+          "name": "Group 36728",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14346",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14346",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14346",
+      "name": "Ttin rác",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 4,
+        "RECTANGLE": 18,
+        "TEXT": 8,
+        "GROUP": 22,
+        "INSTANCE": 4,
+        "VECTOR": 23,
+        "BOOLEAN_OPERATION": 2,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Kết quả quét rác",
+        " 🏷️ Dấu hiệu: Trong suốt, nhẹ, có ký hiệu PET hoặc HDPE.\n",
+        "🗑️ Phân loại: Bỏ vào thùng tái chế màu xanh lá.",
+        "💧 Xử lý: Rửa sạch, làm khô trước khi bỏ.\n💡 Mẹo: Có thể tận dụng làm chậu cây nhỏ hoặc đồ ",
+        "♻️ Rác tái chế",
+        "Plastic Bottle",
+        "🔍 Xem thùng rác gần đây",
+        "⭐ Tích điểm xanh"
+      ],
+      "parts": [
+        [
+          "386:14346",
+          "Ttin rác",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14349",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14350",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14351",
+          "Group 182",
+          35,
+          35,
+          null
+        ],
+        [
+          "386:14354",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "I386:14354;804:8042",
+          "Spinner",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:14355",
+          "Frame 36771",
+          400,
+          248,
+          "VERTICAL"
+        ],
+        [
+          "386:14356",
+          "Group 36740",
+          400,
+          60,
+          null
+        ],
+        [
+          "386:14359",
+          "Group 36738",
+          400,
+          60,
+          null
+        ],
+        [
+          "386:14362",
+          "Group 36739",
+          400,
+          60,
+          null
+        ],
+        [
+          "386:14365",
+          "Group 36734",
+          358,
+          110,
+          null
+        ],
+        [
+          "386:14370",
+          "Group 7266",
+          242,
+          50.000003814697266,
+          null
+        ],
+        [
+          "386:14371",
+          "Group 36748",
+          242,
+          50.000003814697266,
+          null
+        ],
+        [
+          "386:14374",
+          "Group 7266",
+          242,
+          50.000003814697266,
+          null
+        ],
+        [
+          "386:14375",
+          "Group 36749",
+          242,
+          50.000003814697266,
+          null
+        ],
+        [
+          "386:14378",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14378;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "Group 36934": 2
+      },
+      "reactions": [
+        {
+          "id": "386:14351",
+          "name": "Group 182",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14309",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SLIDE_IN",
+                  "direction": "RIGHT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 1
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14309",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SLIDE_IN",
+                    "direction": "RIGHT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 1
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14370",
+          "name": "Group 7266",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18479",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18479",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14374",
+          "name": "Group 7266",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14379",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14379",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14378;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14378;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14378;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14378;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14378;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14379",
+      "name": "TBáo_tích điểm",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 24,
+        "GROUP": 29,
+        "INSTANCE": 3,
+        "VECTOR": 24,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 14,
+        "ELLIPSE": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Unfortunately, we couldn’t identify this product :(",
+        "Unfortunately, we couldn’t identify this product :(",
+        "Unfortunately, we couldn’t identify this product :(",
+        "PRODUCT",
+        "Plastic Bottle",
+        "Map",
+        "Tích điểm",
+        "CHÚC MỪNG",
+        "5",
+        "Bạn nhận được",
+        "điểm",
+        "Đi đến trang tích điểm để đổi quà",
+        "Trở về trang chủ",
+        "Bạn vừa phân loại rác nhựa tái chế thành công 👏"
+      ],
+      "parts": [
+        [
+          "386:14379",
+          "TBáo_tích điểm",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14381",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14382",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14383",
+          "Group 182",
+          45,
+          52.242252349853516,
+          null
+        ],
+        [
+          "386:14387",
+          "Group 36739",
+          351.8538818359375,
+          68.06723022460938,
+          null
+        ],
+        [
+          "386:14390",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "I386:14390;804:8042",
+          "Spinner",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:14391",
+          "Group 36738",
+          351.8538818359375,
+          68.06723022460938,
+          null
+        ],
+        [
+          "386:14394",
+          "Group 36740",
+          351.8538818359375,
+          68.06723022460938,
+          null
+        ],
+        [
+          "386:14397",
+          "Group 36734",
+          358,
+          110,
+          null
+        ],
+        [
+          "386:14402",
+          "Group 7266",
+          242,
+          50,
+          null
+        ],
+        [
+          "386:14403",
+          "Group 36748",
+          242,
+          50.000003814697266,
+          null
+        ],
+        [
+          "386:14406",
+          "Group 7266",
+          242,
+          50.000003814697266,
+          null
+        ],
+        [
+          "386:14407",
+          "Group 36749",
+          242,
+          50.000003814697266,
+          null
+        ],
+        [
+          "386:14410",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:14412",
+          "Group 36735",
+          401,
+          116,
+          null
+        ],
+        [
+          "386:14433",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:14437",
+          "Group 36761",
+          343,
+          419,
+          null
+        ],
+        [
+          "386:14443",
+          "Group 36881",
+          249,
+          36,
+          null
+        ],
+        [
+          "386:14446",
+          "Group 36993",
+          184,
+          36,
+          null
+        ],
+        [
+          "386:14450",
+          "Group 36760",
+          20,
+          20,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "close": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14383",
+          "name": "Group 182",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SLIDE_IN",
+                  "direction": "RIGHT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 1
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SLIDE_IN",
+                    "direction": "RIGHT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 1
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14402",
+          "name": "Group 7266",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14406",
+          "name": "Group 7266",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14443",
+          "name": "Group 36881",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16592",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 1.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "LINEAR"
+                    },
+                    "duration": 1.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14450",
+          "name": "Group 36760",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14346",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14346",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14454",
+      "name": "Sổ tay rác_Scan",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 21,
+        "INSTANCE": 12,
+        "GROUP": 29,
+        "VECTOR": 28,
+        "TEXT": 16,
+        "ELLIPSE": 4,
+        "LINE": 1,
+        "BOOLEAN_OPERATION": 2
+      },
+      "texts": [
+        "Nhựa",
+        "Gồm chai nước, hộp nhựa, túi nilon, ống hút. Bỏ vào thùng rác nhựa hoặc rác tái sử dụng.",
+        "Giấy",
+        "Giấy in, sổ vở cũ, tờ rơi. Bỏ vào thùng rác giấy hoặc khu vực thu gom giấy riêng.",
+        "Thủy tinh",
+        "Bao gồm chai lọ, ly, hũ thủy tinh. Tách riêng và bỏ vào thùng dành cho rác thủy tinh, tránh vỡ gây nguy hiểm.",
+        "Rác hữu cơ",
+        "Thức ăn thừa, vỏ rau củ, lá cây khô. Bỏ vào thùng rác hữu cơ để dễ phân hủy.",
+        "Pin",
+        "Pin tiểu, pin sạc, pin điện thoại. Đây là rác nguy hại – cần bỏ vào thùng chuyên dụng hoặc điểm thu gom pin.",
+        "Áo quần",
+        "Áo quần, vải vụn, giày dép không còn dùng. Gom riêng để tái sử dụng hoặc bỏ vào khu rác vải.",
+        "Carton",
+        "Thùng, hộp, bìa giấy cứng. Gấp gọn và bỏ vào thùng rác giấy hoặc rác khô.",
+        "Phân loại rác không chỉ giúp giảm ô nhiễm mà còn giúp tái chế tài nguyên hiệu quả. Hãy chọn loại rác để xem hướng dẫn chi tiết.",
+        "Sổ tay rác"
+      ],
+      "parts": [
+        [
+          "386:14454",
+          "Sổ tay rác_Scan",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14456",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "386:14457",
+          "Frame 36713",
+          352,
+          585,
+          "VERTICAL"
+        ],
+        [
+          "386:14458",
+          "Group 36740",
+          352,
+          99,
+          null
+        ],
+        [
+          "386:14465",
+          "Group 36741",
+          352,
+          99,
+          null
+        ],
+        [
+          "386:14472",
+          "Group 36742",
+          352,
+          99,
+          null
+        ],
+        [
+          "386:14479",
+          "Group 36743",
+          352,
+          99,
+          null
+        ],
+        [
+          "386:14486",
+          "Group 36744",
+          352,
+          99,
+          null
+        ],
+        [
+          "386:14493",
+          "Group 36745",
+          352,
+          99,
+          null
+        ],
+        [
+          "386:14500",
+          "Group 36746",
+          352,
+          99,
+          null
+        ],
+        [
+          "386:14507",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14507;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14509",
+          "Group 36734",
+          372,
+          101,
+          null
+        ],
+        [
+          "386:14513",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14514",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14516",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:14517",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "Chevron left": 7,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14454",
+          "name": "Sổ tay rác_Scan",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14460",
+          "name": "Chevron left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14521",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14521",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14467",
+          "name": "Chevron left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14970",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14970",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14474",
+          "name": "Chevron left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14895",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14895",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14481",
+          "name": "Chevron left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14820",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14820",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14488",
+          "name": "Chevron left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14745",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14745",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14495",
+          "name": "Chevron left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14670",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14670",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14502",
+          "name": "Chevron left",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14595",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14595",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14507;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14507;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14507;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14507;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14507;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14516",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

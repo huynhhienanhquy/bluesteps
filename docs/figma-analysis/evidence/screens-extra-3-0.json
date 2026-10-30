@@ -1,0 +1,1499 @@
+{
+  "bytes": 14468,
+  "screens": [
+    {
+      "id": "386:8228",
+      "name": "Thông báo",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 6,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "GROUP": 20,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 27,
+        "ELLIPSE": 5,
+        "RECTANGLE": 17,
+        "LINE": 1
+      },
+      "texts": [
+        "Thông báo",
+        "Hôm nay, 30 tháng 10",
+        "Hôm trước, 28 tháng 10",
+        "Hôm qua, 29 tháng 10",
+        "8:00",
+        "Nhấn để đổi thưởng",
+        "Lấy mã giảm giá ngay",
+        "8:00",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "12:00",
+        "9:00",
+        "Nhấn để đổi thưởng",
+        "12:00",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "22:00",
+        "Nhấn để đổi thưởng",
+        "Lỗi  trong quá trình xử lí dữ liệu bạn ơi.",
+        "16:00",
+        "Tới thùng rác",
+        "Hãy chụp ảnh rác để hệ thống nhận diện.",
+        "Voucher tặng 10% cho ngày hôm nay.",
+        "10:00",
+        "Lấy mã giảm giá ngay",
+        "Voucher tặng 10% cho ngày hôm nay."
+      ],
+      "parts": [
+        [
+          "386:8228",
+          "Thông báo",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8229",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:8230",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:8231",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:8233",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:8246",
+          "Group 37144",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:8257",
+          "Group 37146",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:8264",
+          "Group 37147",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:8270",
+          "Group 37145",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:8277",
+          "Frame 36733",
+          470,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8278",
+          "Frame 36732",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8284",
+          "Frame 36732",
+          60,
+          58,
+          "NONE"
+        ],
+        [
+          "386:8286",
+          "Group 37148",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:8287",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:8291",
+          "Group 36734",
+          144,
+          47,
+          null
+        ],
+        [
+          "386:8302",
+          "Group 36732",
+          110,
+          30.5457763671875,
+          null
+        ],
+        [
+          "386:8307",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8277",
+          "name": "Frame 36733",
+          "links": [
+            {
+              "trigger": "MOUSE_UP",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8311",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8292",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8298",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8303",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8307",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8311",
+      "name": "Thông báo",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "GROUP": 16,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 22,
+        "ELLIPSE": 5,
+        "RECTANGLE": 16,
+        "LINE": 1
+      },
+      "texts": [
+        "Thông báo",
+        "Hôm nay, 30 tháng 10",
+        "Hôm trước, 28 tháng 10",
+        "Hôm qua, 29 tháng 10",
+        "8:00",
+        "16:00",
+        "Nhấn để đổi thưởng",
+        "Tới thùng rác",
+        "Lấy mã giảm giá ngay",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "12:00",
+        "12:00",
+        "22:00",
+        "9:00",
+        "Nhấn để đổi thưởng",
+        "Nhấn để đổi thưởng",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "Lỗi  trong quá trình xử lí dữ liệu bạn ơi.",
+        "Hãy chụp ảnh rác để hệ thống nhận diện.",
+        "Voucher tặng 10% cho ngày hôm nay."
+      ],
+      "parts": [
+        [
+          "386:8311",
+          "Thông báo",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8312",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:8313",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:8314",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:8316",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:8355",
+          "Group 36739",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:8356",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:8360",
+          "Group 36734",
+          144,
+          47,
+          null
+        ],
+        [
+          "386:8371",
+          "Group 36732",
+          110,
+          30.5457763671875,
+          null
+        ],
+        [
+          "386:8376",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8311",
+          "name": "Thông báo",
+          "links": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8380",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8312",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8361",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8367",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8372",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8376",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8380",
+      "name": "Thông báo",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "GROUP": 16,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 23,
+        "ELLIPSE": 5,
+        "RECTANGLE": 17,
+        "LINE": 1
+      },
+      "texts": [
+        "Thông báo",
+        "Hôm nay, 30 tháng 10",
+        "Hôm trước, 28 tháng 10",
+        "8:00",
+        "16:00",
+        "Nhấn để đổi thưởng",
+        "Tới thùng rác",
+        "Lấy mã giảm giá ngay",
+        "8:00",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "12:00",
+        "12:00",
+        "22:00",
+        "9:00",
+        "Nhấn để đổi thưởng",
+        "Nhấn để đổi thưởng",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "Lỗi  trong quá trình xử lí dữ liệu bạn ơi.",
+        "Hãy chụp ảnh rác để hệ thống nhận diện.",
+        "Voucher tặng 10% cho ngày hôm nay."
+      ],
+      "parts": [
+        [
+          "386:8380",
+          "Thông báo",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8381",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:8382",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:8383",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:8385",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:8426",
+          "Group 36739",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:8427",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:8431",
+          "Group 36734",
+          144,
+          47,
+          null
+        ],
+        [
+          "386:8442",
+          "Group 36732",
+          110,
+          30.5457763671875,
+          null
+        ],
+        [
+          "386:8447",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8381",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8432",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8438",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8443",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8447",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8451",
+      "name": "Cài đặt",
+      "type": "FRAME",
+      "w": 428,
+      "h": 931,
+      "types": {
+        "FRAME": 21,
+        "INSTANCE": 13,
+        "VECTOR": 26,
+        "GROUP": 4,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 20,
+        "RECTANGLE": 14,
+        "ELLIPSE": 6,
+        "LINE": 5
+      },
+      "texts": [
+        "Cài đặt",
+        "Đăng xuất",
+        "Healing",
+        "linhchi@gmail.com",
+        "Giao diện tối",
+        "Âm thanh và rung",
+        "Thay đổi mật khẩu",
+        "Giao diện sáng",
+        "Thông báo",
+        "Sửa thông tin cá nhân",
+        "Lịch sử đăng nhập",
+        "Thiết lập mật mã",
+        "Chế độ ban đêm",
+        "Đỡ mỏi mắt",
+        "Chế độ âm thanh",
+        "Nhạc chuông",
+        "Chế độ ban ngày",
+        "Rõ ràng, sáng sủa",
+        "Thanh tâm trạng",
+        "Không làm phiền"
+      ],
+      "parts": [
+        [
+          "386:8451",
+          "Cài đặt",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "386:8452",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:8453",
+          "Group 1",
+          428,
+          49.26457977294922,
+          null
+        ],
+        [
+          "386:8454",
+          "iPhone/Status Bar",
+          428,
+          49.26457977294922,
+          "NONE"
+        ],
+        [
+          "386:8457",
+          "Iconly/Sharp/Two-tone/Logout",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:8464",
+          "Iconly/Sharp/Bold/Search",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:8475",
+          "Frame 36712",
+          38,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8476",
+          "Frame 36711",
+          37,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8479",
+          "Frame 36713",
+          38,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8480",
+          "Frame 36711",
+          37,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8488",
+          "Frame 36801",
+          184,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8492",
+          "Frame 36805",
+          184,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8496",
+          "Frame 36802",
+          184,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8500",
+          "Frame 36806",
+          184,
+          15,
+          "NONE"
+        ],
+        [
+          "386:8504",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:8505",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:8506",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:8507",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:8512",
+          "Iconly/Sharp/Bold/Star",
+          24,
+          24.129589080810547,
+          "NONE"
+        ],
+        [
+          "386:8513",
+          "Iconly/Sharp/Bold/Star 2",
+          24,
+          24.129589080810547,
+          "NONE"
+        ],
+        [
+          "386:8514",
+          "Iconly/Sharp/Bold/Volume Up",
+          24,
+          24.129589080810547,
+          "NONE"
+        ],
+        [
+          "386:8515",
+          "Iconly/Sharp/Bold/Paper",
+          24,
+          24.129589080810547,
+          "NONE"
+        ],
+        [
+          "508:4796",
+          "Prototype / Settings / Hồ sơ cá nhân",
+          381,
+          85,
+          "NONE"
+        ],
+        [
+          "508:4798",
+          "Prototype / Settings / Sửa thông tin cá nhân",
+          372,
+          54,
+          "NONE"
+        ],
+        [
+          "508:4800",
+          "Prototype / Settings / Thay đổi mật khẩu",
+          372,
+          54,
+          "NONE"
+        ],
+        [
+          "508:4802",
+          "Prototype / Settings / Thông báo",
+          372,
+          62,
+          "NONE"
+        ],
+        [
+          "508:4804",
+          "Prototype / Settings / Đăng xuất",
+          350,
+          68,
+          "NONE"
+        ],
+        [
+          "508:4808",
+          "Prototype / Settings / Chọn giao diện tối",
+          372,
+          61,
+          "NONE"
+        ],
+        [
+          "508:4810",
+          "Prototype / Settings / Chọn giao diện sáng",
+          372,
+          59,
+          "NONE"
+        ],
+        [
+          "514:5471",
+          "Prototype / Settings / Tìm kiếm cài đặt",
+          52,
+          54,
+          "NONE"
+        ],
+        [
+          "514:5473",
+          "Prototype / Settings / Âm thanh và rung",
+          372,
+          61,
+          "NONE"
+        ],
+        [
+          "503:4797",
+          "Iconly/Sharp/Bold/Volume Up",
+          24,
+          24.129589080810547,
+          "NONE"
+        ],
+        [
+          "514:5475",
+          "Prototype / Settings / Lịch sử đăng nhập",
+          372,
+          49,
+          "NONE"
+        ],
+        [
+          "514:5477",
+          "Prototype / Settings / Thiết lập mật mã",
+          372,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 5,
+        "iPhone/Status Bar": 1,
+        "Iconly/Sharp/Two-tone/Logout": 1,
+        "Iconly/Sharp/Bold/Search": 1,
+        "Iconly/Sharp/Bold/Star": 1,
+        "Iconly/Sharp/Bold/Star 2": 1,
+        "Iconly/Sharp/Bold/Volume Up": 2,
+        "Iconly/Sharp/Bold/Paper": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8452",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4796",
+          "name": "Prototype / Settings / Hồ sơ cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4798",
+          "name": "Prototype / Settings / Sửa thông tin cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8516",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4800",
+          "name": "Prototype / Settings / Thay đổi mật khẩu",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "521:4735",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4802",
+          "name": "Prototype / Settings / Thông báo",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7913",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4804",
+          "name": "Prototype / Settings / Đăng xuất",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4808",
+          "name": "Prototype / Settings / Chọn giao diện tối",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4810",
+          "name": "Prototype / Settings / Chọn giao diện sáng",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5471",
+          "name": "Prototype / Settings / Tìm kiếm cài đặt",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5093",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5473",
+          "name": "Prototype / Settings / Âm thanh và rung",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5096",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5475",
+          "name": "Prototype / Settings / Lịch sử đăng nhập",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5099",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5477",
+          "name": "Prototype / Settings / Thiết lập mật mã",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5102",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8516",
+      "name": "Chỉnh sửa",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 13,
+        "INSTANCE": 6,
+        "VECTOR": 18,
+        "GROUP": 4,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 12,
+        "ELLIPSE": 3,
+        "RECTANGLE": 6
+      },
+      "texts": [
+        "Chỉnh sửa",
+        "Tên",
+        "Linh Chi",
+        "Email",
+        "linhchi@gmail.com",
+        "Mật khẩu",
+        "*******",
+        "Ngày sinh",
+        "30/10/2005",
+        "Quốc gia",
+        "VietNam",
+        "Lưu thay đổi"
+      ],
+      "parts": [
+        [
+          "386:8516",
+          "Chỉnh sửa",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8517",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:8518",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:8519",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:8524",
+          "Iconly/Sharp/Light/Camera",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:8525",
+          "Frame 36709",
+          317,
+          65,
+          "NONE"
+        ],
+        [
+          "386:8527",
+          "Frame 36708",
+          317,
+          42,
+          "NONE"
+        ],
+        [
+          "386:8530",
+          "Frame 36710",
+          317,
+          65,
+          "NONE"
+        ],
+        [
+          "386:8532",
+          "Frame 36708",
+          317,
+          42,
+          "NONE"
+        ],
+        [
+          "386:8535",
+          "Frame 36711",
+          317,
+          65,
+          "NONE"
+        ],
+        [
+          "386:8537",
+          "Frame 36708",
+          317,
+          42,
+          "NONE"
+        ],
+        [
+          "386:8540",
+          "Frame 36712",
+          317,
+          65,
+          "NONE"
+        ],
+        [
+          "386:8542",
+          "Frame 36708",
+          317,
+          42,
+          "NONE"
+        ],
+        [
+          "386:8546",
+          "Frame 36713",
+          317,
+          65,
+          "NONE"
+        ],
+        [
+          "386:8548",
+          "Frame 36708",
+          317,
+          42,
+          "NONE"
+        ],
+        [
+          "386:8552",
+          "Frame 36837",
+          271,
+          44,
+          "NONE"
+        ],
+        [
+          "386:8555",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 4,
+        "iPhone/Status Bar": 1,
+        "Iconly/Sharp/Light/Camera": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8517",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8552",
+          "name": "Frame 36837",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8555",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

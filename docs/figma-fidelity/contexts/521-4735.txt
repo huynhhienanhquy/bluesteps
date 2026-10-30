@@ -1,0 +1,156 @@
+const imgSongWiFiPin = "https://www.figma.com/api/mcp/asset/05151fad-c378-4d9d-bc06-3ec6ede6c8b9.svg";
+const imgFrame = "https://www.figma.com/api/mcp/asset/be15e95f-45a7-42b0-b0e7-899cf3284b9f.svg";
+const imgFrame1 = "https://www.figma.com/api/mcp/asset/bf308fe8-d948-40e0-951d-f048a4470068.svg";
+const imgFrame2 = "https://www.figma.com/api/mcp/asset/47341b09-e298-4d8e-a80d-12ecf7079ac3.svg";
+
+type GreenStepsButtonProps = {
+  className?: string;
+  label?: string;
+  style?: "Primary";
+};
+
+function GreenStepsButton({ className, label = "Tiếp tục", style = "Primary" }: GreenStepsButtonProps) {
+  return (
+    <div className={className || "bg-[var(--gs-primary,#147cc1)] content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] w-[380px]"} data-node-id="439:4835">
+      <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-white,white)] whitespace-nowrap" data-node-id="439:4836">
+        {label}
+      </p>
+    </div>
+  );
+}
+
+export default function Component21ThayDiMtKhu() {
+  return (
+    <div className="bg-[var(--gs-cream,#f4fbff)] overflow-clip relative rounded-[32px] size-full" data-node-id="521:4735" data-name="21 · Thay đổi mật khẩu">
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[17px] w-[380px]" data-node-id="521:4737" data-name="Thanh trạng thái">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[70px]" data-node-id="521:4738">
+          9:41
+        </p>
+        <div className="h-[20px] relative shrink-0 w-[78px]" data-node-id="522:4745" data-name="Sóng, Wi-Fi, pin">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSongWiFiPin} />
+        </div>
+      </div>
+      <a className="absolute bg-[var(--gs-white,white)] block cursor-pointer left-[24px] overflow-clip rounded-[16px] size-[48px] top-[66px]" data-node-id="521:4741" data-name="Quay về Cài đặt">
+        <div className="absolute left-[12px] size-[24px] top-[12px]" data-node-id="521:4742" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+        </div>
+      </a>
+      <p className="-translate-x-full [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[17px] left-[404px] text-[12px] text-[color:var(--gs-muted,#456476)] text-right top-[81px] w-[300px]" data-node-id="521:4745">
+        BẢO MẬT TÀI KHOẢN
+      </p>
+      <p className="[word-break:break-word] absolute font-['Montserrat:Bold'] font-bold leading-[39px] left-[24px] text-[28px] text-[color:var(--gs-forest,#164561)] top-[149px] w-[380px]" data-node-id="521:4746">
+        Thay đổi mật khẩu
+      </p>
+      <div className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[0] left-[24px] text-[14px] text-[color:var(--gs-muted,#456476)] top-[201px] w-[380px]" data-node-id="521:4747">
+        <p className="leading-[20px] mb-0">Xác nhận bằng mật khẩu hiện tại, sau đó</p>
+        <p className="leading-[20px]">tạo mật khẩu mới cho tài khoản của bạn.</p>
+      </div>
+      <div className="absolute content-stretch flex flex-col items-center left-[24px] top-[292px] w-[380px]" data-node-id="521:4749" data-name="Mật khẩu hiện tại">
+        <div className="content-stretch flex flex-col gap-[8px] h-[84px] items-start relative shrink-0 w-[380px]" data-node-id="521:4750" data-name="Trường / Mật khẩu hiện tại">
+          <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[13px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="I521:4750;460:4829">
+            Mật khẩu hiện tại
+          </p>
+          <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid content-stretch flex h-[56px] items-center overflow-clip px-[16px] relative rounded-[16px] shrink-0 w-[380px]" data-node-id="I521:4750;460:4830" data-name="Input">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[22px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[344px]" data-node-id="I521:4750;460:4831">
+              ••••••••••••
+            </p>
+          </div>
+        </div>
+        <button className="absolute block cursor-pointer h-[56px] left-[326px] overflow-clip top-[28px] w-[52px]" data-node-id="521:4754" data-name="Hiện hoặc ẩn / Mật khẩu hiện tại">
+          <div className="absolute left-[14px] size-[24px] top-[16px]" data-node-id="521:4755" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame1} />
+          </div>
+        </button>
+      </div>
+      <a className="absolute block cursor-pointer h-[48px] left-[24px] overflow-clip top-[382px] w-[380px]" data-node-id="521:4759" data-name="Liên kết / Quên mật khẩu hiện tại?">
+        <p className="-translate-x-full [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[380px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-right top-[14px] w-[380px]" data-node-id="521:4760">
+          Quên mật khẩu hiện tại?
+        </p>
+      </a>
+      <div className="absolute content-stretch flex flex-col items-center left-[24px] top-[442px] w-[380px]" data-node-id="521:4763" data-name="Mật khẩu mới">
+        <div className="content-stretch flex flex-col gap-[8px] h-[84px] items-start relative shrink-0 w-[380px]" data-node-id="521:4764" data-name="Trường / Mật khẩu mới">
+          <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[13px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="I521:4764;460:4829">
+            Mật khẩu mới
+          </p>
+          <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid content-stretch flex h-[56px] items-center overflow-clip px-[16px] relative rounded-[16px] shrink-0 w-[380px]" data-node-id="I521:4764;460:4830" data-name="Input">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[22px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[344px]" data-node-id="I521:4764;460:4831">
+              ••••••••••••
+            </p>
+          </div>
+        </div>
+        <button className="absolute block cursor-pointer h-[56px] left-[326px] overflow-clip top-[28px] w-[52px]" data-node-id="521:4768" data-name="Hiện hoặc ẩn / Mật khẩu mới">
+          <div className="absolute left-[14px] size-[24px] top-[16px]" data-node-id="521:4769" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame1} />
+          </div>
+        </button>
+      </div>
+      <div className="absolute content-stretch flex gap-[6px] items-center left-[24px] top-[539px] w-[380px]" data-node-id="521:4773" data-name="Độ mạnh mật khẩu">
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[5px] relative rounded-[3px] shrink-0 w-[90.5px]" data-node-id="521:4774" data-name="Rectangle" />
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[5px] relative rounded-[3px] shrink-0 w-[90.5px]" data-node-id="521:4775" data-name="Rectangle" />
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[5px] relative rounded-[3px] shrink-0 w-[90.5px]" data-node-id="521:4776" data-name="Rectangle" />
+        <div className="bg-[var(--gs-line,#d2e7f4)] h-[5px] relative rounded-[3px] shrink-0 w-[90.5px]" data-node-id="521:4777" data-name="Rectangle" />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[15px] left-[24px] text-[11px] text-[color:var(--gs-muted,#456476)] top-[554px] w-[380px]" data-node-id="521:4778">
+        Ít nhất 8 ký tự, gồm chữ, số và ký tự đặc biệt.
+      </p>
+      <div className="absolute content-stretch flex flex-col items-center left-[24px] top-[590px] w-[380px]" data-node-id="521:4780" data-name="Xác nhận mật khẩu mới">
+        <div className="content-stretch flex flex-col gap-[8px] h-[84px] items-start relative shrink-0 w-[380px]" data-node-id="521:4781" data-name="Trường / Xác nhận mật khẩu mới">
+          <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[13px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="I521:4781;460:4829">
+            Xác nhận mật khẩu mới
+          </p>
+          <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid content-stretch flex h-[56px] items-center overflow-clip px-[16px] relative rounded-[16px] shrink-0 w-[380px]" data-node-id="I521:4781;460:4830" data-name="Input">
+            <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[22px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[344px]" data-node-id="I521:4781;460:4831">
+              ••••••••••••
+            </p>
+          </div>
+        </div>
+        <button className="absolute block cursor-pointer h-[56px] left-[326px] overflow-clip top-[28px] w-[52px]" data-node-id="521:4785" data-name="Hiện hoặc ẩn / Xác nhận mật khẩu mới">
+          <div className="absolute left-[14px] size-[24px] top-[16px]" data-node-id="521:4786" data-name="Frame">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame1} />
+          </div>
+        </button>
+      </div>
+      <div className="absolute content-stretch flex gap-[8px] items-center left-[24px] top-[696px] w-[380px]" data-node-id="521:4790" data-name="Lưu ý bảo mật">
+        <div className="relative shrink-0 size-[22px]" data-node-id="521:4791" data-name="Frame">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame2} />
+        </div>
+        <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] w-[350px]" data-node-id="521:4794">
+          Mật khẩu mới nên khác mật khẩu đang dùng.
+        </p>
+      </div>
+      <GreenStepsButton className="absolute bg-[var(--gs-primary,#147cc1)] content-stretch cursor-pointer flex h-[56px] items-center justify-center left-[24px] rounded-[var(--gs-radius-button,18px)] top-[748px] w-[380px]" label="Cập nhật mật khẩu" />
+      <a className="absolute block cursor-pointer h-[48px] left-[24px] overflow-clip top-[813px] w-[380px]" data-node-id="521:4798" data-name="Liên kết / Hủy">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[190px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-center top-[14px] w-[380px]" data-node-id="521:4799">
+          Hủy
+        </p>
+      </a>
+      <div className="absolute bg-[var(--gs-forest,#164561)] h-[5px] left-[150px] rounded-[3px] top-[905px] w-[128px]" data-node-id="521:4801" data-name="Rectangle" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Auth Field
+**Node ID:** 460:4840
+
+Ô nhập dành cho luồng tài khoản. Label và Value là thuộc tính văn bản; trạng thái Default, Focus và Error.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

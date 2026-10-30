@@ -1,0 +1,12 @@
+{
+  "checkedOn": "2026-10-30",
+  "preview": "Existing apps/mobile/dist export, not a successful rebuild during this audit",
+  "figmaRead": { "status": "success", "topLevelNodes": 186, "frames": 175, "screenshotsViewed": ["391:25197", "534:49034", "609:5165"] },
+  "typecheck": { "command": "pnpm typecheck", "exitCode": 1, "status": "environment-blocked", "errors": ["TS2318: Cannot find global type Array and other standard types", "TS2688: Cannot find type definition file for node/react", "TS6053: typescript/lib/lib.dom.d.ts and lib.esnext.d.ts not found"] },
+  "build": { "command": "pnpm build", "exitCode": 1, "status": "environment-blocked", "error": "ReferenceError: exports is not defined in ES module scope at glob/dist/commonjs/index.min.js" },
+  "unitTests": { "command": "pnpm test", "exitCode": 1, "status": "environment-blocked", "error": "Cannot find module y18n; Jest CLI did not start tests" },
+  "e2eDefault": { "command": "pnpm test:e2e", "exitCode": 1, "status": "launcher-blocked", "reason": "Playwright-managed Chromium executable missing; assertions did not run" },
+  "e2eChrome": { "command": "pnpm test:e2e", "environment": { "PLAYWRIGHT_CHROMIUM_EXECUTABLE": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" }, "exitCode": 0, "passed": 36, "failed": 0, "durationReported": "1.9m", "log": "e2e-current.log" },
+  "manuallyVerifiedFinding": { "trigger": "Click Home card Giờ học xanh", "actualUrl": "/events/beach", "actualTitle": "Một sáng sạch hơn cho biển", "actualLocation": "Bãi biển Mỹ Khê", "source": "apps/mobile/src/features/home/HomeScreen.tsx:218" },
+  "nativeDeviceQA": "not performed"
+}

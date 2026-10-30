@@ -1,0 +1,891 @@
+{
+  "bytes": 8233,
+  "screens": [
+    {
+      "id": "514:5102",
+      "name": "Cài đặt · Overlay · Thiết lập PIN",
+      "type": "FRAME",
+      "w": 428,
+      "h": 931,
+      "types": {
+        "FRAME": 37,
+        "TEXT": 19,
+        "INSTANCE": 3,
+        "VECTOR": 2
+      },
+      "texts": [
+        "Thiết lập mã PIN",
+        "Thêm một lớp bảo vệ khi mở ứng dụng.",
+        "×",
+        {
+          "hidden": "Vui lòng nhập đủ 6 số."
+        },
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "0",
+        "⌫",
+        "Tiếp tục",
+        "Hủy",
+        {
+          "hidden": "Mã PIN đã sẵn sàng"
+        },
+        {
+          "hidden": "Bạn có thể quay lại Cài đặt\nđể thay đổi mã PIN bất cứ lúc nào."
+        }
+      ],
+      "parts": [
+        [
+          "514:5102",
+          "Cài đặt · Overlay · Thiết lập PIN",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5103",
+          "Fermer en dehors",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5255",
+          "Hộp thiết lập PIN",
+          380,
+          684,
+          "NONE"
+        ],
+        [
+          "514:5258",
+          "Đóng thiết lập PIN",
+          44,
+          48,
+          "NONE"
+        ],
+        [
+          "514:5261",
+          "Nhập mã PIN",
+          380,
+          398,
+          "NONE"
+        ],
+        [
+          "514:5314",
+          "Nút / Tiếp tục",
+          332,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "514:5317",
+          "Nút / Lưu mã PIN",
+          332,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "514:5320",
+          "Liên kết / Hủy",
+          332,
+          48,
+          "NONE"
+        ],
+        [
+          "514:5323",
+          "Đã bật mã PIN",
+          380,
+          440,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Tiếp tục": 1,
+        "Nút / Lưu mã PIN": 1,
+        "Nút / Hoàn tất": 1
+      },
+      "reactions": [
+        {
+          "id": "514:5103",
+          "name": "Fermer en dehors",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5258",
+          "name": "Đóng thiết lập PIN",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5277",
+          "name": "Phím 1",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5280",
+          "name": "Phím 2",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5283",
+          "name": "Phím 3",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5287",
+          "name": "Phím 4",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5290",
+          "name": "Phím 5",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5293",
+          "name": "Phím 6",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5297",
+          "name": "Phím 7",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5300",
+          "name": "Phím 8",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5303",
+          "name": "Phím 9",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5308",
+          "name": "Phím 0",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5311",
+          "name": "Phím ⌫",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5314",
+          "name": "Nút / Tiếp tục",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5317",
+          "name": "Nút / Lưu mã PIN",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5320",
+          "name": "Liên kết / Hủy",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5329",
+          "name": "Nút / Hoàn tất",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "521:4735",
+      "name": "21 · Thay đổi mật khẩu",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 26,
+        "TEXT": 17,
+        "VECTOR": 16,
+        "INSTANCE": 5,
+        "RECTANGLE": 5
+      },
+      "texts": [
+        "9:41",
+        "BẢO MẬT TÀI KHOẢN",
+        "Thay đổi mật khẩu",
+        "Xác nhận bằng mật khẩu hiện tại, sau đó\ntạo mật khẩu mới cho tài khoản của bạn.",
+        "Mật khẩu hiện tại",
+        "••••••••••••",
+        "Quên mật khẩu hiện tại?",
+        "Mật khẩu mới",
+        "••••••••••••",
+        "Ít nhất 8 ký tự, gồm chữ, số và ký tự đặc biệt.",
+        "Xác nhận mật khẩu mới",
+        "••••••••••••",
+        "Mật khẩu mới nên khác mật khẩu đang dùng.",
+        "Cập nhật mật khẩu",
+        "Hủy",
+        {
+          "hidden": "Đã đổi mật khẩu"
+        },
+        {
+          "hidden": "Mật khẩu của bạn đã được cập nhật.\nTiếp tục quản lý tài khoản trong Cài đặt."
+        }
+      ],
+      "parts": [
+        [
+          "521:4735",
+          "21 · Thay đổi mật khẩu",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "521:4737",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "522:4745",
+          "Sóng, Wi-Fi, pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "521:4741",
+          "Quay về Cài đặt",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "521:4742",
+          "Frame",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "521:4749",
+          "Mật khẩu hiện tại",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "521:4750",
+          "Trường / Mật khẩu hiện tại",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "521:4754",
+          "Hiện hoặc ẩn / Mật khẩu hiện tại",
+          52,
+          56,
+          "NONE"
+        ],
+        [
+          "521:4759",
+          "Liên kết / Quên mật khẩu hiện tại?",
+          380,
+          48,
+          "NONE"
+        ],
+        [
+          "521:4763",
+          "Mật khẩu mới",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "521:4764",
+          "Trường / Mật khẩu mới",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "521:4768",
+          "Hiện hoặc ẩn / Mật khẩu mới",
+          52,
+          56,
+          "NONE"
+        ],
+        [
+          "521:4773",
+          "Độ mạnh mật khẩu",
+          380,
+          5,
+          "HORIZONTAL"
+        ],
+        [
+          "521:4780",
+          "Xác nhận mật khẩu mới",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "521:4781",
+          "Trường / Xác nhận mật khẩu mới",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "521:4785",
+          "Hiện hoặc ẩn / Xác nhận mật khẩu mới",
+          52,
+          56,
+          "NONE"
+        ],
+        [
+          "521:4790",
+          "Lưu ý bảo mật",
+          380,
+          22,
+          "HORIZONTAL"
+        ],
+        [
+          "521:4791",
+          "Frame",
+          22,
+          22,
+          "NONE"
+        ],
+        [
+          "521:4795",
+          "Nút / Cập nhật mật khẩu",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "521:4798",
+          "Liên kết / Hủy",
+          380,
+          48,
+          "NONE"
+        ],
+        [
+          "521:4802",
+          "Xác nhận đổi mật khẩu thành công",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "521:4803",
+          "Nền xác nhận",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "521:4804",
+          "Thông báo thành công",
+          380,
+          330,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Trường / Mật khẩu hiện tại": 1,
+        "Trường / Mật khẩu mới": 1,
+        "Trường / Xác nhận mật khẩu mới": 1,
+        "Nút / Cập nhật mật khẩu": 1,
+        "Nút / Về Cài đặt": 1
+      },
+      "reactions": [
+        {
+          "id": "521:4741",
+          "name": "Quay về Cài đặt",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8451",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "521:4754",
+          "name": "Hiện hoặc ẩn / Mật khẩu hiện tại",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "521:4759",
+          "name": "Liên kết / Quên mật khẩu hiện tại?",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7225",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "521:4768",
+          "name": "Hiện hoặc ẩn / Mật khẩu mới",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "521:4785",
+          "name": "Hiện hoặc ẩn / Xác nhận mật khẩu mới",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "521:4795",
+          "name": "Nút / Cập nhật mật khẩu",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "521:4798",
+          "name": "Liên kết / Hủy",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8451",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "521:4810",
+          "name": "Nút / Về Cài đặt",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8451",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+name: Validate agent kit
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Check generated instructions
+        run: python -B scripts/build_agents_md.py --check
+
+      - name: Validate kit contracts
+        run: python -B scripts/validate_kit.py
+
+      - name: Run regression tests
+        run: python -B -m unittest discover -s scripts/tests -v
+
+      - name: Run behavioral eval harness tests
+        run: node --test scripts/tests/*.test.mjs
+
+      - name: Score offline behavioral fixture
+        run: node scripts/run_behavior_evals.mjs --responses evals/fixtures/perfect-responses.json --threshold 1

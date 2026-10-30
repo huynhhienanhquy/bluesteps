@@ -1,0 +1,51 @@
+const imgSongWiFiPin = "https://www.figma.com/api/mcp/asset/4cdf6dcd-5cfd-41c8-b629-70e14c80bf36.svg";
+const imgBiuTngMmXanh = "https://www.figma.com/api/mcp/asset/fa4042e5-f943-4fa4-9e01-e88b721404e2.svg";
+
+export default function Component01KhiDngGreenSteps() {
+  return (
+    <div className="bg-[var(--gs-primary,#147cc1)] overflow-clip relative rounded-[32px] size-full" data-node-id="386:7148" data-name="01 · Khởi động GreenSteps">
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[17px] w-[380px]" data-node-id="441:4969" data-name="Thanh trạng thái">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-white,white)] w-[70px]" data-node-id="441:4970">
+          9:41
+        </p>
+        <div className="h-[20px] relative shrink-0 w-[78px]" data-node-id="443:4824" data-name="Sóng · Wi-Fi · Pin">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSongWiFiPin} />
+        </div>
+      </div>
+      <div className="absolute bg-[var(--gs-white,white)] h-[5px] left-[150px] rounded-[3px] top-[905px] w-[128px]" data-node-id="441:4972" data-name="Rectangle" />
+      <div className="absolute h-[300px] left-[24px] top-[208px] w-[380px]" data-node-id="441:5009" data-name="Biểu tượng mầm xanh">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBiuTngMmXanh} />
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start left-[24px] overflow-clip text-center top-[522px] w-[380px]" data-node-id="441:5016" data-name="Nhận diện GreenSteps">
+        <p className="font-['Montserrat:Bold'] font-bold leading-[55px] relative shrink-0 text-[39px] text-[color:var(--gs-white,white)] w-[380px]" data-node-id="441:5017">
+          BlueSteps
+        </p>
+        <p className="font-['Montserrat:SemiBold'] font-semibold leading-[16px] relative shrink-0 text-[11px] text-[color:var(--gs-sage,#e5f3fc)] w-[380px]" data-node-id="441:5018">
+          BƯỚC NHỎ · THAY ĐỔI LỚN
+        </p>
+      </div>
+      <div className="absolute content-stretch flex gap-[8px] items-start left-[188px] top-[722px]" data-node-id="441:5019" data-name="Đang khởi động">
+        <div className="bg-[var(--gs-yellow,#f3d581)] relative rounded-[4px] shrink-0 size-[8px]" data-node-id="441:5020" data-name="Rectangle" />
+        <div className="bg-[var(--gs-sage,#e5f3fc)] opacity-40 relative rounded-[4px] shrink-0 size-[8px]" data-node-id="441:5021" data-name="Rectangle" />
+        <div className="bg-[var(--gs-sage,#e5f3fc)] opacity-40 relative rounded-[4px] shrink-0 size-[8px]" data-node-id="441:5022" data-name="Rectangle" />
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[18px] left-[214px] text-[12px] text-[color:var(--gs-sage,#e5f3fc)] text-center top-[825px] w-[380px]" data-node-id="441:5023">
+        Cùng bạn nuôi dưỡng hành tinh xanh
+      </p>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Caption: Font(family: "Montserrat", style: Medium, size: 12, weight: 500, lineHeight: 18, letterSpacing: 0).
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

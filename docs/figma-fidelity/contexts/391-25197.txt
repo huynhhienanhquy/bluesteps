@@ -1,0 +1,384 @@
+const imgHSCaNhan = "https://www.figma.com/api/mcp/asset/9356475a-eae3-41fb-b381-6a2ed7a7ed10.png";
+const imgNhHotDng = "https://www.figma.com/api/mcp/asset/6467cbe5-fda7-498b-a2b6-6e7534da8616.png";
+const imgNhHotDng1 = "https://www.figma.com/api/mcp/asset/a9c5487e-e2d8-4ab5-b84c-56361c230711.png";
+const imgVtLiuNha = "https://www.figma.com/api/mcp/asset/b02d77bc-269a-414c-a319-6de03e2cc058.png";
+const imgVtLiuGiy = "https://www.figma.com/api/mcp/asset/e622bc48-3169-48ed-b689-77a43513c1cb.png";
+const imgVtLiuPin = "https://www.figma.com/api/mcp/asset/ddbb9842-ce7a-4d92-bc35-79a7ae15eebe.png";
+const imgNhTinTc = "https://www.figma.com/api/mcp/asset/ba7fe3bf-fcfc-41b1-9dc8-600314c18571.png";
+const imgSongWiFiPin = "https://www.figma.com/api/mcp/asset/bb12701d-aaca-4b54-b676-6b8a03850168.svg";
+const imgIconBell = "https://www.figma.com/api/mcp/asset/84a9d6b3-e75f-4646-9db3-92ddd8b997bc.svg";
+const imgTraiDtVaMmCay = "https://www.figma.com/api/mcp/asset/7d48839f-7805-4bd2-847b-4f5db94e58db.svg";
+const imgIconRecycle = "https://www.figma.com/api/mcp/asset/778e7f6a-8a92-4648-8c87-26755cbf7d98.svg";
+const imgIconMap = "https://www.figma.com/api/mcp/asset/98c82052-6403-4a18-9f60-556f49cef599.svg";
+const imgIconPeople = "https://www.figma.com/api/mcp/asset/91ac3ff1-1486-4ef6-86cb-3d263ec404cd.svg";
+const imgIconBook = "https://www.figma.com/api/mcp/asset/7abd2075-06b2-479d-b8b4-45d2475d6b37.svg";
+const imgIconGift = "https://www.figma.com/api/mcp/asset/571d703e-e7dd-4231-9a2f-d7267803d0bc.svg";
+const imgIconLeaf = "https://www.figma.com/api/mcp/asset/bc5130c0-4c70-44fa-87b3-70f01ceaae3d.svg";
+const imgIconArrow = "https://www.figma.com/api/mcp/asset/4ac8f0f5-c8bf-4c08-b091-433f8cfb18a1.svg";
+const imgIconPeople1 = "https://www.figma.com/api/mcp/asset/fa310347-8b5e-4779-88ae-53517a50b93b.svg";
+const imgIconHome = "https://www.figma.com/api/mcp/asset/d6aa7cfe-68ac-4b09-9257-09ab3a4f4294.svg";
+const imgIconMap1 = "https://www.figma.com/api/mcp/asset/7031bf47-8ee1-4182-860a-5fde2e9575e4.svg";
+const imgIconScan = "https://www.figma.com/api/mcp/asset/0e7f473b-26d2-43e6-b1d9-946ff1f0b339.svg";
+const imgIconGift1 = "https://www.figma.com/api/mcp/asset/f2c20e9f-9d28-489e-80bd-bf888ef80ed8.svg";
+const imgIconUser = "https://www.figma.com/api/mcp/asset/27fc1674-2287-4627-b874-bd8eb894c5d6.svg";
+
+type GreenStepsButtonProps = {
+  className?: string;
+  label?: string;
+  style?: "Secondary";
+};
+
+function GreenStepsButton({ className, label = "Tiếp tục", style = "Secondary" }: GreenStepsButtonProps) {
+  return (
+    <div className={className || "bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] w-[380px]"} data-node-id="439:4837">
+      <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-forest,#164561)] whitespace-nowrap" data-node-id="439:4838">
+        {label}
+      </p>
+    </div>
+  );
+}
+
+export default function Component17HomeTrangCh() {
+  return (
+    <div className="bg-[var(--gs-cream,#f4fbff)] overflow-clip relative rounded-[32px] size-full" data-node-id="391:25197" data-name="17 · Home — Trang chủ">
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[17px] w-[380px]" data-node-id="476:5049" data-name="Thanh trạng thái">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[60px]" data-node-id="476:5050">
+          9:41
+        </p>
+        <div className="h-[20px] relative shrink-0 w-[76px]" data-node-id="476:5051" data-name="Sóng, Wi-Fi, pin">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSongWiFiPin} />
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[62px] w-[380px]" data-node-id="476:5057" data-name="En-tête · Chào Linh Chi">
+        <a className="block cursor-pointer relative rounded-[24px] shrink-0 size-[48px]" data-node-id="476:5058" data-name="Hồ sơ cá nhân">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgHSCaNhan} />
+        </a>
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[235px]" data-node-id="476:5060" data-name="Lời chào">
+          <p className="font-['Montserrat:Bold'] font-bold leading-[29px] relative shrink-0 text-[21px] text-[color:var(--gs-forest,#164561)] w-[235px]" data-node-id="476:5061">
+            Chào Linh Chi!
+          </p>
+          <p className="font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] w-[235px]" data-node-id="476:5062">
+            Hôm nay, mình cùng sống xanh nhé.
+          </p>
+        </div>
+        <a className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid cursor-pointer overflow-clip relative rounded-[16px] shrink-0 size-[48px]" data-node-id="476:5063" data-name="Thông báo">
+          <div className="absolute left-[11px] size-[24px] top-[11px]" data-node-id="476:5064" data-name="Icon / bell">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBell} />
+          </div>
+          <div className="absolute bg-[var(--gs-primary,#147cc1)] left-[32px] rounded-[3px] size-[6px] top-[8px]" data-node-id="476:5066" data-name="Rectangle" />
+        </a>
+      </div>
+      <div className="absolute h-[686px] left-0 overflow-x-clip overflow-y-auto top-[136px] w-[428px]" data-node-id="476:5068" data-name="Nội dung Home · Cuộn dọc">
+        <div className="absolute content-stretch flex flex-col gap-[24px] items-start left-[24px] pb-[32px] top-[8px] w-[380px]" data-node-id="476:5069" data-name="Nội dung trang chủ">
+          <div className="bg-[var(--gs-primary,#147cc1)] h-[226px] overflow-clip relative rounded-[28px] shrink-0 w-[380px]" data-node-id="476:5070" data-name="Thông điệp sống xanh">
+            <p className="[word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[14px] left-[20px] text-[10px] text-[color:var(--gs-white,white)] top-[19px] w-[330px]" data-node-id="476:5071">
+              BLUENSTEPS · MỖI NGÀY XANH
+            </p>
+            <div className="[word-break:break-word] absolute font-['Montserrat:Bold'] font-bold leading-[0] left-[20px] text-[24px] text-[color:var(--gs-white,white)] top-[48px] w-[238px]" data-node-id="476:5072">
+              <p className="leading-[34px] mb-0">Phân loại rác.</p>
+              <p className="leading-[34px]">Gieo mầm xanh.</p>
+            </div>
+            <div className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[0] left-[20px] text-[12px] text-[color:var(--gs-white,white)] top-[123px] w-[222px]" data-node-id="476:5073">
+              <p className="leading-[17px] mb-0">Bắt đầu từ một món đồ nhỏ.</p>
+              <p className="leading-[17px]">Tạo nên những thay đổi lớn.</p>
+            </div>
+            <div className="absolute h-[145px] left-[244px] top-[55px] w-[122px]" data-node-id="476:5074" data-name="Trái Đất và mầm cây">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTraiDtVaMmCay} />
+            </div>
+            <GreenStepsButton className="absolute bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid content-stretch cursor-pointer flex h-[48px] items-center justify-center left-[20px] rounded-[var(--gs-radius-button,18px)] top-[166px] w-[181px]" label="Quét rác ngay" />
+          </div>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[380px]" data-node-id="476:5085" data-name="Lối tắt tính năng">
+            <p className="[word-break:break-word] font-['Montserrat:Bold'] font-bold leading-[27px] relative shrink-0 text-[19px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="476:5086">
+              Bạn muốn làm gì?
+            </p>
+            <div className="content-stretch cursor-pointer flex gap-[12px] items-center relative shrink-0 w-[380px]" data-node-id="476:5087" data-name="Bốn lối tắt">
+              <a className="block h-[96px] overflow-clip relative shrink-0 w-[86px]" data-node-id="476:5088" data-name="Phân loại">
+                <div className="absolute bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid left-[17px] overflow-clip rounded-[18px] size-[52px] top-0" data-node-id="476:5089" data-name="Biểu tượng">
+                  <div className="absolute left-[11.5px] size-[27px] top-[11.5px]" data-node-id="476:5090" data-name="Icon / recycle">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconRecycle} />
+                  </div>
+                </div>
+                <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[15px] left-[43px] text-[11px] text-[color:var(--gs-forest,#164561)] text-center top-[65px] w-[86px]" data-node-id="476:5092">
+                  Phân loại
+                </p>
+              </a>
+              <a className="block h-[96px] overflow-clip relative shrink-0 w-[86px]" data-node-id="476:5094" data-name="Thu gom">
+                <div className="absolute bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid left-[17px] overflow-clip rounded-[18px] size-[52px] top-0" data-node-id="476:5095" data-name="Biểu tượng">
+                  <div className="absolute left-[11.5px] size-[27px] top-[11.5px]" data-node-id="476:5096" data-name="Icon / map">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconMap} />
+                  </div>
+                </div>
+                <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[15px] left-[43px] text-[11px] text-[color:var(--gs-forest,#164561)] text-center top-[65px] w-[86px]" data-node-id="476:5099">
+                  Thu gom
+                </p>
+              </a>
+              <a className="block h-[96px] overflow-clip relative shrink-0 w-[86px]" data-node-id="476:5101" data-name="Cộng đồng">
+                <div className="absolute bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid left-[17px] overflow-clip rounded-[18px] size-[52px] top-0" data-node-id="476:5102" data-name="Biểu tượng">
+                  <div className="absolute left-[11.5px] size-[27px] top-[11.5px]" data-node-id="476:5103" data-name="Icon / people">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconPeople} />
+                  </div>
+                </div>
+                <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[15px] left-[43px] text-[11px] text-[color:var(--gs-forest,#164561)] text-center top-[65px] w-[86px]" data-node-id="476:5106">
+                  Cộng đồng
+                </p>
+              </a>
+              <a className="block h-[96px] overflow-clip relative shrink-0 w-[86px]" data-node-id="476:5108" data-name="Tin tức">
+                <div className="absolute bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid left-[17px] overflow-clip rounded-[18px] size-[52px] top-0" data-node-id="476:5109" data-name="Biểu tượng">
+                  <div className="absolute left-[11.5px] size-[27px] top-[11.5px]" data-node-id="476:5110" data-name="Icon / book">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBook} />
+                  </div>
+                </div>
+                <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[15px] left-[43px] text-[11px] text-[color:var(--gs-forest,#164561)] text-center top-[65px] w-[86px]" data-node-id="476:5112">
+                  Tin tức
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="bg-[var(--gs-blue,#dceef9)] h-[156px] overflow-clip relative rounded-[26px] shrink-0 w-[380px]" data-node-id="476:5114" data-name="Điểm thưởng của bạn">
+            <div className="absolute bg-[var(--gs-white,white)] left-[18px] overflow-clip rounded-[15px] size-[44px] top-[18px]" data-node-id="476:5115" data-name="Biểu tượng điểm xanh">
+              <div className="absolute left-[9px] size-[26px] top-[9px]" data-node-id="476:5116" data-name="Icon / gift">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconGift} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[14px] left-[76px] text-[10px] text-[color:var(--gs-muted,#456476)] top-[18px] w-[220px]" data-node-id="476:5119">
+              ĐIỂM XANH CỦA BẠN
+            </p>
+            <p className="[word-break:break-word] absolute font-['Montserrat:Bold'] font-bold leading-[42px] left-[76px] text-[30px] text-[color:var(--gs-primary,#147cc1)] top-[36px] w-[150px]" data-node-id="476:5120">
+              180
+            </p>
+            <a className="absolute block cursor-pointer h-[48px] left-[250px] overflow-clip top-[25px] w-[112px]" data-node-id="476:5121" data-name="Liên kết / Đổi quà →">
+              <p className="-translate-x-full [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[112px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-right top-[14px] w-[112px]" data-node-id="476:5122">
+                Đổi quà →
+              </p>
+            </a>
+            <div className="absolute bg-[var(--gs-line,#d2e7f4)] h-px left-[18px] top-[89px] w-[344px]" data-node-id="476:5124" data-name="Rectangle" />
+            <div className="absolute content-stretch flex gap-[10px] items-center left-[18px] top-[100px] w-[344px]" data-node-id="476:5125" data-name="Hành động hôm nay">
+              <div className="relative shrink-0 size-[24px]" data-node-id="476:5126" data-name="Icon / leaf">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconLeaf} />
+              </div>
+              <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[17px] relative shrink-0 text-[12px] text-[color:var(--gs-forest,#164561)] w-[210px]" data-node-id="476:5129">
+                Phân loại rác mỗi ngày
+              </p>
+              <a className="block cursor-pointer h-[48px] overflow-clip relative shrink-0 w-[90px]" data-node-id="476:5130" data-name="Liên kết / Bắt đầu">
+                <p className="-translate-x-full [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[90px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-right top-[14px] w-[90px]" data-node-id="476:5131">
+                  Bắt đầu
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[380px]" data-node-id="476:5133" data-name="Hoạt động xanh">
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-[380px]" data-node-id="476:5134" data-name="Hoạt động xanh">
+              <p className="[word-break:break-word] font-['Montserrat:Bold'] font-bold leading-[27px] relative shrink-0 text-[19px] text-[color:var(--gs-forest,#164561)] w-[250px]" data-node-id="476:5135">
+                Hoạt động xanh
+              </p>
+              <a className="block cursor-pointer h-[48px] overflow-clip relative shrink-0 w-[120px]" data-node-id="476:5136" data-name="Liên kết / Đã lưu">
+                <p className="-translate-x-full [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[120px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-right top-[14px] w-[120px]" data-node-id="476:5137">
+                  Đã lưu
+                </p>
+              </a>
+            </div>
+            <div className="content-stretch cursor-pointer flex gap-[14px] items-center relative shrink-0 w-[380px]" data-node-id="476:5139" data-name="Gợi ý hoạt động">
+              <a className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[236px] overflow-clip relative rounded-[22px] shrink-0 w-[183px]" data-node-id="476:5140" data-name="Giờ học xanh">
+                <div className="absolute h-[116px] left-[-1px] top-[-1px] w-[183px]" data-node-id="476:5141" data-name="Ảnh hoạt động">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhHotDng} />
+                </div>
+                <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[7px] items-start left-[11px] text-left top-[129px] w-[159px]" data-node-id="476:5142" data-name="Thông tin hoạt động">
+                  <p className="font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[159px]" data-node-id="476:5143">
+                    Giờ học xanh
+                  </p>
+                  <p className="font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] w-[159px]" data-node-id="476:5144">
+                    TP. Hồ Chí Minh
+                  </p>
+                </div>
+                <div className="absolute content-stretch flex gap-[4px] items-center left-[11px] top-[201px] w-[159px]" data-node-id="476:5145" data-name="Người tham gia">
+                  <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[13px] relative shrink-0 text-[9px] text-[color:var(--gs-primary,#147cc1)] text-left w-[137px]" data-node-id="476:5146">
+                    200+ người tham gia
+                  </p>
+                  <div className="relative shrink-0 size-[18px]" data-node-id="476:5147" data-name="Icon / arrow">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrow} />
+                  </div>
+                </div>
+              </a>
+              <a className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[236px] overflow-clip relative rounded-[22px] shrink-0 w-[183px]" data-node-id="476:5150" data-name="Vì một bãi biển sạch">
+                <div className="absolute h-[116px] left-[-1px] top-[-1px] w-[183px]" data-node-id="476:5151" data-name="Ảnh hoạt động">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhHotDng1} />
+                </div>
+                <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[7px] items-start left-[11px] text-left top-[129px] w-[159px]" data-node-id="476:5152" data-name="Thông tin hoạt động">
+                  <p className="font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[159px]" data-node-id="476:5153">
+                    Vì một bãi biển sạch
+                  </p>
+                  <p className="font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] w-[159px]" data-node-id="476:5154">
+                    Mỹ Khê, Đà Nẵng
+                  </p>
+                </div>
+                <div className="absolute content-stretch flex gap-[4px] items-center left-[11px] top-[201px] w-[159px]" data-node-id="476:5155" data-name="Người tham gia">
+                  <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[13px] relative shrink-0 text-[9px] text-[color:var(--gs-primary,#147cc1)] text-left w-[137px]" data-node-id="476:5156">
+                    300+ người tham gia
+                  </p>
+                  <div className="relative shrink-0 size-[18px]" data-node-id="476:5157" data-name="Icon / arrow">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconArrow} />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[380px]" data-node-id="476:5160" data-name="Sổ tay phân loại">
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-[380px]" data-node-id="476:5161" data-name="Sổ tay phân loại">
+              <p className="[word-break:break-word] font-['Montserrat:Bold'] font-bold leading-[27px] relative shrink-0 text-[19px] text-[color:var(--gs-forest,#164561)] w-[250px]" data-node-id="476:5162">
+                Sổ tay phân loại
+              </p>
+              <a className="block cursor-pointer h-[48px] overflow-clip relative shrink-0 w-[120px]" data-node-id="476:5163" data-name="Liên kết / Tất cả">
+                <p className="-translate-x-full [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[120px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-right top-[14px] w-[120px]" data-node-id="476:5164">
+                  Tất cả
+                </p>
+              </a>
+            </div>
+            <div className="content-stretch cursor-pointer flex gap-[13px] items-center relative shrink-0 w-[380px]" data-node-id="476:5166" data-name="Các loại rác phổ biến">
+              <a className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[126px] overflow-clip relative rounded-[22px] shrink-0 w-[118px]" data-node-id="476:5167" data-name="Nhựa">
+                <div className="absolute h-[65px] left-[28px] rounded-[8px] top-[12px] w-[60px]" data-node-id="476:5168" data-name="Vật liệu Nhựa">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[8px] size-full" src={imgVtLiuNha} />
+                </div>
+                <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[58px] text-[13px] text-[color:var(--gs-forest,#164561)] text-center top-[90px] w-[102px]" data-node-id="476:5169">
+                  Nhựa
+                </p>
+              </a>
+              <a className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[126px] overflow-clip relative rounded-[22px] shrink-0 w-[118px]" data-node-id="476:5171" data-name="Giấy">
+                <div className="absolute h-[65px] left-[28px] rounded-[8px] top-[12px] w-[60px]" data-node-id="476:5172" data-name="Vật liệu Giấy">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[8px] size-full" src={imgVtLiuGiy} />
+                </div>
+                <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[58px] text-[13px] text-[color:var(--gs-forest,#164561)] text-center top-[90px] w-[102px]" data-node-id="476:5173">
+                  Giấy
+                </p>
+              </a>
+              <a className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[126px] overflow-clip relative rounded-[22px] shrink-0 w-[118px]" data-node-id="476:5175" data-name="Pin">
+                <div className="absolute h-[65px] left-[28px] rounded-[8px] top-[12px] w-[60px]" data-node-id="476:5176" data-name="Vật liệu Pin">
+                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[8px] size-full" src={imgVtLiuPin} />
+                </div>
+                <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[58px] text-[13px] text-[color:var(--gs-forest,#164561)] text-center top-[90px] w-[102px]" data-node-id="476:5177">
+                  Pin
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[380px]" data-node-id="476:5179" data-name="Góc sống xanh">
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-[380px]" data-node-id="476:5180" data-name="Góc sống xanh">
+              <p className="[word-break:break-word] font-['Montserrat:Bold'] font-bold leading-[27px] relative shrink-0 text-[19px] text-[color:var(--gs-forest,#164561)] w-[250px]" data-node-id="476:5181">
+                Góc sống xanh
+              </p>
+              <a className="block cursor-pointer h-[48px] overflow-clip relative shrink-0 w-[120px]" data-node-id="476:5182" data-name="Liên kết / Xem thêm">
+                <p className="-translate-x-full [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[120px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-right top-[14px] w-[120px]" data-node-id="476:5183">
+                  Xem thêm
+                </p>
+              </a>
+            </div>
+            <a className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid cursor-pointer h-[130px] overflow-clip relative rounded-[24px] shrink-0 w-[380px]" data-node-id="476:5185" data-name="Bài viết nổi bật">
+              <div className="absolute h-[106px] left-[11px] rounded-[16px] top-[11px] w-[102px]" data-node-id="476:5186" data-name="Ảnh tin tức">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgNhTinTc} />
+              </div>
+              <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[8px] items-start left-[129px] text-left top-[14px] w-[238px]" data-node-id="476:5187" data-name="Tiêu đề bài viết">
+                <p className="font-['Montserrat:SemiBold'] font-semibold leading-[13px] relative shrink-0 text-[9px] text-[color:var(--gs-primary,#147cc1)] w-[238px]" data-node-id="476:5188">
+                  MÔI TRƯỜNG
+                </p>
+                <div className="font-['Montserrat:SemiBold'] font-semibold leading-[0] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[238px]" data-node-id="476:5189">
+                  <p className="leading-[20px] mb-0">11 triệu tấn rác mỗi ngày:</p>
+                  <p className="leading-[20px]">Chúng ta có thể làm gì?</p>
+                </div>
+                <p className="font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] w-[238px] whitespace-pre-wrap" data-node-id="476:5190">{`5 phút đọc  ·  Tái chế`}</p>
+              </div>
+            </a>
+          </div>
+          <div className="bg-[var(--gs-mint,#edf7fc)] h-[176px] overflow-clip relative rounded-[26px] shrink-0 w-[380px]" data-node-id="476:5192" data-name="Cùng cộng đồng sống xanh">
+            <div className="absolute left-[20px] size-[38px] top-[20px]" data-node-id="476:5193" data-name="Icon / people">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconPeople1} />
+            </div>
+            <div className="[word-break:break-word] absolute font-['Montserrat:Bold'] font-bold leading-[0] left-[72px] text-[20px] text-[color:var(--gs-forest,#164561)] top-[19px] w-[280px]" data-node-id="476:5196">
+              <p className="leading-[28px] mb-0">Đi cùng nhau,</p>
+              <p className="leading-[28px]">xanh hơn mỗi ngày.</p>
+            </div>
+            <div className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[0] left-[20px] text-[12px] text-[color:var(--gs-muted,#456476)] top-[82px] w-[340px]" data-node-id="476:5197">
+              <p className="leading-[17px] mb-0">Chia sẻ một hành động nhỏ để lan tỏa</p>
+              <p className="leading-[17px]">cảm hứng sống xanh đến mọi người.</p>
+            </div>
+            <a className="absolute block cursor-pointer h-[48px] left-[20px] overflow-clip top-[122px] w-[340px]" data-node-id="476:5198" data-name="Liên kết / Ghé cộng đồng →">
+              <p className="[word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-0 text-[13px] text-[color:var(--gs-primary,#147cc1)] text-left top-[14px] w-[340px]" data-node-id="476:5199">
+                Ghé cộng đồng →
+              </p>
+            </a>
+          </div>
+          <p className="[word-break:break-word] font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] text-center w-[380px]" data-node-id="476:5201">
+            Mỗi bước nhỏ của bạn đều có ý nghĩa.
+          </p>
+        </div>
+      </div>
+      <div className="absolute bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid h-[104px] left-0 overflow-clip top-[822px] w-[428px]" data-node-id="476:5202" data-name="Điều hướng chính · Cố định">
+        <div className="absolute content-stretch cursor-pointer flex items-center left-[23px] top-[9px] w-[380px]" data-node-id="476:5203" data-name="Năm mục điều hướng">
+          <button className="block h-[64px] overflow-clip relative shrink-0 w-[76px]" data-node-id="476:5204" data-name="Trang chủ">
+            <div className="absolute bg-[var(--gs-primary,#147cc1)] h-[3px] left-[15px] rounded-[2px] top-[2px] w-[46px]" data-node-id="476:5205" data-name="Rectangle" />
+            <div className="absolute left-[25.5px] size-[25px] top-[9px]" data-node-id="476:5206" data-name="Icon / home">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconHome} />
+            </div>
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[13px] left-[38px] text-[9px] text-[color:var(--gs-primary,#147cc1)] text-center top-[48px] w-[76px]" data-node-id="476:5208">
+              Trang chủ
+            </p>
+          </button>
+          <a className="block h-[64px] overflow-clip relative shrink-0 w-[76px]" data-node-id="476:5210" data-name="Thu gom">
+            <div className="absolute left-[25.5px] size-[25px] top-[9px]" data-node-id="476:5211" data-name="Icon / map">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconMap1} />
+            </div>
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[13px] left-[38px] text-[9px] text-[color:var(--gs-muted,#456476)] text-center top-[48px] w-[76px]" data-node-id="476:5214">
+              Thu gom
+            </p>
+          </a>
+          <a className="block h-[64px] overflow-clip relative shrink-0 w-[76px]" data-node-id="476:5216" data-name="Quét rác">
+            <div className="absolute bg-[var(--gs-primary,#147cc1)] h-[44px] left-[12px] overflow-clip rounded-[16px] top-0 w-[52px]" data-node-id="476:5217" data-name="Nút quét nổi bật">
+              <div className="absolute left-[13px] size-[26px] top-[9px]" data-node-id="476:5218" data-name="Icon / scan">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconScan} />
+              </div>
+            </div>
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[13px] left-[38px] text-[9px] text-[color:var(--gs-muted,#456476)] text-center top-[48px] w-[76px]" data-node-id="476:5220">
+              Quét rác
+            </p>
+          </a>
+          <a className="block h-[64px] overflow-clip relative shrink-0 w-[76px]" data-node-id="476:5222" data-name="Đổi quà">
+            <div className="absolute left-[25.5px] size-[25px] top-[9px]" data-node-id="476:5223" data-name="Icon / gift">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconGift1} />
+            </div>
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[13px] left-[38px] text-[9px] text-[color:var(--gs-muted,#456476)] text-center top-[48px] w-[76px]" data-node-id="476:5226">
+              Đổi quà
+            </p>
+          </a>
+          <a className="block h-[64px] overflow-clip relative shrink-0 w-[76px]" data-node-id="476:5228" data-name="Cá nhân">
+            <div className="absolute left-[25.5px] size-[25px] top-[9px]" data-node-id="476:5229" data-name="Icon / user">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconUser} />
+            </div>
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[13px] left-[38px] text-[9px] text-[color:var(--gs-muted,#456476)] text-center top-[48px] w-[76px]" data-node-id="476:5232">
+              Cá nhân
+            </p>
+          </a>
+        </div>
+      </div>
+      <div className="absolute bg-[var(--gs-forest,#164561)] h-[5px] left-[calc(30%+21.6px)] rounded-[3px] top-[905px] w-[128px]" data-node-id="476:5234" data-name="Rectangle" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

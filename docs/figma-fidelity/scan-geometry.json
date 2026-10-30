@@ -1,0 +1,3285 @@
+[
+  {
+    "id": "386:14194",
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "layers": [
+      {
+        "kind": "image",
+        "id": "386:14195",
+        "source": "imgRectangle247",
+        "x": 0,
+        "y": 0,
+        "w": 428,
+        "h": 164,
+        "opacity": 1,
+        "rotation": 0,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "CROP",
+          "scalingFactor": 0.5,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              1.7763568394002505e-15
+            ],
+            [
+              0,
+              0.2284785509109497,
+              0.32187947630882263
+            ]
+          ],
+          "imageHash": "a644a60cfc01b95d808528c12508ac12aa36713a"
+        },
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14197",
+        "x": 33,
+        "y": 217,
+        "w": 362,
+        "h": 420,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.4000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.658823549747467,
+            "g": 0.8352941274642944,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 20,
+        "topRight": 20,
+        "bottomLeft": 20,
+        "bottomRight": 20,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14198",
+        "source": "imgGroup36700",
+        "x": 87.1845703125,
+        "y": 219.80322265625,
+        "w": 253.6305694580078,
+        "h": 268.0323486328125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14202",
+        "x": 72,
+        "y": 523,
+        "w": 284.7579650878906,
+        "h": 68.2264175415039,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.48627451062202454,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 25,
+        "topRight": 25,
+        "bottomLeft": 25,
+        "bottomRight": 25,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.25
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "id": "386:14203",
+        "x": 148,
+        "y": 546,
+        "w": 133,
+        "h": 23,
+        "opacity": 1,
+        "text": "Scan your waste",
+        "font": {
+          "family": "Inter",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "slnt": 0
+          }
+        },
+        "size": 16,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "id": "I386:14205;47:202",
+        "source": "imgRectangle",
+        "x": 379,
+        "y": 22.3330078125,
+        "w": 22,
+        "h": 11.33349609375,
+        "opacity": 0.3499999940395355,
+        "rotation": 0,
+        "radius": 2.6666667461395264,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14205;47:203",
+        "source": "imgCombinedShape",
+        "x": 402,
+        "y": 25.99951171875,
+        "w": 1.328125,
+        "h": 4,
+        "opacity": 0.4000000059604645,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14205;47:204",
+        "source": "imgRectangle1",
+        "x": 381,
+        "y": 24.3330078125,
+        "w": 18,
+        "h": 7.33349609375,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 1.3333333730697632,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14205;47:205",
+        "source": "imgWifi",
+        "x": 358.693359375,
+        "y": 22.33056640625,
+        "w": 15.2724609375,
+        "h": 10.96533203125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14205;47:209",
+        "source": "imgMobileSignal",
+        "x": 336.666015625,
+        "y": 22.66650390625,
+        "w": 17,
+        "h": 10.666015625,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14205;47:217",
+        "source": "imgTime",
+        "x": 12,
+        "y": 17,
+        "w": 52,
+        "h": 21,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 32,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14206",
+        "source": "imgLine",
+        "x": 143,
+        "y": 915.4404296875,
+        "w": 141,
+        "h": 2.5595703125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "text",
+        "id": "386:14208",
+        "x": 119,
+        "y": 59,
+        "w": 204,
+        "h": 34,
+        "opacity": 1,
+        "text": "Scan your item",
+        "font": {
+          "family": "Inter",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "slnt": 0
+          }
+        },
+        "size": 28,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.19607843458652496,
+              "g": 0.19607843458652496,
+              "b": 0.19607843458652496
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "id": "386:14209",
+        "source": "imgGroup36733",
+        "x": 386,
+        "y": 77,
+        "w": 6,
+        "h": 20,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14214",
+        "source": "imgMessageSquare",
+        "x": 76,
+        "y": 643,
+        "w": 274,
+        "h": 160,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14215",
+        "source": "imgRectangle9",
+        "x": 267,
+        "y": 763,
+        "w": 88.61671447753906,
+        "h": 81.1417236328125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "CROP",
+          "scalingFactor": 0.5,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0.03214148432016373
+            ],
+            [
+              0,
+              0.7733333110809326,
+              0.0969754010438919
+            ]
+          ],
+          "imageHash": "2600e702a690ad014f245f769f576709d6a1b620"
+        },
+        "effects": []
+      },
+      {
+        "kind": "text",
+        "id": "386:14216",
+        "x": 117,
+        "y": 674,
+        "w": 191,
+        "h": 19,
+        "opacity": 1,
+        "text": "Sẵn sàng quét rác chưa?",
+        "font": {
+          "family": "Inter",
+          "style": "Semi Bold",
+          "variationSettings": {
+            "wght": 600,
+            "slnt": 0
+          }
+        },
+        "size": 16,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3173076808452606,
+              "g": 0.3173076808452606,
+              "b": 0.3173076808452606
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "id": "386:14217",
+        "x": 107,
+        "y": 701,
+        "w": 211,
+        "h": 38,
+        "opacity": 1,
+        "text": "nhấn “Scan your waste” để bắt đầu nhé!",
+        "font": {
+          "family": "Inter",
+          "style": "Semi Bold",
+          "variationSettings": {
+            "wght": 600,
+            "slnt": 0
+          }
+        },
+        "size": 16,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "CENTER",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.3173076808452606,
+              "g": 0.3173076808452606,
+              "b": 0.3173076808452606
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "rect",
+        "id": "I386:14219;54616:25486",
+        "x": 26.6669921875,
+        "y": 78.75,
+        "w": 10.791666984558105,
+        "h": 17.5,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.19607843458652496,
+            "b": 0.19607843458652496
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 0.02500000037252903,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "386:14221",
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.0784313753247261,
+          "g": 0.48627451062202454,
+          "b": 0.7568627595901489
+        },
+        "boundVariables": {}
+      }
+    ],
+    "layers": [
+      {
+        "kind": "image",
+        "id": "386:14222",
+        "source": "imgRectangle207",
+        "x": 0,
+        "y": 57,
+        "w": 428,
+        "h": 827,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 20,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "e44b3ba9e8d821c33a83f04632149597e5234193"
+        },
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14223",
+        "x": 0,
+        "y": 57,
+        "w": 428,
+        "h": 828,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.3499999940395355,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8509804010391235,
+            "b": 0.8509804010391235
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 20,
+        "topRight": 20,
+        "bottomLeft": 20,
+        "bottomRight": 20,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14225",
+        "x": 0,
+        "y": 4,
+        "w": 428,
+        "h": 53,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.48627451062202454,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14225;47:202",
+        "source": "imgRectangle",
+        "x": 379,
+        "y": 21.33349609375,
+        "w": 22,
+        "h": 11.33349609375,
+        "opacity": 0.3499999940395355,
+        "rotation": 0,
+        "radius": 2.6666667461395264,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14225;47:203",
+        "source": "imgCombinedShape",
+        "x": 402,
+        "y": 25,
+        "w": 1.328125,
+        "h": 4,
+        "opacity": 0.4000000059604645,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14225;47:204",
+        "source": "imgRectangle1",
+        "x": 381,
+        "y": 23.33349609375,
+        "w": 18,
+        "h": 7.33349609375,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 1.3333333730697632,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14225;47:205",
+        "source": "imgWifi",
+        "x": 358.693359375,
+        "y": 21.33056640625,
+        "w": 15.2724609375,
+        "h": 10.96630859375,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14225;47:209",
+        "source": "imgMobileSignal",
+        "x": 336.666015625,
+        "y": 21.66650390625,
+        "w": 17,
+        "h": 10.666015625,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14225;47:217",
+        "source": "imgTime",
+        "x": 12,
+        "y": 16,
+        "w": 52,
+        "h": 21,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 32,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14226",
+        "source": "imgLine",
+        "x": 143,
+        "y": 915.4404296875,
+        "w": 141,
+        "h": 2.5595703125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14228;8011:21790",
+        "source": "imgVuesaxLinearArrowLeft",
+        "x": 24,
+        "y": 96,
+        "w": 26,
+        "h": 26,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14229",
+        "source": "imgGroup36732",
+        "x": 399,
+        "y": 101,
+        "w": 5,
+        "h": 19,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14233",
+        "source": "imgVector",
+        "x": 74,
+        "y": 96,
+        "w": 24,
+        "h": 24.00048828125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14234",
+        "source": "imgEllipse4",
+        "x": 50,
+        "y": 777,
+        "w": 56,
+        "h": 55,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 27.5,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "1ab1acb609d2a7016e3d7370e9e40c26ff78fdab"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14235",
+        "source": "imgVector1",
+        "x": 333,
+        "y": 784,
+        "w": 40,
+        "h": 40,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14236",
+        "source": "imgEllipse5",
+        "x": 170,
+        "y": 762,
+        "w": 85,
+        "h": 85,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 42.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14237",
+        "source": "imgEllipse6",
+        "x": 175,
+        "y": 767,
+        "w": 75,
+        "h": 75,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 37.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14238",
+        "source": "imgGroup36700",
+        "x": 0,
+        "y": 162,
+        "w": 428,
+        "h": 552,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "386:14264",
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.0784313753247261,
+          "g": 0.48627451062202454,
+          "b": 0.7568627595901489
+        },
+        "boundVariables": {}
+      }
+    ],
+    "layers": [
+      {
+        "kind": "image",
+        "id": "386:14265",
+        "source": "imgRectangle207",
+        "x": 0,
+        "y": 57,
+        "w": 428,
+        "h": 827,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "711c56ec746136a6dcbc28ffcd5e6f1f99f85be2"
+        },
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14266",
+        "x": 0,
+        "y": 57,
+        "w": 428,
+        "h": 828,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.3499999940395355,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8509804010391235,
+            "b": 0.8509804010391235
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14268;47:202",
+        "source": "imgRectangle",
+        "x": 379,
+        "y": 20.333984375,
+        "w": 22,
+        "h": 11.3330078125,
+        "opacity": 0.3499999940395355,
+        "rotation": 0,
+        "radius": 2.6666667461395264,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14268;47:203",
+        "source": "imgCombinedShape",
+        "x": 402,
+        "y": 24.0009765625,
+        "w": 1.328125,
+        "h": 4,
+        "opacity": 0.4000000059604645,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14268;47:204",
+        "source": "imgRectangle1",
+        "x": 381,
+        "y": 22.333984375,
+        "w": 18,
+        "h": 7.3330078125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 1.3333333730697632,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14268;47:205",
+        "source": "imgWifi",
+        "x": 358.693359375,
+        "y": 20.3310546875,
+        "w": 15.2724609375,
+        "h": 10.96484375,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14268;47:209",
+        "source": "imgMobileSignal",
+        "x": 336.666015625,
+        "y": 20.6669921875,
+        "w": 17,
+        "h": 10.666015625,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14268;47:217",
+        "source": "imgTime",
+        "x": 12,
+        "y": 15,
+        "w": 52,
+        "h": 21,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 32,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14269",
+        "source": "imgLine",
+        "x": 143,
+        "y": 915.4404296875,
+        "w": 141,
+        "h": 2.5595703125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14271;8011:21790",
+        "source": "imgVuesaxLinearArrowLeft",
+        "x": 24,
+        "y": 85,
+        "w": 26,
+        "h": 26,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14272",
+        "source": "imgGroup36732",
+        "x": 399,
+        "y": 90,
+        "w": 5,
+        "h": 19,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14276",
+        "source": "imgVector",
+        "x": 74,
+        "y": 85,
+        "w": 24,
+        "h": 24,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14277",
+        "source": "imgEllipse4",
+        "x": 50,
+        "y": 777,
+        "w": 56,
+        "h": 55,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 27.5,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "1ab1acb609d2a7016e3d7370e9e40c26ff78fdab"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14278",
+        "source": "imgVector1",
+        "x": 333,
+        "y": 784,
+        "w": 40,
+        "h": 40,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14279",
+        "source": "imgEllipse5",
+        "x": 170,
+        "y": 762,
+        "w": 85,
+        "h": 85,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 42.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14280",
+        "source": "imgEllipse6",
+        "x": 175,
+        "y": 767,
+        "w": 75,
+        "h": 75,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 37.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14281",
+        "source": "imgGroup36700",
+        "x": 0,
+        "y": 162,
+        "w": 428,
+        "h": 552,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14284",
+        "x": 0,
+        "y": 54,
+        "w": 428,
+        "h": 832,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.6000000238418579,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8509804010391235,
+            "g": 0.8509804010391235,
+            "b": 0.8509804010391235
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14286",
+        "x": 54,
+        "y": 359.4765625,
+        "w": 320,
+        "h": 220.29165649414062,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 16,
+        "topRight": 16,
+        "bottomLeft": 16,
+        "bottomRight": 16,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14288",
+        "x": 64,
+        "y": 479,
+        "w": 149,
+        "h": 47,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.699999988079071,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.658823549747467,
+            "g": 0.8352941274642944,
+            "b": 0.9411764740943909
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 25,
+        "topRight": 25,
+        "bottomLeft": 25,
+        "bottomRight": 25,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.25
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "id": "386:14289",
+        "x": 99.0634765625,
+        "y": 492.4287109375,
+        "w": 57.891719818115234,
+        "h": 15.946428298950195,
+        "opacity": 1,
+        "text": "Quét lại",
+        "font": {
+          "family": "Inter",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "slnt": 0
+          }
+        },
+        "size": 14,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.33173078298568726,
+              "g": 0.33173078298568726,
+              "b": 0.33173078298568726
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "id": "386:14290",
+        "source": "imgArrowRefresh01",
+        "x": 163,
+        "y": 491,
+        "w": 24,
+        "h": 24,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14292",
+        "x": 223,
+        "y": 479,
+        "w": 145,
+        "h": 47,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.48627451062202454,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 25,
+        "topRight": 25,
+        "bottomLeft": 25,
+        "bottomRight": 25,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.25
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "id": "386:14294",
+        "x": 248,
+        "y": 494,
+        "w": 69,
+        "h": 16,
+        "opacity": 1,
+        "text": "Sổ tay rác",
+        "font": {
+          "family": "Inter",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "slnt": 0
+          }
+        },
+        "size": 14,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "id": "I386:14295;8011:21790",
+        "source": "imgVuesaxLinearArrowLeft1",
+        "x": 323,
+        "y": 493,
+        "w": 20,
+        "h": 21,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14297",
+        "x": 339,
+        "y": 375,
+        "w": 20,
+        "h": 20,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9312000274658203,
+            "g": 0.9686400294303894,
+            "b": 0.9887999892234802
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 20,
+        "topRight": 20,
+        "bottomLeft": 20,
+        "bottomRight": 20,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.25
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ]
+      },
+      {
+        "kind": "rect",
+        "id": "I386:14298;54616:25406",
+        "x": 344.3330078125,
+        "y": 380.3330078125,
+        "w": 9.333333015441895,
+        "h": 9.333333015441895,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.10588235408067703,
+            "b": 0.125490203499794
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:d708be20513001c4083ed24c1e58c2fdaca456b3/57299:22441"
+            }
+          }
+        },
+        "strokes": [],
+        "stroke": 0.02500000037252903,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "text",
+        "id": "386:14300",
+        "x": 135,
+        "y": 395,
+        "w": 194,
+        "h": 42,
+        "opacity": 1,
+        "text": "Không nhận diện được rác",
+        "font": {
+          "family": "Roboto",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "wdth": 100
+          }
+        },
+        "size": 18,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 3
+        },
+        "align": "CENTER",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2874999940395355,
+              "g": 0.2874999940395355,
+              "b": 0.2874999940395355
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "id": "386:14301",
+        "source": "imgGroup",
+        "x": 99,
+        "y": 396.75,
+        "w": 17,
+        "h": 38.25,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "386:14309",
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.0784313753247261,
+          "g": 0.48627451062202454,
+          "b": 0.7568627595901489
+        },
+        "boundVariables": {}
+      }
+    ],
+    "layers": [
+      {
+        "kind": "image",
+        "id": "386:14310",
+        "source": "imgRectangle207",
+        "x": 0,
+        "y": 59,
+        "w": 428,
+        "h": 827,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "e44b3ba9e8d821c33a83f04632149597e5234193"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14312;47:202",
+        "source": "imgRectangle",
+        "x": 381,
+        "y": 19.3330078125,
+        "w": 22,
+        "h": 11.33349609375,
+        "opacity": 0.3499999940395355,
+        "rotation": 0,
+        "radius": 2.6666667461395264,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14312;47:203",
+        "source": "imgCombinedShape",
+        "x": 404,
+        "y": 22.99951171875,
+        "w": 1.328125,
+        "h": 4,
+        "opacity": 0.4000000059604645,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14312;47:204",
+        "source": "imgRectangle1",
+        "x": 383,
+        "y": 21.3330078125,
+        "w": 18,
+        "h": 7.33349609375,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 1.3333333730697632,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14312;47:205",
+        "source": "imgWifi",
+        "x": 360.693359375,
+        "y": 19.33056640625,
+        "w": 15.2724609375,
+        "h": 10.96533203125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14312;47:209",
+        "source": "imgMobileSignal",
+        "x": 338.666015625,
+        "y": 19.66650390625,
+        "w": 17,
+        "h": 10.666015625,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14312;47:217",
+        "source": "imgTime",
+        "x": 14,
+        "y": 14,
+        "w": 52,
+        "h": 21,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 32,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14313",
+        "source": "imgLine",
+        "x": 143,
+        "y": 915.4404296875,
+        "w": 141,
+        "h": 2.5595703125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:14315;8011:21790",
+        "source": "imgVuesaxLinearArrowLeft",
+        "x": 24,
+        "y": 85,
+        "w": 26,
+        "h": 26,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14316",
+        "source": "imgGroup36732",
+        "x": 399,
+        "y": 90,
+        "w": 5,
+        "h": 19,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14320",
+        "source": "imgVector",
+        "x": 74,
+        "y": 85,
+        "w": 24,
+        "h": 24.00048828125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14321",
+        "source": "imgEllipse4",
+        "x": 50,
+        "y": 777,
+        "w": 56,
+        "h": 55,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 27.5,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "1ab1acb609d2a7016e3d7370e9e40c26ff78fdab"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14322",
+        "source": "imgVector1",
+        "x": 333,
+        "y": 784,
+        "w": 40,
+        "h": 40,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14323",
+        "source": "imgEllipse5",
+        "x": 170,
+        "y": 762,
+        "w": 85,
+        "h": 85,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 42.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14324",
+        "source": "imgEllipse6",
+        "x": 175,
+        "y": 767,
+        "w": 75,
+        "h": 75,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 37.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14326",
+        "x": 0,
+        "y": 162,
+        "w": 428,
+        "h": 477,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 10,
+        "topRight": 10,
+        "bottomLeft": 10,
+        "bottomRight": 10,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14329",
+        "x": 1,
+        "y": 59,
+        "w": 427,
+        "h": 132,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14330",
+        "x": -1,
+        "y": 191,
+        "w": 107,
+        "h": 695,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14331",
+        "x": 106,
+        "y": 762,
+        "w": 215,
+        "h": 124,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14332",
+        "x": 321,
+        "y": 191,
+        "w": 107,
+        "h": 695,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:14333",
+        "source": "imgGroup36931",
+        "x": 105,
+        "y": 188.99560546875,
+        "w": 217.0869140625,
+        "h": 573.00439453125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14339",
+        "x": 59,
+        "y": 561,
+        "w": 310.84967041015625,
+        "h": 103,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 16,
+        "topRight": 16,
+        "bottomLeft": 16,
+        "bottomRight": 16,
+        "effects": []
+      },
+      {
+        "kind": "text",
+        "id": "386:14340",
+        "x": 193,
+        "y": 586,
+        "w": 81,
+        "h": 17,
+        "opacity": 1,
+        "text": "Kết quả",
+        "font": {
+          "family": "Roboto",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "wdth": 100
+          }
+        },
+        "size": 16,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 3
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.5480769276618958,
+              "g": 0.5269970297813416,
+              "b": 0.5269970297813416
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "id": "386:14341",
+        "x": 175,
+        "y": 610,
+        "w": 110,
+        "h": 20,
+        "opacity": 1,
+        "text": "Chai nhựa",
+        "font": {
+          "family": "Roboto",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "wdth": 100
+          }
+        },
+        "size": 20,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 3
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.2874999940395355,
+              "g": 0.2874999940395355,
+              "b": 0.2874999940395355
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "id": "386:14342",
+        "source": "imgImage13",
+        "x": 83,
+        "y": 567,
+        "w": 60,
+        "h": 97,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "8e656d74821dd7f257194c4199aa08b49d5b3ae9"
+        },
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:14344",
+        "x": 90,
+        "y": 705,
+        "w": 247,
+        "h": 56,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0784313753247261,
+            "g": 0.48627451062202454,
+            "b": 0.7568627595901489
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 25,
+        "topRight": 25,
+        "bottomLeft": 25,
+        "bottomRight": 25,
+        "effects": [
+          {
+            "type": "DROP_SHADOW",
+            "visible": true,
+            "radius": 4,
+            "boundVariables": {},
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.25
+            },
+            "offset": {
+              "x": 0,
+              "y": 4
+            },
+            "spread": 0,
+            "blendMode": "NORMAL",
+            "showShadowBehindNode": false
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "id": "386:14345",
+        "x": 171,
+        "y": 723,
+        "w": 84,
+        "h": 19,
+        "opacity": 1,
+        "text": "Chi tiết .....",
+        "font": {
+          "family": "Inter",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "slnt": 0
+          }
+        },
+        "size": 16,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "386:16189",
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.0784313753247261,
+          "g": 0.48627451062202454,
+          "b": 0.7568627595901489
+        },
+        "boundVariables": {}
+      }
+    ],
+    "layers": [
+      {
+        "kind": "image",
+        "id": "386:16190",
+        "source": "imgRectangle207",
+        "x": 0,
+        "y": 59,
+        "w": 428,
+        "h": 827,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "e44b3ba9e8d821c33a83f04632149597e5234193"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16192;47:202",
+        "source": "imgRectangle",
+        "x": 381,
+        "y": 19.3330078125,
+        "w": 22,
+        "h": 11.33349609375,
+        "opacity": 0.3499999940395355,
+        "rotation": 0,
+        "radius": 2.6666667461395264,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16192;47:203",
+        "source": "imgCombinedShape",
+        "x": 404,
+        "y": 22.99951171875,
+        "w": 1.328125,
+        "h": 4,
+        "opacity": 0.4000000059604645,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16192;47:204",
+        "source": "imgRectangle1",
+        "x": 383,
+        "y": 21.3330078125,
+        "w": 18,
+        "h": 7.33349609375,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 1.3333333730697632,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16192;47:205",
+        "source": "imgWifi",
+        "x": 360.693359375,
+        "y": 19.33056640625,
+        "w": 15.2724609375,
+        "h": 10.96533203125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16192;47:209",
+        "source": "imgMobileSignal",
+        "x": 338.666015625,
+        "y": 19.66650390625,
+        "w": 17,
+        "h": 10.666015625,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16192;47:217",
+        "source": "imgTime",
+        "x": 14,
+        "y": 14,
+        "w": 52,
+        "h": 21,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 32,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16193",
+        "source": "imgLine",
+        "x": 143,
+        "y": 915.4404296875,
+        "w": 141,
+        "h": 2.5595703125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16195;8011:21790",
+        "source": "imgVuesaxLinearArrowLeft",
+        "x": 24,
+        "y": 85,
+        "w": 26,
+        "h": 26,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16196",
+        "source": "imgGroup36732",
+        "x": 399,
+        "y": 90,
+        "w": 5,
+        "h": 19,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16200",
+        "source": "imgVector",
+        "x": 74,
+        "y": 85,
+        "w": 24,
+        "h": 24.00048828125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16201",
+        "source": "imgEllipse4",
+        "x": 50,
+        "y": 777,
+        "w": 56,
+        "h": 55,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 27.5,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "1ab1acb609d2a7016e3d7370e9e40c26ff78fdab"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16202",
+        "source": "imgVector1",
+        "x": 333,
+        "y": 784,
+        "w": 40,
+        "h": 40,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16203",
+        "source": "imgEllipse5",
+        "x": 170,
+        "y": 762,
+        "w": 85,
+        "h": 85,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 42.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16204",
+        "source": "imgEllipse6",
+        "x": 175,
+        "y": 767,
+        "w": 75,
+        "h": 75,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 37.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16206",
+        "x": 0,
+        "y": 162,
+        "w": 428,
+        "h": 477,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 10,
+        "topRight": 10,
+        "bottomLeft": 10,
+        "bottomRight": 10,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16209",
+        "x": 1,
+        "y": 59,
+        "w": 427,
+        "h": 132,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16210",
+        "x": -1,
+        "y": 191,
+        "w": 107,
+        "h": 695,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16211",
+        "x": 106,
+        "y": 767,
+        "w": 215,
+        "h": 119,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16212",
+        "x": 321,
+        "y": 191,
+        "w": 107,
+        "h": 695,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16213",
+        "source": "imgGroup36931",
+        "x": 105,
+        "y": 189.99560546875,
+        "w": 217.0947265625,
+        "h": 576.00439453125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "386:16218",
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 0.0784313753247261,
+          "g": 0.48627451062202454,
+          "b": 0.7568627595901489
+        },
+        "boundVariables": {}
+      }
+    ],
+    "layers": [
+      {
+        "kind": "image",
+        "id": "386:16219",
+        "source": "imgRectangle207",
+        "x": 0,
+        "y": 59,
+        "w": 428,
+        "h": 827,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "e44b3ba9e8d821c33a83f04632149597e5234193"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16221;47:202",
+        "source": "imgRectangle",
+        "x": 381,
+        "y": 19.3330078125,
+        "w": 22,
+        "h": 11.33349609375,
+        "opacity": 0.3499999940395355,
+        "rotation": 0,
+        "radius": 2.6666667461395264,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16221;47:203",
+        "source": "imgCombinedShape",
+        "x": 404,
+        "y": 22.99951171875,
+        "w": 1.328125,
+        "h": 4,
+        "opacity": 0.4000000059604645,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16221;47:204",
+        "source": "imgRectangle1",
+        "x": 383,
+        "y": 21.3330078125,
+        "w": 18,
+        "h": 7.33349609375,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 1.3333333730697632,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16221;47:205",
+        "source": "imgWifi",
+        "x": 360.693359375,
+        "y": 19.33056640625,
+        "w": 15.2724609375,
+        "h": 10.96533203125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16221;47:209",
+        "source": "imgMobileSignal",
+        "x": 338.666015625,
+        "y": 19.66650390625,
+        "w": 17,
+        "h": 10.666015625,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16221;47:217",
+        "source": "imgTime",
+        "x": 14,
+        "y": 14,
+        "w": 52,
+        "h": 21,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 32,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16222",
+        "source": "imgLine",
+        "x": 143,
+        "y": 915.4404296875,
+        "w": 141,
+        "h": 2.5595703125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "I386:16224;8011:21790",
+        "source": "imgVuesaxLinearArrowLeft",
+        "x": 24,
+        "y": 85,
+        "w": 26,
+        "h": 26,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16225",
+        "source": "imgGroup36732",
+        "x": 399,
+        "y": 90,
+        "w": 5,
+        "h": 19,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16229",
+        "source": "imgVector",
+        "x": 74,
+        "y": 85,
+        "w": 24,
+        "h": 24.00048828125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16230",
+        "source": "imgEllipse4",
+        "x": 50,
+        "y": 777,
+        "w": 56,
+        "h": 55,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 27.5,
+        "fill": {
+          "type": "IMAGE",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "scaleMode": "FILL",
+          "scalingFactor": 0.5,
+          "rotation": 0,
+          "filters": {
+            "exposure": 0,
+            "contrast": 0,
+            "saturation": 0,
+            "temperature": 0,
+            "tint": 0,
+            "highlights": 0,
+            "shadows": 0
+          },
+          "imageTransform": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "imageHash": "1ab1acb609d2a7016e3d7370e9e40c26ff78fdab"
+        },
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16231",
+        "source": "imgVector1",
+        "x": 333,
+        "y": 784,
+        "w": 40,
+        "h": 40,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16232",
+        "source": "imgEllipse5",
+        "x": 170,
+        "y": 762,
+        "w": 85,
+        "h": 85,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 42.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16233",
+        "source": "imgEllipse6",
+        "x": 175,
+        "y": 767,
+        "w": 75,
+        "h": 75,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 37.5,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16235",
+        "x": 0,
+        "y": 162,
+        "w": 428,
+        "h": 477,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 10,
+        "topRight": 10,
+        "bottomLeft": 10,
+        "bottomRight": 10,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16238",
+        "x": 1,
+        "y": 59,
+        "w": 427,
+        "h": 132,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16239",
+        "x": -1,
+        "y": 191,
+        "w": 107,
+        "h": 695,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16240",
+        "x": 106,
+        "y": 767,
+        "w": 215,
+        "h": 119,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16241",
+        "x": 321,
+        "y": 191,
+        "w": 107,
+        "h": 695,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.5299999713897705,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.13942307233810425,
+            "g": 0.13942307233810425,
+            "b": 0.13942307233810425
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 0,
+        "topRight": 0,
+        "bottomLeft": 0,
+        "bottomRight": 0,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16242",
+        "source": "imgGroup36931",
+        "x": 105,
+        "y": 189.99560546875,
+        "w": 217.0947265625,
+        "h": 576.00439453125,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      },
+      {
+        "kind": "rect",
+        "id": "386:16248",
+        "x": 92,
+        "y": 356,
+        "w": 245,
+        "h": 147,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9312000274658203,
+            "g": 0.9686400294303894,
+            "b": 0.9887999892234802
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 25,
+        "topRight": 25,
+        "bottomLeft": 25,
+        "bottomRight": 25,
+        "effects": []
+      },
+      {
+        "kind": "text",
+        "id": "386:16249",
+        "x": 139,
+        "y": 456,
+        "w": 151,
+        "h": 22,
+        "opacity": 1,
+        "text": "Quét thành công!",
+        "font": {
+          "family": "Inter",
+          "style": "Semi Bold",
+          "variationSettings": {
+            "wght": 600,
+            "slnt": 0
+          }
+        },
+        "size": 18,
+        "lineHeight": {
+          "unit": "AUTO"
+        },
+        "spacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "align": "LEFT",
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "kind": "rect",
+        "id": "386:16251",
+        "x": 170,
+        "y": 374,
+        "w": 89,
+        "h": 66,
+        "opacity": 1,
+        "fill": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.4099999964237213,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        },
+        "strokes": [],
+        "stroke": 1,
+        "topLeft": 20,
+        "topRight": 20,
+        "bottomLeft": 20,
+        "bottomRight": 20,
+        "effects": []
+      },
+      {
+        "kind": "image",
+        "id": "386:16252",
+        "source": "imgCheckboxOn",
+        "x": 195.4296875,
+        "y": 384.2666015625,
+        "w": 38.142852783203125,
+        "h": 44,
+        "opacity": 1,
+        "rotation": 0,
+        "radius": 0,
+        "fill": null,
+        "effects": []
+      }
+    ]
+  }
+]

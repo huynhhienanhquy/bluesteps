@@ -1,0 +1,3438 @@
+{
+  "version": "0.2.0",
+  "operations": [
+    {
+      "operationId": "delete_v1_articles_id_reaction",
+      "method": "DELETE",
+      "path": "/v1/articles/{id}/reaction",
+      "ownerEpic": "S01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NEWS",
+      "contractPacket": "NEWS-SPEC",
+      "expectedContractPath": "contracts/capabilities/news.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_me_blocks_userId",
+      "method": "DELETE",
+      "path": "/v1/me/blocks/{userId}",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_me_event_collections_id",
+      "method": "DELETE",
+      "path": "/v1/me/event-collections/{id}",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "COLLECTIONS",
+      "contractPacket": "COLLECTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/collections.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_me_follows_userId",
+      "method": "DELETE",
+      "path": "/v1/me/follows/{userId}",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_me_push_devices_id",
+      "method": "DELETE",
+      "path": "/v1/me/push-devices/{id}",
+      "ownerEpic": "N01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NOTIFY-INBOX",
+      "contractPacket": "NOTIFY-INBOX-SPEC",
+      "expectedContractPath": "contracts/capabilities/notify-inbox.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_me_saved_events_eventId",
+      "method": "DELETE",
+      "path": "/v1/me/saved-events/{eventId}",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SAVED-CORE",
+      "contractPacket": "SAVED-CORE-SPEC",
+      "expectedContractPath": "contracts/capabilities/saved-core.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_me_saved_posts_id",
+      "method": "DELETE",
+      "path": "/v1/me/saved-posts/{id}",
+      "ownerEpic": "S04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-ACTIONS",
+      "contractPacket": "SOCIAL-ACTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-actions.openapi.json"
+    },
+    {
+      "operationId": "auth_revoke_session",
+      "method": "DELETE",
+      "path": "/v1/me/sessions/{id}",
+      "ownerEpic": "F03",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1me~1sessions~1{id}/delete",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "AUTH-TOKENS",
+      "contractPacket": "AUTH-TOKENS-SPEC"
+    },
+    {
+      "operationId": "delete_v1_me_status_note",
+      "method": "DELETE",
+      "path": "/v1/me/status-note",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "MOOD-NOTES",
+      "contractPacket": "MOOD-NOTES-SPEC",
+      "expectedContractPath": "contracts/capabilities/mood-notes.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_posts_id",
+      "method": "DELETE",
+      "path": "/v1/posts/{id}",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "delete_v1_posts_id_reaction",
+      "method": "DELETE",
+      "path": "/v1/posts/{id}/reaction",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "health_live",
+      "method": "GET",
+      "path": "/health/live",
+      "ownerEpic": "F01",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1health~1live/get",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "public",
+      "ownerCapability": "API-BASE",
+      "contractPacket": "API-BASE-SPEC"
+    },
+    {
+      "operationId": "get_v1_admin_review_queue",
+      "method": "GET",
+      "path": "/v1/admin/review-queue",
+      "ownerEpic": "R05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "MODERATION",
+      "contractPacket": "MODERATION-SPEC",
+      "expectedContractPath": "contracts/capabilities/moderation.openapi.json"
+    },
+    {
+      "operationId": "get_v1_articles",
+      "method": "GET",
+      "path": "/v1/articles",
+      "ownerEpic": "S01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NEWS",
+      "contractPacket": "NEWS-SPEC",
+      "expectedContractPath": "contracts/capabilities/news.openapi.json"
+    },
+    {
+      "operationId": "get_v1_articles_id",
+      "method": "GET",
+      "path": "/v1/articles/{id}",
+      "ownerEpic": "S01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NEWS",
+      "contractPacket": "NEWS-SPEC",
+      "expectedContractPath": "contracts/capabilities/news.openapi.json"
+    },
+    {
+      "operationId": "get_v1_articles_id_comments",
+      "method": "GET",
+      "path": "/v1/articles/{id}/comments",
+      "ownerEpic": "S01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NEWS",
+      "contractPacket": "NEWS-SPEC",
+      "expectedContractPath": "contracts/capabilities/news.openapi.json"
+    },
+    {
+      "operationId": "get_v1_assistant_conversations_id",
+      "method": "GET",
+      "path": "/v1/assistant/conversations/{id}",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "get_v1_bootstrap",
+      "method": "GET",
+      "path": "/v1/bootstrap",
+      "ownerEpic": "F05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ONBOARD-PREFS",
+      "contractPacket": "ONBOARD-PREFS-SPEC",
+      "expectedContractPath": "contracts/capabilities/onboard-prefs.openapi.json"
+    },
+    {
+      "operationId": "get_v1_collection_points",
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "ownerEpic": "C06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POINTS-GEO",
+      "contractPacket": "POINTS-GEO-SPEC",
+      "expectedContractPath": "contracts/capabilities/points-geo.openapi.json"
+    },
+    {
+      "operationId": "get_v1_collection_points_id",
+      "method": "GET",
+      "path": "/v1/collection-points/{id}",
+      "ownerEpic": "C06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POINTS-GEO",
+      "contractPacket": "POINTS-GEO-SPEC",
+      "expectedContractPath": "contracts/capabilities/points-geo.openapi.json"
+    },
+    {
+      "operationId": "get_v1_collection_points_id_reviews",
+      "method": "GET",
+      "path": "/v1/collection-points/{id}/reviews",
+      "ownerEpic": "R05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POINT-REPORT",
+      "contractPacket": "POINT-REPORT-SPEC",
+      "expectedContractPath": "contracts/capabilities/point-report.openapi.json"
+    },
+    {
+      "operationId": "get_v1_content_metrics",
+      "method": "GET",
+      "path": "/v1/content-metrics",
+      "ownerEpic": "S01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NEWS",
+      "contractPacket": "NEWS-SPEC",
+      "expectedContractPath": "contracts/capabilities/news.openapi.json"
+    },
+    {
+      "operationId": "get_v1_conversations",
+      "method": "GET",
+      "path": "/v1/conversations",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "get_v1_conversations_id",
+      "method": "GET",
+      "path": "/v1/conversations/{id}",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "get_v1_conversations_id_messages",
+      "method": "GET",
+      "path": "/v1/conversations/{id}/messages",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "get_v1_events",
+      "method": "GET",
+      "path": "/v1/events",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "get_v1_events_id",
+      "method": "GET",
+      "path": "/v1/events/{id}",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "get_v1_events_id_album",
+      "method": "GET",
+      "path": "/v1/events/{id}/album",
+      "ownerEpic": "E06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EVENT-ALBUM",
+      "contractPacket": "EVENT-ALBUM-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-album.openapi.json"
+    },
+    {
+      "operationId": "get_v1_events_id_impact",
+      "method": "GET",
+      "path": "/v1/events/{id}/impact",
+      "ownerEpic": "E06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EVENT-ALBUM",
+      "contractPacket": "EVENT-ALBUM-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-album.openapi.json"
+    },
+    {
+      "operationId": "get_v1_game_rooms",
+      "method": "GET",
+      "path": "/v1/game-rooms",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-LOBBY",
+      "contractPacket": "GAME-LOBBY-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-lobby.openapi.json"
+    },
+    {
+      "operationId": "get_v1_games",
+      "method": "GET",
+      "path": "/v1/games",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-ENGINE",
+      "contractPacket": "GAME-ENGINE-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-engine.openapi.json"
+    },
+    {
+      "operationId": "get_v1_home",
+      "method": "GET",
+      "path": "/v1/home",
+      "ownerEpic": "C08",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "HOME",
+      "contractPacket": "HOME-SPEC",
+      "expectedContractPath": "contracts/capabilities/home.openapi.json"
+    },
+    {
+      "operationId": "get_v1_leaderboard",
+      "method": "GET",
+      "path": "/v1/leaderboard",
+      "ownerEpic": "R01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "LEVELS",
+      "contractPacket": "LEVELS-SPEC",
+      "expectedContractPath": "contracts/capabilities/levels.openapi.json"
+    },
+    {
+      "operationId": "get_v1_levels",
+      "method": "GET",
+      "path": "/v1/levels",
+      "ownerEpic": "R01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "LEVELS",
+      "contractPacket": "LEVELS-SPEC",
+      "expectedContractPath": "contracts/capabilities/levels.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me",
+      "method": "GET",
+      "path": "/v1/me",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "PROFILE",
+      "contractPacket": "PROFILE-SPEC",
+      "expectedContractPath": "contracts/capabilities/profile.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_activity",
+      "method": "GET",
+      "path": "/v1/me/activity",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "PROFILE",
+      "contractPacket": "PROFILE-SPEC",
+      "expectedContractPath": "contracts/capabilities/profile.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_badges",
+      "method": "GET",
+      "path": "/v1/me/badges",
+      "ownerEpic": "R01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "LEVELS",
+      "contractPacket": "LEVELS-SPEC",
+      "expectedContractPath": "contracts/capabilities/levels.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_calendar",
+      "method": "GET",
+      "path": "/v1/me/calendar",
+      "ownerEpic": "E02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EVENT-CALENDAR",
+      "contractPacket": "EVENT-CALENDAR-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-calendar.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_event_collections",
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "COLLECTIONS",
+      "contractPacket": "COLLECTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/collections.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_event_collections_id",
+      "method": "GET",
+      "path": "/v1/me/event-collections/{id}",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "COLLECTIONS",
+      "contractPacket": "COLLECTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/collections.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_event_reminders",
+      "method": "GET",
+      "path": "/v1/me/event-reminders",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EVENT-REMINDER",
+      "contractPacket": "EVENT-REMINDER-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-reminder.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_friends",
+      "method": "GET",
+      "path": "/v1/me/friends",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_game_schedules",
+      "method": "GET",
+      "path": "/v1/me/game-schedules",
+      "ownerEpic": "G03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-EXT-IMPLEMENT",
+      "contractPacket": "GAME-EXT-IMPLEMENT-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-ext-implement.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_notifications",
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "ownerEpic": "N01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NOTIFY-INBOX",
+      "contractPacket": "NOTIFY-INBOX-SPEC",
+      "expectedContractPath": "contracts/capabilities/notify-inbox.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_point_transactions",
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "ownerEpic": "R01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "WALLET-READ",
+      "contractPacket": "WALLET-READ-SPEC",
+      "expectedContractPath": "contracts/capabilities/wallet-read.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_preferences",
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SETTINGS",
+      "contractPacket": "SETTINGS-SPEC",
+      "expectedContractPath": "contracts/capabilities/settings.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_redemptions",
+      "method": "GET",
+      "path": "/v1/me/redemptions",
+      "ownerEpic": "R04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "FULFILL",
+      "contractPacket": "FULFILL-SPEC",
+      "expectedContractPath": "contracts/capabilities/fulfill.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_registrations",
+      "method": "GET",
+      "path": "/v1/me/registrations",
+      "ownerEpic": "E03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REGISTRATION",
+      "contractPacket": "REGISTRATION-SPEC",
+      "expectedContractPath": "contracts/capabilities/registration.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_reminders_daily",
+      "method": "GET",
+      "path": "/v1/me/reminders/daily",
+      "ownerEpic": "R02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "DAILY-REMINDER",
+      "contractPacket": "DAILY-REMINDER-SPEC",
+      "expectedContractPath": "contracts/capabilities/daily-reminder.openapi.json"
+    },
+    {
+      "operationId": "auth_list_sessions",
+      "method": "GET",
+      "path": "/v1/me/sessions",
+      "ownerEpic": "F03",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1me~1sessions/get",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "AUTH-TOKENS",
+      "contractPacket": "AUTH-TOKENS-SPEC"
+    },
+    {
+      "operationId": "get_v1_me_statistics",
+      "method": "GET",
+      "path": "/v1/me/statistics",
+      "ownerEpic": "A01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "STATS",
+      "contractPacket": "STATS-SPEC",
+      "expectedContractPath": "contracts/capabilities/stats.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_tickets",
+      "method": "GET",
+      "path": "/v1/me/tickets",
+      "ownerEpic": "E04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "TICKET",
+      "contractPacket": "TICKET-SPEC",
+      "expectedContractPath": "contracts/capabilities/ticket.openapi.json"
+    },
+    {
+      "operationId": "get_v1_me_wallet",
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "ownerEpic": "R01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "WALLET-READ",
+      "contractPacket": "WALLET-READ-SPEC",
+      "expectedContractPath": "contracts/capabilities/wallet-read.openapi.json"
+    },
+    {
+      "operationId": "get_v1_point_rules",
+      "method": "GET",
+      "path": "/v1/point-rules",
+      "ownerEpic": "C05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POINT-EARN",
+      "contractPacket": "POINT-EARN-SPEC",
+      "expectedContractPath": "contracts/capabilities/point-earn.openapi.json"
+    },
+    {
+      "operationId": "get_v1_posts",
+      "method": "GET",
+      "path": "/v1/posts",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "get_v1_posts_id",
+      "method": "GET",
+      "path": "/v1/posts/{id}",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "get_v1_posts_id_comments",
+      "method": "GET",
+      "path": "/v1/posts/{id}/comments",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "get_v1_redemptions_id",
+      "method": "GET",
+      "path": "/v1/redemptions/{id}",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REDEEM-ATOMIC",
+      "contractPacket": "REDEEM-ATOMIC-SPEC",
+      "expectedContractPath": "contracts/capabilities/redeem-atomic.openapi.json"
+    },
+    {
+      "operationId": "get_v1_rewards",
+      "method": "GET",
+      "path": "/v1/rewards",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REWARD-CATALOG",
+      "contractPacket": "REWARD-CATALOG-SPEC",
+      "expectedContractPath": "contracts/capabilities/reward-catalog.openapi.json"
+    },
+    {
+      "operationId": "get_v1_rewards_id",
+      "method": "GET",
+      "path": "/v1/rewards/{id}",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REWARD-CATALOG",
+      "contractPacket": "REWARD-CATALOG-SPEC",
+      "expectedContractPath": "contracts/capabilities/reward-catalog.openapi.json"
+    },
+    {
+      "operationId": "get_v1_routes_id",
+      "method": "GET",
+      "path": "/v1/routes/{id}",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "get_v1_routes_id_alternatives",
+      "method": "GET",
+      "path": "/v1/routes/{id}/alternatives",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "get_v1_scans_id",
+      "method": "GET",
+      "path": "/v1/scans/{id}",
+      "ownerEpic": "C04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SCAN-JOB",
+      "contractPacket": "SCAN-JOB-SPEC",
+      "expectedContractPath": "contracts/capabilities/scan-job.openapi.json"
+    },
+    {
+      "operationId": "get_v1_statistics_community",
+      "method": "GET",
+      "path": "/v1/statistics/community",
+      "ownerEpic": "A01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "STATS",
+      "contractPacket": "STATS-SPEC",
+      "expectedContractPath": "contracts/capabilities/stats.openapi.json"
+    },
+    {
+      "operationId": "get_v1_status_notes",
+      "method": "GET",
+      "path": "/v1/status-notes",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "MOOD-NOTES",
+      "contractPacket": "MOOD-NOTES-SPEC",
+      "expectedContractPath": "contracts/capabilities/mood-notes.openapi.json"
+    },
+    {
+      "operationId": "get_v1_tickets_id",
+      "method": "GET",
+      "path": "/v1/tickets/{id}",
+      "ownerEpic": "E04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "TICKET",
+      "contractPacket": "TICKET-SPEC",
+      "expectedContractPath": "contracts/capabilities/ticket.openapi.json"
+    },
+    {
+      "operationId": "get_v1_users_id",
+      "method": "GET",
+      "path": "/v1/users/{id}",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "get_v1_users_id_posts",
+      "method": "GET",
+      "path": "/v1/users/{id}/posts",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "get_v1_waste_categories",
+      "method": "GET",
+      "path": "/v1/waste-categories",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "TAXONOMY",
+      "contractPacket": "TAXONOMY-SPEC",
+      "expectedContractPath": "contracts/capabilities/taxonomy.openapi.json"
+    },
+    {
+      "operationId": "get_v1_waste_items",
+      "method": "GET",
+      "path": "/v1/waste-items",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "TAXONOMY",
+      "contractPacket": "TAXONOMY-SPEC",
+      "expectedContractPath": "contracts/capabilities/taxonomy.openapi.json"
+    },
+    {
+      "operationId": "get_v1_waste_items_id",
+      "method": "GET",
+      "path": "/v1/waste-items/{id}",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "TAXONOMY",
+      "contractPacket": "TAXONOMY-SPEC",
+      "expectedContractPath": "contracts/capabilities/taxonomy.openapi.json"
+    },
+    {
+      "operationId": "get_v1_waste_items_id_instructions",
+      "method": "GET",
+      "path": "/v1/waste-items/{id}/instructions",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "TAXONOMY",
+      "contractPacket": "TAXONOMY-SPEC",
+      "expectedContractPath": "contracts/capabilities/taxonomy.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_articles_id",
+      "method": "PATCH",
+      "path": "/v1/admin/articles/{id}",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "CONTENT-ADMIN",
+      "contractPacket": "CONTENT-ADMIN-SPEC",
+      "expectedContractPath": "contracts/capabilities/content-admin.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_event_occurrences_id",
+      "method": "PATCH",
+      "path": "/v1/admin/event-occurrences/{id}",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_event_roles_id",
+      "method": "PATCH",
+      "path": "/v1/admin/event-roles/{id}",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_event_staff_id",
+      "method": "PATCH",
+      "path": "/v1/admin/event-staff/{id}",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_events_id",
+      "method": "PATCH",
+      "path": "/v1/admin/events/{id}",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_knowledge_sources_id",
+      "method": "PATCH",
+      "path": "/v1/admin/knowledge-sources/{id}",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "CONTENT-ADMIN",
+      "contractPacket": "CONTENT-ADMIN-SPEC",
+      "expectedContractPath": "contracts/capabilities/content-admin.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_rewards_id",
+      "method": "PATCH",
+      "path": "/v1/admin/rewards/{id}",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "REWARD-CATALOG",
+      "contractPacket": "REWARD-CATALOG-SPEC",
+      "expectedContractPath": "contracts/capabilities/reward-catalog.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_admin_waste_items_id",
+      "method": "PATCH",
+      "path": "/v1/admin/waste-items/{id}",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "CONTENT-ADMIN",
+      "contractPacket": "CONTENT-ADMIN-SPEC",
+      "expectedContractPath": "contracts/capabilities/content-admin.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_friendships_id",
+      "method": "PATCH",
+      "path": "/v1/friendships/{id}",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_me",
+      "method": "PATCH",
+      "path": "/v1/me",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "PROFILE",
+      "contractPacket": "PROFILE-SPEC",
+      "expectedContractPath": "contracts/capabilities/profile.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_me_event_collections_id",
+      "method": "PATCH",
+      "path": "/v1/me/event-collections/{id}",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "COLLECTIONS",
+      "contractPacket": "COLLECTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/collections.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_me_notifications_id",
+      "method": "PATCH",
+      "path": "/v1/me/notifications/{id}",
+      "ownerEpic": "N01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NOTIFY-INBOX",
+      "contractPacket": "NOTIFY-INBOX-SPEC",
+      "expectedContractPath": "contracts/capabilities/notify-inbox.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_me_preferences",
+      "method": "PATCH",
+      "path": "/v1/me/preferences",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SETTINGS",
+      "contractPacket": "SETTINGS-SPEC",
+      "expectedContractPath": "contracts/capabilities/settings.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_point_proposals_id",
+      "method": "PATCH",
+      "path": "/v1/point-proposals/{id}",
+      "ownerEpic": "R05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "PROPOSAL",
+      "contractPacket": "PROPOSAL-SPEC",
+      "expectedContractPath": "contracts/capabilities/proposal.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_posts_id",
+      "method": "PATCH",
+      "path": "/v1/posts/{id}",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "patch_v1_routes_id",
+      "method": "PATCH",
+      "path": "/v1/routes/{id}",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_articles",
+      "method": "POST",
+      "path": "/v1/admin/articles",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "CONTENT-ADMIN",
+      "contractPacket": "CONTENT-ADMIN-SPEC",
+      "expectedContractPath": "contracts/capabilities/content-admin.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_event_occurrences",
+      "method": "POST",
+      "path": "/v1/admin/event-occurrences",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_event_roles",
+      "method": "POST",
+      "path": "/v1/admin/event-roles",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_event_staff",
+      "method": "POST",
+      "path": "/v1/admin/event-staff",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_events",
+      "method": "POST",
+      "path": "/v1/admin/events",
+      "ownerEpic": "E01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "EVENT-DATA",
+      "contractPacket": "EVENT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_knowledge_sources",
+      "method": "POST",
+      "path": "/v1/admin/knowledge-sources",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "CONTENT-ADMIN",
+      "contractPacket": "CONTENT-ADMIN-SPEC",
+      "expectedContractPath": "contracts/capabilities/content-admin.openapi.json"
+    },
+    {
+      "operationId": "moderation_point_proposals_decision",
+      "method": "POST",
+      "path": "/v1/admin/point-proposals/{id}/decision",
+      "ownerEpic": "R05",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1admin~1point-proposals~1{id}~1decision/post",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "MODERATION",
+      "contractPacket": "MODERATION-SPEC"
+    },
+    {
+      "operationId": "moderation_point_reports_decision",
+      "method": "POST",
+      "path": "/v1/admin/point-reports/{id}/decision",
+      "ownerEpic": "R05",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1admin~1point-reports~1{id}~1decision/post",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "MODERATION",
+      "contractPacket": "MODERATION-SPEC"
+    },
+    {
+      "operationId": "post_v1_admin_reward_inventory_id_adjustments",
+      "method": "POST",
+      "path": "/v1/admin/reward-inventory/{id}/adjustments",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "REWARD-CATALOG",
+      "contractPacket": "REWARD-CATALOG-SPEC",
+      "expectedContractPath": "contracts/capabilities/reward-catalog.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_rewards",
+      "method": "POST",
+      "path": "/v1/admin/rewards",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "REWARD-CATALOG",
+      "contractPacket": "REWARD-CATALOG-SPEC",
+      "expectedContractPath": "contracts/capabilities/reward-catalog.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_rewards_id_vouchers",
+      "method": "POST",
+      "path": "/v1/admin/rewards/{id}/vouchers",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "REWARD-CATALOG",
+      "contractPacket": "REWARD-CATALOG-SPEC",
+      "expectedContractPath": "contracts/capabilities/reward-catalog.openapi.json"
+    },
+    {
+      "operationId": "post_v1_admin_waste_items",
+      "method": "POST",
+      "path": "/v1/admin/waste-items",
+      "ownerEpic": "C01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "CONTENT-ADMIN",
+      "contractPacket": "CONTENT-ADMIN-SPEC",
+      "expectedContractPath": "contracts/capabilities/content-admin.openapi.json"
+    },
+    {
+      "operationId": "post_v1_articles_id_comments",
+      "method": "POST",
+      "path": "/v1/articles/{id}/comments",
+      "ownerEpic": "S01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NEWS",
+      "contractPacket": "NEWS-SPEC",
+      "expectedContractPath": "contracts/capabilities/news.openapi.json"
+    },
+    {
+      "operationId": "post_v1_assistant_conversations",
+      "method": "POST",
+      "path": "/v1/assistant/conversations",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_assistant_conversations_id_messages",
+      "method": "POST",
+      "path": "/v1/assistant/conversations/{id}/messages",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_assistant_transcriptions",
+      "method": "POST",
+      "path": "/v1/assistant/transcriptions",
+      "ownerEpic": "S06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "VOICE",
+      "contractPacket": "VOICE-SPEC",
+      "expectedContractPath": "contracts/capabilities/voice.openapi.json"
+    },
+    {
+      "operationId": "auth_login",
+      "method": "POST",
+      "path": "/v1/auth/login",
+      "ownerEpic": "F03",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1auth~1login/post",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "public",
+      "ownerCapability": "AUTH-TOKENS",
+      "contractPacket": "AUTH-TOKENS-SPEC"
+    },
+    {
+      "operationId": "auth_logout",
+      "method": "POST",
+      "path": "/v1/auth/logout",
+      "ownerEpic": "F03",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1auth~1logout/post",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "AUTH-TOKENS",
+      "contractPacket": "AUTH-TOKENS-SPEC"
+    },
+    {
+      "operationId": "post_v1_auth_oauth_exchange",
+      "method": "POST",
+      "path": "/v1/auth/oauth/exchange",
+      "ownerEpic": "F04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "OAUTH-GOOGLE",
+      "contractPacket": "OAUTH-GOOGLE-SPEC",
+      "expectedContractPath": "contracts/capabilities/oauth-google.openapi.json"
+    },
+    {
+      "operationId": "post_v1_auth_password_reset_complete",
+      "method": "POST",
+      "path": "/v1/auth/password-reset/complete",
+      "ownerEpic": "F03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "AUTH-RECOVERY",
+      "contractPacket": "AUTH-RECOVERY-SPEC",
+      "expectedContractPath": "contracts/capabilities/auth-recovery.openapi.json"
+    },
+    {
+      "operationId": "post_v1_auth_password_reset_request",
+      "method": "POST",
+      "path": "/v1/auth/password-reset/request",
+      "ownerEpic": "F03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "AUTH-RECOVERY",
+      "contractPacket": "AUTH-RECOVERY-SPEC",
+      "expectedContractPath": "contracts/capabilities/auth-recovery.openapi.json"
+    },
+    {
+      "operationId": "post_v1_auth_password_reset_verify",
+      "method": "POST",
+      "path": "/v1/auth/password-reset/verify",
+      "ownerEpic": "F03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "AUTH-RECOVERY",
+      "contractPacket": "AUTH-RECOVERY-SPEC",
+      "expectedContractPath": "contracts/capabilities/auth-recovery.openapi.json"
+    },
+    {
+      "operationId": "auth_refresh",
+      "method": "POST",
+      "path": "/v1/auth/refresh",
+      "ownerEpic": "F03",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1auth~1refresh/post",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "public",
+      "ownerCapability": "AUTH-TOKENS",
+      "contractPacket": "AUTH-TOKENS-SPEC"
+    },
+    {
+      "operationId": "post_v1_auth_register",
+      "method": "POST",
+      "path": "/v1/auth/register",
+      "ownerEpic": "F03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "AUTH-RECOVERY",
+      "contractPacket": "AUTH-RECOVERY-SPEC",
+      "expectedContractPath": "contracts/capabilities/auth-recovery.openapi.json"
+    },
+    {
+      "operationId": "post_v1_collection_points_compare",
+      "method": "POST",
+      "path": "/v1/collection-points/compare",
+      "ownerEpic": "C07",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "MAP-FILTER",
+      "contractPacket": "MAP-FILTER-SPEC",
+      "expectedContractPath": "contracts/capabilities/map-filter.openapi.json"
+    },
+    {
+      "operationId": "post_v1_collection_points_id_reports",
+      "method": "POST",
+      "path": "/v1/collection-points/{id}/reports",
+      "ownerEpic": "R05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POINT-REPORT",
+      "contractPacket": "POINT-REPORT-SPEC",
+      "expectedContractPath": "contracts/capabilities/point-report.openapi.json"
+    },
+    {
+      "operationId": "post_v1_collection_points_id_reviews",
+      "method": "POST",
+      "path": "/v1/collection-points/{id}/reviews",
+      "ownerEpic": "R05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POINT-REPORT",
+      "contractPacket": "POINT-REPORT-SPEC",
+      "expectedContractPath": "contracts/capabilities/point-report.openapi.json"
+    },
+    {
+      "operationId": "post_v1_conversations",
+      "method": "POST",
+      "path": "/v1/conversations",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_conversations_id_messages",
+      "method": "POST",
+      "path": "/v1/conversations/{id}/messages",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "post_v1_events_id_feedback",
+      "method": "POST",
+      "path": "/v1/events/{id}/feedback",
+      "ownerEpic": "E06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "FEEDBACK",
+      "contractPacket": "FEEDBACK-SPEC",
+      "expectedContractPath": "contracts/capabilities/feedback.openapi.json"
+    },
+    {
+      "operationId": "post_v1_events_id_registrations",
+      "method": "POST",
+      "path": "/v1/events/{id}/registrations",
+      "ownerEpic": "E03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REGISTRATION",
+      "contractPacket": "REGISTRATION-SPEC",
+      "expectedContractPath": "contracts/capabilities/registration.openapi.json"
+    },
+    {
+      "operationId": "post_v1_friendships",
+      "method": "POST",
+      "path": "/v1/friendships",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_rooms",
+      "method": "POST",
+      "path": "/v1/game-rooms",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-LOBBY",
+      "contractPacket": "GAME-LOBBY-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-lobby.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_rooms_id_join",
+      "method": "POST",
+      "path": "/v1/game-rooms/{id}/join",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-LOBBY",
+      "contractPacket": "GAME-LOBBY-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-lobby.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_rooms_id_leave",
+      "method": "POST",
+      "path": "/v1/game-rooms/{id}/leave",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-LOBBY",
+      "contractPacket": "GAME-LOBBY-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-lobby.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_rooms_id_ready",
+      "method": "POST",
+      "path": "/v1/game-rooms/{id}/ready",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-LOBBY",
+      "contractPacket": "GAME-LOBBY-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-lobby.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_rooms_id_start",
+      "method": "POST",
+      "path": "/v1/game-rooms/{id}/start",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-LOBBY",
+      "contractPacket": "GAME-LOBBY-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-lobby.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_schedules",
+      "method": "POST",
+      "path": "/v1/game-schedules",
+      "ownerEpic": "G03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-EXT-IMPLEMENT",
+      "contractPacket": "GAME-EXT-IMPLEMENT-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-ext-implement.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_sessions",
+      "method": "POST",
+      "path": "/v1/game-sessions",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-ENGINE",
+      "contractPacket": "GAME-ENGINE-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-engine.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_sessions_id_answers",
+      "method": "POST",
+      "path": "/v1/game-sessions/{id}/answers",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-ENGINE",
+      "contractPacket": "GAME-ENGINE-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-engine.openapi.json"
+    },
+    {
+      "operationId": "post_v1_game_sessions_id_finish",
+      "method": "POST",
+      "path": "/v1/game-sessions/{id}/finish",
+      "ownerEpic": "G01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "GAME-ENGINE",
+      "contractPacket": "GAME-ENGINE-SPEC",
+      "expectedContractPath": "contracts/capabilities/game-engine.openapi.json"
+    },
+    {
+      "operationId": "post_v1_me_daily_claims",
+      "method": "POST",
+      "path": "/v1/me/daily-claims",
+      "ownerEpic": "R02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "DAILY-CLAIM",
+      "contractPacket": "DAILY-CLAIM-SPEC",
+      "expectedContractPath": "contracts/capabilities/daily-claim.openapi.json"
+    },
+    {
+      "operationId": "post_v1_me_email_change",
+      "method": "POST",
+      "path": "/v1/me/email-change",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EMAIL-CHANGE",
+      "contractPacket": "EMAIL-CHANGE-SPEC",
+      "expectedContractPath": "contracts/capabilities/email-change.openapi.json"
+    },
+    {
+      "operationId": "post_v1_me_email_change_verify",
+      "method": "POST",
+      "path": "/v1/me/email-change/verify",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EMAIL-CHANGE",
+      "contractPacket": "EMAIL-CHANGE-SPEC",
+      "expectedContractPath": "contracts/capabilities/email-change.openapi.json"
+    },
+    {
+      "operationId": "post_v1_me_event_collections",
+      "method": "POST",
+      "path": "/v1/me/event-collections",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "COLLECTIONS",
+      "contractPacket": "COLLECTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/collections.openapi.json"
+    },
+    {
+      "operationId": "post_v1_me_event_collections_id_move",
+      "method": "POST",
+      "path": "/v1/me/event-collections/{id}/move",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "COLLECTIONS",
+      "contractPacket": "COLLECTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/collections.openapi.json"
+    },
+    {
+      "operationId": "post_v1_me_notifications_read_all",
+      "method": "POST",
+      "path": "/v1/me/notifications/read-all",
+      "ownerEpic": "N01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NOTIFY-INBOX",
+      "contractPacket": "NOTIFY-INBOX-SPEC",
+      "expectedContractPath": "contracts/capabilities/notify-inbox.openapi.json"
+    },
+    {
+      "operationId": "post_v1_me_password",
+      "method": "POST",
+      "path": "/v1/me/password",
+      "ownerEpic": "F06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EMAIL-CHANGE",
+      "contractPacket": "EMAIL-CHANGE-SPEC",
+      "expectedContractPath": "contracts/capabilities/email-change.openapi.json"
+    },
+    {
+      "operationId": "post_v1_media_uploads",
+      "method": "POST",
+      "path": "/v1/media/uploads",
+      "ownerEpic": "C03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "MEDIA",
+      "contractPacket": "MEDIA-SPEC",
+      "expectedContractPath": "contracts/capabilities/media.openapi.json"
+    },
+    {
+      "operationId": "post_v1_media_uploads_id_complete",
+      "method": "POST",
+      "path": "/v1/media/uploads/{id}/complete",
+      "ownerEpic": "C03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "MEDIA",
+      "contractPacket": "MEDIA-SPEC",
+      "expectedContractPath": "contracts/capabilities/media.openapi.json"
+    },
+    {
+      "operationId": "post_v1_moderation_reports",
+      "method": "POST",
+      "path": "/v1/moderation-reports",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "post_v1_operator_handovers_id_verify",
+      "method": "POST",
+      "path": "/v1/operator/handovers/{id}/verify",
+      "ownerEpic": "R07",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "HANDOVER-VERIFY",
+      "contractPacket": "HANDOVER-VERIFY-SPEC",
+      "expectedContractPath": "contracts/capabilities/handover-verify.openapi.json"
+    },
+    {
+      "operationId": "post_v1_operator_redemptions_id_fulfill",
+      "method": "POST",
+      "path": "/v1/operator/redemptions/{id}/fulfill",
+      "ownerEpic": "R04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "FULFILL",
+      "contractPacket": "FULFILL-SPEC",
+      "expectedContractPath": "contracts/capabilities/fulfill.openapi.json"
+    },
+    {
+      "operationId": "post_v1_operator_redemptions_id_refund",
+      "method": "POST",
+      "path": "/v1/operator/redemptions/{id}/refund",
+      "ownerEpic": "R04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "scoped_operator",
+      "ownerCapability": "REFUND",
+      "contractPacket": "REFUND-SPEC",
+      "expectedContractPath": "contracts/capabilities/refund.openapi.json"
+    },
+    {
+      "operationId": "post_v1_point_proposals",
+      "method": "POST",
+      "path": "/v1/point-proposals",
+      "ownerEpic": "R05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "PROPOSAL",
+      "contractPacket": "PROPOSAL-SPEC",
+      "expectedContractPath": "contracts/capabilities/proposal.openapi.json"
+    },
+    {
+      "operationId": "post_v1_posts",
+      "method": "POST",
+      "path": "/v1/posts",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "post_v1_posts_id_comments",
+      "method": "POST",
+      "path": "/v1/posts/{id}/comments",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "post_v1_posts_id_shares",
+      "method": "POST",
+      "path": "/v1/posts/{id}/shares",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    },
+    {
+      "operationId": "post_v1_redemptions",
+      "method": "POST",
+      "path": "/v1/redemptions",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REDEEM-ATOMIC",
+      "contractPacket": "REDEEM-ATOMIC-SPEC",
+      "expectedContractPath": "contracts/capabilities/redeem-atomic.openapi.json"
+    },
+    {
+      "operationId": "post_v1_redemptions_id_cancel",
+      "method": "POST",
+      "path": "/v1/redemptions/{id}/cancel",
+      "ownerEpic": "R03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REDEEM-ATOMIC",
+      "contractPacket": "REDEEM-ATOMIC-SPEC",
+      "expectedContractPath": "contracts/capabilities/redeem-atomic.openapi.json"
+    },
+    {
+      "operationId": "post_v1_registrations_id_cancel",
+      "method": "POST",
+      "path": "/v1/registrations/{id}/cancel",
+      "ownerEpic": "E03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "REGISTRATION",
+      "contractPacket": "REGISTRATION-SPEC",
+      "expectedContractPath": "contracts/capabilities/registration.openapi.json"
+    },
+    {
+      "operationId": "post_v1_routes",
+      "method": "POST",
+      "path": "/v1/routes",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "post_v1_routes_preview",
+      "method": "POST",
+      "path": "/v1/routes/preview",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "post_v1_routes_id_cancel",
+      "method": "POST",
+      "path": "/v1/routes/{id}/cancel",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "post_v1_routes_id_start",
+      "method": "POST",
+      "path": "/v1/routes/{id}/start",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "post_v1_routes_id_stops_stopId_arrive",
+      "method": "POST",
+      "path": "/v1/routes/{id}/stops/{stopId}/arrive",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "post_v1_routes_id_stops_stopId_handover",
+      "method": "POST",
+      "path": "/v1/routes/{id}/stops/{stopId}/handover",
+      "ownerEpic": "R06",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ROUTE-EDIT",
+      "contractPacket": "ROUTE-EDIT-SPEC",
+      "expectedContractPath": "contracts/capabilities/route-edit.openapi.json"
+    },
+    {
+      "operationId": "post_v1_scans",
+      "method": "POST",
+      "path": "/v1/scans",
+      "ownerEpic": "C04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SCAN-JOB",
+      "contractPacket": "SCAN-JOB-SPEC",
+      "expectedContractPath": "contracts/capabilities/scan-job.openapi.json"
+    },
+    {
+      "operationId": "post_v1_scans_id_corrections",
+      "method": "POST",
+      "path": "/v1/scans/{id}/corrections",
+      "ownerEpic": "C04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SCAN-JOB",
+      "contractPacket": "SCAN-JOB-SPEC",
+      "expectedContractPath": "contracts/capabilities/scan-job.openapi.json"
+    },
+    {
+      "operationId": "sorting_create",
+      "method": "POST",
+      "path": "/v1/sorting-actions",
+      "ownerEpic": "C05",
+      "schemaStatus": "specified",
+      "schemaRef": "core.openapi.json#/paths/~1v1~1sorting-actions/post",
+      "codeGenerationAllowed": true,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SORT-ACTION",
+      "contractPacket": "SORT-ACTION-SPEC"
+    },
+    {
+      "operationId": "post_v1_tickets_id_check_in",
+      "method": "POST",
+      "path": "/v1/tickets/{id}/check-in",
+      "ownerEpic": "E04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "TICKET",
+      "contractPacket": "TICKET-SPEC",
+      "expectedContractPath": "contracts/capabilities/ticket.openapi.json"
+    },
+    {
+      "operationId": "put_v1_articles_id_reaction",
+      "method": "PUT",
+      "path": "/v1/articles/{id}/reaction",
+      "ownerEpic": "S01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NEWS",
+      "contractPacket": "NEWS-SPEC",
+      "expectedContractPath": "contracts/capabilities/news.openapi.json"
+    },
+    {
+      "operationId": "put_v1_conversations_id_read",
+      "method": "PUT",
+      "path": "/v1/conversations/{id}/read",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "CHAT-DATA",
+      "contractPacket": "CHAT-DATA-SPEC",
+      "expectedContractPath": "contracts/capabilities/chat-data.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_blocks_userId",
+      "method": "PUT",
+      "path": "/v1/me/blocks/{userId}",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_event_reminders",
+      "method": "PUT",
+      "path": "/v1/me/event-reminders",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "EVENT-REMINDER",
+      "contractPacket": "EVENT-REMINDER-SPEC",
+      "expectedContractPath": "contracts/capabilities/event-reminder.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_follows_userId",
+      "method": "PUT",
+      "path": "/v1/me/follows/{userId}",
+      "ownerEpic": "S02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-GRAPH",
+      "contractPacket": "SOCIAL-GRAPH-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-graph.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_goals",
+      "method": "PUT",
+      "path": "/v1/me/goals",
+      "ownerEpic": "F05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ONBOARD-PREFS",
+      "contractPacket": "ONBOARD-PREFS-SPEC",
+      "expectedContractPath": "contracts/capabilities/onboard-prefs.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_interests",
+      "method": "PUT",
+      "path": "/v1/me/interests",
+      "ownerEpic": "F05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "ONBOARD-PREFS",
+      "contractPacket": "ONBOARD-PREFS-SPEC",
+      "expectedContractPath": "contracts/capabilities/onboard-prefs.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_push_devices_id",
+      "method": "PUT",
+      "path": "/v1/me/push-devices/{id}",
+      "ownerEpic": "N01",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "NOTIFY-INBOX",
+      "contractPacket": "NOTIFY-INBOX-SPEC",
+      "expectedContractPath": "contracts/capabilities/notify-inbox.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_reminders_daily",
+      "method": "PUT",
+      "path": "/v1/me/reminders/daily",
+      "ownerEpic": "R02",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "DAILY-REMINDER",
+      "contractPacket": "DAILY-REMINDER-SPEC",
+      "expectedContractPath": "contracts/capabilities/daily-reminder.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_saved_events_eventId",
+      "method": "PUT",
+      "path": "/v1/me/saved-events/{eventId}",
+      "ownerEpic": "E05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SAVED-CORE",
+      "contractPacket": "SAVED-CORE-SPEC",
+      "expectedContractPath": "contracts/capabilities/saved-core.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_saved_posts_id",
+      "method": "PUT",
+      "path": "/v1/me/saved-posts/{id}",
+      "ownerEpic": "S04",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "SOCIAL-ACTIONS",
+      "contractPacket": "SOCIAL-ACTIONS-SPEC",
+      "expectedContractPath": "contracts/capabilities/social-actions.openapi.json"
+    },
+    {
+      "operationId": "put_v1_me_status_note",
+      "method": "PUT",
+      "path": "/v1/me/status-note",
+      "ownerEpic": "S05",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "MOOD-NOTES",
+      "contractPacket": "MOOD-NOTES-SPEC",
+      "expectedContractPath": "contracts/capabilities/mood-notes.openapi.json"
+    },
+    {
+      "operationId": "put_v1_posts_id_reaction",
+      "method": "PUT",
+      "path": "/v1/posts/{id}/reaction",
+      "ownerEpic": "S03",
+      "schemaStatus": "contract_task_required",
+      "schemaRef": null,
+      "codeGenerationAllowed": false,
+      "sourcePageId": "386:7053",
+      "requiredContractFields": [
+        "request/response/errors",
+        "actor-object authorization",
+        "pagination/version/timezone",
+        "fixtures and negative cases"
+      ],
+      "role": "contract_defined_actor",
+      "ownerCapability": "POSTS",
+      "contractPacket": "POSTS-SPEC",
+      "expectedContractPath": "contracts/capabilities/posts.openapi.json"
+    }
+  ],
+  "scope": "backuped only",
+  "note": "Each concrete operation has an owning contract packet. Unspecified operations must not produce placeholder DTOs or be dispatched to implementation before SPEC review."
+}

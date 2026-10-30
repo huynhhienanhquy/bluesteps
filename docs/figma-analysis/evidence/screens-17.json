@@ -1,0 +1,3804 @@
+{
+  "bytes": 43567,
+  "screens": [
+    {
+      "id": "386:18959",
+      "name": "Sẵn sàng",
+      "type": "TEXT",
+      "w": 202,
+      "h": 54,
+      "types": {
+        "TEXT": 1
+      },
+      "texts": [
+        "Sẵn sàng"
+      ],
+      "parts": [],
+      "instanceCounts": {},
+      "reactions": []
+    },
+    {
+      "id": "386:18960",
+      "name": "Ellipse 324",
+      "type": "ELLIPSE",
+      "w": 100,
+      "h": 100,
+      "types": {
+        "ELLIPSE": 1
+      },
+      "texts": [],
+      "parts": [],
+      "instanceCounts": {},
+      "reactions": []
+    },
+    {
+      "id": "391:24796",
+      "name": "tin tức",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1686,
+      "types": {
+        "FRAME": 47,
+        "INSTANCE": 11,
+        "GROUP": 14,
+        "VECTOR": 27,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 41,
+        "ELLIPSE": 5,
+        "RECTANGLE": 38,
+        "LINE": 1
+      },
+      "texts": [
+        "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH",
+        "1",
+        "Cập nhật hôm nay, bảo vệ mai sau",
+        "2",
+        "Bắt đầu hành trình xanh",
+        "3",
+        "Tìm hiểu ngay",
+        "Cộng đồng xanh",
+        "Hàng nghìn người đã quan tâm đến môi trường",
+        "Tìm kiếm...",
+        "Tất cả",
+        "Tin mới nhất",
+        "Sự kiện sắp tới",
+        "Bài nổi bật",
+        "Xem thêm",
+        "Mỗi ngày, thế giới thải ra khoảng 11 triệu...",
+        "1.2k",
+        "50",
+        "Tất cả bài viết",
+        "Xem thêm",
+        "Người dân tham gia \ndọn rác sau bảo số 13",
+        "1.2k",
+        "50",
+        "Ca Sỹ Thủy Tiên tham \ngia chủ nhật xanh ",
+        "2.2k",
+        "170",
+        "Người dân địa phương tham gia thu gom rác ...",
+        "1.5k",
+        "40",
+        "Các bạn trẻ của nhóm Sài Gòn Xanh dọn rác ở kênh.",
+        "1.2k",
+        "50",
+        "Làm sạch rác thải tại \nVịnh Hạ Long",
+        "1.2k",
+        "50",
+        "Tham gia làm sạch các điểm thu hút khách du li..",
+        "1.2k",
+        "50",
+        "Các bạn trẻ của nhóm \nSài Gòn Xanh dọn rác ở ..",
+        "1.2k",
+        "50"
+      ],
+      "parts": [
+        [
+          "391:24796",
+          "tin tức",
+          428,
+          1686,
+          "VERTICAL"
+        ],
+        [
+          "391:24797",
+          "iPhone/Status Bar",
+          396,
+          49,
+          "NONE"
+        ],
+        [
+          "I391:24797;150:3701",
+          "Right Side",
+          66.66197204589844,
+          11.336138725280762,
+          null
+        ],
+        [
+          "I391:24797;150:3717",
+          "Left Side",
+          52,
+          21,
+          null
+        ],
+        [
+          "391:24798",
+          "hero-banner",
+          396,
+          268,
+          "VERTICAL"
+        ],
+        [
+          "391:24800",
+          "step-1",
+          225,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24804",
+          "step-2",
+          166,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24808",
+          "step-3",
+          134,
+          27,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24813",
+          "community-card",
+          356,
+          65,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24825",
+          "search-bar",
+          396,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24826",
+          "Frame",
+          32,
+          32,
+          "VERTICAL"
+        ],
+        [
+          "391:24830",
+          "menu",
+          22,
+          22,
+          "NONE"
+        ],
+        [
+          "391:24831",
+          "tabs",
+          396,
+          32,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24832",
+          "Frame",
+          67,
+          32,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24834",
+          "Frame",
+          106,
+          32,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24836",
+          "Frame",
+          121,
+          32,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24838",
+          "featured-article",
+          396,
+          302,
+          "VERTICAL"
+        ],
+        [
+          "391:24839",
+          "Frame",
+          364,
+          15,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24845",
+          "Frame",
+          364,
+          160,
+          "VERTICAL"
+        ],
+        [
+          "391:24846",
+          "Frame",
+          364,
+          71,
+          "VERTICAL"
+        ],
+        [
+          "391:24857",
+          "grid-section",
+          396,
+          763,
+          "VERTICAL"
+        ],
+        [
+          "391:24858",
+          "Frame",
+          396,
+          19,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24864",
+          "grid-row-1",
+          396,
+          174,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24867",
+          "grid-row-2",
+          396,
+          174,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24870",
+          "grid-row-3",
+          396,
+          174,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24873",
+          "Bài viết còn lại",
+          170,
+          174,
+          "HORIZONTAL"
+        ],
+        [
+          "391:24875",
+          "Điều hướng gốc",
+          428,
+          116,
+          "NONE"
+        ],
+        [
+          "391:24876",
+          "Group 36735",
+          444,
+          116,
+          null
+        ],
+        [
+          "478:4839",
+          "Prototype / Nav / Trang chủ",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4841",
+          "Prototype / Nav / Thu gom",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4843",
+          "Prototype / Nav / Quét rác",
+          68,
+          70,
+          "NONE"
+        ],
+        [
+          "478:4845",
+          "Prototype / Nav / Đổi quà",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4847",
+          "Prototype / Nav / Cá nhân",
+          66,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "menu": 3,
+        "item": 7
+      },
+      "reactions": [
+        {
+          "id": "I391:24830;2244:2013",
+          "name": "menu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24865",
+          "name": "item",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24866",
+          "name": "item",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24868",
+          "name": "item",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24869",
+          "name": "item",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24871",
+          "name": "item",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24872",
+          "name": "item",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24874",
+          "name": "item",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10828",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10828",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24882",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24886",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24891",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:24897",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4839",
+          "name": "Prototype / Nav / Trang chủ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:25197",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4841",
+          "name": "Prototype / Nav / Thu gom",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4843",
+          "name": "Prototype / Nav / Quét rác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4845",
+          "name": "Prototype / Nav / Đổi quà",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4847",
+          "name": "Prototype / Nav / Cá nhân",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "391:25009",
+      "name": "thống kê",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1726,
+      "types": {
+        "FRAME": 66,
+        "INSTANCE": 6,
+        "GROUP": 14,
+        "VECTOR": 25,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 48,
+        "ELLIPSE": 5,
+        "RECTANGLE": 18,
+        "LINE": 1
+      },
+      "texts": [
+        "Thống kê",
+        "Thống kê loại rác",
+        "Tổng lượng rác",
+        "30%",
+        "",
+        "Hữu cơ",
+        "12%",
+        "Khác",
+        "18%",
+        "Vô cơ",
+        "20%",
+        "Tái chế",
+        "50%",
+        "2,500 Kg",
+        "Trong nhóm này",
+        "Tần suất phân loại",
+        "12O lần/Tuần",
+        "40%",
+        "30%",
+        "25%",
+        "20%",
+        "10%",
+        "0",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "CN",
+        "Mục tiêu & Thành tựu",
+        "Đã tái chế 50kg giấy",
+        "Tham gia thử thách",
+        "Thu gom 10kg vụn",
+        "Giảm rác thải nhựa",
+        "75% hoàn thành",
+        "500kg",
+        "Thống kê chi tiết",
+        "Phân loại",
+        "Hữu Cơ",
+        "1,125 kg",
+        "45%  ·  4000%",
+        "Nhựa",
+        "325 kg",
+        "150kg  ·  5000%",
+        "Tái chế",
+        "125 kg",
+        "45kg  ·  1500%"
+      ],
+      "parts": [
+        [
+          "391:25009",
+          "thống kê",
+          428,
+          1726,
+          "VERTICAL"
+        ],
+        [
+          "391:25010",
+          "iPhone/Status Bar",
+          396,
+          49,
+          "NONE"
+        ],
+        [
+          "I391:25010;150:3701",
+          "Right Side",
+          66.66148376464844,
+          11.336153984069824,
+          null
+        ],
+        [
+          "I391:25010;150:3717",
+          "Left Side",
+          52,
+          21,
+          null
+        ],
+        [
+          "391:25011",
+          "header",
+          396,
+          40,
+          "HORIZONTAL"
+        ],
+        [
+          "391:25012",
+          "Frame",
+          40,
+          40,
+          "VERTICAL"
+        ],
+        [
+          "391:25015",
+          "content",
+          396,
+          1445,
+          "VERTICAL"
+        ],
+        [
+          "391:25016",
+          "section-total",
+          396,
+          383,
+          "VERTICAL"
+        ],
+        [
+          "391:25051",
+          "section-frequency",
+          396,
+          334,
+          "VERTICAL"
+        ],
+        [
+          "391:25094",
+          "section-goals",
+          396,
+          391,
+          "VERTICAL"
+        ],
+        [
+          "391:25119",
+          "section-detail",
+          396,
+          289,
+          "VERTICAL"
+        ],
+        [
+          "391:25141",
+          "Điều hướng gốc",
+          428,
+          116,
+          "NONE"
+        ],
+        [
+          "391:25142",
+          "Group 36735",
+          444,
+          116,
+          null
+        ],
+        [
+          "491:4769",
+          "Prototype / Nav / Trang chủ",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "491:4771",
+          "Prototype / Nav / Thu gom",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "491:4773",
+          "Prototype / Nav / Quét rác",
+          68,
+          70,
+          "NONE"
+        ],
+        [
+          "491:4775",
+          "Prototype / Nav / Đổi quà",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "491:4777",
+          "Prototype / Nav / Cá nhân",
+          66,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Group 36750": 1,
+        "Chevron left": 1,
+        "check-contained": 2,
+        "add-square-02": 1
+      },
+      "reactions": [
+        {
+          "id": "391:25148",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:25152",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:25157",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "391:25163",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "491:4769",
+          "name": "Prototype / Nav / Trang chủ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:25197",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "491:4771",
+          "name": "Prototype / Nav / Thu gom",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "491:4773",
+          "name": "Prototype / Nav / Quét rác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "491:4775",
+          "name": "Prototype / Nav / Đổi quà",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "491:4777",
+          "name": "Prototype / Nav / Cá nhân",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "391:25197",
+      "name": "17 · Home — Trang chủ",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 79,
+        "TEXT": 44,
+        "VECTOR": 35,
+        "RECTANGLE": 4,
+        "INSTANCE": 1
+      },
+      "texts": [
+        "9:41",
+        "Chào Linh Chi!",
+        "Hôm nay, mình cùng sống xanh nhé.",
+        "BLUENSTEPS · MỖI NGÀY XANH",
+        "Phân loại rác.\nGieo mầm xanh.",
+        "Bắt đầu từ một món đồ nhỏ.\nTạo nên những thay đổi lớn.",
+        "Quét rác ngay",
+        "Bạn muốn làm gì?",
+        "Phân loại",
+        "Thu gom",
+        "Cộng đồng",
+        "Tin tức",
+        "ĐIỂM XANH CỦA BẠN",
+        "180",
+        "Đổi quà →",
+        "Phân loại rác mỗi ngày",
+        "Bắt đầu",
+        "Hoạt động xanh",
+        "Đã lưu",
+        "Giờ học xanh",
+        "TP. Hồ Chí Minh",
+        "200+ người tham gia",
+        "Vì một bãi biển sạch",
+        "Mỹ Khê, Đà Nẵng",
+        "300+ người tham gia",
+        "Sổ tay phân loại",
+        "Tất cả",
+        "Nhựa",
+        "Giấy",
+        "Pin",
+        "Góc sống xanh",
+        "Xem thêm",
+        "MÔI TRƯỜNG",
+        "11 triệu tấn rác mỗi ngày:\nChúng ta có thể làm gì?",
+        "5 phút đọc  ·  Tái chế",
+        "Đi cùng nhau,\nxanh hơn mỗi ngày.",
+        "Chia sẻ một hành động nhỏ để lan tỏa\ncảm hứng sống xanh đến mọi người.",
+        "Ghé cộng đồng →",
+        "Mỗi bước nhỏ của bạn đều có ý nghĩa.",
+        "Trang chủ",
+        "Thu gom",
+        "Quét rác",
+        "Đổi quà",
+        "Cá nhân"
+      ],
+      "parts": [
+        [
+          "391:25197",
+          "17 · Home — Trang chủ",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "476:5049",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "476:5051",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "476:5057",
+          "En-tête · Chào Linh Chi",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "476:5058",
+          "Hồ sơ cá nhân",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "476:5060",
+          "Lời chào",
+          235,
+          47,
+          "VERTICAL"
+        ],
+        [
+          "476:5063",
+          "Thông báo",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "476:5068",
+          "Nội dung Home · Cuộn dọc",
+          428,
+          686,
+          "NONE"
+        ],
+        [
+          "476:5069",
+          "Nội dung trang chủ",
+          380,
+          1580,
+          "VERTICAL"
+        ],
+        [
+          "476:5202",
+          "Điều hướng chính · Cố định",
+          428,
+          104,
+          "NONE"
+        ],
+        [
+          "476:5203",
+          "Năm mục điều hướng",
+          380,
+          64,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Quét rác ngay": 1
+      },
+      "reactions": [
+        {
+          "id": "476:5058",
+          "name": "Hồ sơ cá nhân",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5063",
+          "name": "Thông báo",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7913",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7913",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5082",
+          "name": "Nút / Quét rác ngay",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5088",
+          "name": "Phân loại",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:13263",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5094",
+          "name": "Thu gom",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5101",
+          "name": "Cộng đồng",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7647",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5108",
+          "name": "Tin tức",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:24796",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:24796",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5121",
+          "name": "Liên kết / Đổi quà →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5130",
+          "name": "Liên kết / Bắt đầu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5136",
+          "name": "Liên kết / Đã lưu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18069",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18069",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5140",
+          "name": "Giờ học xanh",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9376",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9376",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5150",
+          "name": "Vì một bãi biển sạch",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9470",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9470",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5163",
+          "name": "Liên kết / Tất cả",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:13263",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5167",
+          "name": "Nhựa",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14521",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14521",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5171",
+          "name": "Giấy",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14970",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14970",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5175",
+          "name": "Pin",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14745",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14745",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5182",
+          "name": "Liên kết / Xem thêm",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:24796",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:24796",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5185",
+          "name": "Bài viết nổi bật",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17608",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17608",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5198",
+          "name": "Liên kết / Ghé cộng đồng →",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7647",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5204",
+          "name": "Trang chủ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "476:5070",
+                "navigation": "SCROLL_TO",
+                "transition": {
+                  "type": "SCROLL_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "476:5070",
+                  "navigation": "SCROLL_TO",
+                  "transition": {
+                    "type": "SCROLL_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5210",
+          "name": "Thu gom",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5216",
+          "name": "Quét rác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5222",
+          "name": "Đổi quà",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "476:5228",
+          "name": "Cá nhân",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7148",
+      "name": "01 · Khởi động GreenSteps",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 6,
+        "TEXT": 4,
+        "VECTOR": 14,
+        "RECTANGLE": 4
+      },
+      "texts": [
+        "9:41",
+        "BlueSteps",
+        "BƯỚC NHỎ · THAY ĐỔI LỚN",
+        "Cùng bạn nuôi dưỡng hành tinh xanh"
+      ],
+      "parts": [
+        [
+          "386:7148",
+          "01 · Khởi động GreenSteps",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4969",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4824",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5009",
+          "Biểu tượng mầm xanh",
+          380,
+          300,
+          "NONE"
+        ],
+        [
+          "441:5016",
+          "Nhận diện GreenSteps",
+          380,
+          83,
+          "VERTICAL"
+        ],
+        [
+          "441:5019",
+          "Đang khởi động",
+          40,
+          8,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {},
+      "reactions": [
+        {
+          "id": "386:7148",
+          "name": "01 · Khởi động GreenSteps",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7418",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7418",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 1.399999976158142
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7418",
+      "name": "02 · Chào mừng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 6,
+        "TEXT": 7,
+        "VECTOR": 25,
+        "RECTANGLE": 1,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "GreenSteps",
+        "SỐNG XANH MỖI NGÀY",
+        "Một khởi đầu nhỏ.\nMột tương lai xanh.",
+        "Biến những lựa chọn hằng ngày thành điều tốt đẹp cho Trái Đất.",
+        "Bắt đầu hành trình",
+        "Đã có tài khoản? Đăng nhập"
+      ],
+      "parts": [
+        [
+          "386:7418",
+          "02 · Chào mừng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4973",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4833",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5027",
+          "Bạn nhỏ chăm cây xanh",
+          380,
+          330,
+          "NONE"
+        ],
+        [
+          "441:5045",
+          "Tiêu đề và mô tả",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "441:5048",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5049",
+          "Nút / Bắt đầu hành trình",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5052",
+          "Nút / Đã có tài khoản? Đăng nhập",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Bắt đầu hành trình": 1,
+        "Nút / Đã có tài khoản? Đăng nhập": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5049",
+          "name": "Nút / Bắt đầu hành trình",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7154",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7154",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5052",
+          "name": "Nút / Đã có tài khoản? Đăng nhập",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7184",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7154",
+      "name": "03 · REDUCE — Giảm rác",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 10,
+        "TEXT": 9,
+        "VECTOR": 20,
+        "RECTANGLE": 4,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "KHÁM PHÁ 3R · 1/3",
+        "Bỏ qua",
+        "01 / REDUCE",
+        "Ít đồ dùng một lần.\nThêm điều tốt lành.",
+        "Mang theo túi vải và bình nước riêng. Một thay đổi nhỏ, bớt đi nhiều rác thải.",
+        "Tiếp tục",
+        "Bỏ qua giới thiệu"
+      ],
+      "parts": [
+        [
+          "386:7154",
+          "03 · REDUCE — Giảm rác",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4977",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4842",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5055",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5056",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5062",
+          "Tiến trình",
+          378,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5066",
+          "Túi vải và bình nước tái sử dụng",
+          380,
+          300,
+          "NONE"
+        ],
+        [
+          "441:5079",
+          "Nội dung Reduce",
+          380,
+          188,
+          "VERTICAL"
+        ],
+        [
+          "441:5080",
+          "Nhãn / 01 / REDUCE",
+          174,
+          30,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5084",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5085",
+          "Nút / Tiếp tục",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5088",
+          "Nút / Bỏ qua giới thiệu",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Tiếp tục": 1,
+        "Nút / Bỏ qua giới thiệu": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5056",
+          "name": "Quay lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7418",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7418",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5060",
+          "name": "Bỏ qua",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7151",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5085",
+          "name": "Nút / Tiếp tục",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7158",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7158",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5088",
+          "name": "Nút / Bỏ qua giới thiệu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7151",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7158",
+      "name": "04 · REUSE — Tái sử dụng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 10,
+        "TEXT": 9,
+        "VECTOR": 22,
+        "RECTANGLE": 4,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "KHÁM PHÁ 3R · 2/3",
+        "Bỏ qua",
+        "02 / REUSE",
+        "Đồ cũ.\nCâu chuyện mới.",
+        "Một chiếc lọ cũng có thể thành vườn nhỏ. Tái sử dụng để những món đồ có thêm vòng đời.",
+        "Thử phân loại rác",
+        "Bỏ qua giới thiệu"
+      ],
+      "parts": [
+        [
+          "386:7158",
+          "04 · REUSE — Tái sử dụng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4981",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4851",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5091",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5092",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5098",
+          "Tiến trình",
+          378,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5102",
+          "Lọ thủy tinh trở thành chậu cây",
+          380,
+          300,
+          "NONE"
+        ],
+        [
+          "441:5117",
+          "Nội dung Reuse",
+          380,
+          186,
+          "VERTICAL"
+        ],
+        [
+          "441:5118",
+          "Nhãn / 02 / REUSE",
+          174,
+          30,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5122",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5123",
+          "Nút / Thử phân loại rác",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5126",
+          "Nút / Bỏ qua giới thiệu",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Thử phân loại rác": 1,
+        "Nút / Bỏ qua giới thiệu": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5092",
+          "name": "Quay lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7154",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7154",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5096",
+          "name": "Bỏ qua",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7151",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5123",
+          "name": "Nút / Thử phân loại rác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7149",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7149",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5126",
+          "name": "Nút / Bỏ qua giới thiệu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7151",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7149",
+      "name": "05 · RECYCLE — Phân loại đúng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 15,
+        "TEXT": 15,
+        "VECTOR": 17,
+        "RECTANGLE": 16,
+        "GROUP": 1,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "KHÁM PHÁ 3R · 3/3",
+        "Bỏ qua",
+        "Chai nhựa về đâu?",
+        "Chạm vào thùng phù hợp để thử phân loại.",
+        "Hữu cơ",
+        "Tái chế",
+        "Còn lại",
+        {
+          "hidden": "✓ Chính xác! Chai nhựa có thể tái chế."
+        },
+        {
+          "hidden": "Nhớ làm sạch và để ráo trước khi bỏ nhé."
+        },
+        {
+          "hidden": "Thử lại nhé, bạn sắp đúng rồi!"
+        },
+        {
+          "hidden": "Gợi ý: chai nhựa có thể có một vòng đời mới."
+        },
+        "Thiết lập trải nghiệm",
+        "Để sau"
+      ],
+      "parts": [
+        [
+          "386:7149",
+          "05 · RECYCLE — Phân loại đúng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4985",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4860",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5131",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5132",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5138",
+          "Tiến trình",
+          378,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5142",
+          "Chai nhựa cần phân loại",
+          380,
+          220,
+          "NONE"
+        ],
+        [
+          "441:5148",
+          "Group",
+          64.53333282470703,
+          139.33334350585938,
+          null
+        ],
+        [
+          "441:5153",
+          "Tiêu đề và mô tả",
+          380,
+          78,
+          "VERTICAL"
+        ],
+        [
+          "441:5156",
+          "Chọn thùng rác",
+          380,
+          116,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5157",
+          "Thùng / Hữu cơ",
+          120,
+          116,
+          "NONE"
+        ],
+        [
+          "441:5164",
+          "Thùng / Tái chế",
+          120,
+          116,
+          "NONE"
+        ],
+        [
+          "441:5171",
+          "Thùng / Còn lại",
+          120,
+          116,
+          "NONE"
+        ],
+        [
+          "441:5178",
+          "Phản hồi đúng",
+          380,
+          72,
+          "NONE"
+        ],
+        [
+          "441:5181",
+          "Thử lại",
+          380,
+          72,
+          "NONE"
+        ],
+        [
+          "441:5184",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5185",
+          "Nút / Thiết lập trải nghiệm",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5188",
+          "Nút / Để sau",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Thiết lập trải nghiệm": 1,
+        "Nút / Để sau": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5132",
+          "name": "Quay lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7158",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7158",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5136",
+          "name": "Bỏ qua",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7151",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5157",
+          "name": "Thùng / Hữu cơ",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:441:5129",
+                "variableValue": {
+                  "value": false,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:441:5129",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:441:5130",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5164",
+          "name": "Thùng / Tái chế",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:441:5129",
+                "variableValue": {
+                  "value": true,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:441:5129",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:441:5130",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5171",
+          "name": "Thùng / Còn lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:441:5129",
+                "variableValue": {
+                  "value": false,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:441:5129",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:441:5130",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5185",
+          "name": "Nút / Thiết lập trải nghiệm",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7151",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "441:5188",
+          "name": "Nút / Để sau",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7151",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

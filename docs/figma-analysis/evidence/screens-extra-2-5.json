@@ -1,0 +1,1380 @@
+{
+  "bytes": 13807,
+  "screens": [
+    {
+      "id": "386:7913",
+      "name": "Thông báo",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 8,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "GROUP": 26,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 28,
+        "ELLIPSE": 5,
+        "RECTANGLE": 20,
+        "LINE": 1
+      },
+      "texts": [
+        "Thông báo",
+        "Hôm nay, 30 tháng 10",
+        "8:00",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "16:00",
+        "Tới thùng rác",
+        "Hãy chụp ảnh rác để hệ thống nhận diện.",
+        "Hôm qua, 29 tháng 10",
+        "10:00",
+        "Lấy mã giảm giá ngay",
+        "Voucher tặng 10% cho ngày hôm nay.",
+        "Hôm trước, 28 tháng 10",
+        "12:00",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "22:00",
+        "Nhấn để đổi thưởng",
+        "Lỗi  trong quá trình xử lí dữ liệu bạn ơi.",
+        "Lấy mã giảm giá ngay",
+        "9:00",
+        "Voucher tặng 10% cho ngày hôm nay.",
+        "12:00",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "12:00",
+        "Nhấn để đổi thưởng",
+        "Bạn vừa hoàn thành một lượt phân loại!"
+      ],
+      "parts": [
+        [
+          "386:7913",
+          "Thông báo",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:7914",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:7915",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:7916",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:7918",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:7923",
+          "Frame 36843",
+          360,
+          785,
+          "VERTICAL"
+        ],
+        [
+          "386:7925",
+          "Group 37138",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7931",
+          "Group 37137",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7938",
+          "Group 37143",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7946",
+          "Group 37140",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7952",
+          "Group 37141",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7958",
+          "Group 37142",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7964",
+          "Group 37140",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7970",
+          "Group 37141",
+          357,
+          85,
+          null
+        ],
+        [
+          "386:7976",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:7978",
+          "Group 36739",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:7979",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:7983",
+          "Group 36734",
+          144,
+          47,
+          null
+        ],
+        [
+          "386:7994",
+          "Group 36732",
+          110,
+          30.5457763671875,
+          null
+        ],
+        [
+          "386:7999",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "478:4785",
+          "Prototype / Nav / Trang chủ",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4787",
+          "Prototype / Nav / Thu gom",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4789",
+          "Prototype / Nav / Quét rác",
+          68,
+          70,
+          "NONE"
+        ],
+        [
+          "478:4791",
+          "Prototype / Nav / Đổi quà",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4793",
+          "Prototype / Nav / Cá nhân",
+          66,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:7914",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7940",
+          "name": "Rectangle 745",
+          "links": [
+            {
+              "trigger": "ON_DRAG",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8228",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7984",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7990",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7995",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:7999",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4785",
+          "name": "Prototype / Nav / Trang chủ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4787",
+          "name": "Prototype / Nav / Thu gom",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4789",
+          "name": "Prototype / Nav / Quét rác",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4791",
+          "name": "Prototype / Nav / Đổi quà",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4793",
+          "name": "Prototype / Nav / Cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8003",
+      "name": "Thống báo cộng đồng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 18,
+        "RECTANGLE": 17,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "GROUP": 16,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 13,
+        "ELLIPSE": 11,
+        "LINE": 1
+      },
+      "texts": [
+        "Thông báo",
+        "Hôm nay",
+        "mdyn_05 đã thêm một tin vào bài đăng. \n\n14 phút",
+        "Gợi ý theo dõi: Thảo Nguyễn, Lưu Ly và những người khác\n\n1 tiếng ",
+        "t_phuong đã thêm một tin vào bài đăng. \n\n2 tiếng",
+        "Hôm qua",
+        "bng_836(người bạn có thể biết) đang dùng app.\n\n10 tiếng ",
+        "Theo dõi",
+        "7 ngày qua",
+        "my_linh(người bạn có thể biết) đang dùng app.\n\n10 tiếng ",
+        "Theo dõi",
+        "linh_chi03 đã thêm một tin vào bài đăng. \n\n2 tiếng",
+        "Gợi ý theo dõi: Thảo Nguyễn, Lưu Ly và những người khác\n\n1 tiếng "
+      ],
+      "parts": [
+        [
+          "386:8003",
+          "Thống báo cộng đồng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8005",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:8006",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:8007",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:8009",
+          "Frame 36840",
+          357,
+          756,
+          "VERTICAL"
+        ],
+        [
+          "386:8011",
+          "Frame 36811",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8017",
+          "Frame 36809",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8022",
+          "Frame 36812",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8029",
+          "Frame 36813",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8037",
+          "Frame 36814",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8044",
+          "Frame 36815",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8050",
+          "Frame 36809",
+          357,
+          85,
+          "NONE"
+        ],
+        [
+          "386:8055",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:8057",
+          "Group 36739",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:8058",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:8062",
+          "Group 36734",
+          144,
+          47,
+          null
+        ],
+        [
+          "386:8073",
+          "Group 36732",
+          110,
+          30.5457763671875,
+          null
+        ],
+        [
+          "386:8078",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "386:8082",
+          "Frame 36783",
+          28,
+          6,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8005",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8063",
+          "name": "Group 37111",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8069",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8074",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8078",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8086",
+      "name": "Chat",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 24,
+        "GROUP": 4,
+        "INSTANCE": 2,
+        "VECTOR": 12,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 21,
+        "RECTANGLE": 3,
+        "ELLIPSE": 15
+      },
+      "texts": [
+        "Healing",
+        "Nhấn để đổi thưởng",
+        "Tâm trạng\n ngày hôm nay?",
+        "Ghi chú của bạn",
+        "Rất là vui",
+        "Thu Phương",
+        "Mỹ Duyên",
+        "Mỹ Duyên",
+        "Tin nhắn",
+        "Trò chơi",
+        "Nguyễn Thị Linh Chi",
+        "Hoạt động 1 giờ trước",
+        "Thu Phương",
+        "Hoạt động 20 phút trước",
+        "Nguyễn Quang Huy",
+        "Hoạt động 50 phút trước",
+        "Lê Thị Mỹ Duyên",
+        "Hoạt động 3 giờ trước",
+        "Hoàng Phước Bảo",
+        "Hoạt động 5 giờ trước",
+        "Hỏi Meta AI hoặc tìm kiếm"
+      ],
+      "parts": [
+        [
+          "386:8086",
+          "Chat",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8087",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:8088",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:8092",
+          "Frame 36787",
+          110,
+          136,
+          "NONE"
+        ],
+        [
+          "386:8093",
+          "Frame 36786",
+          110,
+          115,
+          "NONE"
+        ],
+        [
+          "386:8102",
+          "Frame 36788",
+          110,
+          136,
+          "NONE"
+        ],
+        [
+          "386:8103",
+          "Frame 36786",
+          110,
+          115,
+          "NONE"
+        ],
+        [
+          "386:8112",
+          "Frame 36789",
+          110,
+          136,
+          "NONE"
+        ],
+        [
+          "386:8113",
+          "Frame 36786",
+          110,
+          115,
+          "NONE"
+        ],
+        [
+          "386:8116",
+          "Frame 36796",
+          110,
+          136,
+          "NONE"
+        ],
+        [
+          "386:8117",
+          "Frame 36786",
+          110,
+          115,
+          "NONE"
+        ],
+        [
+          "386:8122",
+          "Frame 36791",
+          236,
+          70,
+          "NONE"
+        ],
+        [
+          "386:8124",
+          "Frame 36790",
+          117,
+          39,
+          "NONE"
+        ],
+        [
+          "386:8127",
+          "Frame 36792",
+          236,
+          70,
+          "NONE"
+        ],
+        [
+          "386:8129",
+          "Frame 36790",
+          117,
+          39,
+          "NONE"
+        ],
+        [
+          "386:8132",
+          "Frame 36793",
+          236,
+          70,
+          "NONE"
+        ],
+        [
+          "386:8134",
+          "Frame 36790",
+          117,
+          39,
+          "NONE"
+        ],
+        [
+          "386:8137",
+          "Frame 36794",
+          236,
+          70,
+          "NONE"
+        ],
+        [
+          "386:8139",
+          "Frame 36790",
+          117,
+          39,
+          "NONE"
+        ],
+        [
+          "386:8142",
+          "Frame 36795",
+          236,
+          70,
+          "NONE"
+        ],
+        [
+          "386:8144",
+          "Frame 36790",
+          117,
+          39,
+          "NONE"
+        ],
+        [
+          "386:8150",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8122",
+          "name": "Frame 36791",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8151",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8150",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8151",
+      "name": "Chat",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "GROUP": 11,
+        "INSTANCE": 9,
+        "VECTOR": 35,
+        "BOOLEAN_OPERATION": 6,
+        "ELLIPSE": 4,
+        "TEXT": 9,
+        "RECTANGLE": 4
+      },
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin..."
+      ],
+      "parts": [
+        [
+          "386:8151",
+          "Chat",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8152",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:8153",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:8158",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:8159",
+          "Iconly/Regular/Outline/Call",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:8159;37694:3903",
+          "Stroke 5",
+          20.57405662536621,
+          20.508262634277344,
+          null
+        ],
+        [
+          "386:8160",
+          "Iconly/Regular/Outline/Video",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:8160;33437:4469",
+          "Video",
+          20.83230972290039,
+          15.501346588134766,
+          null
+        ],
+        [
+          "386:8173",
+          "Iconly/Regular/Bulk/Camera",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "I386:8173;29221:1260",
+          "Camera",
+          23.33333396911621,
+          21,
+          null
+        ],
+        [
+          "386:8175",
+          "Iconly/Regular/Light/Voice",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8175;29221:1552",
+          "Voice",
+          16,
+          20.712581634521484,
+          null
+        ],
+        [
+          "386:8176",
+          "Iconly/Regular/Light/Image 3",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8176;29221:1653",
+          "Image 2",
+          18.457489013671875,
+          19.111648559570312,
+          null
+        ],
+        [
+          "386:8177",
+          "Iconly/Regular/Light/Document",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8177;29221:1872",
+          "Document",
+          16.665000915527344,
+          19.06608009338379,
+          null
+        ],
+        [
+          "386:8178",
+          "Iconly/Regular/Light/Plus",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8178;29221:1824",
+          "Plus",
+          20,
+          20.71274185180664,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 1,
+        "Iconly/Regular/Outline/Call": 1,
+        "Iconly/Regular/Outline/Video": 1,
+        "Iconly/Regular/Bulk/Camera": 1,
+        "Iconly/Regular/Light/Voice": 1,
+        "Iconly/Regular/Light/Image 3": 1,
+        "Iconly/Regular/Light/Document": 1,
+        "Iconly/Regular/Light/Plus": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8158",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8179",
+      "name": "Chat",
+      "type": "FRAME",
+      "w": 428,
+      "h": 959,
+      "types": {
+        "FRAME": 5,
+        "GROUP": 15,
+        "INSTANCE": 14,
+        "VECTOR": 45,
+        "BOOLEAN_OPERATION": 7,
+        "ELLIPSE": 6,
+        "TEXT": 15,
+        "RECTANGLE": 9
+      },
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "3 thg11, 2025",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Nhắn tin...",
+        "Tôi vừa phân loại xong rác hôm nay!  Cảm giác thật nhẹ lòng 💚",
+        "100",
+        "5 ",
+        "50",
+        "Healing",
+        "https://congdong.healing/links",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!"
+      ],
+      "parts": [
+        [
+          "386:8179",
+          "Chat",
+          428,
+          959,
+          "NONE"
+        ],
+        [
+          "386:8180",
+          "Group 1",
+          428,
+          50.746219635009766,
+          null
+        ],
+        [
+          "386:8181",
+          "iPhone/Status Bar",
+          428,
+          50.746219635009766,
+          "NONE"
+        ],
+        [
+          "386:8186",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:8187",
+          "Iconly/Regular/Outline/Call",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8187;37694:3903",
+          "Stroke 5",
+          20.57418441772461,
+          21.239730834960938,
+          null
+        ],
+        [
+          "386:8188",
+          "Iconly/Regular/Outline/Video",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8188;33437:4469",
+          "Video",
+          20.832368850708008,
+          16.053770065307617,
+          null
+        ],
+        [
+          "386:8202",
+          "Iconly/Regular/Bulk/Camera",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "I386:8202;29221:1260",
+          "Camera",
+          23.33333396911621,
+          21,
+          null
+        ],
+        [
+          "386:8204",
+          "Iconly/Regular/Light/Voice",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8204;29221:1552",
+          "Voice",
+          16,
+          20.712581634521484,
+          null
+        ],
+        [
+          "386:8205",
+          "Iconly/Regular/Light/Image 3",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8205;29221:1653",
+          "Image 2",
+          18.457489013671875,
+          19.111648559570312,
+          null
+        ],
+        [
+          "386:8206",
+          "Iconly/Regular/Light/Document",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8206;29221:1872",
+          "Document",
+          16.665000915527344,
+          19.06608009338379,
+          null
+        ],
+        [
+          "386:8207",
+          "Iconly/Regular/Light/Plus",
+          24,
+          24.85529136657715,
+          "NONE"
+        ],
+        [
+          "I386:8207;29221:1824",
+          "Plus",
+          20,
+          20.71274185180664,
+          null
+        ],
+        [
+          "386:8213",
+          "Frame 36775",
+          31,
+          18,
+          "NONE"
+        ],
+        [
+          "386:8214",
+          "Iconly/Regular/Bold/Heart",
+          17,
+          17,
+          "NONE"
+        ],
+        [
+          "386:8216",
+          "Frame 36776",
+          59,
+          18,
+          "NONE"
+        ],
+        [
+          "386:8217",
+          "Iconly/Regular/Bold/Heart",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "386:8219",
+          "Iconly/Regular/Light/Chat",
+          16.038835525512695,
+          16.038835525512695,
+          "NONE"
+        ],
+        [
+          "386:8220",
+          "Iconly/Regular/Light/Download",
+          14,
+          15.534557342529297,
+          "NONE"
+        ],
+        [
+          "I386:8220;29221:1724",
+          "Downlaod",
+          10.791666984558105,
+          10.988690376281738,
+          null
+        ],
+        [
+          "386:8221",
+          "Frame 36777",
+          29,
+          18,
+          "NONE"
+        ],
+        [
+          "386:8223",
+          "Iconly/Regular/Light/Send",
+          16.239999771118164,
+          16.239999771118164,
+          "NONE"
+        ],
+        [
+          "I386:8223;29221:1691",
+          "Send",
+          12.180000305175781,
+          12.180000305175781,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 1,
+        "Iconly/Regular/Outline/Call": 1,
+        "Iconly/Regular/Outline/Video": 1,
+        "Iconly/Regular/Bulk/Camera": 1,
+        "Iconly/Regular/Light/Voice": 1,
+        "Iconly/Regular/Light/Image 3": 1,
+        "Iconly/Regular/Light/Document": 1,
+        "Iconly/Regular/Light/Plus": 1,
+        "Iconly/Regular/Bold/Heart": 2,
+        "Iconly/Regular/Light/Chat": 1,
+        "Iconly/Regular/Light/Download": 1,
+        "Iconly/Regular/Light/Send": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8186",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

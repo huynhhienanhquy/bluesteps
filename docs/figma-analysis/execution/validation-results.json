@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "scope": "backuped only; Python Identity; Supabase Database",
+  "epics": 48,
+  "capabilities": 90,
+  "packets": 270,
+  "concreteOperations": 172,
+  "specifiedOperations": 9,
+  "fixtureCasesChecked": 13,
+  "schemaSubsetChecks": "refs, oneOf, strict properties, type/enum/const, bounds, uuid/email/datetime formats used by supplied fixtures",
+  "standardMetaschemaValidation": "passed: OpenAPI metaschema and JSON Schema fixtures",
+  "readyTaskIds": [
+    "DECISIONS-SPEC",
+    "CONTRACTS-SPEC",
+    "API-BASE-BUILD",
+    "DB-HARNESS-SPEC",
+    "MOBILE-BASE-SPEC"
+  ],
+  "packetDag": "acyclic",
+  "runtimeTestsRun": false,
+  "productionReleaseReady": false,
+  "errors": []
+}

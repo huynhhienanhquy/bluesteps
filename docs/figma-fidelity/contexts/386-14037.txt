@@ -1,0 +1,383 @@
+const imgRectangle9 = "https://www.figma.com/api/mcp/asset/caa5f81d-5c06-418d-86df-b3993ef4e01a.png";
+const imgImage13 = "https://www.figma.com/api/mcp/asset/3c2fa998-f324-420e-bcfb-2ff6769f3350.png";
+const imgImage28 = "https://www.figma.com/api/mcp/asset/38358061-83eb-4f76-b630-0e53955506d7.png";
+const imgImage58 = "https://www.figma.com/api/mcp/asset/f14c4d55-0ed1-45f4-8e61-d4e65aadf856.png";
+const imgImage2 = "https://www.figma.com/api/mcp/asset/3a793b94-e199-4b1b-843a-56c8f98caa8f.png";
+const imgImage29 = "https://www.figma.com/api/mcp/asset/eba96453-9224-49b2-b2ee-9065721fc962.png";
+const imgImage31 = "https://www.figma.com/api/mcp/asset/68076e99-8796-4977-a107-ce1846253025.png";
+const imgImage59 = "https://www.figma.com/api/mcp/asset/8d4b3007-1dc6-487f-9abc-ea32a3345af6.png";
+const imgImage60 = "https://www.figma.com/api/mcp/asset/b68bf3d2-276f-467f-98e9-20cf6c4622f6.png";
+const imgImage62 = "https://www.figma.com/api/mcp/asset/3d1613e0-6450-48c2-a7d9-8aaf75ebd3ed.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/3e4807d2-aee4-442c-8834-00df97b2eca8.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/6a813adf-4fd2-419f-a4bb-07513b56ef7e.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/d16f36d6-3f1f-40d7-b877-e54401d4eaf5.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/8c68a9c1-f24f-4e00-acfe-779e889b7a2c.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/66a330a4-5da1-4732-bb51-202221336b0e.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/90b48861-06b9-4815-a258-2da7d56ceb32.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/22b07ac5-ebcd-487c-8c24-d3a114927acc.svg";
+const imgRectangle87 = "https://www.figma.com/api/mcp/asset/aa015384-4e9d-44d8-a5be-95ba40d4607f.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/5751842b-aa67-4ed7-b20c-8b1c73dd1539.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/9e91aaf7-acdb-4653-8f29-0da66ed19662.svg";
+const imgGroup36732 = "https://www.figma.com/api/mcp/asset/72a0a13f-9e00-4a73-bb8a-bbecb5f477ae.svg";
+const imgGroup36731 = "https://www.figma.com/api/mcp/asset/ecae4da3-4874-48c4-8f4c-8109be20a5e3.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/350a30d1-4ba7-464a-bcfb-81cf154d049e.svg";
+const imgFiRrZoomIn = "https://www.figma.com/api/mcp/asset/77e8f098-2bda-4c05-a1ff-0ea2dd739404.svg";
+const imgEllipse71 = "https://www.figma.com/api/mcp/asset/24f575cf-d8e7-4d6a-82d7-2aa562aed1a1.svg";
+const imgVector2 = "https://www.figma.com/api/mcp/asset/8ddc6f5a-db67-413b-b486-24ae0dd89704.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/651136d9-6c88-449e-a8cd-e69370d344f7.svg";
+const imgTime1 = "https://www.figma.com/api/mcp/asset/b3bb1bee-7bc8-4312-8af4-2cac4dd109dc.svg";
+const imgTime2 = "https://www.figma.com/api/mcp/asset/56c0a2ca-0ec9-4bb2-abcd-0b84f681e8db.svg";
+const imgVector717 = "https://www.figma.com/api/mcp/asset/48e6389c-e929-403f-929b-26800234fafc.svg";
+
+export default function RacTaiChe1() {
+  return (
+    <div className="bg-[#eaf5fc] overflow-clip relative rounded-[25px] size-full" data-node-id="386:14037" data-name="RacTaiChe1">
+      <div className="absolute contents left-[-7px] top-0" data-node-id="386:14038">
+        <div className="absolute bg-[#147cc1] h-[199px] left-0 rounded-tl-[25px] rounded-tr-[25px] top-0 w-[428px]" data-node-id="386:14039" />
+        <div className="absolute contents inset-[0_0_94.71%_0]" data-node-id="386:14040">
+          <div className="absolute inset-[0_0_94.71%_0] overflow-clip" data-node-id="386:14041" data-name="iPhone/Status Bar">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:14041;47:200" data-name="Right Side">
+              <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:14041;47:201" data-name="Battery">
+                <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:14041;47:202" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+                </div>
+                <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:14041;47:203" data-name="Combined Shape">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+                </div>
+                <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:14041;47:204" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+                </div>
+              </div>
+              <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:14041;47:205" data-name="Wifi">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+              </div>
+              <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:14041;47:209" data-name="Mobile Signal">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+              </div>
+            </div>
+            <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:14041;47:216" data-name="Left Side">
+              <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:14041;47:217" data-name="Time">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-0 left-[calc(30%+15.6px)] top-[918px] w-[141px]" data-node-id="386:14042" data-name="line">
+          <div className="absolute inset-[-2.56px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine} />
+          </div>
+        </div>
+        <div className="absolute contents left-[calc(60%+20.2px)] top-[40px]" data-node-id="386:14045">
+          <div className="absolute h-[81.142px] left-[calc(60%+20.2px)] top-[40px] w-[88.617px]" data-node-id="386:14046">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[129.31%] left-[-3.21%] max-w-none top-[-12.54%] w-full" src={imgRectangle9} />
+            </div>
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Roboto:ExtraBold'] font-extrabold h-[38px] leading-[normal] left-[calc(50%-85px)] text-[32px] text-white top-[59px] tracking-[0.96px] w-[159px]" data-node-id="386:14047" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Sổ tay rác
+        </p>
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%+1px)] top-[810px]" data-node-id="386:14048">
+          <div className="absolute bg-[#147cc1] h-[75px] left-[calc(60%-4.8px)] rounded-br-[25px] rounded-tl-[35px] top-[851px] w-[185px]" data-node-id="386:14049" />
+          <div className="absolute contents left-[-7px] top-[810px]" data-node-id="386:14050">
+            <div className="absolute contents left-[-7px] top-[849px]" data-node-id="386:14051">
+              <div className="absolute bg-[#147cc1] h-[77px] left-[-7px] rounded-bl-[25px] rounded-tr-[35px] top-[849px] w-[185px]" data-node-id="386:14052" />
+            </div>
+            <div className="absolute h-[67px] left-[calc(40%-1.2px)] top-[859px] w-[95px]" data-node-id="386:14053">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle87} />
+            </div>
+            <div className="absolute contents inset-[93.74%_7.94%_3.24%_65.89%]" data-node-id="386:14054">
+              <div className="absolute contents inset-[93.74%_7.94%_3.24%_85.51%]" data-node-id="386:14055">
+                <div className="absolute inset-[93.74%_7.94%_3.24%_85.51%]" data-node-id="386:14056" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+                </div>
+              </div>
+              <div className="absolute contents inset-[93.74%_27.57%_3.24%_65.89%]" data-node-id="386:14059">
+                <div className="absolute inset-[93.74%_27.57%_3.24%_65.89%]" data-node-id="386:14060" data-name="Group">
+                  <div className="absolute inset-[-2.68%]">
+                    <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute h-[30.546px] left-[calc(10%-1.8px)] top-[868px] w-[110px]" data-node-id="386:14063">
+              <div className="absolute inset-[-2.46%_-0.68%_-2.45%_-0.68%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup36732} />
+              </div>
+            </div>
+            <div className="absolute left-[calc(40%+6.8px)] size-[75px] top-[810px]" data-node-id="386:14068">
+              <div className="absolute inset-[0_-5.33%_-10.67%_-5.33%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup36731} />
+              </div>
+            </div>
+          </div>
+          <div className="absolute h-0 left-[calc(30%+15.6px)] top-[920px] w-[141px]" data-node-id="386:14071" data-name="line">
+            <div className="absolute inset-[-2.56px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine1} />
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute bg-white border border-[#e4e4e4] border-solid h-[56px] left-[calc(50%-0.5px)] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[118px] w-[375px]" data-node-id="386:14073" data-name="Rounded rectangle" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[calc(20%-12.6px)] not-italic text-[#9d9b9b] text-[12px] top-[140px] whitespace-nowrap" data-node-id="386:14074">
+          Tìm kiếm.....
+        </p>
+        <div className="absolute left-[calc(10%-2.8px)] size-[24px] top-[135px]" data-node-id="386:14075" data-name="fi-rr-zoom-in">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFiRrZoomIn} />
+        </div>
+        <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[22px] h-[426px] items-center leading-[0] left-[calc(50%-0.5px)] overflow-x-clip overflow-y-auto top-[378px] w-[361px]" data-node-id="386:14076">
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14077">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14078" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[32px] mt-[10px] place-items-start relative row-1" data-node-id="386:14079">
+              <div className="bg-[#e64446] col-1 h-[55px] ml-0 mt-px relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14080" />
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[23.5px] mt-0 place-items-start relative row-1" data-node-id="386:14081">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14082">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 h-[50px] ml-[14px] mt-[5px] relative row-1 w-[31px]" data-node-id="386:14083" data-name="image 13">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage13} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[97px] mt-[21px] not-italic relative row-1 text-[15px] text-black tracking-[0.45px] w-[80px]" data-node-id="386:14084">
+                Chai nhựa
+              </p>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14085">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14086" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[32px] mt-[10px] place-items-start relative row-1" data-node-id="386:14087">
+              <div className="bg-[#7ab0cc] col-1 h-[55px] ml-0 mt-[2px] relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14088" />
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[97px] mt-[20px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] whitespace-nowrap" data-node-id="386:14089">
+                Giấy - Báo - Tạp chí
+              </p>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[23.5px] mt-0 place-items-start relative row-1" data-node-id="386:14090">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14091">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 flex items-center justify-center ml-[7px] mt-[7px] relative row-1 size-[45px]" data-node-id="386:14092">
+                  <div className="-scale-y-100 flex-none rotate-180">
+                    <div className="relative size-[45px]" data-name="image 28">
+                      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage28} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14093">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14094" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[30px] mt-[12px] place-items-start relative row-1" data-node-id="386:14095">
+              <div className="bg-[#c2639f] col-1 h-[55px] ml-0 mt-0 relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14096" />
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[97.5px] mt-[19px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] w-[87px]" data-node-id="386:14097">
+                Ni lông
+              </p>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[25.5px] mt-px place-items-start relative row-1" data-node-id="386:14098">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14099">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 h-[38px] ml-0 mt-[11px] relative row-1 w-[70px]" data-node-id="386:14100" data-name="image 58">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage58} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14101">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14102" />
+            <div className="bg-[#ff9fa1] col-1 h-[55px] ml-[32.5px] mt-[14px] relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14103" />
+            <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[129.5px] mt-[32px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] whitespace-nowrap" data-node-id="386:14104">
+              Hộp carton
+            </p>
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[55.5px] mt-[10px] place-items-start relative row-1" data-node-id="386:14105">
+              <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14106">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+              </div>
+              <div className="col-1 h-[30px] ml-[14px] mt-[18px] relative row-1 w-[37px]" data-node-id="386:14107" data-name="image 2">
+                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage2} />
+              </div>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14108">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14109" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[33.5px] mt-[10px] place-items-start relative row-1" data-node-id="386:14110">
+              <div className="bg-[rgba(188,227,16,0.63)] col-1 h-[55px] ml-0 mt-[3px] relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14111" />
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[97px] mt-[21px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] w-[158px]" data-node-id="386:14112">
+                Thủy tinh(chai lọ)
+              </p>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[22px] mt-0 place-items-start relative row-1" data-node-id="386:14113">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14114">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 ml-[7.5px] mt-[8px] relative row-1 size-[45px]" data-node-id="386:14115" data-name="image 29">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage29} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14116">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14117" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[33px] mt-[10px] place-items-start relative row-1" data-node-id="386:14118">
+              <div className="bg-[#ff9fa1] col-1 h-[55px] ml-0 mt-[3px] relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14119" />
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal h-[17px] leading-[normal] ml-[97px] mt-[21px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] w-[133px]" data-node-id="386:14120">
+                Áo quần-giày dép
+              </p>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[22.5px] mt-0 place-items-start relative row-1" data-node-id="386:14121">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14122">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 h-[41px] ml-0 mt-[10px] relative row-1 w-[62px]" data-node-id="386:14123" data-name="image 31">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage31} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14124">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14125" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[33.5px] mt-[10px] place-items-start relative row-1" data-node-id="386:14126">
+              <div className="bg-[#ff9fa1] col-1 h-[55px] ml-0 mt-[3px] relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14127" />
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[97px] mt-[21px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] w-[72px]" data-node-id="386:14128">
+                Đồ nhựa
+              </p>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[22px] mt-0 place-items-start relative row-1" data-node-id="386:14129">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14130">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 h-[30px] ml-[8px] mt-[15px] relative row-1 w-[50px]" data-node-id="386:14131" data-name="image 59">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage59} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14132">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14133" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[33.5px] mt-[10px] place-items-start relative row-1" data-node-id="386:14134">
+              <div className="bg-[#ff9fa1] col-1 h-[55px] ml-0 mt-[2px] relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14135" />
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[96px] mt-[21px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] w-[133px]" data-node-id="386:14136">
+                Lon bia-nước ngọt
+              </p>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[22px] mt-0 place-items-start relative row-1" data-node-id="386:14137">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14138">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 ml-[9px] mt-[8px] relative row-1 size-[44px]" data-node-id="386:14139" data-name="image 60">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage60} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0" data-node-id="386:14140">
+            <div className="backdrop-blur-[0px] bg-white border-[#dedede] border-[0.5px] border-solid col-1 h-[80px] ml-0 mt-0 relative rounded-[6px] row-1 w-[350px]" data-node-id="386:14141" />
+            <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[33px] mt-[10px] place-items-start relative row-1" data-node-id="386:14142">
+              <div className="bg-[#ff9fa1] col-1 h-[55px] ml-0 mt-[3px] relative rounded-br-[3px] rounded-tr-[3px] row-1 w-[4px]" data-node-id="386:14143" />
+              <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[96.5px] mt-[21px] not-italic relative row-1 text-[16px] text-black tracking-[0.48px] w-[104px]" data-node-id="386:14144">
+                Chai nhựa
+              </p>
+              <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[22.5px] mt-0 place-items-start relative row-1" data-node-id="386:14145">
+                <div className="col-1 ml-0 mt-0 relative row-1 size-[60px]" data-node-id="386:14146">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse71} />
+                </div>
+                <div className="col-1 h-[50px] ml-[15px] mt-[5px] relative row-1 w-[31px]" data-node-id="386:14147" data-name="image 13">
+                  <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage13} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-[calc(45%-7.1px)] top-[268px]" data-node-id="386:14148">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Light'] font-light h-[75px] leading-[normal] left-[calc(45%+3.54px)] not-italic text-[16px] text-black text-center top-[268px] tracking-[0.48px] w-[281.722px]" data-node-id="386:14149">
+            Vui lòng tách rác tái chế khỏi rác hữu cơ và nguy hại. Đảm bảo không lẫn pin, kim tiêm hoặc chất độc hại.
+          </p>
+          <div className="absolute inset-[29.27%_88.08%_68.57%_7.94%]" data-node-id="386:14150">
+            <div className="absolute inset-[-3.46%_-7.82%_-16.25%_-7.82%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector2} />
+            </div>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%-6.5px)] top-[219px]" data-node-id="386:14151">
+          <div className="absolute inset-[23.65%_61.22%_72.14%_28.97%]" data-node-id="386:14152" data-name="Group">
+            <div className="absolute inset-[-0.64%_-0.6%_0_-0.6%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[calc(40%+7.8px)] not-italic text-[#555] text-[20px] top-[226px] tracking-[0.6px] whitespace-nowrap" data-node-id="386:14166">
+            Rác tái chế
+          </p>
+        </div>
+        <CodeConnectSnippet data-node-id="386:14167" data-name="chevron_backward">
+          {/* Material 3 Design Kit component */}
+          <ChevronBackward />
+        </CodeConnectSnippet>
+        <div className="absolute flex h-[64.652px] items-center justify-center left-[calc(80%+7.6px)] top-[268px] w-[43.977px]" data-node-id="386:14168">
+          <div className="flex-none rotate-[0.88deg]">
+            <div className="h-[64px] relative w-[43px]" data-name="image 62">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage62} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute inset-[25.38%_24.73%_73.8%_72.2%]" data-node-id="386:14169" data-name="time">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime1} />
+        </div>
+      </div>
+      <div className="absolute bg-[rgba(217,217,217,0.4)] h-[926px] left-0 rounded-[25px] top-0 w-[428px]" data-node-id="386:14171" />
+      <div className="-translate-x-1/2 absolute bg-[#f4f8f4] h-[464px] left-1/2 rounded-[25px] top-[198px] w-[372px]" data-node-id="386:14172" />
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%-0.5px)] top-[233px]" data-node-id="386:14173">
+        <div className="absolute inset-[25.16%_59.81%_70.63%_30.37%]" data-node-id="386:14174" data-name="Group">
+          <div className="absolute inset-[-0.64%_-0.6%_0_-0.6%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[calc(40%+13.8px)] not-italic text-[#555] text-[20px] top-[240px] tracking-[0.6px] whitespace-nowrap" data-node-id="386:14188">
+          Rác tái chế
+        </p>
+      </div>
+      <div className="absolute flex inset-[30.35%_48.6%_68.84%_48.32%] items-center justify-center" data-node-id="386:14189" style={{ containerType: "size" }}>
+        <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+          <a className="block cursor-pointer relative size-full" data-name="time">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime2} />
+          </a>
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[260px] leading-[0] left-[calc(50%-172px)] not-italic text-[14px] text-black top-[335px] tracking-[0.42px] w-[344px]" data-node-id="386:14191">
+        <ul className="list-disc mb-0">
+          <li className="mb-0 ms-[21px]">
+            <span className="leading-[20px]">Rửa sạch rác trước khi bỏ đi để tránh mùi và nấm mốc.</span>
+          </li>
+          <li className="mb-0 ms-[21px]">
+            <span className="leading-[20px]">Phân loại riêng theo chất liệu (nhựa, giấy, kim loại, thủy tinh).</span>
+          </li>
+          <li className="mb-0 ms-[21px]">
+            <span className="leading-[20px]">Làm khô, bó gọn hoặc nén lại để tiết kiệm diện tích.</span>
+          </li>
+          <li className="mb-0 ms-[21px]">
+            <span className="leading-[20px]">Gửi đến các điểm thu gom, đổi rác lấy quà hoặc cửa hàng thu hồi tái chế.</span>
+          </li>
+          <li className="ms-[21px]">
+            <span className="leading-[20px]">Không vứt lẫn với rác ướt (rác thực phẩm) vì sẽ làm hỏng khả năng tái chế.</span>
+          </li>
+        </ul>
+        <p className="leading-[20px] mb-0 whitespace-pre-wrap">​</p>
+        <p className="leading-[20px] whitespace-pre-wrap">{`     Ví dụ: Rửa chai nước suối, phơi khô rồi bỏ vào thùng rác tái chế.`}</p>
+      </div>
+      <div className="absolute flex h-[8px] items-center justify-center left-[calc(10%+2.2px)] top-[562px] w-[11.5px]" data-node-id="386:14192">
+        <div className="-rotate-90 flex-none">
+          <div className="h-[11.5px] relative w-[8px]">
+            <div className="absolute inset-[-8.7%_-12.5%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector717} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Medium'] font-medium leading-[normal] left-[calc(50%-45px)] not-italic text-[16px] text-black top-[307px] tracking-[0.48px] whitespace-nowrap" data-node-id="386:14193">
+        Cách xử lý:
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

@@ -1,0 +1,3740 @@
+{
+  "bytes": 45920,
+  "screens": [
+    {
+      "id": "534:48690",
+      "name": "Báo cáo vấn đề tại điểm thu gom",
+      "type": "FRAME",
+      "w": 428,
+      "h": 955,
+      "types": {
+        "FRAME": 39,
+        "INSTANCE": 3,
+        "GROUP": 3,
+        "VECTOR": 16,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 17,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3
+      },
+      "texts": [
+        "Báo cáo vấn đề",
+        "Công viên cộng đồng A",
+        "460 Trần Đại Nghĩa, Ngũ Hành Sơn, Đà Nẵng",
+        "Bạn gặp vấn đề gì?",
+        "Chọn tất cả vấn đề phù hợp",
+        "Thùng rác đã đầy",
+        "Vị trí trên bản đồ chưa đúng",
+        "Không tiếp nhận loại rác đã công bố",
+        "Điểm đóng cửa hoặc ngừng hoạt động",
+        "Vấn đề khác",
+        "Thêm ảnh hiện trạng",
+        "Ảnh chụp rõ thùng rác sẽ giúp xử lý nhanh hơn",
+        "Mô tả thêm",
+        "Thùng nhựa ở cổng chính đã đầy, chưa thể bỏ thêm chai. Tôi đến lúc 09:30 hôm nay.",
+        "Cảm ơn bạn đã chia sẻ",
+        "Báo cáo sẽ được xem xét trước khi cập nhật. Không để lại rác bên ngoài thùng.",
+        "Gửi báo cáo"
+      ],
+      "parts": [
+        [
+          "534:48690",
+          "Báo cáo vấn đề tại điểm thu gom",
+          428,
+          955,
+          "VERTICAL"
+        ],
+        [
+          "534:48691",
+          "Nội dung màn hình",
+          428,
+          853,
+          "VERTICAL"
+        ],
+        [
+          "534:48692",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:48712",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:48718",
+          "Nội dung chính",
+          428,
+          752,
+          "VERTICAL"
+        ],
+        [
+          "534:48766",
+          "Thao tác cuối trang",
+          428,
+          102,
+          "VERTICAL"
+        ],
+        [
+          "534:48767",
+          "Vùng thao tác",
+          428,
+          50,
+          "VERTICAL"
+        ],
+        [
+          "534:48771",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:48767",
+          "name": "Vùng thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10186",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10186",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:48595",
+      "name": "Đề xuất điểm thu gom mới",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1147,
+      "types": {
+        "FRAME": 43,
+        "INSTANCE": 3,
+        "GROUP": 3,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 25,
+        "ELLIPSE": 1,
+        "RECTANGLE": 2
+      },
+      "texts": [
+        "Đề xuất điểm thu gom mới",
+        "Cùng mở rộng bản đồ xanh",
+        "Điểm bạn đề xuất chỉ xuất hiện công khai sau khi được đội ngũ xem xét.",
+        "Thông tin địa điểm",
+        "Tên điểm thu gom *",
+        "Góc tái chế khu dân cư An Hải",
+        "Địa chỉ *",
+        "32 Nguyễn Duy Hiệu, An Hải, Đà Nẵng",
+        "32 Nguyễn Duy Hiệu",
+        "Ghim tại lối vào khu dân cư",
+        "Chỉnh ghim",
+        "Ảnh địa điểm *",
+        "Chụp lối vào và khu vực nhận rác • tối đa 5 ảnh",
+        "Loại rác dự kiến tiếp nhận *",
+        "Nhựa",
+        "Giấy, bìa",
+        "Kim loại",
+        "Thủy tinh",
+        "Pin đã dùng",
+        "Điện tử",
+        "Giờ tiếp nhận (nếu biết)",
+        "Thứ Bảy, Chủ nhật • 08:00–17:00",
+        "Tôi xác nhận thông tin này là đề xuất từ cộng đồng, chưa được xác minh.",
+        "Gửi đề xuất để xét duyệt",
+        "Lưu bản nháp"
+      ],
+      "parts": [
+        [
+          "534:48595",
+          "Đề xuất điểm thu gom mới",
+          428,
+          1147,
+          "VERTICAL"
+        ],
+        [
+          "534:48596",
+          "Nội dung màn hình",
+          428,
+          1015,
+          "VERTICAL"
+        ],
+        [
+          "534:48597",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:48617",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:48623",
+          "Nội dung chính",
+          428,
+          914,
+          "VERTICAL"
+        ],
+        [
+          "534:48681",
+          "Thao tác cuối trang",
+          428,
+          132,
+          "VERTICAL"
+        ],
+        [
+          "534:48682",
+          "Vùng thao tác",
+          428,
+          80,
+          "VERTICAL"
+        ],
+        [
+          "534:48687",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:48683",
+          "name": "Nút thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:48505",
+      "name": "So sánh điểm thu gom",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1021,
+      "types": {
+        "FRAME": 31,
+        "INSTANCE": 3,
+        "GROUP": 3,
+        "VECTOR": 14,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 30,
+        "ELLIPSE": 1,
+        "RECTANGLE": 4
+      },
+      "texts": [
+        "So sánh điểm thu gom",
+        "2 điểm gần bạn • cùng nhận nhựa và giấy",
+        "Công viên cộng đồng A",
+        "460 Trần Đại Nghĩa, Đà Nẵng",
+        "Khoảng cách",
+        "200 m · 5 phút",
+        "Đi bộ từ vị trí của bạn",
+        "Giờ mở cửa",
+        "Mở suốt ngày",
+        "Tiếp nhận",
+        "Nhựa, giấy, kim loại, hữu cơ",
+        "Tiếp nhận hiện tại",
+        "Còn chỗ",
+        "Đã chọn",
+        "Trạm xanh Hòa Hải",
+        "120 Lê Văn Hiến, Đà Nẵng",
+        "Khoảng cách",
+        "850 m · 12 phút",
+        "Đi bộ từ vị trí của bạn",
+        "Giờ mở cửa",
+        "07:00–18:00",
+        "Tiếp nhận",
+        "Nhựa, giấy, thủy tinh, pin",
+        "Tiếp nhận hiện tại",
+        "Còn chỗ",
+        "Chọn điểm này",
+        "Gợi ý cho túi rác của bạn",
+        "Công viên cộng đồng A gần hơn. Nếu mang pin, hãy chọn Trạm xanh Hòa Hải.",
+        "Chỉ đường đến điểm đã chọn",
+        "Thay đổi điểm so sánh"
+      ],
+      "parts": [
+        [
+          "534:48505",
+          "So sánh điểm thu gom",
+          428,
+          1021,
+          "VERTICAL"
+        ],
+        [
+          "534:48506",
+          "Nội dung màn hình",
+          428,
+          889,
+          "VERTICAL"
+        ],
+        [
+          "534:48507",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:48527",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:48533",
+          "Nội dung chính",
+          428,
+          788,
+          "VERTICAL"
+        ],
+        [
+          "534:48586",
+          "Thao tác cuối trang",
+          428,
+          132,
+          "VERTICAL"
+        ],
+        [
+          "534:48587",
+          "Vùng thao tác",
+          428,
+          80,
+          "VERTICAL"
+        ],
+        [
+          "534:48592",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:48587",
+          "name": "Vùng thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10279",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:48401",
+      "name": "Bộ lọc điểm thu gom",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1003,
+      "types": {
+        "FRAME": 40,
+        "INSTANCE": 3,
+        "GROUP": 3,
+        "VECTOR": 16,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 32,
+        "ELLIPSE": 4,
+        "RECTANGLE": 4
+      },
+      "texts": [
+        "Bộ lọc điểm thu gom",
+        "Tìm điểm phù hợp với loại rác bạn mang theo.",
+        "Loại rác được tiếp nhận",
+        "Có thể chọn nhiều loại",
+        "Nhựa",
+        "Giấy, bìa",
+        "Kim loại",
+        "Thủy tinh",
+        "Pin đã dùng",
+        "Rác hữu cơ",
+        "Quần áo",
+        "Điện tử",
+        "Khoảng cách từ bạn",
+        "Trong bán kính",
+        "3 km",
+        "500 m",
+        "3 km",
+        "5 km",
+        "10 km",
+        "Giờ hoạt động",
+        "Tất cả",
+        "Đang mở cửa",
+        "Mở 24 giờ",
+        "Tình trạng tiếp nhận",
+        "Chỉ hiện điểm còn chỗ",
+        "Ẩn các điểm đầy hoặc tạm ngừng nhận",
+        "Có nhân viên hỗ trợ",
+        "Phù hợp khi cần hướng dẫn phân loại",
+        "Kết quả quanh Ngũ Hành Sơn",
+        "Tình trạng do cộng đồng cập nhật, có thể thay đổi khi bạn đến.",
+        "Áp dụng • 6 điểm phù hợp",
+        "Đặt lại bộ lọc"
+      ],
+      "parts": [
+        [
+          "534:48401",
+          "Bộ lọc điểm thu gom",
+          428,
+          1003,
+          "VERTICAL"
+        ],
+        [
+          "534:48402",
+          "Nội dung màn hình",
+          428,
+          871,
+          "VERTICAL"
+        ],
+        [
+          "534:48403",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:48423",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:48429",
+          "Nội dung chính",
+          428,
+          770,
+          "VERTICAL"
+        ],
+        [
+          "534:48496",
+          "Thao tác cuối trang",
+          428,
+          132,
+          "VERTICAL"
+        ],
+        [
+          "534:48497",
+          "Vùng thao tác",
+          428,
+          80,
+          "VERTICAL"
+        ],
+        [
+          "534:48502",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:48498",
+          "name": "Nút thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8569",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7054",
+      "name": "hoạt động",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1406,
+      "types": {
+        "FRAME": 8,
+        "ELLIPSE": 36,
+        "GROUP": 40,
+        "TEXT": 24,
+        "RECTANGLE": 24,
+        "POLYGON": 1,
+        "VECTOR": 26,
+        "INSTANCE": 7,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "GIỜ HỌC XANH",
+        "Trường Mầm non Tuổi Xanh, TP HCM",
+        "10+",
+        "+ 200 trẻ\ntham gia",
+        "3-5\ntuổi",
+        "45–60\nphút",
+        "Đã Quan Tâm",
+        "232+",
+        "Hoạt động nhặt rác của các bạn nhỏ trường Mầm non Tuổi Xanh không chỉ là một hoạt động ngoại khóa, mà là một phần quan trọng trong việc giáo dục thế hệ mầm non tương lai về trách nhiệm với môi trường sống. Góp phần hình thành nên những công dân có ý thức, biết yêu quý và bảo vệ hành tinh xanh của chúng ta ngay từ khi còn bé.\nTrong “Giờ học xanh”, các bé hát về Trái Đất, nghe chuyện “Những người bạn thùng rác vui vẻ” và học cách phân loại rác. Các em tham gia trò chơi “Ai nhanh – Ai đúng”, thi đua phân loại rác đúng màu. Kết thúc buổi học, các “chiến binh xanh nhí” nhận huy hiệu, chụp ảnh lưu niệm và hứa giữ gìn môi trường sạch đẹp.",
+        "Bé Ơi, Cùng Nhau Phân Loại Rác Nhé!",
+        "Hoạt động khác",
+        "Tất cả",
+        "250+",
+        "Trải nghiệm phân loại rác thực tế",
+        "Trường Tiểu Học Vành Khuyên, TP Đà Nẵng",
+        "Thanh niên làm sạch môi trường biển",
+        "Bãi biển Mỹ Khê , Đà Nẵng",
+        "250+",
+        "200+",
+        "Cùng nhau làm vườn sạch\n",
+        "Trường THCS Thanh An , Quảng Trị",
+        "Khám phá tất cả",
+        "Lịch hoạt động",
+        "Đăng ký tham gia"
+      ],
+      "parts": [
+        [
+          "386:7054",
+          "hoạt động",
+          428,
+          1406,
+          "NONE"
+        ],
+        [
+          "386:7058",
+          "info",
+          282,
+          72,
+          null
+        ],
+        [
+          "386:7061",
+          "header",
+          428,
+          389,
+          null
+        ],
+        [
+          "386:7063",
+          "Group 36809",
+          67,
+          56,
+          null
+        ],
+        [
+          "386:7067",
+          "Group 36807",
+          70,
+          70,
+          null
+        ],
+        [
+          "386:7069",
+          "Group 36806",
+          60,
+          60,
+          null
+        ],
+        [
+          "386:7072",
+          "Group 36810",
+          32,
+          32,
+          null
+        ],
+        [
+          "386:7076",
+          "Group",
+          14.199999809265137,
+          21.642667770385742,
+          null
+        ],
+        [
+          "386:7079",
+          "time",
+          428,
+          56.179264068603516,
+          null
+        ],
+        [
+          "386:7081",
+          "time",
+          428,
+          56.179264068603516,
+          null
+        ],
+        [
+          "386:7083",
+          "Frame 37234",
+          386,
+          782,
+          "VERTICAL"
+        ],
+        [
+          "386:7084",
+          "Group 37247",
+          465,
+          713,
+          null
+        ],
+        [
+          "386:7120",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:7122",
+          "chevron_backward",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "539:5068",
+          "actions",
+          386,
+          106,
+          "VERTICAL"
+        ],
+        [
+          "539:5069",
+          "action-row",
+          386,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "539:5074",
+          "btn-register",
+          386,
+          50,
+          "HORIZONTAL"
+        ],
+        [
+          "539:26898",
+          "Thanh điều hướng chính",
+          444,
+          116,
+          null
+        ],
+        [
+          "539:26899",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "539:26903",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "539:26912",
+          "Group 36732",
+          138,
+          47,
+          null
+        ],
+        [
+          "539:26919",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Hicon / Outline / Group 3": 1,
+        "button": 1,
+        "work": 3,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:7072",
+          "name": "Group 36810",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10122",
+                "overlayRelativePosition": {
+                  "x": -344.9999084472656,
+                  "y": -112.00000762939453
+                },
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10122",
+                  "overlayRelativePosition": {
+                    "x": -344.9999084472656,
+                    "y": -112.00000762939453
+                  },
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:7101",
+          "name": "button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9376",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9376",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:7117",
+          "name": "work",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:7118",
+          "name": "work",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9470",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.3
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9470",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.3
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:7119",
+          "name": "work",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26904",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26908",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26913",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26916",
+          "name": "Group 37108",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:25197",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26919",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7184",
+      "name": "11 · Đăng nhập",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 33,
+        "TEXT": 17,
+        "VECTOR": 23,
+        "INSTANCE": 3,
+        "RECTANGLE": 3
+      },
+      "texts": [
+        "9:41",
+        "GreenSteps",
+        "Chào bạn,\nmừng trở lại!",
+        "Tiếp tục những bước nhỏ\nvì một hành tinh xanh.",
+        "Email",
+        "linhchi@example.com",
+        "Mật khẩu",
+        "••••••••••••",
+        "Ghi nhớ tôi",
+        "Quên mật khẩu?",
+        "Đăng nhập",
+        "hoặc tiếp tục với",
+        "Google",
+        "Facebook",
+        "Chưa có tài khoản? Đăng ký ngay",
+        "Thông tin của bạn được bảo vệ",
+        {
+          "hidden": "✓ Mật khẩu đã đổi. Hãy đăng nhập lại."
+        }
+      ],
+      "parts": [
+        [
+          "386:7184",
+          "11 · Đăng nhập",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "461:5181",
+          "Bandeau de marque",
+          428,
+          314,
+          "NONE"
+        ],
+        [
+          "461:5182",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5184",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "461:5190",
+          "GreenSteps",
+          260,
+          28,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5191",
+          "Icon / leaf",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "461:5195",
+          "Chào mừng trở lại",
+          260,
+          128,
+          "VERTICAL"
+        ],
+        [
+          "461:5198",
+          "Mầm cây chào mừng",
+          150,
+          150,
+          "NONE"
+        ],
+        [
+          "461:5204",
+          "Formulaire de connexion",
+          428,
+          650,
+          "NONE"
+        ],
+        [
+          "461:5205",
+          "Thông tin đăng nhập",
+          380,
+          184,
+          "VERTICAL"
+        ],
+        [
+          "461:5221",
+          "Tùy chọn đăng nhập",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5233",
+          "Nút / Đăng nhập",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5236",
+          "Hoặc tiếp tục với",
+          380,
+          18,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5240",
+          "Đăng nhập mạng xã hội",
+          380,
+          54,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5255",
+          "Tạo tài khoản",
+          380,
+          48,
+          "VERTICAL"
+        ],
+        [
+          "461:5259",
+          "Bảo mật",
+          380,
+          18,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5260",
+          "Icon / shield",
+          18,
+          18,
+          "NONE"
+        ],
+        [
+          "461:5264",
+          "Mật khẩu đã cập nhật",
+          380,
+          52,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Trường / Email": 1,
+        "Trường / Mật khẩu": 1,
+        "Nút / Đăng nhập": 1
+      },
+      "reactions": [
+        {
+          "id": "461:5216",
+          "name": "Hiện hoặc ẩn mật khẩu",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5211",
+                        "variableValue": {
+                          "value": "GreenSteps@26",
+                          "type": "STRING",
+                          "resolvedType": "STRING"
+                        }
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5211"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "STRING"
+                          },
+                          {
+                            "value": "••••••••••••",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5211",
+                        "variableValue": {
+                          "value": "••••••••••••",
+                          "type": "STRING",
+                          "resolvedType": "STRING"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5211",
+                          "variableValue": {
+                            "value": "GreenSteps@26",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5211"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "STRING"
+                            },
+                            {
+                              "value": "••••••••••••",
+                              "type": "STRING",
+                              "resolvedType": "STRING"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5211",
+                          "variableValue": {
+                            "value": "••••••••••••",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5222",
+          "name": "Ghi nhớ tôi",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5163",
+                        "variableValue": {
+                          "value": false,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5163"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "BOOLEAN"
+                          },
+                          {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5163",
+                        "variableValue": {
+                          "value": true,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5163",
+                          "variableValue": {
+                            "value": false,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5163"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "BOOLEAN"
+                            },
+                            {
+                              "value": true,
+                              "type": "BOOLEAN",
+                              "resolvedType": "BOOLEAN"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5163",
+                          "variableValue": {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5230",
+          "name": "Liên kết / Quên mật khẩu?",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:465:4783",
+                "variableValue": {
+                  "value": true,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:465:4783",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5162",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5169",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7225",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5233",
+          "name": "Nút / Đăng nhập",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:461:5169",
+                "variableValue": {
+                  "value": false,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5169",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5241",
+          "name": "Tiếp tục với Google",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:461:5170",
+                "variableValue": {
+                  "value": "Google",
+                  "type": "STRING",
+                  "resolvedType": "STRING"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5170",
+                  "variableValue": {
+                    "value": "Google",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5171",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5172",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5174",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7348",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5249",
+          "name": "Tiếp tục với Facebook",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:461:5170",
+                "variableValue": {
+                  "value": "Facebook",
+                  "type": "STRING",
+                  "resolvedType": "STRING"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5170",
+                  "variableValue": {
+                    "value": "Facebook",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5171",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5172",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5174",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7348",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5256",
+          "name": "Liên kết / Chưa có tài khoản? Đăng ký ngay",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7390",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7390",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7225",
+      "name": "13 · Quên mật khẩu",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 12,
+        "TEXT": 9,
+        "VECTOR": 16,
+        "INSTANCE": 2,
+        "RECTANGLE": 1
+      },
+      "texts": [
+        "9:41",
+        "KHÔI PHỤC TÀI KHOẢN",
+        "Quên mật khẩu?",
+        "Đừng lo, chúng tôi sẽ gửi mã xác thực để giúp bạn lấy lại quyền truy cập.",
+        "Email đã đăng ký",
+        "linhchi@example.com",
+        "Chúng tôi chỉ gửi mã đến email\nđược liên kết với tài khoản của bạn.",
+        "Gửi mã xác thực",
+        "Quay lại đăng nhập"
+      ],
+      "parts": [
+        [
+          "386:7225",
+          "13 · Quên mật khẩu",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "461:5325",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5327",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "461:5333",
+          "Thanh điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5334",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "461:5339",
+          "Minh họa bảo mật",
+          280,
+          214,
+          "NONE"
+        ],
+        [
+          "461:5348",
+          "Tiêu đề",
+          380,
+          102,
+          "VERTICAL"
+        ],
+        [
+          "461:5351",
+          "Trường / Email đã đăng ký",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "I461:5351;460:4834",
+          "Input",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5355",
+          "Lưu ý bảo mật",
+          380,
+          36,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5356",
+          "Icon / shield",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "461:5360",
+          "Nút / Gửi mã xác thực",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5363",
+          "Liên kết / Quay lại đăng nhập",
+          380,
+          48,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Trường / Email đã đăng ký": 1,
+        "Nút / Gửi mã xác thực": 1
+      },
+      "reactions": [
+        {
+          "id": "461:5334",
+          "name": "Quay lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "BACK"
+              },
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5360",
+          "name": "Nút / Gửi mã xác thực",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:465:4783",
+                "variableValue": {
+                  "value": true,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:465:4783",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5162",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5166",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5167",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5168",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5175",
+                  "variableValue": {
+                    "value": "—",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5176",
+                  "variableValue": {
+                    "value": "—",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5177",
+                  "variableValue": {
+                    "value": "—",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5178",
+                  "variableValue": {
+                    "value": "—",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5179",
+                  "variableValue": {
+                    "value": "—",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5180",
+                  "variableValue": {
+                    "value": "—",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7266",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5363",
+          "name": "Liên kết / Quay lại đăng nhập",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7184",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7266",
+      "name": "14 · Xác thực OTP",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 17,
+        "TEXT": 17,
+        "VECTOR": 22,
+        "INSTANCE": 2,
+        "RECTANGLE": 1
+      },
+      "texts": [
+        "9:41",
+        "XÁC THỰC EMAIL",
+        "Kiểm tra email nhé!",
+        "Nhập mã xác thực gồm 6 chữ số đã gửi đến",
+        "linhchi@example.com",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—",
+        "Dán mã từ email",
+        {
+          "hidden": "Vui lòng nhập đủ 6 chữ số để xác thực."
+        },
+        {
+          "hidden": "✓ Mã xác thực mới đã được gửi đến email."
+        },
+        "Chưa nhận được mã? Gửi lại",
+        "Xác thực và tiếp tục",
+        "Đừng quên kiểm tra thư mục Spam / Thư rác."
+      ],
+      "parts": [
+        [
+          "386:7266",
+          "14 · Xác thực OTP",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "461:5367",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5369",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "461:5375",
+          "Thanh điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5376",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "461:5381",
+          "Minh họa bảo mật",
+          280,
+          164,
+          "NONE"
+        ],
+        [
+          "461:5398",
+          "Tiêu đề",
+          380,
+          78,
+          "VERTICAL"
+        ],
+        [
+          "461:5402",
+          "Mã OTP 6 số",
+          380,
+          66,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5403",
+          "Chữ số OTP 1",
+          55,
+          66,
+          "NONE"
+        ],
+        [
+          "461:5405",
+          "Chữ số OTP 2",
+          55,
+          66,
+          "NONE"
+        ],
+        [
+          "461:5407",
+          "Chữ số OTP 3",
+          55,
+          66,
+          "NONE"
+        ],
+        [
+          "461:5409",
+          "Chữ số OTP 4",
+          55,
+          66,
+          "NONE"
+        ],
+        [
+          "461:5411",
+          "Chữ số OTP 5",
+          55,
+          66,
+          "NONE"
+        ],
+        [
+          "461:5413",
+          "Chữ số OTP 6",
+          55,
+          66,
+          "NONE"
+        ],
+        [
+          "461:5415",
+          "Liên kết / Dán mã từ email",
+          380,
+          48,
+          "NONE"
+        ],
+        [
+          "461:5420",
+          "Liên kết / Chưa nhận được mã? Gửi lại",
+          380,
+          48,
+          "NONE"
+        ],
+        [
+          "461:5423",
+          "Nút / Xác thực và tiếp tục",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "465:4788",
+          "Nút / Xác thực đăng ký",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Xác thực và tiếp tục": 1,
+        "Nút / Xác thực đăng ký": 1
+      },
+      "reactions": [
+        {
+          "id": "461:5376",
+          "name": "Quay lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "NODE",
+                        "destinationId": "386:7390",
+                        "navigation": "NAVIGATE",
+                        "transition": {
+                          "type": "DISSOLVE",
+                          "easing": {
+                            "type": "EASE_OUT"
+                          },
+                          "duration": 0.25
+                        },
+                        "resetVideoPosition": false
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5162"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "BOOLEAN"
+                          },
+                          {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "NODE",
+                        "destinationId": "386:7225",
+                        "navigation": "NAVIGATE",
+                        "transition": {
+                          "type": "DISSOLVE",
+                          "easing": {
+                            "type": "EASE_OUT"
+                          },
+                          "duration": 0.25
+                        },
+                        "resetVideoPosition": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "NODE",
+                          "destinationId": "386:7390",
+                          "navigation": "NAVIGATE",
+                          "transition": {
+                            "type": "DISSOLVE",
+                            "easing": {
+                              "type": "EASE_OUT"
+                            },
+                            "duration": 0.25
+                          },
+                          "resetVideoPosition": false
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5162"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "BOOLEAN"
+                            },
+                            {
+                              "value": true,
+                              "type": "BOOLEAN",
+                              "resolvedType": "BOOLEAN"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "NODE",
+                          "destinationId": "386:7225",
+                          "navigation": "NAVIGATE",
+                          "transition": {
+                            "type": "DISSOLVE",
+                            "easing": {
+                              "type": "EASE_OUT"
+                            },
+                            "duration": 0.25
+                          },
+                          "resetVideoPosition": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5415",
+          "name": "Liên kết / Dán mã từ email",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:461:5175",
+                "variableValue": {
+                  "value": "2",
+                  "type": "STRING",
+                  "resolvedType": "STRING"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5175",
+                  "variableValue": {
+                    "value": "2",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5176",
+                  "variableValue": {
+                    "value": "8",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5177",
+                  "variableValue": {
+                    "value": "4",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5178",
+                  "variableValue": {
+                    "value": "9",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5179",
+                  "variableValue": {
+                    "value": "1",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5180",
+                  "variableValue": {
+                    "value": "6",
+                    "type": "STRING",
+                    "resolvedType": "STRING"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5166",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5167",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5168",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5420",
+          "name": "Liên kết / Chưa nhận được mã? Gửi lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:461:5168",
+                "variableValue": {
+                  "value": true,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5168",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5167",
+                  "variableValue": {
+                    "value": false,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5423",
+          "name": "Nút / Xác thực và tiếp tục",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5167",
+                        "variableValue": {
+                          "value": false,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      },
+                      {
+                        "type": "NODE",
+                        "destinationId": "386:7307",
+                        "navigation": "NAVIGATE",
+                        "transition": {
+                          "type": "DISSOLVE",
+                          "easing": {
+                            "type": "EASE_OUT"
+                          },
+                          "duration": 0.25
+                        },
+                        "resetVideoPosition": false
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5166"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "BOOLEAN"
+                          },
+                          {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5167",
+                        "variableValue": {
+                          "value": true,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5167",
+                          "variableValue": {
+                            "value": false,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        },
+                        {
+                          "type": "NODE",
+                          "destinationId": "386:7307",
+                          "navigation": "NAVIGATE",
+                          "transition": {
+                            "type": "DISSOLVE",
+                            "easing": {
+                              "type": "EASE_OUT"
+                            },
+                            "duration": 0.25
+                          },
+                          "resetVideoPosition": false
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5166"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "BOOLEAN"
+                            },
+                            {
+                              "value": true,
+                              "type": "BOOLEAN",
+                              "resolvedType": "BOOLEAN"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5167",
+                          "variableValue": {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "465:4788",
+          "name": "Nút / Xác thực đăng ký",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5167",
+                        "variableValue": {
+                          "value": false,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      },
+                      {
+                        "type": "NODE",
+                        "destinationId": "391:25197",
+                        "navigation": "NAVIGATE",
+                        "transition": {
+                          "type": "DISSOLVE",
+                          "easing": {
+                            "type": "EASE_OUT"
+                          },
+                          "duration": 0.25
+                        },
+                        "resetVideoPosition": false
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5166"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "BOOLEAN"
+                          },
+                          {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5167",
+                        "variableValue": {
+                          "value": true,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5167",
+                          "variableValue": {
+                            "value": false,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        },
+                        {
+                          "type": "NODE",
+                          "destinationId": "391:25197",
+                          "navigation": "NAVIGATE",
+                          "transition": {
+                            "type": "DISSOLVE",
+                            "easing": {
+                              "type": "EASE_OUT"
+                            },
+                            "duration": 0.25
+                          },
+                          "resetVideoPosition": false
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5166"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "BOOLEAN"
+                            },
+                            {
+                              "value": true,
+                              "type": "BOOLEAN",
+                              "resolvedType": "BOOLEAN"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5167",
+                          "variableValue": {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7307",
+      "name": "15 · Đặt mật khẩu mới",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 19,
+        "TEXT": 10,
+        "VECTOR": 20,
+        "INSTANCE": 3,
+        "RECTANGLE": 5
+      },
+      "texts": [
+        "9:41",
+        "ĐẶT MẬT KHẨU MỚI",
+        "An toàn hơn.\nAn tâm hơn.",
+        "Tạo mật khẩu mới để tiếp tục hành trình sống xanh của bạn.",
+        "Mật khẩu mới",
+        "••••••••••••",
+        "Mật khẩu mạnh · Có chữ, số và ký tự đặc biệt",
+        "Xác nhận mật khẩu mới",
+        "••••••••••••",
+        "Lưu mật khẩu mới"
+      ],
+      "parts": [
+        [
+          "386:7307",
+          "15 · Đặt mật khẩu mới",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "461:5428",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5430",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "461:5436",
+          "Thanh điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5437",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "461:5442",
+          "Minh họa bảo mật",
+          280,
+          180,
+          "NONE"
+        ],
+        [
+          "461:5453",
+          "Tiêu đề",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "461:5456",
+          "Mật khẩu mới",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "461:5457",
+          "Mật khẩu mới",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "461:5468",
+          "Độ mạnh mật khẩu",
+          380,
+          5,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5474",
+          "Xác nhận mật khẩu",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "461:5475",
+          "Xác nhận mật khẩu mới",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "461:5486",
+          "Nút / Lưu mật khẩu mới",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Trường / Mật khẩu mới": 1,
+        "Trường / Xác nhận mật khẩu mới": 1,
+        "Nút / Lưu mật khẩu mới": 1
+      },
+      "reactions": [
+        {
+          "id": "461:5437",
+          "name": "Quay lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7266",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7266",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5463",
+          "name": "Hiện hoặc ẩn mật khẩu",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5458",
+                        "variableValue": {
+                          "value": "GreenSteps@26",
+                          "type": "STRING",
+                          "resolvedType": "STRING"
+                        }
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5458"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "STRING"
+                          },
+                          {
+                            "value": "••••••••••••",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5458",
+                        "variableValue": {
+                          "value": "••••••••••••",
+                          "type": "STRING",
+                          "resolvedType": "STRING"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5458",
+                          "variableValue": {
+                            "value": "GreenSteps@26",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5458"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "STRING"
+                            },
+                            {
+                              "value": "••••••••••••",
+                              "type": "STRING",
+                              "resolvedType": "STRING"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5458",
+                          "variableValue": {
+                            "value": "••••••••••••",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5481",
+          "name": "Hiện hoặc ẩn mật khẩu",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5476",
+                        "variableValue": {
+                          "value": "GreenSteps@26",
+                          "type": "STRING",
+                          "resolvedType": "STRING"
+                        }
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5476"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "STRING"
+                          },
+                          {
+                            "value": "••••••••••••",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5476",
+                        "variableValue": {
+                          "value": "••••••••••••",
+                          "type": "STRING",
+                          "resolvedType": "STRING"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5476",
+                          "variableValue": {
+                            "value": "GreenSteps@26",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5476"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "STRING"
+                            },
+                            {
+                              "value": "••••••••••••",
+                              "type": "STRING",
+                              "resolvedType": "STRING"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5476",
+                          "variableValue": {
+                            "value": "••••••••••••",
+                            "type": "STRING",
+                            "resolvedType": "STRING"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5486",
+          "name": "Nút / Lưu mật khẩu mới",
+          "reactions": [
+            {
+              "action": {
+                "type": "SET_VARIABLE",
+                "variableId": "VariableID:461:5169",
+                "variableValue": {
+                  "value": true,
+                  "type": "BOOLEAN",
+                  "resolvedType": "BOOLEAN"
+                }
+              },
+              "actions": [
+                {
+                  "type": "SET_VARIABLE",
+                  "variableId": "VariableID:461:5169",
+                  "variableValue": {
+                    "value": true,
+                    "type": "BOOLEAN",
+                    "resolvedType": "BOOLEAN"
+                  }
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7348",
+      "name": "16 · Kết nối Google / Facebook",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 24,
+        "TEXT": 17,
+        "VECTOR": 17,
+        "INSTANCE": 2,
+        "RECTANGLE": 1
+      },
+      "texts": [
+        "9:41",
+        "HOÀN TẤT TÀI KHOẢN",
+        "Chào mừng,\nLinh Chi!",
+        "Chỉ còn một bước nhỏ để kết nối tài khoản với BlueSteps.",
+        "Google",
+        "Đã kết nối",
+        "LC",
+        "Linh Chi",
+        "linhchi@example.com",
+        "Tên hiển thị",
+        "Linh Chi",
+        "Bạn kiểm soát thông tin của mình",
+        "Chỉ sử dụng tên, email và ảnh đại diện.\nKhông đăng bài lên trang cá nhân của bạn.",
+        "Tôi đồng ý với Điều khoản và Chính sách bảo mật.",
+        {
+          "hidden": "Vui lòng đồng ý điều khoản để tiếp tục."
+        },
+        "Hoàn tất và tiếp tục",
+        "Dùng tài khoản khác"
+      ],
+      "parts": [
+        [
+          "386:7348",
+          "16 · Kết nối Google / Facebook",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "461:5490",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5492",
+          "Sóng, Wi-Fi, pin",
+          76,
+          20,
+          "NONE"
+        ],
+        [
+          "461:5498",
+          "Thanh điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5499",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "461:5504",
+          "Tiêu đề",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "461:5507",
+          "Icon / leaf",
+          54,
+          54,
+          "NONE"
+        ],
+        [
+          "461:5510",
+          "Tài khoản đã kết nối",
+          380,
+          134,
+          "NONE"
+        ],
+        [
+          "461:5511",
+          "Nhà cung cấp",
+          340,
+          26,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5523",
+          "Ảnh đại diện",
+          44,
+          44,
+          "NONE"
+        ],
+        [
+          "461:5527",
+          "Trường / Tên hiển thị",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "I461:5527;460:4830",
+          "Input",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5531",
+          "Thông tin chia sẻ",
+          380,
+          94,
+          "NONE"
+        ],
+        [
+          "461:5532",
+          "Icon / shield",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "461:5537",
+          "Đồng ý kết nối",
+          380,
+          44,
+          "VERTICAL"
+        ],
+        [
+          "461:5538",
+          "Tôi đồng ý với Điều khoản và Chính sách bảo mật.",
+          380,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5547",
+          "Nút / Hoàn tất và tiếp tục",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "461:5550",
+          "Liên kết / Dùng tài khoản khác",
+          380,
+          48,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Trường / Tên hiển thị": 1,
+        "Nút / Hoàn tất và tiếp tục": 1
+      },
+      "reactions": [
+        {
+          "id": "461:5499",
+          "name": "Quay lại",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7184",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5538",
+          "name": "Tôi đồng ý với Điều khoản và Chính sách bảo mật.",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5173",
+                        "variableValue": {
+                          "value": false,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5173"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "BOOLEAN"
+                          },
+                          {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5173",
+                        "variableValue": {
+                          "value": true,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5173",
+                          "variableValue": {
+                            "value": false,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5173"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "BOOLEAN"
+                            },
+                            {
+                              "value": true,
+                              "type": "BOOLEAN",
+                              "resolvedType": "BOOLEAN"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5173",
+                          "variableValue": {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5547",
+          "name": "Nút / Hoàn tất và tiếp tục",
+          "reactions": [
+            {
+              "action": {
+                "type": "CONDITIONAL",
+                "conditionalBlocks": [
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5174",
+                        "variableValue": {
+                          "value": false,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      },
+                      {
+                        "type": "NODE",
+                        "destinationId": "391:25197",
+                        "navigation": "NAVIGATE",
+                        "transition": {
+                          "type": "DISSOLVE",
+                          "easing": {
+                            "type": "EASE_OUT"
+                          },
+                          "duration": 0.25
+                        },
+                        "resetVideoPosition": false
+                      }
+                    ],
+                    "condition": {
+                      "value": {
+                        "expressionArguments": [
+                          {
+                            "value": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:461:5173"
+                            },
+                            "type": "VARIABLE_ALIAS",
+                            "resolvedType": "BOOLEAN"
+                          },
+                          {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        ],
+                        "expressionFunction": "EQUALS"
+                      },
+                      "type": "EXPRESSION",
+                      "resolvedType": "BOOLEAN"
+                    }
+                  },
+                  {
+                    "actions": [
+                      {
+                        "type": "SET_VARIABLE",
+                        "variableId": "VariableID:461:5174",
+                        "variableValue": {
+                          "value": true,
+                          "type": "BOOLEAN",
+                          "resolvedType": "BOOLEAN"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              "actions": [
+                {
+                  "type": "CONDITIONAL",
+                  "conditionalBlocks": [
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5174",
+                          "variableValue": {
+                            "value": false,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        },
+                        {
+                          "type": "NODE",
+                          "destinationId": "391:25197",
+                          "navigation": "NAVIGATE",
+                          "transition": {
+                            "type": "DISSOLVE",
+                            "easing": {
+                              "type": "EASE_OUT"
+                            },
+                            "duration": 0.25
+                          },
+                          "resetVideoPosition": false
+                        }
+                      ],
+                      "condition": {
+                        "value": {
+                          "expressionArguments": [
+                            {
+                              "value": {
+                                "type": "VARIABLE_ALIAS",
+                                "id": "VariableID:461:5173"
+                              },
+                              "type": "VARIABLE_ALIAS",
+                              "resolvedType": "BOOLEAN"
+                            },
+                            {
+                              "value": true,
+                              "type": "BOOLEAN",
+                              "resolvedType": "BOOLEAN"
+                            }
+                          ],
+                          "expressionFunction": "EQUALS"
+                        },
+                        "type": "EXPRESSION",
+                        "resolvedType": "BOOLEAN"
+                      }
+                    },
+                    {
+                      "actions": [
+                        {
+                          "type": "SET_VARIABLE",
+                          "variableId": "VariableID:461:5174",
+                          "variableValue": {
+                            "value": true,
+                            "type": "BOOLEAN",
+                            "resolvedType": "BOOLEAN"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "461:5550",
+          "name": "Liên kết / Dùng tài khoản khác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7184",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.25
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.25
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

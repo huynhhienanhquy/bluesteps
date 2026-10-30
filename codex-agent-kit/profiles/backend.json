@@ -1,0 +1,10 @@
+{
+  "description": "Lean policy plus backend, API error, persistence, and observability rules.",
+  "extends": "lean",
+  "rules": [
+    "backend",
+    "error-handling",
+    "data-migrations",
+    "reliability-observability"
+  ]
+}

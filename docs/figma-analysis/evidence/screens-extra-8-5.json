@@ -1,0 +1,1340 @@
+{
+  "bytes": 13426,
+  "screens": [
+    {
+      "id": "386:13593",
+      "name": "RacVoCo",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 31,
+        "GROUP": 43,
+        "INSTANCE": 6,
+        "VECTOR": 28,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 12,
+        "ELLIPSE": 9,
+        "LINE": 1
+      },
+      "texts": [
+        "Tìm kiếm.....",
+        "Rác vô cơ",
+        "Đồ dùng bằng cao su",
+        "Gốm, sữ vỡ",
+        "Bóng đèn hỏng\n(loại thường)",
+        "Đồ nhựa - Áo quần không thể tái chế",
+        "Pin - Ắc quy",
+        "Dụng cụ y tế",
+        "Đèn huỳnh quang - Đèn Led",
+        "Dầu nhớt",
+        "Vô cơ là rác không thể tái chế hoặc phân hủy sinh học. Hãy phân loại đúng để báo về môi trường và  giảm lượng rác vô cơ bằng cách tái sử dụng khi có thể.",
+        "Sổ tay rác"
+      ],
+      "parts": [
+        [
+          "386:13593",
+          "RacVoCo",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:13595",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:13596",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:13597",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "386:13598",
+          "Group 36734",
+          88.61671447753906,
+          81.1417236328125,
+          null
+        ],
+        [
+          "386:13600",
+          "Group 36987",
+          375,
+          56,
+          null
+        ],
+        [
+          "386:13603",
+          "fi-rr-zoom-in",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:13604",
+          "Group 36884",
+          160,
+          43,
+          null
+        ],
+        [
+          "386:13606",
+          "Group",
+          45,
+          43,
+          null
+        ],
+        [
+          "386:13611",
+          "Frame 36799",
+          361,
+          409,
+          "VERTICAL"
+        ],
+        [
+          "386:13612",
+          "Group 36811",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13620",
+          "Group 36812",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13628",
+          "Group 36810",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13636",
+          "Group 36813",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13644",
+          "Group 36814",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13652",
+          "Group 36815",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13660",
+          "Group 36808",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13668",
+          "Group 36816",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13676",
+          "Group 36912",
+          319,
+          75,
+          null
+        ],
+        [
+          "386:13680",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:13682",
+          "Group 36988",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:13682;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:13684",
+          "chevron_backward",
+          40,
+          40,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "fi-rr-zoom-in": 1,
+        "Group 36988": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:13680",
+          "name": "time",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13685",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21254",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21258",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21263",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21267",
+          "name": "Vector",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21268",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13684",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13364",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13685",
+      "name": "RacVoCo1",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 20,
+        "GROUP": 36,
+        "INSTANCE": 4,
+        "VECTOR": 34,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 11,
+        "ELLIPSE": 5,
+        "LINE": 1
+      },
+      "texts": [
+        "Sổ tay rác",
+        "Tìm kiếm.....",
+        "Rác vô cơ",
+        "Đồ dùng bằng cao su",
+        "Gốm, sữ vỡ",
+        "Bóng đèn hỏng\n(loại thường)",
+        "Đồ nhựa - Áo quần không thể tái chế",
+        "Vô cơ là rác không thể tái chế hoặc phân hủy sinh học. Hãy phân loại đúng để báo về môi trường và  giảm lượng rác vô cơ bằng cách tái sử dụng khi có thể.",
+        "Cho vào túi kín để tránh phát tán bụi và mùi.\nKhông nên đốt vì sinh ra khói độc hại.\nNếu có thể tái sử dụng (ví dụ túi ni lông còn tốt), hãy dùng lại thay vì vứt bỏ.\nĐưa đến các điểm xử lý rác vô cơ hoặc chôn lấp đúng quy định.\n\n     Ví dụ: Rửa chai nước suối, phơi khô rồi bỏ vào thùng rác tái chế.",
+        "Cách xử lý:",
+        "Rác vô cơ"
+      ],
+      "parts": [
+        [
+          "386:13685",
+          "RacVoCo1",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:13687",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:13688",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:13689",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "386:13690",
+          "Group 36734",
+          88.61671447753906,
+          81.1417236328125,
+          null
+        ],
+        [
+          "386:13693",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:13695",
+          "Group 36735",
+          401,
+          116,
+          null
+        ],
+        [
+          "386:13716",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:13720",
+          "fi-rr-zoom-in",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:13721",
+          "Group 36884",
+          160,
+          43,
+          null
+        ],
+        [
+          "386:13723",
+          "Group",
+          45,
+          43,
+          null
+        ],
+        [
+          "386:13728",
+          "Frame 36799",
+          361,
+          409,
+          "VERTICAL"
+        ],
+        [
+          "386:13729",
+          "Group 36811",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13737",
+          "Group 36812",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13745",
+          "Group 36810",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13753",
+          "Group 36813",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13761",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:13762",
+          "Group 36912",
+          319,
+          75,
+          null
+        ],
+        [
+          "386:13766",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:13770",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:13775",
+          "Group 36913",
+          160,
+          43,
+          null
+        ],
+        [
+          "386:13777",
+          "Group",
+          45,
+          43,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "fi-rr-zoom-in": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:13770",
+          "name": "time",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13782",
+      "name": "RacHuuCo",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 20,
+        "GROUP": 30,
+        "INSTANCE": 6,
+        "VECTOR": 24,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 8,
+        "ELLIPSE": 5,
+        "LINE": 1
+      },
+      "texts": [
+        "Tìm kiếm.....",
+        "Rác hữu cơ",
+        "Đồ ăn thừa - Vỏ trái cây",
+        "Lá cây - Cành khô",
+        "Giấy ăn -  Khăn giấy ",
+        "Bã cà phê - Bã trà",
+        "Hữu cơ là rác dễ phân hủy. Bạn có thể ủ để tạo phân bón tự nhiên, giúp cây phát triển và giảm ô nhiễm.",
+        "Sổ tay rác"
+      ],
+      "parts": [
+        [
+          "386:13782",
+          "RacHuuCo",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:13784",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:13785",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:13786",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "386:13787",
+          "Group 36734",
+          88.61671447753906,
+          81.1417236328125,
+          null
+        ],
+        [
+          "386:13789",
+          "Group 36988",
+          375,
+          56,
+          null
+        ],
+        [
+          "386:13792",
+          "fi-rr-zoom-in",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:13793",
+          "Group 36883",
+          174,
+          50,
+          null
+        ],
+        [
+          "386:13796",
+          "Frame 36799",
+          361,
+          402,
+          "VERTICAL"
+        ],
+        [
+          "386:13797",
+          "Group 36808",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13805",
+          "Group 36809",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13813",
+          "Group 36810",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13821",
+          "Group 36811",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13829",
+          "Group 36911",
+          300.99908447265625,
+          75,
+          null
+        ],
+        [
+          "386:13833",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:13835",
+          "Group 36989",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:13835;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:13837",
+          "chevron_backward",
+          40,
+          40,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "fi-rr-zoom-in": 1,
+        "Group 36989": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:13833",
+          "name": "time",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13838",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21254",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21258",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21263",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21267",
+          "name": "Vector",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21268",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13837",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13838",
+      "name": "RacHuuCo1",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 22,
+        "GROUP": 35,
+        "INSTANCE": 4,
+        "VECTOR": 26,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 2,
+        "TEXT": 11,
+        "ELLIPSE": 5
+      },
+      "texts": [
+        "Sổ tay rác",
+        "Tìm kiếm.....",
+        "Rác hữu cơ",
+        "Đồ ăn thừa - Vỏ trái cây",
+        "Lá cây - Cành khô",
+        "Giấy ăn -  Khăn giấy ",
+        "Bã cà phê - Bã trà",
+        "Hữu cơ là rác dễ phân hủy. Bạn có thể ủ để tạo phân bón tự nhiên, giúp cây phát triển và giảm ô nhiễm.",
+        "Bỏ riêng rác hữu cơ vào túi hoặc thùng có nắp đậy để tránh ruồi muỗi.\nCó thể ủ thành phân compost để trồng cây, cải tạo đất.\nNếu không tự ủ được, hãy cho vào thùng rác hữu cơ để được xử lý làm phân vi sinh tại cơ sở môi trường.\n\n     Ví dụ: Gom vỏ rau củ, cơm thừa rồi cho vào    thùng rác hữu cơ.",
+        "Cách xử lý:",
+        "Rác hữu cơ"
+      ],
+      "parts": [
+        [
+          "386:13838",
+          "RacHuuCo1",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:13840",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:13841",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:13842",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:13844",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "386:13845",
+          "Group 36734",
+          88.61671447753906,
+          81.1417236328125,
+          null
+        ],
+        [
+          "386:13848",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:13850",
+          "Group 36735",
+          401,
+          116,
+          null
+        ],
+        [
+          "386:13871",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:13875",
+          "fi-rr-zoom-in",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:13876",
+          "Group 36883",
+          174,
+          50,
+          null
+        ],
+        [
+          "386:13879",
+          "Frame 36799",
+          361,
+          402,
+          "VERTICAL"
+        ],
+        [
+          "386:13880",
+          "Group 36808",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13888",
+          "Group 36809",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13896",
+          "Group 36810",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13904",
+          "Group 36811",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13912",
+          "chevron_backward",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:13913",
+          "Group 36911",
+          300.99908447265625,
+          75,
+          null
+        ],
+        [
+          "386:13917",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:13921",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:13926",
+          "Group 36912",
+          174,
+          50,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "fi-rr-zoom-in": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:13921",
+          "name": "time",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13782",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13929",
+      "name": "RacTaiChe",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 34,
+        "GROUP": 45,
+        "INSTANCE": 6,
+        "VECTOR": 37,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 13,
+        "ELLIPSE": 10,
+        "LINE": 1
+      },
+      "texts": [
+        "Tìm kiếm.....",
+        "Chai nhựa",
+        "Giấy - Báo - Tạp chí",
+        "Ni lông",
+        "Hộp carton",
+        "Thủy tinh(chai lọ)",
+        "Áo quần-giày dép",
+        "Đồ nhựa",
+        "Lon bia-nước ngọt",
+        "Chai nhựa",
+        "Vui lòng tách rác tái chế khỏi rác hữu cơ và nguy hại. Đảm bảo không lẫn pin, kim tiêm hoặc chất độc hại.",
+        "Rác tái chế",
+        "Sổ tay rác"
+      ],
+      "parts": [
+        [
+          "386:13929",
+          "RacTaiChe",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:13931",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:13932",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:13933",
+          "Progress Indicator/Indeterminate Spinner/Regular",
+          30,
+          73.0482177734375,
+          "HORIZONTAL"
+        ],
+        [
+          "386:13934",
+          "Group 36734",
+          88.61671447753906,
+          81.1417236328125,
+          null
+        ],
+        [
+          "386:13936",
+          "Group 36989",
+          375,
+          56,
+          null
+        ],
+        [
+          "386:13939",
+          "fi-rr-zoom-in",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:13940",
+          "Frame 36799",
+          361,
+          426,
+          "VERTICAL"
+        ],
+        [
+          "386:13941",
+          "Group 36807",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13949",
+          "Group 36809",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13957",
+          "Group 36810",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13965",
+          "Group 36813",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13972",
+          "Group 36814",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13980",
+          "Group 36815",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13988",
+          "Group 36816",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:13996",
+          "Group 36817",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:14004",
+          "Group 36818",
+          350,
+          80,
+          null
+        ],
+        [
+          "386:14012",
+          "Group 36910",
+          303.000244140625,
+          75,
+          null
+        ],
+        [
+          "386:14015",
+          "Group 36882",
+          167,
+          38.999488830566406,
+          null
+        ],
+        [
+          "386:14016",
+          "Group",
+          41.9996223449707,
+          38.999488830566406,
+          null
+        ],
+        [
+          "386:14032",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:14034",
+          "Group 36990",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14034;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14036",
+          "chevron_backward",
+          40,
+          40,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Progress Indicator/Indeterminate Spinner/Regular": 1,
+        "fi-rr-zoom-in": 1,
+        "Group 36990": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14032",
+          "name": "time",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14037",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21254",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21258",
+          "name": "Group 36703",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21263",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21267",
+          "name": "Vector",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21268",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:14036",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schemaFile": "core.openapi.json",
+  "valid": [
+    {
+      "schema": "SortingRequest",
+      "value": {
+        "source": "scan",
+        "scanId": "11111111-1111-4111-8111-111111111111",
+        "itemId": "22222222-2222-4222-8222-222222222222"
+      }
+    },
+    {
+      "schema": "SortingRequest",
+      "value": {
+        "source": "manual",
+        "itemId": "22222222-2222-4222-8222-222222222222"
+      }
+    },
+    {
+      "schema": "SortingResponse",
+      "value": {
+        "actionId": "11111111-1111-4111-8111-111111111111",
+        "itemId": "22222222-2222-4222-8222-222222222222",
+        "evidenceStatus": "user_confirmed",
+        "award": {
+          "status": "not_awarded",
+          "points": "0",
+          "ruleVersion": null,
+          "reason": "POLICY_NOT_ENABLED"
+        }
+      }
+    },
+    {
+      "schema": "LoginRequest",
+      "value": {
+        "email": "member@example.test",
+        "password": "fixture-password"
+      }
+    },
+    {
+      "schema": "ReviewDecision",
+      "value": {
+        "decision": "reject",
+        "reason": "Fixture duplicate location",
+        "expectedVersion": 1
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "schema": "SortingRequest",
+      "value": {
+        "source": "scan",
+        "scanId": "11111111-1111-4111-8111-111111111111",
+        "confirmedCategory": "recyclable"
+      }
+    },
+    {
+      "schema": "SortingRequest",
+      "value": {
+        "source": "manual",
+        "itemId": "22222222-2222-4222-8222-222222222222",
+        "scanId": "11111111-1111-4111-8111-111111111111"
+      }
+    },
+    {
+      "schema": "SortingRequest",
+      "value": {
+        "source": "scan",
+        "scanId": "11111111-1111-4111-8111-111111111111",
+        "itemId": "22222222-2222-4222-8222-222222222222",
+        "points": 500
+      }
+    },
+    {
+      "schema": "SortingRequest",
+      "value": {
+        "source": "manual",
+        "itemId": "22222222-2222-4222-8222-222222222222",
+        "confirmedItemId": "22222222-2222-4222-8222-222222222222"
+      }
+    },
+    {
+      "schema": "SortingRequest",
+      "value": {
+        "source": "scan",
+        "scanId": "bad-id",
+        "itemId": "22222222-2222-4222-8222-222222222222"
+      }
+    },
+    {
+      "schema": "ReviewDecision",
+      "value": {
+        "decision": "approve",
+        "reason": "",
+        "expectedVersion": 1
+      }
+    },
+    {
+      "schema": "SortingResponse",
+      "value": {
+        "actionId": "11111111-1111-4111-8111-111111111111",
+        "itemId": "22222222-2222-4222-8222-222222222222",
+        "evidenceStatus": "user_confirmed",
+        "award": {
+          "status": "awarded",
+          "points": "0",
+          "ruleVersion": null,
+          "reason": "AWARDED"
+        }
+      }
+    },
+    {
+      "schema": "SortingResponse",
+      "value": {
+        "actionId": "11111111-1111-4111-8111-111111111111",
+        "itemId": "22222222-2222-4222-8222-222222222222",
+        "evidenceStatus": "user_confirmed",
+        "award": {
+          "status": "not_awarded",
+          "points": "5",
+          "ruleVersion": null,
+          "reason": "POLICY_NOT_ENABLED"
+        }
+      }
+    }
+  ]
+}

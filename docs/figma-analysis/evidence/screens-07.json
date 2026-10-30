@@ -1,0 +1,3840 @@
+{
+  "bytes": 45966,
+  "screens": [
+    {
+      "id": "386:10186",
+      "name": "map",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1006,
+      "types": {
+        "FRAME": 5,
+        "RECTANGLE": 20,
+        "TEXT": 17,
+        "GROUP": 24,
+        "INSTANCE": 3,
+        "VECTOR": 39,
+        "BOOLEAN_OPERATION": 2,
+        "STAR": 5,
+        "LINE": 2,
+        "ELLIPSE": 1
+      },
+      "texts": [
+        "Vô cơ",
+        "Tái chế",
+        "+4",
+        "Hữu cơ",
+        "Công viên cộng đồng A",
+        " 460 Trần Đại Nghĩa,Ngũ Hành Sơn,TP. Đà Nẵng",
+        "Liên quan đến nội dung tìm kiếm của bạn",
+        "Chỉ đường",
+        "4.5",
+        "Mở cửa",
+        "023928465725",
+        "congviencongdong.com.vn",
+        "Mở cửa suốt ngày",
+        "Tình trạng: Còn trống",
+        "Tổng quan",
+        "Bài đánh giá",
+        "Báo cáo vấn đề"
+      ],
+      "parts": [
+        [
+          "386:10186",
+          "map",
+          428,
+          1006,
+          "NONE"
+        ],
+        [
+          "386:10194",
+          "Group 36923",
+          55,
+          60,
+          null
+        ],
+        [
+          "386:10199",
+          "Group 1",
+          428,
+          53.23326110839844,
+          null
+        ],
+        [
+          "386:10200",
+          "iPhone/Status Bar",
+          428,
+          53.23326110839844,
+          "NONE"
+        ],
+        [
+          "386:10201",
+          "Group 182",
+          46.04381561279297,
+          52.242252349853516,
+          null
+        ],
+        [
+          "386:10208",
+          "Group 36827",
+          15,
+          65.58430480957031,
+          null
+        ],
+        [
+          "386:10214",
+          "Group 36925",
+          22,
+          22,
+          null
+        ],
+        [
+          "386:10217",
+          "Group 36929",
+          22,
+          22,
+          null
+        ],
+        [
+          "386:10226",
+          "Group 36926",
+          22,
+          22,
+          null
+        ],
+        [
+          "386:10229",
+          "Group 36927",
+          22,
+          22,
+          null
+        ],
+        [
+          "386:10232",
+          "Group 36928",
+          22,
+          22,
+          null
+        ],
+        [
+          "386:10247",
+          "Frame 36726",
+          82,
+          23,
+          "NONE"
+        ],
+        [
+          "386:10251",
+          "Iconly/Sharp/Broken/Time Circle",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:10251;42180:1438",
+          "Group 36772",
+          18.5,
+          18.5,
+          null
+        ],
+        [
+          "386:10252",
+          "Iconly/Sharp/Light/Call",
+          24,
+          26.073434829711914,
+          "NONE"
+        ],
+        [
+          "539:4924",
+          "Báo cáo vấn đề",
+          380,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "539:4928",
+          "alert-circle",
+          18,
+          18,
+          "NONE"
+        ],
+        [
+          "539:26923",
+          "Thanh điều hướng chính",
+          444,
+          116,
+          null
+        ],
+        [
+          "539:26924",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "539:26928",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "539:26937",
+          "Group 36732",
+          140,
+          47,
+          null
+        ],
+        [
+          "539:26944",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Iconly/Sharp/Broken/Time Circle": 1,
+        "Iconly/Sharp/Light/Call": 1
+      },
+      "reactions": [
+        {
+          "id": "386:10201",
+          "name": "Group 182",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8569",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SLIDE_IN",
+                  "direction": "RIGHT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 1
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SLIDE_IN",
+                    "direction": "RIGHT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 1
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10213",
+          "name": "Chỉ đường",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10279",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26929",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26933",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26938",
+          "name": "Group 37109",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26944",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10279",
+      "name": "map",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 9,
+        "GROUP": 26,
+        "INSTANCE": 7,
+        "VECTOR": 31,
+        "BOOLEAN_OPERATION": 2,
+        "ELLIPSE": 11,
+        "LINE": 3,
+        "TEXT": 7
+      },
+      "texts": [
+        "Vị trí hiện tại của bạn",
+        "Công viên cộng đồng A",
+        "Thêm điểm dừng",
+        "Lái xe",
+        "Lập hành trình nhiều điểm",
+        "Bắt đầu",
+        "Chia sẻ"
+      ],
+      "parts": [
+        [
+          "386:10279",
+          "map",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:10281",
+          "Group 2",
+          426,
+          50.0900993347168,
+          null
+        ],
+        [
+          "386:10282",
+          "Group 1",
+          426,
+          50.0900993347168,
+          null
+        ],
+        [
+          "386:10285",
+          "arrow-switch-horizontal",
+          19,
+          20,
+          "NONE"
+        ],
+        [
+          "386:10286",
+          "Group 36932",
+          5,
+          21,
+          null
+        ],
+        [
+          "386:10290",
+          "Group 36827",
+          15,
+          20,
+          null
+        ],
+        [
+          "386:10296",
+          "Group 36931",
+          18,
+          18,
+          null
+        ],
+        [
+          "386:10305",
+          "Group 36940",
+          130,
+          17,
+          null
+        ],
+        [
+          "386:10306",
+          "Group 36941",
+          130,
+          17,
+          null
+        ],
+        [
+          "386:10311",
+          "Group 36938",
+          29,
+          30,
+          null
+        ],
+        [
+          "386:10313",
+          "map-03",
+          20,
+          24,
+          "NONE"
+        ],
+        [
+          "386:10316",
+          "Group 36937",
+          29,
+          30,
+          null
+        ],
+        [
+          "386:10318",
+          "close",
+          16.256153106689453,
+          16.256153106689453,
+          "NONE"
+        ],
+        [
+          "539:4932",
+          "Lập hành trình nhiều điểm",
+          380,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "539:4933",
+          "plus-03",
+          16,
+          16,
+          "NONE"
+        ],
+        [
+          "539:4936",
+          "Chevron left",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:10320",
+          "Group 36939",
+          73.00009155273438,
+          18,
+          null
+        ],
+        [
+          "386:10323",
+          "Group 36942",
+          72,
+          18,
+          null
+        ],
+        [
+          "386:10326",
+          "Group 37138",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:10327",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:10331",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "386:10340",
+          "Group 36732",
+          140,
+          47,
+          null
+        ],
+        [
+          "386:10347",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "arrow-switch-horizontal": 1,
+        "plus-03": 2,
+        "map-03": 1,
+        "close": 1,
+        "Chevron left": 1
+      },
+      "reactions": [
+        {
+          "id": "386:10314",
+          "name": "Line 25",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10351",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10351",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "MOUSE_UP",
+                "delay": 0
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10316",
+          "name": "Group 36937",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8569",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:4932",
+          "name": "Lập hành trình nhiều điểm",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:48774",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48774",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10319",
+          "name": "Rectangle 944",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10136",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10136",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10332",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10336",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10341",
+          "name": "Group 37109",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10347",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10351",
+      "name": "map",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1050,
+      "types": {
+        "FRAME": 3,
+        "GROUP": 43,
+        "INSTANCE": 14,
+        "VECTOR": 42,
+        "BOOLEAN_OPERATION": 2,
+        "RECTANGLE": 12,
+        "TEXT": 26,
+        "LINE": 10,
+        "ELLIPSE": 5
+      },
+      "texts": [
+        "Rẽ phải vào Trần Đại Nghĩa/Đ. Trần Đại Nghĩa",
+        "80 m",
+        "Rẽ trái",
+        "160 m",
+        "90 m",
+        "Rẽ phải",
+        "Vị trí của bạn",
+        "Các chặng",
+        "Tuyến đường gần nhất",
+        "5 phút (2,0 km)",
+        "Tránh trạm thu phí",
+        "Tránh trạm thu phí",
+        "Khởi hành lúc 10:00",
+        "Lái xe",
+        "9 phút",
+        "4 phút",
+        "9 phút",
+        "5 phút",
+        "Đi về phía hướng Tây",
+        "130 m",
+        "Rẽ phải về hướng Trần Đại Nghĩa/Đ. Trần Hưng Đạo/ĐT607",
+        "Đi qua Tuyết Nhung ở phía bên phải",
+        "Thêm điểm dừng",
+        "Bắt đầu",
+        "Chia sẻ",
+        "Lập hành trình nhiều điểm"
+      ],
+      "parts": [
+        [
+          "386:10351",
+          "map",
+          428,
+          1050,
+          "NONE"
+        ],
+        [
+          "386:10352",
+          "Group 2",
+          426,
+          56.79762649536133,
+          null
+        ],
+        [
+          "386:10353",
+          "Group 1",
+          426,
+          56.79762649536133,
+          null
+        ],
+        [
+          "386:10365",
+          "Group 36931",
+          18,
+          18,
+          null
+        ],
+        [
+          "386:10373",
+          "Group 36959",
+          164,
+          88,
+          null
+        ],
+        [
+          "386:10376",
+          "Group 36958",
+          164,
+          88,
+          null
+        ],
+        [
+          "386:10379",
+          "Group 36955",
+          164,
+          89,
+          null
+        ],
+        [
+          "386:10381",
+          "Group 36940",
+          155,
+          80,
+          null
+        ],
+        [
+          "386:10385",
+          "arrow-curve-right-up",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:10386",
+          "arrow-curve-left-up",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:10388",
+          "Group 36957",
+          377,
+          30,
+          null
+        ],
+        [
+          "386:10389",
+          "Group 36938",
+          29,
+          30,
+          null
+        ],
+        [
+          "386:10393",
+          "Group 36937",
+          29,
+          30,
+          null
+        ],
+        [
+          "386:10396",
+          "Group 36950",
+          383,
+          44.633758544921875,
+          null
+        ],
+        [
+          "386:10397",
+          "Group 36948",
+          63,
+          18,
+          null
+        ],
+        [
+          "386:10401",
+          "Group 36945",
+          67,
+          24,
+          null
+        ],
+        [
+          "386:10404",
+          "Group 36946",
+          58,
+          40.633758544921875,
+          null
+        ],
+        [
+          "386:10407",
+          "Group 36944",
+          61,
+          39.49972915649414,
+          null
+        ],
+        [
+          "386:10414",
+          "arrow-up",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:10418",
+          "arrow-curve-right-up",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:10419",
+          "alert-circle",
+          15,
+          15,
+          "NONE"
+        ],
+        [
+          "386:10422",
+          "Group 36956",
+          419,
+          137.80880737304688,
+          null
+        ],
+        [
+          "386:10423",
+          "Group 36955",
+          164,
+          136.67465209960938,
+          null
+        ],
+        [
+          "386:10431",
+          "Group 36954",
+          110,
+          134.40682983398438,
+          null
+        ],
+        [
+          "386:10436",
+          "Group 36953",
+          114,
+          137.80880737304688,
+          null
+        ],
+        [
+          "539:4954",
+          "Lập hành trình nhiều điểm",
+          380,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "539:4955",
+          "plus-03",
+          20,
+          20,
+          "NONE"
+        ],
+        [
+          "539:4958",
+          "arrow-curve-right-up",
+          20,
+          20,
+          "NONE"
+        ],
+        [
+          "539:26948",
+          "Thanh điều hướng chính",
+          444,
+          116,
+          null
+        ],
+        [
+          "539:26949",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "539:26953",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "539:26962",
+          "Group 36732",
+          140,
+          47,
+          null
+        ],
+        [
+          "539:26969",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "arrow-triangle-down": 1,
+        "arrow-curve-right-up": 3,
+        "arrow-curve-left-up": 1,
+        "map-03": 1,
+        "close": 1,
+        "Icons / Directions Walk": 1,
+        "Icons / Delivery Dining": 1,
+        "arrow-up": 1,
+        "alert-circle": 1,
+        "plus-03": 2
+      },
+      "reactions": [
+        {
+          "id": "386:10387",
+          "name": "Line 25",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10279",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10393",
+          "name": "Group 36937",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10279",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10431",
+          "name": "Group 36954",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10136",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.30000001192092896
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10136",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.30000001192092896
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26954",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26958",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26963",
+          "name": "Group 37109",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:26969",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10644",
+      "name": "tin tức chi tiết 2",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "GROUP": 40,
+        "RECTANGLE": 23,
+        "INSTANCE": 3,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 16,
+        "ELLIPSE": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Tuổi trẻ hành động: Chung tay làm sạch dòng kênh, vì một Việt Nam không rác thải!",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "Hình ảnh này là một minh chứng sống động: Hàng trăm bạn đoàn viên, thanh niên đang hăng hái lội xuống dòng kênh, không quản ngại khó khăn để vớt từng bọc rác, từng chai nhựa. Đây không chỉ là một hoạt động...xem thêm",
+        "Hiện trạng: Thử thách và trách nhiệm của tuổi trẻ",
+        "Mỗi ngày, những con kênh, dòng sông – mạch sống của đô thị và nông thôn – đang phải \"oằn mình\" gánh chịu hàng triệu tấn rác thải đủ loại. Rác thải sinh hoạt, nhựa, rác công nghiệp... không chỉ gây ô nhiễm nặng nề mà còn làm mất đi vẻ đẹp tự nhiên, ảnh hưởng trực tiếp đến sức khỏe cộng đồng và cuộc sống của các loài thủy sinh. Đây là vấn đề cấp bách, đòi hỏi sự chung tay giải quyết, và tuổi trẻ đã tiên phong hành động.",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Tiên phong làm sạch môi trường: Trực tiếp dọn dẹp kênh rạch, bãi biển, các khu vực công cộng.\nTuyên truyền nâng cao nhận thức: Giúp cộng đồng hiểu rõ tác hại của rác thải và lợi ích của việc bảo vệ môi trường.\nTriển khai các mô hình sáng tạo: Đề xuất và thực hiện các giải pháp thu gom, phân loại, tái chế rác hiệu quả.",
+        "4.Hành động ngay từ hôm nay:",
+        "3. Hậu quả: Không của riêng ai",
+        "Môi trường bị hủy hoại: Rác thải gây ô nhiễm nguồn nước, đất, không khí, đe dọa đa dạng sinh học.\nSức khỏe cộng đồng bị ảnh hưởng: là nguyên nhân gây ra nhiều bệnh tật nghiêm trọng cho con người.\nMất đi vẻ đẹp cảnh quan: Những dòng kênh, bờ sông đầy rác làm mất đi giá trị thẩm mỹ."
+      ],
+      "parts": [
+        [
+          "386:10644",
+          "tin tức chi tiết 2",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:10645",
+          "header",
+          428,
+          256,
+          null
+        ],
+        [
+          "386:10648",
+          "time line",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10649",
+          "Group 1",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10651",
+          "banner",
+          382,
+          87,
+          null
+        ],
+        [
+          "386:10654",
+          "Group 36985",
+          181,
+          16,
+          null
+        ],
+        [
+          "386:10658",
+          "Group 36986",
+          38,
+          19,
+          null
+        ],
+        [
+          "386:10661",
+          "Frame 37228",
+          406,
+          548,
+          "VERTICAL"
+        ],
+        [
+          "386:10662",
+          "Group 37228",
+          406,
+          702,
+          null
+        ],
+        [
+          "386:10707",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:10709",
+          "Group 36981",
+          28,
+          28,
+          null
+        ],
+        [
+          "386:10711",
+          "chevron_backward",
+          22,
+          22,
+          "NONE"
+        ],
+        [
+          "386:10712",
+          "Group 36735",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:10713",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:10717",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "386:10726",
+          "Group 36732",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:10733",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Clock": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:10718",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10722",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10727",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10733",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10737",
+      "name": "tin tức chi tiết 4",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "GROUP": 40,
+        "RECTANGLE": 23,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 16,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Chủ Nhật Xanh ý nghĩa: Ca sĩ Thủy Tiên cùng cộng đồng chung tay \"giải cứu\" bãi biển!",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "Gác lại hình ảnh lộng lẫy trên sân khấu, trong ngày Chủ Nhật Xanh, hình ảnh ca sĩ Thủy Tiên không ngại nắng gió, trực tiếp cùng hàng trăm tình nguyện viên lội xuống bãi biển ngập rác đã truyền đi một thông điệp vô cùng mạnh mẽ.\nKhi một người có tầm ảnh hưởng...xem thêm",
+        " Sức mạnh của sự lan tỏa",
+        "\nTruyền cảm hứng hành động: Khuyến khích mọi người, không phân biệt là ai, đều có thể xắn tay áo lên và tạo ra sự thay đổi.\nBiến ý thức thành hành động: Hành động thực tế của cô là lời kêu gọi mạnh mẽ nhất, hiệu quả hơn ngàn lời hô hào, rằng bảo vệ môi trường là trách nhiệm chung của tất cả mọi người.",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Đừng xả rác bừa bãi: Đặc biệt là khi đi du lịch biển.\nHạn chế nhựa một lần: Hãy tập thói quen mang theo bình nước, túi vải.\nHãy hành động: Đừng ngần ngại nhặt một mảnh rác bạn thấy.",
+        "4.Từ Chủ Nhật Xanh đến mỗi ngày Xanh",
+        "3. \"Giải cứu\" môi trường sống",
+        "Hình ảnh bãi biển ngập trong rác thải là một thực tế đáng buồn. Rác thải nhựa, túi nilon, và rác sinh hoạt đang từng ngày hủy hoại cảnh quan, giết chết sinh vật biển \nHành động của Thủy Tiên và các tình nguyện viên hôm nay chính là nỗ lực \"giải cứu\" thiết thực, \"trả lại\" sự trong lành cho bãi biển."
+      ],
+      "parts": [
+        [
+          "386:10737",
+          "tin tức chi tiết 4",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:10738",
+          "header",
+          428,
+          256,
+          null
+        ],
+        [
+          "386:10741",
+          "time line",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10742",
+          "Group 1",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10744",
+          "banner",
+          382,
+          87,
+          null
+        ],
+        [
+          "386:10747",
+          "Group 36985",
+          181,
+          16,
+          null
+        ],
+        [
+          "386:10751",
+          "Group 36986",
+          38,
+          19,
+          null
+        ],
+        [
+          "386:10754",
+          "Frame 37238",
+          404.375,
+          551,
+          "VERTICAL"
+        ],
+        [
+          "386:10755",
+          "Group 37256",
+          404.375,
+          700,
+          null
+        ],
+        [
+          "386:10801",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:10803",
+          "Group 36735",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:10804",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:10808",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "386:10817",
+          "Group 36732",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:10824",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Clock": 1
+      },
+      "reactions": [
+        {
+          "id": "386:10809",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10813",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10818",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10824",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10828",
+      "name": "tin tức chi tiết 6",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "GROUP": 40,
+        "RECTANGLE": 23,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 16,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Sức trẻ Sài Gòn Xanh: \"Lội bùn\" hồi sinh những dòng kênh ô nhiễm",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "Thay vì chỉ chia sẻ sự bức xúc trên mạng xã hội, các bạn trẻ của nhóm \"Sài Gòn Xanh\" đã chọn hành động thực tế. Hình ảnh họ không ngại bùn đất, trực tiếp lội xuống những dòng kênh đen kịt, ngập ngụa rác thải...xem thêm",
+        "Sức mạnh của tinh thần xung kích",
+        "Hành động thực tế: Các bạn trẻ không chỉ dọn dẹp ở những nơi dễ thấy. Họ tìm đến những \"điểm đen\" ô nhiễm nặng nhất, ngâm mình hàng giờ trong dòng nước bẩn để vớt từng bao rác, khơi thông từng miệng cống.\nLan tỏa ý thức: Hành động dũng cảm của Sài Gòn Xanh là lời nhắc nhở trực diện và mạnh mẽ nhất đến ý thức của cộng đồng về thói quen xả rác bừa bãi.",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Hành động của nhóm Sài Gòn Xanh không chỉ là làm sạch. Họ đang gieo mầm hy vọng và truyền cảm hứng cho toàn xã hội, đặc biệt là giới trẻ. Họ chứng minh rằng, chỉ cần chúng ta dám hành động, chúng ta có thể tạo ra sự thay đổi. Từ một nhóm nhỏ, tinh thần này đang lan tỏa, kêu gọi mọi người hãy ngưng xả rác và cùng chung tay bảo vệ \"lá phổi\" của thành phố.",
+        "4.Xây dựng một lối sống \"Xanh\"",
+        "3.Các loại rác \"bóp nghẹt\" dòng kênh",
+        "Rác thải nhựa: Chai lọ, túi nilon, hộp xốp... chiếm số lượng lớn nhất.\nRác thải sinh hoạt: Thức ăn thừa, vật dụng hỏng... bị vứt trực tiếp xuống kênh.\nRác công nghiệp & điện tử: Lẫn trong đó là cả những loại rác độc hại từ các cơ sở sản xuất nhỏ lẻ."
+      ],
+      "parts": [
+        [
+          "386:10828",
+          "tin tức chi tiết 6",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:10829",
+          "header",
+          428,
+          256,
+          null
+        ],
+        [
+          "386:10832",
+          "time line",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10833",
+          "Group 1",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10835",
+          "banner",
+          382,
+          87,
+          null
+        ],
+        [
+          "386:10838",
+          "Group 36985",
+          181,
+          16,
+          null
+        ],
+        [
+          "386:10842",
+          "Group 36986",
+          38,
+          19,
+          null
+        ],
+        [
+          "386:10845",
+          "Frame 37240",
+          404,
+          541,
+          "VERTICAL"
+        ],
+        [
+          "386:10846",
+          "Group 37258",
+          404,
+          720,
+          null
+        ],
+        [
+          "386:10892",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:10894",
+          "Group 36735",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:10895",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:10899",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "386:10908",
+          "Group 36732",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:10915",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Clock": 1
+      },
+      "reactions": [
+        {
+          "id": "386:10900",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10904",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10909",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10915",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10919",
+      "name": "tin tức chi tiết 8",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "GROUP": 40,
+        "RECTANGLE": 23,
+        "INSTANCE": 2,
+        "VECTOR": 21,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 16,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Trả lại vẻ đẹp cho Di sản: Phong trào làm sạch các danh lam thắng cảnh",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "\nTrước tình hình đó, một làn sóng hành động mạnh mẽ đang lan tỏa. Không chỉ là các đội tình nguyện, chính những người dân địa phương, các bạn trẻ, và cả du khách đã cùng chung tay \"giải cứu\" những danh thắng này...xem thêm",
+        "Sức mạnh từ ý thức bảo vệ \"báu vật\" quốc gia",
+        "Hành động vì \"nồi cơm\": Rất nhiều người dân mưu sinh trực tiếp từ du lịch tại các danh thắng. Họ hiểu rằng, bảo vệ cảnh quan sạch đẹp chính là bảo vệ cuộc sống và tương lai của chính mình.\nLan tỏa tinh thần \"chủ nhà\": Hành động của họ là lời nhắc nhở mạnh mẽ nhất, đánh thức ý thức của cả cộng đồng và du khách. Khi \"chủ nhà\" trân trọng, \"khách\" cũng sẽ ý thức ",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Du lịch có trách nhiệm: Kêu gọi du khách \"Không lấy gì ngoài những bức ảnh, không để lại gì ngoài những dấu chân\".\nChuyển đổi địa phương: Vận động các cơ sở kinh doanh, người dân địa phương áp dụng các giải pháp giảm thiểu nhựa, thu gom và tái chế rác hiệu quả.\nTương lai: Mục tiêu là xây dựng một nền du lịch bền vững, nơi vẻ đẹp của di sản và danh thắng được bảo tồn trọn vẹn cho thế hệ mai sau.",
+        "4.Xây dựng nền du lịch \"Xanh\" và bền vững",
+        "3. Rác thải \"bức tử\" danh lam thắng cảnh",
+        "Rác thải nhựa: Chiếm số lượng lớn nhất, chủ yếu từ du khách (chai nước, túi nilon, ống hút), từ các khu dân cư và hàng quán dịch vụ xung quanh.\nHậu quả: Rác thải không chỉ làm mất mỹ quan nghiêm trọng, mà còn hủy hoại hệ sinh thái (rạn san hô, sinh vật biển...) "
+      ],
+      "parts": [
+        [
+          "386:10919",
+          "tin tức chi tiết 8",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:10920",
+          "header",
+          428,
+          256,
+          null
+        ],
+        [
+          "386:10923",
+          "time line",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10924",
+          "Group 1",
+          428,
+          42.999996185302734,
+          null
+        ],
+        [
+          "386:10926",
+          "banner",
+          382,
+          87,
+          null
+        ],
+        [
+          "386:10929",
+          "Group 36985",
+          181,
+          16,
+          null
+        ],
+        [
+          "386:10933",
+          "Group 36986",
+          38,
+          19,
+          null
+        ],
+        [
+          "386:10936",
+          "Frame 37242",
+          404,
+          566,
+          "VERTICAL"
+        ],
+        [
+          "386:10937",
+          "Group 37260",
+          404,
+          766,
+          null
+        ],
+        [
+          "386:10983",
+          "Group 37150",
+          386,
+          50,
+          null
+        ],
+        [
+          "386:10985",
+          "Group 36735",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:10986",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:10990",
+          "Group 36734",
+          112,
+          28,
+          null
+        ],
+        [
+          "386:10999",
+          "Group 36732",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:11006",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Clock": 1
+      },
+      "reactions": [
+        {
+          "id": "386:10991",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:10995",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11000",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11006",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11010",
+      "name": "Tích điểm và phần thưởng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1725,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 167,
+        "GROUP": 76,
+        "TEXT": 28,
+        "ELLIPSE": 37,
+        "POLYGON": 3,
+        "INSTANCE": 1,
+        "VECTOR": 11,
+        "BOOLEAN_OPERATION": 2
+      },
+      "texts": [
+        "Điểm hiện tại của bạn: ",
+        "180 điểm",
+        "👉 Chỉ còn 97 điểm nữa để lên cấp!",
+        "Mầm xanh",
+        "Tích điểm & phần thưởng",
+        "Cấp độ 2 - Chiến Binh Tái Chế",
+        "Thu Phương",
+        "Phần thưởng",
+        "Lịch sử",
+        "Cách tính điểm",
+        "Người Bảo Vệ Trái Đất",
+        "1",
+        "2",
+        "Chiến Binh Tái Chế",
+        "Đại sứ xanh",
+        "Người Gìn Giữ Hành Tinh",
+        "Anh Hùng Sinh Thái",
+        "Hộ Vệ Thiên Nhiên",
+        "Tinh Linh Môi Trường",
+        "Tổng điểm tích lũy: 253 điểm",
+        "100",
+        "200",
+        "350",
+        "500",
+        "700",
+        "Đại sứ xanh",
+        "Người Gìn Giữ Hành Tinh",
+        "Anh Hùng Sinh Thái"
+      ],
+      "parts": [
+        [
+          "386:11010",
+          "Tích điểm và phần thưởng",
+          428,
+          1725,
+          "NONE"
+        ],
+        [
+          "386:11013",
+          "Group Điểm hiện tại",
+          380,
+          41,
+          null
+        ],
+        [
+          "386:11014",
+          "Group 36848",
+          380,
+          41,
+          null
+        ],
+        [
+          "386:11019",
+          "Group 37026",
+          85,
+          92,
+          null
+        ],
+        [
+          "386:11021",
+          "Group 37006",
+          85,
+          78,
+          null
+        ],
+        [
+          "386:11030",
+          "Group 36780",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:11031",
+          "Group 14",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:11034",
+          "Group 36779",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:11038",
+          "Lịch sử",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:11039",
+          "Group 28",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:11042",
+          "Group 36778",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:11046",
+          "Group cách tính điểm",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:11047",
+          "Group 36776",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:11051",
+          "Group 36777",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:11055",
+          "Group đường đi 1",
+          69.73694610595703,
+          76.5694808959961,
+          null
+        ],
+        [
+          "386:11063",
+          "Group đường đi 2",
+          173.358154296875,
+          101.457275390625,
+          null
+        ],
+        [
+          "386:11081",
+          "Group đường đi 3",
+          108.93672180175781,
+          81.73431396484375,
+          null
+        ],
+        [
+          "386:11091",
+          "Group đường đi 6",
+          108.93672180175781,
+          81.73455810546875,
+          null
+        ],
+        [
+          "386:11101",
+          "Group đường đi 7",
+          108.93667602539062,
+          82.42401123046875,
+          null
+        ],
+        [
+          "386:11111",
+          "Group 37003",
+          217.89710998535156,
+          118.45667266845703,
+          null
+        ],
+        [
+          "386:11112",
+          "Group đường đi 4",
+          173.358154296875,
+          101.45703125,
+          null
+        ],
+        [
+          "386:11130",
+          "Group đường đi 5",
+          55.93512725830078,
+          36.54828643798828,
+          null
+        ],
+        [
+          "386:11135",
+          "Group 36995",
+          112.2694091796875,
+          81.94667053222656,
+          null
+        ],
+        [
+          "386:11146",
+          "Group 36996",
+          91.04904174804688,
+          64.759765625,
+          null
+        ],
+        [
+          "386:11155",
+          "Group 37008",
+          117,
+          118,
+          null
+        ],
+        [
+          "386:11157",
+          "Group 7",
+          22,
+          22,
+          null
+        ],
+        [
+          "386:11160",
+          "Group 36771",
+          75,
+          89,
+          null
+        ],
+        [
+          "386:11166",
+          "Group 37009",
+          101,
+          125,
+          null
+        ],
+        [
+          "386:11167",
+          "Group 36772",
+          75,
+          110,
+          null
+        ],
+        [
+          "386:11173",
+          "Group 36737",
+          22,
+          22,
+          null
+        ],
+        [
+          "386:11177",
+          "Group 37027",
+          75,
+          109,
+          null
+        ],
+        [
+          "386:11178",
+          "Group 37017",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11189",
+          "Group 37018",
+          134,
+          107,
+          null
+        ],
+        [
+          "386:11190",
+          "Group 36774",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11200",
+          "Group 37019",
+          106,
+          109,
+          null
+        ],
+        [
+          "386:11201",
+          "Group 36847",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11211",
+          "Group 37020",
+          99,
+          111,
+          null
+        ],
+        [
+          "386:11212",
+          "Group 36850",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11222",
+          "Group 37021",
+          115,
+          112,
+          null
+        ],
+        [
+          "386:11223",
+          "Group 36849",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11233",
+          "Group thời gian",
+          428,
+          91.2796859741211,
+          null
+        ],
+        [
+          "386:11234",
+          "iPhone/Status Bar",
+          428,
+          91.2796859741211,
+          "NONE"
+        ],
+        [
+          "386:11235",
+          "Group 36846",
+          380,
+          100,
+          null
+        ],
+        [
+          "386:11239",
+          "Group Tổng điểm tích lũy",
+          275,
+          43,
+          null
+        ],
+        [
+          "386:11253",
+          "Group 37000",
+          112.2694091796875,
+          81.94740295410156,
+          null
+        ],
+        [
+          "386:11264",
+          "Group 37002",
+          79.1888427734375,
+          156.5819549560547,
+          null
+        ],
+        [
+          "386:11278",
+          "Group 37001",
+          91.04904174804688,
+          64.759765625,
+          null
+        ],
+        [
+          "386:11287",
+          "Group 37022",
+          75,
+          109,
+          null
+        ],
+        [
+          "386:11288",
+          "Group 36997",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11298",
+          "Group 37023",
+          134,
+          109,
+          null
+        ],
+        [
+          "386:11299",
+          "Group 36998",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11309",
+          "Group 37024",
+          106,
+          109,
+          null
+        ],
+        [
+          "386:11310",
+          "Group 36999",
+          75,
+          94,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1
+      },
+      "reactions": []
+    },
+    {
+      "id": "386:11320",
+      "name": "Cách quy đổi điểm",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 31,
+        "GROUP": 44,
+        "INSTANCE": 2,
+        "VECTOR": 32,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 18,
+        "ELLIPSE": 16,
+        "LINE": 1
+      },
+      "texts": [
+        "Cách tính điểm  / 1 lần quét",
+        "Rác vô cơ",
+        "+2 điểm",
+        "Rác tái chế",
+        "+5 điểm",
+        "+3 điểm",
+        "Rác hữu cơ",
+        "Hãy cùng chung tay bảo vệ môi trường!  Mỗi lần bạn phân loại rác đúng cách, hệ thống sẽ cộng điểm xanh tương ứng.  Điểm xanh có thể quy đổi thành phần thưởng, voucher hoặc trồng cây gây quỹ.",
+        "Đổi thưởng  ",
+        "253 điểm",
+        "Tổng điểm tích lũy",
+        "Quy đổi điểm xanh 🎯  ",
+        "180 điểm",
+        "100",
+        "200",
+        "350",
+        "500",
+        "700"
+      ],
+      "parts": [
+        [
+          "386:11320",
+          "Cách quy đổi điểm",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:11323",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:11324",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:11326",
+          "Group 36759",
+          61,
+          62.000450134277344,
+          null
+        ],
+        [
+          "386:11327",
+          "Group 2",
+          61,
+          31.000452041625977,
+          null
+        ],
+        [
+          "386:11331",
+          "Group 36781",
+          75,
+          94,
+          null
+        ],
+        [
+          "386:11332",
+          "Group 10",
+          75,
+          46,
+          null
+        ],
+        [
+          "386:11337",
+          "Group 36757",
+          78,
+          133,
+          null
+        ],
+        [
+          "386:11339",
+          "Group 36753",
+          78,
+          104,
+          null
+        ],
+        [
+          "386:11347",
+          "Group 36763",
+          80,
+          136,
+          null
+        ],
+        [
+          "386:11349",
+          "Group 36762",
+          77,
+          105,
+          null
+        ],
+        [
+          "386:11357",
+          "Group 36758",
+          81,
+          143,
+          null
+        ],
+        [
+          "386:11358",
+          "Group 36754",
+          79,
+          117,
+          null
+        ],
+        [
+          "386:11369",
+          "Group 36782",
+          135,
+          40,
+          null
+        ],
+        [
+          "386:11372",
+          "backhand-index-pointing-right-1--Streamline-Emoji",
+          21,
+          19,
+          "NONE"
+        ],
+        [
+          "386:11382",
+          "Group 36767",
+          166.23367309570312,
+          144.70547485351562,
+          null
+        ],
+        [
+          "386:11383",
+          "Group 182",
+          38.57710647583008,
+          44.78568649291992,
+          null
+        ],
+        [
+          "386:11387",
+          "Group 36769",
+          103.8366928100586,
+          90.38941955566406,
+          null
+        ],
+        [
+          "386:11388",
+          "Group 36768",
+          103.8366928100586,
+          90.38941955566406,
+          null
+        ],
+        [
+          "386:11393",
+          "Group 36768",
+          103.83610534667969,
+          90.38941955566406,
+          null
+        ],
+        [
+          "386:11394",
+          "Group 36768",
+          103.83610534667969,
+          90.38941955566406,
+          null
+        ],
+        [
+          "386:11399",
+          "Group 36824",
+          349,
+          94,
+          null
+        ],
+        [
+          "386:11404",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:11408",
+          "Group Tổng điểm tích lũy",
+          275,
+          43,
+          null
+        ],
+        [
+          "386:11421",
+          "Group 36732",
+          6,
+          21.999435424804688,
+          null
+        ],
+        [
+          "386:11426",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:11427",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:11431",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:11442",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:11447",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:11369",
+          "name": "Group 36782",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:11451",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11451",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11383",
+          "name": "Group 182",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SLIDE_IN",
+                  "direction": "RIGHT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 1
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SLIDE_IN",
+                    "direction": "RIGHT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 1
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11389",
+          "name": "Group 182",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SLIDE_IN",
+                  "direction": "RIGHT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 1
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SLIDE_IN",
+                    "direction": "RIGHT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 1
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11395",
+          "name": "Group 182",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SLIDE_IN",
+                  "direction": "RIGHT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 1
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SLIDE_IN",
+                    "direction": "RIGHT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 1
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11404",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16592",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11432",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11436",
+          "name": "Group 37110",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11443",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11447",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11451",
+      "name": "Phần thưởng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 70,
+        "GROUP": 63,
+        "INSTANCE": 3,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 49,
+        "ELLIPSE": 7,
+        "LINE": 1
+      },
+      "texts": [
+        "Phần thưởng",
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Nhận ngay 2 điểm",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "+2 điểm",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "+3 điểm",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Nhắc tôi",
+        "Lịch sử",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Khác",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Chậu cây tái chế",
+        "Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn",
+        "80 điểm",
+        "Ly tái chế Eco",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "Túi vải canvas",
+        "Thời trang – thay thế túi nilon",
+        "100 điểm",
+        "Xà phòng hữu cơ",
+        "Từ thiên nhiên – an toàn cho da và môi trường",
+        "150 điểm",
+        "Móc khóa tái chế",
+        "Làm từ nắp chai nhựa, nhiều hình dáng dễ thương.",
+        "70 điểm",
+        "Bút bi thân nhựa",
+        "100% vỏ nhựa thu hồi, viết êm, thân thiện môi trường.",
+        "80 điểm",
+        "Khung ảnh mini",
+        "Kim loại tái chế để bàn học, bàn làm việc.",
+        "150 điểm",
+        "Hộp đựng tài liệu",
+        "Giấy cứng tái chế, dùng lưu trữ hồ sơ, sách, tài liệu.",
+        "150 điểm"
+      ],
+      "parts": [
+        [
+          "386:11451",
+          "Phần thưởng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:11454",
+          "Group 1",
+          428,
+          49.000003814697266,
+          null
+        ],
+        [
+          "386:11455",
+          "iPhone/Status Bar",
+          428,
+          49.000003814697266,
+          "NONE"
+        ],
+        [
+          "386:11462",
+          "Group 36851",
+          230,
+          25,
+          null
+        ],
+        [
+          "386:11465",
+          "Group 36783",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:11470",
+          "Group 36784",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:11475",
+          "Group 36785",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:11480",
+          "Group 36786",
+          45,
+          66,
+          null
+        ],
+        [
+          "386:11484",
+          "Group 36787",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:11489",
+          "Group 36788",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:11494",
+          "Group 36789",
+          44,
+          66,
+          null
+        ],
+        [
+          "386:11498",
+          "Group 36790",
+          55,
+          19,
+          null
+        ],
+        [
+          "386:11501",
+          "Group 36850",
+          80,
+          30,
+          null
+        ],
+        [
+          "386:11504",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:11507",
+          "Frame 36839",
+          369,
+          516,
+          "VERTICAL"
+        ],
+        [
+          "386:11508",
+          "Group 37132",
+          369,
+          909,
+          null
+        ],
+        [
+          "386:11621",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:11622",
+          "Group 36732",
+          6,
+          21.999435424804688,
+          null
+        ],
+        [
+          "386:11627",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:11628",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:11632",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:11643",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:11648",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:11462",
+          "name": "Group 36851",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:12671",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12671",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11520",
+          "name": "Group 36816",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:13109",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13109",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11524",
+          "name": "Group 36817",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:12823",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12823",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11528",
+          "name": "Group 36818",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:12956",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12956",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11621",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16592",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11633",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11637",
+          "name": "Group 37110",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11644",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:11648",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

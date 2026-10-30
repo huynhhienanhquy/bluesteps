@@ -1,0 +1,25 @@
+{
+  "name": "bluesteps",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "pnpm --filter @bluesteps/mobile start",
+    "go": "pnpm --filter @bluesteps/mobile go",
+    "go:tunnel": "pnpm --filter @bluesteps/mobile go:tunnel",
+    "go:link": "pnpm --filter @bluesteps/mobile go:link",
+    "web": "pnpm --filter @bluesteps/mobile web",
+    "demo": "pnpm web",
+    "typecheck": "pnpm --filter @bluesteps/mobile typecheck",
+    "lint": "pnpm --filter @bluesteps/mobile lint",
+    "test": "pnpm --filter @bluesteps/mobile test",
+    "test:e2e": "pnpm --filter @bluesteps/mobile test:e2e",
+    "preview": "pnpm --filter @bluesteps/mobile preview",
+    "bundle:native": "pnpm --filter @bluesteps/mobile exec expo export --platform android --platform ios --output-dir dist-native",
+    "check:native-config": "pnpm --filter @bluesteps/mobile check:native-config",
+    "build": "pnpm --filter @bluesteps/mobile build",
+    "format": "pnpm --filter @bluesteps/mobile format",
+    "format:check": "pnpm --filter @bluesteps/mobile format:check",
+    "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm build && pnpm check:native-config"
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "bytes": 4484,
+  "screens": [
+    {
+      "id": "514:5096",
+      "name": "Cài đặt · Overlay · Âm thanh và rung",
+      "type": "FRAME",
+      "w": 428,
+      "h": 931,
+      "types": {
+        "FRAME": 15,
+        "RECTANGLE": 5,
+        "TEXT": 11,
+        "VECTOR": 3,
+        "INSTANCE": 1
+      },
+      "texts": [
+        "Âm thanh và rung",
+        "×",
+        "Chọn cách GreenSteps phản hồi với bạn.",
+        "Âm thanh",
+        "Âm báo và hiệu ứng trong ứng dụng",
+        "Rung",
+        "Phản hồi khi hoàn thành thao tác",
+        "Tùy chọn này chỉ áp dụng trong ứng dụng.\nBạn vẫn kiểm soát âm lượng trên thiết bị.",
+        {
+          "hidden": "✓ Đã lưu tùy chọn âm thanh và rung."
+        },
+        "Lưu thay đổi",
+        "Hủy"
+      ],
+      "parts": [
+        [
+          "514:5096",
+          "Cài đặt · Overlay · Âm thanh và rung",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5097",
+          "Fermer en dehors",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5111",
+          "Bảng cài đặt",
+          428,
+          570,
+          "NONE"
+        ],
+        [
+          "514:5114",
+          "Đóng",
+          44,
+          48,
+          "NONE"
+        ],
+        [
+          "514:5175",
+          "Âm thanh",
+          380,
+          88,
+          "NONE"
+        ],
+        [
+          "514:5185",
+          "Rung",
+          380,
+          88,
+          "NONE"
+        ],
+        [
+          "514:5200",
+          "Nút / Lưu thay đổi",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "514:5203",
+          "Liên kết / Hủy",
+          380,
+          48,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Lưu thay đổi": 1
+      },
+      "reactions": [
+        {
+          "id": "514:5097",
+          "name": "Fermer en dehors",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5114",
+          "name": "Đóng",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5175",
+          "name": "Âm thanh",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5185",
+          "name": "Rung",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5200",
+          "name": "Nút / Lưu thay đổi",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5203",
+          "name": "Liên kết / Hủy",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "514:5099",
+      "name": "Cài đặt · Overlay · Lịch sử đăng nhập",
+      "type": "FRAME",
+      "w": 428,
+      "h": 931,
+      "types": {
+        "FRAME": 18,
+        "RECTANGLE": 1,
+        "TEXT": 20,
+        "VECTOR": 6,
+        "INSTANCE": 3
+      },
+      "texts": [
+        "Lịch sử đăng nhập",
+        "×",
+        "Xem các thiết bị đã truy cập tài khoản của bạn.",
+        "iPhone · GreenSteps",
+        "Thiết bị hiện tại",
+        "Đang hoạt động",
+        "Chrome · Windows",
+        "Đăng nhập gần đây",
+        {
+          "hidden": "Đã đăng xuất"
+        },
+        "Đăng xuất",
+        "Safari · macOS",
+        "Đăng nhập gần đây",
+        {
+          "hidden": "Đã đăng xuất"
+        },
+        "Đăng xuất",
+        {
+          "hidden": "✓ Đã đăng xuất thiết bị được chọn."
+        },
+        "Không nhận ra thiết bị? Hãy đăng xuất phiên đó\nvà đổi mật khẩu để bảo vệ tài khoản.",
+        "Đóng lịch sử",
+        {
+          "hidden": "Đăng xuất thiết bị này?"
+        },
+        {
+          "hidden": "Chrome · Windows"
+        },
+        {
+          "hidden": "Thiết bị này cần đăng nhập lại để tiếp tục\nsử dụng tài khoản của bạn."
+        }
+      ],
+      "parts": [
+        [
+          "514:5099",
+          "Cài đặt · Overlay · Lịch sử đăng nhập",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5100",
+          "Fermer en dehors",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5117",
+          "Bảng cài đặt",
+          428,
+          680,
+          "NONE"
+        ],
+        [
+          "514:5120",
+          "Đóng",
+          44,
+          48,
+          "NONE"
+        ],
+        [
+          "514:5207",
+          "Thiết bị hiện tại",
+          380,
+          112,
+          "NONE"
+        ],
+        [
+          "514:5215",
+          "Chrome · Windows",
+          380,
+          88,
+          "NONE"
+        ],
+        [
+          "514:5226",
+          "Safari · macOS",
+          380,
+          88,
+          "NONE"
+        ],
+        [
+          "514:5239",
+          "Nút / Đóng lịch sử",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "514:5242",
+          "Xác nhận đăng xuất thiết bị",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5243",
+          "Hủy xác nhận",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5245",
+          "Hộp xác nhận",
+          380,
+          252,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Đóng lịch sử": 1,
+        "Nút / Hủy": 1,
+        "Nút / Đăng xuất": 1
+      },
+      "reactions": [
+        {
+          "id": "514:5100",
+          "name": "Fermer en dehors",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5120",
+          "name": "Đóng",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5223",
+          "name": "Liên kết / Đăng xuất",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5234",
+          "name": "Liên kết / Đăng xuất",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5239",
+          "name": "Nút / Đóng lịch sử",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5243",
+          "name": "Hủy xác nhận",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5249",
+          "name": "Nút / Hủy",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5252",
+          "name": "Nút / Đăng xuất",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

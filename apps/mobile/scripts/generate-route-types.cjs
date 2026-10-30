@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const { createRequire } = require('node:module');
+const projectRoot = path.resolve(__dirname, '..');
+process.env.EXPO_ROUTER_APP_ROOT = path.join(projectRoot, 'app');
+const expoRequire = createRequire(require.resolve('expo/package.json'));
+const cliRequire = createRequire(expoRequire.resolve('@expo/cli/package.json'));
+const output = path.join(projectRoot, '.expo', 'types');
+fs.mkdirSync(output, { recursive: true });
+cliRequire('@expo/router-server/build/typed-routes').regenerateDeclarations(output);

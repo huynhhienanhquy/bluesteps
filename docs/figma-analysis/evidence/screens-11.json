@@ -1,0 +1,3619 @@
+{
+  "bytes": 40811,
+  "screens": [
+    {
+      "id": "386:14521",
+      "name": "Sổ tay_Nhựa",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 7,
+        "TEXT": 5,
+        "GROUP": 19,
+        "VECTOR": 73,
+        "INSTANCE": 5,
+        "ELLIPSE": 5,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "👉 Ưu tiên sử dụng nhựa nhiều lần và hạn chế túi nilon dùng một lần.\n\n💡 Có thể tận dụng chai nhựa làm vật dụng trang trí hoặc trồng cây nhỏ.",
+        "Bỏ các vật dụng nhựa sạch, khô vào thùng rác nhựa (màu vàng).\n\nTách riêng nhựa bẩn, dính thức ăn để tránh lẫn với rác khô.\n\nKhông vứt nhựa cùng rác hữu cơ hoặc rác nguy hại.\n\nNhựa cứng (chai, hộp) và nhựa mềm (túi, màng bọc) nên phân riêng nếu có quy định.\n\n\n\n",
+        "Dos",
+        "Đồ nhựa",
+        "GreenSteps"
+      ],
+      "parts": [
+        [
+          "386:14521",
+          "Sổ tay_Nhựa",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14525",
+          "Group 36906",
+          392,
+          226,
+          null
+        ],
+        [
+          "386:14526",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14540",
+          "Group 36907",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14554",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14569",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14583",
+          "Toogle button",
+          70,
+          28,
+          "NONE"
+        ],
+        [
+          "386:14586",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14587",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14588",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14588;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14590",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:14591",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Toogle button": 1,
+        "iPhone/Status Bar": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14583",
+          "name": "Toogle button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1125",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1125",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14588;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14588;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14588;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14588;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14588;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14590",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "BACK"
+              },
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14595",
+      "name": "Sổ tay_Hộp carton",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 8,
+        "INSTANCE": 5,
+        "ELLIPSE": 5,
+        "TEXT": 5,
+        "GROUP": 19,
+        "VECTOR": 73,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Dos",
+        "Hộp Carton",
+        "Làm phẳng, gấp gọn thùng trước khi bỏ vào thùng rác giấy (màu xanh dương).\n\nTránh để carton ướt hoặc dính dầu mỡ.\n\nCó thể gom riêng để bán hoặc tái sử dụng.\n\nGiấy carton ướt nên bỏ cùng rác hữu cơ nếu không thể giữ khô.",
+        "GreenSteps",
+        "📦 Giữ khô giúp dễ thu gom và không làm hỏng giấy khác.\n  ♻️ Một số loại bao bì có lớp nhựa mỏng cần phân riêng."
+      ],
+      "parts": [
+        [
+          "386:14595",
+          "Sổ tay_Hộp carton",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14600",
+          "Toogle button",
+          70,
+          28,
+          "NONE"
+        ],
+        [
+          "386:14603",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14604",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14605",
+          "Group 36909",
+          381,
+          189,
+          null
+        ],
+        [
+          "386:14607",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14621",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14635",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14649",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14663",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14663;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14665",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:14666",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ],
+        [
+          "555:5170",
+          "Bố cục lưu ý · Hộp Carton",
+          383.31231689453125,
+          158.0275421142578,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Toogle button": 1,
+        "iPhone/Status Bar": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14600",
+          "name": "Toogle button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1125",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1125",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14663;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14663;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14663;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14663;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14663;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14665",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14454",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14454",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14670",
+      "name": "Sổ tay_Áo quần",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 8,
+        "INSTANCE": 5,
+        "ELLIPSE": 5,
+        "TEXT": 5,
+        "GROUP": 19,
+        "VECTOR": 73,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Dos",
+        "Áo quần",
+        "Quần áo còn tốt: gom riêng để quyên tặng hoặc tái sử dụng.\n\nVải vụn, đồ rách nát: bỏ vào thùng rác vải hoặc rác khô.\n\nKhông bỏ chung với rác hữu cơ hoặc pin.\n\nGiày dép, mũ nón nên để riêng vì chất liệu khác nhau.",
+        "GreenSteps",
+        "💚 Mỗi món đồ cũ có thể giúp người khác – hãy suy nghĩ trước khi vứt bỏ.\n  ✨ Có thể sáng tạo, biến đồ cũ thành đồ thủ công, túi vải, hoặc giẻ lau."
+      ],
+      "parts": [
+        [
+          "386:14670",
+          "Sổ tay_Áo quần",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14675",
+          "Toogle button",
+          70,
+          28,
+          "NONE"
+        ],
+        [
+          "386:14678",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14679",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14680",
+          "Group 36909",
+          381,
+          189,
+          null
+        ],
+        [
+          "386:14682",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14696",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14710",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14724",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14738",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14738;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14740",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:14741",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ],
+        [
+          "555:5169",
+          "Bố cục lưu ý · Áo quần",
+          384.9517517089844,
+          170.02967834472656,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Toogle button": 1,
+        "iPhone/Status Bar": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14675",
+          "name": "Toogle button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1125",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1125",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14738;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14738;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14738;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14738;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14738;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14740",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14454",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14454",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14745",
+      "name": "Sổ tay_Pin",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 8,
+        "INSTANCE": 5,
+        "ELLIPSE": 5,
+        "TEXT": 5,
+        "GROUP": 19,
+        "VECTOR": 73,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Dos",
+        "Pin",
+        "Tuyệt đối không vứt vào rác sinh hoạt.\n\nThu gom pin cũ và mang đến điểm thu gom rác nguy hại hoặc cửa hàng điện tử.\n\nDán băng keo vào đầu pin để tránh rò rỉ.\n\nKhông để pin gần nguồn nhiệt, lửa hoặc ánh nắng trực tiếp.",
+        "GreenSteps",
+        "⚠️ Pin có thể gây ô nhiễm đất và nước — hãy xử lý đúng nơi.\n  💡 Một số siêu thị, trung tâm thương mại có thùng thu gom pin, hãy tận dụng."
+      ],
+      "parts": [
+        [
+          "386:14745",
+          "Sổ tay_Pin",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14749",
+          "Toogle button",
+          70,
+          28,
+          "NONE"
+        ],
+        [
+          "386:14752",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14753",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14755",
+          "Group 36908",
+          381,
+          189,
+          null
+        ],
+        [
+          "386:14757",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14771",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14785",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14799",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14813",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14813;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14815",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:14816",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ],
+        [
+          "555:5168",
+          "Bố cục lưu ý · Pin",
+          380,
+          78,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Toogle button": 1,
+        "iPhone/Status Bar": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14749",
+          "name": "Toogle button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1125",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1125",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14813;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14813;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14813;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14813;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14813;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14815",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "BACK"
+              },
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14820",
+      "name": "Sổ tay_Rác hữu cơ",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 8,
+        "INSTANCE": 5,
+        "ELLIPSE": 5,
+        "TEXT": 5,
+        "GROUP": 19,
+        "VECTOR": 73,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Dos",
+        "Rác hữu cơ",
+        "Bỏ vào thùng rác hữu cơ (màu xanh lá).\n\nCó thể ủ làm phân compost để dùng cho cây trồng.\n\nTránh để rác hữu cơ lẫn nhựa hoặc kim loại.\n\nNếu có nhiều nước, nên vắt khô bớt trước khi bỏ.",
+        "GreenSteps",
+        "🌱 Giữ riêng rác hữu cơ giúp giảm mùi và dễ xử lý.\n  💧 Đậy kín thùng rác để tránh ruồi, côn trùng."
+      ],
+      "parts": [
+        [
+          "386:14820",
+          "Sổ tay_Rác hữu cơ",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14824",
+          "Toogle button",
+          70,
+          28,
+          "NONE"
+        ],
+        [
+          "386:14827",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14828",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14830",
+          "Group 36908",
+          381,
+          189,
+          null
+        ],
+        [
+          "386:14832",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14846",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14860",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14874",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14889",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14889;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14890",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:14891",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ],
+        [
+          "555:5167",
+          "Bố cục lưu ý · Rác hữu cơ",
+          379.6690979003906,
+          159.66909790039062,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Toogle button": 1,
+        "iPhone/Status Bar": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14824",
+          "name": "Toogle button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1125",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1125",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14889;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14889;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14889;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14889;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14889;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14890",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14454",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14454",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14895",
+      "name": "Sổ tay_Thủy tinh",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 8,
+        "INSTANCE": 5,
+        "ELLIPSE": 5,
+        "TEXT": 5,
+        "GROUP": 19,
+        "VECTOR": 73,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Dos",
+        "Thủy tinh",
+        "Bỏ vào thùng rác thủy tinh (màu cam hoặc xám).\n\nGói mảnh vỡ vào giấy hoặc túi riêng trước khi bỏ đi.\n\nKhông trộn chung với rác hữu cơ hoặc nhựa.\n\nCó thể tái sử dụng chai lọ thủy tinh còn nguyên để đựng gia vị, nước uống.",
+        "GreenSteps",
+        "⚠️ Cẩn thận khi cầm nắm, tránh làm rơi vỡ.\n  💡 Chai lọ thủy tinh có thể dùng lại nhiều lần mà không ảnh hưởng chất lượng."
+      ],
+      "parts": [
+        [
+          "386:14895",
+          "Sổ tay_Thủy tinh",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14900",
+          "Toogle button",
+          70,
+          28,
+          "NONE"
+        ],
+        [
+          "386:14903",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14904",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14905",
+          "Group 36908",
+          381,
+          189,
+          null
+        ],
+        [
+          "386:14907",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14921",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14935",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14949",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14963",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:14963;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:14965",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:14966",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ],
+        [
+          "555:5166",
+          "Bố cục lưu ý · Thủy tinh",
+          384.1320495605469,
+          164.0286102294922,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Toogle button": 1,
+        "iPhone/Status Bar": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14900",
+          "name": "Toogle button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1125",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1125",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14963;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14963;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14963;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14963;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:14963;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:14965",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14454",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14454",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14970",
+      "name": "Sổ tay_Giấy",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 8,
+        "INSTANCE": 5,
+        "ELLIPSE": 5,
+        "TEXT": 5,
+        "GROUP": 19,
+        "VECTOR": 73,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "Dos",
+        "Giấy",
+        "Bỏ vào thùng rác giấy (màu xanh dương).\n\nGiữ khô, tránh giấy bị ướt hoặc dính dầu mỡ.\n\nKhông trộn giấy ăn, giấy ướt, giấy vệ sinh với giấy khô.\n\nGiấy in có mực, bìa màu nên tách riêng nếu có quy định.",
+        "GreenSteps",
+        "📚 Giấy sạch dễ phân loại và thu gom.\n  💡 Có thể tận dụng giấy cũ làm nháp hoặc đồ trang trí."
+      ],
+      "parts": [
+        [
+          "386:14970",
+          "Sổ tay_Giấy",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:14975",
+          "Toogle button",
+          70,
+          28,
+          "NONE"
+        ],
+        [
+          "386:14978",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:14979",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:14980",
+          "Group 36908",
+          381,
+          189,
+          null
+        ],
+        [
+          "386:14982",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:14996",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:15010",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:15024",
+          "Group",
+          22.852783203125,
+          22.2900390625,
+          null
+        ],
+        [
+          "386:15038",
+          "Group 36935",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:15038;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "386:15040",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:15041",
+          "Group 36732",
+          6,
+          19.999622344970703,
+          null
+        ],
+        [
+          "555:5165",
+          "Bố cục lưu ý · Giấy",
+          392.7372131347656,
+          199.67245483398438,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Toogle button": 1,
+        "iPhone/Status Bar": 1,
+        "Group 36935": 1,
+        "Group 36934": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:14975",
+          "name": "Toogle button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "306:1125",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "306:1125",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15038;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15038;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15038;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15038;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15038;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15040",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "BACK"
+              },
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:15045",
+      "name": "image 75",
+      "type": "RECTANGLE",
+      "w": 145.6304473876953,
+      "h": 197.66958618164062,
+      "types": {
+        "RECTANGLE": 1
+      },
+      "texts": [],
+      "parts": [],
+      "instanceCounts": {},
+      "reactions": []
+    },
+    {
+      "id": "386:15047",
+      "name": "Đăng bài viết",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "GROUP": 20,
+        "VECTOR": 24,
+        "INSTANCE": 5,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 10,
+        "RECTANGLE": 16,
+        "ELLIPSE": 5,
+        "LINE": 1
+      },
+      "texts": [
+        "Tạo bài viết",
+        "ĐĂNG",
+        "Hi, bạn đang nghĩ gì?......",
+        "Ảnh/Video",
+        "Check in",
+        "Camera",
+        "Cảm xúc",
+        "Thêm vào bài đăng của bạn",
+        "Healing",
+        "Công khai"
+      ],
+      "parts": [
+        [
+          "386:15047",
+          "Đăng bài viết",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:15048",
+          "time",
+          13.171615600585938,
+          7.585784912109375,
+          null
+        ],
+        [
+          "386:15050",
+          "Group 2",
+          415,
+          50.0900993347168,
+          null
+        ],
+        [
+          "386:15051",
+          "Group 1",
+          415,
+          50.0900993347168,
+          null
+        ],
+        [
+          "386:15054",
+          "Group 36740",
+          99,
+          38,
+          null
+        ],
+        [
+          "386:15058",
+          "Frame 36800",
+          376,
+          268,
+          "VERTICAL"
+        ],
+        [
+          "386:15075",
+          "Group 36904",
+          177,
+          60,
+          null
+        ],
+        [
+          "386:15077",
+          "Group 36903",
+          60,
+          60,
+          null
+        ],
+        [
+          "386:15080",
+          "Group 36889",
+          104,
+          21,
+          null
+        ],
+        [
+          "386:15088",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:15089",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ],
+        [
+          "I386:15089;306:9830",
+          "Group 36934",
+          444,
+          116,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "fi-rr-world": 1,
+        "chevron_backward": 1,
+        "Group 36934": 2
+      },
+      "reactions": [
+        {
+          "id": "386:15057",
+          "name": "Hi, bạn đang nghĩ gì?......",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15090",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15090",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15059",
+          "name": "Rectangle 785",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15972",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15972",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15060",
+          "name": "Rectangle 786",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15419",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15419",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15062",
+          "name": "Rectangle 788",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15552",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15552",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15080",
+          "name": "Group 36889",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15270",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_IN"
+                  },
+                  "duration": 0.800000011920929
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15270",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_IN"
+                    },
+                    "duration": 0.800000011920929
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15089;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15089;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15089;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15089;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:15089;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:15090",
+      "name": "Đăng bài viết",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 77,
+        "RECTANGLE": 15,
+        "GROUP": 26,
+        "LINE": 1,
+        "INSTANCE": 15,
+        "VECTOR": 43,
+        "BOOLEAN_OPERATION": 4,
+        "TEXT": 34,
+        "ELLIPSE": 3
+      },
+      "texts": [
+        "Tạo bài viết",
+        "ĐĂNG",
+        "Tham gia chủ nhật xanh-thu gom phân loại rác...",
+        "Healing",
+        "Công khai",
+        "q",
+        "w",
+        "e",
+        "r",
+        "t",
+        "y",
+        "u",
+        "i",
+        "o",
+        "p",
+        "a",
+        "s",
+        "d",
+        "f",
+        "g",
+        "h",
+        "j",
+        "k",
+        "l",
+        "z",
+        "x",
+        "c",
+        "v",
+        "b",
+        "n",
+        "m",
+        "?123",
+        ",",
+        "."
+      ],
+      "parts": [
+        [
+          "386:15090",
+          "Đăng bài viết",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:15092",
+          "time",
+          428,
+          919,
+          null
+        ],
+        [
+          "386:15094",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:15096",
+          "Group 2",
+          415,
+          50.0900993347168,
+          null
+        ],
+        [
+          "386:15100",
+          "Frame 36772",
+          354,
+          33,
+          "HORIZONTAL"
+        ],
+        [
+          "386:15107",
+          "Chevron left",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:15109",
+          "Group 36740",
+          99,
+          38,
+          null
+        ],
+        [
+          "386:15110",
+          "Group 36905",
+          99,
+          38,
+          null
+        ],
+        [
+          "386:15113",
+          "Group 36738",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:15115",
+          "Group 36735",
+          401,
+          116,
+          null
+        ],
+        [
+          "386:15137",
+          "Group 36902",
+          170,
+          50,
+          null
+        ],
+        [
+          "386:15139",
+          "Group 36900",
+          104,
+          21,
+          null
+        ],
+        [
+          "386:15145",
+          "Group 36901",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:15148",
+          "Keyboard",
+          428,
+          326,
+          "NONE"
+        ],
+        [
+          "I386:15148;52555:25711",
+          "Bottom nav",
+          428,
+          36,
+          "NONE"
+        ],
+        [
+          "I386:15148;52515:33064",
+          "keyboard",
+          412.0002136230469,
+          220,
+          "VERTICAL"
+        ],
+        [
+          "I386:15148;52555:25530",
+          "Navbar",
+          428,
+          44,
+          "HORIZONTAL"
+        ],
+        [
+          "386:15149",
+          "fi-rr-add",
+          36,
+          36,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Chevron left": 1,
+        "fi-rr-world": 1,
+        "Keyboard": 1,
+        "Building Blocks/navigation": 1,
+        "language": 1,
+        "keyboard_return": 1,
+        "chevron_forward": 1,
+        "GIF": 1,
+        "settings": 1,
+        "g_translate": 1,
+        "sticker": 1,
+        "more_horiz": 1,
+        "mic": 1,
+        "fi-rr-add": 1
+      },
+      "reactions": [
+        {
+          "id": "386:15101",
+          "name": "image 35",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15419",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15419",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15102",
+          "name": "image 36",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15552",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15552",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15104",
+          "name": "image 34",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15972",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15972",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15109",
+          "name": "Group 36740",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15150",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15150",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:15140",
+          "name": "Rectangle 218",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:15270",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_IN"
+                  },
+                  "duration": 0.800000011920929
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:15270",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_IN"
+                    },
+                    "duration": 0.800000011920929
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

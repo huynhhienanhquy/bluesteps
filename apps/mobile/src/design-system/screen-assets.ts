@@ -1,0 +1,42 @@
+// Original assets from the corresponding backuped frames.
+export const assets386_7420 = {
+  imgLinhChi: require('../../assets/figma/386-7420/imgLinhChi.png'),
+  imgSongWiFiPin: require('../../assets/figma/386-7420/imgSongWiFiPin.svg'),
+  imgIconBack: require('../../assets/figma/386-7420/imgIconBack.svg'),
+  imgIconSettings: require('../../assets/figma/386-7420/imgIconSettings.svg'),
+  imgMmXanhTrenThThanhVien: require('../../assets/figma/386-7420/imgMmXanhTrenThThanhVien.svg'),
+  imgIconGift: require('../../assets/figma/386-7420/imgIconGift.svg'),
+  imgIconLeaf: require('../../assets/figma/386-7420/imgIconLeaf.svg'),
+  imgIconTrophy: require('../../assets/figma/386-7420/imgIconTrophy.svg'),
+  imgIconClock: require('../../assets/figma/386-7420/imgIconClock.svg'),
+  imgIconHeart: require('../../assets/figma/386-7420/imgIconHeart.svg'),
+  imgIconChart: require('../../assets/figma/386-7420/imgIconChart.svg'),
+  imgIconUser: require('../../assets/figma/386-7420/imgIconUser.svg'),
+  imgIconChevron: require('../../assets/figma/386-7420/imgIconChevron.svg'),
+  imgIconBell: require('../../assets/figma/386-7420/imgIconBell.svg'),
+  imgIconSettings1: require('../../assets/figma/386-7420/imgIconSettings1.svg'),
+  imgIconRecycle: require('../../assets/figma/386-7420/imgIconRecycle.svg'),
+  imgIconTrophy1: require('../../assets/figma/386-7420/imgIconTrophy1.svg'),
+  imgIconPeople: require('../../assets/figma/386-7420/imgIconPeople.svg'),
+  imgIconHome: require('../../assets/figma/386-7420/imgIconHome.svg'),
+  imgIconMap: require('../../assets/figma/386-7420/imgIconMap.svg'),
+  imgIconScan: require('../../assets/figma/386-7420/imgIconScan.svg'),
+  imgIconUser1: require('../../assets/figma/386-7420/imgIconUser1.svg'),
+} as const;
+export const assets386_7184 = {
+  imgSongWiFiPin: require('../../assets/figma/386-7184/imgSongWiFiPin.svg'),
+  imgIconLeaf: require('../../assets/figma/386-7184/imgIconLeaf.svg'),
+  imgMmCayChaoMng: require('../../assets/figma/386-7184/imgMmCayChaoMng.svg'),
+  imgIconEye: require('../../assets/figma/386-7184/imgIconEye.svg'),
+  imgIconCheck: require('../../assets/figma/386-7184/imgIconCheck.svg'),
+  imgIcon: require('../../assets/figma/386-7184/imgIcon.svg'),
+  imgIcon1: require('../../assets/figma/386-7184/imgIcon1.svg'),
+  imgIconShield: require('../../assets/figma/386-7184/imgIconShield.svg'),
+} as const;
+export const assets386_7390 = {
+  imgSongWiFiPin: require('../../assets/figma/386-7390/imgSongWiFiPin.svg'),
+  imgIconBack: require('../../assets/figma/386-7390/imgIconBack.svg'),
+  imgIconLeaf: require('../../assets/figma/386-7390/imgIconLeaf.svg'),
+  imgIconEye: require('../../assets/figma/386-7390/imgIconEye.svg'),
+  imgIconCheck: require('../../assets/figma/386-7390/imgIconCheck.svg'),
+} as const;

@@ -1,0 +1,43 @@
+export const palettes = {
+  light: {
+    background: '#F4FBFF',
+    surface: '#FFFFFF',
+    brand: '#147CC1',
+    primary: '#1176B6',
+    primaryDark: '#075A9C',
+    text: '#164561',
+    muted: '#456476',
+    border: '#D2E7F4',
+    soft: '#DCEEF9',
+    mint: '#EDF7FC',
+    success: '#237B57',
+    successSoft: '#E4F4EC',
+    danger: '#B3303F',
+    dangerSoft: '#FCECEE',
+    warning: '#805B16',
+    warningSoft: '#FFF3D9',
+    heroText: '#FFFFFF',
+  },
+  dark: {
+    brand: '#79C7FA',
+    background: '#0E1D29',
+    surface: '#172C3C',
+    primary: '#79C7FA',
+    primaryDark: '#A8DCFF',
+    text: '#E1F3FF',
+    muted: '#ABC4D6',
+    border: '#345166',
+    soft: '#203F55',
+    mint: '#203F55',
+    success: '#98DDB9',
+    successSoft: '#173E30',
+    danger: '#FFB2B9',
+    dangerSoft: '#4A2630',
+    warning: '#FFE0A3',
+    warningSoft: '#433722',
+    heroText: '#0E2638',
+  },
+} as const;
+export type Colors = { [K in keyof typeof palettes.light]: string };
+export const spacing = { xs: 4, sm: 8, md: 12, lg: 16, xl: 24, xxl: 32 } as const;
+export const radius = { sm: 12, md: 18, lg: 26, pill: 99 } as const;

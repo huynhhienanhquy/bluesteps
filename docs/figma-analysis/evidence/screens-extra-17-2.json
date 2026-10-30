@@ -1,0 +1,517 @@
+{
+  "bytes": 4816,
+  "screens": [
+    {
+      "id": "386:7160",
+      "name": "08 · Điểm thu gom gần bạn",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 13,
+        "TEXT": 10,
+        "VECTOR": 23,
+        "RECTANGLE": 6,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "DÀNH RIÊNG CHO BẠN · 3/5",
+        "Bỏ qua",
+        "Điểm thu gom gần bạn",
+        "Một điểm đến gần.\nMột hành động xanh.",
+        "Bật vị trí để tìm điểm thu gom và các hoạt động phù hợp quanh bạn.",
+        "Bạn luôn có thể chọn khu vực thủ công.",
+        "Cho phép vị trí",
+        "Để sau"
+      ],
+      "parts": [
+        [
+          "386:7160",
+          "08 · Điểm thu gom gần bạn",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4997",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4887",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5317",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5318",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5324",
+          "Tiến trình",
+          380,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5330",
+          "Bản đồ điểm thu gom xanh",
+          380,
+          292,
+          "NONE"
+        ],
+        [
+          "441:5343",
+          "Gợi ý điểm thu gom",
+          225,
+          52,
+          "NONE"
+        ],
+        [
+          "441:5344",
+          "Icon / recycle",
+          28,
+          28,
+          "NONE"
+        ],
+        [
+          "441:5347",
+          "Tiêu đề và mô tả",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "441:5350",
+          "Giải thích quyền vị trí",
+          376,
+          24,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5351",
+          "Icon / pin",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "441:5355",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5356",
+          "Nút / Cho phép vị trí",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5359",
+          "Nút / Để sau",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Cho phép vị trí": 1,
+        "Nút / Để sau": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5318",
+          "name": "Quay lại",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7156",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5322",
+          "name": "Bỏ qua",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7168",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5356",
+          "name": "Nút / Cho phép vị trí",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7168",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5359",
+          "name": "Nút / Để sau",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7168",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7168",
+      "name": "09 · Lời nhắc sống xanh",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 19,
+        "TEXT": 17,
+        "VECTOR": 19,
+        "RECTANGLE": 9,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "DÀNH RIÊNG CHO BẠN · 4/5",
+        "Bỏ qua",
+        "Một lời nhắc nhẹ.\nMột thói quen tốt.",
+        "Dành một phút mỗi ngày để chăm chút cho hành tinh của chúng ta.",
+        "Nhắc tôi sống xanh",
+        "Bạn có thể tắt bất cứ lúc nào",
+        "THỜI GIAN PHÙ HỢP VỚI BẠN",
+        "08:00",
+        {
+          "hidden": "08:00 ✓"
+        },
+        "12:00",
+        {
+          "hidden": "12:00 ✓"
+        },
+        "20:00",
+        "20:00 ✓",
+        "Lưu lời nhắc",
+        "Bỏ qua bước này"
+      ],
+      "parts": [
+        [
+          "386:7168",
+          "09 · Lời nhắc sống xanh",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:5001",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4896",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5366",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5367",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5373",
+          "Tiến trình",
+          380,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5379",
+          "Lời nhắc sống xanh",
+          380,
+          164,
+          "NONE"
+        ],
+        [
+          "441:5391",
+          "Tiêu đề và mô tả",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "441:5394",
+          "Bật lời nhắc",
+          380,
+          86,
+          "NONE"
+        ],
+        [
+          "441:5395",
+          "Nội dung lời nhắc",
+          260,
+          45,
+          "VERTICAL"
+        ],
+        [
+          "441:5399",
+          "Công tắc bật",
+          54,
+          32,
+          "NONE"
+        ],
+        [
+          "441:5404",
+          "Chọn giờ nhắc",
+          380,
+          54,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5405",
+          "08:00",
+          120,
+          54,
+          "NONE"
+        ],
+        [
+          "441:5410",
+          "12:00",
+          120,
+          54,
+          "NONE"
+        ],
+        [
+          "441:5415",
+          "20:00",
+          120,
+          54,
+          "NONE"
+        ],
+        [
+          "441:5420",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5421",
+          "Nút / Lưu lời nhắc",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5424",
+          "Nút / Bỏ qua bước này",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Lưu lời nhắc": 1,
+        "Nút / Bỏ qua bước này": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5367",
+          "name": "Quay lại",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7160",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5371",
+          "name": "Bỏ qua",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7176",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5394",
+          "name": "Bật lời nhắc",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5405",
+          "name": "08:00",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5410",
+          "name": "12:00",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5415",
+          "name": "20:00",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5421",
+          "name": "Nút / Lưu lời nhắc",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7176",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5424",
+          "name": "Nút / Bỏ qua bước này",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7176",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

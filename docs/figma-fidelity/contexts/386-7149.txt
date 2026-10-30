@@ -1,0 +1,125 @@
+const imgSongWiFiPin = "https://www.figma.com/api/mcp/asset/199b3b51-c174-408e-b338-1b2abdb78225.svg";
+const imgChaiNhaCnPhanLoi = "https://www.figma.com/api/mcp/asset/027e7adf-1e71-41f1-b260-fad61be7fa88.svg";
+
+type GreenStepsButtonProps = {
+  className?: string;
+  label?: string;
+  style?: "Primary" | "Ghost";
+};
+
+function GreenStepsButton({ className, label = "Tiếp tục", style = "Primary" }: GreenStepsButtonProps) {
+  const isGhost = style === "Ghost";
+  return (
+    <div className={className || `content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] w-[380px] ${isGhost ? "" : "bg-[var(--gs-primary,#147cc1)]"}`} id={isGhost ? "node-439_4839" : "node-439_4835"}>
+      {style === "Primary" && (
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-white,white)] whitespace-nowrap" data-node-id="439:4836">
+          {label}
+        </p>
+      )}
+      {isGhost && (
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-forest,#164561)] whitespace-nowrap" data-node-id="439:4840">
+          {label}
+        </p>
+      )}
+    </div>
+  );
+}
+
+export default function Component05RecyclePhanLoiDung() {
+  return (
+    <div className="bg-[var(--gs-cream,#f4fbff)] overflow-clip relative rounded-[32px] size-full" data-node-id="386:7149" data-name="05 · RECYCLE — Phân loại đúng">
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[17px] w-[380px]" data-node-id="441:4985" data-name="Thanh trạng thái">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[70px]" data-node-id="441:4986">
+          9:41
+        </p>
+        <div className="h-[20px] relative shrink-0 w-[78px]" data-node-id="443:4860" data-name="Sóng · Wi-Fi · Pin">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSongWiFiPin} />
+        </div>
+      </div>
+      <div className="absolute bg-[var(--gs-forest,#164561)] h-[5px] left-[150px] rounded-[3px] top-[905px] w-[128px]" data-node-id="441:4988" data-name="Rectangle" />
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[77px] w-[380px]" data-node-id="441:5131" data-name="Điều hướng">
+        <a className="bg-[var(--gs-white,white)] block cursor-pointer overflow-clip relative rounded-[14px] shrink-0 size-[48px]" data-node-id="441:5132" data-name="Quay lại">
+          <p className="[word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[43px] left-[14px] text-[30px] text-[color:var(--gs-forest,#164561)] text-left top-px w-[24px]" data-node-id="441:5133">
+            ‹
+          </p>
+        </a>
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[17px] relative shrink-0 text-[12px] text-[color:var(--gs-muted,#456476)] text-center w-[210px]" data-node-id="441:5135">
+          KHÁM PHÁ 3R · 3/3
+        </p>
+        <a className="[word-break:break-word] block cursor-pointer font-['Montserrat:SemiBold'] font-semibold leading-[0] relative shrink-0 text-[12px] text-[color:var(--gs-primary,#147cc1)] text-right w-[66px]" data-node-id="441:5136">
+          <p className="leading-[17px]">Bỏ qua</p>
+        </a>
+      </div>
+      <div className="absolute content-stretch flex gap-[6px] items-start left-[24px] top-[132px]" data-node-id="441:5138" data-name="Tiến trình">
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[4px] relative rounded-[2px] shrink-0 w-[122px]" data-node-id="441:5139" data-name="Rectangle" />
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[4px] relative rounded-[2px] shrink-0 w-[122px]" data-node-id="441:5140" data-name="Rectangle" />
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[4px] relative rounded-[2px] shrink-0 w-[122px]" data-node-id="441:5141" data-name="Rectangle" />
+      </div>
+      <div className="absolute h-[220px] left-[24px] top-[153px] w-[380px]" data-node-id="441:5142" data-name="Chai nhựa cần phân loại">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgChaiNhaCnPhanLoi} />
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start left-[24px] overflow-clip top-[390px] w-[380px]" data-node-id="441:5153" data-name="Tiêu đề và mô tả">
+        <p className="font-['Montserrat:Bold'] font-bold leading-[42px] relative shrink-0 text-[32px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="441:5154">
+          Chai nhựa về đâu?
+        </p>
+        <p className="font-['Montserrat:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--gs-muted,#456476)] w-[380px]" data-node-id="441:5155">
+          Chạm vào thùng phù hợp để thử phân loại.
+        </p>
+      </div>
+      <div className="absolute content-stretch cursor-pointer flex gap-[10px] items-start left-[24px] top-[518px]" data-node-id="441:5156" data-name="Chọn thùng rác">
+        <button className="bg-[var(--gs-sage,#e5f3fc)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[116px] overflow-clip relative rounded-[26px] shrink-0 w-[120px]" data-node-id="441:5157" data-name="Thùng / Hữu cơ">
+          <div className="absolute bg-[var(--gs-muted,#456476)] h-[45px] left-[38px] rounded-[8px] top-[20px] w-[42px]" data-node-id="441:5158" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-forest,#164561)] h-[7px] left-[34px] rounded-[3px] top-[16px] w-[50px]" data-node-id="441:5159" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-white,white)] h-[22px] left-[47px] rounded-[2px] top-[32px] w-[5px]" data-node-id="441:5160" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-white,white)] h-[22px] left-[60px] rounded-[2px] top-[32px] w-[5px]" data-node-id="441:5161" data-name="Rectangle" />
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[17px] left-[59px] text-[12px] text-[color:var(--gs-forest,#164561)] text-center top-[81px] w-[112px]" data-node-id="441:5162">
+            Hữu cơ
+          </p>
+        </button>
+        <button className="bg-[var(--gs-blue,#dceef9)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[116px] overflow-clip relative rounded-[26px] shrink-0 w-[120px]" data-node-id="441:5164" data-name="Thùng / Tái chế">
+          <div className="absolute bg-[var(--gs-primary,#147cc1)] h-[45px] left-[38px] rounded-[8px] top-[20px] w-[42px]" data-node-id="441:5165" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-forest,#164561)] h-[7px] left-[34px] rounded-[3px] top-[16px] w-[50px]" data-node-id="441:5166" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-white,white)] h-[22px] left-[47px] rounded-[2px] top-[32px] w-[5px]" data-node-id="441:5167" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-white,white)] h-[22px] left-[60px] rounded-[2px] top-[32px] w-[5px]" data-node-id="441:5168" data-name="Rectangle" />
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[17px] left-[59px] text-[12px] text-[color:var(--gs-forest,#164561)] text-center top-[81px] w-[112px]" data-node-id="441:5169">
+            Tái chế
+          </p>
+        </button>
+        <button className="bg-[var(--gs-yellow,#f3d581)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[116px] overflow-clip relative rounded-[26px] shrink-0 w-[120px]" data-node-id="441:5171" data-name="Thùng / Còn lại">
+          <div className="absolute bg-[var(--gs-muted,#456476)] h-[45px] left-[38px] rounded-[8px] top-[20px] w-[42px]" data-node-id="441:5172" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-forest,#164561)] h-[7px] left-[34px] rounded-[3px] top-[16px] w-[50px]" data-node-id="441:5173" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-white,white)] h-[22px] left-[47px] rounded-[2px] top-[32px] w-[5px]" data-node-id="441:5174" data-name="Rectangle" />
+          <div className="absolute bg-[var(--gs-white,white)] h-[22px] left-[60px] rounded-[2px] top-[32px] w-[5px]" data-node-id="441:5175" data-name="Rectangle" />
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[17px] left-[59px] text-[12px] text-[color:var(--gs-forest,#164561)] text-center top-[81px] w-[112px]" data-node-id="441:5176">
+            Còn lại
+          </p>
+        </button>
+      </div>
+      <div className="absolute content-stretch cursor-pointer flex flex-col gap-[10px] items-start left-[24px] overflow-clip top-[758px] w-[380px]" data-node-id="441:5184" data-name="Hành động chính">
+        <GreenStepsButton className="bg-[var(--gs-primary,#147cc1)] content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] shrink-0 w-[380px]" label="Thiết lập trải nghiệm" />
+        <GreenStepsButton className="content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] shrink-0 w-[380px]" label="Để sau" style="Ghost" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Title: Font(family: "Montserrat", style: Bold, size: 32, weight: 700, lineHeight: 42, letterSpacing: 0), GreenSteps/Body: Font(family: "Montserrat", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

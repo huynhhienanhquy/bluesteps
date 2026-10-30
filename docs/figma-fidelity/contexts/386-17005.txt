@@ -1,0 +1,236 @@
+const imgGroup = "https://www.figma.com/api/mcp/asset/efbd5008-86c2-431a-a1ea-a7490b2701d8.svg";
+const imgGroup36703 = "https://www.figma.com/api/mcp/asset/a4f8fb7c-4cbb-4458-a874-db79c0fa3c6e.svg";
+const imgPngtreeMedicalGlovesIconInFlatStylePngImage47702281 = "https://www.figma.com/api/mcp/asset/dbbdb29e-cec1-479d-9991-55cc0c881047.png";
+const imgDownload211 = "https://www.figma.com/api/mcp/asset/74e85e4b-03e5-4610-80e1-8de2f3a2e0d6.png";
+const imgDownload221 = "https://www.figma.com/api/mcp/asset/a0d0d30e-b0de-4e98-84f9-be351fccc4f0.png";
+const imgDownload231 = "https://www.figma.com/api/mcp/asset/d3f05334-4678-47fc-88df-8c544acc47c0.png";
+const imgRectangle212 = "https://www.figma.com/api/mcp/asset/4944da93-88a6-4e95-98fd-02ec6e064683.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/f06db61f-41a4-4fb7-8457-8398e36c7f3a.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/f1259a8f-d8db-42e1-a741-ce0d2136e296.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/c448be47-e0e6-4f09-b644-9db2585a19aa.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/f6f7613a-f8b9-473f-a5b7-0ac42b554abb.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/1af81603-9e8c-42b8-ae91-37661030b67d.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/eeea0e83-41ec-4452-afad-f4bb2958cdf5.svg";
+const imgGroup36752 = "https://www.figma.com/api/mcp/asset/7c8ba38c-b1ed-433d-8e88-a99578df1ee7.svg";
+const imgMenu = "https://www.figma.com/api/mcp/asset/f92927f6-0e0b-47af-b504-f46070c06b6b.svg";
+const imgRectangle87 = "https://www.figma.com/api/mcp/asset/2a279a2d-b1f9-40eb-a21d-b50efeebb197.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/5b538631-bd00-4972-a711-f9134cb39780.svg";
+const imgGroup36732 = "https://www.figma.com/api/mcp/asset/5dd2efd9-0b80-474d-ae90-b942b790a9ff.svg";
+const imgGroup36731 = "https://www.figma.com/api/mcp/asset/3f79e045-f433-4fb9-8d5e-2d4fbfb7a84c.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/5f40d754-3193-4efc-a7bd-f4369dc365ec.svg";
+
+function Group({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[29.99px] relative w-[27.491px]"} data-node-id="306:2276" data-name="Group">
+      <div className="absolute inset-[-2.5%_-2.73%]">
+        <img alt="" className="block max-w-none size-full" src={imgGroup} />
+      </div>
+    </div>
+  );
+}
+
+function Group36703({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[27.491px]"} data-node-id="306:2270">
+      <div className="absolute inset-[-2.73%]">
+        <img alt="" className="block max-w-none size-full" src={imgGroup36703} />
+      </div>
+    </div>
+  );
+}
+
+export default function PhanLoiRacDngCYT() {
+  return (
+    <div className="bg-[#fdfdfd] overflow-clip relative rounded-bl-[50px] rounded-br-[50px] rounded-tl-[25px] rounded-tr-[25px] size-full" data-node-id="386:17005" data-name="Phân loại rác - dụng cụ y tế">
+      <div className="absolute bg-[#147cc1] h-[151px] left-0 rounded-tl-[25px] rounded-tr-[25px] top-0 w-[428px]" data-node-id="386:17006" />
+      <div className="absolute contents inset-[0.67%_1.64%_95.75%_1.4%]" data-node-id="386:17007" data-name="time">
+        <div className="absolute inset-[0.67%_1.64%_95.75%_1.4%] overflow-clip" data-node-id="386:17008" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:17008;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:17008;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:17008;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:17008;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:17008;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:17008;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:17008;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:17008;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:17008;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[16px] top-[56px]" data-node-id="386:17009" data-name="title">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[52px] not-italic text-[22px] text-white top-[57px] w-[338px]" data-node-id="386:17010">{`Các Dụng cụ Y Tế phổ biến `}</p>
+        <a className="absolute block cursor-pointer left-[16px] size-[30px] top-[56px]" data-node-id="386:17011">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup36752} />
+        </a>
+      </div>
+      <div className="absolute left-[389px] size-[25px] top-[61px]" data-node-id="386:17012" data-name="menu">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMenu} />
+      </div>
+      <div className="absolute contents left-[19px] top-[110px]" data-node-id="386:17013">
+        <div className="-translate-x-1/2 absolute bg-[#eef7fd] h-[110px] left-1/2 rounded-[15px] top-[110px] w-[390px]" data-node-id="386:17014" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[148px] not-italic text-[22px] text-black top-[136px] whitespace-nowrap" data-node-id="386:17015">
+          Cao su
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[148px] not-italic text-[14px] text-black top-[172px] w-[106.252px]" data-node-id="386:17016">
+          450 - 500 năm
+        </p>
+        <div className="absolute contents left-[285px] top-[193px]" data-node-id="386:17017">
+          <div className="absolute bg-[#deeffa] h-[10px] left-[285px] rounded-[5px] top-[193px] w-[100px]" data-node-id="386:17018" />
+          <div className="absolute bg-[#147cc1] h-[10px] left-[285px] rounded-[5px] top-[193px] w-[25px]" data-node-id="386:17019" />
+        </div>
+      </div>
+      <div className="absolute contents left-[18px] top-[238px]" data-node-id="386:17020">
+        <div className="-translate-x-1/2 absolute bg-[#eef7fd] h-[110px] left-[calc(50%-1px)] rounded-[15px] top-[238px] w-[390px]" data-node-id="386:17021" />
+        <div className="absolute h-[60px] left-[214px] top-[248px] w-[106.908px]" data-node-id="386:17022" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[147px] not-italic text-[22px] text-black top-[264px] whitespace-nowrap" data-node-id="386:17023">
+          Nhựa PP, PE
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[147px] not-italic text-[14px] text-black top-[300px] w-[117px]" data-node-id="386:17024">
+          500 - 1000 năm
+        </p>
+        <div className="absolute contents left-[284px] top-[321px]" data-node-id="386:17025">
+          <div className="absolute bg-[#deeffa] h-[10px] left-[284px] rounded-[5px] top-[321px] w-[100px]" data-node-id="386:17026" />
+          <div className="absolute bg-[#147cc1] h-[10px] left-[284px] rounded-[5px] top-[321px] w-[50px]" data-node-id="386:17027" />
+        </div>
+      </div>
+      <div className="absolute contents left-[17px] top-[366px]" data-node-id="386:17028">
+        <div className="-translate-x-1/2 absolute bg-[#eef7fd] h-[110px] left-[calc(50%-2px)] rounded-[15px] top-[366px] w-[390px]" data-node-id="386:17029" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[146px] not-italic text-[22px] text-black top-[392px] whitespace-nowrap" data-node-id="386:17030">
+          Nhựa PET, PVC
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[146px] not-italic text-[14px] text-black top-[428px] w-[118px]" data-node-id="386:17031">
+          600 - 1000 năm
+        </p>
+        <div className="absolute contents left-[283px] top-[449px]" data-node-id="386:17032">
+          <div className="absolute bg-[#deeffa] h-[10px] left-[283px] rounded-[5px] top-[449px] w-[100px]" data-node-id="386:17033" />
+          <div className="absolute bg-[#147cc1] h-[10px] left-[283px] rounded-[5px] top-[449px] w-[75px]" data-node-id="386:17034" />
+        </div>
+      </div>
+      <div className="absolute contents left-[16px] top-[494px]" data-node-id="386:17035">
+        <div className="-translate-x-1/2 absolute bg-[#eef7fd] h-[110px] left-[calc(50%-3px)] rounded-[15px] top-[494px] w-[390px]" data-node-id="386:17036" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[145px] not-italic text-[22px] text-black top-[517px] whitespace-nowrap" data-node-id="386:17037">
+          Polypropylene
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[145px] not-italic text-[14px] text-black top-[556px] w-[119px]" data-node-id="386:17038">
+          400 - 1000 năm
+        </p>
+        <div className="absolute contents left-[282px] top-[577px]" data-node-id="386:17039">
+          <div className="absolute bg-[#deeffa] h-[10px] left-[282px] rounded-[5px] top-[577px] w-[100px]" data-node-id="386:17040" />
+          <div className="absolute bg-[#147cc1] h-[10px] left-[282px] opacity-80 rounded-[5px] top-[577px] w-[100px]" data-node-id="386:17041" />
+        </div>
+      </div>
+      <div className="absolute h-[60px] left-[30px] top-[513px] w-[106px]" data-node-id="386:17042" />
+      <div className="absolute contents left-0 top-[996px]" data-node-id="386:17043" data-name="menu">
+        <div className="absolute bg-[#147cc1] h-[75px] left-[249.67px] rounded-br-[50px] rounded-tl-[35px] top-[1037px] w-[178.333px]" data-node-id="386:17044" />
+        <div className="absolute contents left-0 top-[996px]" data-node-id="386:17045">
+          <div className="absolute contents left-0 top-[1035px]" data-node-id="386:17046">
+            <div className="absolute bg-[#147cc1] h-[77px] left-0 rounded-bl-[50px] rounded-tr-[35px] top-[1035px] w-[178.333px]" data-node-id="386:17047" />
+          </div>
+          <div className="absolute h-[67px] left-[170.62px] top-[1045px] w-[91.577px]" data-node-id="386:17048">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle87} />
+          </div>
+          <div className="absolute contents left-[278.59px] top-[1054px]" data-node-id="386:17049">
+            <div className="absolute contents inset-[94.66%_9.68%_2.87%_83.89%]" data-node-id="386:17050">
+              <div className="absolute inset-[94.66%_9.68%_2.87%_83.89%]" data-node-id="386:17051" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+            <Group36703 className="absolute left-[278.59px] size-[27.491px] top-[1054px]" />
+          </div>
+          <div className="absolute h-[28px] left-[46.27px] top-[1054px] w-[26.991px]" data-node-id="386:17055">
+            <div className="absolute inset-[-2.68%_-2.78%_0_-2.78%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup36732} />
+            </div>
+          </div>
+          <a className="absolute block cursor-pointer h-[75px] left-[178.33px] top-[996px] w-[72.297px]" data-node-id="386:17056">
+            <div className="absolute inset-[0_-5.53%_-10.67%_-5.53%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup36731} />
+            </div>
+          </a>
+          <Group className="absolute h-[29.99px] left-[125.07px] top-[1054.28px] w-[27.491px]" />
+        </div>
+        <div className="absolute h-0 left-[144px] top-[1102px] w-[141px]" data-node-id="386:17060" data-name="line">
+          <div className="absolute inset-[-2.56px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine} />
+          </div>
+        </div>
+      </div>
+      <div className="[word-break:break-word] absolute contents font-['Inter:Semi_Bold'] font-semibold left-[19px] not-italic text-black top-[645px]" data-node-id="386:17062">
+        <p className="absolute leading-[1.402] left-[19px] text-[20px] top-[645px] whitespace-nowrap" data-node-id="386:17063">
+          ⚠️ Lưu ý khi phân loại rác y tế
+        </p>
+        <ul className="absolute block leading-[0] left-[36px] list-disc text-[16px] top-[679px] w-[375px]" data-node-id="386:17064">
+          <li className="mb-0 ms-[24px]">
+            <span className="leading-[22px]">Dụng cụ có dính máu, dịch, kim tiêm, bông băng → rác lây nhiễm (thùng màu vàng).</span>
+          </li>
+          <li className="mb-0 ms-[24px]">
+            <span className="leading-[22px]">Dụng cụ bằng nhựa, thủy tinh sạch → có thể tái chế (thùng màu xanh).</span>
+          </li>
+          <li className="ms-[24px]">
+            <span className="leading-[22px]">Dụng cụ chứa hóa chất, thuốc, pin, thủy ngân → rác nguy hại (thùng màu đỏ hoặc đen).</span>
+          </li>
+        </ul>
+      </div>
+      <div className="absolute h-[66.654px] left-[35px] top-[129px] w-[105.277px]" data-node-id="386:17065">
+        <div className="absolute left-[19px] size-[61px] top-[2.23px]" data-node-id="386:17066" data-name="pngtree-medical-gloves-icon-in-flat-style-png-image_4770228 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPngtreeMedicalGlovesIconInFlatStylePngImage47702281} />
+        </div>
+      </div>
+      <div className="absolute h-[74px] left-[30px] overflow-clip top-[256px] w-[107px]" data-node-id="386:17067">
+        <div className="absolute left-[7px] size-[91px] top-[-12.2px]" data-node-id="386:17068" data-name="download (21) 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDownload211} />
+        </div>
+      </div>
+      <div className="absolute h-[66.654px] left-[34px] overflow-clip top-[386px] w-[106px]" data-node-id="386:17069">
+        <div className="absolute h-[67px] left-[10px] top-[-0.19px] w-[86px]" data-node-id="386:17070" data-name="download (22) 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDownload221} />
+        </div>
+      </div>
+      <div className="absolute h-[66.654px] left-[34px] overflow-clip top-[514px] w-[106px]" data-node-id="386:17071">
+        <div className="absolute left-[21px] size-[60px] top-[0.28px]" data-node-id="386:17072" data-name="download (23) 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDownload231} />
+        </div>
+      </div>
+      <div className="absolute contents left-[108px] top-[946px]" data-node-id="386:17073">
+        <a className="absolute block cursor-pointer drop-shadow-[0px_0px_4px_rgba(233,32,48,0.5)] h-[50px] left-[108px] top-[946px] w-[220px]" data-node-id="386:17074" data-name="button">
+          <div className="absolute contents inset-0" data-node-id="I386:17074;2131:1062" data-name="button">
+            <div className="absolute bg-[#cf07f2] inset-0 rounded-[30px]" data-node-id="I386:17074;2131:1058" />
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[32%_66.82%_32%_33.18%] leading-[normal] not-italic text-[15px] text-left text-white whitespace-nowrap" data-node-id="I386:17074;2131:1059">
+              ​
+            </p>
+          </div>
+        </a>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[139px] not-italic text-[15px] text-white top-[962px] whitespace-nowrap" data-node-id="386:17075">
+          Tìm hiểu về rác thải nhựa
+        </p>
+        <div className="absolute left-[108px] rounded-[10px] size-[40px] top-[951px]" data-node-id="386:17076">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={imgRectangle212} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["taskId", "status", "inputHashes", "changedFiles", "commands", "evidence", "unresolved", "runtimeVerified"],
+  "properties": {
+    "taskId": {"type": "string", "minLength": 1},
+    "status": {"enum": ["review_required", "blocked", "done"]},
+    "inputHashes": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
+    "changedFiles": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "commands": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["cwd", "command", "exitCode", "outputPath"], "properties": {"cwd": {"type": "string"}, "command": {"type": "string"}, "exitCode": {"type": ["integer", "null"]}, "outputPath": {"type": "string"}, "notRunReason": {"type": "string"}}}},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "unresolved": {"type": "array", "items": {"type": "string"}},
+    "runtimeVerified": {"type": "boolean"},
+    "nextTaskIds": {"type": "array", "items": {"type": "string"}},
+    "decisionRecords": {"type": "array", "items": {"type": "string"}}
+  }
+}

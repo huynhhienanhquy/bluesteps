@@ -1,0 +1,32 @@
+{
+  "scope": "backuped; Python Identity; Supabase Database",
+  "issues": [
+    {
+      "id": "CI-001",
+      "status": "resolved_design",
+      "severity": "P1",
+      "operation": "POST /sorting-actions",
+      "blocks": [],
+      "resolution": "Canonical source + itemId; scanId only with source=scan; legacy confirmedCategory/confirmedItemId/manualItemId forbidden. Strict oneOf schema and valid/invalid fixtures supplied.",
+      "artifacts": [
+        "contracts/core.openapi.json",
+        "contracts/examples.json"
+      ],
+      "runtimeVerified": false
+    },
+    {
+      "id": "CI-002",
+      "status": "open",
+      "severity": "P1",
+      "operation": "Remaining domain contract schemas",
+      "blocks": [],
+      "resolution": "All grouped/wildcard paths expanded into concrete operation IDs and each assigned an owning SPEC packet. Non-core schemas must be authored/reviewed by that packet, never generated as placeholder DTOs.",
+      "artifacts": [
+        "contracts/operation-inventory.json",
+        "execution/tasks.json"
+      ],
+      "blockingRule": "Only BUILD packets using an unspecified operation are blocked until owner SPEC schema is reviewed; bootstrap and contract refinement remain runnable.",
+      "runtimeVerified": false
+    }
+  ]
+}

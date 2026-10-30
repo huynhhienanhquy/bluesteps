@@ -1,0 +1,1984 @@
+{
+  "bytes": 27095,
+  "screens": [
+    {
+      "id": "534:49968",
+      "name": "Cài đặt nhắc lịch hoạt động đã lưu",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1142,
+      "types": {
+        "FRAME": 51,
+        "INSTANCE": 4,
+        "GROUP": 3,
+        "VECTOR": 20,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 28,
+        "ELLIPSE": 5,
+        "RECTANGLE": 3
+      },
+      "texts": [
+        "Cài đặt nhắc lịch",
+        "Đừng bỏ lỡ hẹn xanh",
+        "Nhắc bạn về những hoạt động đã lưu.",
+        "Bật nhắc lịch hoạt động",
+        "Áp dụng cho hoạt động",
+        "Giờ học xanh",
+        "25/10/2026 • 08:00–10:00",
+        "Trồng cây cuối tuần",
+        "25/10/2026 • 09:00–11:00",
+        "Chọn thêm từ bộ sưu tập",
+        "Nhắc trước khi bắt đầu",
+        "1 giờ",
+        "3 giờ",
+        "1 ngày",
+        "Tùy chỉnh",
+        "Bạn sẽ nhận hai lời nhắc cho mỗi hoạt động.",
+        "Cách nhận thông báo",
+        "Thông báo trên điện thoại",
+        "Hiện trên màn hình khóa",
+        "Email nhắc lịch",
+        "minhanh.nguyen@example.com",
+        "Âm thanh và rung",
+        "Giờ yên lặng",
+        "22:00–07:00 • Nhắc lại sau 07:00",
+        "Lời nhắc tiếp theo",
+        "Giờ học xanh • 08:00 ngày 24/10/2026, trước hoạt động 1 ngày. Lưu hoạt động không đồng nghĩa với đăng ký tham gia.",
+        "Lưu cài đặt nhắc lịch",
+        "Về hoạt động yêu thích"
+      ],
+      "parts": [
+        [
+          "534:49968",
+          "Cài đặt nhắc lịch hoạt động đã lưu",
+          428,
+          1142,
+          "VERTICAL"
+        ],
+        [
+          "534:49969",
+          "Nội dung màn hình",
+          428,
+          980,
+          "VERTICAL"
+        ],
+        [
+          "534:49970",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:49990",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:49996",
+          "Nội dung chính",
+          428,
+          879,
+          "VERTICAL"
+        ],
+        [
+          "534:50069",
+          "Thao tác cuối trang",
+          428,
+          162,
+          "VERTICAL"
+        ],
+        [
+          "534:50070",
+          "Vùng thao tác",
+          428,
+          110,
+          "VERTICAL"
+        ],
+        [
+          "534:50074",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1,
+        "Nút về hoạt động yêu thích": 1
+      },
+      "reactions": [
+        {
+          "id": "534:50023",
+          "name": "Chọn hoạt động khác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49845",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49845",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:5081",
+          "name": "Nút về hoạt động yêu thích",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18069",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18069",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:49845",
+      "name": "Quản lý bộ sưu tập yêu thích",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1144,
+      "types": {
+        "FRAME": 47,
+        "INSTANCE": 7,
+        "GROUP": 12,
+        "VECTOR": 33,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 24,
+        "ELLIPSE": 2,
+        "RECTANGLE": 6,
+        "LINE": 1
+      },
+      "texts": [
+        "Bộ sưu tập yêu thích",
+        "Những kế hoạch xanh của bạn",
+        "9 hoạt động trong 3 bộ sưu tập",
+        "Cuối tuần",
+        "4 hoạt động",
+        "Gần nhà",
+        "3 hoạt động",
+        "Đi cùng bạn bè",
+        "2 hoạt động",
+        "Tạo bộ sưu tập",
+        "Cuối tuần • Đang chọn 2 hoạt động",
+        "Giờ học xanh",
+        "25/10 • 08:00–10:00",
+        "Trồng cây cuối tuần",
+        "25/10 • 09:00–11:00",
+        "Còn 2 hoạt động chưa chọn trong bộ sưu tập này.",
+        "Nhắc lịch",
+        "Cài đặt thời điểm và cách nhắc cho 2 hoạt động đã chọn.",
+        "Chuyển đến bộ sưu tập",
+        "Gần nhà",
+        "Đi cùng bạn bè",
+        "Hoạt động vẫn được lưu, chỉ thay đổi bộ sưu tập.",
+        "Chuyển 2 hoạt động vào Gần nhà",
+        "Hủy chọn"
+      ],
+      "parts": [
+        [
+          "534:49845",
+          "Quản lý bộ sưu tập yêu thích",
+          428,
+          1144,
+          "VERTICAL"
+        ],
+        [
+          "534:49846",
+          "Nội dung màn hình",
+          428,
+          928,
+          "VERTICAL"
+        ],
+        [
+          "534:49847",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:49867",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:49873",
+          "Nội dung chính",
+          428,
+          827,
+          "VERTICAL"
+        ],
+        [
+          "534:49936",
+          "Thao tác cuối trang",
+          428,
+          216,
+          "VERTICAL"
+        ],
+        [
+          "534:49937",
+          "Vùng thao tác",
+          428,
+          80,
+          "VERTICAL"
+        ],
+        [
+          "534:49942",
+          "Thanh điều hướng chính",
+          428,
+          112,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Yêu thích": 1,
+        "Thêm bộ sưu tập": 1,
+        "Nút thao tác": 1,
+        "Thanh điều hướng chính": 1,
+        "Group 36934": 1
+      },
+      "reactions": [
+        {
+          "id": "I534:49942;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49942;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49942;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49942;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:25197",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.3
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.3
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49942;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:49760",
+      "name": "Tổng kết sau hoạt động",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1279,
+      "types": {
+        "FRAME": 34,
+        "INSTANCE": 4,
+        "GROUP": 3,
+        "VECTOR": 20,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 24,
+        "ELLIPSE": 1,
+        "RECTANGLE": 4
+      },
+      "texts": [
+        "Tổng kết hoạt động",
+        "Cảm ơn bạn đã gieo mầm xanh!",
+        "Giờ học xanh • 25/10/2026",
+        "Trường Mầm non Tuổi Xanh, TP HCM",
+        "Cùng nhau, chúng ta đã làm được",
+        "200",
+        "trẻ được hướng dẫn",
+        "24",
+        "tình nguyện viên",
+        "3",
+        "góc phân loại",
+        "Dấu ấn của Minh Anh",
+        "Bạn đã hướng dẫn 12 trẻ thực hành và hỗ trợ 1 trong 3 góc phân loại trong 2 giờ.",
+        "Trải nghiệm của bạn thế nào?",
+        "4/5 • Rất ý nghĩa",
+        "Tổ chức tốt",
+        "Học được điều mới",
+        "Cần thêm học cụ",
+        "Chia sẻ cảm nhận",
+        "Các bé rất hào hứng! Mong có thêm học cụ để nhiều bé cùng thực hành hơn.",
+        "Số liệu minh họa cho thiết kế, không phải kết quả được xác minh.",
+        "Gửi đánh giá",
+        "Xem album hoạt động",
+        "Khám phá hoạt động khác"
+      ],
+      "parts": [
+        [
+          "534:49760",
+          "Tổng kết sau hoạt động",
+          428,
+          1279,
+          "VERTICAL"
+        ],
+        [
+          "534:49761",
+          "Nội dung màn hình",
+          428,
+          1087,
+          "VERTICAL"
+        ],
+        [
+          "534:49762",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:49782",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:49788",
+          "Nội dung chính",
+          428,
+          986,
+          "VERTICAL"
+        ],
+        [
+          "534:49836",
+          "Thao tác cuối trang",
+          428,
+          192,
+          "VERTICAL"
+        ],
+        [
+          "534:49837",
+          "Vùng thao tác",
+          428,
+          140,
+          "VERTICAL"
+        ],
+        [
+          "534:49842",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "button": 1,
+        "Nút khám phá": 1
+      },
+      "reactions": [
+        {
+          "id": "539:5077",
+          "name": "Nút khám phá",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49034",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49034",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:49416",
+      "name": "Vé tham gia & check-in",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1139,
+      "types": {
+        "FRAME": 26,
+        "INSTANCE": 6,
+        "GROUP": 5,
+        "VECTOR": 21,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 18,
+        "ELLIPSE": 3,
+        "RECTANGLE": 269
+      },
+      "texts": [
+        "Vé tham gia",
+        "VÉ TÌNH NGUYỆN VIÊN",
+        "Giờ học xanh",
+        "Trường Mầm non Tuổi Xanh, TP HCM",
+        "Nguyễn Minh Anh",
+        "1 người • Hướng dẫn phân loại rác",
+        "GX–2510–014",
+        "QR minh họa • Không dùng để quét thực tế",
+        "Chủ nhật, 25/10/2026",
+        "08:00–10:00 • Có mặt lúc 07:45",
+        "Cổng chính của trường",
+        "Gặp điều phối viên tại bàn đón tiếp.",
+        "Nhóm Giờ học xanh",
+        "Liên hệ: 090 246 8025 • Chị Linh",
+        "Lưu vé vào thiết bị",
+        "Về lịch hoạt động",
+        "Cài đặt nhắc lịch",
+        "Thông tin đăng ký"
+      ],
+      "parts": [
+        [
+          "534:49416",
+          "Vé tham gia & check-in",
+          428,
+          1139,
+          "VERTICAL"
+        ],
+        [
+          "534:49417",
+          "Nội dung màn hình",
+          428,
+          887,
+          "VERTICAL"
+        ],
+        [
+          "534:49418",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:49438",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:49444",
+          "Nội dung chính",
+          428,
+          786,
+          "VERTICAL"
+        ],
+        [
+          "534:49751",
+          "Thao tác cuối trang",
+          428,
+          252,
+          "VERTICAL"
+        ],
+        [
+          "534:49752",
+          "Vùng thao tác",
+          428,
+          200,
+          "VERTICAL"
+        ],
+        [
+          "534:49757",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Chevron left": 1,
+        "Nhắn ban tổ chức": 1,
+        "button": 1,
+        "Về lịch hoạt động": 1,
+        "Cài đặt nhắc lịch": 1
+      },
+      "reactions": [
+        {
+          "id": "I539:5123;2445:529",
+          "name": "Rectangle 752",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49166",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49166",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:5126",
+          "name": "Cài đặt nhắc lịch",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49968",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49968",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "534:49756",
+          "name": "Thao tác phụ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49326",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49326",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:49326",
+      "name": "Đăng ký tham gia hoạt động",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1245,
+      "types": {
+        "FRAME": 37,
+        "INSTANCE": 3,
+        "GROUP": 3,
+        "VECTOR": 18,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 26,
+        "ELLIPSE": 1,
+        "RECTANGLE": 2
+      },
+      "texts": [
+        "Đăng ký tham gia",
+        "TÌNH NGUYỆN VIÊN • GIÁO DỤC",
+        "Giờ học xanh",
+        "25/10/2026 • 08:00–10:00",
+        "Trường Mầm non Tuổi Xanh, TP HCM",
+        "Đăng ký làm tình nguyện viên",
+        "Đây là đăng ký tham gia thực tế, không phải chỉ lưu hoặc quan tâm hoạt động.",
+        "Thông tin người tham gia",
+        "Họ và tên *",
+        "Nguyễn Minh Anh",
+        "Số người tham gia",
+        "Bao gồm bạn • từ 18 tuổi",
+        "1",
+        "Vai trò tình nguyện *",
+        "Hướng dẫn phân loại rác",
+        "Thông tin liên hệ",
+        "Số điện thoại *",
+        "090 123 4567",
+        "Email nhận vé *",
+        "minhanh.nguyen@example.com",
+        "Chuẩn bị trước khi tham gia",
+        "Có mặt lúc 07:45 tại cổng trường. Mang bình nước cá nhân, mặc trang phục gọn gàng; ban tổ chức chuẩn bị học cụ.",
+        "Tôi đã đọc yêu cầu và đồng ý tuân thủ hướng dẫn an toàn của ban tổ chức.",
+        "Cho phép dùng thông tin liên hệ để gửi vé và thông báo về hoạt động này.",
+        "Miễn phí tham gia. Bạn có thể liên hệ ban tổ chức nếu cần thay đổi đăng ký.",
+        "Xác nhận đăng ký • Miễn phí"
+      ],
+      "parts": [
+        [
+          "534:49326",
+          "Đăng ký tham gia hoạt động",
+          428,
+          1245,
+          "VERTICAL"
+        ],
+        [
+          "534:49327",
+          "Nội dung màn hình",
+          428,
+          1143,
+          "VERTICAL"
+        ],
+        [
+          "534:49328",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:49348",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:49354",
+          "Nội dung chính",
+          428,
+          1042,
+          "VERTICAL"
+        ],
+        [
+          "534:49408",
+          "Thao tác cuối trang",
+          428,
+          102,
+          "VERTICAL"
+        ],
+        [
+          "534:49409",
+          "Vùng thao tác",
+          428,
+          50,
+          "VERTICAL"
+        ],
+        [
+          "534:49413",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:49410",
+          "name": "Nút thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49416",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49416",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:49166",
+      "name": "Lịch hoạt động môi trường",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1407,
+      "types": {
+        "FRAME": 75,
+        "INSTANCE": 3,
+        "GROUP": 3,
+        "VECTOR": 17,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 70,
+        "ELLIPSE": 5,
+        "RECTANGLE": 2
+      },
+      "texts": [
+        "Lịch hoạt động",
+        "Tháng",
+        "Tuần",
+        "Tháng 10, 2026",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "CN",
+        "28",
+        "29",
+        "30",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "1",
+        "Có hoạt động đã lưu hoặc đăng ký",
+        "Chủ nhật, ngày 25 tháng 10",
+        "08:00",
+        "Giờ học xanh",
+        "Trường Mầm non Tuổi Xanh, TP HCM",
+        "08:00–10:00 • Dự định tham gia",
+        "09:00",
+        "Trồng cây cuối tuần",
+        "Công viên Gia Định, TP HCM • Đã lưu",
+        "09:00–11:00 • Trùng 1 giờ",
+        "Hai hoạt động đang trùng giờ",
+        "Giờ học xanh và Trồng cây cuối tuần trùng từ 09:00 đến 10:00. Hãy chọn lịch phù hợp trước khi đăng ký.",
+        "Lịch sử tham gia",
+        "Hoạt động đã tham gia",
+        "Mở lịch sử để chọn hoạt động cần tổng kết.",
+        "Dành cho hoạt động đã hoàn thành",
+        "Xem tổng kết hoạt động đã tham gia",
+        "Vé của tôi",
+        "Vé của tôi",
+        "Xem vé của những hoạt động đã đăng ký.",
+        "Chỉ lưu hoặc quan tâm sẽ chưa có vé",
+        "Xem vé tham gia",
+        "Xem hoạt động ngày 25/10",
+        "Khám phá thêm hoạt động"
+      ],
+      "parts": [
+        [
+          "534:49166",
+          "Lịch hoạt động môi trường",
+          428,
+          1407,
+          "VERTICAL"
+        ],
+        [
+          "534:49167",
+          "Nội dung màn hình",
+          428,
+          1275,
+          "VERTICAL"
+        ],
+        [
+          "534:49168",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:49188",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:49194",
+          "Nội dung chính",
+          428,
+          1174,
+          "VERTICAL"
+        ],
+        [
+          "534:49317",
+          "Thao tác cuối trang",
+          428,
+          132,
+          "VERTICAL"
+        ],
+        [
+          "534:49318",
+          "Vùng thao tác",
+          428,
+          80,
+          "VERTICAL"
+        ],
+        [
+          "534:49323",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:49302",
+          "name": "Hoạt động theo lịch",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9376",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9376",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:5093",
+          "name": "Tổng kết",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49760",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49760",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:5102",
+          "name": "Vé",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49416",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49416",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "534:49319",
+          "name": "Nút thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9376",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9376",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "534:49322",
+          "name": "Thao tác phụ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49034",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49034",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:49034",
+      "name": "Khám phá hoạt động",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1084,
+      "types": {
+        "FRAME": 31,
+        "INSTANCE": 6,
+        "GROUP": 14,
+        "VECTOR": 28,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 22,
+        "ELLIPSE": 4,
+        "RECTANGLE": 9,
+        "LINE": 1
+      },
+      "texts": [
+        "Khám phá hoạt động",
+        "Một việc nhỏ,\nmột thay đổi xanh.",
+        "Tìm hoạt động ý nghĩa, cùng cộng đồng.",
+        "Tìm hoạt động",
+        "Tên hoạt động hoặc địa điểm",
+        "TP HCM",
+        "Tuần này",
+        "Chủ đề",
+        "Dọn rác",
+        "Trồng cây",
+        "Phân loại",
+        "Dành cho cuối tuần của bạn",
+        "Giờ học xanh",
+        "Mầm non Tuổi Xanh, TP HCM",
+        "25/10 • 08:00–10:00",
+        "24 tình nguyện viên • Miễn phí",
+        "Trồng cây cuối tuần",
+        "Công viên Gia Định, TP HCM",
+        "25/10 • 09:00–11:00",
+        "40 tình nguyện viên • Miễn phí",
+        "Lên lịch cho một tuần xanh",
+        "Xem hoạt động theo ngày, tránh trùng lịch."
+      ],
+      "parts": [
+        [
+          "534:49034",
+          "Khám phá hoạt động",
+          428,
+          1084,
+          "VERTICAL"
+        ],
+        [
+          "534:49035",
+          "Nội dung màn hình",
+          428,
+          960,
+          "VERTICAL"
+        ],
+        [
+          "534:49036",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:49056",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:49062",
+          "Nội dung chính",
+          428,
+          859,
+          "VERTICAL"
+        ],
+        [
+          "534:49139",
+          "Thao tác cuối trang",
+          428,
+          124,
+          "VERTICAL"
+        ],
+        [
+          "534:49140",
+          "Thanh điều hướng chính",
+          428,
+          112,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Thẻ hoạt động": 2,
+        "Thanh điều hướng chính": 1,
+        "Group 36934": 1
+      },
+      "reactions": [
+        {
+          "id": "534:49093",
+          "name": "Thẻ hoạt động",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9376",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9376",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "534:49132",
+          "name": "Thẻ nội dung",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:49166",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49166",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49140;306:9830;2560:21254",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49140;306:9830;2560:21258",
+          "name": "Group 36703",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49140;306:9830;2560:21263",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49140;306:9830;2560:21267",
+          "name": "Vector",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:25197",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.3
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.3
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I534:49140;306:9830;2560:21268",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:48955",
+      "name": "Đã đến nơi & hướng dẫn bàn giao",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1115,
+      "types": {
+        "FRAME": 33,
+        "INSTANCE": 5,
+        "GROUP": 3,
+        "VECTOR": 18,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 19,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3
+      },
+      "texts": [
+        "Hướng dẫn bàn giao",
+        "Bạn đã đến nơi!",
+        "Công viên cộng đồng A",
+        "460 Trần Đại Nghĩa, Ngũ Hành Sơn, Đà Nẵng",
+        "Cổng chính → khu phân loại bên phải",
+        "Vào từ cổng đường Trần Đại Nghĩa",
+        "Đi khoảng 20 m, khu tiếp nhận nằm bên phải, cạnh bảng hướng dẫn phân loại.",
+        "Trước khi bàn giao",
+        "Tách riêng nhựa, giấy và các loại khác",
+        "Đổ hết chất lỏng, làm sạch bao bì",
+        "Bỏ đúng ngăn theo nhãn tại điểm",
+        "Cần người hướng dẫn?",
+        "Liên hệ quản lý điểm thu gom",
+        "Gọi",
+        "Chỉ xác nhận hoàn tất sau khi bạn đã bàn giao rác đúng nơi quy định.",
+        "Tôi đã bàn giao xong",
+        "Tiếp tục đến điểm tiếp theo",
+        "Báo cáo vấn đề tại điểm này",
+        "Về bản đồ"
+      ],
+      "parts": [
+        [
+          "534:48955",
+          "Đã đến nơi & hướng dẫn bàn giao",
+          428,
+          1115,
+          "VERTICAL"
+        ],
+        [
+          "534:48956",
+          "Nội dung màn hình",
+          428,
+          893,
+          "VERTICAL"
+        ],
+        [
+          "534:48957",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:48977",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:48983",
+          "Nội dung chính",
+          428,
+          792,
+          "VERTICAL"
+        ],
+        [
+          "534:49025",
+          "Thao tác cuối trang",
+          428,
+          222,
+          "VERTICAL"
+        ],
+        [
+          "534:49026",
+          "Vùng thao tác",
+          428,
+          170,
+          "VERTICAL"
+        ],
+        [
+          "534:49031",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Gọi hỗ trợ": 1,
+        "Nút thao tác": 1,
+        "Nút tiếp theo": 1
+      },
+      "reactions": [
+        {
+          "id": "534:49027",
+          "name": "Nút thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "534:49030",
+          "name": "Thao tác phụ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "534:48690",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48690",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "539:5120",
+          "name": "Thao tác phụ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:48869",
+      "name": "Chọn điểm thay thế trên hành trình",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1041,
+      "types": {
+        "FRAME": 34,
+        "INSTANCE": 3,
+        "GROUP": 3,
+        "VECTOR": 15,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 25,
+        "ELLIPSE": 1,
+        "RECTANGLE": 2
+      },
+      "texts": [
+        "Chọn điểm thay thế",
+        "Điểm dừng đầu tiên đã đầy",
+        "Công viên cộng đồng A tạm không nhận nhựa và giấy. Bạn có thể đổi sang một điểm trên đường đi.",
+        "Các điểm thay thế gần hành trình",
+        "Vẫn nhận đủ nhựa và giấy",
+        "Quãng đường và thời gian tăng so với hành trình cũ",
+        "Góc tái chế Tân Trà",
+        "18 Tân Trà, Ngũ Hành Sơn, Đà Nẵng",
+        "+450 m",
+        "+3 phút",
+        "Nhựa",
+        "Giấy, bìa",
+        "Kim loại",
+        "Còn chỗ • Mở đến 18:00",
+        "Điểm tái chế Khuê Mỹ",
+        "60 Hồ Xuân Hương, Ngũ Hành Sơn, Đà Nẵng",
+        "+900 m",
+        "+5 phút",
+        "Nhựa",
+        "Giấy, bìa",
+        "Thủy tinh",
+        "Còn chỗ • Mở đến 18:00",
+        "Điểm dừng tiếp theo để bàn giao pin được giữ nguyên. Hãy kiểm tra tình trạng tiếp nhận trước khi đi.",
+        "Thay điểm dừng đầu tiên",
+        "Giữ hành trình hiện tại"
+      ],
+      "parts": [
+        [
+          "534:48869",
+          "Chọn điểm thay thế trên hành trình",
+          428,
+          1041,
+          "VERTICAL"
+        ],
+        [
+          "534:48870",
+          "Nội dung màn hình",
+          428,
+          909,
+          "VERTICAL"
+        ],
+        [
+          "534:48871",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:48891",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:48897",
+          "Nội dung chính",
+          428,
+          808,
+          "VERTICAL"
+        ],
+        [
+          "534:48946",
+          "Thao tác cuối trang",
+          428,
+          132,
+          "VERTICAL"
+        ],
+        [
+          "534:48947",
+          "Vùng thao tác",
+          428,
+          80,
+          "VERTICAL"
+        ],
+        [
+          "534:48952",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:48947",
+          "name": "Vùng thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10136",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10136",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "534:48774",
+      "name": "Lập hành trình thu gom nhiều điểm",
+      "type": "FRAME",
+      "w": 428,
+      "h": 954,
+      "types": {
+        "FRAME": 37,
+        "INSTANCE": 6,
+        "GROUP": 3,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 24,
+        "ELLIPSE": 1,
+        "RECTANGLE": 2
+      },
+      "texts": [
+        "Hành trình thu gom",
+        "Hôm nay bạn mang theo gì?",
+        "Nhựa",
+        "Giấy, bìa",
+        "Pin đã dùng",
+        "Vị trí của bạn → 1 → 2",
+        "Khởi hành từ vị trí hiện tại",
+        "Đổi",
+        "Điểm dừng theo thứ tự",
+        "1",
+        "Công viên cộng đồng A",
+        "200 m từ bạn • Mở suốt ngày",
+        "Bàn giao nhựa và giấy",
+        "2",
+        "Trạm xanh Hòa Hải",
+        "Thêm 1,6 km • Mở đến 18:00",
+        "Bàn giao pin đã dùng",
+        "Thêm điểm dừng",
+        "Kéo ⋮⋮ để đổi thứ tự",
+        "1,8 km",
+        "Tổng quãng đường",
+        "8 phút",
+        "Đi xe máy, chưa tính bàn giao",
+        "Bắt đầu hành trình • 2 điểm"
+      ],
+      "parts": [
+        [
+          "534:48774",
+          "Lập hành trình thu gom nhiều điểm",
+          428,
+          954,
+          "VERTICAL"
+        ],
+        [
+          "534:48775",
+          "Nội dung màn hình",
+          428,
+          852,
+          "VERTICAL"
+        ],
+        [
+          "534:48776",
+          "Thanh trạng thái",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "534:48796",
+          "Điều hướng",
+          428,
+          52,
+          "HORIZONTAL"
+        ],
+        [
+          "534:48802",
+          "Nội dung chính",
+          428,
+          751,
+          "VERTICAL"
+        ],
+        [
+          "534:48861",
+          "Thao tác cuối trang",
+          428,
+          102,
+          "VERTICAL"
+        ],
+        [
+          "534:48862",
+          "Vùng thao tác",
+          428,
+          50,
+          "VERTICAL"
+        ],
+        [
+          "534:48866",
+          "Vùng an toàn",
+          428,
+          28,
+          "VERTICAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Thanh trạng thái": 1,
+        "Quay lại": 1,
+        "Bỏ điểm dừng": 2,
+        "Thêm điểm": 1,
+        "Nút thao tác": 1
+      },
+      "reactions": [
+        {
+          "id": "534:48863",
+          "name": "Nút thao tác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:10136",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10136",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

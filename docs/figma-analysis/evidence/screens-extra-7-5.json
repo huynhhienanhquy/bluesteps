@@ -1,0 +1,1981 @@
+{
+  "bytes": 17229,
+  "screens": [
+    {
+      "id": "386:12284",
+      "name": "Lịch sử",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 16,
+        "GROUP": 21,
+        "INSTANCE": 3,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 23,
+        "ELLIPSE": 7,
+        "LINE": 1
+      },
+      "texts": [
+        "180 điểm",
+        "Lịch sử tích điểm và đổi quà",
+        "Tất cả",
+        "Tháng này",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "+ 30",
+        "+ 60",
+        "Điểm tuần này",
+        "253",
+        "Điểm tổng tích lũy",
+        "Điểm tháng này",
+        "29/10/2025 ",
+        "25/10/2025 ",
+        "+ 10",
+        "Phân loại rác nhựa",
+        "Phân loại rác giấy",
+        "22/10/2025 ",
+        "+ 15",
+        "+ 5",
+        "Phân loại rác nhựa",
+        "Tuần này",
+        "Lịch sử",
+        "Tìm thêm điểm"
+      ],
+      "parts": [
+        [
+          "386:12284",
+          "Lịch sử",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:12287",
+          "Group 1",
+          428,
+          49.000003814697266,
+          null
+        ],
+        [
+          "386:12288",
+          "iPhone/Status Bar",
+          428,
+          49.000003814697266,
+          "NONE"
+        ],
+        [
+          "386:12293",
+          "Group 36815",
+          110,
+          30,
+          null
+        ],
+        [
+          "386:12296",
+          "Group 36817",
+          110,
+          30,
+          null
+        ],
+        [
+          "386:12300",
+          "Group 36823",
+          355,
+          89,
+          null
+        ],
+        [
+          "386:12322",
+          "Group 36818",
+          104,
+          30,
+          null
+        ],
+        [
+          "386:12327",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:12328",
+          "Group 36732",
+          6,
+          21.999435424804688,
+          null
+        ],
+        [
+          "386:12333",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:12334",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:12338",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:12349",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:12354",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "386:12358",
+          "Group 36868",
+          116,
+          30,
+          null
+        ],
+        [
+          "386:12361",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:12293",
+          "name": "Group 36815",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12296",
+          "name": "Group 36817",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12327",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12339",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12343",
+          "name": "Group 37110",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12350",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12354",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12358",
+          "name": "Group 36868",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:12362",
+      "name": "Sau khi xác nhận đổi quà",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 54,
+        "GROUP": 44,
+        "INSTANCE": 3,
+        "VECTOR": 24,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 42,
+        "ELLIPSE": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Quay lại ngày mai nhé",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "+2 điểm",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "+3 điểm",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Lịch sử",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Đồ gia dụng",
+        "Ly tái chế Eco",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "Xà phòng hữu cơ",
+        "Từ thiên nhiên – an toàn cho da và môi trường",
+        "120 điểm",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Chậu cây tái chế",
+        "Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn",
+        "80 điểm",
+        "Túi vải canvas",
+        "Thời trang – thay thế túi nilon",
+        "80 điểm",
+        "Hủy lời nhắc",
+        "Phần thưởng",
+        "Nhận ngay",
+        "CHÚC MỪNG",
+        "chậu cây tái chế ",
+        "Bạn nhận được",
+        "“Kiếm thật nhiều điểm để đổi nhiều phần quà hấp dẫn”"
+      ],
+      "parts": [
+        [
+          "386:12362",
+          "Sau khi xác nhận đổi quà",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:12365",
+          "Group 1",
+          428,
+          49.000003814697266,
+          null
+        ],
+        [
+          "386:12366",
+          "iPhone/Status Bar",
+          428,
+          49.000003814697266,
+          "NONE"
+        ],
+        [
+          "386:12369",
+          "Group 36814",
+          373,
+          165,
+          null
+        ],
+        [
+          "386:12374",
+          "Group 36783",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12379",
+          "Group 36784",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12384",
+          "Group 36785",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12389",
+          "Group 36786",
+          45,
+          66,
+          null
+        ],
+        [
+          "386:12393",
+          "Group 36787",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12398",
+          "Group 36788",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12403",
+          "Group 36789",
+          44,
+          66,
+          null
+        ],
+        [
+          "386:12409",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:12413",
+          "Group 36815",
+          96,
+          30,
+          null
+        ],
+        [
+          "386:12417",
+          "Group 36816",
+          86,
+          30,
+          null
+        ],
+        [
+          "386:12421",
+          "Group 36817",
+          75,
+          30,
+          null
+        ],
+        [
+          "386:12425",
+          "Group 36818",
+          104,
+          30,
+          null
+        ],
+        [
+          "386:12428",
+          "Group 36819",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12430",
+          "Group 36791",
+          155,
+          48,
+          null
+        ],
+        [
+          "386:12433",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12438",
+          "Group 36821",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12440",
+          "Group 36791",
+          155,
+          48,
+          null
+        ],
+        [
+          "386:12443",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12450",
+          "Group 36799",
+          20,
+          20,
+          null
+        ],
+        [
+          "386:12453",
+          "Group 36868",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12455",
+          "Group 36791",
+          148,
+          48,
+          null
+        ],
+        [
+          "386:12460",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12464",
+          "Group 36869",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12466",
+          "Group 36791",
+          148,
+          48,
+          null
+        ],
+        [
+          "386:12470",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12474",
+          "Group 36790",
+          73,
+          19,
+          null
+        ],
+        [
+          "386:12479",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:12480",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:12481",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:12485",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:12496",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:12501",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "386:12506",
+          "Group 37135",
+          335,
+          380,
+          null
+        ],
+        [
+          "386:12508",
+          "Group 36802",
+          125,
+          50,
+          null
+        ],
+        [
+          "386:12512",
+          "Group 36865",
+          287,
+          20,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:12486",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12501",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12508",
+          "name": "Group 36802",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11858",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:12517",
+      "name": "xác nhận đổi quà",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 54,
+        "GROUP": 44,
+        "INSTANCE": 3,
+        "VECTOR": 24,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 41,
+        "ELLIPSE": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Quay lại ngày mai nhé",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "+2 điểm",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "+3 điểm",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Lịch sử",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Khác",
+        "Ly tái chế Eco",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "Xà phòng hữu cơ",
+        "Từ thiên nhiên – an toàn cho da và môi trường",
+        "120 điểm",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Chậu cây tái chế",
+        "Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn",
+        "80 điểm",
+        "Túi vải canvas",
+        "Thời trang – thay thế túi nilon",
+        "80 điểm",
+        "Hủy lời nhắc",
+        "Phần thưởng",
+        "Xác nhận đổi quà?",
+        "Bạn đang có 182 điểm. Quà \"Chậu cây tái chế\" cần 80 điểm.",
+        "Đổi ngay",
+        "Hủy"
+      ],
+      "parts": [
+        [
+          "386:12517",
+          "xác nhận đổi quà",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:12520",
+          "Group 1",
+          428,
+          49.000003814697266,
+          null
+        ],
+        [
+          "386:12521",
+          "iPhone/Status Bar",
+          428,
+          49.000003814697266,
+          "NONE"
+        ],
+        [
+          "386:12524",
+          "Group 36814",
+          373,
+          165,
+          null
+        ],
+        [
+          "386:12529",
+          "Group 36783",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12534",
+          "Group 36784",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12539",
+          "Group 36785",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12544",
+          "Group 36786",
+          45,
+          66,
+          null
+        ],
+        [
+          "386:12548",
+          "Group 36787",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12553",
+          "Group 36788",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12558",
+          "Group 36789",
+          44,
+          66,
+          null
+        ],
+        [
+          "386:12564",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:12568",
+          "Group 36815",
+          96,
+          30,
+          null
+        ],
+        [
+          "386:12572",
+          "Group 36816",
+          86,
+          30,
+          null
+        ],
+        [
+          "386:12576",
+          "Group 36817",
+          75,
+          30,
+          null
+        ],
+        [
+          "386:12580",
+          "Group 36818",
+          67,
+          30,
+          null
+        ],
+        [
+          "386:12583",
+          "Group 36819",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12585",
+          "Group 36791",
+          155,
+          48,
+          null
+        ],
+        [
+          "386:12588",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12593",
+          "Group 36821",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12595",
+          "Group 36791",
+          155,
+          48,
+          null
+        ],
+        [
+          "386:12598",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12605",
+          "Group 36799",
+          20,
+          20,
+          null
+        ],
+        [
+          "386:12608",
+          "Group 36868",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12610",
+          "Group 36791",
+          148,
+          48,
+          null
+        ],
+        [
+          "386:12615",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12619",
+          "Group 36869",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12621",
+          "Group 36791",
+          148,
+          48,
+          null
+        ],
+        [
+          "386:12625",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12629",
+          "Group 36790",
+          73,
+          19,
+          null
+        ],
+        [
+          "386:12634",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:12635",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:12636",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:12640",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:12651",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:12656",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "386:12661",
+          "Group 37142",
+          302,
+          202,
+          null
+        ],
+        [
+          "386:12665",
+          "Group 36804",
+          90,
+          40,
+          null
+        ],
+        [
+          "386:12668",
+          "Group 36805",
+          90,
+          40,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:12641",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12656",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12665",
+          "name": "Group 36804",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12362",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12668",
+          "name": "Group 36805",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11858",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:12671",
+      "name": "Nhận thưởng ngày",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 52,
+        "GROUP": 43,
+        "INSTANCE": 4,
+        "VECTOR": 24,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 42,
+        "ELLIPSE": 2,
+        "LINE": 1
+      },
+      "texts": [
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Nhận ngay 2 điểm",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "+2 điểm",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "+3 điểm",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Nhắc tôi",
+        "Lịch sử",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Khác",
+        "Túi vải canvas",
+        "Thời trang – thay thế túi nilon",
+        "80 điểm",
+        "Ly tái chế Eco",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "Chậu cây tái chế",
+        "Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn",
+        "80 điểm",
+        "Xà phòng hữu cơ",
+        "Từ thiên nhiên – an toàn cho da và môi trường",
+        "120 điểm",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Phần thưởng",
+        "CHÚC MỪNG",
+        "Bạn nhận được",
+        "2",
+        "điểm",
+        "Đổi quà"
+      ],
+      "parts": [
+        [
+          "386:12671",
+          "Nhận thưởng ngày",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:12674",
+          "Group 1",
+          428,
+          49.000003814697266,
+          null
+        ],
+        [
+          "386:12675",
+          "iPhone/Status Bar",
+          428,
+          49.000003814697266,
+          "NONE"
+        ],
+        [
+          "386:12678",
+          "Group 36814",
+          373,
+          165,
+          null
+        ],
+        [
+          "386:12683",
+          "Group 36783",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12688",
+          "Group 36784",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12693",
+          "Group 36785",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12698",
+          "Group 36786",
+          45,
+          66,
+          null
+        ],
+        [
+          "386:12702",
+          "Group 36787",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12707",
+          "Group 36788",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12712",
+          "Group 36789",
+          44,
+          66,
+          null
+        ],
+        [
+          "386:12716",
+          "Group 36790",
+          55,
+          19,
+          null
+        ],
+        [
+          "386:12721",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:12725",
+          "Group 36815",
+          96,
+          30,
+          null
+        ],
+        [
+          "386:12729",
+          "Group 36816",
+          86,
+          30,
+          null
+        ],
+        [
+          "386:12733",
+          "Group 36817",
+          75,
+          30,
+          null
+        ],
+        [
+          "386:12737",
+          "Group 36818",
+          67,
+          30,
+          null
+        ],
+        [
+          "386:12740",
+          "Group 36815",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12742",
+          "Group 36791",
+          148,
+          48,
+          null
+        ],
+        [
+          "386:12746",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12750",
+          "Group 36819",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12752",
+          "Group 36791",
+          155,
+          48,
+          null
+        ],
+        [
+          "386:12755",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12760",
+          "Group 36820",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12762",
+          "Group 36791",
+          148,
+          48,
+          null
+        ],
+        [
+          "386:12766",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12770",
+          "Group 36821",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12772",
+          "Group 36791",
+          155,
+          48,
+          null
+        ],
+        [
+          "386:12775",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12783",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:12784",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:12785",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:12789",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:12800",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:12805",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "386:12811",
+          "Group 36994",
+          207,
+          22,
+          null
+        ],
+        [
+          "386:12815",
+          "Group 36800",
+          25,
+          25,
+          null
+        ],
+        [
+          "386:12817",
+          "close",
+          20,
+          20,
+          "NONE"
+        ],
+        [
+          "386:12819",
+          "Group 36852",
+          120,
+          45,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2,
+        "close": 1
+      },
+      "reactions": [
+        {
+          "id": "386:12790",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12794",
+          "name": "Group 37110",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12805",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12815",
+          "name": "Group 36800",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11652",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12819",
+          "name": "Group 36852",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11652",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:12823",
+      "name": "Phần thưởng giải trí",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 42,
+        "GROUP": 40,
+        "INSTANCE": 3,
+        "VECTOR": 23,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 31,
+        "ELLIPSE": 8,
+        "LINE": 1
+      },
+      "texts": [
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "+2 điểm",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "+3 điểm",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Lịch sử",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "Vé xem phim",
+        "Thư giãn cuối tuần với những bộ phim hay",
+        "80 điểm",
+        "Tham quan khu tái chế",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Khác",
+        "Quay lại ngày mai nhé",
+        "Hủy lời nhắc",
+        "Phần thưởng"
+      ],
+      "parts": [
+        [
+          "386:12823",
+          "Phần thưởng giải trí",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:12826",
+          "Group 1",
+          428,
+          49.000003814697266,
+          null
+        ],
+        [
+          "386:12827",
+          "iPhone/Status Bar",
+          428,
+          49.000003814697266,
+          "NONE"
+        ],
+        [
+          "386:12830",
+          "Group 36814",
+          373,
+          165,
+          null
+        ],
+        [
+          "386:12833",
+          "Group 36783",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12838",
+          "Group 36784",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12843",
+          "Group 36785",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12848",
+          "Group 36786",
+          45,
+          66,
+          null
+        ],
+        [
+          "386:12852",
+          "Group 36787",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12857",
+          "Group 36788",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12862",
+          "Group 36789",
+          44,
+          66,
+          null
+        ],
+        [
+          "386:12866",
+          "Group 36859",
+          80,
+          30,
+          null
+        ],
+        [
+          "386:12869",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:12873",
+          "Group 36815",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12876",
+          "Group 36791",
+          148,
+          48,
+          null
+        ],
+        [
+          "386:12879",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12883",
+          "Group 36819",
+          177,
+          171,
+          null
+        ],
+        [
+          "386:12885",
+          "Group 36791",
+          168,
+          48,
+          null
+        ],
+        [
+          "386:12888",
+          "Group 36792",
+          66,
+          19,
+          null
+        ],
+        [
+          "386:12894",
+          "Group 36822",
+          96,
+          30,
+          null
+        ],
+        [
+          "386:12898",
+          "Group 36816",
+          86,
+          30,
+          null
+        ],
+        [
+          "386:12902",
+          "Group 36817",
+          75,
+          30,
+          null
+        ],
+        [
+          "386:12906",
+          "Group 36818",
+          67,
+          30,
+          null
+        ],
+        [
+          "386:12909",
+          "Group 36862",
+          230,
+          25,
+          null
+        ],
+        [
+          "386:12910",
+          "Group 36861",
+          230,
+          25,
+          null
+        ],
+        [
+          "386:12913",
+          "Group 36860",
+          44,
+          67,
+          null
+        ],
+        [
+          "386:12915",
+          "Group 36799",
+          20,
+          20,
+          null
+        ],
+        [
+          "386:12920",
+          "Group 36790",
+          73,
+          19,
+          null
+        ],
+        [
+          "386:12925",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:12926",
+          "Group 36732",
+          6,
+          21.999435424804688,
+          null
+        ],
+        [
+          "386:12931",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:12932",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:12936",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:12947",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:12952",
+          "Group 36731",
+          75,
+          75,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:12866",
+          "name": "Group 36859",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12894",
+          "name": "Group 36822",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11858",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12898",
+          "name": "Group 36816",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13109",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12906",
+          "name": "Group 36818",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12956",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12920",
+          "name": "Group 36790",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11652",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12925",
+          "name": "chevron_backward",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12937",
+          "name": "Group 36722",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12941",
+          "name": "Group 37110",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12948",
+          "name": "Group",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12952",
+          "name": "Group 36731",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

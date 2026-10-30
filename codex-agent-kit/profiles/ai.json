@@ -1,0 +1,9 @@
+{
+  "description": "Lean policy plus production LLM, error-handling, and observability rules.",
+  "extends": "lean",
+  "rules": [
+    "llm-ai-integration",
+    "error-handling",
+    "reliability-observability"
+  ]
+}

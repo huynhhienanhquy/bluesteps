@@ -1,0 +1,139 @@
+const imgSongWiFiPin = "https://www.figma.com/api/mcp/asset/8c13a830-4ba7-43fa-9146-1bd85550e57c.svg";
+const imgLiNhcSngXanh = "https://www.figma.com/api/mcp/asset/63124469-c3b5-4e81-8522-956bd69bcf78.svg";
+
+type GreenStepsButtonProps = {
+  className?: string;
+  label?: string;
+  style?: "Primary" | "Ghost";
+};
+
+function GreenStepsButton({ className, label = "Tiếp tục", style = "Primary" }: GreenStepsButtonProps) {
+  const isGhost = style === "Ghost";
+  return (
+    <div className={className || `content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] w-[380px] ${isGhost ? "" : "bg-[var(--gs-primary,#147cc1)]"}`} id={isGhost ? "node-439_4839" : "node-439_4835"}>
+      {style === "Primary" && (
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-white,white)] whitespace-nowrap" data-node-id="439:4836">
+          {label}
+        </p>
+      )}
+      {isGhost && (
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-forest,#164561)] whitespace-nowrap" data-node-id="439:4840">
+          {label}
+        </p>
+      )}
+    </div>
+  );
+}
+
+export default function Component09LiNhcSngXanh() {
+  return (
+    <div className="bg-[var(--gs-cream,#f4fbff)] overflow-clip relative rounded-[32px] size-full" data-node-id="386:7168" data-name="09 · Lời nhắc sống xanh">
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[17px] w-[380px]" data-node-id="441:5001" data-name="Thanh trạng thái">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[70px]" data-node-id="441:5002">
+          9:41
+        </p>
+        <div className="h-[20px] relative shrink-0 w-[78px]" data-node-id="443:4896" data-name="Sóng · Wi-Fi · Pin">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSongWiFiPin} />
+        </div>
+      </div>
+      <div className="absolute bg-[var(--gs-forest,#164561)] h-[5px] left-[150px] rounded-[3px] top-[905px] w-[128px]" data-node-id="441:5004" data-name="Rectangle" />
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[77px] w-[380px]" data-node-id="441:5366" data-name="Điều hướng">
+        <a className="bg-[var(--gs-white,white)] block cursor-pointer overflow-clip relative rounded-[14px] shrink-0 size-[48px]" data-node-id="441:5367" data-name="Quay lại">
+          <p className="[word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[43px] left-[14px] text-[30px] text-[color:var(--gs-forest,#164561)] text-left top-px w-[24px]" data-node-id="441:5368">
+            ‹
+          </p>
+        </a>
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[17px] relative shrink-0 text-[12px] text-[color:var(--gs-muted,#456476)] text-center w-[210px]" data-node-id="441:5370">
+          DÀNH RIÊNG CHO BẠN · 4/5
+        </p>
+        <a className="[word-break:break-word] block cursor-pointer font-['Montserrat:SemiBold'] font-semibold leading-[0] relative shrink-0 text-[12px] text-[color:var(--gs-primary,#147cc1)] text-right w-[66px]" data-node-id="441:5371">
+          <p className="leading-[17px]">Bỏ qua</p>
+        </a>
+      </div>
+      <div className="absolute content-stretch flex gap-[6px] items-start left-[24px] top-[132px]" data-node-id="441:5373" data-name="Tiến trình">
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[4px] relative rounded-[2px] shrink-0 w-[71.2px]" data-node-id="441:5374" data-name="Rectangle" />
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[4px] relative rounded-[2px] shrink-0 w-[71.2px]" data-node-id="441:5375" data-name="Rectangle" />
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[4px] relative rounded-[2px] shrink-0 w-[71.2px]" data-node-id="441:5376" data-name="Rectangle" />
+        <div className="bg-[var(--gs-primary,#147cc1)] h-[4px] relative rounded-[2px] shrink-0 w-[71.2px]" data-node-id="441:5377" data-name="Rectangle" />
+        <div className="bg-[var(--gs-line,#d2e7f4)] h-[4px] relative rounded-[2px] shrink-0 w-[71.2px]" data-node-id="441:5378" data-name="Rectangle" />
+      </div>
+      <div className="absolute h-[164px] left-[24px] top-[150px] w-[380px]" data-node-id="441:5379" data-name="Lời nhắc sống xanh">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLiNhcSngXanh} />
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start left-[24px] overflow-clip top-[334px] w-[380px]" data-node-id="441:5391" data-name="Tiêu đề và mô tả">
+        <div className="font-['Montserrat:Bold'] font-bold leading-[0] relative shrink-0 text-[32px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="441:5392">
+          <p className="leading-[42px] mb-0">Một lời nhắc nhẹ.</p>
+          <p className="leading-[42px]">Một thói quen tốt.</p>
+        </div>
+        <p className="font-['Montserrat:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--gs-muted,#456476)] w-[380px]" data-node-id="441:5393">
+          Dành một phút mỗi ngày để chăm chút cho hành tinh của chúng ta.
+        </p>
+      </div>
+      <button className="absolute bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid cursor-pointer h-[86px] left-[24px] overflow-clip rounded-[26px] top-[510px] w-[380px]" data-node-id="441:5394" data-name="Bật lời nhắc">
+        <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[5px] items-start left-[17px] overflow-clip text-left top-[17px] w-[260px]" data-node-id="441:5395" data-name="Nội dung lời nhắc">
+          <p className="font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-forest,#164561)] w-[255px]" data-node-id="441:5396">
+            Nhắc tôi sống xanh
+          </p>
+          <p className="font-['Montserrat:Medium'] font-medium leading-[18px] relative shrink-0 text-[12px] text-[color:var(--gs-muted,#456476)] w-[255px]" data-node-id="441:5397">
+            Bạn có thể tắt bất cứ lúc nào
+          </p>
+        </div>
+        <div className="absolute bg-[var(--gs-sage,#e5f3fc)] h-[32px] left-[305px] rounded-[16px] top-[26px] w-[54px]" data-node-id="441:5398" data-name="Rectangle" />
+        <div className="absolute bg-[var(--gs-white,white)] left-[309px] rounded-[12px] size-[24px] top-[30px]" data-node-id="441:5401" data-name="Rectangle" />
+        <div className="absolute bg-[var(--gs-primary,#147cc1)] h-[32px] left-[305px] overflow-clip rounded-[16px] top-[26px] w-[54px]" data-node-id="441:5399" data-name="Công tắc bật">
+          <div className="absolute bg-[var(--gs-white,white)] left-[27px] rounded-[12px] size-[24px] top-[4px]" data-node-id="441:5400" data-name="Rectangle" />
+        </div>
+      </button>
+      <p className="[word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[16px] left-[24px] text-[11px] text-[color:var(--gs-muted,#456476)] top-[624px] w-[380px]" data-node-id="441:5403">
+        THỜI GIAN PHÙ HỢP VỚI BẠN
+      </p>
+      <div className="absolute content-stretch cursor-pointer flex gap-[10px] items-start left-[24px] top-[653px]" data-node-id="441:5404" data-name="Chọn giờ nhắc">
+        <button className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[54px] overflow-clip relative rounded-[26px] shrink-0 w-[120px]" data-node-id="441:5405" data-name="08:00">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[22px] left-[59px] text-[15px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[110px]" data-node-id="441:5406">
+            08:00
+          </p>
+        </button>
+        <button className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[54px] overflow-clip relative rounded-[26px] shrink-0 w-[120px]" data-node-id="441:5410" data-name="12:00">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[22px] left-[59px] text-[15px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[110px]" data-node-id="441:5411">
+            12:00
+          </p>
+        </button>
+        <button className="bg-[var(--gs-white,white)] block border border-[var(--gs-line,#d2e7f4)] border-solid h-[54px] overflow-clip relative rounded-[26px] shrink-0 w-[120px]" data-node-id="441:5415" data-name="20:00">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[22px] left-[59px] text-[15px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[110px]" data-node-id="441:5416">
+            20:00
+          </p>
+          <div className="absolute bg-[var(--gs-mint,#edf7fc)] border border-[var(--gs-primary,#147cc1)] border-solid h-[54px] left-[-1px] overflow-clip rounded-[20px] top-[-1px] w-[120px]" data-node-id="441:5417" data-name="Giờ đã chọn">
+            <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[22px] left-[59px] text-[15px] text-[color:var(--gs-primary,#147cc1)] text-center top-[14px] w-[110px]" data-node-id="441:5418">
+              20:00 ✓
+            </p>
+          </div>
+        </button>
+      </div>
+      <div className="absolute content-stretch cursor-pointer flex flex-col gap-[10px] items-start left-[24px] overflow-clip top-[758px] w-[380px]" data-node-id="441:5420" data-name="Hành động chính">
+        <GreenStepsButton className="bg-[var(--gs-primary,#147cc1)] content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] shrink-0 w-[380px]" label="Lưu lời nhắc" />
+        <GreenStepsButton className="content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] shrink-0 w-[380px]" label="Bỏ qua bước này" style="Ghost" />
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Title: Font(family: "Montserrat", style: Bold, size: 32, weight: 700, lineHeight: 42, letterSpacing: 0), GreenSteps/Body: Font(family: "Montserrat", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0), GreenSteps/Caption: Font(family: "Montserrat", style: Medium, size: 12, weight: 500, lineHeight: 18, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

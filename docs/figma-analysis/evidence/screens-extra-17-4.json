@@ -1,0 +1,871 @@
+{
+  "bytes": 8251,
+  "screens": [
+    {
+      "id": "386:7176",
+      "name": "10 · Sẵn sàng bắt đầu",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 11,
+        "TEXT": 13,
+        "VECTOR": 25,
+        "RECTANGLE": 6,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "DÀNH RIÊNG CHO BẠN · 5/5",
+        "",
+        "Hành trình xanh\nbắt đầu từ bạn.",
+        "Trải nghiệm của bạn đã sẵn sàng. Cùng biến ý định tốt thành hành động nhỏ.",
+        "MỤC TIÊU KHỞI ĐẦU",
+        "Phân loại rác mỗi ngày",
+        {
+          "hidden": "Giảm đồ nhựa dùng một lần"
+        },
+        {
+          "hidden": "Góp sức cùng cộng đồng"
+        },
+        "Bắt đầu nhẹ nhàng, duy trì mỗi ngày.",
+        "Tạo tài khoản",
+        "Khám phá trước"
+      ],
+      "parts": [
+        [
+          "386:7176",
+          "10 · Sẵn sàng bắt đầu",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:5005",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4905",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5427",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5428",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5433",
+          "Tiến trình",
+          380,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5439",
+          "Mầm cây và dấu hoàn tất",
+          380,
+          228,
+          "NONE"
+        ],
+        [
+          "441:5456",
+          "Tiêu đề và mô tả",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "441:5459",
+          "Tổng kết mục tiêu",
+          380,
+          128,
+          "NONE"
+        ],
+        [
+          "441:5460",
+          "Icon / leaf",
+          36,
+          36,
+          "NONE"
+        ],
+        [
+          "441:5467",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5468",
+          "Nút / Tạo tài khoản",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5471",
+          "Nút / Khám phá trước",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Tạo tài khoản": 1,
+        "Nút / Khám phá trước": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5428",
+          "name": "Quay lại",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7168",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5468",
+          "name": "Nút / Tạo tài khoản",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7390",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5471",
+          "name": "Nút / Khám phá trước",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "514:5093",
+      "name": "Cài đặt · Overlay · Tìm kiếm",
+      "type": "FRAME",
+      "w": 428,
+      "h": 931,
+      "types": {
+        "FRAME": 64,
+        "RECTANGLE": 1,
+        "TEXT": 32,
+        "INSTANCE": 1,
+        "VECTOR": 30
+      },
+      "texts": [
+        "Tìm kiếm cài đặt",
+        "×",
+        "Từ khóa",
+        "Nhập từ khóa…",
+        "×",
+        "Tất cả",
+        "Bảo mật",
+        "Thông báo",
+        "Hồ sơ",
+        "Thay đổi mật khẩu",
+        "Bảo mật tài khoản",
+        "Sửa thông tin cá nhân",
+        "Tên, email và ảnh đại diện",
+        "Thông báo",
+        "Xem cập nhật dành cho bạn",
+        "Âm thanh và rung",
+        "Âm báo và phản hồi thao tác",
+        "Lịch sử đăng nhập",
+        "Thiết bị và phiên truy cập",
+        "Thiết lập mật mã",
+        "Tạo mã PIN gồm 6 chữ số",
+        {
+          "hidden": "Thay đổi mật khẩu"
+        },
+        {
+          "hidden": "Bảo mật tài khoản"
+        },
+        {
+          "hidden": "Lịch sử đăng nhập"
+        },
+        {
+          "hidden": "Thiết bị và phiên truy cập"
+        },
+        {
+          "hidden": "Thiết lập mật mã"
+        },
+        {
+          "hidden": "Tạo mã PIN gồm 6 chữ số"
+        },
+        {
+          "hidden": "Thông báo"
+        },
+        {
+          "hidden": "Xem cập nhật dành cho bạn"
+        },
+        {
+          "hidden": "Sửa thông tin cá nhân"
+        },
+        {
+          "hidden": "Tên, email và ảnh đại diện"
+        },
+        "Hủy tìm kiếm"
+      ],
+      "parts": [
+        [
+          "514:5093",
+          "Cài đặt · Overlay · Tìm kiếm",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5094",
+          "Fermer en dehors",
+          428,
+          931,
+          "NONE"
+        ],
+        [
+          "514:5105",
+          "Bảng cài đặt",
+          428,
+          760,
+          "NONE"
+        ],
+        [
+          "514:5108",
+          "Đóng",
+          44,
+          48,
+          "NONE"
+        ],
+        [
+          "514:5332",
+          "Trường / Từ khóa",
+          380,
+          84,
+          "VERTICAL"
+        ],
+        [
+          "514:5336",
+          "Xóa tìm kiếm",
+          44,
+          54,
+          "NONE"
+        ],
+        [
+          "514:5340",
+          "Gợi ý tìm kiếm",
+          380,
+          36,
+          "HORIZONTAL"
+        ],
+        [
+          "514:5357",
+          "Kết quả tìm kiếm · 0",
+          380,
+          424,
+          "VERTICAL"
+        ],
+        [
+          "514:5416",
+          "Kết quả tìm kiếm · 1",
+          380,
+          208,
+          "NONE"
+        ],
+        [
+          "514:5447",
+          "Kết quả tìm kiếm · 2",
+          380,
+          64,
+          "NONE"
+        ],
+        [
+          "514:5457",
+          "Kết quả tìm kiếm · 3",
+          380,
+          64,
+          "NONE"
+        ],
+        [
+          "514:5468",
+          "Liên kết / Hủy tìm kiếm",
+          380,
+          48,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "Trường / Từ khóa": 1
+      },
+      "reactions": [
+        {
+          "id": "514:5094",
+          "name": "Fermer en dehors",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5108",
+          "name": "Đóng",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5332",
+          "name": "Trường / Từ khóa",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5336",
+          "name": "Xóa tìm kiếm",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5341",
+          "name": "Tất cả",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5345",
+          "name": "Bảo mật",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5349",
+          "name": "Thông báo",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5353",
+          "name": "Hồ sơ",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5358",
+          "name": "Thay đổi mật khẩu",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "521:4735",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5368",
+          "name": "Sửa thông tin cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8516",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5378",
+          "name": "Thông báo",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7913",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5387",
+          "name": "Âm thanh và rung",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5096",
+                  "navigation": "SWAP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5396",
+          "name": "Lịch sử đăng nhập",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5099",
+                  "navigation": "SWAP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5406",
+          "name": "Thiết lập mật mã",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5102",
+                  "navigation": "SWAP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5417",
+          "name": "Thay đổi mật khẩu",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "521:4735",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5427",
+          "name": "Lịch sử đăng nhập",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5099",
+                  "navigation": "SWAP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5437",
+          "name": "Thiết lập mật mã",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5102",
+                  "navigation": "SWAP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5448",
+          "name": "Thông báo",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7913",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5458",
+          "name": "Sửa thông tin cá nhân",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8516",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5468",
+          "name": "Liên kết / Hủy tìm kiếm",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

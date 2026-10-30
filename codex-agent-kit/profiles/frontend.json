@@ -1,0 +1,11 @@
+{
+  "description": "Lean policy plus reusable frontend, accessibility, state, and testing rules.",
+  "extends": "lean",
+  "rules": [
+    "accessibility",
+    "frontend-components",
+    "frontend-state",
+    "frontend-structure",
+    "frontend-testing"
+  ]
+}

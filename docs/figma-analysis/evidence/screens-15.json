@@ -1,0 +1,2798 @@
+{
+  "bytes": 27991,
+  "screens": [
+    {
+      "id": "386:18241",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 4,
+        "INSTANCE": 5,
+        "VECTOR": 17,
+        "GROUP": 8,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 18,
+        "RECTANGLE": 12,
+        "ELLIPSE": 4
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Tạo phòng",
+        "Sứ mệnh xanh",
+        "5 người tham gia",
+        "Đua vịt",
+        "Sứ mệnh xanh",
+        "5 người tham gia",
+        "5 người tham gia",
+        "XO",
+        "5 người tham gia",
+        "Danh hiệu",
+        "Chơi gần đây",
+        "Tìm kiếm",
+        "Tạo lịch chơi",
+        "Cao nhân giải\nđố",
+        "Chiến thành\n tốc độ",
+        "Bậc thầy phân\n loại rác",
+        "Trò chơi"
+      ],
+      "parts": [
+        [
+          "386:18241",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:18242",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:18243",
+          "Group 1",
+          428,
+          60,
+          null
+        ],
+        [
+          "386:18244",
+          "iPhone/Status Bar",
+          428,
+          60,
+          "NONE"
+        ],
+        [
+          "386:18247",
+          "Iconly/Regular/Light/Plus",
+          48,
+          50,
+          "NONE"
+        ],
+        [
+          "I386:18247;29221:1824",
+          "Plus",
+          40,
+          41.66666793823242,
+          null
+        ],
+        [
+          "386:18249",
+          "Frame 36797",
+          139,
+          178,
+          "NONE"
+        ],
+        [
+          "386:18257",
+          "Group 37229",
+          171,
+          178,
+          null
+        ],
+        [
+          "386:18258",
+          "Group 37227",
+          171,
+          178,
+          null
+        ],
+        [
+          "386:18264",
+          "Frame 36798",
+          139,
+          178,
+          "NONE"
+        ],
+        [
+          "386:18277",
+          "Iconly/Regular/Light/Search",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:18277;29221:1484",
+          "Search",
+          18.764301300048828,
+          19.221969604492188,
+          null
+        ],
+        [
+          "386:18279",
+          "Plus",
+          28,
+          28,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 1,
+        "iPhone/Status Bar": 1,
+        "Iconly/Regular/Light/Plus": 1,
+        "Iconly/Regular/Light/Search": 1,
+        "Plus": 1
+      },
+      "reactions": [
+        {
+          "id": "386:18242",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16592",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18249",
+          "name": "Frame 36797",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18473",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18473",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:18285",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "GROUP": 5,
+        "INSTANCE": 3,
+        "VECTOR": 13,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 6,
+        "RECTANGLE": 4,
+        "ELLIPSE": 7
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Đã tham gia",
+        "Đang chơi",
+        "Đã chơi 10 phút trước",
+        "Bắt đầu",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "386:18285",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:18286",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:18287",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:18302",
+          "Group 37210",
+          135,
+          50,
+          null
+        ],
+        [
+          "386:18306",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:18307",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:18304",
+          "name": "Bắt đầu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18336",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18336",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18307",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:18308",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 5,
+        "GROUP": 4,
+        "INSTANCE": 2,
+        "VECTOR": 12,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 5,
+        "RECTANGLE": 16
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "386:18308",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:18309",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:18310",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:18315",
+          "Frame 36707",
+          66,
+          60,
+          "NONE"
+        ],
+        [
+          "386:18317",
+          "Frame 36708",
+          66,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18319",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18334",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:18314",
+          "name": "Rectangle 214",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18364",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18364",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18331",
+          "name": "image 32",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18364",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18364",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18332",
+          "name": "image 34",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "427:19392",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "427:19392",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18333",
+          "name": "image 33",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "427:19392",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "427:19392",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18334",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:18336",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 5,
+        "GROUP": 4,
+        "INSTANCE": 2,
+        "VECTOR": 12,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 5,
+        "RECTANGLE": 16
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "386:18336",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:18337",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:18338",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:18343",
+          "Frame 36707",
+          66,
+          60,
+          "NONE"
+        ],
+        [
+          "386:18345",
+          "Frame 36708",
+          66,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18347",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18362",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 1
+      },
+      "reactions": [
+        {
+          "id": "386:18336",
+          "name": "Trò chơi",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18308",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18308",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:18364",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 5,
+        "INSTANCE": 3,
+        "VECTOR": 13,
+        "GROUP": 5,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 6,
+        "RECTANGLE": 17
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "Kiểm tra",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "386:18364",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:18365",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:18366",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:18367",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:18371",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18386",
+          "Frame 36708",
+          66,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18389",
+          "Frame 36707",
+          66,
+          60,
+          "NONE"
+        ],
+        [
+          "386:18391",
+          "Group 37212",
+          142,
+          43,
+          null
+        ],
+        [
+          "386:18394",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 2,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:18365",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18373",
+          "name": "Rectangle 857",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18391",
+          "name": "Group 37212",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18396",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18396",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18394",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "427:19392",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "INSTANCE": 3,
+        "VECTOR": 13,
+        "GROUP": 5,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 6,
+        "RECTANGLE": 11
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "Kiểm tra",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "427:19392",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "427:19393",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "427:19394",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "427:19395",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "427:19399",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "427:19419",
+          "Group 37212",
+          142,
+          43,
+          null
+        ],
+        [
+          "427:19422",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 2,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "427:19393",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "427:19401",
+          "name": "Rectangle 857",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "427:19419",
+          "name": "Group 37212",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "427:19460",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.3
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "427:19460",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.3
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        },
+        {
+          "id": "427:19422",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:18396",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 5,
+        "INSTANCE": 3,
+        "VECTOR": 13,
+        "GROUP": 4,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 5,
+        "RECTANGLE": 19
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "386:18396",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:18397",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:18398",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:18399",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:18403",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18418",
+          "Frame 36708",
+          66,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18421",
+          "Frame 36707",
+          66,
+          60,
+          "NONE"
+        ],
+        [
+          "386:18426",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 2,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:18396",
+          "name": "Trò chơi",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18428",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18428",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18397",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18405",
+          "name": "Rectangle 857",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18426",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "427:19460",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "INSTANCE": 3,
+        "VECTOR": 13,
+        "GROUP": 4,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 5,
+        "RECTANGLE": 13
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "427:19460",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "427:19461",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "427:19462",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "427:19463",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "427:19467",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "427:19490",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 2,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "427:19460",
+          "name": "Trò chơi",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18428",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18428",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "427:19461",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "427:19469",
+          "name": "Rectangle 857",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "427:19490",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:18428",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 5,
+        "INSTANCE": 3,
+        "VECTOR": 13,
+        "GROUP": 6,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 11,
+        "RECTANGLE": 22
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "CHÚC MỪNG",
+        "Bạn nhận được",
+        " điểm",
+        " 1",
+        "Chơi lại",
+        "Đi đến tích điểm",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "386:18428",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:18429",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:18430",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:18431",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:18434",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18449",
+          "Frame 36708",
+          66,
+          67,
+          "NONE"
+        ],
+        [
+          "386:18452",
+          "Frame 36707",
+          66,
+          60,
+          "NONE"
+        ],
+        [
+          "386:18457",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "386:18464",
+          "Group 37215",
+          120,
+          35,
+          null
+        ],
+        [
+          "386:18467",
+          "Group 37216",
+          185,
+          38,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 2,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:18429",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18436",
+          "name": "Rectangle 857",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18457",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18464",
+          "name": "Group 37215",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18473",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18473",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:18467",
+          "name": "Group 37216",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16592",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "487:19805",
+      "name": "Trò chơi",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 5,
+        "INSTANCE": 3,
+        "VECTOR": 13,
+        "GROUP": 6,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 11,
+        "RECTANGLE": 22
+      },
+      "texts": [
+        "Nhấn để đổi thưởng",
+        "Hữu cơ",
+        "Tái chế",
+        "Vô cơ",
+        "CHÚC MỪNG",
+        "Bạn nhận được",
+        " điểm",
+        " 1",
+        "Chơi lại",
+        "Đi đến tích điểm",
+        "Sứ mệnh xanh"
+      ],
+      "parts": [
+        [
+          "487:19805",
+          "Trò chơi",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "487:19806",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "487:19807",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "487:19808",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "487:19811",
+          "Frame 36709",
+          65,
+          67,
+          "NONE"
+        ],
+        [
+          "487:19826",
+          "Frame 36708",
+          66,
+          67,
+          "NONE"
+        ],
+        [
+          "487:19829",
+          "Frame 36707",
+          66,
+          60,
+          "NONE"
+        ],
+        [
+          "487:19834",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "487:19841",
+          "Group 37215",
+          120,
+          35,
+          null
+        ],
+        [
+          "487:19844",
+          "Group 37216",
+          185,
+          38,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "chevron_backward": 2,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "487:19806",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "487:19813",
+          "name": "Rectangle 857",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "487:19834",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "487:19841",
+          "name": "Group 37215",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18473",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18473",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "487:19844",
+          "name": "Group 37216",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16592",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

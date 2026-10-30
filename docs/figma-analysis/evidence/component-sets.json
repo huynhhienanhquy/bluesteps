@@ -1,0 +1,34 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "439:4841",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"id\":\"439:4841\",\"name\":\"GreenSteps / Button\",\"type\":\"COMPONENT_SET\",\"definitions\":{\"Label#439:3\":{\"type\":\"TEXT\",\"defaultValue\":\"Tiếp tục\"},\"Style\":{\"type\":\"VARIANT\",\"defaultValue\":\"Primary\",\"variantOptions\":[\"Primary\",\"Secondary\",\"Ghost\"]}},\"variants\":[{\"id\":\"439:4835\",\"name\":\"Style=Primary\",\"w\":380,\"h\":56,\"layout\":\"HORIZONTAL\",\"padding\":[0,0,0,0],\"gap\":0},{\"id\":\"439:4837\",\"name\":\"Style=Secondary\",\"w\":380,\"h\":56,\"layout\":\"HORIZONTAL\",\"padding\":[0,0,0,0],\"gap\":0},{\"id\":\"439:4839\",\"name\":\"Style=Ghost\",\"w\":380,\"h\":56,\"layout\":\"HORIZONTAL\",\"padding\":[0,0,0,0],\"gap\":0}]}"
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "460:4840",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"id\":\"460:4840\",\"name\":\"GreenSteps / Auth Field\",\"type\":\"COMPONENT_SET\",\"definitions\":{\"Label#460:6\":{\"type\":\"TEXT\",\"defaultValue\":\"Email\"},\"Value#460:7\":{\"type\":\"TEXT\",\"defaultValue\":\"linhchi@example.com\"},\"State\":{\"type\":\"VARIANT\",\"defaultValue\":\"Default\",\"variantOptions\":[\"Default\",\"Focus\",\"Error\"]}},\"variants\":[{\"id\":\"460:4828\",\"name\":\"State=Default\",\"w\":380,\"h\":84,\"layout\":\"VERTICAL\",\"padding\":[0,0,0,0],\"gap\":8},{\"id\":\"460:4832\",\"name\":\"State=Focus\",\"w\":380,\"h\":84,\"layout\":\"VERTICAL\",\"padding\":[0,0,0,0],\"gap\":8},{\"id\":\"460:4836\",\"name\":\"State=Error\",\"w\":380,\"h\":84,\"layout\":\"VERTICAL\",\"padding\":[0,0,0,0],\"gap\":8}]}"
+          }
+        ],
+        "structuredContent": null,
+        "isError": false
+      }
+    }
+  }
+]

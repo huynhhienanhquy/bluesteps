@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0",
+  "owner": "Python Identity, user-confirmed",
+  "supabaseAuthEnabled": false,
+  "password": {
+    "algorithm": "Argon2id via maintained password hashing library",
+    "minLength": 8,
+    "maxLength": 128,
+    "normalizeOrTrim": false,
+    "rehashOnLogin": true,
+    "neverLog": true
+  },
+  "accessToken": {
+    "format": "JWT",
+    "algorithmAllowlist": [
+      "RS256"
+    ],
+    "requiredClaims": [
+      "sub",
+      "sid",
+      "jti",
+      "iss",
+      "aud",
+      "iat",
+      "exp"
+    ],
+    "keyIdRequired": true,
+    "issuer": "bluesteps-python-api",
+    "audience": "bluesteps-mobile",
+    "ttlSeconds": 900,
+    "secretHandling": "Private signing keys only in server secret configuration; fail startup outside test if absent; no embedded development fallback"
+  },
+  "refreshToken": {
+    "format": "opaque random token, at least 256 bits entropy",
+    "store": "SHA-256 token hash only",
+    "ttlSeconds": 2592000,
+    "rotation": "One-time compare-and-swap under transaction; consumed token retained as hash until family expiry",
+    "replay": "Consumed-token reuse revokes family including newly rotated token; mobile uses single-flight refresh; no silent grace window"
+  },
+  "session": {
+    "activeStateChecked": "Every protected HTTP command/query and WS command must validate active user/session; signature alone is insufficient",
+    "revoke": "Owner can revoke own session; outsider gets404; logout revokes current session; family invalidation closes/rejects protected socket commands",
+    "mutableRoles": "Read roles/assignments from server state, not client role fields"
+  },
+  "challenge": {
+    "code": "Six decimal digits",
+    "hash": "HMAC with server-held pepper, not a plaintext code or bare weak hash",
+    "ttlSeconds": 300,
+    "maxAttempts": 5,
+    "resendCooldownSeconds": 60,
+    "purposes": [
+      "verify_email",
+      "password_reset",
+      "email_change"
+    ],
+    "singleUse": true,
+    "purposeRecipientBinding": true,
+    "rateLimit": "Per recipient hash + IP/device; config required; accepted response does not reveal existence"
+  },
+  "recovery": "Reset token is purpose-bound, short-lived, hash-stored and consumed atomically; password reset revokes all session families",
+  "registration": "Contract packet specifies pending_email_verification flow and terms version; no active session before email proof; this is the recorded security default, not a Supabase Auth flow",
+  "parameters": "These are explicit technical configuration defaults for the plan, not measured service guarantees. Changing policy requires versioned ADR, contract/fixture updates and regression tests."
+}

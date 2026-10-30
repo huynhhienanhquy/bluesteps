@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "BlueSteps Demo",
+    "slug": "bluesteps",
+    "scheme": "bluesteps",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "BlueSteps dùng camera khi bạn chọn chụp vật liệu để phân loại.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BlueSteps mở ảnh do bạn chọn để xem trước vật liệu.",
+          "microphonePermission": false,
+          "cameraPermission": "BlueSteps dùng camera khi bạn chọn chụp vật liệu để phân loại."
+        }
+      ],
+      "expo-image",
+      "expo-font"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "BlueSteps — Mỗi ngày xanh"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "vn.bluesteps.demo"
+    },
+    "android": {
+      "package": "vn.bluesteps.demo"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

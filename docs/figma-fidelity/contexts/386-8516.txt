@@ -1,0 +1,153 @@
+const imgEllipse10 = "https://www.figma.com/api/mcp/asset/fa8dc4e9-13b3-4606-b56d-68397501ce94.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/4d2de521-8556-405b-9ad2-bb09fa13cb94.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/c69bb9cd-3f14-482d-a151-6cdf8022a68f.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/367cc087-27ff-470e-8475-22c8cff6d3c0.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/0051d4fc-415e-4c0a-854a-3703c82bde77.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/1eb2918e-6814-46d6-ab8c-3ed70dcde08a.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/faa826e2-4388-430b-bd49-b8ac4b14c1a4.svg";
+const imgEllipse9 = "https://www.figma.com/api/mcp/asset/36f4c66f-2e54-43b7-bd52-d06c19ccdfb5.svg";
+const imgEllipse12 = "https://www.figma.com/api/mcp/asset/952e031d-426f-450f-afce-2eb23f163eac.svg";
+const imgIconlySharpLightCamera = "https://www.figma.com/api/mcp/asset/b2f77723-a9aa-4827-80ff-20a0c034d957.svg";
+
+export default function ChnhSa() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[25px] size-full" data-node-id="386:8516" data-name="Chỉnh sửa">
+      <CodeConnectSnippet data-node-id="386:8517" data-name="chevron_backward">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <div className="absolute contents inset-[1.19%_0.47%_93.52%_-0.47%]" data-node-id="386:8518">
+        <div className="absolute inset-[1.19%_0.47%_93.52%_-0.47%] overflow-clip" data-node-id="386:8519" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:8519;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:8519;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:8519;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:8519;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:8519;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:8519;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:8519;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:8519;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:8519;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[134px] not-italic text-[32px] text-black top-[61px] whitespace-nowrap" data-node-id="386:8520">
+        Chỉnh sửa
+      </p>
+      <div className="absolute left-[165px] size-[120px] top-[118px]" data-node-id="386:8521">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse9} />
+      </div>
+      <div className="absolute left-[170px] size-[110px] top-[123px]" data-node-id="386:8522">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="110" src={imgEllipse10} width="110" />
+      </div>
+      <div className="absolute left-[255px] size-[30px] top-[203px]" data-node-id="386:8523">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse12} />
+      </div>
+      <div className="absolute left-[258px] size-[24px] top-[206px]" data-node-id="386:8524" data-name="Iconly/Sharp/Light/Camera">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpLightCamera} />
+      </div>
+      <div className="absolute h-[65px] left-[55px] top-[263px] w-[317px]" data-node-id="386:8525">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[16px] left-0 text-[14px] text-black top-0 whitespace-nowrap" data-node-id="386:8526" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Tên
+        </p>
+        <div className="absolute drop-shadow-[0px_4px_2px_rgba(0,0,0,0.25)] h-[42px] left-0 top-[23px] w-[317px]" data-node-id="386:8527">
+          <div className="absolute bg-white border border-black border-solid h-[42px] left-0 rounded-[10px] top-0 w-[317px]" data-node-id="386:8528" />
+          <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[16px] left-[13px] text-[#dadada] text-[14px] top-[13px] whitespace-nowrap" data-node-id="386:8529" style={{ fontVariationSettings: '"wdth" 100' }}>
+            Linh Chi
+          </p>
+        </div>
+      </div>
+      <div className="absolute h-[65px] left-[55px] top-[368px] w-[317px]" data-node-id="386:8530">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[16px] left-0 text-[14px] text-black top-0 whitespace-nowrap" data-node-id="386:8531" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Email
+        </p>
+        <div className="absolute drop-shadow-[0px_4px_2px_rgba(0,0,0,0.25)] h-[42px] left-0 top-[23px] w-[317px]" data-node-id="386:8532">
+          <div className="absolute bg-white border border-black border-solid h-[42px] left-0 rounded-[10px] top-0 w-[317px]" data-node-id="386:8533" />
+          <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[16px] left-[14px] text-[#dadada] text-[14px] top-[13px] whitespace-nowrap" data-node-id="386:8534" style={{ fontVariationSettings: '"wdth" 100' }}>
+            linhchi@gmail.com
+          </p>
+        </div>
+      </div>
+      <div className="absolute h-[65px] left-[55px] top-[474px] w-[317px]" data-node-id="386:8535">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[16px] left-0 text-[14px] text-black top-0 whitespace-nowrap" data-node-id="386:8536" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Mật khẩu
+        </p>
+        <div className="absolute drop-shadow-[0px_4px_2px_rgba(0,0,0,0.25)] h-[42px] left-0 top-[23px] w-[317px]" data-node-id="386:8537">
+          <div className="absolute bg-white border border-black border-solid h-[42px] left-0 rounded-[10px] top-0 w-[317px]" data-node-id="386:8538" />
+          <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[16px] left-[13px] text-[#dadada] text-[14px] top-[13px] whitespace-nowrap" data-node-id="386:8539" style={{ fontVariationSettings: '"wdth" 100' }}>
+            *******
+          </p>
+        </div>
+      </div>
+      <div className="absolute h-[65px] left-[55px] top-[580px] w-[317px]" data-node-id="386:8540">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[16px] left-0 text-[14px] text-black top-0 whitespace-nowrap" data-node-id="386:8541" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Ngày sinh
+        </p>
+        <div className="absolute drop-shadow-[0px_4px_2px_rgba(0,0,0,0.25)] h-[42px] left-0 top-[23px] w-[317px]" data-node-id="386:8542">
+          <div className="absolute bg-white border border-black border-solid h-[42px] left-0 rounded-[10px] top-0 w-[317px]" data-node-id="386:8543" />
+          <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[16px] left-[15px] text-[#dadada] text-[14px] top-[13px] whitespace-nowrap" data-node-id="386:8544" style={{ fontVariationSettings: '"wdth" 100' }}>
+            30/10/2005
+          </p>
+          <CodeConnectSnippet data-node-id="386:8545">
+            {/* Material 3 Design Kit component */}
+            <ChevronBackward />
+          </CodeConnectSnippet>
+        </div>
+      </div>
+      <div className="absolute h-[65px] left-[55px] top-[686px] w-[317px]" data-node-id="386:8546">
+        <p className="[word-break:break-word] absolute font-['SF_Pro:Medium'] font-[510] leading-[16px] left-0 text-[14px] text-black top-0 whitespace-nowrap" data-node-id="386:8547" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Quốc gia
+        </p>
+        <div className="absolute drop-shadow-[0px_4px_2px_rgba(0,0,0,0.25)] h-[42px] left-0 top-[23px] w-[317px]" data-node-id="386:8548">
+          <div className="absolute bg-white border border-black border-solid h-[42px] left-0 rounded-[10px] top-0 w-[317px]" data-node-id="386:8549" />
+          <p className="[word-break:break-word] absolute font-['SF_Pro:Regular'] font-normal leading-[16px] left-[13px] text-[#dadada] text-[14px] top-[13px] whitespace-nowrap" data-node-id="386:8550" style={{ fontVariationSettings: '"wdth" 100' }}>
+            VietNam
+          </p>
+          <CodeConnectSnippet data-node-id="386:8551">
+            {/* Material 3 Design Kit component */}
+            <ChevronBackward />
+          </CodeConnectSnippet>
+        </div>
+      </div>
+      <button className="-translate-x-1/2 absolute block cursor-pointer h-[44px] left-[calc(50%-2.5px)] top-[809px] w-[271px]" data-node-id="386:8552">
+        <div className="absolute bg-[#147cc1] h-[44px] left-0 rounded-[10px] top-0 w-[271px]" data-node-id="386:8553" />
+        <p className="[word-break:break-word] absolute font-[family-name:var(--sds-typography-body-font-family,'Inter:Bold')] font-bold leading-none left-[86px] not-italic text-[length:var(--sds-typography-body-size-medium,16px)] text-left text-white top-[14px] w-[99px]" data-node-id="386:8554">
+          Lưu thay đổi
+        </p>
+      </button>
+      <CodeConnectSnippet data-node-id="386:8555" data-name="chevron_backward">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: M3/white: #FFFFFF, M3/sys/light/on-surface: #1D1B20, M3/black: #000000.
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

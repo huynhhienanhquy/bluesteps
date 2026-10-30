@@ -1,0 +1,327 @@
+{
+  "version": "0.2.0",
+  "authOwner": "Python",
+  "schema": "app_private",
+  "clientDataApiEnabled": false,
+  "runtimeRlsModel": "Runtime-role policies plus mandatory Python object authorization; auth.uid() is not automatically populated by psycopg.",
+  "requiredMigrationArtifacts": [
+    "schema and runtime roles",
+    "current + default table/sequence/function grants",
+    "RLS policy allowlist per runtime table/action",
+    "role-based positive and negative integration tests",
+    "Data API exposed-schema configuration proof"
+  ],
+  "cases": [
+    {
+      "role": "PUBLIC",
+      "resource": "app_private schema",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants",
+      "executionMethod": "Inspect PUBLIC ACL/default privileges; PUBLIC is a pseudo-role, not a login/SET ROLE target."
+    },
+    {
+      "role": "PUBLIC",
+      "resource": "wallets",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants",
+      "executionMethod": "Inspect PUBLIC ACL/default privileges; PUBLIC is a pseudo-role, not a login/SET ROLE target."
+    },
+    {
+      "role": "PUBLIC",
+      "resource": "point_ledger",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants",
+      "executionMethod": "Inspect PUBLIC ACL/default privileges; PUBLIC is a pseudo-role, not a login/SET ROLE target."
+    },
+    {
+      "role": "PUBLIC",
+      "resource": "event_occurrences",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants",
+      "executionMethod": "Inspect PUBLIC ACL/default privileges; PUBLIC is a pseudo-role, not a login/SET ROLE target."
+    },
+    {
+      "role": "PUBLIC",
+      "resource": "sessions",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants",
+      "executionMethod": "Inspect PUBLIC ACL/default privileges; PUBLIC is a pseudo-role, not a login/SET ROLE target."
+    },
+    {
+      "role": "PUBLIC",
+      "resource": "privileged SQL functions",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants",
+      "executionMethod": "Inspect PUBLIC ACL/default privileges; PUBLIC is a pseudo-role, not a login/SET ROLE target."
+    },
+    {
+      "role": "anon",
+      "resource": "app_private schema",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "anon",
+      "resource": "wallets",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "anon",
+      "resource": "point_ledger",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "anon",
+      "resource": "event_occurrences",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "anon",
+      "resource": "sessions",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "anon",
+      "resource": "privileged SQL functions",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "authenticated",
+      "resource": "app_private schema",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "authenticated",
+      "resource": "wallets",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "authenticated",
+      "resource": "point_ledger",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "authenticated",
+      "resource": "event_occurrences",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "authenticated",
+      "resource": "sessions",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "authenticated",
+      "resource": "privileged SQL functions",
+      "action": "access_or_execute",
+      "expected": "deny",
+      "layer": "db_grants_and_rls",
+      "reason": "No direct client data path; revoke current and default grants"
+    },
+    {
+      "role": "app_api",
+      "resource": "schema/table/role ownership",
+      "action": "DDL_or_grant",
+      "expected": "deny",
+      "layer": "database",
+      "reason": "Runtime is not owner, superuser or BYPASSRLS"
+    },
+    {
+      "role": "app_api",
+      "resource": "point_ledger",
+      "action": "UPDATE_or_DELETE",
+      "expected": "deny",
+      "layer": "database",
+      "reason": "Append-only ledger; compensation is new entry"
+    },
+    {
+      "role": "app_worker",
+      "resource": "schema/table/role ownership",
+      "action": "DDL_or_grant",
+      "expected": "deny",
+      "layer": "database",
+      "reason": "Runtime is not owner, superuser or BYPASSRLS"
+    },
+    {
+      "role": "app_worker",
+      "resource": "point_ledger",
+      "action": "UPDATE_or_DELETE",
+      "expected": "deny",
+      "layer": "database",
+      "reason": "Append-only ledger; compensation is new entry"
+    },
+    {
+      "role": "member_owner",
+      "resource": "read_own_profile",
+      "action": "HTTP",
+      "expected": "allow",
+      "layer": "Python_service",
+      "reason": "Actor from verified active session"
+    },
+    {
+      "role": "member_other",
+      "resource": "read_own_profile",
+      "action": "HTTP",
+      "expected": "404",
+      "layer": "Python_service",
+      "reason": "No existence or PII leakage"
+    },
+    {
+      "role": "member_owner",
+      "resource": "read_own_scan",
+      "action": "HTTP",
+      "expected": "allow",
+      "layer": "Python_service",
+      "reason": "Actor from verified active session"
+    },
+    {
+      "role": "member_other",
+      "resource": "read_own_scan",
+      "action": "HTTP",
+      "expected": "404",
+      "layer": "Python_service",
+      "reason": "No existence or PII leakage"
+    },
+    {
+      "role": "member_owner",
+      "resource": "read_own_session",
+      "action": "HTTP",
+      "expected": "allow",
+      "layer": "Python_service",
+      "reason": "Actor from verified active session"
+    },
+    {
+      "role": "member_other",
+      "resource": "read_own_session",
+      "action": "HTTP",
+      "expected": "404",
+      "layer": "Python_service",
+      "reason": "No existence or PII leakage"
+    },
+    {
+      "role": "member_owner",
+      "resource": "read_own_wallet",
+      "action": "HTTP",
+      "expected": "allow",
+      "layer": "Python_service",
+      "reason": "Actor from verified active session"
+    },
+    {
+      "role": "member_other",
+      "resource": "read_own_wallet",
+      "action": "HTTP",
+      "expected": "404",
+      "layer": "Python_service",
+      "reason": "No existence or PII leakage"
+    },
+    {
+      "role": "scoped_operator",
+      "resource": "point_review",
+      "action": "command",
+      "expected": "allow",
+      "layer": "Python_scope_check",
+      "reason": "Correct point/event/operator assignment"
+    },
+    {
+      "role": "unscoped_operator",
+      "resource": "point_review",
+      "action": "command",
+      "expected": "403",
+      "layer": "Python_scope_check",
+      "reason": "Role name alone is insufficient"
+    },
+    {
+      "role": "scoped_operator",
+      "resource": "event_checkin",
+      "action": "command",
+      "expected": "allow",
+      "layer": "Python_scope_check",
+      "reason": "Correct point/event/operator assignment"
+    },
+    {
+      "role": "unscoped_operator",
+      "resource": "event_checkin",
+      "action": "command",
+      "expected": "403",
+      "layer": "Python_scope_check",
+      "reason": "Role name alone is insufficient"
+    },
+    {
+      "role": "scoped_operator",
+      "resource": "redemption_fulfillment",
+      "action": "command",
+      "expected": "allow",
+      "layer": "Python_scope_check",
+      "reason": "Correct point/event/operator assignment"
+    },
+    {
+      "role": "unscoped_operator",
+      "resource": "redemption_fulfillment",
+      "action": "command",
+      "expected": "403",
+      "layer": "Python_scope_check",
+      "reason": "Role name alone is insufficient"
+    },
+    {
+      "role": "revoked_session",
+      "resource": "all protected operations",
+      "action": "HTTP_or_WS",
+      "expected": "401",
+      "layer": "Python_identity",
+      "reason": "DB/session state checked, not only JWT signature"
+    },
+    {
+      "role": "app_migrator",
+      "resource": "app_private DDL",
+      "action": "migration",
+      "expected": "allow",
+      "layer": "deployment",
+      "reason": "Only isolated migration job with distinct credentials"
+    }
+  ],
+  "note": "Design/acceptance matrix, not SQL already installed. Runtime allow grants must be added by capability migration; default deny before capability exists."
+}

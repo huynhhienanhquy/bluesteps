@@ -1,0 +1,177 @@
+{
+  "id": "386:14037",
+  "roles": {
+    "title": "386:14188",
+    "mask": "386:14171",
+    "panel": "386:14172",
+    "body": "386:14191",
+    "heading": "386:14193"
+  },
+  "panel": {
+    "id": "386:14172",
+    "x": 28,
+    "y": 198,
+    "w": 372,
+    "h": 464,
+    "radius": 25,
+    "color": "#f4f8f4",
+    "opacity": 1
+  },
+  "mask": {
+    "id": "386:14171",
+    "x": 0,
+    "y": 0,
+    "w": 428,
+    "h": 926,
+    "radius": 25,
+    "color": "#d9d9d9",
+    "opacity": 0.4000000059604645
+  },
+  "images": [
+    {
+      "id": "386:14174",
+      "source": "imgGroup2",
+      "x": 130,
+      "y": 233,
+      "w": 41.9996223449707,
+      "h": 38.999488830566406,
+      "rotation": 0,
+      "flipY": false,
+      "crop": null,
+      "radius": 0,
+      "render": {
+        "x": 129.75,
+        "y": 232.75,
+        "w": 42.5,
+        "h": 39.249488830566406
+      }
+    },
+    {
+      "id": "386:14189",
+      "source": "imgTime2",
+      "x": 206.82838439941406,
+      "y": 281,
+      "w": 13.171615600585938,
+      "h": 7.585784912109375,
+      "rotation": 180,
+      "flipY": true,
+      "crop": null,
+      "radius": 0,
+      "render": {
+        "x": 206.828125,
+        "y": 281,
+        "w": 13.171875,
+        "h": 7.5859375
+      }
+    },
+    {
+      "id": "386:14192",
+      "source": "imgVector717",
+      "x": 46.7499998251551,
+      "y": 560.2499997486593,
+      "w": 8,
+      "h": 11.5,
+      "rotation": -90.00000250447808,
+      "flipY": false,
+      "crop": null,
+      "radius": 0,
+      "render": {
+        "x": 44,
+        "y": 561,
+        "w": 13.5,
+        "h": 10
+      }
+    }
+  ],
+  "texts": [
+    {
+      "id": "386:14188",
+      "text": "Rác tái chế",
+      "x": 185,
+      "y": 240,
+      "w": 112,
+      "h": 24,
+      "size": 20,
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      },
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "spacing": {
+        "unit": "PERCENT",
+        "value": 3
+      },
+      "align": "left",
+      "paragraphSpacing": 0,
+      "color": "#555555"
+    },
+    {
+      "id": "386:14191",
+      "text": "Rửa sạch rác trước khi bỏ đi để tránh mùi và nấm mốc.\nPhân loại riêng theo chất liệu (nhựa, giấy, kim loại, thủy tinh).\nLàm khô, bó gọn hoặc nén lại để tiết kiệm diện tích.\nGửi đến các điểm thu gom, đổi rác lấy quà hoặc cửa hàng thu hồi tái chế.\nKhông vứt lẫn với rác ướt (rác thực phẩm) vì sẽ làm hỏng khả năng tái chế.\n\n     Ví dụ: Rửa chai nước suối, phơi khô rồi bỏ vào thùng rác tái chế.",
+      "x": 42,
+      "y": 335,
+      "w": 344,
+      "h": 260,
+      "size": 14,
+      "font": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "spacing": {
+        "unit": "PERCENT",
+        "value": 3
+      },
+      "align": "left",
+      "paragraphSpacing": 0,
+      "color": "#000000"
+    },
+    {
+      "id": "386:14193",
+      "text": "Cách xử lý:",
+      "x": 169,
+      "y": 307,
+      "w": 90,
+      "h": 19,
+      "size": 16,
+      "font": {
+        "family": "Inter",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500,
+          "slnt": 0
+        }
+      },
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "spacing": {
+        "unit": "PERCENT",
+        "value": 3
+      },
+      "align": "left",
+      "paragraphSpacing": 0,
+      "color": "#000000"
+    }
+  ],
+  "back": {
+    "id": "386:14167",
+    "x": 20,
+    "y": 64,
+    "w": 30,
+    "h": 30
+  }
+}

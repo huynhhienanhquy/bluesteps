@@ -1,0 +1,1722 @@
+{
+  "bytes": 16659,
+  "screens": [
+    {
+      "id": "386:8930",
+      "name": "Chat",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "GROUP": 19,
+        "RECTANGLE": 11,
+        "ELLIPSE": 5,
+        "TEXT": 11,
+        "INSTANCE": 5,
+        "VECTOR": 14,
+        "BOOLEAN_OPERATION": 2
+      },
+      "texts": [
+        "RecycleBot",
+        "Tôi có thể giúp gì cho bạn ",
+        "Chào bạn! Mình là RecycleBot,mình có thể giúp gì cho bạn vậy ?",
+        "Một ngày thế giới phải gánh chịu 11 tấn \nrác thải từ nhiều loại khác nhau",
+        "Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?",
+        "Một ngày thế giới phải gánh chịu 11 tấn \nrác thải từ nhiều loại khác nhau",
+        "Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?",
+        "Phân loại rác thải nhựa thế nào ?",
+        "phân loại rác nhựa",
+        "xử lý pin củ",
+        "rác nguy hại"
+      ],
+      "parts": [
+        [
+          "386:8930",
+          "Chat",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8931",
+          "Group 37209",
+          428,
+          123,
+          null
+        ],
+        [
+          "386:8933",
+          "logo",
+          174,
+          50,
+          null
+        ],
+        [
+          "386:8937",
+          "OUT",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:8938",
+          "send",
+          396.5675048828125,
+          44,
+          null
+        ],
+        [
+          "386:8940",
+          "btn send",
+          45.161373138427734,
+          43,
+          null
+        ],
+        [
+          "386:8944",
+          "Group 37208",
+          44,
+          44,
+          null
+        ],
+        [
+          "386:8947",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:8950",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:8953",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:8956",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:8959",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:8962",
+          "message",
+          306,
+          34,
+          null
+        ],
+        [
+          "386:8965",
+          "Group 37115",
+          397,
+          36,
+          null
+        ],
+        [
+          "386:8966",
+          "Group 37112",
+          155,
+          36,
+          null
+        ],
+        [
+          "386:8969",
+          "Group 37113",
+          110,
+          36,
+          null
+        ],
+        [
+          "386:8972",
+          "Group 37114",
+          110,
+          36,
+          null
+        ],
+        [
+          "386:8975",
+          "time",
+          415,
+          33.18166732788086,
+          null
+        ],
+        [
+          "386:8976",
+          "iPhone/Status Bar",
+          415,
+          33.18166732788086,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "OUT": 1,
+        "X": 1,
+        "Send": 1,
+        "Mic": 1,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8937",
+          "name": "OUT",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:8946",
+          "name": "Mic",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17222",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17222",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8977",
+      "name": "chat2",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 13,
+        "GROUP": 25,
+        "ELLIPSE": 5,
+        "TEXT": 11,
+        "INSTANCE": 6,
+        "VECTOR": 14,
+        "LINE": 38,
+        "POLYGON": 1,
+        "BOOLEAN_OPERATION": 2
+      },
+      "texts": [
+        "RecycleBot",
+        "Tôi có thể giúp gì cho bạn ",
+        "Chào bạn! Mình là RecycleBot,mình có thể giúp gì cho bạn vậy ?",
+        "Một ngày thế giới phải gánh chịu 11 tấn \nrác thải từ nhiều loại khác nhau",
+        "Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?",
+        "Một ngày thế giới phải gánh chịu 11 tấn \nrác thải từ nhiều loại khác nhau",
+        "Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?",
+        "Phân loại rác thải nhựa thế nào ?",
+        "phân loại rác nhựa",
+        "xử lý pin củ",
+        "rác nguy hại"
+      ],
+      "parts": [
+        [
+          "386:8977",
+          "chat2",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:8979",
+          "logo",
+          174,
+          50,
+          null
+        ],
+        [
+          "386:8983",
+          "OUT",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "I386:8983;2542:1140",
+          "X",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "386:8984",
+          "send",
+          396.5675048828125,
+          44,
+          null
+        ],
+        [
+          "386:8986",
+          "btn send",
+          45.161373138427734,
+          43,
+          null
+        ],
+        [
+          "386:8990",
+          "Group 37211",
+          44,
+          44,
+          null
+        ],
+        [
+          "386:8993",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:8996",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:8999",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:9002",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:9005",
+          "message",
+          306,
+          47,
+          null
+        ],
+        [
+          "386:9008",
+          "message",
+          306,
+          34,
+          null
+        ],
+        [
+          "386:9011",
+          "Group 37115",
+          397,
+          36,
+          null
+        ],
+        [
+          "386:9012",
+          "Group 37112",
+          155,
+          36,
+          null
+        ],
+        [
+          "386:9015",
+          "Group 37113",
+          110,
+          36,
+          null
+        ],
+        [
+          "386:9018",
+          "Group 37114",
+          110,
+          36,
+          null
+        ],
+        [
+          "386:9021",
+          "audio",
+          289,
+          45,
+          null
+        ],
+        [
+          "386:9023",
+          "Mask group",
+          150,
+          35,
+          null
+        ],
+        [
+          "386:9050",
+          "Mask group",
+          84,
+          27.5,
+          null
+        ],
+        [
+          "386:9066",
+          "Polygon 7",
+          23.54669952392578,
+          26.686260223388672,
+          "NONE"
+        ],
+        [
+          "386:9067",
+          "time",
+          415,
+          49,
+          null
+        ],
+        [
+          "386:9068",
+          "Group 2",
+          415,
+          49,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "OUT": 1,
+        "X": 1,
+        "Send": 1,
+        "Mic": 1,
+        "Polygon 7": 1,
+        "iPhone/Status Bar": 1
+      },
+      "reactions": [
+        {
+          "id": "386:8983",
+          "name": "OUT",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:8992",
+          "name": "Mic",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17222",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17222",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9066",
+          "name": "Polygon 7",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9071",
+                "overlayRelativePosition": {
+                  "x": -256,
+                  "y": -9.313884735107422
+                },
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9071",
+                  "overlayRelativePosition": {
+                    "x": -256,
+                    "y": -9.313884735107422
+                  },
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9071",
+      "name": "Frame 36844",
+      "type": "FRAME",
+      "w": 289,
+      "h": 45,
+      "types": {
+        "FRAME": 1,
+        "GROUP": 3,
+        "RECTANGLE": 1,
+        "LINE": 38,
+        "INSTANCE": 2,
+        "VECTOR": 1
+      },
+      "texts": [],
+      "parts": [
+        [
+          "386:9071",
+          "Frame 36844",
+          289,
+          45,
+          "NONE"
+        ],
+        [
+          "386:9072",
+          "Mask group",
+          150,
+          35,
+          null
+        ],
+        [
+          "386:9074",
+          "audio",
+          144,
+          27.5,
+          null
+        ],
+        [
+          "386:9099",
+          "audio",
+          84,
+          27.6357421875,
+          null
+        ],
+        [
+          "386:9114",
+          "pause",
+          24,
+          24,
+          "NONE"
+        ],
+        [
+          "I386:9114;306:4473",
+          "pause",
+          24,
+          24,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "pause": 2
+      },
+      "reactions": [
+        {
+          "id": "386:9114",
+          "name": "pause",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9115",
+      "name": "Frame 36836",
+      "type": "FRAME",
+      "w": 428,
+      "h": 481,
+      "types": {
+        "FRAME": 1,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "GROUP": 2,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:9115",
+          "Frame 36836",
+          428,
+          481,
+          "NONE"
+        ],
+        [
+          "386:9120",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:9122",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:9125",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:9127",
+          "audio",
+          149,
+          42,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:9122",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9124",
+          "name": "Stop",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9125",
+          "name": "Mask group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9228",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9228",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.20000000298023224
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9152",
+      "name": "Frame 36843",
+      "type": "FRAME",
+      "w": 428,
+      "h": 481,
+      "types": {
+        "FRAME": 1,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "GROUP": 4,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:9152",
+          "Frame 36843",
+          428,
+          481,
+          "NONE"
+        ],
+        [
+          "386:9157",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:9159",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:9162",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:9164",
+          "audio",
+          149,
+          42,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:9154",
+          "name": "Rectangle 1101",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9115",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9115",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9155",
+          "name": "Rectangle 1102",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17222",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17222",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.3
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.3
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9159",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9191",
+      "name": "Frame 36838",
+      "type": "FRAME",
+      "w": 428,
+      "h": 481,
+      "types": {
+        "FRAME": 1,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "GROUP": 2,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:9191",
+          "Frame 36838",
+          428,
+          481,
+          "NONE"
+        ],
+        [
+          "386:9196",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:9198",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:9201",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:9203",
+          "audio",
+          152,
+          31,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:9194",
+          "name": "Rectangle 1102",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9198",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9201",
+          "name": "Mask group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9265",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9265",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.20000000298023224
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9228",
+      "name": "Frame 36837",
+      "type": "FRAME",
+      "w": 428,
+      "h": 481,
+      "types": {
+        "FRAME": 1,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "GROUP": 2,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:9228",
+          "Frame 36837",
+          428,
+          481,
+          "NONE"
+        ],
+        [
+          "386:9233",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:9235",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:9238",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:9240",
+          "audio",
+          144,
+          33,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:9231",
+          "name": "Rectangle 1102",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9235",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9238",
+          "name": "Mask group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9191",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9191",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.20000000298023224
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9265",
+      "name": "Frame 36840",
+      "type": "FRAME",
+      "w": 428,
+      "h": 481,
+      "types": {
+        "FRAME": 1,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "GROUP": 2,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:9265",
+          "Frame 36840",
+          428,
+          481,
+          "NONE"
+        ],
+        [
+          "386:9270",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:9272",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:9275",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:9277",
+          "audio",
+          149,
+          42,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:9268",
+          "name": "Rectangle 1102",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9272",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9275",
+          "name": "Mask group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9302",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9302",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.4000000059604645
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9302",
+      "name": "Frame 36841",
+      "type": "FRAME",
+      "w": 428,
+      "h": 481,
+      "types": {
+        "FRAME": 1,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "GROUP": 2,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:9302",
+          "Frame 36841",
+          428,
+          481,
+          "NONE"
+        ],
+        [
+          "386:9307",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:9309",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:9312",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:9314",
+          "audio",
+          152,
+          31,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:9305",
+          "name": "Rectangle 1102",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9309",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9312",
+          "name": "Mask group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9339",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9339",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.20000000298023224
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9339",
+      "name": "Frame 36842",
+      "type": "FRAME",
+      "w": 428,
+      "h": 481,
+      "types": {
+        "FRAME": 1,
+        "ELLIPSE": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "GROUP": 2,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:9339",
+          "Frame 36842",
+          428,
+          481,
+          "NONE"
+        ],
+        [
+          "386:9344",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:9346",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:9349",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:9351",
+          "audio",
+          144,
+          33,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:9342",
+          "name": "Rectangle 1102",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8977",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9346",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:9349",
+          "name": "Mask group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9115",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9115",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.20000000298023224
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

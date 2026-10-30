@@ -1,0 +1,1980 @@
+{
+  "reviewDate": "2026-10-29",
+  "scope": {
+    "pageId": "386:7053",
+    "otherPagesExcluded": true
+  },
+  "verdict": "ready_to_start_gated_packets_not_production_ready",
+  "epicCount": 48,
+  "implementationReadyEpicCount": 0,
+  "capabilityCount": 90,
+  "packetCount": 270,
+  "readyTaskIds": [
+    "DECISIONS-SPEC",
+    "CONTRACTS-SPEC",
+    "API-BASE-BUILD",
+    "DB-HARNESS-SPEC",
+    "MOBILE-BASE-SPEC"
+  ],
+  "nextPacket": {
+    "id": "API-BASE-BUILD",
+    "path": "agent-packets/generated/API-BASE-BUILD.md",
+    "specificationStatus": "specified_design",
+    "executionStatus": "not_started",
+    "requires": "Request to implement; inspect workspace/toolchain and run scoped checks. Current task updates plan only."
+  },
+  "openContractIssueIds": [
+    "CI-002"
+  ],
+  "unresolvedConditionalScopeEpics": [
+    "S08",
+    "G03"
+  ],
+  "runtimeEvidence": "No implementation/provider/DB execution performed by plan generation",
+  "epics": [
+    {
+      "id": "D01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [],
+      "prerequisiteEpics": [],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "DECISIONS-SPEC",
+        "DECISIONS-BUILD",
+        "DECISIONS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "D02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:14220",
+        "386:15045",
+        "386:16187",
+        "386:17294",
+        "386:17297",
+        "386:18471",
+        "386:18472",
+        "386:18473",
+        "386:18958",
+        "386:18959",
+        "386:18960",
+        "386:8556",
+        "386:8557"
+      ],
+      "prerequisiteEpics": [
+        "D01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "UI-SPEC-SPEC",
+        "UI-SPEC-BUILD",
+        "UI-SPEC-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "D03",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [],
+      "prerequisiteEpics": [
+        "D01",
+        "F01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "CONTRACTS-SPEC",
+        "CONTRACTS-BUILD",
+        "CONTRACTS-VERIFY",
+        "CI-BASE-SPEC",
+        "CI-BASE-BUILD",
+        "CI-BASE-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "D04",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [],
+      "prerequisiteEpics": [
+        "F01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "DB-SPIKE-SPEC",
+        "DB-SPIKE-BUILD",
+        "DB-SPIKE-VERIFY",
+        "NATIVE-SPIKE-SPEC",
+        "NATIVE-SPIKE-BUILD",
+        "NATIVE-SPIKE-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "F01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [],
+      "prerequisiteEpics": [],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "API-BASE-SPEC",
+        "API-BASE-BUILD",
+        "API-BASE-VERIFY",
+        "DB-HARNESS-SPEC",
+        "DB-HARNESS-BUILD",
+        "DB-HARNESS-VERIFY",
+        "DB-ACCESS-SPEC",
+        "DB-ACCESS-BUILD",
+        "DB-ACCESS-VERIFY",
+        "OUTBOX-SPEC",
+        "OUTBOX-BUILD",
+        "OUTBOX-VERIFY",
+        "QUEUE-SPEC",
+        "QUEUE-BUILD",
+        "QUEUE-VERIFY",
+        "SOCKET-BASE-SPEC",
+        "SOCKET-BASE-BUILD",
+        "SOCKET-BASE-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "F02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:8558",
+        "391:25197"
+      ],
+      "prerequisiteEpics": [
+        "D02",
+        "F01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "MOBILE-BASE-SPEC",
+        "MOBILE-BASE-BUILD",
+        "MOBILE-BASE-VERIFY",
+        "UI-PRIMITIVES-SPEC",
+        "UI-PRIMITIVES-BUILD",
+        "UI-PRIMITIVES-VERIFY",
+        "NAVIGATION-SPEC",
+        "NAVIGATION-BUILD",
+        "NAVIGATION-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "F03",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:7184",
+        "386:7225",
+        "386:7266",
+        "386:7307",
+        "386:7348",
+        "386:7390"
+      ],
+      "prerequisiteEpics": [
+        "D03",
+        "F01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "AUTH-DATA-SPEC",
+        "AUTH-DATA-BUILD",
+        "AUTH-DATA-VERIFY",
+        "AUTH-TOKENS-SPEC",
+        "AUTH-TOKENS-BUILD",
+        "AUTH-TOKENS-VERIFY",
+        "AUTH-RECOVERY-SPEC",
+        "AUTH-RECOVERY-BUILD",
+        "AUTH-RECOVERY-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "F04",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:7184",
+        "386:7225",
+        "386:7266",
+        "386:7307",
+        "386:7348",
+        "386:7390"
+      ],
+      "prerequisiteEpics": [
+        "F03",
+        "D04"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "OAUTH-GOOGLE-SPEC",
+        "OAUTH-GOOGLE-BUILD",
+        "OAUTH-GOOGLE-VERIFY",
+        "OAUTH-FACEBOOK-SPEC",
+        "OAUTH-FACEBOOK-BUILD",
+        "OAUTH-FACEBOOK-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "F05",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:7148",
+        "386:7149",
+        "386:7151",
+        "386:7154",
+        "386:7156",
+        "386:7158",
+        "386:7160",
+        "386:7168",
+        "386:7176",
+        "386:7418"
+      ],
+      "prerequisiteEpics": [
+        "F02",
+        "F03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "ONBOARD-INTRO-SPEC",
+        "ONBOARD-INTRO-BUILD",
+        "ONBOARD-INTRO-VERIFY",
+        "ONBOARD-PREFS-SPEC",
+        "ONBOARD-PREFS-BUILD",
+        "ONBOARD-PREFS-VERIFY",
+        "ONBOARD-PERM-SPEC",
+        "ONBOARD-PERM-BUILD",
+        "ONBOARD-PERM-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "F06",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:7420",
+        "386:8451",
+        "386:8516",
+        "514:5093",
+        "514:5096",
+        "514:5099",
+        "514:5102",
+        "521:4735"
+      ],
+      "prerequisiteEpics": [
+        "F02",
+        "F03",
+        "C03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "PROFILE-SPEC",
+        "PROFILE-BUILD",
+        "PROFILE-VERIFY",
+        "EMAIL-CHANGE-SPEC",
+        "EMAIL-CHANGE-BUILD",
+        "EMAIL-CHANGE-VERIFY",
+        "SETTINGS-SPEC",
+        "SETTINGS-BUILD",
+        "SETTINGS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:13263",
+        "386:13313",
+        "386:13364",
+        "386:13593",
+        "386:13685",
+        "386:13782",
+        "386:13838",
+        "386:13929",
+        "386:14037",
+        "386:14454",
+        "386:14521",
+        "386:14595",
+        "386:14670",
+        "386:14745",
+        "386:14820",
+        "386:14895",
+        "386:14970",
+        "386:16931",
+        "386:17005",
+        "386:17077",
+        "386:17145"
+      ],
+      "prerequisiteEpics": [
+        "D03",
+        "F01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "TAXONOMY-SPEC",
+        "TAXONOMY-BUILD",
+        "TAXONOMY-VERIFY",
+        "CONTENT-ADMIN-SPEC",
+        "CONTENT-ADMIN-BUILD",
+        "CONTENT-ADMIN-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:13263",
+        "386:13313",
+        "386:13364",
+        "386:13593",
+        "386:13685",
+        "386:13782",
+        "386:13838",
+        "386:13929",
+        "386:14037",
+        "386:14454",
+        "386:14521",
+        "386:14595",
+        "386:14670",
+        "386:14745",
+        "386:14820",
+        "386:14895",
+        "386:14970",
+        "386:16931",
+        "386:17005",
+        "386:17077",
+        "386:17145"
+      ],
+      "prerequisiteEpics": [
+        "C01",
+        "F02"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "HANDBOOK-LIST-SPEC",
+        "HANDBOOK-LIST-BUILD",
+        "HANDBOOK-LIST-VERIFY",
+        "HANDBOOK-DETAIL-SPEC",
+        "HANDBOOK-DETAIL-BUILD",
+        "HANDBOOK-DETAIL-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C03",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC24"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:14194",
+        "386:14221",
+        "386:14241",
+        "386:14264",
+        "386:14309",
+        "386:14346",
+        "386:14379",
+        "386:16189",
+        "386:16218"
+      ],
+      "prerequisiteEpics": [
+        "F03",
+        "D04"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "MEDIA-SPEC",
+        "MEDIA-BUILD",
+        "MEDIA-VERIFY",
+        "MEDIA-JOBS-SPEC",
+        "MEDIA-JOBS-BUILD",
+        "MEDIA-JOBS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C04",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:14194",
+        "386:14221",
+        "386:14241",
+        "386:14264",
+        "386:14309",
+        "386:14346",
+        "386:14379",
+        "386:16189",
+        "386:16218"
+      ],
+      "prerequisiteEpics": [
+        "C02",
+        "C03",
+        "D04"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "SCAN-CAMERA-SPEC",
+        "SCAN-CAMERA-BUILD",
+        "SCAN-CAMERA-VERIFY",
+        "SCAN-JOB-SPEC",
+        "SCAN-JOB-BUILD",
+        "SCAN-JOB-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C05",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC05",
+        "DEC06"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:11010",
+        "386:11320",
+        "386:11451",
+        "386:11652",
+        "386:11858",
+        "386:12071",
+        "386:12194",
+        "386:12284",
+        "386:12362",
+        "386:12517",
+        "386:12671",
+        "386:12823",
+        "386:12956",
+        "386:13109",
+        "386:14194",
+        "386:14221",
+        "386:14241",
+        "386:14264",
+        "386:14309",
+        "386:14346",
+        "386:14379",
+        "386:16189",
+        "386:16218",
+        "386:16253",
+        "386:16592",
+        "386:7550"
+      ],
+      "prerequisiteEpics": [
+        "C04",
+        "F03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "SORT-ACTION-SPEC",
+        "SORT-ACTION-BUILD",
+        "SORT-ACTION-VERIFY",
+        "POINT-EARN-SPEC",
+        "POINT-EARN-BUILD",
+        "POINT-EARN-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C06",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10186",
+        "386:18479",
+        "386:18563",
+        "386:18677",
+        "386:8569",
+        "386:8633",
+        "534:48401",
+        "534:48505",
+        "534:48595",
+        "534:48690"
+      ],
+      "prerequisiteEpics": [
+        "C01",
+        "D04"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "POINTS-DATA-SPEC",
+        "POINTS-DATA-BUILD",
+        "POINTS-DATA-VERIFY",
+        "POINTS-GEO-SPEC",
+        "POINTS-GEO-BUILD",
+        "POINTS-GEO-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C07",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10186",
+        "386:18479",
+        "386:18563",
+        "386:18677",
+        "386:8569",
+        "386:8633",
+        "534:48401",
+        "534:48505",
+        "534:48595",
+        "534:48690"
+      ],
+      "prerequisiteEpics": [
+        "C06",
+        "F02"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "MAP-UI-SPEC",
+        "MAP-UI-BUILD",
+        "MAP-UI-VERIFY",
+        "MAP-FILTER-SPEC",
+        "MAP-FILTER-BUILD",
+        "MAP-FILTER-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "C08",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:8558",
+        "391:25009",
+        "391:25197"
+      ],
+      "prerequisiteEpics": [
+        "C02",
+        "C05",
+        "C07"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "HOME-SPEC",
+        "HOME-BUILD",
+        "HOME-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "R01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC06"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:11010",
+        "386:11320",
+        "386:11451",
+        "386:11652",
+        "386:11858",
+        "386:12071",
+        "386:12194",
+        "386:12284",
+        "386:12362",
+        "386:12517",
+        "386:12671",
+        "386:12823",
+        "386:12956",
+        "386:13109",
+        "386:16253",
+        "386:16592",
+        "386:7550"
+      ],
+      "prerequisiteEpics": [
+        "C05"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "WALLET-READ-SPEC",
+        "WALLET-READ-BUILD",
+        "WALLET-READ-VERIFY",
+        "LEVELS-SPEC",
+        "LEVELS-BUILD",
+        "LEVELS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "R02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC07",
+        "DEC16"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:11010",
+        "386:11320",
+        "386:11451",
+        "386:11652",
+        "386:11858",
+        "386:12071",
+        "386:12194",
+        "386:12284",
+        "386:12362",
+        "386:12517",
+        "386:12671",
+        "386:12823",
+        "386:12956",
+        "386:13109",
+        "386:16253",
+        "386:16592",
+        "386:7550"
+      ],
+      "prerequisiteEpics": [
+        "R01",
+        "N01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "DAILY-CLAIM-SPEC",
+        "DAILY-CLAIM-BUILD",
+        "DAILY-CLAIM-VERIFY",
+        "DAILY-REMINDER-SPEC",
+        "DAILY-REMINDER-BUILD",
+        "DAILY-REMINDER-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "R03",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:11010",
+        "386:11320",
+        "386:11451",
+        "386:11652",
+        "386:11858",
+        "386:12071",
+        "386:12194",
+        "386:12284",
+        "386:12362",
+        "386:12517",
+        "386:12671",
+        "386:12823",
+        "386:12956",
+        "386:13109",
+        "386:16253",
+        "386:16592",
+        "386:7550"
+      ],
+      "prerequisiteEpics": [
+        "R01",
+        "D03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "REWARD-CATALOG-SPEC",
+        "REWARD-CATALOG-BUILD",
+        "REWARD-CATALOG-VERIFY",
+        "REDEEM-ATOMIC-SPEC",
+        "REDEEM-ATOMIC-BUILD",
+        "REDEEM-ATOMIC-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "R04",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC08"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:11010",
+        "386:11320",
+        "386:11451",
+        "386:11652",
+        "386:11858",
+        "386:12071",
+        "386:12194",
+        "386:12284",
+        "386:12362",
+        "386:12517",
+        "386:12671",
+        "386:12823",
+        "386:12956",
+        "386:13109",
+        "386:16253",
+        "386:16592",
+        "386:7550"
+      ],
+      "prerequisiteEpics": [
+        "R03",
+        "N01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "FULFILL-SPEC",
+        "FULFILL-BUILD",
+        "FULFILL-VERIFY",
+        "REFUND-SPEC",
+        "REFUND-BUILD",
+        "REFUND-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "R05",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10186",
+        "386:18479",
+        "386:18563",
+        "386:18677",
+        "386:8569",
+        "386:8633",
+        "534:48401",
+        "534:48505",
+        "534:48595",
+        "534:48690"
+      ],
+      "prerequisiteEpics": [
+        "C03",
+        "C06",
+        "C07"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "PROPOSAL-SPEC",
+        "PROPOSAL-BUILD",
+        "PROPOSAL-VERIFY",
+        "POINT-REPORT-SPEC",
+        "POINT-REPORT-BUILD",
+        "POINT-REPORT-VERIFY",
+        "MODERATION-SPEC",
+        "MODERATION-BUILD",
+        "MODERATION-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "R06",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10136",
+        "386:10279",
+        "386:10351",
+        "386:18627",
+        "386:18770",
+        "386:18842",
+        "534:48774",
+        "534:48869",
+        "534:48955"
+      ],
+      "prerequisiteEpics": [
+        "C07",
+        "D04"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "ROUTE-PREVIEW-SPEC",
+        "ROUTE-PREVIEW-BUILD",
+        "ROUTE-PREVIEW-VERIFY",
+        "ROUTE-EDIT-SPEC",
+        "ROUTE-EDIT-BUILD",
+        "ROUTE-EDIT-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "R07",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC05",
+        "DEC11"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10136",
+        "386:10279",
+        "386:10351",
+        "386:18627",
+        "386:18770",
+        "386:18842",
+        "534:48774",
+        "534:48869",
+        "534:48955"
+      ],
+      "prerequisiteEpics": [
+        "R06",
+        "R05",
+        "C05"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "HANDOVER-SPEC",
+        "HANDOVER-BUILD",
+        "HANDOVER-VERIFY",
+        "HANDOVER-VERIFY-SPEC",
+        "HANDOVER-VERIFY-BUILD",
+        "HANDOVER-VERIFY-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "N01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:12064",
+        "386:18153",
+        "386:7913",
+        "386:8003",
+        "386:8228",
+        "386:8311",
+        "386:8380"
+      ],
+      "prerequisiteEpics": [
+        "F03",
+        "F01",
+        "D04"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "NOTIFY-INBOX-SPEC",
+        "NOTIFY-INBOX-BUILD",
+        "NOTIFY-INBOX-VERIFY",
+        "NOTIFY-DELIVERY-SPEC",
+        "NOTIFY-DELIVERY-BUILD",
+        "NOTIFY-DELIVERY-VERIFY",
+        "PREFERENCES-REMIND-SPEC",
+        "PREFERENCES-REMIND-BUILD",
+        "PREFERENCES-REMIND-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "E01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10026",
+        "386:17299",
+        "386:17397",
+        "386:7054",
+        "386:9376",
+        "386:9470",
+        "386:9575",
+        "386:9681",
+        "534:49034",
+        "534:49166",
+        "534:49326",
+        "534:49416",
+        "534:49760"
+      ],
+      "prerequisiteEpics": [
+        "D03",
+        "C03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "EVENT-DATA-SPEC",
+        "EVENT-DATA-BUILD",
+        "EVENT-DATA-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "E02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10026",
+        "386:17299",
+        "386:17397",
+        "386:7054",
+        "386:9376",
+        "386:9470",
+        "386:9575",
+        "386:9681",
+        "534:49034",
+        "534:49166",
+        "534:49326",
+        "534:49416",
+        "534:49760"
+      ],
+      "prerequisiteEpics": [
+        "E01",
+        "F02",
+        "E05"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "EVENT-DISCOVERY-SPEC",
+        "EVENT-DISCOVERY-BUILD",
+        "EVENT-DISCOVERY-VERIFY",
+        "EVENT-CALENDAR-SPEC",
+        "EVENT-CALENDAR-BUILD",
+        "EVENT-CALENDAR-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "E03",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC13"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10026",
+        "386:17299",
+        "386:17397",
+        "386:7054",
+        "386:9376",
+        "386:9470",
+        "386:9575",
+        "386:9681",
+        "534:49034",
+        "534:49166",
+        "534:49326",
+        "534:49416",
+        "534:49760"
+      ],
+      "prerequisiteEpics": [
+        "E01",
+        "F03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "REGISTRATION-SPEC",
+        "REGISTRATION-BUILD",
+        "REGISTRATION-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "E04",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC13",
+        "DEC14"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10026",
+        "386:17299",
+        "386:17397",
+        "386:7054",
+        "386:9376",
+        "386:9470",
+        "386:9575",
+        "386:9681",
+        "534:49034",
+        "534:49166",
+        "534:49326",
+        "534:49416",
+        "534:49760"
+      ],
+      "prerequisiteEpics": [
+        "E03",
+        "N01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "TICKET-SPEC",
+        "TICKET-BUILD",
+        "TICKET-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "E05",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC16"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10122",
+        "386:10131",
+        "386:18069",
+        "534:49845",
+        "534:49968"
+      ],
+      "prerequisiteEpics": [
+        "E01",
+        "F02",
+        "N01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "SAVED-CORE-SPEC",
+        "SAVED-CORE-BUILD",
+        "SAVED-CORE-VERIFY",
+        "COLLECTIONS-SPEC",
+        "COLLECTIONS-BUILD",
+        "COLLECTIONS-VERIFY",
+        "EVENT-REMINDER-SPEC",
+        "EVENT-REMINDER-BUILD",
+        "EVENT-REMINDER-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "E06",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC24"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10026",
+        "386:17299",
+        "386:17397",
+        "386:7054",
+        "386:9376",
+        "386:9470",
+        "386:9575",
+        "386:9681",
+        "534:49034",
+        "534:49166",
+        "534:49326",
+        "534:49416",
+        "534:49760"
+      ],
+      "prerequisiteEpics": [
+        "E04",
+        "C03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "FEEDBACK-SPEC",
+        "FEEDBACK-BUILD",
+        "FEEDBACK-VERIFY",
+        "EVENT-ALBUM-SPEC",
+        "EVENT-ALBUM-BUILD",
+        "EVENT-ALBUM-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:10644",
+        "386:10737",
+        "386:10828",
+        "386:10919",
+        "386:17608",
+        "386:17701",
+        "386:17794",
+        "386:17887",
+        "386:17978",
+        "386:9787",
+        "386:9901",
+        "391:24796"
+      ],
+      "prerequisiteEpics": [
+        "C01",
+        "C03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "NEWS-SPEC",
+        "NEWS-BUILD",
+        "NEWS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC17"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:15047",
+        "386:15090",
+        "386:15150",
+        "386:15209",
+        "386:15270",
+        "386:15419",
+        "386:15552",
+        "386:15972",
+        "386:16071",
+        "386:16188",
+        "386:7647",
+        "386:7813"
+      ],
+      "prerequisiteEpics": [
+        "F03",
+        "D01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "SOCIAL-GRAPH-SPEC",
+        "SOCIAL-GRAPH-BUILD",
+        "SOCIAL-GRAPH-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S03",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:15047",
+        "386:15090",
+        "386:15150",
+        "386:15209",
+        "386:15270",
+        "386:15419",
+        "386:15552",
+        "386:15972",
+        "386:16071",
+        "386:16188",
+        "386:7647",
+        "386:7813"
+      ],
+      "prerequisiteEpics": [
+        "S02",
+        "C03"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "POSTS-SPEC",
+        "POSTS-BUILD",
+        "POSTS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S04",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:15047",
+        "386:15090",
+        "386:15150",
+        "386:15209",
+        "386:15270",
+        "386:15419",
+        "386:15552",
+        "386:15972",
+        "386:16071",
+        "386:16188",
+        "386:7647",
+        "386:7813"
+      ],
+      "prerequisiteEpics": [
+        "S03",
+        "N01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "SOCIAL-ACTIONS-SPEC",
+        "SOCIAL-ACTIONS-BUILD",
+        "SOCIAL-ACTIONS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S05",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC18"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:17262",
+        "386:8086",
+        "386:8151",
+        "386:8179"
+      ],
+      "prerequisiteEpics": [
+        "S02",
+        "C03",
+        "N01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "CHAT-DATA-SPEC",
+        "CHAT-DATA-BUILD",
+        "CHAT-DATA-VERIFY",
+        "CHAT-SOCKET-SPEC",
+        "CHAT-SOCKET-BUILD",
+        "CHAT-SOCKET-VERIFY",
+        "CHAT-MEDIA-SPEC",
+        "CHAT-MEDIA-BUILD",
+        "CHAT-MEDIA-VERIFY",
+        "MOOD-NOTES-SPEC",
+        "MOOD-NOTES-BUILD",
+        "MOOD-NOTES-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S06",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC19",
+        "DEC24"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:17222",
+        "386:8930",
+        "386:8977",
+        "386:9071",
+        "386:9115",
+        "386:9152",
+        "386:9191",
+        "386:9228",
+        "386:9265",
+        "386:9302",
+        "386:9339"
+      ],
+      "prerequisiteEpics": [
+        "C01",
+        "C03",
+        "D04"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "VOICE-SPEC",
+        "VOICE-BUILD",
+        "VOICE-VERIFY",
+        "BOT-SPEC",
+        "BOT-BUILD",
+        "BOT-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S07",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:17262",
+        "386:8086",
+        "386:8151",
+        "386:8179"
+      ],
+      "prerequisiteEpics": [
+        "S05",
+        "D01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "CALL-SPEC-SPEC",
+        "CALL-SPEC-BUILD",
+        "CALL-SPEC-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "S08",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC18",
+        "DEC25"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:17262",
+        "386:8086",
+        "386:8151",
+        "386:8179"
+      ],
+      "prerequisiteEpics": [
+        "S07"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "CALL-IMPLEMENT-SPEC",
+        "CALL-IMPLEMENT-BUILD",
+        "CALL-IMPLEMENT-VERIFY"
+      ],
+      "conditionalScope": "pending_explicit_disposition"
+    },
+    {
+      "id": "G01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:18241",
+        "386:18285",
+        "386:18308",
+        "386:18336",
+        "386:18364",
+        "386:18396",
+        "386:18428",
+        "427:19392",
+        "427:19460",
+        "487:19805"
+      ],
+      "prerequisiteEpics": [
+        "C01",
+        "R01",
+        "F01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "GAME-ENGINE-SPEC",
+        "GAME-ENGINE-BUILD",
+        "GAME-ENGINE-VERIFY",
+        "GAME-LOBBY-SPEC",
+        "GAME-LOBBY-BUILD",
+        "GAME-LOBBY-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "G02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:18241",
+        "386:18285",
+        "386:18308",
+        "386:18336",
+        "386:18364",
+        "386:18396",
+        "386:18428",
+        "427:19392",
+        "427:19460",
+        "487:19805"
+      ],
+      "prerequisiteEpics": [
+        "G01",
+        "D01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "GAME-EXT-SPEC-SPEC",
+        "GAME-EXT-SPEC-BUILD",
+        "GAME-EXT-SPEC-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "G03",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC20"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:18241",
+        "386:18285",
+        "386:18308",
+        "386:18336",
+        "386:18364",
+        "386:18396",
+        "386:18428",
+        "427:19392",
+        "427:19460",
+        "487:19805"
+      ],
+      "prerequisiteEpics": [
+        "G02",
+        "N01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "GAME-EXT-IMPLEMENT-SPEC",
+        "GAME-EXT-IMPLEMENT-BUILD",
+        "GAME-EXT-IMPLEMENT-VERIFY"
+      ],
+      "conditionalScope": "pending_explicit_disposition"
+    },
+    {
+      "id": "A01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "391:25009"
+      ],
+      "prerequisiteEpics": [
+        "R07",
+        "E06",
+        "G01"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "STATS-SPEC",
+        "STATS-BUILD",
+        "STATS-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "Q01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [
+        "386:8451",
+        "514:5093",
+        "514:5096",
+        "514:5099",
+        "514:5102",
+        "521:4735"
+      ],
+      "prerequisiteEpics": [
+        "F06",
+        "C08",
+        "R04",
+        "E06",
+        "S04",
+        "S05",
+        "G01",
+        "F04",
+        "F05",
+        "R02",
+        "E05",
+        "S01",
+        "S06",
+        "E02"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "UI-AUDIT-SPEC",
+        "UI-AUDIT-BUILD",
+        "UI-AUDIT-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "Q02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [],
+      "prerequisiteEpics": [
+        "R04",
+        "R07",
+        "E04",
+        "S05",
+        "S06"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "INVARIANT-AUDIT-SPEC",
+        "INVARIANT-AUDIT-BUILD",
+        "INVARIANT-AUDIT-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "O01",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC24",
+        "DEC25"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [],
+      "prerequisiteEpics": [
+        "F01",
+        "Q02"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "RETENTION-SPEC",
+        "RETENTION-BUILD",
+        "RETENTION-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    },
+    {
+      "id": "O02",
+      "kind": "epic",
+      "implementationReady": false,
+      "status": "decomposed_gated_packets",
+      "decisionGates": [
+        "DEC18",
+        "DEC20",
+        "DEC25"
+      ],
+      "sourcePageId": "386:7053",
+      "sourceNodeIds": [],
+      "prerequisiteEpics": [
+        "A01",
+        "Q01",
+        "Q02",
+        "O01",
+        "S07",
+        "G02"
+      ],
+      "packets": [
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md",
+        "agent-packets/generated/RELEASE-VERIFY.md"
+      ],
+      "packetIds": [
+        "RELEASE-SPEC",
+        "RELEASE-BUILD",
+        "RELEASE-VERIFY"
+      ],
+      "conditionalScope": "core_candidate"
+    }
+  ]
+}

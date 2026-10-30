@@ -1,0 +1,284 @@
+const imgIconlySharpBoldVolumeUp = "https://www.figma.com/api/mcp/asset/df9c7c40-de11-43d2-9a37-03fd828c7c09.svg";
+const imgIconlySharpBoldPaper = "https://www.figma.com/api/mcp/asset/4d0ee9be-b01d-4402-9710-4afb834d4fb6.svg";
+const imgIconlySharpBoldStar2 = "https://www.figma.com/api/mcp/asset/d6115485-84d8-40eb-b438-1cb0d8c8b1c5.svg";
+const imgIconlySharpBoldStar = "https://www.figma.com/api/mcp/asset/46244023-428c-4894-a1fe-5ee993fa5139.svg";
+const imgIconlySharpBoldSearch = "https://www.figma.com/api/mcp/asset/baba0765-ec3d-43f2-a22c-0c81a4188970.svg";
+const imgEllipse10 = "https://www.figma.com/api/mcp/asset/ef03027a-10fe-4fbe-b7e2-f5a524ec3080.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/19543b54-1be2-4eab-a45a-1b5f25b2a94a.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/41590178-00e8-4780-be68-3c0ff1a4ed85.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/bf6bcedf-02c0-4549-af4b-10d6e05ad277.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/6255ed8f-9949-453a-b9db-70076fd73425.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/5a632dcc-367f-4678-96c0-2eb2f472325b.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/e5791d5e-f281-43d9-8465-94f17131de3b.svg";
+const imgIconlySharpTwoToneLogout = "https://www.figma.com/api/mcp/asset/59047dbb-99eb-49a5-b0f2-34cfc9e1a142.svg";
+const imgEllipse44 = "https://www.figma.com/api/mcp/asset/b9db4e15-aabf-4852-86a9-357ea0b18204.svg";
+const imgLine5 = "https://www.figma.com/api/mcp/asset/074f1348-a832-48c5-a835-55e1bb58342d.svg";
+const imgEllipse77 = "https://www.figma.com/api/mcp/asset/03c80955-4cf2-4533-a59b-e0afde9dc495.svg";
+const imgIconlySharpBoldVolumeUp1 = "https://www.figma.com/api/mcp/asset/8cdb3b47-0504-4738-aee6-7d8835f44d84.svg";
+
+function IconlySharpBoldVolumeUp({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:619" data-name="Iconly/Sharp/Bold/Volume Up">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpBoldVolumeUp} />
+    </div>
+  );
+}
+
+function IconlySharpBoldPaper({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:621" data-name="Iconly/Sharp/Bold/Paper">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpBoldPaper} />
+    </div>
+  );
+}
+
+function IconlySharpBoldStar2({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:617" data-name="Iconly/Sharp/Bold/Star 2">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpBoldStar2} />
+    </div>
+  );
+}
+
+function IconlySharpBoldStar({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:615" data-name="Iconly/Sharp/Bold/Star">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpBoldStar} />
+    </div>
+  );
+}
+
+function IconlySharpBoldSearch({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:613" data-name="Iconly/Sharp/Bold/Search">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpBoldSearch} />
+    </div>
+  );
+}
+
+export default function CaiDt() {
+  return (
+    <div className="bg-[#147cc1] overflow-clip relative rounded-[25px] size-full" data-node-id="386:8451" data-name="Cài đặt">
+      <CodeConnectSnippet data-node-id="386:8452" data-name="chevron_backward">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <div className="absolute contents inset-[1.19%_0.47%_93.52%_-0.47%]" data-node-id="386:8453">
+        <div className="absolute inset-[1.19%_0.47%_93.52%_-0.47%] overflow-clip" data-node-id="386:8454" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:8454;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:8454;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:8454;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:8454;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:8454;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:8454;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:8454;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:8454;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:8454;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[150px] not-italic text-[32px] text-white top-[56px] whitespace-nowrap" data-node-id="386:8455">
+        Cài đặt
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[69px] not-italic text-[20px] text-black top-[841px] whitespace-nowrap" data-node-id="386:8456">
+        Đăng xuất
+      </p>
+      <div className="absolute flex items-center justify-center left-[32px] size-[24px] top-[839px]" data-node-id="386:8457">
+        <div className="flex-none rotate-180">
+          <div className="relative size-[24px]" data-name="Iconly/Sharp/Two-tone/Logout">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpTwoToneLogout} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-[#f2f2f2] h-[85px] left-[20px] rounded-[30px] top-[123px] w-[381px]" data-node-id="386:8458" />
+      <div className="absolute bg-[#f2f2f2] h-[146px] left-[18px] rounded-[30px] top-[238px] w-[381px]" data-node-id="386:8459" />
+      <div className="absolute bg-[#efefef] h-[146px] left-[18px] rounded-[30px] top-[400px] w-[381px]" data-node-id="386:8460" />
+      <div className="absolute bg-[#f2f2f2] h-[223px] left-[18px] rounded-[30px] top-[565px] w-[381px]" data-node-id="386:8461" />
+      <div className="absolute left-[314px] size-[75px] top-[128px]" data-node-id="386:8462">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="75" src={imgEllipse10} width="75" />
+      </div>
+      <div className="absolute left-[361px] size-[40px] top-[56px]" data-node-id="386:8463">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse44} />
+      </div>
+      <IconlySharpBoldSearch className="absolute left-[369px] size-[24px] top-[64px]" />
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[56px] not-italic text-[16px] text-black top-[139px] whitespace-nowrap" data-node-id="386:8465">
+        Healing
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[57px] not-italic text-[16px] text-black top-[167px] whitespace-nowrap" data-node-id="386:8466">
+        linhchi@gmail.com
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[87px] not-italic text-[16px] text-black top-[261px] whitespace-nowrap" data-node-id="386:8467">
+        Giao diện tối
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[87px] not-italic text-[16px] text-black top-[421px] whitespace-nowrap" data-node-id="386:8468">
+        Âm thanh và rung
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[76px] not-italic text-[16px] text-black top-[589px] whitespace-nowrap" data-node-id="386:8469">
+        Thay đổi mật khẩu
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[87px] not-italic text-[16px] text-black top-[323px] whitespace-nowrap" data-node-id="386:8470">
+        Giao diện sáng
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[87px] not-italic text-[16px] text-black top-[486px] whitespace-nowrap" data-node-id="386:8471">
+        Thông báo
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[76px] not-italic text-[16px] text-black top-[647px] whitespace-nowrap" data-node-id="386:8472">
+        Sửa thông tin cá nhân
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[77px] not-italic text-[16px] text-black top-[697px] whitespace-nowrap" data-node-id="386:8473">
+        Lịch sử đăng nhập
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[76px] not-italic text-[16px] text-black top-[753px] whitespace-nowrap" data-node-id="386:8474">
+        Thiết lập mật mã
+      </p>
+      <div className="absolute h-[15px] left-[337px] top-[261px] w-[38px]" data-node-id="386:8475">
+        <div className="absolute h-[15px] left-0 top-0 w-[37px]" data-node-id="386:8476">
+          <div className="absolute bg-white h-[15px] left-0 rounded-[20px] top-0 w-[37px]" data-node-id="386:8477" />
+        </div>
+        <div className="absolute bg-[rgba(97,183,229,0.5)] h-[15px] left-0 rounded-[20px] top-0 w-[20px]" data-node-id="386:8478" />
+      </div>
+      <div className="absolute h-[15px] left-[336px] top-[323px] w-[38px]" data-node-id="386:8479">
+        <div className="absolute h-[15px] left-0 top-0 w-[37px]" data-node-id="386:8480">
+          <div className="absolute bg-white h-[15px] left-0 rounded-[20px] top-0 w-[37px]" data-node-id="386:8481" />
+        </div>
+        <div className="absolute bg-[#61b7e5] h-[15px] left-[17px] rounded-[20px] top-0 w-[20px]" data-node-id="386:8482" />
+      </div>
+      <div className="absolute h-0 left-[87px] top-[311px] w-[280px]" data-node-id="386:8483">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine5} />
+        </div>
+      </div>
+      <div className="absolute h-0 left-[87px] top-[473px] w-[280px]" data-node-id="386:8484">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine5} />
+        </div>
+      </div>
+      <div className="absolute h-0 left-[77px] top-[628px] w-[280px]" data-node-id="386:8485">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine5} />
+        </div>
+      </div>
+      <div className="absolute h-0 left-[73px] top-[686px] w-[280px]" data-node-id="386:8486">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine5} />
+        </div>
+      </div>
+      <div className="absolute h-0 left-[73px] top-[735px] w-[280px]" data-node-id="386:8487">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine5} />
+        </div>
+      </div>
+      <div className="absolute h-[15px] left-[87px] top-[282px] w-[184px]" data-node-id="386:8488">
+        <div className="absolute left-[105px] size-[4px] top-[7px]" data-node-id="386:8489">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse77} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#c3c3c3] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8490">
+          Chế độ ban đêm
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[119px] not-italic text-[#b9b9b9] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8491">
+          Đỡ mỏi mắt
+        </p>
+      </div>
+      <div className="absolute h-[15px] left-[87px] top-[445px] w-[184px]" data-node-id="386:8492">
+        <div className="absolute left-[105px] size-[4px] top-[7px]" data-node-id="386:8493">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse77} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#c3c3c3] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8494">
+          Chế độ âm thanh
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[119px] not-italic text-[#b9b9b9] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8495">
+          Nhạc chuông
+        </p>
+      </div>
+      <div className="absolute h-[15px] left-[87px] top-[351px] w-[184px]" data-node-id="386:8496">
+        <div className="absolute left-[105px] size-[4px] top-[7px]" data-node-id="386:8497">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse77} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#c3c3c3] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8498">
+          Chế độ ban ngày
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[119px] not-italic text-[#b9b9b9] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8499">
+          Rõ ràng, sáng sủa
+        </p>
+      </div>
+      <div className="absolute h-[15px] left-[87px] top-[514px] w-[184px]" data-node-id="386:8500">
+        <div className="absolute left-[105px] size-[4px] top-[7px]" data-node-id="386:8501">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse77} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#c3c3c3] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8502">
+          Thanh tâm trạng
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[119px] not-italic text-[#b9b9b9] text-[12px] top-0 whitespace-nowrap" data-node-id="386:8503">
+          Không làm phiền
+        </p>
+      </div>
+      <CodeConnectSnippet data-node-id="386:8504">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <CodeConnectSnippet data-node-id="386:8505">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <CodeConnectSnippet data-node-id="386:8506">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <CodeConnectSnippet data-node-id="386:8507">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <div className="absolute bg-[#7098ff] left-[37px] rounded-[10px] size-[35px] top-[264px]" data-node-id="386:8508" />
+      <div className="absolute bg-[#d47fb5] left-[37px] rounded-[10px] size-[35px] top-[324px]" data-node-id="386:8509" />
+      <div className="absolute bg-[#ef5f5f] left-[37px] rounded-[10px] size-[35px] top-[425px]" data-node-id="386:8510" />
+      <div className="absolute bg-[#99d1ee] left-[37px] rounded-[10px] size-[35px] top-[487px]" data-node-id="386:8511" />
+      <IconlySharpBoldStar className="absolute inset-[35.64%_84.35%_61.77%_10.05%]" />
+      <IconlySharpBoldStar2 className="absolute inset-[29.16%_84.35%_68.25%_10.05%]" />
+      <div className="absolute inset-[46.54%_84.11%_50.86%_10.28%] opacity-[calc(var(--gs-settings-audio-icon-opacity,100)/100)]" data-node-id="386:8514" data-name="Iconly/Sharp/Bold/Volume Up">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlySharpBoldVolumeUp1} />
+      </div>
+      <IconlySharpBoldPaper className="absolute inset-[53.24%_84.58%_44.17%_9.81%]" />
+      <a className="absolute block cursor-pointer h-[85px] left-[20px] top-[123px] w-[381px]" data-node-id="508:4796" data-name="Prototype / Settings / Hồ sơ cá nhân" />
+      <a className="absolute block cursor-pointer h-[54px] left-[28px] top-[632px] w-[372px]" data-node-id="508:4798" data-name="Prototype / Settings / Sửa thông tin cá nhân" />
+      <a className="absolute block cursor-pointer h-[54px] left-[28px] top-[574px] w-[372px]" data-node-id="508:4800" data-name="Prototype / Settings / Thay đổi mật khẩu" />
+      <a className="absolute block cursor-pointer h-[62px] left-[28px] top-[478px] w-[372px]" data-node-id="508:4802" data-name="Prototype / Settings / Thông báo" />
+      <a className="absolute block cursor-pointer h-[68px] left-[37px] top-[826px] w-[350px]" data-node-id="508:4804" data-name="Prototype / Settings / Đăng xuất" />
+      <button className="absolute block cursor-pointer h-[61px] left-[28px] top-[245px] w-[372px]" data-node-id="508:4808" data-name="Prototype / Settings / Chọn giao diện tối" />
+      <button className="absolute block cursor-pointer h-[59px] left-[28px] top-[315px] w-[372px]" data-node-id="508:4810" data-name="Prototype / Settings / Chọn giao diện sáng" />
+      <button className="absolute block cursor-pointer h-[54px] left-[354px] top-[49px] w-[52px]" data-node-id="514:5471" data-name="Prototype / Settings / Tìm kiếm cài đặt" />
+      <button className="absolute block cursor-pointer h-[61px] left-[28px] overflow-clip top-[408px] w-[372px]" data-node-id="514:5473" data-name="Prototype / Settings / Âm thanh và rung">
+        <IconlySharpBoldVolumeUp className="absolute inset-[37.7%_89.25%_22.74%_4.3%]" />
+      </button>
+      <button className="absolute block cursor-pointer h-[49px] left-[28px] top-[688px] w-[372px]" data-node-id="514:5475" data-name="Prototype / Settings / Lịch sử đăng nhập" />
+      <button className="absolute block cursor-pointer h-[54px] left-[28px] top-[741px] w-[372px]" data-node-id="514:5477" data-name="Prototype / Settings / Thiết lập mật mã" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

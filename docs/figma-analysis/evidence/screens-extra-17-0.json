@@ -1,0 +1,533 @@
+{
+  "bytes": 5309,
+  "screens": [
+    {
+      "id": "386:7151",
+      "name": "06 · Chọn điều bạn quan tâm",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 23,
+        "TEXT": 21,
+        "VECTOR": 13,
+        "RECTANGLE": 10,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "DÀNH RIÊNG CHO BẠN · 1/5",
+        "Bỏ qua",
+        "Bạn muốn bắt đầu\ntừ điều gì?",
+        "Chọn những chủ đề bạn quan tâm. Bạn có thể thay đổi sau trong cài đặt.",
+        "Phân loại rác",
+        "Hiểu đúng, làm dễ",
+        "✓",
+        "Điểm thu gom",
+        "Tìm nơi gửi rác",
+        {
+          "hidden": "✓"
+        },
+        "Hoạt động xanh",
+        "Cùng nhau góp sức",
+        "✓",
+        "Đổi thưởng",
+        "Ghi nhận nỗ lực",
+        {
+          "hidden": "✓"
+        },
+        "Chọn nhiều chủ đề để có gợi ý phù hợp hơn.",
+        "Tiếp tục",
+        "Tôi sẽ chọn sau"
+      ],
+      "parts": [
+        [
+          "386:7151",
+          "06 · Chọn điều bạn quan tâm",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4989",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4869",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5191",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5192",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5198",
+          "Tiến trình",
+          380,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5204",
+          "Tiêu đề và mô tả",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "441:5207",
+          "Sở thích",
+          380,
+          310,
+          "VERTICAL"
+        ],
+        [
+          "441:5208",
+          "Hàng 1",
+          380,
+          148,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5209",
+          "Hàng 2",
+          380,
+          148,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5252",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5253",
+          "Nút / Tiếp tục",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5256",
+          "Nút / Tôi sẽ chọn sau",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Tiếp tục": 1,
+        "Nút / Tôi sẽ chọn sau": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5192",
+          "name": "Quay lại",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7149",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5196",
+          "name": "Bỏ qua",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7156",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5211",
+          "name": "Phân loại rác",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5221",
+          "name": "Điểm thu gom",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5232",
+          "name": "Hoạt động xanh",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5242",
+          "name": "Đổi thưởng",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CONDITIONAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5253",
+          "name": "Nút / Tiếp tục",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7156",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5256",
+          "name": "Nút / Tôi sẽ chọn sau",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7156",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:7156",
+      "name": "07 · Mục tiêu khởi đầu",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 21,
+        "TEXT": 18,
+        "VECTOR": 11,
+        "RECTANGLE": 9,
+        "INSTANCE": 2
+      },
+      "texts": [
+        "9:41",
+        "‹",
+        "DÀNH RIÊNG CHO BẠN · 2/5",
+        "Bỏ qua",
+        "Bước nhỏ nào\nhợp với bạn?",
+        "Chọn một mục tiêu vừa sức. GreenSteps sẽ đồng hành cùng bạn mỗi ngày.",
+        "Phân loại rác mỗi ngày",
+        "Bắt đầu từ một món đồ nhỏ",
+        "✓",
+        "Giảm đồ nhựa dùng một lần",
+        "Mang theo bình nước hoặc túi vải",
+        {
+          "hidden": "✓"
+        },
+        "Góp sức cùng cộng đồng",
+        "Tham gia một hoạt động xanh",
+        {
+          "hidden": "✓"
+        },
+        "Không cần hoàn hảo, chỉ cần bắt đầu.",
+        "Chọn mục tiêu này",
+        "Để sau"
+      ],
+      "parts": [
+        [
+          "386:7156",
+          "07 · Mục tiêu khởi đầu",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "441:4993",
+          "Thanh trạng thái",
+          380,
+          20,
+          "HORIZONTAL"
+        ],
+        [
+          "443:4878",
+          "Sóng · Wi-Fi · Pin",
+          78,
+          20,
+          "NONE"
+        ],
+        [
+          "441:5262",
+          "Điều hướng",
+          380,
+          48,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5263",
+          "Quay lại",
+          48,
+          48,
+          "NONE"
+        ],
+        [
+          "441:5269",
+          "Tiến trình",
+          380,
+          4,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5275",
+          "Tiêu đề và mô tả",
+          380,
+          144,
+          "VERTICAL"
+        ],
+        [
+          "441:5278",
+          "Các mục tiêu",
+          380,
+          316,
+          "VERTICAL"
+        ],
+        [
+          "441:5279",
+          "Phân loại rác mỗi ngày",
+          380,
+          96,
+          "NONE"
+        ],
+        [
+          "441:5289",
+          "Giảm đồ nhựa dùng một lần",
+          380,
+          96,
+          "NONE"
+        ],
+        [
+          "441:5299",
+          "Góp sức cùng cộng đồng",
+          380,
+          96,
+          "NONE"
+        ],
+        [
+          "441:5310",
+          "Hành động chính",
+          380,
+          122,
+          "VERTICAL"
+        ],
+        [
+          "441:5311",
+          "Nút / Chọn mục tiêu này",
+          380,
+          56,
+          "HORIZONTAL"
+        ],
+        [
+          "441:5314",
+          "Nút / Để sau",
+          380,
+          56,
+          "HORIZONTAL"
+        ]
+      ],
+      "instanceCounts": {
+        "Nút / Chọn mục tiêu này": 1,
+        "Nút / Để sau": 1
+      },
+      "reactions": [
+        {
+          "id": "441:5263",
+          "name": "Quay lại",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7151",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5267",
+          "name": "Bỏ qua",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7160",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5279",
+          "name": "Phân loại rác mỗi ngày",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5289",
+          "name": "Giảm đồ nhựa dùng một lần",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5299",
+          "name": "Góp sức cùng cộng đồng",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5311",
+          "name": "Nút / Chọn mục tiêu này",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7160",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "441:5314",
+          "name": "Nút / Để sau",
+          "links": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7160",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

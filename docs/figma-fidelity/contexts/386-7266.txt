@@ -1,0 +1,114 @@
+const imgSongWiFiPin = "https://www.figma.com/api/mcp/asset/92ec69e6-eade-4b3d-92ac-297075cb733f.svg";
+const imgIconBack = "https://www.figma.com/api/mcp/asset/4c6fbafd-abdb-465d-9d33-b4856d1f5daa.svg";
+const imgMinhHaBoMt = "https://www.figma.com/api/mcp/asset/bf24b033-75a2-4998-ada6-aee51c2ec664.svg";
+
+export default function Component14XacThcOtp() {
+  return (
+    <div className="bg-[var(--gs-cream,#f4fbff)] overflow-clip relative rounded-[32px] size-full" data-node-id="386:7266" data-name="14 · Xác thực OTP">
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[17px] w-[380px]" data-node-id="461:5367" data-name="Thanh trạng thái">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[60px]" data-node-id="461:5368">
+          9:41
+        </p>
+        <div className="h-[20px] relative shrink-0 w-[76px]" data-node-id="461:5369" data-name="Sóng, Wi-Fi, pin">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSongWiFiPin} />
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[66px] w-[380px]" data-node-id="461:5375" data-name="Thanh điều hướng">
+        <button className="bg-[var(--gs-white,white)] block cursor-pointer overflow-clip relative rounded-[16px] shrink-0 size-[48px]" data-node-id="461:5376" data-name="Quay lại">
+          <div className="absolute left-[12px] size-[24px] top-[12px]" data-node-id="461:5377" data-name="Icon / back">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBack} />
+          </div>
+        </button>
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[17px] relative shrink-0 text-[12px] text-[color:var(--gs-muted,#456476)] text-right w-[270px]" data-node-id="461:5380">
+          XÁC THỰC EMAIL
+        </p>
+      </div>
+      <div className="absolute h-[164px] left-[74px] top-[140px] w-[280px]" data-node-id="461:5381" data-name="Minh họa bảo mật">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinhHaBoMt} />
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start left-[24px] text-center top-[326px] w-[380px]" data-node-id="461:5398" data-name="Tiêu đề">
+        <p className="font-['Montserrat:Bold'] font-bold leading-[42px] relative shrink-0 text-[32px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="461:5399">
+          Kiểm tra email nhé!
+        </p>
+        <p className="font-['Montserrat:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--gs-muted,#456476)] w-[380px]" data-node-id="461:5400">
+          Nhập mã xác thực gồm 6 chữ số đã gửi đến
+        </p>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[20px] left-[214px] text-[14px] text-[color:var(--gs-primary,#147cc1)] text-center top-[426px] w-[380px]" data-node-id="461:5401">
+        linhchi@example.com
+      </p>
+      <div className="absolute content-stretch flex gap-[10px] items-center left-[24px] top-[482px] w-[380px]" data-node-id="461:5402" data-name="Mã OTP 6 số">
+        <div className="bg-[var(--gs-white,white)] border-[1.5px] border-[var(--gs-primary,#147cc1)] border-solid h-[66px] overflow-clip relative rounded-[16px] shrink-0 w-[55px]" data-node-id="461:5403" data-name="Chữ số OTP 1">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[35px] left-[26px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[13.5px] w-[55px]" data-node-id="461:5404">
+            —
+          </p>
+        </div>
+        <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid h-[66px] overflow-clip relative rounded-[16px] shrink-0 w-[55px]" data-node-id="461:5405" data-name="Chữ số OTP 2">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[35px] left-[26.5px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[55px]" data-node-id="461:5406">
+            —
+          </p>
+        </div>
+        <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid h-[66px] overflow-clip relative rounded-[16px] shrink-0 w-[55px]" data-node-id="461:5407" data-name="Chữ số OTP 3">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[35px] left-[26.5px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[55px]" data-node-id="461:5408">
+            —
+          </p>
+        </div>
+        <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid h-[66px] overflow-clip relative rounded-[16px] shrink-0 w-[55px]" data-node-id="461:5409" data-name="Chữ số OTP 4">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[35px] left-[26.5px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[55px]" data-node-id="461:5410">
+            —
+          </p>
+        </div>
+        <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid h-[66px] overflow-clip relative rounded-[16px] shrink-0 w-[55px]" data-node-id="461:5411" data-name="Chữ số OTP 5">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[35px] left-[26.5px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[55px]" data-node-id="461:5412">
+            —
+          </p>
+        </div>
+        <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid h-[66px] overflow-clip relative rounded-[16px] shrink-0 w-[55px]" data-node-id="461:5413" data-name="Chữ số OTP 6">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[35px] left-[26.5px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[14px] w-[55px]" data-node-id="461:5414">
+            —
+          </p>
+        </div>
+      </div>
+      <button className="absolute block cursor-pointer h-[48px] left-[24px] overflow-clip top-[562px] w-[380px]" data-node-id="461:5415" data-name="Liên kết / Dán mã từ email">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[190px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-center top-[14px] w-[380px]" data-node-id="461:5416">
+          Dán mã từ email
+        </p>
+      </button>
+      <button className="absolute block cursor-pointer h-[48px] left-[24px] overflow-clip top-[665px] w-[380px]" data-node-id="461:5420" data-name="Liên kết / Chưa nhận được mã? Gửi lại">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[190px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-center top-[14px] w-[380px]" data-node-id="461:5421">
+          Chưa nhận được mã? Gửi lại
+        </p>
+      </button>
+      <button className="absolute bg-[var(--gs-primary,#147cc1)] content-stretch cursor-pointer flex h-[56px] items-center justify-center left-[24px] rounded-[var(--gs-radius-button,18px)] top-[746px] w-[380px]" data-node-id="461:5423" data-name="Nút / Xác thực và tiếp tục">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-white,white)] text-left whitespace-nowrap" data-node-id="I461:5423;439:4836">
+          Xác thực và tiếp tục
+        </p>
+      </button>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[18px] left-[214px] text-[12px] text-[color:var(--gs-muted,#456476)] text-center top-[833px] w-[380px]" data-node-id="461:5426">
+        Đừng quên kiểm tra thư mục Spam / Thư rác.
+      </p>
+      <div className="absolute bg-[var(--gs-forest,#164561)] h-[5px] left-[150px] rounded-[3px] top-[905px] w-[128px]" data-node-id="461:5427" data-name="Rectangle" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Title: Font(family: "Montserrat", style: Bold, size: 32, weight: 700, lineHeight: 42, letterSpacing: 0), GreenSteps/Body: Font(family: "Montserrat", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0), GreenSteps/Caption: Font(family: "Montserrat", style: Medium, size: 12, weight: 500, lineHeight: 18, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

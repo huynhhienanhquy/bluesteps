@@ -1,0 +1,103 @@
+const imgIconSound = "https://www.figma.com/api/mcp/asset/72d3ae3d-ad4b-4715-a428-85da04cd8933.svg";
+const imgIconVibrate = "https://www.figma.com/api/mcp/asset/864b1019-d56a-47cb-987b-d594a7fe59b8.svg";
+
+type GreenStepsButtonProps = {
+  className?: string;
+  label?: string;
+  style?: "Primary";
+};
+
+function GreenStepsButton({ className, label = "Tiếp tục", style = "Primary" }: GreenStepsButtonProps) {
+  return (
+    <div className={className || "bg-[var(--gs-primary,#147cc1)] content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] w-[380px]"} data-node-id="439:4835">
+      <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-white,white)] whitespace-nowrap" data-node-id="439:4836">
+        {label}
+      </p>
+    </div>
+  );
+}
+
+export default function CaiDtOverlayAmThanhVaRung() {
+  return (
+    <div className="relative size-full" data-node-id="514:5096" data-name="Cài đặt · Overlay · Âm thanh và rung">
+      <button className="absolute bg-[rgba(22,69,97,0.24)] block cursor-pointer h-[931px] left-0 top-0 w-[428px]" data-node-id="514:5097" data-name="Fermer en dehors" />
+      <div className="absolute bg-[var(--gs-white,white)] h-[570px] left-0 overflow-clip rounded-tl-[32px] rounded-tr-[32px] top-[361px] w-[428px]" data-node-id="514:5111" data-name="Bảng cài đặt">
+        <div className="absolute bg-[var(--gs-line,#d2e7f4)] h-[5px] left-[188px] rounded-[3px] top-[12px] w-[52px]" data-node-id="514:5112" data-name="Rectangle" />
+        <p className="[word-break:break-word] absolute font-['Montserrat:Bold'] font-bold leading-[32px] left-[24px] text-[23px] text-[color:var(--gs-forest,#164561)] top-[39px] w-[316px]" data-node-id="514:5113">
+          Âm thanh và rung
+        </p>
+        <button className="absolute block cursor-pointer h-[48px] left-[360px] overflow-clip top-[28px] w-[44px]" data-node-id="514:5114" data-name="Đóng">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[39px] left-[22px] text-[28px] text-[color:var(--gs-muted,#456476)] text-center top-[4px] w-[44px]" data-node-id="514:5115">
+            ×
+          </p>
+        </button>
+        <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[18px] left-[24px] text-[13px] text-[color:var(--gs-muted,#456476)] top-[88px] w-[380px]" data-node-id="514:5174">
+          Chọn cách GreenSteps phản hồi với bạn.
+        </p>
+        <button className="absolute bg-[var(--gs-cream,#f4fbff)] block cursor-pointer h-[88px] left-[24px] overflow-clip rounded-[22px] top-[138px] w-[380px]" data-node-id="514:5175" data-name="Âm thanh">
+          <div className="absolute left-[16px] size-[26px] top-[20px]" data-node-id="514:5176" data-name="Icon / sound">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconSound} />
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[6px] items-start left-[58px] text-left top-[17px] w-[240px]" data-node-id="514:5178" data-name="Nội dung công tắc">
+            <p className="font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-forest,#164561)] w-[232px]" data-node-id="514:5179">
+              Âm thanh
+            </p>
+            <p className="font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] w-[232px]" data-node-id="514:5180">
+              Âm báo và hiệu ứng trong ứng dụng
+            </p>
+          </div>
+          <div className="absolute bg-[var(--gs-primary,#147cc1)] h-[32px] left-[308px] overflow-clip rounded-[16px] top-[26px] w-[54px]" data-node-id="514:5183" data-name="Bật">
+            <div className="absolute bg-[var(--gs-white,white)] left-[26px] rounded-[12px] size-[24px] top-[4px]" data-node-id="514:5184" data-name="Rectangle" />
+          </div>
+        </button>
+        <button className="absolute bg-[var(--gs-cream,#f4fbff)] block cursor-pointer h-[88px] left-[24px] overflow-clip rounded-[22px] top-[238px] w-[380px]" data-node-id="514:5185" data-name="Rung">
+          <div className="absolute left-[16px] size-[26px] top-[20px]" data-node-id="514:5186" data-name="Icon / vibrate">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconVibrate} />
+          </div>
+          <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[6px] items-start left-[58px] text-left top-[17px] w-[240px]" data-node-id="514:5189" data-name="Nội dung công tắc">
+            <p className="font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-forest,#164561)] w-[232px]" data-node-id="514:5190">
+              Rung
+            </p>
+            <p className="font-['Montserrat:Medium'] font-medium leading-[15px] relative shrink-0 text-[11px] text-[color:var(--gs-muted,#456476)] w-[232px]" data-node-id="514:5191">
+              Phản hồi khi hoàn thành thao tác
+            </p>
+          </div>
+          <div className="absolute bg-[var(--gs-primary,#147cc1)] h-[32px] left-[308px] overflow-clip rounded-[16px] top-[26px] w-[54px]" data-node-id="514:5194" data-name="Bật">
+            <div className="absolute bg-[var(--gs-white,white)] left-[26px] rounded-[12px] size-[24px] top-[4px]" data-node-id="514:5195" data-name="Rectangle" />
+          </div>
+        </button>
+        <div className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[0] left-[24px] text-[12px] text-[color:var(--gs-muted,#456476)] top-[350px] w-[380px]" data-node-id="514:5198">
+          <p className="leading-[17px] mb-0">Tùy chọn này chỉ áp dụng trong ứng dụng.</p>
+          <p className="leading-[17px]">Bạn vẫn kiểm soát âm lượng trên thiết bị.</p>
+        </div>
+        <GreenStepsButton className="absolute bg-[var(--gs-primary,#147cc1)] content-stretch cursor-pointer flex h-[56px] items-center justify-center left-[24px] rounded-[var(--gs-radius-button,18px)] top-[448px] w-[380px]" label="Lưu thay đổi" />
+        <button className="absolute block cursor-pointer h-[48px] left-[24px] overflow-clip top-[507px] w-[380px]" data-node-id="514:5203" data-name="Liên kết / Hủy">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[190px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-center top-[14px] w-[380px]" data-node-id="514:5204">
+            Hủy
+          </p>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

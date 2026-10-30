@@ -1,0 +1,3515 @@
+{
+  "bytes": 34986,
+  "screens": [
+    {
+      "id": "386:16218",
+      "name": "Kqu_Scan1",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 2,
+        "RECTANGLE": 8,
+        "GROUP": 14,
+        "INSTANCE": 3,
+        "VECTOR": 17,
+        "BOOLEAN_OPERATION": 2,
+        "LINE": 5,
+        "ELLIPSE": 7,
+        "TEXT": 1
+      },
+      "texts": [
+        "Quét thành công!"
+      ],
+      "parts": [
+        [
+          "386:16218",
+          "Kqu_Scan1",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:16220",
+          "Group 1",
+          428,
+          49,
+          null
+        ],
+        [
+          "386:16221",
+          "iPhone/Status Bar",
+          428,
+          49,
+          "NONE"
+        ],
+        [
+          "386:16222",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:16224",
+          "Line arrow-left",
+          26,
+          26,
+          "NONE"
+        ],
+        [
+          "I386:16224;8011:21790",
+          "vuesax/linear/arrow-left",
+          26,
+          26,
+          null
+        ],
+        [
+          "386:16225",
+          "Group 36732",
+          5,
+          19,
+          null
+        ],
+        [
+          "386:16234",
+          "Group 36700",
+          428,
+          477,
+          null
+        ],
+        [
+          "386:16236",
+          "Group 36932",
+          429,
+          827,
+          null
+        ],
+        [
+          "386:16237",
+          "Group 36920",
+          429,
+          827,
+          null
+        ],
+        [
+          "386:16242",
+          "Group 36931",
+          216,
+          576,
+          null
+        ],
+        [
+          "386:16247",
+          "Group 36919",
+          245,
+          147,
+          null
+        ],
+        [
+          "386:16250",
+          "Group 36708",
+          89,
+          66,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Line arrow-left": 1,
+        "Checkbox / on ": 1
+      },
+      "reactions": [
+        {
+          "id": "386:16218",
+          "name": "Kqu_Scan1",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14309",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14309",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "AFTER_TIMEOUT",
+                "timeout": 0.800000011920929
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:16253",
+      "name": "Tích điểm và phần thưởng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 7,
+        "RECTANGLE": 171,
+        "GROUP": 87,
+        "TEXT": 29,
+        "INSTANCE": 3,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "ELLIPSE": 37,
+        "POLYGON": 3,
+        "LINE": 1
+      },
+      "texts": [
+        "Điểm hiện tại của bạn: ",
+        "180 điểm",
+        "Tích điểm",
+        "Cấp độ 2 - Chiến Binh Tái Chế",
+        "Healing",
+        "Tổng điểm tích lũy: 348 điểm",
+        "100",
+        "200",
+        "350",
+        "500",
+        "700",
+        "Mầm xanh",
+        "Đại sứ xanh",
+        "Người Bảo Vệ Trái Đất",
+        "1",
+        "Người Gìn Giữ Hành Tinh",
+        "Anh Hùng Sinh Thái",
+        "Hộ Vệ Thiên Nhiên",
+        "Tinh Linh Môi Trường",
+        "Đại sứ xanh",
+        "Người Gìn Giữ Hành Tinh",
+        "Anh Hùng Sinh Thái",
+        "Chiến Binh Tái Chế",
+        "2",
+        "👉 Chỉ còn 2 điểm nữa để lên cấp!",
+        "Cách tính điểm",
+        "Lịch sử",
+        "Phần thưởng",
+        "Tìm thêm điểm"
+      ],
+      "parts": [
+        [
+          "386:16253",
+          "Tích điểm và phần thưởng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:16256",
+          "Group Điểm hiện tại",
+          380,
+          41,
+          null
+        ],
+        [
+          "386:16257",
+          "Group 36848",
+          380,
+          41,
+          null
+        ],
+        [
+          "386:16264",
+          "Group thời gian",
+          428,
+          48.99999237060547,
+          null
+        ],
+        [
+          "386:16265",
+          "iPhone/Status Bar",
+          428,
+          48.99999237060547,
+          "NONE"
+        ],
+        [
+          "386:16266",
+          "Group 36846",
+          380,
+          100,
+          null
+        ],
+        [
+          "386:16270",
+          "Group Tổng điểm tích lũy",
+          275,
+          43,
+          null
+        ],
+        [
+          "386:16283",
+          "Frame 36823",
+          356,
+          536,
+          "VERTICAL"
+        ],
+        [
+          "386:16284",
+          "Group 37025",
+          356,
+          1327.999755859375,
+          null
+        ],
+        [
+          "386:16537",
+          "Group cách tính điểm",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:16538",
+          "Group 36776",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:16542",
+          "Group 36777",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:16546",
+          "Lịch sử",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:16547",
+          "Group 28",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:16550",
+          "Group 36778",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:16554",
+          "Group 36780",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:16555",
+          "Group 14",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:16558",
+          "Group 36779",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:16562",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:16563",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:16567",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:16578",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:16583",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "386:16587",
+          "Group 36868",
+          116,
+          30,
+          null
+        ],
+        [
+          "386:16590",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:16591",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ],
+        [
+          "478:4757",
+          "Prototype / Nav / Trang chủ",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4759",
+          "Prototype / Nav / Thu gom",
+          66,
+          54,
+          "NONE"
+        ],
+        [
+          "478:4761",
+          "Prototype / Nav / Quét rác",
+          68,
+          70,
+          "NONE"
+        ],
+        [
+          "478:4763",
+          "Prototype / Nav / Cá nhân",
+          66,
+          54,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:16537",
+          "name": "Group cách tính điểm",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:11320",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11320",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16546",
+          "name": "Lịch sử",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:12071",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16554",
+          "name": "Group 36780",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:11451",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11451",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16568",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16572",
+          "name": "Group 37110",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16579",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16583",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16587",
+          "name": "Group 36868",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16591",
+          "name": "chevron_backward",
+          "reactions": [
+            {
+              "action": {
+                "type": "BACK"
+              },
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4757",
+          "name": "Prototype / Nav / Trang chủ",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "391:25197",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": true
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": true
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4759",
+          "name": "Prototype / Nav / Thu gom",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4761",
+          "name": "Prototype / Nav / Quét rác",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "478:4763",
+          "name": "Prototype / Nav / Cá nhân",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false,
+                "resetScrollPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "DISSOLVE",
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false,
+                  "resetScrollPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:16592",
+      "name": "Tích điểm và phần thưởng",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 3,
+        "RECTANGLE": 170,
+        "GROUP": 87,
+        "TEXT": 30,
+        "INSTANCE": 3,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "ELLIPSE": 37,
+        "POLYGON": 3,
+        "LINE": 1
+      },
+      "texts": [
+        "Điểm hiện tại của bạn: ",
+        "180 điểm",
+        "Tích điểm",
+        "Cấp độ 3 - Đại sứ xanh",
+        "Healing",
+        "Tổng điểm tích lũy: 353 điểm",
+        "100",
+        "200",
+        "350",
+        "500",
+        "700",
+        "Mầm xanh",
+        "Đại sứ xanh",
+        "3",
+        "Người Bảo Vệ Trái Đất",
+        "1",
+        "Người Gìn Giữ Hành Tinh",
+        "Anh Hùng Sinh Thái",
+        "Hộ Vệ Thiên Nhiên",
+        "Tinh Linh Môi Trường",
+        "Đại sứ xanh",
+        "Người Gìn Giữ Hành Tinh",
+        "Anh Hùng Sinh Thái",
+        "Chiến Binh Tái Chế",
+        "2",
+        "👉 Chỉ còn 147 điểm nữa để lên cấp!",
+        "Cách tính điểm",
+        "Lịch sử",
+        "Phần thưởng",
+        "Tìm thêm điểm"
+      ],
+      "parts": [
+        [
+          "386:16592",
+          "Tích điểm và phần thưởng",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:16595",
+          "Group Điểm hiện tại",
+          380,
+          41,
+          null
+        ],
+        [
+          "386:16596",
+          "Group 36848",
+          380,
+          41,
+          null
+        ],
+        [
+          "386:16603",
+          "Group thời gian",
+          428,
+          48.99999237060547,
+          null
+        ],
+        [
+          "386:16604",
+          "iPhone/Status Bar",
+          428,
+          48.99999237060547,
+          "NONE"
+        ],
+        [
+          "386:16605",
+          "Group 36846",
+          380,
+          100,
+          null
+        ],
+        [
+          "386:16609",
+          "Group Tổng điểm tích lũy",
+          275,
+          43,
+          null
+        ],
+        [
+          "386:16622",
+          "Frame 36823",
+          356,
+          536,
+          "VERTICAL"
+        ],
+        [
+          "386:16623",
+          "Group 37025",
+          356,
+          1327.999755859375,
+          null
+        ],
+        [
+          "386:16876",
+          "Group cách tính điểm",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:16877",
+          "Group 36776",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:16881",
+          "Group 36777",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:16885",
+          "Lịch sử",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:16886",
+          "Group 28",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:16889",
+          "Group 36778",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:16893",
+          "Group 36780",
+          64,
+          65,
+          null
+        ],
+        [
+          "386:16894",
+          "Group 14",
+          50,
+          50,
+          null
+        ],
+        [
+          "386:16897",
+          "Group 36779",
+          64,
+          14,
+          null
+        ],
+        [
+          "386:16901",
+          "Group 36737",
+          444,
+          116,
+          null
+        ],
+        [
+          "386:16902",
+          "Group 36733",
+          185,
+          77,
+          null
+        ],
+        [
+          "386:16906",
+          "Group 36734",
+          138,
+          47,
+          null
+        ],
+        [
+          "386:16917",
+          "Group 36732",
+          110,
+          30.5462646484375,
+          null
+        ],
+        [
+          "386:16922",
+          "Group 36731",
+          75,
+          75,
+          null
+        ],
+        [
+          "386:16926",
+          "Group 36868",
+          116,
+          30,
+          null
+        ],
+        [
+          "386:16929",
+          "chevron_backward",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:16930",
+          "chevron_backward",
+          35,
+          35,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "chevron_backward": 2
+      },
+      "reactions": [
+        {
+          "id": "386:16876",
+          "name": "Group cách tính điểm",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:11320",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11320",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16885",
+          "name": "Lịch sử",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:12071",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16893",
+          "name": "Group 36780",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:11451",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11451",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16907",
+          "name": "Group 36722",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7420",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16911",
+          "name": "Group 37110",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16253",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16918",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8633",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16922",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16926",
+          "name": "Group 36868",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:18241",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18241",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:16931",
+      "name": "Phân loại rác - nhựa",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1114,
+      "types": {
+        "FRAME": 5,
+        "RECTANGLE": 25,
+        "GROUP": 26,
+        "INSTANCE": 10,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 14,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Các loại rác thải nhựa phổ biến ",
+        "PET",
+        "450 - 500 năm",
+        "HDPE",
+        "500 - 1000 năm",
+        "PVC",
+        "600 - 1000 năm",
+        "LDPE",
+        "400 - 1000 năm",
+        "PP",
+        "250 - 500 năm",
+        "Tìm hiểu về Pin",
+        "🌍 Tóm tắt dễ hiểu",
+        "\n🧃 Chai PET: 500 năm\n🛢️ HDPE, PVC: ~1000 năm\n🛍️ Túi nilon (LDPE): 400–1000 năm\n🧁 PP, PS: 250–1000 năm\n⚠️ Nhựa hỗn hợp (Other): có thể tồn tại hơn 1000 năm"
+      ],
+      "parts": [
+        [
+          "386:16931",
+          "Phân loại rác - nhựa",
+          428,
+          1114,
+          "NONE"
+        ],
+        [
+          "386:16933",
+          "time",
+          415,
+          39.918331146240234,
+          null
+        ],
+        [
+          "386:16934",
+          "iPhone/Status Bar",
+          415,
+          39.918331146240234,
+          "NONE"
+        ],
+        [
+          "386:16935",
+          "title",
+          374,
+          30,
+          null
+        ],
+        [
+          "386:16937",
+          "Group 36752",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:16938",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "I386:16938;2244:2013",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:16939",
+          "Group 37118",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:16944",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:16947",
+          "Group 37119",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:16949",
+          "Frame 36707",
+          106.90792083740234,
+          60,
+          "NONE"
+        ],
+        [
+          "386:16952",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:16956",
+          "Group 37120",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:16960",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:16963",
+          "Group 37121",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:16967",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:16970",
+          "Group 37122",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:16974",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:16977",
+          "Frame 36707",
+          106,
+          60,
+          "NONE"
+        ],
+        [
+          "386:16979",
+          "Frame 36708",
+          106,
+          60,
+          "NONE"
+        ],
+        [
+          "386:16982",
+          "button",
+          220,
+          50,
+          "NONE"
+        ],
+        [
+          "I386:16982;2131:1062",
+          "button",
+          220,
+          50,
+          null
+        ],
+        [
+          "386:16983",
+          "title",
+          403,
+          168,
+          null
+        ],
+        [
+          "386:16986",
+          "menu",
+          428,
+          116,
+          null
+        ],
+        [
+          "386:16988",
+          "Group 36735",
+          386.549560546875,
+          116,
+          null
+        ],
+        [
+          "386:17003",
+          "line",
+          141,
+          0,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Group 36752": 1,
+        "Chevron left": 1,
+        "menu": 3,
+        "button": 1,
+        "Group 36703": 1,
+        "Group 36732": 1,
+        "Group": 1
+      },
+      "reactions": [
+        {
+          "id": "386:16937",
+          "name": "Group 36752",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17005",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17005",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:16938;2244:2013",
+          "name": "menu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16982",
+          "name": "button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17145",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17145",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:16999",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17002",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8569",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 1.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "LINEAR"
+                    },
+                    "duration": 1.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17005",
+      "name": "Phân loại rác - dụng cụ y tế",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1114,
+      "types": {
+        "FRAME": 8,
+        "RECTANGLE": 21,
+        "GROUP": 25,
+        "INSTANCE": 10,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 13,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Các Dụng cụ Y Tế phổ biến ",
+        "Cao su",
+        "450 - 500 năm",
+        "Nhựa PP, PE",
+        "500 - 1000 năm",
+        "Nhựa PET, PVC",
+        "600 - 1000 năm",
+        "Polypropylene",
+        "400 - 1000 năm",
+        "⚠️ Lưu ý khi phân loại rác y tế",
+        "Dụng cụ có dính máu, dịch, kim tiêm, bông băng → rác lây nhiễm (thùng màu vàng).\nDụng cụ bằng nhựa, thủy tinh sạch → có thể tái chế (thùng màu xanh).\nDụng cụ chứa hóa chất, thuốc, pin, thủy ngân → rác nguy hại (thùng màu đỏ hoặc đen).",
+        "",
+        "Tìm hiểu về rác thải nhựa"
+      ],
+      "parts": [
+        [
+          "386:17005",
+          "Phân loại rác - dụng cụ y tế",
+          428,
+          1114,
+          "NONE"
+        ],
+        [
+          "386:17007",
+          "time",
+          415,
+          39.918331146240234,
+          null
+        ],
+        [
+          "386:17008",
+          "iPhone/Status Bar",
+          415,
+          39.918331146240234,
+          "NONE"
+        ],
+        [
+          "386:17009",
+          "title",
+          374,
+          30,
+          null
+        ],
+        [
+          "386:17011",
+          "Group 36752",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:17012",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "I386:17012;2244:2013",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:17013",
+          "Group 37118",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17017",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17020",
+          "Group 37119",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17022",
+          "Frame 36707",
+          106.90792083740234,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17025",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17028",
+          "Group 37120",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17032",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17035",
+          "Group 37121",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17039",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17042",
+          "Frame 36708",
+          106,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17043",
+          "menu",
+          427.99981689453125,
+          116,
+          null
+        ],
+        [
+          "386:17045",
+          "Group 36735",
+          386.5494689941406,
+          116,
+          null
+        ],
+        [
+          "386:17060",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:17062",
+          "Group 36748",
+          392,
+          166,
+          null
+        ],
+        [
+          "386:17065",
+          "Frame 36709",
+          105.27731323242188,
+          66.65380859375,
+          "NONE"
+        ],
+        [
+          "386:17067",
+          "Frame 36710",
+          107,
+          74,
+          "NONE"
+        ],
+        [
+          "386:17069",
+          "Frame 36707",
+          106,
+          66.65380859375,
+          "NONE"
+        ],
+        [
+          "386:17071",
+          "Frame 36711",
+          106,
+          66.65380859375,
+          "NONE"
+        ],
+        [
+          "386:17073",
+          "Group 37167",
+          220,
+          50,
+          null
+        ],
+        [
+          "386:17074",
+          "button",
+          220,
+          50,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Group 36752": 1,
+        "Chevron left": 1,
+        "menu": 3,
+        "Group 36703": 1,
+        "Group 36732": 1,
+        "Group": 1,
+        "button": 1
+      },
+      "reactions": [
+        {
+          "id": "386:17011",
+          "name": "Group 36752",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17077",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17077",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:17012;2244:2013",
+          "name": "menu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17055",
+          "name": "Group 36732",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17056",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17059",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17074",
+          "name": "button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16931",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16931",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17077",
+      "name": "Phân loại rác - nilong",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1114,
+      "types": {
+        "FRAME": 7,
+        "RECTANGLE": 21,
+        "GROUP": 24,
+        "INSTANCE": 10,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 12,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Các loại Nilong phổ biến ",
+        "Polyethylene (PE)",
+        "100 - 500 năm",
+        "Polyethylene TTC",
+        "> 1000 năm",
+        "PE",
+        "2 - 5 năm",
+        "6 tháng - 1 năm",
+        "100% từ tinh bột, mía, bắp",
+        "Tìm hiểu về Dc Y Tế",
+        "🧬 Tác hại của túi nilon",
+        "Ô nhiễm đất và nước\nGây hại cho động vật\nTạo vi nhựa (microplastic)\nÔ nhiễm không khí"
+      ],
+      "parts": [
+        [
+          "386:17077",
+          "Phân loại rác - nilong",
+          428,
+          1114,
+          "NONE"
+        ],
+        [
+          "386:17079",
+          "time",
+          415,
+          39.918331146240234,
+          null
+        ],
+        [
+          "386:17080",
+          "iPhone/Status Bar",
+          415,
+          39.918331146240234,
+          "NONE"
+        ],
+        [
+          "386:17081",
+          "title",
+          374,
+          30,
+          null
+        ],
+        [
+          "386:17083",
+          "Group 36752",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:17084",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "I386:17084;2244:2013",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:17085",
+          "Group 37118",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17089",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17092",
+          "Group 37119",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17094",
+          "Frame 36707",
+          106.90792083740234,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17097",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17100",
+          "Group 37120",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17104",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17107",
+          "Group 37121",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17110",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17114",
+          "Frame 36708",
+          106,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17116",
+          "menu",
+          428,
+          116,
+          null
+        ],
+        [
+          "386:17118",
+          "Group 36735",
+          386.549560546875,
+          116,
+          null
+        ],
+        [
+          "386:17133",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:17135",
+          "button",
+          220,
+          50,
+          "NONE"
+        ],
+        [
+          "I386:17135;2146:277",
+          "button",
+          220,
+          50,
+          null
+        ],
+        [
+          "386:17136",
+          "Group 36748",
+          250,
+          110,
+          null
+        ],
+        [
+          "386:17139",
+          "Frame 36709",
+          106.90792083740234,
+          66.65380859375,
+          "NONE"
+        ],
+        [
+          "386:17141",
+          "Frame 36707",
+          106,
+          66.65380859375,
+          "NONE"
+        ],
+        [
+          "386:17143",
+          "Frame 36710",
+          106,
+          67,
+          "NONE"
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Group 36752": 1,
+        "Chevron left": 1,
+        "menu": 3,
+        "Group 36703": 1,
+        "Group 36732": 1,
+        "Group": 1,
+        "button": 1
+      },
+      "reactions": [
+        {
+          "id": "386:17083",
+          "name": "Group 36752",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17145",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17145",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:17084;2244:2013",
+          "name": "menu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17128",
+          "name": "Group 36732",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17129",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17132",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17135",
+          "name": "button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17005",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17005",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17145",
+      "name": "Phân loại rác - pin",
+      "type": "FRAME",
+      "w": 428,
+      "h": 1114,
+      "types": {
+        "FRAME": 7,
+        "RECTANGLE": 25,
+        "GROUP": 26,
+        "INSTANCE": 9,
+        "VECTOR": 22,
+        "BOOLEAN_OPERATION": 2,
+        "TEXT": 12,
+        "ELLIPSE": 1,
+        "LINE": 1
+      },
+      "texts": [
+        "Các loại Pin phổ biến ",
+        "Zn + MnO₂",
+        "100 - 500 năm",
+        "100 - 300 năm",
+        "500 - 1000 năm",
+        "Pb + H₂SO₄",
+        "400 - 1000 năm",
+        "Lithium",
+        "100 - 1000 năm",
+        "Zn + MnO₂ (kiềm)",
+        "Nickel + Cadmium",
+        "Tìm hiểu về Nilong"
+      ],
+      "parts": [
+        [
+          "386:17145",
+          "Phân loại rác - pin",
+          428,
+          1114,
+          "NONE"
+        ],
+        [
+          "386:17147",
+          "time",
+          415,
+          39.918331146240234,
+          null
+        ],
+        [
+          "386:17148",
+          "iPhone/Status Bar",
+          415,
+          39.918331146240234,
+          "NONE"
+        ],
+        [
+          "386:17149",
+          "title",
+          374,
+          30,
+          null
+        ],
+        [
+          "386:17151",
+          "Group 36752",
+          30,
+          30,
+          "NONE"
+        ],
+        [
+          "386:17152",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "I386:17152;2244:2013",
+          "menu",
+          25,
+          25,
+          "NONE"
+        ],
+        [
+          "386:17153",
+          "Group 37118",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17157",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17160",
+          "Group 37119",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17162",
+          "Frame 36707",
+          106.90792083740234,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17164",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17167",
+          "Group 37120",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17170",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17173",
+          "Group 37121",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17177",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17180",
+          "Group 37122",
+          390,
+          110,
+          null
+        ],
+        [
+          "386:17184",
+          "Group 37117",
+          100,
+          10,
+          null
+        ],
+        [
+          "386:17187",
+          "Frame 36708",
+          106,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17188",
+          "Frame 36708",
+          106,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17192",
+          "menu",
+          428,
+          116,
+          null
+        ],
+        [
+          "386:17194",
+          "Group 36735",
+          386.549560546875,
+          116,
+          null
+        ],
+        [
+          "386:17209",
+          "line",
+          141,
+          0,
+          null
+        ],
+        [
+          "386:17211",
+          "Frame 36709",
+          105.27731323242188,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17213",
+          "Frame 36850",
+          106,
+          60,
+          "NONE"
+        ],
+        [
+          "386:17217",
+          "button",
+          220,
+          50,
+          null
+        ],
+        [
+          "386:17218",
+          "button",
+          220,
+          50,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "iPhone/Status Bar": 1,
+        "Group 36752": 1,
+        "Chevron left": 1,
+        "menu": 3,
+        "Group 36703": 1,
+        "Group 36732": 1,
+        "Group": 1
+      },
+      "reactions": [
+        {
+          "id": "386:17151",
+          "name": "Group 36752",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:16931",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16931",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "I386:17152;2244:2013",
+          "name": "menu",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": null,
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": null,
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17204",
+          "name": "Group 36732",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17205",
+          "name": "Group 36731",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:14194",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17208",
+          "name": "Group",
+          "reactions": [
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": null,
+              "actions": [],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17217",
+          "name": "button",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:17077",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17077",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17222",
+      "name": "Frame 36839",
+      "type": "FRAME",
+      "w": 428,
+      "h": 409,
+      "types": {
+        "FRAME": 1,
+        "RECTANGLE": 3,
+        "TEXT": 4,
+        "GROUP": 5,
+        "ELLIPSE": 1,
+        "INSTANCE": 2,
+        "VECTOR": 2,
+        "LINE": 24
+      },
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "parts": [
+        [
+          "386:17222",
+          "Frame 36839",
+          428,
+          409,
+          "NONE"
+        ],
+        [
+          "386:17226",
+          "Group 37166",
+          180,
+          180,
+          null
+        ],
+        [
+          "386:17228",
+          "Mic",
+          100,
+          100,
+          "NONE"
+        ],
+        [
+          "386:17230",
+          "X",
+          40,
+          40,
+          "NONE"
+        ],
+        [
+          "386:17233",
+          "Mask group",
+          150,
+          42,
+          null
+        ],
+        [
+          "386:17235",
+          "audio",
+          149,
+          42,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "Mic": 1,
+        "X": 1
+      },
+      "reactions": [
+        {
+          "id": "386:17223",
+          "name": "Rectangle 1101",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:9115",
+                "navigation": "OVERLAY",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9115",
+                  "navigation": "OVERLAY",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17224",
+          "name": "Rectangle 1102",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17230",
+          "name": "X",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8930",
+                "navigation": "NAVIGATE",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17262",
+      "name": "iPhone 14 Plus - 2",
+      "type": "FRAME",
+      "w": 428,
+      "h": 926,
+      "types": {
+        "FRAME": 11,
+        "GROUP": 2,
+        "RECTANGLE": 2,
+        "TEXT": 11,
+        "ELLIPSE": 5,
+        "INSTANCE": 1,
+        "VECTOR": 1
+      },
+      "texts": [
+        "Gửi đến",
+        "Nguyễn Thị Linh Chi",
+        "Hoạt động 1 giờ trước",
+        "Thu Phương",
+        "Hoạt động 20 phút trước",
+        "Nguyễn Quang Huy",
+        "Hoạt động 50 phút trước",
+        "Lê Thị Mỹ Duyên",
+        "Hoạt động 3 giờ trước",
+        "Hoàng Phước Bảo",
+        "Hoạt động 5 giờ trước"
+      ],
+      "parts": [
+        [
+          "386:17262",
+          "iPhone 14 Plus - 2",
+          428,
+          926,
+          "NONE"
+        ],
+        [
+          "386:17263",
+          "Group 37133",
+          379,
+          512,
+          null
+        ],
+        [
+          "386:17266",
+          "Frame 36791",
+          236,
+          66,
+          "NONE"
+        ],
+        [
+          "386:17271",
+          "Frame 36792",
+          236,
+          67,
+          "NONE"
+        ],
+        [
+          "386:17276",
+          "Frame 36793",
+          236,
+          66,
+          "NONE"
+        ],
+        [
+          "386:17281",
+          "Frame 36794",
+          236,
+          67,
+          "NONE"
+        ],
+        [
+          "386:17286",
+          "Frame 36795",
+          236,
+          66,
+          "NONE"
+        ],
+        [
+          "386:17291",
+          "Group 36760",
+          24,
+          24,
+          null
+        ]
+      ],
+      "instanceCounts": {
+        "close": 1
+      },
+      "reactions": [
+        {
+          "id": "386:17263",
+          "name": "Group 37133",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7813",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 1.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7813",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "LINEAR"
+                    },
+                    "duration": 1.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17266",
+          "name": "Frame 36791",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:8179",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "MOVE_IN",
+                  "direction": "LEFT",
+                  "matchLayers": false,
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8179",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "MOVE_IN",
+                    "direction": "LEFT",
+                    "matchLayers": false,
+                    "easing": {
+                      "type": "EASE_OUT"
+                    },
+                    "duration": 0.20000000298023224
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            }
+          ]
+        },
+        {
+          "id": "386:17291",
+          "name": "Group 36760",
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7813",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 1.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7813",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "LINEAR"
+                    },
+                    "duration": 1.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_CLICK"
+              }
+            },
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "386:7647",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "SMART_ANIMATE",
+                  "easing": {
+                    "type": "LINEAR"
+                  },
+                  "duration": 1.5
+                },
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE",
+                  "transition": {
+                    "type": "SMART_ANIMATE",
+                    "easing": {
+                      "type": "LINEAR"
+                    },
+                    "duration": 1.5
+                  },
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_DRAG"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17294",
+      "name": "title",
+      "type": "GROUP",
+      "w": 402,
+      "h": 113.06666564941406,
+      "types": {
+        "GROUP": 1,
+        "TEXT": 2
+      },
+      "texts": [
+        "⚡ Tóm tắt nhanh",
+        "🪫 Pin tiểu thông thường: 100–500 năm\n🔋 Pin sạc (Ni-Cd, Li-ion): 500–1000 năm\n⚠️ Ắc quy chì: >1000 năm, độc hại nhất"
+      ],
+      "parts": [
+        [
+          "386:17294",
+          "title",
+          402,
+          113.06666564941406,
+          null
+        ]
+      ],
+      "instanceCounts": {},
+      "reactions": []
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "version": "0.2.0",
+  "decisions": [
+    {
+      "id": "DEC01",
+      "status": "product_input_pending",
+      "question": "GreenSteps, BlueSteps, BLUENSTEPS và Healing xuất hiện ở nhiều màn",
+      "candidate": "Dùng BlueSteps làm tên tài liệu theo workspace; thống nhất brand/copy/assets trên app sau quyết định",
+      "impact": "Design tokens, store listing, nội dung",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC02",
+      "status": "technical_default_recorded",
+      "question": "User đã chọn Python + Supabase và xác nhận Python tự quản lý tài khoản/mật khẩu/session",
+      "candidate": "**Đã chốt Python Identity, Supabase Database only**; technical baseline FastAPI/Pydantic/SQLAlchemy/psycopg; không triển khai Supabase Auth",
+      "impact": "Pin phiên bản/DB pooling qua foundation packets; auth ownership không còn là câu hỏi mở",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC03",
+      "status": "technical_default_recorded",
+      "question": "Onboarding có “Khám phá trước”, “Bỏ qua” và “Để sau”",
+      "candidate": "Guest đọc nội dung/điểm/hoạt động; command giao dịch phải login; guest scan quota riêng nếu chọn",
+      "impact": "Auth guard, guest navigation, chống abuse",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC04",
+      "status": "technical_default_recorded",
+      "question": "UI ba nhóm hữu cơ/vô cơ/tái chế; pin, y tế, điện tử xuất hiện trong sổ tay",
+      "candidate": "Tách category, material và hazard; hướng dẫn theo vùng/nguồn; không dùng màu thùng như quy tắc toàn cầu",
+      "impact": "Taxonomy seed, scan labels, map filtering",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC05",
+      "status": "product_input_pending",
+      "question": "“Cách tính điểm” có +2/+5/+3; scan nhựa +5; lịch sử có +10; game +1",
+      "candidate": "Rule version cấu hình, giới hạn nguồn và eligibility; bảng +2/+5/+3 là mẫu cần xác nhận",
+      "impact": "Ledger award, level, game reward",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC06",
+      "status": "product_input_pending",
+      "question": "Wallet header 180 trong khi popup đổi quà ghi 182; lifetime có 253/348/353; thresholds 100/200/350/500/700",
+      "candidate": "Server trả balance và lifetime riêng; một bảng level thresholds thống nhất; seed mẫu không là rule",
+      "impact": "Wallet UI và đổi quà",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC07",
+      "status": "product_input_pending",
+      "question": "Strip 7 ngày có số ngày 5/7 không đủ rõ bằng chữ; chưa có reset/missed-day policy",
+      "candidate": "Chốt đủ 7 mức, timezone cố định, streak reset và một claim/ngày",
+      "impact": "Daily-claim schema/rules/jobs",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC08",
+      "status": "product_input_pending",
+      "question": "Có quà vật lý/voucher/giải trí nhưng chưa có checkout nhận hàng, partner hay stock source",
+      "candidate": "Chọn pickup hoặc shipping rõ; voucher one-time; demo có nhãn; production cần fulfillment/refund",
+      "impact": "Redemption end-to-end và vận hành",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC09",
+      "status": "product_input_pending",
+      "question": "Point filter có “Còn chỗ” và “cộng đồng cập nhật, có thể thay đổi”",
+      "candidate": "Có nguồn, observedAt, TTL, trạng thái unknown; capability tách per-material status",
+      "impact": "Point data import, routing alternatives",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC10",
+      "status": "technical_default_recorded",
+      "question": "Đề xuất điểm nói phải xét duyệt; báo cáo nói xem xét trước khi cập nhật",
+      "candidate": "Queue review, role theo scope, duplicate checks, audit; không tự publish",
+      "impact": "Công cụ moderator và public queries",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC11",
+      "status": "product_input_pending",
+      "question": "Nút “Tôi đã bàn giao xong” là tự xác nhận; chưa có cân, operator QR hay sensor",
+      "candidate": "Self-report khác verified; phương thức operator xác minh phải chốt; không phát kg verified từ ảnh",
+      "impact": "Handover award/statistics",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC12",
+      "status": "technical_default_recorded",
+      "question": "Route chọn nhiều loại và thay điểm phải vẫn nhận đủ nhựa/giấy; all/any filter chưa được mô tả thành rule",
+      "candidate": "MatchMode rõ ràng; route cover toàn vật liệu; ETA theo mode/time; không gọi là tối ưu nếu chỉ user order",
+      "impact": "Geo filtering, route algorithm",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC13",
+      "status": "product_input_pending",
+      "question": "Registration có số người, tình nguyện viên từ 18 tuổi, vai trò và contact; vé ghi 1 người",
+      "candidate": "Phân biệt audience trẻ 3–5 với người đăng ký 18+; chốt attendee list và group/individual ticket",
+      "impact": "Capacity, ticket/check-in model",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC14",
+      "status": "product_input_pending",
+      "question": "QR vé ghi “minh họa, không dùng để quét thực tế”",
+      "candidate": "Opaque token server, staff scope, validity window/anti-replay; thiết kế UI check-in staff bổ sung",
+      "impact": "QR production và offline check-in nếu cần",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC15",
+      "status": "technical_default_recorded",
+      "question": "Lịch có hai activity overlap 1 giờ; “lưu không đồng nghĩa đăng ký” được ghi rõ",
+      "candidate": "Saved/registration riêng; overlap cảnh báo trước; cấm đăng ký trùng chỉ khi product chọn",
+      "impact": "Calendar/registration validation",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC16",
+      "status": "product_input_pending",
+      "question": "Reminder có offsets 1 giờ/1 ngày, nhiều kênh, quiet hours 22–07; yêu cầu hiện lock screen",
+      "candidate": "Rule timezone, generation, next occurrence; OS permission/lock-screen do thiết bị quyết định; nhắc không vượt start",
+      "impact": "Notification UX và job scheduling",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC17",
+      "status": "product_input_pending",
+      "question": "Composer có “Bạn bè” nhưng social notification có “Theo dõi”",
+      "candidate": "Theo dõi một chiều + friendship chấp nhận hai chiều là baseline; có thể chọn mutual-follow nếu muốn đơn giản",
+      "impact": "Post ACL, media privacy, DM policy",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC18",
+      "status": "product_input_pending",
+      "question": "Chat có call/video/document/camera/voice icons, ghi chú tâm trạng; chưa có màn call hoàn chỉnh",
+      "candidate": "Chat text/media có đặc tả; call/video cần spike+flow riêng; mood notes chỉ là tính năng dự kiến cần TTL/audience",
+      "impact": "Realtime scope, provider và estimate",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC19",
+      "status": "product_input_pending",
+      "question": "Bot có prompt rác nguy hại, frames Listening/Start/Stop; copy có “Meta AI” và số “11 tấn/ngày”",
+      "candidate": "Không suy ra phải tích hợp Meta AI; bot dùng approved knowledge/citations; voice transcript có quyền và retention",
+      "impact": "AI adapter, dataset/evaluation",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC20",
+      "status": "product_input_pending",
+      "question": "Game cards có Sứ mệnh xanh/XO/Đua vịt, tạo phòng, tạo lịch; chỉ Sứ mệnh xanh có board/result",
+      "candidate": "Hoàn thiện rules/players/timeouts/award/host-disconnect cho từng game; ước lượng mở rộng là tạm",
+      "impact": "Game engine và multiplayer protocol",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC21",
+      "status": "technical_default_recorded",
+      "question": "Cài đặt trên backuped có hai toggle sáng/tối; chưa kiểm tra trực quan đầy đủ mọi frame/theme",
+      "candidate": "Một enum system/light/dark; bổ sung theme và test tương phản, không giả định dark đã hoàn chỉnh từ công tắc",
+      "impact": "Theming và accessibility QA",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC22",
+      "status": "product_input_pending",
+      "question": "Thống kê trên backuped có 2.500 Kg, 120 lần/tuần và tỷ lệ mẫu",
+      "candidate": "Chốt denominator/kỳ/đơn vị/evidence scope; thống kê từ facts, không copy mẫu",
+      "impact": "Statistics aggregation",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC23",
+      "status": "technical_default_recorded",
+      "question": "Event summary trên backuped ghi rõ số liệu minh họa/chưa xác minh",
+      "candidate": "Không khẳng định kết quả môi trường, accuracy, UX validation hoặc accessibility đạt chuẩn khi chưa đo",
+      "impact": "Content publish, báo cáo sản phẩm",
+      "owner": "technical_lead",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval.",
+      "resolutionScope": "Architecture/protocol defaults only; product sample numbers, live data, provider costs and release permission are not approved by this record."
+    },
+    {
+      "id": "DEC24",
+      "status": "product_input_pending",
+      "question": "Media, precise location, DOB, event contact, chat, audio xuất hiện; chưa có retention/account-delete screens",
+      "candidate": "Thu tối thiểu; consent theo mục đích; private media; retention/deletion workflow phải thiết kế",
+      "impact": "Pilot có dữ liệu người thật",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "DEC25",
+      "status": "product_input_pending",
+      "question": "Chưa có DAU, tải concurrent, ngân sách, hosting hay provider",
+      "candidate": "Cost model theo usage, pilot load profile và SLO; không mua dịch vụ dựa trên giả định",
+      "impact": "Infra sizing và release",
+      "owner": "product_owner",
+      "safeIndependentWork": "Contract/adapter/schema design and synthetic fixtures; keep production behavior behind disabled configuration until required policy is recorded.",
+      "mustNotInfer": "Do not turn Figma sample values or elapsed time into approval."
+    },
+    {
+      "id": "AUTH-OWNER",
+      "status": "confirmed",
+      "owner": "user",
+      "value": "Python Identity owns users/passwords/OTP/sessions/JWT; Supabase Database only",
+      "evidence": "User reply: Python tự quản lý tài khoản, mật khẩu và session",
+      "supabaseAuthEnabled": false
+    }
+  ],
+  "technicalDefaults": {
+    "framework": "FastAPI + Pydantic; local reversible baseline, pin versions in bootstrap",
+    "dataAccess": "SQLAlchemy + psycopg, sync Session per request/job; no session sharing",
+    "schema": "app_private, not exposed through Supabase Data API",
+    "migrations": "supabase/migrations SQL, one owner; no Alembic/create_all production",
+    "authOwner": "Python, confirmed by user",
+    "sortingWire": "source + itemId; scanId only for scan; category/material/points derived server-side",
+    "unapprovedPointPolicy": "Record action, award 0 with POLICY_NOT_ENABLED; earning feature stays disabled",
+    "unresolvedProviders": "Fake adapters only in test/demo, explicit labels; no cloud credentials required for local foundation"
+  }
+}

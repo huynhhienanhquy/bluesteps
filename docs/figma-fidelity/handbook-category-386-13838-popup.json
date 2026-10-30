@@ -1,0 +1,177 @@
+{
+  "id": "386:13838",
+  "roles": {
+    "title": "386:13928",
+    "mask": "386:13919",
+    "panel": "386:13920",
+    "body": "386:13923",
+    "heading": "386:13925"
+  },
+  "panel": {
+    "id": "386:13920",
+    "x": 30,
+    "y": 198,
+    "w": 369,
+    "h": 464,
+    "radius": 25,
+    "color": "#f4f8f4",
+    "opacity": 1
+  },
+  "mask": {
+    "id": "386:13919",
+    "x": 0,
+    "y": 0,
+    "w": 428,
+    "h": 926,
+    "radius": 25,
+    "color": "#d9d9d9",
+    "opacity": 0.4000000059604645
+  },
+  "images": [
+    {
+      "id": "386:13921",
+      "source": "imgTime2",
+      "x": 206.82838439941406,
+      "y": 281,
+      "w": 13.171615600585938,
+      "h": 7.585784912109375,
+      "rotation": 180,
+      "flipY": true,
+      "crop": null,
+      "radius": 0,
+      "render": {
+        "x": 206.828125,
+        "y": 281,
+        "w": 13.171875,
+        "h": 7.5859375
+      }
+    },
+    {
+      "id": "386:13924",
+      "source": "imgVector717",
+      "x": 51.7499998251551,
+      "y": 505.2499997486593,
+      "w": 8,
+      "h": 11.5,
+      "rotation": -90.00000250447808,
+      "flipY": false,
+      "crop": null,
+      "radius": 0,
+      "render": {
+        "x": 49,
+        "y": 506,
+        "w": 13.5,
+        "h": 10
+      }
+    },
+    {
+      "id": "386:13927",
+      "source": "imgRectangle89",
+      "x": 120,
+      "y": 223,
+      "w": 50,
+      "h": 50,
+      "rotation": 0,
+      "flipY": false,
+      "crop": null,
+      "radius": 0,
+      "render": {
+        "x": 120,
+        "y": 223,
+        "w": 50,
+        "h": 50
+      }
+    }
+  ],
+  "texts": [
+    {
+      "id": "386:13923",
+      "text": "Bỏ riêng rác hữu cơ vào túi hoặc thùng có nắp đậy để tránh ruồi muỗi.\nCó thể ủ thành phân compost để trồng cây, cải tạo đất.\nNếu không tự ủ được, hãy cho vào thùng rác hữu cơ để được xử lý làm phân vi sinh tại cơ sở môi trường.\n\n     Ví dụ: Gom vỏ rau củ, cơm thừa rồi cho vào    thùng rác hữu cơ.",
+      "x": 42,
+      "y": 340,
+      "w": 344,
+      "h": 198,
+      "size": 14,
+      "font": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "spacing": {
+        "unit": "PERCENT",
+        "value": 3
+      },
+      "align": "left",
+      "paragraphSpacing": 0,
+      "color": "#000000"
+    },
+    {
+      "id": "386:13925",
+      "text": "Cách xử lý:",
+      "x": 169,
+      "y": 307,
+      "w": 90,
+      "h": 19,
+      "size": 16,
+      "font": {
+        "family": "Inter",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500,
+          "slnt": 0
+        }
+      },
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "spacing": {
+        "unit": "PERCENT",
+        "value": 3
+      },
+      "align": "left",
+      "paragraphSpacing": 0,
+      "color": "#000000"
+    },
+    {
+      "id": "386:13928",
+      "text": "Rác hữu cơ",
+      "x": 180,
+      "y": 236,
+      "w": 114,
+      "h": 24,
+      "size": 20,
+      "font": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      },
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "spacing": {
+        "unit": "PERCENT",
+        "value": 3
+      },
+      "align": "left",
+      "paragraphSpacing": 0,
+      "color": "#555555"
+    }
+  ],
+  "back": {
+    "id": "386:13912",
+    "x": 20,
+    "y": 64,
+    "w": 30,
+    "h": 30
+  }
+}

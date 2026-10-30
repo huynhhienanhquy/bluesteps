@@ -1,0 +1,1355 @@
+{
+  "version": "0.2.0",
+  "taskStates": {
+    "DECISIONS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "420ae6f92bed337590bc65b9bf2ab0311130b257ba6d6e9de0509317387790ea",
+      "handoffPath": "execution/handoffs/DECISIONS-SPEC.json"
+    },
+    "DECISIONS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "0fd838ebb65ae083095fadd5135a48c70d5b2920dbc4953557a26d296c7fb820",
+      "handoffPath": "execution/handoffs/DECISIONS-BUILD.json"
+    },
+    "DECISIONS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "88fa568dbbf13f81b733318c6f3c2fa4d74c53c94aa31cda1a85c99a7661235b",
+      "handoffPath": "execution/handoffs/DECISIONS-VERIFY.json"
+    },
+    "UI-SPEC-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "b1f08a821d77f9f9297397b9e44e919f20f6546b8e211acb99d777048d87e2c2",
+      "handoffPath": "execution/handoffs/UI-SPEC-SPEC.json"
+    },
+    "UI-SPEC-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "0324f5ab74964b9d0e696e590decbcc6e44d62a3f8127dd0b47b5c2a5f0a2d3b",
+      "handoffPath": "execution/handoffs/UI-SPEC-BUILD.json"
+    },
+    "UI-SPEC-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "f3d83177b19b1adc90d40dd9a36cfe1d230a10581eaf7e1fa7f3c2fa52932d7f",
+      "handoffPath": "execution/handoffs/UI-SPEC-VERIFY.json"
+    },
+    "CONTRACTS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "f8f0b7a32582dbe93ce80bf58ac35b06c745c50c07c9a38a93849a1b3a928011",
+      "handoffPath": "execution/handoffs/CONTRACTS-SPEC.json"
+    },
+    "CONTRACTS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "9e12e7d02c0d5a2dd4bf19850fc62b0a3cd0e09dd0993c0ebc542a00aa5a53f1",
+      "handoffPath": "execution/handoffs/CONTRACTS-BUILD.json"
+    },
+    "CONTRACTS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "64fc69a21b1eec2d4d98dc9b3a9f155a95799e33faf08ce56785b1e7b944dbc9",
+      "handoffPath": "execution/handoffs/CONTRACTS-VERIFY.json"
+    },
+    "DB-SPIKE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "8936bd0918cc66c03bf559188836fb39291cf3a7c25e790b89739cdd92e88053",
+      "handoffPath": "execution/handoffs/DB-SPIKE-SPEC.json"
+    },
+    "DB-SPIKE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "99e6c220ba153f9c5549baae88f481182259166967df7252bb9a44e26900d96c",
+      "handoffPath": "execution/handoffs/DB-SPIKE-BUILD.json"
+    },
+    "DB-SPIKE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "f4bb1012df66bacf34e80234293589a927ea7ca0d0c91b7a263edb6a4f6296b8",
+      "handoffPath": "execution/handoffs/DB-SPIKE-VERIFY.json"
+    },
+    "NATIVE-SPIKE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "ea81f67e79a8ee705b9f8632fa4097c2d8178cf31830f2992d7119613a039119",
+      "handoffPath": "execution/handoffs/NATIVE-SPIKE-SPEC.json"
+    },
+    "NATIVE-SPIKE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "32c3a9e63c26287c2263da16bfaab1dd4e912f319526757259bc79c740d8ae13",
+      "handoffPath": "execution/handoffs/NATIVE-SPIKE-BUILD.json"
+    },
+    "NATIVE-SPIKE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "c4ab8a0b15c2f210c805173132b3cf077abd829ca208802e8315c2ca95e14aae",
+      "handoffPath": "execution/handoffs/NATIVE-SPIKE-VERIFY.json"
+    },
+    "API-BASE-SPEC": {
+      "state": "provided_design",
+      "inputFingerprint": "4f7beb11775f3821a349d1e326968372972374142143cc579cb02d4d3bd28194",
+      "handoffPath": "execution/handoffs/API-BASE-SPEC.json"
+    },
+    "API-BASE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "96da80a350ac4881b45f74327cea9566b995fc5d4728b91b914d7b39caa67ae9",
+      "handoffPath": "execution/handoffs/API-BASE-BUILD.json"
+    },
+    "API-BASE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "160ba06e3d0c21101d3bb2242178a3684ab2e091b9fe190431009c8e782279ad",
+      "handoffPath": "execution/handoffs/API-BASE-VERIFY.json"
+    },
+    "DB-HARNESS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "274b1328c0690a2510d067604911ca619924820ee8e060855a1ad3c4dc9480ca",
+      "handoffPath": "execution/handoffs/DB-HARNESS-SPEC.json"
+    },
+    "DB-HARNESS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "fc490083ea939790ae3a96294dfbe3ba89822f73ae8769792601521fae1659a2",
+      "handoffPath": "execution/handoffs/DB-HARNESS-BUILD.json"
+    },
+    "DB-HARNESS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "0d73bba5014d997a5ce37adc101178ffbea48c3a63d98d303770cb6ce346a4d9",
+      "handoffPath": "execution/handoffs/DB-HARNESS-VERIFY.json"
+    },
+    "DB-ACCESS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "f2efc0631f272ae152c061e62820863c958d6f349ae080a8b0360e763a00df27",
+      "handoffPath": "execution/handoffs/DB-ACCESS-SPEC.json"
+    },
+    "DB-ACCESS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "000225c04a3692e919bd38e9b19572dab6b59ca4f762cf531169b29ca18eedff",
+      "handoffPath": "execution/handoffs/DB-ACCESS-BUILD.json"
+    },
+    "DB-ACCESS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "f6fba2197f966bb444a60e1db3409fffd5e771945303e361f76ab2d092cc8cc6",
+      "handoffPath": "execution/handoffs/DB-ACCESS-VERIFY.json"
+    },
+    "OUTBOX-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "cd3354d6e07d454a6146aedcb6fe66c49177469becf619180aec19aefafc3983",
+      "handoffPath": "execution/handoffs/OUTBOX-SPEC.json"
+    },
+    "OUTBOX-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "579ed8b64f3c04d7224fc2185a88c63f377fc24163a7bad5aef1b752f0912673",
+      "handoffPath": "execution/handoffs/OUTBOX-BUILD.json"
+    },
+    "OUTBOX-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "54b332a97c25e68f6278613b0a267a2f9f738768e41f36fb30380e41938a4365",
+      "handoffPath": "execution/handoffs/OUTBOX-VERIFY.json"
+    },
+    "QUEUE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "704accce97dfe5bfd39abb9c8fbae3c0e454abc5395e23dda83ca98ed8b0e2c9",
+      "handoffPath": "execution/handoffs/QUEUE-SPEC.json"
+    },
+    "QUEUE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "10f1e4732379bc6fca8c80c2bef8b281a3edc62fba5edda0ab0d4c153c7bab48",
+      "handoffPath": "execution/handoffs/QUEUE-BUILD.json"
+    },
+    "QUEUE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "26e4324f4f029ba7670846bd42ed55af6d8ffdded230075935da25d632521696",
+      "handoffPath": "execution/handoffs/QUEUE-VERIFY.json"
+    },
+    "SOCKET-BASE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "0bacd30f05d9e1852d4bf0648d1a2a990e2f732f6e8513e9091d21d9ea9fbda5",
+      "handoffPath": "execution/handoffs/SOCKET-BASE-SPEC.json"
+    },
+    "SOCKET-BASE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "2b683be9d57b5aee18aead55ce6188d4d864260914578066beaa05178ac94a4b",
+      "handoffPath": "execution/handoffs/SOCKET-BASE-BUILD.json"
+    },
+    "SOCKET-BASE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "148610a5be6f73071663f2d331c283cf534ec7ed91c9d865192ffa441777727a",
+      "handoffPath": "execution/handoffs/SOCKET-BASE-VERIFY.json"
+    },
+    "CI-BASE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "acb95c5d5cc6c0164bc2176c224642a2391e169c4e8eb1e6d8f0b968e57e7355",
+      "handoffPath": "execution/handoffs/CI-BASE-SPEC.json"
+    },
+    "CI-BASE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "1e3a0c73a2d8a80f522d3bb353c9f2f3e7a195ee800417e0f84ef64bd551249a",
+      "handoffPath": "execution/handoffs/CI-BASE-BUILD.json"
+    },
+    "CI-BASE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "d70665029c64f36aab48fb5d5d683cc21f805240263b4df6bc2253b4488fc2ea",
+      "handoffPath": "execution/handoffs/CI-BASE-VERIFY.json"
+    },
+    "MOBILE-BASE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "f445dad12ef1f98cc74e82068ca38b9a2002a6c37133e8b879a670e38dbb3748",
+      "handoffPath": "execution/handoffs/MOBILE-BASE-SPEC.json"
+    },
+    "MOBILE-BASE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "95dc3fd7bde9cc9d0ef48e3e11c1e8d5c14c3f777befdbe9cf83d7dce7a9cd12",
+      "handoffPath": "execution/handoffs/MOBILE-BASE-BUILD.json"
+    },
+    "MOBILE-BASE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "fa0a64e88d383c846b4825a89f4c4c065f91f42c0b51cea193fe9b593a7a6d32",
+      "handoffPath": "execution/handoffs/MOBILE-BASE-VERIFY.json"
+    },
+    "UI-PRIMITIVES-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "493e35260e7a8335a46431272b5f565ab82f2555920a50aa52451b23a016ab3e",
+      "handoffPath": "execution/handoffs/UI-PRIMITIVES-SPEC.json"
+    },
+    "UI-PRIMITIVES-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "89780d02a12e1e6d90511e18cd615812a8561ffa78ef8ea75542a505e54ffc34",
+      "handoffPath": "execution/handoffs/UI-PRIMITIVES-BUILD.json"
+    },
+    "UI-PRIMITIVES-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "10b7c0ebf9ed0cc6a46b881f22dea500cca3bd10e56dff10a9d219b3e5708dd3",
+      "handoffPath": "execution/handoffs/UI-PRIMITIVES-VERIFY.json"
+    },
+    "NAVIGATION-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "ce766658faa77d5f5fa251c0a4b5a16c63b57aafb5c42c813f18384f4b81abbf",
+      "handoffPath": "execution/handoffs/NAVIGATION-SPEC.json"
+    },
+    "NAVIGATION-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "d9c33cb2cd0115227606ab66ed1af38562e040c3fd70539c6826e2d5907740ad",
+      "handoffPath": "execution/handoffs/NAVIGATION-BUILD.json"
+    },
+    "NAVIGATION-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "cce417d2d21767c7479b2aa3c20bf3bc6e57ead37c32705a0f90d28954ef6ea5",
+      "handoffPath": "execution/handoffs/NAVIGATION-VERIFY.json"
+    },
+    "AUTH-DATA-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "1bf891cd0f650c33b12716bdc3fb7f7b0850ee50a0b391378ff00997c844083d",
+      "handoffPath": "execution/handoffs/AUTH-DATA-SPEC.json"
+    },
+    "AUTH-DATA-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "b19d93cb5e00cd8d60a487a03aaba1b41f1ffd0a0a23ef026278a68935db485f",
+      "handoffPath": "execution/handoffs/AUTH-DATA-BUILD.json"
+    },
+    "AUTH-DATA-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "cf70e333ceb64a209a2c027c6081d81452ffd077f2abf296bc80ecebb5a2af43",
+      "handoffPath": "execution/handoffs/AUTH-DATA-VERIFY.json"
+    },
+    "AUTH-TOKENS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "1eaedb53bca793b6ad7bb5c7449f6f662208ed461335d5bcafad2117adb3023d",
+      "handoffPath": "execution/handoffs/AUTH-TOKENS-SPEC.json"
+    },
+    "AUTH-TOKENS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "8235538ffc6a8d9681d207ff96e8f4f2f95d4eff439ffafcd15a0b69b1debc3a",
+      "handoffPath": "execution/handoffs/AUTH-TOKENS-BUILD.json"
+    },
+    "AUTH-TOKENS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "6a9ed5618397783fc2dee6144a7add11e40cca8e6f8a9f5e94713ffe389c782f",
+      "handoffPath": "execution/handoffs/AUTH-TOKENS-VERIFY.json"
+    },
+    "AUTH-RECOVERY-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "2b92215ee7b9d3669e73b54f6f3307e7e2eecbc32f2c9d8a64cccbe9b5462fd6",
+      "handoffPath": "execution/handoffs/AUTH-RECOVERY-SPEC.json"
+    },
+    "AUTH-RECOVERY-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "30e1e6573acc649e84e18bd99a939d93100d96ab49f1cf08ccc61017d4e234c8",
+      "handoffPath": "execution/handoffs/AUTH-RECOVERY-BUILD.json"
+    },
+    "AUTH-RECOVERY-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "35a5988606464e245c4071d0aa23764bbbfc7b0f0b83a897f2215d69affbb2bf",
+      "handoffPath": "execution/handoffs/AUTH-RECOVERY-VERIFY.json"
+    },
+    "OAUTH-GOOGLE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "ac90313addc11f1e2a88e22c39f6e74e515daf255e8d74e63b6079e9b7e61a80",
+      "handoffPath": "execution/handoffs/OAUTH-GOOGLE-SPEC.json"
+    },
+    "OAUTH-GOOGLE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "a75796b3ae50865d6bae6986bfaf0569b98b8bf2c72a0f2ec3f606fe3085c8d8",
+      "handoffPath": "execution/handoffs/OAUTH-GOOGLE-BUILD.json"
+    },
+    "OAUTH-GOOGLE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "812fc7c9f1916b58d126f46d17626d6a60e7525634ade9b1ea51ac1afc9f5c31",
+      "handoffPath": "execution/handoffs/OAUTH-GOOGLE-VERIFY.json"
+    },
+    "OAUTH-FACEBOOK-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "e0a239b55cec97c62aa89aa86c69a659bbfc436ac55e1074a4eec58ed4039bcd",
+      "handoffPath": "execution/handoffs/OAUTH-FACEBOOK-SPEC.json"
+    },
+    "OAUTH-FACEBOOK-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "f68d508ef1ffc690a93c6ee8acd0272834d7c7f05c8b66d66109e4717a6f80bd",
+      "handoffPath": "execution/handoffs/OAUTH-FACEBOOK-BUILD.json"
+    },
+    "OAUTH-FACEBOOK-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "64e5bc7dbb0ff093fff3b31399b705685f4ebca4332dcb5fa83d701343cd271c",
+      "handoffPath": "execution/handoffs/OAUTH-FACEBOOK-VERIFY.json"
+    },
+    "ONBOARD-INTRO-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "8784bf7b4703d53edcaba21513049084e13382172f4d56a883fc01e601d77920",
+      "handoffPath": "execution/handoffs/ONBOARD-INTRO-SPEC.json"
+    },
+    "ONBOARD-INTRO-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "a8871d79fa81b797e36dcadad0e19051e3659d276f247222753a00bef9b8c652",
+      "handoffPath": "execution/handoffs/ONBOARD-INTRO-BUILD.json"
+    },
+    "ONBOARD-INTRO-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "c24c2c0eb41cca3716f27773a97c3bab8fb2ff683fba0998d7d6651e4b10a2bb",
+      "handoffPath": "execution/handoffs/ONBOARD-INTRO-VERIFY.json"
+    },
+    "ONBOARD-PREFS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "a7e1f69f64006b8ff767634fe7083900ca1c8a795b02f91292b0eacad8484a07",
+      "handoffPath": "execution/handoffs/ONBOARD-PREFS-SPEC.json"
+    },
+    "ONBOARD-PREFS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "e425c188b3a082d17ba823034beaa5472698c2362e3d0f89892090057c5146d7",
+      "handoffPath": "execution/handoffs/ONBOARD-PREFS-BUILD.json"
+    },
+    "ONBOARD-PREFS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "9cfaebda954d7ccbdda0efed0a8bc8b48088b0ef8dfa45391b03278870c2da71",
+      "handoffPath": "execution/handoffs/ONBOARD-PREFS-VERIFY.json"
+    },
+    "ONBOARD-PERM-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "cf4dc9f6c13ad5c4b9d469c94c4a7088000bbe8f2ee4b108a4d49ab87107cc49",
+      "handoffPath": "execution/handoffs/ONBOARD-PERM-SPEC.json"
+    },
+    "ONBOARD-PERM-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "10d755fbeb42190424e153cff973286ed3a3af78ef9c9bced6251b4c003e65b2",
+      "handoffPath": "execution/handoffs/ONBOARD-PERM-BUILD.json"
+    },
+    "ONBOARD-PERM-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "2721f591b3911b87b0768e08825f1b80d10265d13a104b550ff1ac5d3a117bd6",
+      "handoffPath": "execution/handoffs/ONBOARD-PERM-VERIFY.json"
+    },
+    "PROFILE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "6be4e1ec5f5a096a74b234054dd441788d0abcc375a1718da1774e5d874dc38f",
+      "handoffPath": "execution/handoffs/PROFILE-SPEC.json"
+    },
+    "PROFILE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "810d63b9644cb70c75b2deb54f0eb063d64dacae709816600aeb7df41f6fb224",
+      "handoffPath": "execution/handoffs/PROFILE-BUILD.json"
+    },
+    "PROFILE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "dea19687d30585512477424853d573245082e8fc7ad98e36f43cd6b9b18d960f",
+      "handoffPath": "execution/handoffs/PROFILE-VERIFY.json"
+    },
+    "EMAIL-CHANGE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "bf497581277caf5c092b13b714de1b034ad471b685af3a26e17b73ad6e7aea21",
+      "handoffPath": "execution/handoffs/EMAIL-CHANGE-SPEC.json"
+    },
+    "EMAIL-CHANGE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "0322acc06fb964c854da85dae127e97aa26fb2ab510479ccc2edba3faeace4b5",
+      "handoffPath": "execution/handoffs/EMAIL-CHANGE-BUILD.json"
+    },
+    "EMAIL-CHANGE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "cdee9a617a6f04d93601463800439f0d4a3274e17886c5351e2c5daeb4823544",
+      "handoffPath": "execution/handoffs/EMAIL-CHANGE-VERIFY.json"
+    },
+    "SETTINGS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "279a6ccff7b6a62ea63fec573a11af036eac2bc0311e57e953af562cf2bba47a",
+      "handoffPath": "execution/handoffs/SETTINGS-SPEC.json"
+    },
+    "SETTINGS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "1a91119dc9bc5c9f38338421e72b3ace07a8850ab3908143af0c9aa273def515",
+      "handoffPath": "execution/handoffs/SETTINGS-BUILD.json"
+    },
+    "SETTINGS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "b7f1a640c329a29338e739d959ca90c80d2744b1af7f6c93ba7b542bf09c8e84",
+      "handoffPath": "execution/handoffs/SETTINGS-VERIFY.json"
+    },
+    "TAXONOMY-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "bb8892d8a8224eb164cdebf10353e1b910b56771696db2d9ca71e032417711bf",
+      "handoffPath": "execution/handoffs/TAXONOMY-SPEC.json"
+    },
+    "TAXONOMY-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "529e4de7540d4d91a3f5a3e35d7c741548de6819868cf12e72f814bfb2142ca7",
+      "handoffPath": "execution/handoffs/TAXONOMY-BUILD.json"
+    },
+    "TAXONOMY-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "28caead6e494c2c0deac25b110871dc1d1fb40da98df5c17114e840434dfd518",
+      "handoffPath": "execution/handoffs/TAXONOMY-VERIFY.json"
+    },
+    "CONTENT-ADMIN-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "8a014c83012e3bc1e5d41be98c4063383567575dae587dfe32c2ae6a9f98d4d1",
+      "handoffPath": "execution/handoffs/CONTENT-ADMIN-SPEC.json"
+    },
+    "CONTENT-ADMIN-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "591cb090f9a9e130fa5003b662f5f0051817dcff1c3b2871f2bfc2dcde4ca4da",
+      "handoffPath": "execution/handoffs/CONTENT-ADMIN-BUILD.json"
+    },
+    "CONTENT-ADMIN-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "8d456810f33a471bf74a75bcf8e0f953c8bfdf7a41ba8f247d93fa2e89549f64",
+      "handoffPath": "execution/handoffs/CONTENT-ADMIN-VERIFY.json"
+    },
+    "HANDBOOK-LIST-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "d85d511b36f89ab37e4647eb2efdde65be4de8bea9730da0be8c856fb4299b59",
+      "handoffPath": "execution/handoffs/HANDBOOK-LIST-SPEC.json"
+    },
+    "HANDBOOK-LIST-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "c34ca6bdfc75487aa0a6717858b0574f284fcb3384a3188937dee1c992481a3a",
+      "handoffPath": "execution/handoffs/HANDBOOK-LIST-BUILD.json"
+    },
+    "HANDBOOK-LIST-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "6347d6d4d7b0e57ecc19bdddc5217bb1534821c222f57aaac61a25f23b1f7f53",
+      "handoffPath": "execution/handoffs/HANDBOOK-LIST-VERIFY.json"
+    },
+    "HANDBOOK-DETAIL-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "07158e3ac06645fcf59b616e417bc0c7544989fcef0ad4faada25536b0af3a7b",
+      "handoffPath": "execution/handoffs/HANDBOOK-DETAIL-SPEC.json"
+    },
+    "HANDBOOK-DETAIL-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "6f766f7c0ff716b4ca6f6352ba1bee8470f0ce23f296040ff856067b4988412e",
+      "handoffPath": "execution/handoffs/HANDBOOK-DETAIL-BUILD.json"
+    },
+    "HANDBOOK-DETAIL-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "bf67e4d8c51c61046c8a653446c4b954096e5a552f329488f49c752997c5ef58",
+      "handoffPath": "execution/handoffs/HANDBOOK-DETAIL-VERIFY.json"
+    },
+    "MEDIA-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "0307e2f46d38d6f8e93536d87b72a0822d3dd5132a5d0201d758befdc890995c",
+      "handoffPath": "execution/handoffs/MEDIA-SPEC.json"
+    },
+    "MEDIA-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "17bfc01e29beb676ac8f89b016272d7bbc411413dbf28def62a25c6508acb506",
+      "handoffPath": "execution/handoffs/MEDIA-BUILD.json"
+    },
+    "MEDIA-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "1940b7a963cefbf870db57d7dddfef808b0245e453cfaf32bf324cdea85af7f3",
+      "handoffPath": "execution/handoffs/MEDIA-VERIFY.json"
+    },
+    "MEDIA-JOBS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "414cba633fa9714f1481ef78b0aa3f5579cff037adba9af737da4172c40cdbca",
+      "handoffPath": "execution/handoffs/MEDIA-JOBS-SPEC.json"
+    },
+    "MEDIA-JOBS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "0f76a0c745041174892ad01778bbce3521476e5f424a12f864ff4970a42fa4a0",
+      "handoffPath": "execution/handoffs/MEDIA-JOBS-BUILD.json"
+    },
+    "MEDIA-JOBS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "423ee7c345b35841afce449324eae09b43d3d71f8f19728286173f2a1c7a6ff2",
+      "handoffPath": "execution/handoffs/MEDIA-JOBS-VERIFY.json"
+    },
+    "SCAN-CAMERA-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "0e910fcacc9541f99ac32a738750853334c00cbcb64231176b31bd9a214b9424",
+      "handoffPath": "execution/handoffs/SCAN-CAMERA-SPEC.json"
+    },
+    "SCAN-CAMERA-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "b0cab6a7a0651bb57f5a25edade88fefb7b4299e313d8fce00f8ff7f32492fe8",
+      "handoffPath": "execution/handoffs/SCAN-CAMERA-BUILD.json"
+    },
+    "SCAN-CAMERA-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "82211bc8adc2fae5b2ef6bef2c941b29b08b7914014ee000df6cc12a3027a755",
+      "handoffPath": "execution/handoffs/SCAN-CAMERA-VERIFY.json"
+    },
+    "SCAN-JOB-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "e6946ef712ee1f6e529fc549674d86d251ec765733ea10fd11ff89514bb58253",
+      "handoffPath": "execution/handoffs/SCAN-JOB-SPEC.json"
+    },
+    "SCAN-JOB-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "a2703caa5c9f063fb915429cfc3743587f1a02eaf1e225b2686f50a14915aef4",
+      "handoffPath": "execution/handoffs/SCAN-JOB-BUILD.json"
+    },
+    "SCAN-JOB-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "c51302b83a7b0ad84717dd04ac71411b463344fff22e247eddc93f53434ebb79",
+      "handoffPath": "execution/handoffs/SCAN-JOB-VERIFY.json"
+    },
+    "SORT-ACTION-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "6a681e9219ecd711d9873946ad6af518988ca084ca040eb4bcb3fe7b4a3e894c",
+      "handoffPath": "execution/handoffs/SORT-ACTION-SPEC.json"
+    },
+    "SORT-ACTION-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "5dc1c4f3adfda236ebef97d2160aa47161ea5bfdc65f5e1783fd46e403cfa9c7",
+      "handoffPath": "execution/handoffs/SORT-ACTION-BUILD.json"
+    },
+    "SORT-ACTION-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "eac0cf4aaa88d3d235c0eeaab54d307ba3bc9e4b19e3f8c0d943409b95c8f782",
+      "handoffPath": "execution/handoffs/SORT-ACTION-VERIFY.json"
+    },
+    "POINT-EARN-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "cd6ce48dca4d37cb1a6458ee73b682f1690fa930f9de369c0fdfc85cf9684af8",
+      "handoffPath": "execution/handoffs/POINT-EARN-SPEC.json"
+    },
+    "POINT-EARN-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "3c1b1735364defeee0b0a7c614a81e91ce47ff797c1ce658345d16f2fb7e3b37",
+      "handoffPath": "execution/handoffs/POINT-EARN-BUILD.json"
+    },
+    "POINT-EARN-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "53f5f117aded1405569724729e9390b42a6d5d4608aeca760f087228d9f8c4ae",
+      "handoffPath": "execution/handoffs/POINT-EARN-VERIFY.json"
+    },
+    "POINTS-DATA-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "caace5269de9c29b8a55c060e3e70038428377ee26ad0f08494974bcb31f6ace",
+      "handoffPath": "execution/handoffs/POINTS-DATA-SPEC.json"
+    },
+    "POINTS-DATA-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "8217a3a3d57ed117e21d8ba35bc807976793ae7d987aa4fc260307640dfd03bb",
+      "handoffPath": "execution/handoffs/POINTS-DATA-BUILD.json"
+    },
+    "POINTS-DATA-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "a9b64c24d7600838093af6cff20bb51d3c0fcfb0106adaf18af23579a2035562",
+      "handoffPath": "execution/handoffs/POINTS-DATA-VERIFY.json"
+    },
+    "POINTS-GEO-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "42cb02300a91c3b253b0cc7696d4705875b622faa49594d4086480d1cd299b34",
+      "handoffPath": "execution/handoffs/POINTS-GEO-SPEC.json"
+    },
+    "POINTS-GEO-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "76f0d0834b16a254b078ab4d2b8699a0e2de41fbb59e8af637e2d5779baae80e",
+      "handoffPath": "execution/handoffs/POINTS-GEO-BUILD.json"
+    },
+    "POINTS-GEO-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "71c89ce4711d3571032c86ff4d5e05a7be909c1bf497f9a33f7c96649ba10796",
+      "handoffPath": "execution/handoffs/POINTS-GEO-VERIFY.json"
+    },
+    "MAP-UI-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "2754e25e630b4188bbbb4d2ce8dfd6f73893a012418ddebc16602c028eba6c4b",
+      "handoffPath": "execution/handoffs/MAP-UI-SPEC.json"
+    },
+    "MAP-UI-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "bc8ca066a4805b61670ede0a7cec7e0689187cd55d530c96837e8d4f45462d5b",
+      "handoffPath": "execution/handoffs/MAP-UI-BUILD.json"
+    },
+    "MAP-UI-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "aee29c048bd03cb8a4f8b1c1342edb4b6e2b20c61f9b37c6b3f4057c359ce0de",
+      "handoffPath": "execution/handoffs/MAP-UI-VERIFY.json"
+    },
+    "MAP-FILTER-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "6ecb7148d42996117746d050d51c26535dc64d6dad9cc4886c027faa5afd43af",
+      "handoffPath": "execution/handoffs/MAP-FILTER-SPEC.json"
+    },
+    "MAP-FILTER-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "77be7e33ee4cb4a20c492e99a9a50b7d5121d82c3f2e44ebb98bab2dbbbead01",
+      "handoffPath": "execution/handoffs/MAP-FILTER-BUILD.json"
+    },
+    "MAP-FILTER-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "a4c2a2e1da5bf90a410a7329c7cf7fce73e160536aa70f947088ad637186345e",
+      "handoffPath": "execution/handoffs/MAP-FILTER-VERIFY.json"
+    },
+    "HOME-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "a0332ae91c3bb0dd73fb17ccdeb1cd69b4204e965d32ea15ba237856927c8d51",
+      "handoffPath": "execution/handoffs/HOME-SPEC.json"
+    },
+    "HOME-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "17870a6f041a420a723f5ae8fef5419b23723e6d7fefc5ce8a97e9fd0ce6f624",
+      "handoffPath": "execution/handoffs/HOME-BUILD.json"
+    },
+    "HOME-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "de0b80ef57c4cc5ff4bdbb8356e6f8b0eb24981621e0a4615bf45c03685abcb4",
+      "handoffPath": "execution/handoffs/HOME-VERIFY.json"
+    },
+    "WALLET-READ-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "f62e502b5d3c544f202c00057d4f9d747fb844644dee6855ad7b7cac28b77f93",
+      "handoffPath": "execution/handoffs/WALLET-READ-SPEC.json"
+    },
+    "WALLET-READ-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "1c5d5dec950d50aad993b12604732f655ef63141d5267518aed1fadbdbe8e9e4",
+      "handoffPath": "execution/handoffs/WALLET-READ-BUILD.json"
+    },
+    "WALLET-READ-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "31ff7ad965d944b37a0d5d2915fcfc73102b000f469032d3318ffd15bc661f7a",
+      "handoffPath": "execution/handoffs/WALLET-READ-VERIFY.json"
+    },
+    "LEVELS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "9db5e6604aafac32f17b12de282b635065c40a2e0dc102e8f034fc7747f9c531",
+      "handoffPath": "execution/handoffs/LEVELS-SPEC.json"
+    },
+    "LEVELS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "60d772aa161d0e5fa3c5b454e75b8c32199ec881f41adeed68cdc754c9186c63",
+      "handoffPath": "execution/handoffs/LEVELS-BUILD.json"
+    },
+    "LEVELS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "504de888ef0934218578c8e87dde4d0d588576d5ab66b48732ddc8fa21bc17b5",
+      "handoffPath": "execution/handoffs/LEVELS-VERIFY.json"
+    },
+    "DAILY-CLAIM-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "aa4af15096e58e99c114407d6f1069b0abd9ade9a7f6d7be5ff1c5cea6a5fb39",
+      "handoffPath": "execution/handoffs/DAILY-CLAIM-SPEC.json"
+    },
+    "DAILY-CLAIM-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "225f3b70886f8c46b0eef0a7a795222e6617b554f2db464047eb5047930a4bad",
+      "handoffPath": "execution/handoffs/DAILY-CLAIM-BUILD.json"
+    },
+    "DAILY-CLAIM-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "f81eec1be63d5e013b324f5dfecda1657564e12163ea18d4dad3aa2746c1f1a7",
+      "handoffPath": "execution/handoffs/DAILY-CLAIM-VERIFY.json"
+    },
+    "DAILY-REMINDER-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "5b2ee25935195081b5dbe35a7906c95a8f9deb2f7fd5842f9e1087e1b8e1a94e",
+      "handoffPath": "execution/handoffs/DAILY-REMINDER-SPEC.json"
+    },
+    "DAILY-REMINDER-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "bc5f2b55e793a3c70f512f2336f93a1ac3d6e5ca3b4ed7b61da85a7be2d2a6ca",
+      "handoffPath": "execution/handoffs/DAILY-REMINDER-BUILD.json"
+    },
+    "DAILY-REMINDER-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "6c34fb07dfd62e9502f938f2f0a00685a6d302b971850c358a1dd4ce7c57079f",
+      "handoffPath": "execution/handoffs/DAILY-REMINDER-VERIFY.json"
+    },
+    "REWARD-CATALOG-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "3b0e8ad54a45e472c61d11c11959ca246079c8db76cc24ccfc94a5599d1aff4e",
+      "handoffPath": "execution/handoffs/REWARD-CATALOG-SPEC.json"
+    },
+    "REWARD-CATALOG-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "24bcb8bce3d7b53811a0552e0c5bf52ba6db07072d537684b1046a0354fc6622",
+      "handoffPath": "execution/handoffs/REWARD-CATALOG-BUILD.json"
+    },
+    "REWARD-CATALOG-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "3e39ad43510ef0438f89be2034214b763bf169e023dd55d67bd3a9e70b4079ed",
+      "handoffPath": "execution/handoffs/REWARD-CATALOG-VERIFY.json"
+    },
+    "REDEEM-ATOMIC-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "ed9dd1e9fcd84c48ecd98b4500492b5520d1bfdfddb0865d09b322d7ea5ef122",
+      "handoffPath": "execution/handoffs/REDEEM-ATOMIC-SPEC.json"
+    },
+    "REDEEM-ATOMIC-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "3d899b15e16b476f0412e93d64452531f17d0ffc6e914e92d037e2738bb2e71d",
+      "handoffPath": "execution/handoffs/REDEEM-ATOMIC-BUILD.json"
+    },
+    "REDEEM-ATOMIC-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "6651f4d0d0e042053f8f626dd8d009ea6bb0cabef15d9f2eff6b00f903f4209c",
+      "handoffPath": "execution/handoffs/REDEEM-ATOMIC-VERIFY.json"
+    },
+    "FULFILL-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "bbfbe1be0b1c30916911765f88b7abbc2f0147f0e9a5052ec073aec559183e17",
+      "handoffPath": "execution/handoffs/FULFILL-SPEC.json"
+    },
+    "FULFILL-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "35b2a53801db5040cbf6d4ecfc4167c2b6d7896e03e87600d8f4d4c263ab5645",
+      "handoffPath": "execution/handoffs/FULFILL-BUILD.json"
+    },
+    "FULFILL-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "6e1e8ebc305fe9a5428ae9359d4ca1d217bf50c5f100941cd8b508af4d542944",
+      "handoffPath": "execution/handoffs/FULFILL-VERIFY.json"
+    },
+    "REFUND-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "16bec6367bfbab176412df6424804fc30d6f663783ffa16ef942c1c452782b7b",
+      "handoffPath": "execution/handoffs/REFUND-SPEC.json"
+    },
+    "REFUND-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "fd915004458e739ceedc3a53ce86a900e110ce3c0bf0aa5c177a18cd12f5223c",
+      "handoffPath": "execution/handoffs/REFUND-BUILD.json"
+    },
+    "REFUND-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "bc60e9d0d5e905fe7ed1041e02c33406ca592c9c481cd445feae41fc4855532c",
+      "handoffPath": "execution/handoffs/REFUND-VERIFY.json"
+    },
+    "PROPOSAL-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "2bd6a410e1891978852b3df6c42b617da87abab5f58c9775464f55b595909cec",
+      "handoffPath": "execution/handoffs/PROPOSAL-SPEC.json"
+    },
+    "PROPOSAL-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "af41e810ae4687163bdfb6db59c4a329047a63d17eb94df9e5c73c40195b51d6",
+      "handoffPath": "execution/handoffs/PROPOSAL-BUILD.json"
+    },
+    "PROPOSAL-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "e0fe8cbd0df435c014ea694b2edd9643fd1948558cb09d9f750cf21381bdf120",
+      "handoffPath": "execution/handoffs/PROPOSAL-VERIFY.json"
+    },
+    "POINT-REPORT-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "fd72060404e3fe5d2fa7bdb7368ddd88bb4fdb0a1c56282989f52bec684e5793",
+      "handoffPath": "execution/handoffs/POINT-REPORT-SPEC.json"
+    },
+    "POINT-REPORT-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "aac92dd0a5267264ba390ee29775301fbc0d66576871f3854d65d0761048e3d6",
+      "handoffPath": "execution/handoffs/POINT-REPORT-BUILD.json"
+    },
+    "POINT-REPORT-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "d2cfb9fa4d2e63692fa0c646e12f5421f50c84bb7fb0e7b69b96e1cf8df74be9",
+      "handoffPath": "execution/handoffs/POINT-REPORT-VERIFY.json"
+    },
+    "MODERATION-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "25f576d46f24b55b63aceae597cc3a5de355b4ec26148600efe68922683576f7",
+      "handoffPath": "execution/handoffs/MODERATION-SPEC.json"
+    },
+    "MODERATION-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "d641492b7b028bd008b815f66dfd48de53c3e5d873f8695b723fe03063cab083",
+      "handoffPath": "execution/handoffs/MODERATION-BUILD.json"
+    },
+    "MODERATION-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "c3331f4b3bbec41aeb1d385d6e583f3fe96f8fa8ed97a58ae7ee09882948bb76",
+      "handoffPath": "execution/handoffs/MODERATION-VERIFY.json"
+    },
+    "ROUTE-PREVIEW-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "f091cd0b4f9b3fa056808549ca3db51cc1f0515fa2e572ff5779814ba86bb4e8",
+      "handoffPath": "execution/handoffs/ROUTE-PREVIEW-SPEC.json"
+    },
+    "ROUTE-PREVIEW-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "bb03619929a6b9854193bd9f923cac157d92e00f7e04e30b80eb7ea625b8e2e1",
+      "handoffPath": "execution/handoffs/ROUTE-PREVIEW-BUILD.json"
+    },
+    "ROUTE-PREVIEW-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "167e60a598c7f9fafeb9bc5925a98c8d18d1d93108d2c7a529c9211734aedf35",
+      "handoffPath": "execution/handoffs/ROUTE-PREVIEW-VERIFY.json"
+    },
+    "ROUTE-EDIT-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "6b1d35a7ee77886d39da2b4fec69da0a46e50dc7deb1b8c28c2886596cb5ad4a",
+      "handoffPath": "execution/handoffs/ROUTE-EDIT-SPEC.json"
+    },
+    "ROUTE-EDIT-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "e930437f142a6c145db0edc33aa59be7a1c30e1193f72edafe7817555c0a652d",
+      "handoffPath": "execution/handoffs/ROUTE-EDIT-BUILD.json"
+    },
+    "ROUTE-EDIT-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "348f2f5c78d2e0d30ce5062708c4a207b409062b7c666090bae23f187aff8592",
+      "handoffPath": "execution/handoffs/ROUTE-EDIT-VERIFY.json"
+    },
+    "HANDOVER-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "6bc2d6cefba76ce9d448b6162009766f515a1d092ad166e8ab67d0b37a7309b9",
+      "handoffPath": "execution/handoffs/HANDOVER-SPEC.json"
+    },
+    "HANDOVER-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "19e7738790375224379f245b5ea2d9e50949e81a9dd21e3dbc1ade5dd548ffac",
+      "handoffPath": "execution/handoffs/HANDOVER-BUILD.json"
+    },
+    "HANDOVER-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "bb329a6ecc86affe8f4a78bdc2aec50e5546a7e3355c97634d08f4d4d9e95b9b",
+      "handoffPath": "execution/handoffs/HANDOVER-VERIFY.json"
+    },
+    "HANDOVER-VERIFY-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "ba1eb669c437dc90ea3d02a0ea0d22a7371866aa9199dd7cb5cd44a5a76a3af9",
+      "handoffPath": "execution/handoffs/HANDOVER-VERIFY-SPEC.json"
+    },
+    "HANDOVER-VERIFY-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "1a3100ead20c49421bd43248fdd1ab2b0b13a5ad6f51cc9fbeac166f4a818dcd",
+      "handoffPath": "execution/handoffs/HANDOVER-VERIFY-BUILD.json"
+    },
+    "HANDOVER-VERIFY-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "dc6821e340d45a0df3acadc36ea4b2d36fe017fcdb9980e42d1695cf2c309370",
+      "handoffPath": "execution/handoffs/HANDOVER-VERIFY-VERIFY.json"
+    },
+    "NOTIFY-INBOX-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "83a416446ae7b36df745420f42b44dda5918557a4df961b095991f149f741d99",
+      "handoffPath": "execution/handoffs/NOTIFY-INBOX-SPEC.json"
+    },
+    "NOTIFY-INBOX-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "4b7185bbb91ef16e01c0fc68b317cb2d4cc0c3f3f1d10204968fabe0b794319a",
+      "handoffPath": "execution/handoffs/NOTIFY-INBOX-BUILD.json"
+    },
+    "NOTIFY-INBOX-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "8aeccb41cc70ec75cbaae034de64ec278e139e86c1604309c07b8f0a4e67d77e",
+      "handoffPath": "execution/handoffs/NOTIFY-INBOX-VERIFY.json"
+    },
+    "NOTIFY-DELIVERY-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "e902b07e640c2f42442363ad611da5b835e5c77f22fae0269ed846bcd504bf43",
+      "handoffPath": "execution/handoffs/NOTIFY-DELIVERY-SPEC.json"
+    },
+    "NOTIFY-DELIVERY-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "e90475be13401e4b3b0391f75c95f93cbaed53396db45625ed66c9d8c26680d3",
+      "handoffPath": "execution/handoffs/NOTIFY-DELIVERY-BUILD.json"
+    },
+    "NOTIFY-DELIVERY-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "a5f23e72403aedf2cb6a9740166d17821963f88b5594fa663266c9743202161e",
+      "handoffPath": "execution/handoffs/NOTIFY-DELIVERY-VERIFY.json"
+    },
+    "PREFERENCES-REMIND-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "2df01d8eb7665e2c1363474a9a9cc0e422cce315a757b8ffbaa73f9efba15289",
+      "handoffPath": "execution/handoffs/PREFERENCES-REMIND-SPEC.json"
+    },
+    "PREFERENCES-REMIND-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "99fc304fd94d66055fd13f2a985f2df1394bf4236e57acb763ca4fb935af6670",
+      "handoffPath": "execution/handoffs/PREFERENCES-REMIND-BUILD.json"
+    },
+    "PREFERENCES-REMIND-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "462958864074dcefcca740330e6aec0444a5ac3af5a44d3845e6b3cfbda0b8c9",
+      "handoffPath": "execution/handoffs/PREFERENCES-REMIND-VERIFY.json"
+    },
+    "EVENT-DATA-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "9c10d0b797106cd18b6594a3b0cac12b9965bf762119f4f2cf59541d6923ea3d",
+      "handoffPath": "execution/handoffs/EVENT-DATA-SPEC.json"
+    },
+    "EVENT-DATA-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "fb2378be3f76dd948bbed9dc09b21c8d386c892958b7d05c6f20338c4182d18f",
+      "handoffPath": "execution/handoffs/EVENT-DATA-BUILD.json"
+    },
+    "EVENT-DATA-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "97c15b135525e750356dd1fcba62fc81b68dc1dc9e97278965c3d49d5de36769",
+      "handoffPath": "execution/handoffs/EVENT-DATA-VERIFY.json"
+    },
+    "EVENT-DISCOVERY-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "b8f145dea7663ddb95ccc37cc0299b6ae60828d9b83fb6b48979aedc98131555",
+      "handoffPath": "execution/handoffs/EVENT-DISCOVERY-SPEC.json"
+    },
+    "EVENT-DISCOVERY-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "57f4d78d631e538c5fbbbccaf23fcc351a9e30d87a3338b6eacf9a8be75502b0",
+      "handoffPath": "execution/handoffs/EVENT-DISCOVERY-BUILD.json"
+    },
+    "EVENT-DISCOVERY-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "79cd8e5367cbef422513ab4d01bf2700078b5f8e41994ebef3dd800ee8b05425",
+      "handoffPath": "execution/handoffs/EVENT-DISCOVERY-VERIFY.json"
+    },
+    "EVENT-CALENDAR-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "b70582b052a1acc307379bbf2fff68d8a27df6a58a495adc3744839bce7886ab",
+      "handoffPath": "execution/handoffs/EVENT-CALENDAR-SPEC.json"
+    },
+    "EVENT-CALENDAR-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "ce29042b642370679e68b294e254d0e24397be8510443a472e7277d60fdb8bbe",
+      "handoffPath": "execution/handoffs/EVENT-CALENDAR-BUILD.json"
+    },
+    "EVENT-CALENDAR-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "e7cf8615e9c3772792f00312aa67b3385faaf2441ded331f144fb7d93dcdacad",
+      "handoffPath": "execution/handoffs/EVENT-CALENDAR-VERIFY.json"
+    },
+    "REGISTRATION-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "4ffd6f6c1d09319ec4e75922fd61f5252d32de25c76df7314d788ce78b8f26fd",
+      "handoffPath": "execution/handoffs/REGISTRATION-SPEC.json"
+    },
+    "REGISTRATION-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "252fd1e942ccf65f33317ec48288480695433677fd67a8d4bfddf82fd66b38cf",
+      "handoffPath": "execution/handoffs/REGISTRATION-BUILD.json"
+    },
+    "REGISTRATION-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "3fd248b1d8fcc96fba3522a3e83637aff0693e57f75b89f6ceef054be1c21537",
+      "handoffPath": "execution/handoffs/REGISTRATION-VERIFY.json"
+    },
+    "TICKET-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "a246ce863d202344fd1f7405dc7a5790659bc879f24e8d77ce9e44d61a5ffcb5",
+      "handoffPath": "execution/handoffs/TICKET-SPEC.json"
+    },
+    "TICKET-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "3ccbbaa16f40a44027069481176e15ea936eb34c1b928446b7779c4a65ed8807",
+      "handoffPath": "execution/handoffs/TICKET-BUILD.json"
+    },
+    "TICKET-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "364dc939d45c817686b70190f987dde3a0c19b7db46673fefaf9f557a9548ad2",
+      "handoffPath": "execution/handoffs/TICKET-VERIFY.json"
+    },
+    "SAVED-CORE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "cd16480c6ace8a02463e7a6cd5f9a88936b2fb853f4e914b85e1a66f9eedd2ae",
+      "handoffPath": "execution/handoffs/SAVED-CORE-SPEC.json"
+    },
+    "SAVED-CORE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "0c105486c3dbe3c908fa11fc02e8233f9ff885024bee641ebbe8032e9724049a",
+      "handoffPath": "execution/handoffs/SAVED-CORE-BUILD.json"
+    },
+    "SAVED-CORE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "9bb202ea7a7dd4338487fc7ccb966e092e7cec77fd31b613a7d8d0e957a2ed5b",
+      "handoffPath": "execution/handoffs/SAVED-CORE-VERIFY.json"
+    },
+    "COLLECTIONS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "590cde6443cdfac11b53359cacbae1451bd8299daab9bcd39e801fc0a728a1df",
+      "handoffPath": "execution/handoffs/COLLECTIONS-SPEC.json"
+    },
+    "COLLECTIONS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "9eacb1be6805aea8cb3c22274c3ebd2613ca403fb6f5cc491a3b9534339c5729",
+      "handoffPath": "execution/handoffs/COLLECTIONS-BUILD.json"
+    },
+    "COLLECTIONS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "f9f6c5b643c01378b558c0f21e973f26ec99c8e63f1b884bc5026266d1b4dc24",
+      "handoffPath": "execution/handoffs/COLLECTIONS-VERIFY.json"
+    },
+    "EVENT-REMINDER-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "db9dabce181866d48ebe1e25f2cff8e5e9d4934f491fb2ca6fe2f521a339b2d6",
+      "handoffPath": "execution/handoffs/EVENT-REMINDER-SPEC.json"
+    },
+    "EVENT-REMINDER-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "ee42542fb79ef7b88ea1eea2a24f4e975ea795b7fe2edb033de82a58709ace45",
+      "handoffPath": "execution/handoffs/EVENT-REMINDER-BUILD.json"
+    },
+    "EVENT-REMINDER-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "80df2fd320e51e5e4cdae6ecbb0523888f9292c8fd49be537e7c05cb11c2b1a0",
+      "handoffPath": "execution/handoffs/EVENT-REMINDER-VERIFY.json"
+    },
+    "FEEDBACK-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "38abbb1927ff50b5448c99ebcc796a5d81bc6554887f55ecf8803221cfaeef64",
+      "handoffPath": "execution/handoffs/FEEDBACK-SPEC.json"
+    },
+    "FEEDBACK-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "1518140ec15391be6e97d700494ec74990d7e3d47f87db96a58de79534a2ecd1",
+      "handoffPath": "execution/handoffs/FEEDBACK-BUILD.json"
+    },
+    "FEEDBACK-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "c476cec581ee720b22da3e611c0ca7291505358c373315b01abffbcfcfa7b0dd",
+      "handoffPath": "execution/handoffs/FEEDBACK-VERIFY.json"
+    },
+    "EVENT-ALBUM-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "cbd5974442e15e065af53bdfc2c1a7de7af87dc8af26d0179a7bcc4946e7bac8",
+      "handoffPath": "execution/handoffs/EVENT-ALBUM-SPEC.json"
+    },
+    "EVENT-ALBUM-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "244b87cc26fa52489115d11bcf321bb86fb112f4b2bbcaf87880d1451d66ea47",
+      "handoffPath": "execution/handoffs/EVENT-ALBUM-BUILD.json"
+    },
+    "EVENT-ALBUM-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "a234f826904dc5cc9dd9fbd188ff3bc697de2ba5cbdccc0cef570f54a173e6d2",
+      "handoffPath": "execution/handoffs/EVENT-ALBUM-VERIFY.json"
+    },
+    "NEWS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "ea192eac54c148771f1b8213c83f48e4fd6064277a76d309f98ffa682a629b11",
+      "handoffPath": "execution/handoffs/NEWS-SPEC.json"
+    },
+    "NEWS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "720b42c0a33e583b56419218023ee9c3e0dc4e8330fc911820189ad898b0c370",
+      "handoffPath": "execution/handoffs/NEWS-BUILD.json"
+    },
+    "NEWS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "b7e709d6d91b9fe5c83e2ff706060859cad127f502a9404b031db2392a22edfb",
+      "handoffPath": "execution/handoffs/NEWS-VERIFY.json"
+    },
+    "SOCIAL-GRAPH-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "bad60916ec7b957c1271f04bd8c4a57c08ffbdbd454c84168d5ef3173811a69c",
+      "handoffPath": "execution/handoffs/SOCIAL-GRAPH-SPEC.json"
+    },
+    "SOCIAL-GRAPH-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "92c9c59c32c5b7b6da1c2e063534b6ab3466b90001138f7d6281d388f03a71f3",
+      "handoffPath": "execution/handoffs/SOCIAL-GRAPH-BUILD.json"
+    },
+    "SOCIAL-GRAPH-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "e92926947aba64a9b4a4a2b0de5a3e98a1d5df46896d583193bcf605cdfae735",
+      "handoffPath": "execution/handoffs/SOCIAL-GRAPH-VERIFY.json"
+    },
+    "POSTS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "346489a834994d46a5d2e4bcdc4c441d4e22dc59c67f9fd1fd829398afbd3fdf",
+      "handoffPath": "execution/handoffs/POSTS-SPEC.json"
+    },
+    "POSTS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "2e9a4dc26fcd8bf65b297d3cee536261693b7cbe4cd90c5d0e716247c62510d7",
+      "handoffPath": "execution/handoffs/POSTS-BUILD.json"
+    },
+    "POSTS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "4060bcff4796e15c7592b630e182bcd2f424fcb42e82629b5ddd911b17b0fef6",
+      "handoffPath": "execution/handoffs/POSTS-VERIFY.json"
+    },
+    "SOCIAL-ACTIONS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "0b0f67e67c59e1d85f457293bff622e7b18f2a52812c72a006ac82faedd29721",
+      "handoffPath": "execution/handoffs/SOCIAL-ACTIONS-SPEC.json"
+    },
+    "SOCIAL-ACTIONS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "0244c2bb7ca4b7191fc429a5e4bc48f17374a56e405e63b69ebd0ac3dbc7ee85",
+      "handoffPath": "execution/handoffs/SOCIAL-ACTIONS-BUILD.json"
+    },
+    "SOCIAL-ACTIONS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "afa9c8b91469bc13d1a50ddf5bc11c8b1c2a3fce23cf4375decf82d89932e015",
+      "handoffPath": "execution/handoffs/SOCIAL-ACTIONS-VERIFY.json"
+    },
+    "CHAT-DATA-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "a575504945355c1b80a779bdfec919c6e5ad2e3576deda62f70417d8ba883a9a",
+      "handoffPath": "execution/handoffs/CHAT-DATA-SPEC.json"
+    },
+    "CHAT-DATA-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "081d3e1fb7766ec15c645cb91225cb5e422620b395c5fb85d04cd83ab4057212",
+      "handoffPath": "execution/handoffs/CHAT-DATA-BUILD.json"
+    },
+    "CHAT-DATA-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "9c70dff2ea663c42fff7d8a1e5eda4ff2b870b851ddb6079e26171c425eed946",
+      "handoffPath": "execution/handoffs/CHAT-DATA-VERIFY.json"
+    },
+    "CHAT-SOCKET-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "9e8a1a0154130d87c819d9d204bc2d8ea5c8f896d4d290b418d231eae202e993",
+      "handoffPath": "execution/handoffs/CHAT-SOCKET-SPEC.json"
+    },
+    "CHAT-SOCKET-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "932bd8837b328c7acc2bb7f78e07756a8867f6234aaee33ba43cd9bc9b6f93fe",
+      "handoffPath": "execution/handoffs/CHAT-SOCKET-BUILD.json"
+    },
+    "CHAT-SOCKET-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "c3f3c18bc0efd5bb1875e6cd0f8f3788a786c2e75b999eaf3ee150b8c1cb7b9d",
+      "handoffPath": "execution/handoffs/CHAT-SOCKET-VERIFY.json"
+    },
+    "CHAT-MEDIA-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "0483a4efceae7a96de4f7d910651f853c3e7259730d20e4a954f2fbed5e34713",
+      "handoffPath": "execution/handoffs/CHAT-MEDIA-SPEC.json"
+    },
+    "CHAT-MEDIA-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "543ea9ea2f2361324d208d2800472d77f4b2485620ec70b97be52b3d6b81117c",
+      "handoffPath": "execution/handoffs/CHAT-MEDIA-BUILD.json"
+    },
+    "CHAT-MEDIA-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "8aa19365d2babbdbf0ebf24739f977ef863937882f3fc9722cbb7f86199ba692",
+      "handoffPath": "execution/handoffs/CHAT-MEDIA-VERIFY.json"
+    },
+    "MOOD-NOTES-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "2801b6dbd78e559718e5bfa816ac99682e5d7c631e79d025d1420453a3c27de0",
+      "handoffPath": "execution/handoffs/MOOD-NOTES-SPEC.json"
+    },
+    "MOOD-NOTES-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "b73c3684fbfc450cdb0cee1cd6c8ffb295710adef4f34045f2a1e387ed8426e4",
+      "handoffPath": "execution/handoffs/MOOD-NOTES-BUILD.json"
+    },
+    "MOOD-NOTES-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "abe476c08d1c393cfc411ad155bfae8274f7af27ee5054c4af9f75de71ef63e2",
+      "handoffPath": "execution/handoffs/MOOD-NOTES-VERIFY.json"
+    },
+    "VOICE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "192a1d757b4e97d4e0e7e88d06d9fea10af0e2eb972398c2218037bc532a81c2",
+      "handoffPath": "execution/handoffs/VOICE-SPEC.json"
+    },
+    "VOICE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "97c873c98bc7f8e16d44f634f5c859ec0dc465079296bd010140bfd271b58b03",
+      "handoffPath": "execution/handoffs/VOICE-BUILD.json"
+    },
+    "VOICE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "8a17bf9b02b95cb51cb3216677a0bba77877d491cc2de6b74ee5e485d3192174",
+      "handoffPath": "execution/handoffs/VOICE-VERIFY.json"
+    },
+    "BOT-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "073e26d8733a19c3515041dbd7b5bcfcf61db30679ccbd5b6646c5862aab3c0d",
+      "handoffPath": "execution/handoffs/BOT-SPEC.json"
+    },
+    "BOT-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "5b60e976be9cf10cc5f10de91b43d28e99aa3f5e248187b3a93643ac489ffe3b",
+      "handoffPath": "execution/handoffs/BOT-BUILD.json"
+    },
+    "BOT-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "760d650e4dc5269f1fcabfe709e1570590cf2f62174f9e4cf28ba20b4a983674",
+      "handoffPath": "execution/handoffs/BOT-VERIFY.json"
+    },
+    "CALL-SPEC-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "86757e8f90afa2ce1159070436b04548a4d61835dec3be05e2531cbb41d58bbb",
+      "handoffPath": "execution/handoffs/CALL-SPEC-SPEC.json"
+    },
+    "CALL-SPEC-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "f90b87ebdf398a165bc33cb72cf62a7ac0f7c7719b193b18ca9f72cb99ba3547",
+      "handoffPath": "execution/handoffs/CALL-SPEC-BUILD.json"
+    },
+    "CALL-SPEC-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "1ae8a04da5593599ea4150341f0a75156785536c5aa96e9a6f25696b2c8dec6c",
+      "handoffPath": "execution/handoffs/CALL-SPEC-VERIFY.json"
+    },
+    "CALL-IMPLEMENT-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "caa1e51c7be8712ebc798d897c860ad0d3ad154946346db1aa323c188860dae0",
+      "handoffPath": "execution/handoffs/CALL-IMPLEMENT-SPEC.json"
+    },
+    "CALL-IMPLEMENT-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "b327ac5424b2681881178861a0d11aead787fe83cbef0612d1f8cb7d54d3e63c",
+      "handoffPath": "execution/handoffs/CALL-IMPLEMENT-BUILD.json"
+    },
+    "CALL-IMPLEMENT-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "3b0d969ed2d2228ad2e530f76c624a2d204b82f484d15503b9ea1981f3a7fc59",
+      "handoffPath": "execution/handoffs/CALL-IMPLEMENT-VERIFY.json"
+    },
+    "GAME-ENGINE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "547cf8eb3d045b2a1279bee3535d60452f00186e89054d87824af40e7437bf30",
+      "handoffPath": "execution/handoffs/GAME-ENGINE-SPEC.json"
+    },
+    "GAME-ENGINE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "753fb24370a91946a1a851c159cefe4cef43671e954e954fe5f5b79455bd5aa5",
+      "handoffPath": "execution/handoffs/GAME-ENGINE-BUILD.json"
+    },
+    "GAME-ENGINE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "dd86b4b7d624a350d023de7f3f41b56066d596eb4b631825921f3241d57b4f39",
+      "handoffPath": "execution/handoffs/GAME-ENGINE-VERIFY.json"
+    },
+    "GAME-LOBBY-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "2a7cc1f5fcd68bb463c9b9d7a31046a7725bf48f5abc3fd060be4f4aad8a7161",
+      "handoffPath": "execution/handoffs/GAME-LOBBY-SPEC.json"
+    },
+    "GAME-LOBBY-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "683f8cdc9965cf33764378926368addcc49a495aab9da6724e6533453da4bf7d",
+      "handoffPath": "execution/handoffs/GAME-LOBBY-BUILD.json"
+    },
+    "GAME-LOBBY-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "c386dd94dbdfed304c7669ab5753198d133ed699e133e07b1600e7691bdc8c74",
+      "handoffPath": "execution/handoffs/GAME-LOBBY-VERIFY.json"
+    },
+    "GAME-EXT-SPEC-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "9ccde540333c8ca38c442daf2f7cf84ad504a1004b1e7932ab7fd17eaf8b3af4",
+      "handoffPath": "execution/handoffs/GAME-EXT-SPEC-SPEC.json"
+    },
+    "GAME-EXT-SPEC-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "879fd6d620656b256a2ce8e602f2ac9f554ab588afcec926358c643a909911dd",
+      "handoffPath": "execution/handoffs/GAME-EXT-SPEC-BUILD.json"
+    },
+    "GAME-EXT-SPEC-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "b7df81be92474ffc52a0164e675d7f07348dfbfb4f81037c98ff317fd7717c12",
+      "handoffPath": "execution/handoffs/GAME-EXT-SPEC-VERIFY.json"
+    },
+    "GAME-EXT-IMPLEMENT-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "f4728999c7b69e042788662279dcb4df2efb544ffe2e1c064b95aa4530b390dd",
+      "handoffPath": "execution/handoffs/GAME-EXT-IMPLEMENT-SPEC.json"
+    },
+    "GAME-EXT-IMPLEMENT-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "6fcc849182d27392e3bd1c3eea7cc072920d0c27d5aa91431d574cce331cef77",
+      "handoffPath": "execution/handoffs/GAME-EXT-IMPLEMENT-BUILD.json"
+    },
+    "GAME-EXT-IMPLEMENT-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "a60090019f3c0d58f1a0d44db6e79d9800295305affb160760ade0034d3095a3",
+      "handoffPath": "execution/handoffs/GAME-EXT-IMPLEMENT-VERIFY.json"
+    },
+    "STATS-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "bacc8353b4c631317f39111a7780b123bcfd1493ad9481c58e83c7673b70c5a5",
+      "handoffPath": "execution/handoffs/STATS-SPEC.json"
+    },
+    "STATS-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "e18da9cddfe631f82473f8a9e6dc56b02c5592c9183b80ccc98a3a9d455a5063",
+      "handoffPath": "execution/handoffs/STATS-BUILD.json"
+    },
+    "STATS-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "ee78886337e1cf0fd4952eb0e3d7c5097cb364896aef5efad6e796f05ad88473",
+      "handoffPath": "execution/handoffs/STATS-VERIFY.json"
+    },
+    "UI-AUDIT-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "d95024357e84ff8479bea9386092cb3edc84df57a2e1b949b6d09abc165ad372",
+      "handoffPath": "execution/handoffs/UI-AUDIT-SPEC.json"
+    },
+    "UI-AUDIT-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "4d20b08df9005a8d916ef9586d4f552c45cdf17564ccbee0685f8a8f2e12245c",
+      "handoffPath": "execution/handoffs/UI-AUDIT-BUILD.json"
+    },
+    "UI-AUDIT-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "6fa911df82058f04270354cda39ffd47b49b054b0005bc749e3b108a1cf3d831",
+      "handoffPath": "execution/handoffs/UI-AUDIT-VERIFY.json"
+    },
+    "INVARIANT-AUDIT-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "47443bce72311867c3666bbfe7e509269434ac0db7a4d26d2a0ac335120f8324",
+      "handoffPath": "execution/handoffs/INVARIANT-AUDIT-SPEC.json"
+    },
+    "INVARIANT-AUDIT-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "bca26c21e49a93264fc5cef165e057c87087cac7672b5a4d53a9f96c9faadcf8",
+      "handoffPath": "execution/handoffs/INVARIANT-AUDIT-BUILD.json"
+    },
+    "INVARIANT-AUDIT-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "de05f81043d622f311f38cd23ad527e67c640896dd083966a9e8e139af13e760",
+      "handoffPath": "execution/handoffs/INVARIANT-AUDIT-VERIFY.json"
+    },
+    "RETENTION-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "fc38eba060abddaa6a3f632dd676de01179ca9150080652261724d0165311bbe",
+      "handoffPath": "execution/handoffs/RETENTION-SPEC.json"
+    },
+    "RETENTION-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "5be569df9224db20667fc4a2aa5c4bd21d3cf0dafe08a1b2d0e8739fd50180aa",
+      "handoffPath": "execution/handoffs/RETENTION-BUILD.json"
+    },
+    "RETENTION-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "5571838b5f4475d8771f3fd64e69010b0af49a8222e7656800410245c54b3798",
+      "handoffPath": "execution/handoffs/RETENTION-VERIFY.json"
+    },
+    "RELEASE-SPEC": {
+      "state": "not_started",
+      "inputFingerprint": "59f57915a13544a43c7388377404372e607381138b150d8fafce223d1ca6f844",
+      "handoffPath": "execution/handoffs/RELEASE-SPEC.json"
+    },
+    "RELEASE-BUILD": {
+      "state": "not_started",
+      "inputFingerprint": "d6c08efb48e1b126864928f4af87e132c456fde424c16dbb3fb29091db074e1a",
+      "handoffPath": "execution/handoffs/RELEASE-BUILD.json"
+    },
+    "RELEASE-VERIFY": {
+      "state": "not_started",
+      "inputFingerprint": "7ea17790775f6257ab73a8dc23ca55c679ebf8a74fa5088b0e08186738268e77",
+      "handoffPath": "execution/handoffs/RELEASE-VERIFY.json"
+    }
+  }
+}

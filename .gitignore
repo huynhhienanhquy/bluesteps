@@ -1,0 +1,20 @@
+node_modules/
+.pnpm-store/
+.expo/
+dist/
+dist-native/
+coverage/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+test-results/
+
+# Local download and verbose dependency diagnostics; retain project QA evidence.
+docs/figma-fidelity/inter-3.19.zip
+docs/figma-fidelity/scan-type-resolution.log
+
+# Local operating-system files.
+Thumbs.db
+Desktop.ini
+.DS_Store

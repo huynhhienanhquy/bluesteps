@@ -1,0 +1,2149 @@
+{
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "pageId": "386:7053",
+  "pageName": "backuped",
+  "snapshotDate": "2026-10-29",
+  "goalStatus": "blocked",
+  "fullFidelityProven": false,
+  "totalFrames": 169,
+  "implemented": 69,
+  "pending": 100,
+  "frames": [
+    {
+      "nodeId": "534:49968",
+      "name": "Cài đặt nhắc lịch hoạt động đã lưu",
+      "width": 428,
+      "height": 1142,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:49845",
+      "name": "Quản lý bộ sưu tập yêu thích",
+      "width": 428,
+      "height": 1144,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:49760",
+      "name": "Tổng kết sau hoạt động",
+      "width": 428,
+      "height": 1279,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:49416",
+      "name": "Vé tham gia & check-in",
+      "width": 428,
+      "height": 1139,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:49326",
+      "name": "Đăng ký tham gia hoạt động",
+      "width": 428,
+      "height": 1245,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:49166",
+      "name": "Lịch hoạt động môi trường",
+      "width": 428,
+      "height": 1407,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:49034",
+      "name": "Khám phá hoạt động",
+      "width": 428,
+      "height": 1084,
+      "context": "contexts/534-49034.txt",
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:48955",
+      "name": "Đã đến nơi & hướng dẫn bàn giao",
+      "width": 428,
+      "height": 1115,
+      "context": "contexts/534-48955.txt",
+      "reference": "reference/534-48955.png",
+      "implementation": {
+        "route": "/collection-arrival",
+        "source": "apps/mobile/src/features/collection/CollectionArrivalScreen.tsx",
+        "render": "collection-arrival"
+      },
+      "rendered": "rendered/collection-arrival-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48869",
+      "name": "Chọn điểm thay thế trên hành trình",
+      "width": 428,
+      "height": 1041,
+      "context": "contexts/534-48869.txt",
+      "reference": "reference/534-48869.png",
+      "implementation": {
+        "route": "/collection-replacement",
+        "source": "apps/mobile/src/features/collection/CollectionReplacementScreen.tsx",
+        "render": "collection-replacement"
+      },
+      "rendered": "rendered/collection-replacement-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48774",
+      "name": "Lập hành trình thu gom nhiều điểm",
+      "width": 428,
+      "height": 954,
+      "context": "contexts/534-48774.txt",
+      "reference": "reference/534-48774.png",
+      "implementation": {
+        "route": "/journey",
+        "source": "apps/mobile/src/features/collection/JourneyScreen.tsx",
+        "render": "collection-journey"
+      },
+      "rendered": "rendered/collection-journey-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48690",
+      "name": "Báo cáo vấn đề tại điểm thu gom",
+      "width": 428,
+      "height": 955,
+      "context": "contexts/534-48690.txt",
+      "reference": "reference/534-48690.png",
+      "implementation": {
+        "route": "/point-report",
+        "source": "apps/mobile/src/features/collection/CollectionReportScreen.tsx",
+        "render": "collection-report"
+      },
+      "rendered": "rendered/collection-report-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48595",
+      "name": "Đề xuất điểm thu gom mới",
+      "width": 428,
+      "height": 1147,
+      "context": "contexts/534-48595.txt",
+      "reference": "reference/534-48595.png",
+      "implementation": {
+        "route": "/point-proposal",
+        "source": "apps/mobile/src/features/collection/CollectionProposalScreen.tsx",
+        "render": "collection-proposal"
+      },
+      "rendered": "rendered/collection-proposal-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48505",
+      "name": "So sánh điểm thu gom",
+      "width": 428,
+      "height": 1021,
+      "context": "contexts/534-48505.txt",
+      "reference": "reference/534-48505.png",
+      "implementation": {
+        "route": "/collection-compare",
+        "source": "apps/mobile/src/features/collection/CollectionCompareScreen.tsx",
+        "render": "collection-compare"
+      },
+      "rendered": "rendered/collection-compare-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48401",
+      "name": "Bộ lọc điểm thu gom",
+      "width": 428,
+      "height": 1003,
+      "context": "contexts/534-48401.txt",
+      "reference": "reference/534-48401.png",
+      "implementation": {
+        "route": "/collection-filters",
+        "source": "apps/mobile/src/features/collection/CollectionFiltersScreen.tsx",
+        "render": "collection-filters"
+      },
+      "rendered": "rendered/collection-filters-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7054",
+      "name": "hoạt động",
+      "width": 428,
+      "height": 1406,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:7184",
+      "name": "11 · Đăng nhập",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7184.txt",
+      "reference": "reference/386-7184.png",
+      "implementation": {
+        "route": "/login",
+        "source": "apps/mobile/src/features/auth/AuthForm.tsx",
+        "render": "login"
+      },
+      "rendered": "rendered/login-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7225",
+      "name": "13 · Quên mật khẩu",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7225.txt",
+      "reference": "reference/386-7225.png",
+      "implementation": {
+        "route": "/forgot-password",
+        "source": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+        "render": "forgot"
+      },
+      "rendered": "rendered/forgot-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7266",
+      "name": "14 · Xác thực OTP",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7266.txt",
+      "reference": "reference/386-7266.png",
+      "implementation": {
+        "route": "/verify-email",
+        "source": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+        "render": "otp"
+      },
+      "rendered": "rendered/otp-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7307",
+      "name": "15 · Đặt mật khẩu mới",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7307.txt",
+      "reference": "reference/386-7307.png",
+      "implementation": {
+        "route": "/reset-password",
+        "source": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+        "render": "reset"
+      },
+      "rendered": "rendered/reset-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7348",
+      "name": "16 · Kết nối Google / Facebook",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7348.txt",
+      "reference": "reference/386-7348.png",
+      "implementation": {
+        "route": "/connected-account",
+        "source": "apps/mobile/src/features/auth/ConnectedAccountScreen.tsx",
+        "render": "connected-account"
+      },
+      "rendered": "rendered/connected-account-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7390",
+      "name": "12 · Đăng ký tài khoản",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7390.txt",
+      "reference": "reference/386-7390.png",
+      "implementation": {
+        "route": "/register",
+        "source": "apps/mobile/src/features/auth/AuthForm.tsx",
+        "render": "register"
+      },
+      "rendered": "rendered/register-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7420",
+      "name": "18 · Profile — Cá nhân",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7420.txt",
+      "reference": "reference/386-7420.png",
+      "implementation": {
+        "route": "/profile",
+        "source": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+        "render": "profile"
+      },
+      "rendered": "rendered/profile-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7550",
+      "name": "Thành tích",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7550.txt",
+      "reference": "reference/386-7550.png",
+      "implementation": {
+        "route": "/achievements",
+        "source": "apps/mobile/src/features/profile/AchievementsScreen.tsx",
+        "render": "achievements"
+      },
+      "rendered": "rendered/achievements-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7647",
+      "name": "Cộng đồng",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:7813",
+      "name": "Cộng đồng",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:7913",
+      "name": "Thông báo",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8003",
+      "name": "Thống báo cộng đồng",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8086",
+      "name": "Chat",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8151",
+      "name": "Chat",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8179",
+      "name": "Chat",
+      "width": 428,
+      "height": 959,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8228",
+      "name": "Thông báo",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8311",
+      "name": "Thông báo",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8380",
+      "name": "Thông báo",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8451",
+      "name": "Cài đặt",
+      "width": 428,
+      "height": 931,
+      "context": "contexts/386-8451.txt",
+      "reference": "reference/386-8451.png",
+      "implementation": {
+        "route": "/settings",
+        "source": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+        "render": "settings"
+      },
+      "rendered": "rendered/settings-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8516",
+      "name": "Chỉnh sửa",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-8516.txt",
+      "reference": "reference/386-8516.png",
+      "implementation": {
+        "route": "/edit-profile",
+        "source": "apps/mobile/src/features/profile/EditProfileScreen.tsx",
+        "render": "edit-profile"
+      },
+      "rendered": "rendered/edit-profile-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8558",
+      "name": "navigation",
+      "width": 179,
+      "height": 218,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8569",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-8569.txt",
+      "reference": "reference/386-8569.png",
+      "implementation": {
+        "route": "/collection",
+        "source": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+        "render": "collection-map"
+      },
+      "rendered": "rendered/collection-map-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8633",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-8633.txt",
+      "reference": "reference/386-8633.png",
+      "implementation": {
+        "route": "/collection-explore",
+        "source": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+        "render": "collection-explore"
+      },
+      "rendered": "rendered/collection-explore-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8930",
+      "name": "Chat",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8977",
+      "name": "chat2",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9071",
+      "name": "Frame 36844",
+      "width": 289,
+      "height": 45,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9115",
+      "name": "Frame 36836",
+      "width": 428,
+      "height": 481,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9152",
+      "name": "Frame 36843",
+      "width": 428,
+      "height": 481,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9191",
+      "name": "Frame 36838",
+      "width": 428,
+      "height": 481,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9228",
+      "name": "Frame 36837",
+      "width": 428,
+      "height": 481,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9265",
+      "name": "Frame 36840",
+      "width": 428,
+      "height": 481,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9302",
+      "name": "Frame 36841",
+      "width": 428,
+      "height": 481,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9339",
+      "name": "Frame 36842",
+      "width": 428,
+      "height": 481,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9376",
+      "name": "hoạt động",
+      "width": 428,
+      "height": 1460,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9470",
+      "name": "hoạt động 2",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9575",
+      "name": "hoạt động 3",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9681",
+      "name": "hoạt động 5",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9787",
+      "name": "tin tức mới nhất ",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9901",
+      "name": "sự kiện sắp tới",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10026",
+      "name": "hoạt động 1",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10122",
+      "name": "yêu thích",
+      "width": 359,
+      "height": 162,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10131",
+      "name": "xóa hoạt động",
+      "width": 359,
+      "height": 95,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10136",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-10136.txt",
+      "reference": "reference/386-10136.png",
+      "implementation": {
+        "route": "/collection-navigation",
+        "source": "apps/mobile/src/features/collection/CollectionNavigationScreen.tsx",
+        "render": "collection-navigation"
+      },
+      "rendered": "rendered/collection-navigation-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10186",
+      "name": "map",
+      "width": 428,
+      "height": 1006,
+      "context": "contexts/386-10186.txt",
+      "reference": "reference/386-10186.png",
+      "implementation": {
+        "route": "/points/green-hub",
+        "source": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+        "render": "collection-point"
+      },
+      "rendered": "rendered/collection-point-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10279",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-10279.txt",
+      "reference": "reference/386-10279.png",
+      "implementation": {
+        "route": "/collection-directions",
+        "source": "apps/mobile/src/features/collection/CollectionDirectionsScreen.tsx",
+        "render": "collection-directions"
+      },
+      "rendered": "rendered/collection-directions-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10351",
+      "name": "map",
+      "width": 428,
+      "height": 1050,
+      "context": "contexts/386-10351.txt",
+      "reference": "reference/386-10351.png",
+      "implementation": {
+        "route": "/collection-route",
+        "source": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+        "render": "collection-route"
+      },
+      "rendered": "rendered/collection-route-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10644",
+      "name": "tin tức chi tiết 2",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10737",
+      "name": "tin tức chi tiết 4",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10828",
+      "name": "tin tức chi tiết 6",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10919",
+      "name": "tin tức chi tiết 8",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11010",
+      "name": "Tích điểm và phần thưởng",
+      "width": 428,
+      "height": 1725,
+      "context": "contexts/386-11010.txt",
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11320",
+      "name": "Cách quy đổi điểm",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11451",
+      "name": "Phần thưởng",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11652",
+      "name": "Sau khi nhận điểm mỗi ngày",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11858",
+      "name": "Nhắc tôi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12064",
+      "name": "Thông báo nhắc",
+      "width": 429,
+      "height": 215,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12071",
+      "name": "Lịch sử",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12194",
+      "name": "Lịch sử",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12284",
+      "name": "Lịch sử",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12362",
+      "name": "Sau khi xác nhận đổi quà",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12517",
+      "name": "xác nhận đổi quà",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12671",
+      "name": "Nhận thưởng ngày",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12823",
+      "name": "Phần thưởng giải trí",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12956",
+      "name": "Phần thưởng khác",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:13109",
+      "name": "Phần thưởng voucher",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:13263",
+      "name": "SoTayRac",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13263.txt",
+      "reference": "reference/386-13263.png",
+      "implementation": {
+        "route": "/handbook",
+        "source": "apps/mobile/src/features/handbook/HandbookLanding.tsx",
+        "render": "handbook"
+      },
+      "rendered": "rendered/handbook-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13313",
+      "name": "SoTayRac1",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13313.txt",
+      "reference": "reference/386-13313.png",
+      "implementation": {
+        "route": "/handbook?variant=active",
+        "source": "apps/mobile/src/features/handbook/HandbookLanding.tsx",
+        "render": "handbook-active"
+      },
+      "rendered": "rendered/handbook-active-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13364",
+      "name": "AllSoTayRac",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13364.txt",
+      "reference": "reference/386-13364.png",
+      "implementation": {
+        "route": "/handbook/list",
+        "source": "apps/mobile/src/features/handbook/HandbookList.tsx",
+        "render": "handbook-list"
+      },
+      "rendered": "rendered/handbook-list-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13593",
+      "name": "RacVoCo",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13593.txt",
+      "reference": "reference/386-13593.png",
+      "implementation": {
+        "route": "/handbook/category/inorganic",
+        "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+        "render": "handbook-category-inorganic"
+      },
+      "rendered": "rendered/handbook-category-inorganic-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13685",
+      "name": "RacVoCo1",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13685.txt",
+      "reference": "reference/386-13685.png",
+      "implementation": {
+        "route": "/handbook/category/inorganic?expanded=1",
+        "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+        "render": "handbook-category-inorganic-tips"
+      },
+      "rendered": "rendered/handbook-category-inorganic-tips-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13782",
+      "name": "RacHuuCo",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13782.txt",
+      "reference": "reference/386-13782.png",
+      "implementation": {
+        "route": "/handbook/category/organic",
+        "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+        "render": "handbook-category-organic"
+      },
+      "rendered": "rendered/handbook-category-organic-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13838",
+      "name": "RacHuuCo1",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13838.txt",
+      "reference": "reference/386-13838.png",
+      "implementation": {
+        "route": "/handbook/category/organic?expanded=1",
+        "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+        "render": "handbook-category-organic-tips"
+      },
+      "rendered": "rendered/handbook-category-organic-tips-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13929",
+      "name": "RacTaiChe",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-13929.txt",
+      "reference": "reference/386-13929.png",
+      "implementation": {
+        "route": "/handbook/category/recycle",
+        "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+        "render": "handbook-category-recycle"
+      },
+      "rendered": "rendered/handbook-category-recycle-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14037",
+      "name": "RacTaiChe1",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14037.txt",
+      "reference": "reference/386-14037.png",
+      "implementation": {
+        "route": "/handbook/category/recycle?expanded=1",
+        "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+        "render": "handbook-category-recycle-tips"
+      },
+      "rendered": "rendered/handbook-category-recycle-tips-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14194",
+      "name": "Scan",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": "reference/386-14194.png",
+      "implementation": {
+        "route": "/scan?state=start&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+        "render": "scan-start"
+      },
+      "rendered": "rendered/scan-start-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14221",
+      "name": "Scan1",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": "reference/386-14221.png",
+      "implementation": {
+        "route": "/scan?state=camera&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+        "render": "scan-camera"
+      },
+      "rendered": "rendered/scan-camera-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14241",
+      "name": "Loading",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14241.txt",
+      "reference": "reference/386-14241.png",
+      "implementation": {
+        "route": "/scan?state=loading&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+        "render": "scan-loading"
+      },
+      "rendered": "rendered/scan-loading-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14264",
+      "name": "Kqua_Scan2",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": "reference/386-14264.png",
+      "implementation": {
+        "route": "/scan?state=unrecognized&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+        "render": "scan-unrecognized"
+      },
+      "rendered": "rendered/scan-unrecognized-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14309",
+      "name": "Kqu_Scan2",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": "reference/386-14309.png",
+      "implementation": {
+        "route": "/scan?state=result&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+        "render": "scan-result"
+      },
+      "rendered": "rendered/scan-result-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14346",
+      "name": "Ttin rác",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14346.txt",
+      "reference": "reference/386-14346.png",
+      "implementation": {
+        "route": "/scan?state=detail&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+        "render": "scan-detail"
+      },
+      "rendered": "rendered/scan-detail-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14379",
+      "name": "TBáo_tích điểm",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14379.txt",
+      "reference": "reference/386-14379.png",
+      "implementation": {
+        "route": "/scan?state=award&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+        "render": "scan-award"
+      },
+      "rendered": "rendered/scan-award-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14454",
+      "name": "Sổ tay rác_Scan",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14454.txt",
+      "reference": "reference/386-14454.png",
+      "implementation": {
+        "route": "/scan?state=handbook&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+        "render": "scan-handbook"
+      },
+      "rendered": "rendered/scan-handbook-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14521",
+      "name": "Sổ tay_Nhựa",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14521.txt",
+      "reference": "reference/386-14521.png",
+      "implementation": {
+        "route": "/handbook/plastic",
+        "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+        "render": "handbook-plastic"
+      },
+      "rendered": "rendered/handbook-plastic-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14595",
+      "name": "Sổ tay_Hộp carton",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14595.txt",
+      "reference": "reference/386-14595.png",
+      "implementation": {
+        "route": "/handbook/carton",
+        "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+        "render": "handbook-carton"
+      },
+      "rendered": "rendered/handbook-carton-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14670",
+      "name": "Sổ tay_Áo quần",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14670.txt",
+      "reference": "reference/386-14670.png",
+      "implementation": {
+        "route": "/handbook/textiles",
+        "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+        "render": "handbook-textiles"
+      },
+      "rendered": "rendered/handbook-textiles-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14745",
+      "name": "Sổ tay_Pin",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14745.txt",
+      "reference": "reference/386-14745.png",
+      "implementation": {
+        "route": "/handbook/battery",
+        "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+        "render": "handbook-battery"
+      },
+      "rendered": "rendered/handbook-battery-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14820",
+      "name": "Sổ tay_Rác hữu cơ",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14820.txt",
+      "reference": "reference/386-14820.png",
+      "implementation": {
+        "route": "/handbook/organic",
+        "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+        "render": "handbook-organic"
+      },
+      "rendered": "rendered/handbook-organic-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14895",
+      "name": "Sổ tay_Thủy tinh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14895.txt",
+      "reference": "reference/386-14895.png",
+      "implementation": {
+        "route": "/handbook/glass",
+        "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+        "render": "handbook-glass"
+      },
+      "rendered": "rendered/handbook-glass-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14970",
+      "name": "Sổ tay_Giấy",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-14970.txt",
+      "reference": "reference/386-14970.png",
+      "implementation": {
+        "route": "/handbook/paper",
+        "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+        "render": "handbook-paper"
+      },
+      "rendered": "rendered/handbook-paper-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:15047",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15090",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15150",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15209",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15270",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15419",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15552",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15972",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16071",
+      "name": "Đăng bài viết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16188",
+      "name": "loading_đăng bài",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16189",
+      "name": "Kqu_Scan1",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": "reference/386-16189.png",
+      "implementation": {
+        "route": "/scan?state=focused&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+        "render": "scan-focused"
+      },
+      "rendered": "rendered/scan-focused-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:16218",
+      "name": "Kqu_Scan1",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": "reference/386-16218.png",
+      "implementation": {
+        "route": "/scan?state=success&preview=1",
+        "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+        "render": "scan-success"
+      },
+      "rendered": "rendered/scan-success-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:16253",
+      "name": "Tích điểm và phần thưởng",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16592",
+      "name": "Tích điểm và phần thưởng",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16931",
+      "name": "Phân loại rác - nhựa",
+      "width": 428,
+      "height": 1114,
+      "context": "contexts/386-16931.txt",
+      "reference": "reference/386-16931.png",
+      "implementation": {
+        "route": "/handbook/types/plastic",
+        "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+        "render": "handbook-types-plastic"
+      },
+      "rendered": "rendered/handbook-types-plastic-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17005",
+      "name": "Phân loại rác - dụng cụ y tế",
+      "width": 428,
+      "height": 1114,
+      "context": "contexts/386-17005.txt",
+      "reference": "reference/386-17005.png",
+      "implementation": {
+        "route": "/handbook/types/medical",
+        "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+        "render": "handbook-types-medical"
+      },
+      "rendered": "rendered/handbook-types-medical-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17077",
+      "name": "Phân loại rác - nilong",
+      "width": 428,
+      "height": 1114,
+      "context": "contexts/386-17077.txt",
+      "reference": "reference/386-17077.png",
+      "implementation": {
+        "route": "/handbook/types/bag",
+        "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+        "render": "handbook-types-bag"
+      },
+      "rendered": "rendered/handbook-types-bag-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17145",
+      "name": "Phân loại rác - pin",
+      "width": 428,
+      "height": 1114,
+      "context": "contexts/386-17145.txt",
+      "reference": "reference/386-17145.png",
+      "implementation": {
+        "route": "/handbook/types/battery",
+        "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+        "render": "handbook-types-battery"
+      },
+      "rendered": "rendered/handbook-types-battery-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17222",
+      "name": "Frame 36839",
+      "width": 428,
+      "height": 409,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17262",
+      "name": "iPhone 14 Plus - 2",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17297",
+      "name": "Frame 36707",
+      "width": 106.90792083740234,
+      "height": 60,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17299",
+      "name": "hoạt động 6",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17397",
+      "name": "hoạt động 4",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17608",
+      "name": "tin tức chi tiết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17701",
+      "name": "tin tức chi tiết",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17794",
+      "name": "tin tức chi tiết 3",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17887",
+      "name": "tin tức chi tiết 5",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17978",
+      "name": "tin tức chi tiết 7",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18069",
+      "name": "hoạt động yêu thích",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18153",
+      "name": "Thông báo",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18241",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18285",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18308",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18336",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18364",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "427:19392",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18396",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "427:19460",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18428",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "487:19805",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18473",
+      "name": "iPhone 14 Plus - 157",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18479",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18563",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18627",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18677",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18770",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18842",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "391:24796",
+      "name": "tin tức",
+      "width": 428,
+      "height": 1686,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "391:25009",
+      "name": "thống kê",
+      "width": 428,
+      "height": 1726,
+      "context": null,
+      "reference": null,
+      "implementation": null,
+      "rendered": null,
+      "status": "pending"
+    },
+    {
+      "nodeId": "391:25197",
+      "name": "17 · Home — Trang chủ",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/391-25197.txt",
+      "reference": "reference/391-25197.png",
+      "implementation": {
+        "route": "/",
+        "source": "apps/mobile/src/features/home/HomeScreen.tsx",
+        "render": "home"
+      },
+      "rendered": "rendered/home-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7148",
+      "name": "01 · Khởi động GreenSteps",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7148.txt",
+      "reference": "reference/386-7148.png",
+      "implementation": {
+        "route": "/onboarding?step=0&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "splash"
+      },
+      "rendered": "rendered/splash-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7418",
+      "name": "02 · Chào mừng",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7418.txt",
+      "reference": "reference/386-7418.png",
+      "implementation": {
+        "route": "/onboarding?step=1&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "welcome"
+      },
+      "rendered": "rendered/welcome-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7154",
+      "name": "03 · REDUCE — Giảm rác",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7154.txt",
+      "reference": "reference/386-7154.png",
+      "implementation": {
+        "route": "/onboarding?step=2&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "reduce"
+      },
+      "rendered": "rendered/reduce-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7158",
+      "name": "04 · REUSE — Tái sử dụng",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7158.txt",
+      "reference": "reference/386-7158.png",
+      "implementation": {
+        "route": "/onboarding?step=3&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "reuse"
+      },
+      "rendered": "rendered/reuse-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7149",
+      "name": "05 · RECYCLE — Phân loại đúng",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7149.txt",
+      "reference": "reference/386-7149.png",
+      "implementation": {
+        "route": "/onboarding?step=4&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "recycle-intro"
+      },
+      "rendered": "rendered/recycle-intro-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7151",
+      "name": "06 · Chọn điều bạn quan tâm",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7151.txt",
+      "reference": "reference/386-7151.png",
+      "implementation": {
+        "route": "/onboarding?step=5&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "interests"
+      },
+      "rendered": "rendered/interests-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7156",
+      "name": "07 · Mục tiêu khởi đầu",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7156.txt",
+      "reference": "reference/386-7156.png",
+      "implementation": {
+        "route": "/onboarding?step=6&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "goals"
+      },
+      "rendered": "rendered/goals-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7160",
+      "name": "08 · Điểm thu gom gần bạn",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7160.txt",
+      "reference": "reference/386-7160.png",
+      "implementation": {
+        "route": "/onboarding?step=7&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "location-intro"
+      },
+      "rendered": "rendered/location-intro-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7168",
+      "name": "09 · Lời nhắc sống xanh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7168.txt",
+      "reference": "reference/386-7168.png",
+      "implementation": {
+        "route": "/onboarding?step=8&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "reminders"
+      },
+      "rendered": "rendered/reminders-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7176",
+      "name": "10 · Sẵn sàng bắt đầu",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/386-7176.txt",
+      "reference": "reference/386-7176.png",
+      "implementation": {
+        "route": "/onboarding?step=9&preview=1",
+        "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+        "render": "ready"
+      },
+      "rendered": "rendered/ready-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5093",
+      "name": "Cài đặt · Overlay · Tìm kiếm",
+      "width": 428,
+      "height": 931,
+      "context": "contexts/514-5093.txt",
+      "reference": "reference/514-5093.png",
+      "implementation": {
+        "route": "/settings?overlay=search",
+        "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+        "render": "settings-search"
+      },
+      "rendered": "rendered/settings-search-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5096",
+      "name": "Cài đặt · Overlay · Âm thanh và rung",
+      "width": 428,
+      "height": 931,
+      "context": "contexts/514-5096.txt",
+      "reference": "reference/514-5096.png",
+      "implementation": {
+        "route": "/settings?overlay=sound",
+        "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+        "render": "settings-sound"
+      },
+      "rendered": "rendered/settings-sound-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5099",
+      "name": "Cài đặt · Overlay · Lịch sử đăng nhập",
+      "width": 428,
+      "height": 931,
+      "context": "contexts/514-5099.txt",
+      "reference": "reference/514-5099.png",
+      "implementation": {
+        "route": "/settings?overlay=history",
+        "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+        "render": "settings-history"
+      },
+      "rendered": "rendered/settings-history-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5102",
+      "name": "Cài đặt · Overlay · Thiết lập PIN",
+      "width": 428,
+      "height": 931,
+      "context": "contexts/514-5102.txt",
+      "reference": "reference/514-5102.png",
+      "implementation": {
+        "route": "/settings?overlay=pin",
+        "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+        "render": "settings-pin"
+      },
+      "rendered": "rendered/settings-pin-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "521:4735",
+      "name": "21 · Thay đổi mật khẩu",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/521-4735.txt",
+      "reference": "reference/521-4735.png",
+      "implementation": {
+        "route": "/change-password",
+        "source": "apps/mobile/src/features/auth/ChangePasswordScreen.tsx",
+        "render": "change-password"
+      },
+      "rendered": "rendered/change-password-428.png",
+      "status": "implemented-awaiting-complete-visual-audit"
+    }
+  ],
+  "blocker": "Figma MCP denies design reads; the desktop Figma window remains minimized and cannot be restored by the available UI tool."
+}

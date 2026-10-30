@@ -1,0 +1,121 @@
+const imgSongWiFiPin = "https://www.figma.com/api/mcp/asset/606ae2bf-aef0-41d4-af17-23fe1b25797f.svg";
+const imgIconBack = "https://www.figma.com/api/mcp/asset/1564d558-ccd8-4a8b-8637-59f7af9121a0.svg";
+const imgMinhHaBoMt = "https://www.figma.com/api/mcp/asset/7c5ed0c0-6367-4abf-a846-fbda1dfd6b7d.svg";
+const imgIconShield = "https://www.figma.com/api/mcp/asset/8d31bdc0-84ad-4ab8-a9b5-0405685bdca9.svg";
+
+type GreenStepsButtonProps = {
+  className?: string;
+  label?: string;
+  style?: "Primary";
+};
+
+function GreenStepsButton({ className, label = "Tiếp tục", style = "Primary" }: GreenStepsButtonProps) {
+  return (
+    <div className={className || "bg-[var(--gs-primary,#147cc1)] content-stretch flex h-[56px] items-center justify-center relative rounded-[var(--gs-radius-button,18px)] w-[380px]"} data-node-id="439:4835">
+      <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-white,white)] whitespace-nowrap" data-node-id="439:4836">
+        {label}
+      </p>
+    </div>
+  );
+}
+
+type GreenStepsAuthFieldProps = {
+  className?: string;
+  label?: string;
+  state?: "Focus";
+  value?: string;
+};
+
+function GreenStepsAuthField({ className, label = "Email", state = "Focus", value = "linhchi@example.com" }: GreenStepsAuthFieldProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col gap-[8px] h-[84px] items-start relative w-[380px]"} data-node-id="460:4832">
+      <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[13px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="460:4833">
+        {label}
+      </p>
+      <div className="bg-[var(--gs-cream,#f4fbff)] border-[1.5px] border-[var(--gs-primary,#147cc1)] border-solid content-stretch flex h-[56px] items-center overflow-clip px-[16px] relative rounded-[16px] shrink-0 w-[380px]" data-node-id="460:4834" data-name="Input">
+        <p className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[22px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[344px]" data-node-id="460:4835">
+          {value}
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function Component13QuenMtKhu() {
+  return (
+    <div className="bg-[var(--gs-cream,#f4fbff)] overflow-clip relative rounded-[32px] size-full" data-node-id="386:7225" data-name="13 · Quên mật khẩu">
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[17px] w-[380px]" data-node-id="461:5325" data-name="Thanh trạng thái">
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-forest,#164561)] w-[60px]" data-node-id="461:5326">
+          9:41
+        </p>
+        <div className="h-[20px] relative shrink-0 w-[76px]" data-node-id="461:5327" data-name="Sóng, Wi-Fi, pin">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSongWiFiPin} />
+        </div>
+      </div>
+      <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[66px] w-[380px]" data-node-id="461:5333" data-name="Thanh điều hướng">
+        <button className="bg-[var(--gs-white,white)] block cursor-pointer overflow-clip relative rounded-[16px] shrink-0 size-[48px]" data-node-id="461:5334" data-name="Quay lại">
+          <div className="absolute left-[12px] size-[24px] top-[12px]" data-node-id="461:5335" data-name="Icon / back">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconBack} />
+          </div>
+        </button>
+        <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[17px] relative shrink-0 text-[12px] text-[color:var(--gs-muted,#456476)] text-right w-[270px]" data-node-id="461:5338">
+          KHÔI PHỤC TÀI KHOẢN
+        </p>
+      </div>
+      <div className="absolute h-[214px] left-[74px] top-[146px] w-[280px]" data-node-id="461:5339" data-name="Minh họa bảo mật">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMinhHaBoMt} />
+      </div>
+      <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[12px] items-start left-[24px] top-[392px] w-[380px]" data-node-id="461:5348" data-name="Tiêu đề">
+        <p className="font-['Montserrat:Bold'] font-bold leading-[42px] relative shrink-0 text-[32px] text-[color:var(--gs-forest,#164561)] w-[380px]" data-node-id="461:5349">
+          Quên mật khẩu?
+        </p>
+        <p className="font-['Montserrat:Regular'] font-normal leading-[24px] relative shrink-0 text-[15px] text-[color:var(--gs-muted,#456476)] w-[380px]" data-node-id="461:5350">
+          Đừng lo, chúng tôi sẽ gửi mã xác thực để giúp bạn lấy lại quyền truy cập.
+        </p>
+      </div>
+      <GreenStepsAuthField className="absolute content-stretch flex flex-col gap-[8px] h-[84px] items-start left-[24px] top-[534px] w-[380px]" label="Email đã đăng ký" />
+      <div className="absolute content-stretch flex gap-[10px] items-center left-[24px] top-[644px] w-[380px]" data-node-id="461:5355" data-name="Lưu ý bảo mật">
+        <div className="relative shrink-0 size-[28px]" data-node-id="461:5356" data-name="Icon / shield">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconShield} />
+        </div>
+        <div className="[word-break:break-word] font-['Montserrat:Regular'] font-normal leading-[0] relative shrink-0 text-[13px] text-[color:var(--gs-muted,#456476)] w-[338px]" data-node-id="461:5359">
+          <p className="leading-[18px] mb-0">Chúng tôi chỉ gửi mã đến email</p>
+          <p className="leading-[18px]">được liên kết với tài khoản của bạn.</p>
+        </div>
+      </div>
+      <GreenStepsButton className="absolute bg-[var(--gs-primary,#147cc1)] content-stretch cursor-pointer flex h-[56px] items-center justify-center left-[24px] rounded-[var(--gs-radius-button,18px)] top-[734px] w-[380px]" label="Gửi mã xác thực" />
+      <a className="absolute block cursor-pointer h-[48px] left-[24px] overflow-clip top-[807px] w-[380px]" data-node-id="461:5363" data-name="Liên kết / Quay lại đăng nhập">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[190px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-center top-[14px] w-[380px]" data-node-id="461:5364">
+          Quay lại đăng nhập
+        </p>
+      </a>
+      <div className="absolute bg-[var(--gs-forest,#164561)] h-[5px] left-[150px] rounded-[3px] top-[905px] w-[128px]" data-node-id="461:5366" data-name="Rectangle" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Title: Font(family: "Montserrat", style: Bold, size: 32, weight: 700, lineHeight: 42, letterSpacing: 0), GreenSteps/Body: Font(family: "Montserrat", style: Regular, size: 15, weight: 400, lineHeight: 24, letterSpacing: 0), GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Auth Field
+**Node ID:** 460:4840
+
+Ô nhập dành cho luồng tài khoản. Label và Value là thuộc tính văn bản; trạng thái Default, Focus và Error.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

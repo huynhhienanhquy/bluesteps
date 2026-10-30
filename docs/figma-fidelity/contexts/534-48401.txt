@@ -1,0 +1,250 @@
+const imgNhDiDin = "https://www.figma.com/api/mcp/asset/1f2b9557-b458-45ae-ba0e-947ecb890fea.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/7131d981-771a-4389-92c5-f096e4299bca.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/733dceff-a40b-43ae-9036-99e2f39c0d3f.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/4d816bd4-6b31-414c-ad2c-d181d3a9b822.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/506a46e9-cf66-49d5-88bb-6c7f0a43eb5a.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/7c881843-f7b5-4fd8-8e8e-066da5032667.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/c75e1387-f07e-43ed-8208-61aac84ce406.svg";
+const imgCheck = "https://www.figma.com/api/mcp/asset/c96fa6e5-3635-4fe1-8972-25f4c164134a.svg";
+const imgNutKeo = "https://www.figma.com/api/mcp/asset/fa77be28-09b9-4162-a898-1ace17f84949.svg";
+const imgCongTc = "https://www.figma.com/api/mcp/asset/b6363ba7-2bc7-47cb-b080-2b7121025341.svg";
+const imgCongTc1 = "https://www.figma.com/api/mcp/asset/a685d77d-0a60-4ecc-b774-01f44b1bb9de.svg";
+const imgInfo = "https://www.figma.com/api/mcp/asset/b94ebab3-7f97-4c7a-9c23-66b5b1d3f746.svg";
+
+export default function BLcDimThuGom() {
+  return (
+    <div className="bg-[var(--gs-white,white)] content-stretch flex flex-col items-start justify-between overflow-clip relative rounded-[28px] size-full" data-node-id="534:48401" data-name="Bộ lọc điểm thu gom">
+      <div className="content-stretch flex flex-col items-start overflow-clip relative shrink-0 w-full" data-node-id="534:48402" data-name="Nội dung màn hình">
+        <div className="h-[49px] overflow-clip relative shrink-0 w-[428px]" data-node-id="534:48403" data-name="Thanh trạng thái">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I534:48403;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I534:48403;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I534:48403;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I534:48403;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I534:48403;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I534:48403;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I534:48403;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I534:48403;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I534:48403;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[12px] items-center overflow-clip px-[24px] py-[10px] relative shrink-0 w-full" data-node-id="534:48423" data-name="Điều hướng">
+          <CodeConnectSnippet data-node-id="534:48424" data-name="Quay lại">
+            {/* Simple Design System component */}
+            <ChevronLeft variantSize="24" size="24" />
+          </CodeConnectSnippet>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Bold'] font-bold leading-[normal] min-w-px not-italic relative text-[#172b3d] text-[18px]" data-node-id="534:48427">
+            Bộ lọc điểm thu gom
+          </p>
+          <div className="relative shrink-0 size-[32px]" data-node-id="534:48428" data-name="Ảnh đại diện">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="32" src={imgNhDiDin} width="32" />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip pb-[24px] pt-[18px] px-[24px] relative shrink-0 w-full" data-node-id="534:48429" data-name="Nội dung chính">
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] w-full" data-node-id="534:48430">
+            Tìm điểm phù hợp với loại rác bạn mang theo.
+          </p>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="534:48431" data-name="Nhóm nội dung">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[22px] not-italic relative shrink-0 text-[#172b3d] text-[16px] w-full" data-node-id="534:48432">
+              Loại rác được tiếp nhận
+            </p>
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[16px] not-italic relative shrink-0 text-[#677c8c] text-[12px] w-full" data-node-id="534:48433">
+              Có thể chọn nhiều loại
+            </p>
+            <div className="content-start flex flex-wrap gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="534:48434" data-name="Các lựa chọn">
+              <div className="bg-[var(--gs-blue,#dceef9)] border border-[var(--gs-primary,#147cc1)] border-solid content-stretch flex gap-[6px] items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48435" data-name="Lựa chọn">
+                <div className="relative shrink-0 size-[14px]" data-node-id="534:50077" data-name="check">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheck} />
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gs-primary,#147cc1)] whitespace-nowrap" data-node-id="534:48437">
+                  Nhựa
+                </p>
+              </div>
+              <div className="bg-[var(--gs-blue,#dceef9)] border border-[var(--gs-primary,#147cc1)] border-solid content-stretch flex gap-[6px] items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48438" data-name="Lựa chọn">
+                <div className="relative shrink-0 size-[14px]" data-node-id="534:50080" data-name="check">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheck} />
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gs-primary,#147cc1)] whitespace-nowrap" data-node-id="534:48440">
+                  Giấy, bìa
+                </p>
+              </div>
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48441" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48442">
+                  Kim loại
+                </p>
+              </div>
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48443" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48444">
+                  Thủy tinh
+                </p>
+              </div>
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48445" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48446">
+                  Pin đã dùng
+                </p>
+              </div>
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48447" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48448">
+                  Rác hữu cơ
+                </p>
+              </div>
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48449" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48450">
+                  Quần áo
+                </p>
+              </div>
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48451" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48452">
+                  Điện tử
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="534:48453" data-name="Nhóm nội dung">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[22px] not-italic relative shrink-0 text-[#172b3d] text-[16px] w-full" data-node-id="534:48454">
+              Khoảng cách từ bạn
+            </p>
+            <div className="[word-break:break-word] content-stretch flex items-start justify-between not-italic overflow-clip relative shrink-0 w-full" data-node-id="534:48455" data-name="Khoảng cách đã chọn">
+              <p className="flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[20px] min-w-px relative text-[#172b3d] text-[14px]" data-node-id="534:48456">
+                Trong bán kính
+              </p>
+              <p className="font-['Inter:Semi_Bold'] font-semibold leading-[22px] relative shrink-0 text-[16px] text-[color:var(--gs-primary,#147cc1)] whitespace-nowrap" data-node-id="534:48457">
+                3 km
+              </p>
+            </div>
+            <div className="content-stretch flex flex-col h-[30px] items-start justify-center overflow-clip relative shrink-0 w-full" data-node-id="534:48458" data-name="Thanh khoảng cách">
+              <div className="bg-[var(--gs-blue,#dceef9)] h-[5px] relative rounded-[8px] shrink-0 w-full" data-node-id="534:48459" data-name="Đường trượt" />
+              <div className="absolute bg-[var(--gs-primary,#147cc1)] h-[5px] left-0 rounded-[8px] top-[12px] w-[150px]" data-node-id="534:48460" data-name="Phạm vi đã chọn" />
+              <div className="absolute left-[140px] size-[24px] top-[3px]" data-node-id="534:48461" data-name="Nút kéo">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgNutKeo} />
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex font-['Inter:Regular'] font-normal items-start justify-between leading-[16px] not-italic overflow-clip relative shrink-0 text-[#677c8c] text-[12px] w-full whitespace-nowrap" data-node-id="534:48462" data-name="Mốc khoảng cách">
+              <p className="relative shrink-0" data-node-id="534:48463">
+                500 m
+              </p>
+              <p className="relative shrink-0" data-node-id="534:48464">
+                3 km
+              </p>
+              <p className="relative shrink-0" data-node-id="534:48465">
+                5 km
+              </p>
+              <p className="relative shrink-0" data-node-id="534:48466">
+                10 km
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="534:48467" data-name="Nhóm nội dung">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[22px] not-italic relative shrink-0 text-[#172b3d] text-[16px] w-full" data-node-id="534:48468">
+              Giờ hoạt động
+            </p>
+            <div className="content-start flex flex-wrap gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="534:48469" data-name="Các lựa chọn">
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48470" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48471">
+                  Tất cả
+                </p>
+              </div>
+              <div className="bg-[var(--gs-blue,#dceef9)] border border-[var(--gs-primary,#147cc1)] border-solid content-stretch flex gap-[6px] items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48472" data-name="Lựa chọn">
+                <div className="relative shrink-0 size-[14px]" data-node-id="534:50083" data-name="check">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheck} />
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gs-primary,#147cc1)] whitespace-nowrap" data-node-id="534:48474">
+                  Đang mở cửa
+                </p>
+              </div>
+              <div className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex items-center overflow-clip px-[14px] py-[10px] relative rounded-[24px] shrink-0" data-node-id="534:48475" data-name="Lựa chọn">
+                <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#677c8c] text-[14px] whitespace-nowrap" data-node-id="534:48476">
+                  Mở 24 giờ
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="534:48477" data-name="Nhóm nội dung">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[22px] not-italic relative shrink-0 text-[#172b3d] text-[16px] w-full" data-node-id="534:48478">
+              Tình trạng tiếp nhận
+            </p>
+            <div className="content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 w-full" data-node-id="534:48479" data-name="Cài đặt bật tắt">
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Inter:Regular'] font-normal gap-[4px] items-start min-w-px not-italic overflow-clip relative" data-node-id="534:48480" data-name="Thông tin cài đặt">
+                <p className="leading-[20px] relative shrink-0 text-[#172b3d] text-[14px] w-full" data-node-id="534:48481">
+                  Chỉ hiện điểm còn chỗ
+                </p>
+                <p className="leading-[16px] relative shrink-0 text-[#677c8c] text-[12px] w-full" data-node-id="534:48482">
+                  Ẩn các điểm đầy hoặc tạm ngừng nhận
+                </p>
+              </div>
+              <div className="h-[28px] relative shrink-0 w-[46px]" data-node-id="534:48483" data-name="Công tắc">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCongTc} />
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0 w-full" data-node-id="534:48485" data-name="Cài đặt bật tắt">
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col font-['Inter:Regular'] font-normal gap-[4px] items-start min-w-px not-italic overflow-clip relative" data-node-id="534:48486" data-name="Thông tin cài đặt">
+                <p className="leading-[20px] relative shrink-0 text-[#172b3d] text-[14px] w-full" data-node-id="534:48487">
+                  Có nhân viên hỗ trợ
+                </p>
+                <p className="leading-[16px] relative shrink-0 text-[#677c8c] text-[12px] w-full" data-node-id="534:48488">
+                  Phù hợp khi cần hướng dẫn phân loại
+                </p>
+              </div>
+              <div className="h-[28px] relative shrink-0 w-[46px]" data-node-id="534:48489" data-name="Công tắc">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCongTc1} />
+              </div>
+            </div>
+          </div>
+          <div className="bg-[var(--gs-mint,#edf7fc)] content-stretch flex gap-[10px] items-start overflow-clip p-[14px] relative rounded-[14px] shrink-0 w-full" data-node-id="534:48491" data-name="Thông tin lưu ý">
+            <div className="relative shrink-0 size-[20px]" data-node-id="534:50086" data-name="info">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfo} />
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic overflow-clip relative" data-node-id="534:48493" data-name="Lời nhắc">
+              <p className="font-['Inter:Medium'] font-medium leading-[20px] relative shrink-0 text-[14px] text-[color:var(--gs-primary,#147cc1)] w-full" data-node-id="534:48494">
+                Kết quả quanh Ngũ Hành Sơn
+              </p>
+              <p className="font-['Inter:Regular'] font-normal leading-[16px] relative shrink-0 text-[#677c8c] text-[12px] w-full" data-node-id="534:48495">
+                Tình trạng do cộng đồng cập nhật, có thể thay đổi khi bạn đến.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[12px] items-start overflow-clip pt-[12px] relative shrink-0 w-full" data-node-id="534:48496" data-name="Thao tác cuối trang">
+        <div className="content-stretch flex flex-col gap-[10px] items-start px-[24px] relative shrink-0 w-full" data-node-id="534:48497" data-name="Vùng thao tác">
+          <a className="block cursor-pointer h-[50px] relative shrink-0 w-full" data-node-id="534:48498" data-name="Nút thao tác">
+            <div className="absolute bg-[var(--gs-primary,#147cc1)] inset-0 rounded-[18px]" data-node-id="I534:48498;2445:529" />
+            <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[25.71%_14.29%_31.43%_15.48%] leading-[normal] not-italic text-[15px] text-[color:var(--gs-white,white)] text-center" data-node-id="I534:48498;2445:530">
+              Áp dụng • 6 điểm phù hợp
+            </p>
+          </a>
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gs-primary,#147cc1)] text-center w-full" data-node-id="534:48501">
+            Đặt lại bộ lọc
+          </p>
+        </div>
+        <div className="content-stretch flex flex-col h-[28px] items-center justify-center overflow-clip relative shrink-0 w-full" data-node-id="534:48502" data-name="Vùng an toàn">
+          <div className="bg-[#172b3d] h-[4px] relative rounded-[4px] shrink-0 w-[141px]" data-node-id="534:48503" data-name="Thanh màn hình chính" />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Zia/Body: Font(family: "Inter", style: Regular, size: 14, weight: 400, lineHeight: 20, letterSpacing: 0), Zia/Title: Font(family: "Inter", style: Semi Bold, size: 16, weight: 600, lineHeight: 22, letterSpacing: 0), Zia/Caption: Font(family: "Inter", style: Regular, size: 12, weight: 400, lineHeight: 16, letterSpacing: 0), Zia/Body Medium: Font(family: "Inter", style: Medium, size: 14, weight: 500, lineHeight: 20, letterSpacing: 0), Zia/Button: Font(family: "Inter", style: Semi Bold, size: 14, weight: 600, lineHeight: 20, letterSpacing: 0).
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

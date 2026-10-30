@@ -1,0 +1,125 @@
+export default function CaiDtOverlayThitLpPin() {
+  return (
+    <div className="relative size-full" data-node-id="514:5102" data-name="Cài đặt · Overlay · Thiết lập PIN">
+      <button className="absolute bg-[rgba(22,69,97,0.24)] block cursor-pointer h-[931px] left-0 top-0 w-[428px]" data-node-id="514:5103" data-name="Fermer en dehors" />
+      <div className="absolute bg-[var(--gs-white,white)] h-[684px] left-[24px] overflow-clip rounded-[30px] top-[123px] w-[380px]" data-node-id="514:5255" data-name="Hộp thiết lập PIN">
+        <p className="[word-break:break-word] absolute font-['Montserrat:Bold'] font-bold leading-[32px] left-[24px] text-[23px] text-[color:var(--gs-forest,#164561)] top-[28px] w-[294px]" data-node-id="514:5256">
+          Thiết lập mã PIN
+        </p>
+        <p className="[word-break:break-word] absolute font-['Montserrat:Regular'] font-normal leading-[18px] left-[24px] text-[13px] text-[color:var(--gs-muted,#456476)] top-[75px] w-[332px]" data-node-id="514:5257">
+          Thêm một lớp bảo vệ khi mở ứng dụng.
+        </p>
+        <button className="absolute block cursor-pointer h-[48px] left-[320px] overflow-clip top-[17px] w-[44px]" data-node-id="514:5258" data-name="Đóng thiết lập PIN">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[39px] left-[22px] text-[28px] text-[color:var(--gs-muted,#456476)] text-center top-[3px] w-[44px]" data-node-id="514:5259">
+            ×
+          </p>
+        </button>
+        <div className="absolute h-[398px] left-0 overflow-clip top-[128px] w-[380px]" data-node-id="514:5261" data-name="Nhập mã PIN">
+          <div className="absolute content-stretch flex gap-[24px] items-center left-[64px] top-0 w-[252px]" data-node-id="514:5262" data-name="Sáu vị trí mã PIN">
+            <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid overflow-clip relative rounded-[11px] shrink-0 size-[22px]" data-node-id="514:5263" data-name="Số PIN 1" />
+            <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid overflow-clip relative rounded-[11px] shrink-0 size-[22px]" data-node-id="514:5265" data-name="Số PIN 2" />
+            <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid overflow-clip relative rounded-[11px] shrink-0 size-[22px]" data-node-id="514:5267" data-name="Số PIN 3" />
+            <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid overflow-clip relative rounded-[11px] shrink-0 size-[22px]" data-node-id="514:5269" data-name="Số PIN 4" />
+            <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid overflow-clip relative rounded-[11px] shrink-0 size-[22px]" data-node-id="514:5271" data-name="Số PIN 5" />
+            <div className="bg-[var(--gs-white,white)] border border-[var(--gs-line,#d2e7f4)] border-solid overflow-clip relative rounded-[11px] shrink-0 size-[22px]" data-node-id="514:5273" data-name="Số PIN 6" />
+          </div>
+          <div className="absolute content-stretch cursor-pointer flex gap-[22px] items-center left-[30px] top-[76px] w-[320px]" data-node-id="514:5276" data-name="Hàng bàn phím 0">
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5277" data-name="Phím 1">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5278">
+                1
+              </p>
+            </button>
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5280" data-name="Phím 2">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5281">
+                2
+              </p>
+            </button>
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5283" data-name="Phím 3">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5284">
+                3
+              </p>
+            </button>
+          </div>
+          <div className="absolute content-stretch cursor-pointer flex gap-[22px] items-center left-[30px] top-[148px] w-[320px]" data-node-id="514:5286" data-name="Hàng bàn phím 1">
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5287" data-name="Phím 4">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5288">
+                4
+              </p>
+            </button>
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5290" data-name="Phím 5">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5291">
+                5
+              </p>
+            </button>
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5293" data-name="Phím 6">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5294">
+                6
+              </p>
+            </button>
+          </div>
+          <div className="absolute content-stretch cursor-pointer flex gap-[22px] items-center left-[30px] top-[220px] w-[320px]" data-node-id="514:5296" data-name="Hàng bàn phím 2">
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5297" data-name="Phím 7">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5298">
+                7
+              </p>
+            </button>
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5300" data-name="Phím 8">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5301">
+                8
+              </p>
+            </button>
+            <button className="bg-[var(--gs-cream,#f4fbff)] block h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5303" data-name="Phím 9">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5304">
+                9
+              </p>
+            </button>
+          </div>
+          <div className="absolute content-stretch flex gap-[22px] items-center left-[30px] top-[292px] w-[320px]" data-node-id="514:5306" data-name="Hàng bàn phím 3">
+            <div className="h-[60px] relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5307" data-name="Phím trống" />
+            <button className="bg-[var(--gs-cream,#f4fbff)] block cursor-pointer h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5308" data-name="Phím 0">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5309">
+                0
+              </p>
+            </button>
+            <button className="bg-[var(--gs-cream,#f4fbff)] block cursor-pointer h-[60px] overflow-clip relative rounded-[18px] shrink-0 w-[92px]" data-node-id="514:5311" data-name="Phím ⌫">
+              <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:Medium'] font-medium leading-[35px] left-[46px] text-[25px] text-[color:var(--gs-forest,#164561)] text-center top-[12px] w-[92px]" data-node-id="514:5312">
+                ⌫
+              </p>
+            </button>
+          </div>
+        </div>
+        <button className="absolute bg-[var(--gs-primary,#147cc1)] content-stretch cursor-pointer flex h-[56px] items-center justify-center left-[24px] rounded-[var(--gs-radius-button,18px)] top-[544px] w-[332px]" data-node-id="514:5314" data-name="Nút / Tiếp tục">
+          <p className="[word-break:break-word] font-['Montserrat:SemiBold'] font-semibold leading-[22px] relative shrink-0 text-[15px] text-[color:var(--gs-white,white)] text-left whitespace-nowrap" data-node-id="I514:5314;439:4836">
+            Tiếp tục
+          </p>
+        </button>
+        <button className="absolute block cursor-pointer h-[48px] left-[24px] overflow-clip top-[608px] w-[332px]" data-node-id="514:5320" data-name="Liên kết / Hủy">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Montserrat:SemiBold'] font-semibold leading-[18px] left-[166px] text-[13px] text-[color:var(--gs-primary,#147cc1)] text-center top-[14px] w-[332px]" data-node-id="514:5321">
+            Hủy
+          </p>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: GreenSteps/Label: Font(family: "Montserrat", style: SemiBold, size: 15, weight: 600, lineHeight: 22, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## GreenSteps / Button
+**Node ID:** 439:4841
+
+Nút dùng chung cho luồng bắt đầu. Label có thể thay đổi; ba kiểu Primary, Secondary và Ghost.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
