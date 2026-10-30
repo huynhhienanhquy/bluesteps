@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "scope": "News grid, search, filtering, article detail and Home routing, saved articles, discussions, topics, green calendar and briefs",
+  "designSource": "Repository catalog, saved search/filter screenshot 609:5165 and original Home news asset; no new live Figma read",
+  "commandPrefix": "corepack pnpm --filter @bluesteps/mobile",
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed without warnings",
+    "unit": { "passed": 33, "total": 33, "suites": 15 },
+    "webExport": { "status": "passed", "log": "news-build.log" },
+    "nativeConfig": "passed; camera/photos enabled and microphone excluded",
+    "e2e": { "passed": 46, "total": 46, "duration": "2.5 minutes", "browser": "Installed Google Chrome", "newNewsTests": 6, "log": "news-e2e.log" },
+    "changedCodeFormatting": "passed",
+    "repositoryFormatting": "not rerun in this news session; existing formatting issues recorded in events-validation.json remain outside scope",
+    "gitDiffWhitespace": "passed"
+  },
+  "screenshots": { "widths": [390, 428], "screenOrStateCount": 8, "renderCaptures": 16 },
+  "newRoutes": ["/articles/saved", "/articles/discussion", "/articles/topics", "/articles/calendar", "/articles/briefs"],
+  "routeCountExcludingLayouts": 63,
+  "seed": { "articles": 6, "topics": 4, "articleComments": 2, "savedArticles": 0, "likedArticles": 0, "followedTopics": 0 },
+  "limitations": [
+    "Article saves, likes, discussions and topic follows are kept in memory and cleared on demo reset or reload",
+    "Brief read marks are local to the mounted briefs screen",
+    "Counts, dates and article content are synthetic; the statistic in the Home article title is unverified design copy and is labelled accordingly in the article body",
+    "Only the Home article has its original local news photograph; other articles use labelled icon illustrations pending original assets",
+    "The news calendar has its own UI and uses the shared event seed; no editorial calendar API is connected",
+    "Figma frame mapping remains at the historical 69/175; imagery, hero/carousel, navigation and frame variants still require visual comparison",
+    "No new native bundle, emulator or physical-device QA in this session"
+  ]
+}

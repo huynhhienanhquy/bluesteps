@@ -1,83 +1,11 @@
-import { useState } from 'react';
-import { router, useLocalSearchParams, type Href } from 'expo-router';
+import { router, type Href } from 'expo-router';
 import { useApp } from '../../providers';
-import {
-  Button,
-  Card,
-  Empty,
-  Icon,
-  Label,
-  MenuItem,
-  Notice,
-  Screen,
-  Search,
-} from '../../design-system/ui';
+import { Button, MenuItem, Notice, Screen } from '../../design-system/ui';
 import { QueryContent } from '../../design-system/QueryContent';
 import { useDemoQuery } from '../../services/useDemoQuery';
-import { articles } from '../../services/fixtures';
 import { formatDemoDate, type MockNotification } from '../../services/mock-session';
 
-export function ArticlesScreen() {
-  const query = useDemoQuery('articles');
-  const [search, setSearch] = useState('');
-  const items =
-    query.data?.filter((item) =>
-      item.title.toLocaleLowerCase('vi').includes(search.toLocaleLowerCase('vi')),
-    ) ?? [];
-  return (
-    <Screen title="Góc kiến thức xanh" subtitle="Đọc một chút, thay đổi từng ngày." back>
-      <Search value={search} onChangeText={setSearch} placeholder="Tìm bài viết" />
-      <QueryContent
-        loading={query.isPending}
-        error={query.isError}
-        empty={!items.length}
-        retry={() => {
-          void query.refetch();
-        }}
-      >
-        {items.map((article) => (
-          <Card key={article.id}>
-            <Icon name={article.icon} size={50} />
-            <Label size={12}>{article.tag} · Bài đọc demo</Label>
-            <Label bold size={22}>
-              {article.title}
-            </Label>
-            <Button
-              title="Đọc bài viết"
-              variant="secondary"
-              onPress={() => router.push(`/articles/${article.id}`)}
-            />
-          </Card>
-        ))}
-      </QueryContent>
-    </Screen>
-  );
-}
-export function ArticleDetailScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
-  const article = articles.find((item) => item.id === id);
-  return (
-    <Screen title="Bài viết" back>
-      {article ? (
-        <>
-          <Icon name={article.icon} size={64} />
-          <Label size={28} bold>
-            {article.title}
-          </Label>
-          <Label size={13}>{article.tag} · Nội dung minh họa · 29/10/2026</Label>
-          <Label size={17}>{article.body}</Label>
-          <Button
-            title="Tra sổ tay vật liệu"
-            variant="secondary"
-            onPress={() => router.push('/handbook')}
-          />
-        </>
-      ) : (
-        <Empty title="Bài viết không tồn tại" />
-      )}
-    </Screen>
-  );
-}
+export { ArticlesScreen, ArticleDetailScreen } from './NewsScreens';
 export function NotificationsScreen() {
   const { notifications, markNotificationRead } = useApp();
   const query = useDemoQuery('notifications');

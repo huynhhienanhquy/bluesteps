@@ -139,10 +139,12 @@ export type GreenEvent = {
   description: string;
   icon: string;
   category: string;
+  date: string;
 };
 const baseEvents: GreenEvent[] = [
   {
     id: 'beach',
+    date: '2026-11-01',
     title: 'Một sáng sạch hơn cho biển',
     day: '01',
     month: 'TH11',
@@ -155,6 +157,7 @@ const baseEvents: GreenEvent[] = [
   },
   {
     id: 'workshop',
+    date: '2026-11-07',
     title: 'Đổi giấy cũ, gieo mầm xanh',
     day: '07',
     month: 'TH11',
@@ -167,6 +170,7 @@ const baseEvents: GreenEvent[] = [
   },
   {
     id: 'garden',
+    date: '2026-11-14',
     title: 'Vườn nhỏ giữa phố',
     day: '14',
     month: 'TH11',
@@ -331,9 +335,23 @@ export const collectionPoints: CollectionPoint[] = [
   },
 ];
 export const events: GreenEvent[] = [
+  {
+    id: 'green-class',
+    title: 'Giờ học xanh',
+    date: '2026-10-25',
+    day: '25',
+    month: 'TH10',
+    time: '08:00 – 10:00 · 25/10/2026',
+    area: 'Trường Mầm non Tuổi Xanh, TP HCM',
+    description:
+      'Cùng các bạn nhỏ thực hành phân loại rác qua những trò chơi gần gũi. Tình nguyện viên hỗ trợ các góc phân loại và hướng dẫn các bé. Lịch theo bản thiết kế đã lưu, chỉ dùng để trình diễn giao diện.',
+    icon: 'school-outline',
+    category: 'Giáo dục',
+  },
   ...baseEvents,
   {
     id: 'repair',
+    date: '2026-11-15',
     title: 'Sửa đồ cũ, thêm vòng đời mới',
     day: '15',
     month: 'TH11',
@@ -346,6 +364,7 @@ export const events: GreenEvent[] = [
   },
   {
     id: 'river',
+    date: '2026-11-21',
     title: 'Dòng sông không rác',
     day: '21',
     month: 'TH11',
@@ -358,6 +377,7 @@ export const events: GreenEvent[] = [
   },
   {
     id: 'swap',
+    date: '2026-11-28',
     title: 'Ngày hội trao đổi đồ dùng',
     day: '28',
     month: 'TH11',
@@ -398,6 +418,13 @@ export const rewards = [
   },
 ];
 export const articles = [
+  {
+    id: 'daily-waste',
+    title: '11 triệu tấn rác mỗi ngày: Chúng ta có thể làm gì?',
+    tag: 'Môi trường',
+    icon: 'earth-outline',
+    body: 'Bắt đầu từ một món đồ nhỏ: tách riêng giấy sạch, dùng lại chiếc túi đã có và mang theo bình nước khi ra ngoài.\n\nTìm hiểu loại vật liệu được tiếp nhận trước khi mang đến điểm thu gom. Một hoạt động cùng cộng đồng cũng là dịp để học thêm những thói quen phù hợp.\n\nTiêu đề và hình minh họa lấy từ bản thiết kế đã lưu. Con số trong tiêu đề là nội dung mẫu chưa được đối chiếu nguồn, không dùng như số liệu môi trường đã xác minh.',
+  },
   ...baseArticles,
   {
     id: 'battery-care',

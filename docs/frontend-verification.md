@@ -1,5 +1,17 @@
 # Frontend delivery — 29/10/2026
 
+## Cập nhật UI Tin tức — 30/10/2026
+
+Đã bổ sung grid/tìm kiếm không dấu/lọc/sắp xếp và bài đọc chi tiết, lưu/thích bài, thảo luận gắn đúng bài với trả lời/thích/xóa, theo dõi chủ đề, lịch xanh riêng trong Tin tức và bản tin theo ngày. Năm route mới nằm dưới `/articles`; tổng seed có 6 bài, 4 chủ đề và 2 bình luận bài đọc. Thẻ tin tức Home mở đúng `daily-waste`. State mới tách khỏi hoạt động/cộng đồng và được reset cùng phiên demo.
+
+Typecheck, lint, build web, kiểm cấu hình native, **33/33 unit test (15 suite)** và **46/46 E2E bằng Chrome (2,5 phút)** đạt trên source cuối. Bằng chứng ở [tiến độ hiện tại](ui-progress-2026-10-30.md), [kết quả tổng hợp](ui-progress-evidence-2026-10-30/news-validation.json) và [log E2E Tin tức](ui-progress-evidence-2026-10-30/news-e2e.log). Prettier đạt cho code thay đổi; chưa chạy lại format toàn repo (vấn đề định dạng cũ đã ghi ở phiên trước). Đã lưu 16 ảnh của 8 màn/trạng thái ở 390/428 px và xem ảnh đại diện của từng màn/trạng thái. Chỉ bài Home có ảnh gốc, năm bài khác dùng icon minh họa; chưa tăng ánh xạ 69/175 hoặc nghiệm thu fidelity/native. Các mục sau ghi kết quả lịch sử từng phiên.
+
+## Cập nhật UI Hoạt động — 30/10/2026
+
+Đã sửa liên kết hoạt động Home bằng ID, dựng lại khám phá/lịch/form, bổ sung vé/check-in mẫu, tổng kết/phản hồi cục bộ, bộ sưu tập và cấu hình nhắc lịch. Có 7 hoạt động seed và 4 route mới. UI vé không có giá trị tham gia; dữ liệu mới chỉ ở RAM, reset demo/reload xóa thay đổi, chưa có giữ chỗ, push hoặc email.
+
+Trên source hiện tại: typecheck, lint, export web, kiểm cấu hình native, **27/27 unit test (13 suite)** và **40/40 E2E bằng Chrome (2,1 phút)** đạt. Prettier đạt cho các file code thay đổi; kiểm toàn repo còn 187 file cũ ngoài phạm vi sửa bị báo định dạng/xuống dòng. Đã lưu ảnh ở 390/428 px; chưa nghiệm thu Figma toàn bộ hoặc QA native mới. [Tiến độ và phần còn lại](ui-progress-2026-10-30.md), [kết quả tổng hợp](ui-progress-evidence-2026-10-30/events-validation.json), [log E2E](ui-progress-evidence-2026-10-30/events-e2e.log). Các kết quả bên dưới là lịch sử của những phiên trước.
+
 ## Baseline hiện tại: SDK 58
 
 Sau kiểm tra request thật trên điện thoại (iOS SDK 58, Android SDK 57), người dùng chọn nâng project lên SDK 58. Expo 58.0.21 / RN 0.88.1 / React 19.3.0 / Router 58.0.28; TypeScript 6, Jest 30, RNTL 14. Đã chuyển test render/fireEvent sang async và cập nhật ref/color types. Typecheck, lint, format, native config, export web, 19/19 unit/component tests và 6/6 E2E đạt; Expo compatibility và peer checks đạt. Manifest/bundle tunnel iOS/Android HTTP 200. **Người dùng xác nhận cả iPhone và Android đã mở được BlueSteps.** Runtime inspector đồng thời ghi nhận iPhone và OPPO CPH1911 (Android 11/API 30); lượt đọc log Metro sau đó không thấy runtime error mới. Chưa claim đã kiểm camera/picker hoặc toàn bộ luồng trên thiết bị thật. Hướng dẫn và QR hiện hành ở [expo-go.md](expo-go.md). Các baseline 54/55 bên dưới là lịch sử.

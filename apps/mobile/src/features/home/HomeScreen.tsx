@@ -11,7 +11,7 @@ import {
   designStyles,
 } from '../../design-system/DesignScreen';
 import { homeAssets as assets } from '../../design-system/figma-assets';
-import { articles, events, wasteItems } from '../../services/fixtures';
+import { events, wasteItems } from '../../services/fixtures';
 import { mockProfile, mockWallet } from '../../services/mock-session';
 
 export function HomeScreen() {
@@ -203,19 +203,21 @@ export function HomeScreen() {
               area: 'TP. Hồ Chí Minh',
               count: '200+',
               source: assets.imgNhHotDng,
+              eventId: 'green-class',
             },
             {
-              title: 'Vì một bãi biển sạch',
+              title: events.find((event) => event.id === 'beach')!.title,
               area: 'Mỹ Khê, Đà Nẵng',
               count: '300+',
               source: assets.imgNhHotDng1,
+              eventId: 'beach',
             },
-          ].map((item, index) => (
+          ].map((item) => (
             <Pressable
               key={item.title}
               accessibilityRole="button"
               accessibilityLabel={item.title}
-              onPress={() => router.push(`/events/${events[index]!.id}`)}
+              onPress={() => router.push(`/events/${item.eventId}`)}
               style={[
                 styles.event,
                 { backgroundColor: colors.surface, borderColor: colors.border },
@@ -308,7 +310,7 @@ export function HomeScreen() {
         <Pressable
           accessibilityRole="button"
           accessibilityLabel="11 triệu tấn rác mỗi ngày: Chúng ta có thể làm gì?"
-          onPress={() => router.push(`/articles/${articles[0]!.id}`)}
+          onPress={() => router.push(`/articles/daily-waste`)}
           style={[styles.article, { backgroundColor: colors.surface, borderColor: colors.border }]}
         >
           <Artwork

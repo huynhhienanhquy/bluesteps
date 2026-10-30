@@ -1,6 +1,31 @@
 # Báo cáo tiến độ UI BlueSteps — 30/10/2026
 
-**UI đã làm xong ở phạm vi demo:** onboarding, form tài khoản/khôi phục mật khẩu, hồ sơ/thành tích, cài đặt, sổ tay và các màn quét mẫu. **Đang trong tiến trình:** Home, thu gom/hành trình, hoạt động, điểm/quà, cộng đồng, thông báo, chat, RecycleBot, tin tức, trò chơi và thống kê. **Chưa làm:** các màn vé/check-in, tổng kết hoạt động, bộ sưu tập/nhắc lịch, một số chức năng tin tức, giọng nói và các luồng thưởng chi tiết được liệt kê bên dưới.
+## Phiên tiếp tục nhóm Tin tức — 30/10/2026
+
+- Bắt đầu nhóm ưu tiên Tin tức từ catalog, ảnh tìm kiếm/lọc 609:5165 và asset Home đã lưu. Chưa có lần đọc Figma trực tiếp mới.
+- Đã dựng lại danh sách dạng grid, tìm kiếm không dấu trong tiêu đề/chủ đề/nội dung, lọc chủ đề và sắp xếp mới nhất/phổ biến, bài đọc có ảnh/metadata và thao tác lưu/thích. Bổ sung `/articles/saved`, `/articles/discussion?id=...`, `/articles/topics`, `/articles/calendar`, `/articles/briefs`.
+- Thảo luận có kiểm nội dung, trả lời, thích, sắp xếp và xác nhận xóa bình luận của mình; chủ đề có theo dõi cục bộ; lịch xanh có lọc/ngày/tháng và mở đúng hoạt động; bản tin có chọn ngày và đánh dấu đọc trong màn.
+- Đã tách state Tin tức khỏi hoạt động/cộng đồng và nối reset demo; bổ sung bài `daily-waste` để thẻ tin tức Home mở đúng nội dung theo tiêu đề, không lấy bài đầu mảng.
+- Chưa nâng số ánh xạ 69/175 hoặc trạng thái nghiệm thu hình ảnh. Bài `daily-waste` dùng ảnh Home gốc; 5 bài khác dùng icon minh họa vì repo thiếu ảnh gốc tương ứng. Các màn mới vẫn ghi đang trong tiến trình, không coi có route là đã nghiệm thu Figma.
+- Kiểm chứng cuối phiên: **typecheck, lint, build web, kiểm cấu hình native, 33/33 unit test (15 suite), 46/46 E2E bằng Chrome (2,5 phút)** đạt. Prettier đạt cho code thay đổi; không chạy lại format toàn repo ở phiên Tin tức (vấn đề định dạng cũ giữ trong mục Hoạt động bên dưới).
+- Đã sửa cách đổi filter theo tham số route để tránh effect cập nhật state đồng bộ; nút thích/xóa bình luận dùng nhãn theo nội dung, không hiển thị ID dữ liệu. Unit test kiểm reset state Tin tức và tách lưu bài khỏi lưu hoạt động; E2E kiểm cô lập bình luận giữa các bài và các luồng điều hướng.
+- Bằng chứng: [log build](ui-progress-evidence-2026-10-30/news-build.log), [log 46 E2E](ui-progress-evidence-2026-10-30/news-e2e.log), [kết quả tổng hợp](ui-progress-evidence-2026-10-30/news-validation.json). Đã lưu và xem ảnh 8 màn/trạng thái (danh sách, lọc, chi tiết, lưu trống, thảo luận, chủ đề, lịch, bản tin), tổng 16 ảnh ở 390/428 px; chưa kiểm thiết bị thật.
+- Ví dụ: [Tin tức 390 px](ui-progress-evidence-2026-10-30/news-390.png), [lọc 428 px](ui-progress-evidence-2026-10-30/news-filtered-428.png), [chi tiết 428 px](ui-progress-evidence-2026-10-30/news-detail-428.png), [thảo luận 428 px](ui-progress-evidence-2026-10-30/news-discussion-428.png), [lịch xanh 390 px](ui-progress-evidence-2026-10-30/news-calendar-390.png).
+
+## Phiên triển khai tiếp theo — 30/10/2026
+
+- Tiếp tục từ dữ liệu trong repo theo yêu cầu; chưa đọc được Figma trực tiếp trong phiên này.
+- Đã khôi phục dependency bằng `corepack pnpm install --frozen-lockfile` (1.041 gói), không đổi lockfile.
+- Đã sửa thẻ Home dùng ID hoạt động rõ ràng: “Giờ học xanh” → `green-class`, thẻ biển → `beach`; bổ sung hoạt động giáo dục theo catalog đã lưu.
+- Đã triển khai màn khám phá có thẻ ảnh/tìm tên và địa điểm không dấu/lọc, lịch tháng–tuần và chọn ngày, form đăng ký mở đúng hoạt động, vé/check-in mẫu, tổng kết/phản hồi cục bộ, danh sách lưu có xác nhận xóa, tạo/chuyển/xóa bộ sưu tập và cấu hình nhắc lịch.
+- Route mới: `/event-ticket?id=...`, `/event-summary?id=...`, `/event-collections`, `/event-reminders`. Các trạng thái đăng ký/vé/check-in/phản hồi, lưu/bộ sưu tập và nhắc lịch tách riêng; reset demo xóa các thay đổi này.
+- Các số liệu 69/175 frame ở phần audit bên dưới vẫn là mốc lịch sử; chưa tăng độ phủ hoặc xác nhận fidelity từ các thay đổi mới.
+- Kiểm chứng cuối phiên: typecheck, lint, build web, kiểm cấu hình native, **27/27 unit test (13 suite)** và **40/40 E2E (2,1 phút)** đạt trên source mới. Đã sửa checkbox xuất `aria-checked` trên web và nút về danh sách lưu đóng màn con bằng `dismissTo`.
+- Prettier đạt cho toàn bộ file code đã sửa/thêm. `format:check` toàn repo chưa đạt do 187 file cũ ngoài phạm vi sửa (định dạng/xuống dòng trên checkout Windows); giữ nguyên các file đó. Chưa chạy QA thiết bị hoặc bundle native mới trong phiên này.
+- Bằng chứng: [log build](ui-progress-evidence-2026-10-30/events-build.log), [log 40 E2E](ui-progress-evidence-2026-10-30/events-e2e.log), [kết quả tổng hợp](ui-progress-evidence-2026-10-30/events-validation.json). Đã lưu 14 ảnh của 7 màn ở 390/428 px và 1 ảnh trạng thái check-in mẫu. Đã xem trực tiếp ảnh khám phá, đăng ký, lịch và vé; các ảnh khác là bằng chứng render, chưa nghiệm thu visual toàn bộ.
+- Ví dụ: [khám phá 390 px](ui-progress-evidence-2026-10-30/events-390.png), [đăng ký 428 px](ui-progress-evidence-2026-10-30/event-registration-428.png), [lịch 428 px](ui-progress-evidence-2026-10-30/event-calendar-428.png), [check-in mẫu](ui-progress-evidence-2026-10-30/event-ticket-checked-in-390.png).
+
+**UI đã làm xong ở phạm vi demo:** onboarding, form tài khoản/khôi phục mật khẩu, hồ sơ/thành tích, cài đặt, sổ tay và các màn quét mẫu. **Đang trong tiến trình:** Home, thu gom/hành trình, hoạt động (đã có vé/check-in mẫu, tổng kết, bộ sưu tập và nhắc lịch), điểm/quà, cộng đồng, thông báo, chat, RecycleBot, tin tức (đã có lưu bài, thảo luận, chủ đề, lịch và bản tin), trò chơi và thống kê. **Chưa làm:** giọng nói, các bước đính kèm ảnh/quyền riêng tư của bài cộng đồng và các luồng thưởng chi tiết được liệt kê bên dưới.
 
 Cập nhật này phân loại theo **chức năng và phạm vi UI đã triển khai**, không lấy số frame ánh xạ làm trạng thái hoàn thành chức năng. Theo lần kiểm kê Figma trực tiếp ngày 30/10, **69/175 frame có ánh xạ code (39,4%)**, còn 106 frame chưa có ánh xạ riêng. Trong 106 frame này có cả phần đã có UI demo và phần chưa làm; không gọi toàn bộ là “chưa làm”. Chưa đọc lại Figma trong lần sửa cách trình bày báo cáo này.
 
@@ -37,19 +62,28 @@ Các trạng thái này chỉ nói về UI. Backend, xác thực thật, phát �
 
 | Chức năng | Trạng thái | Phần UI đã có | Phần UI còn phải làm/sửa |
 |---|---|---|---|
-| Trang chủ | **Đang trong tiến trình** | Header, banner, lối tắt, ví điểm, thẻ hoạt động/sổ tay/tin tức, năm tab theo Home Figma | Sửa thẻ “Giờ học xanh” mở sai hoạt động; hoàn tất nghiệm thu hình ảnh. [HomeScreen.tsx](../apps/mobile/src/features/home/HomeScreen.tsx) |
+| Trang chủ | **Đang trong tiến trình** | Header, banner, lối tắt, ví điểm, thẻ hoạt động/sổ tay/tin tức, năm tab; thẻ lớp học/biển mở đúng ID, thẻ tin tức mở `daily-waste` khớp tiêu đề và ảnh | Còn nghiệm thu hình ảnh Home. [HomeScreen.tsx](../apps/mobile/src/features/home/HomeScreen.tsx) |
 | Tìm và xem điểm thu gom | **Đang trong tiến trình** | Bản đồ mẫu, khám phá, tìm kiếm/lọc, so sánh và chi tiết điểm; nhóm có 7/10 frame ánh xạ | Bổ sung/đối chiếu ba biến thể điểm thu gom còn lại; kiểm tra bản đồ và các trạng thái trên thiết bị. [Thư mục collection](../apps/mobile/src/features/collection) |
 | Lập hành trình và bàn giao | **Đang trong tiến trình** | Thêm/bỏ/đổi thứ tự điểm, chọn tuyến/chặng, chỉ đường mẫu, thay điểm, hướng dẫn bàn giao; 6/9 frame ánh xạ | Ba biến thể hành trình còn lại và đối chiếu đầy đủ UI; chưa có map/GPS thật |
-| Khám phá và xem chi tiết hoạt động | **Đang trong tiến trình** | List, tìm kiếm, lọc, lưu/bỏ lưu, chi tiết dùng dữ liệu mẫu | Dựng thẻ ảnh, bộ lọc, nội dung/biến thể theo Figma; đồng bộ nội dung từ Home. [EventScreens.tsx](../apps/mobile/src/features/events/EventScreens.tsx) |
-| Lịch hoạt động | **Đang trong tiến trình** | Lịch tháng, chọn ngày và lọc hoạt động | Hoàn thiện màn lịch theo frame 534:49166, bố cục và trạng thái tương ứng |
-| Đăng ký tham gia hoạt động | **Đang trong tiến trình** | Form tên/email/đồng ý và kiểm dữ liệu | Dựng đầy đủ UI theo frame 534:49326 và trạng thái liên quan; hiện chưa phát vé |
-| Hoạt động đã lưu | **Đang trong tiến trình** | Danh sách đã lưu, thao tác lưu/bỏ lưu cục bộ | UI bộ sưu tập, xác nhận xóa và các biến thể yêu thích theo Figma |
+| Khám phá và xem chi tiết hoạt động | **Đang trong tiến trình** | Thẻ ảnh từ asset Home cho lớp học/biển; tìm tên và địa điểm không dấu; lọc TP HCM/cuối tuần/Dọn rác/Trồng cây/Phân loại; chi tiết, lưu và lối vào đăng ký/vé/tổng kết | Còn ảnh gốc cho các hoạt động khác (đang dùng icon), thanh điều hướng và biến thể chi tiết theo Figma. [EventScreens.tsx](../apps/mobile/src/features/events/EventScreens.tsx) |
+| Lịch hoạt động | **Đang trong tiến trình** | Lịch tháng/tuần, chuyển tháng qua năm, chọn ngày bằng ngày ISO đầy đủ, dấu hoạt động, lọc đăng ký mẫu và trạng thái trống | Còn đối chiếu bố cục/biến thể frame 534:49166; thời gian hiển thị theo lịch mẫu Việt Nam |
+| Đăng ký tham gia hoạt động | **Đang trong tiến trình** | Tóm tắt đúng hoạt động; tên/điện thoại/email; tăng giảm số người 1–5, chọn vai trò, hai mục đồng ý; kiểm dữ liệu và mở vé mẫu trong phiên | Còn đối chiếu typography, dropdown vai trò và khoảng cách theo ảnh 534:49326. Không giữ chỗ/gửi đăng ký thật. [EventParticipationScreens.tsx](../apps/mobile/src/features/events/EventParticipationScreens.tsx) |
+| Vé tham gia và check-in hoạt động | **Đang trong tiến trình** | `/event-ticket?id=...`: người tham gia, số người/vai trò, lịch/địa điểm, ký hiệu QR và mã DEMO, sao chép thông tin, check-in cục bộ; có trạng thái chưa đăng ký | Còn asset và đối chiếu hình ảnh 534:49416; ký hiệu QR không có payload, chưa lưu ảnh vé hoặc check-in thật |
+| Tổng kết sau hoạt động | **Đang trong tiến trình** | `/event-summary?id=...`: tổng kết bằng số liệu minh họa, chọn 1–5 sao, nhãn đánh giá và ghi chú; lưu phản hồi vào đăng ký mẫu | Còn phần dấu ấn cá nhân/ảnh và đối chiếu frame 534:49760; không xác nhận tham gia, hoàn thành hoặc phát thưởng |
+| Hoạt động đã lưu | **Đang trong tiến trình** | Tìm kiếm, lưu/bỏ lưu; xác nhận/hủy xóa, phản hồi sau xóa; lối vào bộ sưu tập/nhắc lịch; xóa đồng bộ khỏi bộ sưu tập và lời nhắc nhưng giữ vé mẫu | Còn đối chiếu các biến thể yêu thích theo Figma. [SavedEventScreens.tsx](../apps/mobile/src/features/events/SavedEventScreens.tsx) |
+| Quản lý bộ sưu tập hoạt động yêu thích | **Đang trong tiến trình** | `/event-collections`: tạo/chọn bộ sưu tập; chọn và thêm/chuyển/bỏ hoạt động; đếm đúng dữ liệu; xác nhận xóa bộ sưu tập, giữ danh sách lưu/vé/nhắc lịch | Còn bố cục/thẻ và thao tác theo ảnh gốc 534:49845; dữ liệu trong RAM |
+| Cấu hình nhắc lịch hoạt động đã lưu | **Đang trong tiến trình** | `/event-reminders`: bật/tắt, chọn hoạt động, mốc 1h/3h/1 ngày/tùy chỉnh 1–168h, chọn thông báo/email, giờ yên lặng và kiểm HH:mm; lưu nháp khi xác nhận | Còn đối chiếu frame 534:49968 và QA bàn phím trên thiết bị; mới lưu cấu hình, chưa hẹn/gửi/dời lời nhắc |
 | Ví điểm, danh mục/chi tiết quà và lịch sử | **Đang trong tiến trình** | Ví điểm mẫu, danh mục có lọc, chi tiết, kiểm số dư minh họa và lịch sử seed | Bố cục/biến thể từng loại quà, UI xác nhận/kết quả đổi quà, nhận thưởng ngày và nhắc thưởng; nhóm 17 frame mới ánh xạ màn Thành tích. [RewardScreens.tsx](../apps/mobile/src/features/rewards/RewardScreens.tsx) |
 | Cộng đồng và soạn bài | **Đang trong tiến trình** | Feed, thích/bỏ thích, bài viết văn bản cục bộ và danh sách bình luận mẫu | UI ảnh/quyền riêng tư, các biến thể composer, trạng thái đăng bài và tương tác bình luận đầy đủ. [CommunityScreens.tsx](../apps/mobile/src/features/community/CommunityScreens.tsx) |
 | Thông báo | **Đang trong tiến trình** | Danh sách seed, chưa đọc/đã đọc, đánh dấu và mở nội dung | Các loại/tab/biến thể thông báo theo bảy frame Figma. [ContentScreens.tsx](../apps/mobile/src/features/content/ContentScreens.tsx) |
 | Tin nhắn cá nhân | **Đang trong tiến trình** | Danh sách hội thoại, xem/gửi chữ trong phiên | Bố cục và trạng thái chat theo bốn frame; chưa có trao đổi tin thật. [MessageScreens.tsx](../apps/mobile/src/features/messages/MessageScreens.tsx) |
 | RecycleBot — hội thoại chữ | **Đang trong tiến trình** | Màn chat với câu trả lời cố định có nhãn demo | Các biến thể màn bot, trạng thái phản hồi và giọng nói theo Figma; chưa có AI thật |
-| Tin tức — danh sách, tìm kiếm và chi tiết | **Đang trong tiến trình** | Tìm theo tiêu đề, danh sách và bài đọc mẫu | Grid ảnh, bộ lọc chủ đề/sắp xếp, bố cục các trang chi tiết và sáu frame mới. [ContentScreens.tsx](../apps/mobile/src/features/content/ContentScreens.tsx) |
+| Tin tức — danh sách, tìm kiếm và chi tiết | **Đang trong tiến trình** | Grid 2 cột; tìm tiêu đề/chủ đề/nội dung không dấu; lọc 4 chủ đề, sắp mới nhất/phổ biến; chi tiết có metadata, lưu/thích, thảo luận và bài liên quan; bài Home có ảnh gốc | Còn ảnh gốc của 5 bài demo khác, nội dung/bố cục từng biến thể bài đọc, hero/carousel/thanh điều hướng theo thiết kế. [NewsScreens.tsx](../apps/mobile/src/features/content/NewsScreens.tsx) |
+| Tin tức — bài viết đã lưu | **Đang trong tiến trình** | `/articles/saved`: grid, tìm kiếm/lọc/sắp xếp; xác nhận/hủy bỏ lưu và trạng thái trống; state tách khỏi `/saved` hoạt động | Còn đối chiếu bố cục/asset gốc 609:5266; chưa lưu bền vững |
+| Tin tức — thảo luận bài viết | **Đang trong tiến trình** | `/articles/discussion?id=...`: bình luận gắn đúng bài, kiểm nội dung 1–500 ký tự, trả lời, thích, sắp xếp, xác nhận xóa bình luận của mình và trạng thái trống | Còn đối chiếu frame 609:5361, avatar/biến thể thiết kế và QA bàn phím native. [NewsDiscussionScreen.tsx](../apps/mobile/src/features/content/NewsDiscussionScreen.tsx) |
+| Tin tức — khám phá chủ đề | **Đang trong tiến trình** | `/articles/topics`: 4 chủ đề, số bài, theo dõi/bỏ theo dõi cục bộ, mở feed đúng bộ lọc và đổi chủ đề qua điều hướng | Còn ảnh/bố cục chính xác 612:5286; chưa cá nhân hóa hoặc gửi tin từ chủ đề |
+| Tin tức — lịch sự kiện xanh | **Đang trong tiến trình** | `/articles/calendar`: màn riêng trong Tin tức, lịch ngày/tháng, dấu sự kiện, lọc danh mục, trạng thái trống, mở đúng hoạt động và bài đọc liên quan | Còn đối chiếu frame 612:5362; dùng lại dữ liệu mẫu hoạt động, chưa có lịch biên tập thật |
+| Tin tức — bản tin nhanh | **Đang trong tiến trình** | `/articles/briefs`: tóm tắt bài theo ngày, chọn ngày/tất cả, đánh dấu đã đọc/chưa đọc trong màn, đọc toàn bài và phục hồi empty | Còn đối chiếu frame 612:5441; chưa có bản tin biên tập/API. [NewsExploreScreens.tsx](../apps/mobile/src/features/content/NewsExploreScreens.tsx) |
 | Trò chơi phân loại | **Đang trong tiến trình** | Bài luyện chạm ba câu, phản hồi và chơi lại | Các màn/luồng trò chơi theo 10 frame Figma. [GameScreen.tsx](../apps/mobile/src/features/games/GameScreen.tsx) |
 | Thống kê cá nhân | **Đang trong tiến trình** | Tổng quan và bảng số liệu tuần giả lập | Bố cục/biểu diễn thống kê theo frame 391:25009 và nghiệm thu UI. [ProfileScreens.tsx](../apps/mobile/src/features/profile/ProfileScreens.tsx) |
 
@@ -57,20 +91,11 @@ Các trạng thái này chỉ nói về UI. Backend, xác thực thật, phát �
 
 | Chức năng cụ thể | Trạng thái | Phạm vi UI chưa có | Tham chiếu Figma |
 |---|---|---|---|
-| Vé tham gia và check-in hoạt động | **Chưa làm UI** | Trang vé/QR, thông tin tham gia và check-in; form đăng ký hiện tại không thay cho màn này | 534:49416 |
-| Tổng kết sau hoạt động | **Chưa làm UI** | Màn tổng kết kết quả tham gia và nội dung sau hoạt động | 534:49760 |
-| Quản lý bộ sưu tập hoạt động yêu thích | **Chưa làm UI** | Tạo/chọn/quản lý bộ sưu tập; danh sách `/saved` hiện tại chỉ là danh sách phẳng | 534:49845 |
-| Cấu hình nhắc lịch hoạt động đã lưu | **Chưa làm UI** | Chọn hoạt động, thời điểm, kênh nhận và giờ yên lặng trong màn cấu hình riêng | 534:49968 |
 | Nhận thưởng ngày và nhắc thưởng | **Chưa làm UI** | Các màn nhận thưởng ngày, sau nhận thưởng và đặt nhắc thưởng; ví hiện tại chỉ ghi chức năng chưa bật | 386:12671, 386:11652, 386:11858 |
 | Hướng dẫn quy đổi điểm | **Chưa làm UI** | Màn hướng dẫn/cách quy đổi riêng | 386:11320 |
 | Xác nhận và kết quả đổi quà theo thiết kế | **Chưa làm UI** | Hai màn/biến thể xác nhận và sau xác nhận; nút kiểm số dư và nút đổi quà bị khóa hiện tại chưa phải luồng này | 386:12517, 386:12362 |
 | Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài | **Chưa làm UI** | Các bước UI tương ứng trong bộ composer; hiện mới nhập và thêm văn bản cục bộ | Bộ 386:15047–386:16071 và 386:16188 |
 | RecycleBot — giọng nói | **Chưa làm UI** | Màn/trạng thái ghi âm, nghe và xử lý giọng nói theo bộ frame bot | Nhóm RecycleBot & giọng nói trong catalog |
-| Tin tức — bài viết đã lưu | **Chưa làm UI** | Danh sách bài báo đã lưu; `/saved` đang dành cho hoạt động | 609:5266 |
-| Tin tức — thảo luận bài viết | **Chưa làm UI** | Thảo luận gắn với bài báo; `/discussion` hiện dùng bình luận bài cộng đồng | 609:5361 |
-| Tin tức — khám phá chủ đề | **Chưa làm UI** | Trang khám phá/chọn chủ đề tin tức riêng | 612:5286 |
-| Tin tức — lịch sự kiện xanh | **Chưa làm UI** | Trang lịch thuộc nhóm tin tức; `/calendar` hiện là lịch hoạt động demo | 612:5362 |
-| Tin tức — bản tin nhanh | **Chưa làm UI** | Màn tổng hợp bản tin nhanh riêng | 612:5441 |
 
 Các dòng “chưa làm” là phần con của một số nhóm đang trong tiến trình, vì vậy không cộng số dòng các bảng thành số tính năng hoặc số frame. Hai frame tư liệu/khung phụ và frame navigation rời cần xác định vai trò trước khi quy thành chức năng sản phẩm.
 
@@ -80,7 +105,7 @@ Các dòng “chưa làm” là phần con của một số nhóm đang trong ti
 
 - Nguồn thiết kế: [Figma — trang backuped, 386:7053](https://www.figma.com/design/7GCLABwia0mauoszRi0Vtt/Untitled?node-id=386-7053). Báo cáo chỉ xét trang này; chưa kiểm kê các page Figma khác.
 - Đã đọc trực tiếp cấu trúc Figma ngày 30/10: **186 đối tượng cấp cao, gồm 175 FRAME**. Snapshot 29/10 trong repo có 180 đối tượng/169 frame. Không phát hiện frame cũ bị xóa khỏi tập ID; có 6 frame Tin tức mới.
-- Đối chiếu ID với `fidelity-targets.cjs`, `coverage.json`, route và file nguồn thực tế. Cả 69 ánh xạ đều có source tồn tại. Có 54 file route ngoài `_layout`; đây không phải 54 màn độc lập vì nhiều trạng thái dùng chung route.
+- Đối chiếu ID với `fidelity-targets.cjs`, `coverage.json`, route và file nguồn thực tế. Cả 69 ánh xạ đều có source tồn tại. Mốc audit có 54 file route ngoài `_layout`; phiên Hoạt động thêm 4 và phiên Tin tức thêm 5 route, thành 63. Số route không tương đương số màn độc lập vì nhiều trạng thái dùng chung route.
 - Đã lấy và xem ảnh Figma mới của Home, Khám phá hoạt động và Tìm kiếm tin tức; xem Home và chi tiết hoạt động trên bản export web hiện có ở viewport 428 × 926.
 - Đã kiểm tra code các nhóm chức năng và chạy lại build, kiểm tra kiểu, unit test và E2E. Giới hạn của từng kết quả nằm ở mục kiểm chứng.
 
@@ -101,14 +126,14 @@ Bằng chứng kiểm kê: [cấu trúc Figma đọc trực tiếp](ui-progress-
 | Điều hướng dùng chung | 2 | 1 | 1 | Catalog xếp Home ở nhóm này; các thanh điều hướng lồng trong màn không đếm riêng |
 | Điểm thu gom | 10 | 7 | 3 | Bản đồ mẫu, khám phá, lọc, so sánh, chi tiết, đề xuất, báo cáo |
 | Hành trình & bàn giao | 9 | 6 | 3 | Hành trình, tuyến/chặng, chỉ đường mẫu, thay điểm, bàn giao |
-| Hoạt động & tham gia | 13 | 0 | 13 | Có list/detail/calendar/form demo, chưa dựng theo đầy đủ frame |
-| Hoạt động đã lưu & nhắc lịch | 5 | 0 | 5 | Lưu/bỏ lưu cục bộ đã có; thiếu bộ sưu tập và cấu hình nhắc lịch theo thiết kế |
+| Hoạt động & tham gia | 13 | 0 | 13 | Đã mở rộng khám phá/lịch/form, thêm vé/check-in/tổng kết mẫu; chưa bổ sung ánh xạ fidelity từng frame |
+| Hoạt động đã lưu & nhắc lịch | 5 | 0 | 5 | Đã có bộ sưu tập, xác nhận xóa và cấu hình nhắc lịch; còn đối chiếu hình ảnh và ánh xạ fidelity |
 | Điểm, đổi quà & thành tích | 17 | 1 | 16 | Thành tích đã ánh xạ; ví, quà và lịch sử còn giao diện demo |
 | Cộng đồng & tạo bài | 12 | 0 | 12 | Có feed, thích và composer cục bộ; thiếu các biến thể theo Figma |
 | Thông báo | 7 | 0 | 7 | Có inbox/đã đọc demo; chưa dựng từng frame thông báo |
 | Tin nhắn cá nhân | 4 | 0 | 4 | Danh sách hội thoại và gửi tin cục bộ; chưa đối chiếu frame |
 | RecycleBot & giọng nói | 11 | 0 | 11 | Bot trả lời cố định; thiếu UI đầy đủ và các trạng thái giọng nói |
-| Tin tức | 18 | 0 | 18 | Có danh sách/tìm tên/chi tiết demo; gồm 6 frame mới chưa ánh xạ |
+| Tin tức | 18 | 0 | 18 | Đã có grid/lọc/chi tiết/lưu/thảo luận/chủ đề/lịch/bản tin demo; chưa ánh xạ và nghiệm thu từng frame |
 | Trò chơi | 10 | 0 | 10 | Mới có bài luyện phân loại ba câu, chưa tương đương luồng Figma |
 | Thống kê | 1 | 0 | 1 | Có số liệu tuần giả lập; chưa đối chiếu frame |
 | Tư liệu/khung phụ | 2 | 0 | 2 | Cần phân loại có thuộc đầu ra sản phẩm hay chỉ là tư liệu |
@@ -127,12 +152,12 @@ Luồng quét thực tế có 10 frame đã ánh xạ; frame “Sổ tay rác_Sc
 | 612:5362 | Tin tức · Lịch sự kiện xanh | 428 × 926 |
 | 612:5441 | Tin tức · Bản tin nhanh | 428 × 926 |
 
-Trang `/articles` có tìm theo tiêu đề nhưng chưa có bộ lọc chủ đề/sắp xếp và grid ảnh như frame 609:5165. Route `/discussion` hiện dùng màn thảo luận cộng đồng, chưa phải bằng chứng đã dựng frame thảo luận bài báo mới. Chưa thấy route/triển khai riêng cho bài báo đã lưu, khám phá chủ đề, lịch sự kiện tin tức và bản tin nhanh.
+Trang `/articles` đã có grid, tìm kiếm không dấu, lọc chủ đề và sắp xếp theo dữ liệu mẫu. Năm route Tin tức mới đã dựng riêng: `/articles/saved`, `/articles/discussion`, `/articles/topics`, `/articles/calendar`, `/articles/briefs`; `/discussion` cộng đồng và `/calendar` hoạt động vẫn giữ ý nghĩa riêng. Repo mới có ảnh tham chiếu màn tìm kiếm 609:5165 và tên/kích thước của năm frame mới còn lại, nên các màn mới chưa được coi là triển khai khớp từng frame.
 
 ## Kết quả đối chiếu và lỗi cần sửa
 
-1. **P1 — Home mở sai nội dung hoạt động.** Bấm thẻ “Giờ học xanh” mở `/events/beach`, trang đích hiển thị “Một sáng sạch hơn cho biển”, địa điểm Bãi biển Mỹ Khê. `HomeScreen.tsx` dùng nhãn/ảnh riêng nhưng lấy đích từ `events[index].id`. Cần ánh xạ ID tường minh và đồng bộ tiêu đề, ảnh, địa điểm giữa thẻ và chi tiết. Đã xác minh cả code và UI đang chạy.
-2. **P1 — Các nhóm demo chưa giữ bố cục Figma.** Ví dụ frame Khám phá hoạt động có ảnh thẻ, nhóm Dọn rác/Trồng cây/Phân loại, chip địa điểm/thời gian và liên kết lịch; `EventScreens.tsx` hiện dùng thẻ ngày, bộ lọc loại và layout chung. Tin tức hiện dùng icon/thẻ dọc thay cho grid ảnh của frame mới. Cần dựng theo từng frame trước khi đánh dấu nhóm hoàn thành.
+1. **P1 — Home mở sai nội dung hoạt động: đã sửa trong phiên triển khai này.** Thẻ lớp học dùng `green-class`, thẻ biển dùng `beach`, không còn lấy đích theo vị trí mảng. E2E mới đã đi từ Home tới đúng tiêu đề/địa điểm và form của lớp học.
+2. **P1 — Các nhóm demo chưa giữ bố cục Figma.** Nhóm Hoạt động đã thay thẻ ngày bằng thẻ ảnh/icon, thêm các bộ lọc và luồng mới. Tin tức đã có grid 2 cột, tìm kiếm/lọc/sắp xếp và các màn con; còn thiếu ảnh gốc, hero/carousel, thanh điều hướng, biến thể và đối chiếu chi tiết. Không coi grid dùng icon thay ảnh là đã hoàn tất fidelity.
 3. **P2 — Typography và chi tiết hình ảnh còn sai khác.** Home quan sát có bố cục chính/asset/header/navigation gần ảnh mới; chưa khẳng định khớp từng pixel. Bộ đối chiếu đã lưu ghi nhận khác biệt font/emoji/xuống dòng, đặc biệt hướng dẫn vật liệu và chi tiết quét. [Báo cáo diff đã lưu](figma-fidelity/diff/report.json) có sai khác khác 0; không chuyển các số đo này thành “% giống Figma”.
 4. **P2 — Tài liệu độ phủ đang dùng snapshot cũ.** `figma-fidelity/coverage.json` vẫn ghi 69/169 và blocked do quyền. Lần này đọc được cấu trúc lẫn ảnh mới, nên lỗi đọc trước đây không chặn cuộc kiểm tra này. Bản báo cáo giữ nguyên artifact lịch sử, đưa kiểm kê 175 frame vào thư mục bằng chứng riêng; không suy ra kết nối sẽ ổn định cho mọi frame/lần gọi sau.
 5. **P2 — Chưa nghiệm thu UI native đầy đủ.** Tài liệu Expo Go đã ghi nhận mở app trên iPhone/Android trong phiên trước. Phiên mở demo tiếp theo đã dựng lại bundle iOS/Android thành công, nhưng chưa có kết quả QA chi tiết camera, quyền ảnh, keyboard, safe area, cỡ chữ lớn và từng luồng trên thiết bị thật.
@@ -147,7 +172,9 @@ Home Figma đọc ngày 30/10:
 
 Tham chiếu cho phần chưa dựng đủ: [Khám phá hoạt động](ui-progress-evidence-2026-10-30/figma-534-49034.png), [Tin tức — tìm kiếm và lọc](ui-progress-evidence-2026-10-30/figma-609-5165.png).
 
-## Kiểm chứng đã có và cập nhật môi trường demo
+## Kiểm chứng lịch sử trước phiên triển khai tiếp theo
+
+**Kết quả hiện tại xem ở đầu báo cáo.** Các lỗi dependency và kết quả bên dưới thuộc lần audit trước; sau cài dependency trong phiên tiếp theo, build/typecheck/unit test đã chạy đạt và E2E đạt 40/40 trên bản export mới.
 
 Các lệnh build/typecheck/unit test bên dưới được chạy ở lần audit đầu ngày 30/10. Sau đó, khi mở QR demo, dependency đã được cài lại thành công theo lockfile và Metro/tunnel đã chạy được. Khi kiểm tra lại trước lần push GitHub đầu tiên, cả ba lệnh tiếp tục báo các lỗi dependency tương ứng trong môi trường chạy lệnh hiện tại. Vì vậy Metro đã chạy thành công nhưng chưa thể đánh dấu build web, typecheck hoặc unit test là đạt.
 
@@ -167,15 +194,15 @@ Các lệnh build/typecheck/unit test bên dưới được chạy ở lần aud
 
 Lần chạy E2E mặc định thiếu Chromium của Playwright nên dừng ở bước mở browser; đã chạy lại bằng `PLAYWRIGHT_CHROMIUM_EXECUTABLE=C:\Program Files\Google\Chrome\Application\chrome.exe`. Không coi lỗi launcher ban đầu là 36 lỗi nghiệp vụ. [Log E2E lần chạy bằng Chrome](ui-progress-evidence-2026-10-30/e2e-current.log).
 
-README fidelity trước đây ghi 36/36 E2E và 20/20 kiểm tra chức năng đạt. E2E đã được chạy lại như trên; 20/20 unit test là kết quả lịch sử. Bằng chứng mở demo tiếp theo: [thông tin phiên Expo Go](frontend-evidence/expo-go-current-session.json). Lần cập nhật báo cáo này không sửa UI sản phẩm và không tự nâng trạng thái nghiệm thu từ việc tunnel chạy được.
+README fidelity trước đây ghi 36/36 E2E và 20/20 kiểm tra chức năng đạt. Ở lần audit trước, E2E đã được chạy lại như bảng trên; 20/20 unit test lúc đó là kết quả lịch sử. Bằng chứng mở demo ở lần audit: [thông tin phiên Expo Go](frontend-evidence/expo-go-current-session.json). Lần audit đó không sửa UI sản phẩm và không tự nâng trạng thái nghiệm thu từ việc tunnel chạy được; các thay đổi UI tiếp theo và kết quả 27 unit/40 E2E nằm ở đầu báo cáo.
 
 ## Việc ưu tiên tiếp theo
 
 | Thứ tự | Công việc | Điều kiện hoàn thành |
 |---|---|---|
-| 1 | Sửa liên kết hoạt động từ Home; chạy lại build/typecheck/unit test trên dependency đã khôi phục | Thẻ mở đúng hoạt động; có kết quả kiểm tra mới trên source hiện tại |
-| 2 | Dựng nhóm Hoạt động và hoạt động đã lưu/nhắc lịch (18 frame) | Đủ list/detail/calendar/register/ticket/check-in/summary/collection/reminder theo Figma; phần giao dịch có nhãn trạng thái rõ |
-| 3 | Dựng Tin tức (18 frame, gồm 6 frame mới) | Đồng bộ grid ảnh, tìm kiếm/lọc, chi tiết, lưu, thảo luận, chủ đề, lịch và bản tin |
+| 1 | Đã sửa liên kết hoạt động từ Home; tiếp tục giữ kiểm tra hồi quy | Đã mở đúng lớp học và biển; typecheck/build/unit test đã chạy đạt trên source mới |
+| 2 | Hoàn thiện fidelity nhóm Hoạt động và hoạt động đã lưu/nhắc lịch (18 frame) | Các màn/luồng demo đã có; còn asset, dropdown vai trò, dấu ấn cá nhân, thanh điều hướng, biến thể, ánh xạ và đối chiếu ảnh theo từng frame |
+| 3 | Hoàn thiện fidelity Tin tức (18 frame, gồm 6 frame mới) | Các luồng demo đã dựng; còn ảnh gốc, hero/carousel/thanh điều hướng, nội dung/bố cục chi tiết, biến thể, ánh xạ và đối chiếu ảnh |
 | 4 | Hoàn thiện 6 frame thu gom/hành trình còn lại và 16 frame điểm/quà còn lại | Đủ biến thể/overlay, điều hướng đúng và capture ở hai chiều rộng |
 | 5 | Dựng cộng đồng, thông báo, chat, bot, game và thống kê | Đủ frame từng nhóm; không dùng một màn demo để đại diện cho cả nhóm |
 | 6 | Nghiệm thu hình ảnh và thiết bị | Đối chiếu typography/asset/spacing/scroll/overlay, kiểm iOS/Android và các trạng thái lỗi/trống/tải |

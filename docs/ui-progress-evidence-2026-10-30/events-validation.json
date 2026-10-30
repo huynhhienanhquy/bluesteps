@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-30",
+  "scope": "Home event routing and local event discovery, calendar, participation, saved collections and reminder UI",
+  "designSource": "Repository snapshots, catalog, saved context and screenshots; no live Figma read in this implementation session",
+  "packageManager": "corepack pnpm 11.25.0",
+  "dependencyInstall": { "frozenLockfile": true, "packages": 1041, "lockfileChanged": false },
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed without warnings",
+    "unit": { "passed": 27, "total": 27, "suites": 13 },
+    "webExport": { "status": "passed", "log": "events-build.log" },
+    "nativeConfig": "passed; camera/photos enabled and microphone excluded",
+    "e2e": { "passed": 40, "total": 40, "duration": "2.1 minutes", "browser": "Installed Google Chrome", "log": "events-e2e.log" },
+    "changedCodeFormatting": "passed",
+    "repositoryFormatting": { "status": "failed", "existingFilesOutsideChange": 187, "note": "Prettier reports formatting/line-ending issues in unchanged files in this Windows checkout" },
+    "gitDiffWhitespace": "passed"
+  },
+  "screenshots": { "widths": [390, 428], "screenCount": 7, "renderCaptures": 14, "additionalCheckedInTicketCapture": 1 },
+  "newRoutes": ["/event-ticket", "/event-summary", "/event-collections", "/event-reminders"],
+  "limitations": [
+    "All registration, ticket, check-in, feedback, collection and reminder data is kept in memory and clears on demo reset or reload",
+    "No actual reservation, QR payload, attendance verification, reward, email or scheduled notification",
+    "Remaining event imagery uses existing icons when the original asset is unavailable",
+    "Figma frame mapping remains at the historical 69/175; new event screens have not been accepted for visual fidelity",
+    "No new native bundle, emulator or physical-device QA in this session"
+  ]
+}

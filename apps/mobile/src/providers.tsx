@@ -15,6 +15,12 @@ import { appendDemoMessage, createDemoSession, type DemoSession } from './servic
 import { initialExperience, type ExperiencePreferences } from './services/experience';
 import { defaultCollectionFilters, type CollectionFilters } from './services/collection';
 import type { CollectionProposalDraft } from './services/collection-forms';
+import { createNewsSession, type NewsSession } from './services/news';
+import {
+  createEventPlanning,
+  removeSavedEvent,
+  type EventPlanning,
+} from './services/event-planning';
 
 focusManager.setEventListener((handleFocus) => {
   if (Platform.OS === 'web') {
@@ -31,6 +37,10 @@ focusManager.setEventListener((handleFocus) => {
 type ThemeMode = 'system' | 'light' | 'dark';
 type Post = (typeof initialPosts)[number];
 type DemoContextValue = {
+  news: NewsSession;
+  setNews: Dispatch<SetStateAction<NewsSession>>;
+  eventPlanning: EventPlanning;
+  setEventPlanning: Dispatch<SetStateAction<EventPlanning>>;
   pointProposalDraft: CollectionProposalDraft | null;
   setPointProposalDraft: (draft: CollectionProposalDraft | null) => void;
   collectionFilters: CollectionFilters;
@@ -78,6 +88,8 @@ export function AppProviders({
   const system = useColorScheme();
   const [theme, setTheme] = useState<ThemeMode>('system');
   const [session, setSession] = useState(createDemoSession);
+  const [news, setNews] = useState(createNewsSession);
+  const [eventPlanning, setEventPlanning] = useState(createEventPlanning);
   const [state, setState] = useState<DemoState>('content');
   const [experience, setExperience] = useState(initialExperience);
   const [collectionFilters, setCollectionFilters] = useState(defaultCollectionFilters);
@@ -92,6 +104,10 @@ export function AppProviders({
     <QueryClientProvider client={client}>
       <DemoContext.Provider
         value={{
+          news,
+          setNews,
+          eventPlanning,
+          setEventPlanning,
           pointProposalDraft,
           setPointProposalDraft,
           collectionFilters,
@@ -108,8 +124,12 @@ export function AppProviders({
           setStops: (stops) => setSession((current) => ({ ...current, stops: [...stops] })),
           state,
           setState,
-          toggleSaved: (id) =>
-            setSession((current) => ({ ...current, saved: toggle(current.saved, id) })),
+          toggleSaved: (id) => {
+            if (session.saved.includes(id)) {
+              setEventPlanning((current) => removeSavedEvent(current, id));
+            }
+            setSession((current) => ({ ...current, saved: toggle(current.saved, id) }));
+          },
           toggleLiked: (id) =>
             setSession((current) => ({ ...current, liked: toggle(current.liked, id) })),
           markNotificationRead: (id) =>
@@ -137,6 +157,8 @@ export function AppProviders({
             setSelectedPoint('green-hub');
             setExperience(initialExperience());
             setSession(createDemoSession());
+            setNews(createNewsSession());
+            setEventPlanning(createEventPlanning());
             setState('content');
           },
           addPost: (text) =>
