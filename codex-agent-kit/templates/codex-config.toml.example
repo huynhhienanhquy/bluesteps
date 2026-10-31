@@ -1,9 +1,0 @@
-# Copy only the entries you need into ~/.codex/config.toml.
-# Keep credentials in the environment or a secret manager, never in this file.
-
-[mcp_servers.project_files]
-command = "npx"
-args = ["-y", "@modelcontextprotocol/server-filesystem", "<ABSOLUTE_PROJECT_PATH>"]
-
-# Add the smallest set of MCP servers required by the repository. Review each
-# server's publisher, permissions, command, arguments, and data boundary first.
