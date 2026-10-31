@@ -1,0 +1,17 @@
+src/features/assistant/BotDesignScreen.tsx 165ms
+src/features/assistant/BotUiProvider.tsx 18ms
+src/design-system/DesignFrameCanvas.tsx 54ms
+src/design-system/DesignFrameLayers.tsx 74ms (unchanged)
+src/providers.tsx 43ms
+app/assistant.tsx 4ms (unchanged)
+scripts/bot-design-config.cjs 30ms
+scripts/prepare-bot-components.cjs 47ms
+scripts/prepare-bot-masks.cjs 35ms
+scripts/prepare-backuped-group.cjs 130ms
+scripts/capture-fidelity.cjs 26ms (unchanged)
+scripts/audit-backuped-group-assets.cjs 23ms (unchanged)
+scripts/compare-backuped-group.cjs 7ms (unchanged)
+scripts/build-fidelity-coverage.cjs 13ms
+scripts/fidelity-targets.cjs 58ms
+e2e/bot-design.spec.ts 18ms
+e2e/frontend.spec.ts 47ms (unchanged)

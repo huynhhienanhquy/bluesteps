@@ -1,0 +1,22 @@
+$ pnpm --filter @bluesteps/mobile format:check
+$ prettier --check app src e2e scripts *.js *.ts *.json ../../packages/design-tokens/src
+Checking formatting...
+[warn] app/articles/briefs.tsx
+[warn] app/articles/calendar.tsx
+[warn] app/articles/discussion.tsx
+[warn] app/articles/saved.tsx
+[warn] app/articles/topics.tsx
+[warn] app/event-collections.tsx
+[warn] app/event-reminders.tsx
+[warn] app/event-summary.tsx
+[warn] app/event-ticket.tsx
+[warn] src/features/content/ContentScreens.tsx
+[warn] src/features/content/news-detail-design-data.ts
+[warn] src/features/home/HomeScreen.tsx
+[warn] src/providers.tsx
+[warn] scripts/prepare-news-detail-design.cjs
+[warn] Code style issues found in 14 files. Run Prettier with --write to fix.
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 format:check: `prettier --check app src e2e scripts *.js *.ts *.json ../../packages/design-tokens/src`
+Exit status 1
+[ELIFECYCLE] Command failed with exit code 1.

@@ -1,0 +1,23 @@
+$ pnpm --filter @bluesteps/mobile test
+$ jest --runInBand
+Error: Cannot find module 'y18n'
+Require stack:
+- D:\BlueSteps\node_modules\.pnpm\yargs@17.7.3\node_modules\yargs\build\index.cjs
+- D:\BlueSteps\node_modules\.pnpm\yargs@17.7.3\node_modules\yargs\index.cjs
+- D:\BlueSteps\node_modules\.pnpm\jest-cli@30.5.2_@types+node@22.20.5_supports-color@8.1.1\node_modules\jest-cli\build\index.js
+- D:\BlueSteps\node_modules\.pnpm\jest-cli@30.5.2_@types+node@22.20.5_supports-color@8.1.1\node_modules\jest-cli\bin\jest.js
+- D:\BlueSteps\node_modules\.pnpm\jest@30.5.2_@types+node@22.20.5_supports-color@8.1.1\node_modules\jest\bin\jest.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (D:\BlueSteps\node_modules\.pnpm\yargs@17.7.3\node_modules\yargs\build\index.cjs:1:60279)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test: `jest --runInBand`
+Exit status 1
+[ELIFECYCLE] Test failed. See above for more details.

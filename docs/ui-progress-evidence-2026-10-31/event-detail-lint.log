@@ -1,0 +1,13 @@
+$ eslint .
+
+D:\BlueSteps\apps\mobile\e2e\events.spec.ts
+    2:27  warning  'node:fs' imported multiple times        import/no-duplicates
+    4:30  warning  'node:fs' imported multiple times        import/no-duplicates
+  172:19  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs
+  116:7  warning  'input' is assigned a value but never used  no-unused-vars
+
+✖ 4 problems (0 errors, 4 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

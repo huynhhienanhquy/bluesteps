@@ -1,1 +1,1 @@
-export { NotificationsScreen as default } from '../src/features/content/ContentScreens';
+export { NotificationsDesignScreen as default } from '../src/features/notifications/NotificationScreens';

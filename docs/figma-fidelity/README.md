@@ -1,8 +1,58 @@
 # Đối chiếu frontend với trang backuped
 
-Yêu cầu hiện hành: cập nhật toàn bộ frontend để khớp trang **backuped `386:7053`** trong file Figma `7GCLABwia0mauoszRi0Vtt`. Mục tiêu hiện bị chặn bởi việc đọc dữ liệu thiết kế còn thiếu; chưa đạt hoặc được xác nhận giống 100%.
+## RecycleBot — cập nhật 31/10/2026
 
-Phạm vi snapshot: 180 đối tượng cấp cao, 169 FRAME, gồm màn hình, trạng thái, overlay và khung phụ. Mỗi frame phải được phân loại và đối chiếu; không coi việc sửa một nhóm màn là hoàn tất cả trang.
+Độ phủ mới nhất là **197/211 frame**, còn **14 frame**. [Nhóm RecycleBot](../ui-bot-2026-10-31.md) thêm 11 mapping, gồm hai khung chat và các component giọng nói ở kích thước gốc; 22 ảnh đối chiếu và 130 vị trí asset đã kiểm tra. Các mốc 186/211 và cũ hơn bên dưới là lịch sử. Mục tiêu toàn trang vẫn đang tiếp tục; chưa xác nhận full-frame fidelity 100%.
+
+## Tin nhắn — cập nhật 31/10/2026
+
+Độ phủ mới nhất là **186/211 frame**, còn **25 frame**. [Nhóm Tin nhắn](../ui-chat-2026-10-31.md) thêm 16 mapping, có 32 ảnh đối chiếu và audit 606 vị trí asset. Các mốc 170/211 và cũ hơn bên dưới là lịch sử. Mục tiêu vẫn là toàn bộ trang backuped; chưa xác nhận full-frame fidelity 100%.
+
+## Cộng đồng và Soạn bài — cập nhật 31/10/2026
+
+Độ phủ mới nhất theo inventory 211 frame là **170 mapping / 41 pending**. Các mốc 105/211 và cũ hơn bên dưới là lịch sử. Các nhóm mới gồm [Điểm/đổi quà](../ui-rewards-2026-10-31.md), [Thông báo](../ui-notifications-2026-10-31.md), [Cộng đồng](../ui-community-2026-10-31.md) và [Soạn bài](../ui-composer-2026-10-31.md). `coverage.json` lưu route/source/context/ảnh đối chiếu theo từng node. Chưa xác nhận khớp toàn frame 100% hoặc hoàn tất toàn trang backuped.
+
+## Kiểm kê live và nhóm Hoạt động — 31/10/2026
+
+Nguồn duy nhất người dùng chốt là **backuped (`386:7053`)**. Figma đã truy cập lại được, xác nhận **211 frame**: thêm 43, bỏ 7 so với 175 frame cũ. `coverage.json` dùng [inventory mới](../ui-progress-evidence-2026-10-31/figma-live-inventory-1031.json), có **105 mapping / 106 pending**; [baseline 105/175](../ui-progress-evidence-2026-10-31/coverage-baseline-175.json) giữ để so sánh. Đổi mẫu số không phải giảm số frame đã triển khai.
+
+11 mapping Hoạt động mới: tám biến thể chi tiết, danh sách yêu thích và hai feedback. [Audit source/asset](event-detail-asset-audit.json), [hình học nguồn](event-detail-layout-source.json), [PNG derivative có SHA-256](event-detail-native-derivatives.json), [icon export gốc](event-detail-icon-source.json). Bốn context Tin tức mới đã lấy nhưng chưa nối app/cộng mapping. [Báo cáo ngày](../ui-progress-2026-10-31.md) ghi kiểm chứng cuối và phần còn mở. Số 94/175 và từ chối Figma bên dưới là lịch sử.
+
+## Tiếp tục app ngày 31/10/2026
+
+QA Android lúc 09:34 đã lưu **18 capture native**, gồm màn khám phá và chín trạng thái bài đọc mới; **6/6 nhóm smoke đạt**. Lượt này sửa nhãn ảnh và accessibility/chữ lớn 130% trong bài đọc. [Báo cáo native](../ui-progress-evidence-2026-10-31/native/qa-report.json), [ánh xạ capture native](android-ui-source-map.json) và [tiến độ](../ui-progress-2026-10-31.md). Capture là viewport emulator 360 dp, không thay các render 428 px lịch sử hoặc chứng minh full-frame fidelity. Nội dung “10 mapping chưa có capture” ngay dưới là trạng thái mốc 08:50 trước QA Android.
+
+Mã React Native đã nối chín frame chi tiết Tin tức (tám bài, `daily-waste` có thu gọn/mở rộng) và màn Khám phá Hoạt động `534:49034`. Mapping source hiện là **94/175**, còn **81**; 10 mapping mới chưa có capture native. [Audit asset cục bộ](native-ui-asset-audit.json) kiểm tra file, dữ liệu hình học đã lưu và source wiring, không thay thế kiểm tra hình ảnh/geometry render trên thiết bị. [Báo cáo cập nhật](../ui-progress-2026-10-31.md) nêu phạm vi và bằng chứng kiểm chứng app.
+
+Lượt này dùng context, ảnh tham chiếu và asset đã lưu trong repo; Figma hiện từ chối truy cập. Chưa có thiết bị Android kết nối hoặc AVD để nghiệm thu trực tiếp. Các số 84/175, capture web và giới hạn ở những mục bên dưới là lịch sử trước lượt tiếp tục app này.
+
+## Rà soát code ngày 31/10/2026
+
+[Báo cáo mới nhất](../ui-progress-2026-10-31.md) và [audit local](../ui-progress-evidence-2026-10-31/frame-audit.json) xác nhận **84/175 frame ánh xạ**, 63 route, không thiếu source/route/ảnh render đã lưu của các mapping. Có 89 frame có context và 91 frame có ảnh tham chiếu. Dữ liệu bố cục/asset cho chín frame chi tiết Tin tức đã chuẩn bị nhưng chưa được app import, nên chưa tăng mapping. Lượt này không đọc lại toàn page Figma hoặc chụp/audit lại hình ảnh; các capture và số đo asset dưới đây là bằng chứng ngày 30/10. Định dạng toàn app còn 14 file chưa đạt; nghiệm thu hình ảnh và thiết bị vẫn mở.
+
+## Trạng thái hiện tại — tiếp tục UI ngày 30/10/2026
+
+Ba trang danh sách Tin tức `391:24796`, `386:9787`, `386:9901` đã triển khai từ context gốc, đọc lại screenshot full-size và hình học Figma thành công. [Nguồn/khác biệt demo](news-landing-source-map.json), [sáu capture](rendered/capture-report-news-landing-.json), [audit 306/306 vị trí](news-landing-asset-audit.json) ở 428/390 px đạt, sai lệch lớn nhất 0,03418 CSS px. Hai icon chuyển trang được xuất nguyên gốc vì component Code Connect không có trong repo. Trang tổng hợp dùng flow native; hai thiết kế cũ dùng LegacyCanvas. Font Inknut Antiqua đã bundle cùng giấy phép.
+
+Tin tức hiện có chín frame đã ánh xạ và [18 capture](rendered/capture-report-news-.json), không lỗi JS/ảnh chưa tải/tràn ngang. Generator toàn page dùng inventory đã lưu **175 frame**, có **84 frame ánh xạ**, **91 frame chưa ánh xạ** và **89 frame có context**. Chín biến thể chi tiết bài đọc vẫn chưa triển khai riêng. Có context không đồng nghĩa UI đã hoàn thành; [diff toàn frame](diff/report-news-.json) vẫn khác 0 và chưa được nghiệm thu khớp 100%.
+
+Đường vào hiện tại: `/articles` là trang chính, `?view=latest` và `?view=events` là hai danh sách còn lại; frame tìm kiếm dùng `/articles?view=search&preview=1`. Query `q`/`topic` vẫn mở feed tìm kiếm. Catalog tăng lên 13 bài với `youth-ideas` có ảnh/ID riêng; nội dung và metrics là mẫu. Preview cách ly state thật.
+
+Sáu màn con giữ nguyên audit 58 + 32 + 29 vị trí đúng MD5/geometry. Sáu màn Hoạt động trước có 12 capture và audit 31 + 33 + 53 vị trí; bộ sưu tập còn chốt glyph Plus/chiều cao. Các đoạn bên dưới là bằng chứng của từng mốc triển khai.
+
+Figma vừa cho đọc lại lịch `612:5362` và bản tin `612:5441`; context/ảnh canonical đã cập nhật, bản cũ giữ ở `*-previous.*`. UI theo thay đổi mới: back button, hai sự kiện “Sắp mở đăng ký”, lối vào tin sự kiện liên quan và CTA khám phá chủ đề ở bản tin thứ ba. [Nguồn](news-digest-source-map.json), [audit](news-digest-asset-audit.json), [capture hiện tại 18 ảnh](rendered/capture-report-news-.json). Preview chỉ là dữ liệu thiết kế cách ly; normal vẫn mở đúng fixture. Chưa kiểm kê lại toàn page, nên tổng 175 vẫn là inventory đã lưu.
+
+Thảo luận/chủ đề: [nguồn và giới hạn](news-social-source-map.json), [audit asset](news-social-asset-audit.json). Count theo fixture thực, preview có ba bình luận và state riêng; UI thường giữ trả lời/thích/xóa của mình/theo dõi. Bình luận 500 ký tự ở 320px đã kiểm và lỗi blur làm hủy gửi đã sửa. Chi tiết vẫn cần hoàn thiện; lịch xanh/bản tin đã được dựng ở lượt tiếp theo nêu trên.
+
+Tin tức: [nguồn và giới hạn](news-feed-source-map.json), [audit asset](news-feed-asset-audit.json), [capture](rendered/capture-report-news-.json), [diff toàn frame](diff/report-news-.json). Counter tìm kiếm hiển thị sáu kết quả thực của query preview thay vì số 12 cố định trong thiết kế; danh sách không lọc hiện có 13 bài. Dùng ảnh Figma gốc cho các fixture, không coi ảnh/tiêu đề là sự kiện hoặc bản tin đã xác minh. Preview lưu/thích cách ly state thật; chi tiết còn trong phạm vi cần hoàn thiện.
+
+Nhắc lịch hoàn tất UI demo, chưa hẹn/gửi thông báo. Bộ sưu tập vẫn đang trong tiến trình nghiệm thu: package Code Connect Plus không có trong repo, đang dùng plus gốc từ form đăng ký trong slot 24px và chưa xác minh glyph tương đương; flow JSX đã lưu dài 1153px trong viewport Figma 1144px, cuộn thêm 9px. Xem [nguồn và giới hạn](saved-event-source-map.json), [audit asset](saved-event-asset-audit.json), [capture](rendered/capture-report-event-saved-.json). Không coi kiểm hành vi hoặc geometry slot là chứng minh full-frame fidelity.
+
+Nguồn mới: `event-form-source-map.json`, `ticket-calendar-source-map.json`, các báo cáo asset audit, `rendered/capture-report-event-.json`, diff theo nhóm và báo cáo [tiến độ UI](../ui-progress-2026-10-30.md). Context/asset nhóm kế tiếp nằm ở `contexts/`, `event-design-asset-map.json`, `news-design-asset-map.json`. Các lượt trước bị từ chối đọc ảnh/hình học; lượt mới nhất đã đọc lại lịch xanh và bản tin thành công. Lịch hoạt động cũ vẫn có giới hạn ảnh context thu nhỏ đã ghi trong source map; các nguồn đang có vẫn cho phép tiếp tục. Các số 169/69 frame bên dưới là nhật ký lịch sử.
+
+Mục tiêu triển khai: tiếp tục các UI đang trong tiến trình, đối chiếu trang **backuped `386:7053`** trong file Figma `7GCLABwia0mauoszRi0Vtt`. Lượt triển khai hiện tại đã hoàn thiện ba trang danh sách Tin tức, đọc lại screenshot/hình học Figma và chạy lại kiểm thử; chín biến thể chi tiết cùng các nhóm còn lại vẫn đang làm. Quyền đọc từng frame ở các lượt trước được ghi trong source map, không suy ra trạng thái truy cập hiện tại từ lỗi cũ. Chưa đạt hoặc được xác nhận giống 100%.
+
+Snapshot lịch sử 29/10: 180 đối tượng cấp cao, 169 FRAME, gồm màn hình, trạng thái, overlay và khung phụ. Mỗi frame phải được phân loại và đối chiếu; không coi việc sửa một nhóm màn là hoàn tất cả trang.
 
 ## Bằng chứng
 

@@ -1,0 +1,76 @@
+ERROR: null root node returned by UiTestAutomationBridge.
+cat: /sdcard/bluesteps-ui-2.xml: No such file or directory
+Android QA: green-class: original detail, interest and related native scroll
+Android QA: beach: original detail, interest and related native scroll
+Android QA: school-class: original detail, interest and related native scroll
+Android QA: garden: original detail, interest and related native scroll
+Android QA: saving remains independent of interest and saved deletion needs confirmation
+Android QA: saved reference list and preview feedback stay separate from the main session
+Error: Native UI not ready: Hoạt động yêu thích
+    at waitFor (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:86:9)
+    at open (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:109:10)
+    at D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:205:5
+    at check (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:129:3)
+    at Object.<anonymous> (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:198:3)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+{
+  "checkedAt": "2026-10-31T03:26:32.168Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "green-class: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "beach: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "school-class: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "garden: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "saving remains independent of interest and saved deletion needs confirmation",
+      "passed": true
+    },
+    {
+      "name": "failure",
+      "passed": false,
+      "message": "Native UI not ready: Hoạt động yêu thích"
+    }
+  ],
+  "screenshots": [
+    "qa-event-386-9376",
+    "qa-event-386-7054",
+    "qa-event-gallery",
+    "qa-event-green-class-body",
+    "qa-event-386-9470",
+    "qa-event-386-17397",
+    "qa-event-beach-body",
+    "qa-event-386-9575",
+    "qa-event-386-9681",
+    "qa-event-school-class-body",
+    "qa-event-386-10026",
+    "qa-event-386-17299",
+    "qa-event-garden-body",
+    "qa-event-386-10122",
+    "qa-event-saved-session",
+    "qa-event-386-10131",
+    "qa-event-386-18069",
+    "qa-event-failure"
+  ],
+  "limitations": "Android emulator viewport and behavior QA only; no iOS, physical device, backend or full-frame fidelity acceptance"
+}
+undefined
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL] Command failed with exit code 1: node scripts/check-android-event-ui.cjs

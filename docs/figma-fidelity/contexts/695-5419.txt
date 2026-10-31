@@ -1,0 +1,31 @@
+export default function Component37TinTcXacNhnQuanTamSKin() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[22px] size-full" data-node-id="695:5419" data-name="37. Tin tức / Xác nhận quan tâm sự kiện">
+      <div className="absolute bg-[#f0f9ff] left-[136px] overflow-clip rounded-[34px] size-[68px] top-[23px]" data-node-id="695:5420" data-name="Xác nhận">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[50px] leading-[normal] left-[34px] not-italic text-[#147cc1] text-[34px] text-center top-[9px] w-[68px]" data-node-id="695:5421">
+          ✓
+        </p>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[34px] leading-[normal] left-[170px] not-italic text-[#0f172a] text-[19px] text-center top-[104px] w-[290px]" data-node-id="695:5422">
+        Đã ghi nhận sự quan tâm
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[42px] leading-[normal] left-[170px] not-italic text-[#6e7a87] text-[12px] text-center top-[148px] w-[282px]" data-node-id="695:5423">
+        Thông tin sự kiện đã được thêm vào lịch quan tâm của bạn.
+      </p>
+      <button className="absolute bg-[#147cc1] block cursor-pointer h-[39px] left-[28px] overflow-clip rounded-[20px] top-[201px] w-[284px]" data-node-id="695:5424" data-name="Nút hoàn tất">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[25px] leading-[normal] left-[142px] not-italic text-[13px] text-center text-white top-[11px] w-[284px]" data-node-id="695:5425">
+          Xong
+        </p>
+      </button>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

@@ -1,0 +1,92 @@
+const imgAvatar = "https://www.figma.com/api/mcp/asset/c2b0b95a-38a9-46d3-b9bc-8f754ef66916.png";
+const imgNhHotDng1 = "https://www.figma.com/api/mcp/asset/9f24a2ca-c406-48a3-87e9-e0ed664bfea5.png";
+const imgNhHotDng2 = "https://www.figma.com/api/mcp/asset/2f750856-c788-4024-930e-7478eeb9597c.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/727a7e7e-0587-49f5-a237-afbca8e700ad.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/e10f808b-860a-4888-bebb-2402129cdb1b.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/1c4259ba-53a0-4f22-8cad-075290d5c81b.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/fad72633-6006-4069-9ab1-a1dbb126bcb0.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/0a396300-c1f6-4f22-b044-33cbfa8f0c48.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/a6ee9135-12d9-445f-b202-624ab76857fc.svg";
+
+export default function Component65DangBaiXemTrcBaiVit() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[23px] size-full" data-node-id="741:6114" data-name="65. Đăng bài / Xem trước bài viết">
+      <div className="absolute contents inset-[0.43%_1.64%_94.16%_1.4%]" data-node-id="741:6115">
+        <div className="absolute contents inset-[0.43%_1.64%_94.16%_1.4%]" data-node-id="741:6116">
+          <div className="absolute inset-[0.43%_1.64%_94.16%_1.4%] overflow-clip" data-node-id="741:6117" data-name="iPhone/Status Bar">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I741:6117;47:200" data-name="Right Side">
+              <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I741:6117;47:201" data-name="Battery">
+                <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I741:6117;47:202" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+                </div>
+                <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I741:6117;47:203" data-name="Combined Shape">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+                </div>
+                <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I741:6117;47:204" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+                </div>
+              </div>
+              <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I741:6117;47:205" data-name="Wifi">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+              </div>
+              <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I741:6117;47:209" data-name="Mobile Signal">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+              </div>
+            </div>
+            <div className="absolute contents left-[12px] top-[12px]" data-node-id="I741:6117;47:216" data-name="Left Side">
+              <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I741:6117;47:217" data-name="Time">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal leading-[0] left-[18px] not-italic size-[36px] text-[#142430] text-[32px] top-[64px]" data-node-id="741:6118">
+        <p className="leading-[normal]">‹</p>
+      </a>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[30px] leading-[normal] left-[78px] not-italic text-[#142430] text-[21px] top-[68px] w-[275px]" data-node-id="741:6119">
+        Xem trước bài viết
+      </p>
+      <div className="absolute bg-white border border-[#d9e3eb] border-solid h-[600px] left-[17px] overflow-clip rounded-[17px] top-[133px] w-[394px]" data-node-id="741:6120" data-name="Bài viết xem trước">
+        <div className="absolute left-[14px] rounded-[25px] size-[50px] top-[14px]" data-node-id="741:6121" data-name="Avatar">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[25px] size-full" src={imgAvatar} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[24px] leading-[normal] left-[78px] not-italic text-[#142430] text-[15px] top-[16px] w-[245px]" data-node-id="741:6122">
+          Healing
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[20px] leading-[normal] left-[78px] not-italic text-[#6e7d8a] text-[11px] top-[42px] w-[256px]" data-node-id="741:6123">
+          Công khai · Vừa xong
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[61px] leading-[normal] left-[15px] not-italic text-[#142430] text-[15px] top-[85px] w-[360px]" data-node-id="741:6124">
+          Tham gia chủ nhật xanh, cùng thu gom và phân loại rác nhé! 🌱
+        </p>
+        <div className="absolute h-[224px] left-[14px] rounded-[11px] top-[162px] w-[175px]" data-node-id="741:6125" data-name="Ảnh hoạt động 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[11px] size-full" src={imgNhHotDng1} />
+        </div>
+        <div className="absolute h-[224px] left-[200px] rounded-[11px] top-[162px] w-[175px]" data-node-id="741:6126" data-name="Ảnh hoạt động 2">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[11px] size-full" src={imgNhHotDng2} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[26px] leading-[normal] left-[18px] not-italic text-[#6e7d8a] text-[12px] top-[413px] w-[355px] whitespace-pre-wrap" data-node-id="741:6127">{`♡   Thích                 ◉   Bình luận              ➤   Chia sẻ`}</p>
+        <div className="absolute bg-[#e0f2fc] h-[93px] left-[14px] overflow-clip rounded-[12px] top-[462px] w-[364px]" data-node-id="741:6128" data-name="Gợi ý kiểm tra">
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[55px] leading-[normal] left-[14px] not-italic text-[#142430] text-[13px] top-[19px] w-[335px]" data-node-id="741:6129">
+            Kiểm tra lại nội dung và quyền xem trước khi đăng.
+          </p>
+        </div>
+      </div>
+      <a className="absolute bg-[#147cc1] block cursor-pointer h-[51px] left-[28px] overflow-clip rounded-[25px] top-[764px] w-[372px]" data-node-id="741:6130" data-name="Nút đăng bài">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[24px] leading-[normal] left-[186px] not-italic text-[15px] text-center text-white top-[14px] w-[348px]" data-node-id="741:6131">
+          Đăng bài viết
+        </p>
+      </a>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

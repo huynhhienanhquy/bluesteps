@@ -1,0 +1,202 @@
+$ playwright test
+
+Running 64 tests using 1 worker
+
+(node:10432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\collection-forms.spec.ts:4:5 › proposal requires a local photo, saves a draft and restores it after leaving the form (2.6s)
+  ok  2 e2e\collection-forms.spec.ts:39:5 › report keeps the selected point, supports multiple issues and validates optional detail (2.0s)
+  ok  3 e2e\collection.spec.ts:3:5 › route steps switch travel mode, validate departure time and open sample navigation (2.4s)
+  ok  4 e2e\collection.spec.ts:25:5 › explore map opens its filters and carries a submitted search into nearby results (2.6s)
+  ok  5 e2e\collection.spec.ts:42:5 › replacement changes only the first stop and keeps the following battery stop (2.1s)
+  ok  6 e2e\collection.spec.ts:59:5 › point photos, route preview, arrival checks and the next stop are connected (3.0s)
+  ok  7 e2e\collection.spec.ts:93:5 › filter drafts cancel, radius accepts keyboard input and applied choices survive reopening (3.0s)
+  ok  8 e2e\collection.spec.ts:121:5 › comparison selection drives the first journey stop and permits removing it (2.4s)
+  ok  9 e2e\collection.spec.ts:143:5 › journey supports accessible reorder, drag, origin edits and local handoff instructions (2.0s)
+  ok 10 e2e\events.spec.ts:14:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local (5.5s)
+  ok 11 e2e\events.spec.ts:77:5 › preview feedback does not create a ticket and the role picker preserves participation choices (4.2s)
+  ok 12 e2e\events.spec.ts:104:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation (3.3s)
+  ok 13 e2e\events.spec.ts:156:5 › ticket preview downloads a PNG and opens only local contact information without creating a registration (3.1s)
+  ok 14 e2e\events.spec.ts:186:5 › calendar selects full dates, switches months and shows the empty state (2.2s)
+  ok 15 e2e\events.spec.ts:211:5 › event screens render at 390 and 428 px with local assets and valid empty deep links (20.3s)
+  ok 16 e2e\fidelity.spec.ts:3:5 › the complete onboarding preserves choices through the five setup steps (2.6s)
+  ok 17 e2e\fidelity.spec.ts:38:5 › Home uses the Figma frame geometry and every original asset loads locally (1.5s)
+  ok 18 e2e\fidelity.spec.ts:77:5 › redesigned profile shortcuts navigate and its original imagery loads (2.2s)
+  ok 19 e2e\fidelity.spec.ts:86:5 › recovery preview validates email, six digits and matching passwords without claiming a real reset (2.4s)
+  ok 20 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (2.2s)
+  ok 21 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (4.7s)
+  ok 22 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (5.7s)
+  ok 23 e2e\frontend.spec.ts:85:5 › theme toggles and the query error/retry state is accessible (3.9s)
+  ok 24 e2e\frontend.spec.ts:98:5 › desktop preview and direct detail links render without overflow (23.7s)
+  ok 25 e2e\frontend.spec.ts:136:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (7.6s)
+  ok 26 e2e\handbook.spec.ts:3:5 › classification tables connect the original learn-more buttons and return to the guide (2.6s)
+  ok 27 e2e\handbook.spec.ts:29:5 › original handbook navigation opens each of its five destinations (5.7s)
+  ok 28 e2e\handbook.spec.ts:43:5 › category instructions close with Escape and filtered material keeps its detail route (2.0s)
+  ok 29 e2e\handbook.spec.ts:63:5 › a direct category instruction link can close and reopen its original list (1.6s)
+  ok 30 e2e\handbook.spec.ts:78:5 › handbook categories filter the list and its material opens the correct guide (2.3s)
+  ok 31 e2e\handbook.spec.ts:93:5 › handbook search accepts Vietnamese without accents and returns from the guide (2.4s)
+  ok 32 e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates (2.9s)
+  x  33 e2e\news-digest.spec.ts:38:5 › brief dates validate actual calendar dates, preserve read marks while open and recover empty filters (7.1s)
+(node:12120) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12120) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  34 e2e\news-digest.spec.ts:78:5 › live Figma calendar and brief examples open explicit local details or related topics without creating registrations (30.7s)
+(node:17448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17448) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 35 e2e\news-feed.spec.ts:3:5 › all thirteen news fixtures are reachable through pagination with local images (2.0s)
+  ok 36 e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles (2.0s)
+  ok 37 e2e\news-feed.spec.ts:74:5 › saved-design preview uses original stories and removal never changes the actual session (2.1s)
+  ok 38 e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations (2.9s)
+  ok 39 e2e\news-landing.spec.ts:29:5 › latest news paginates all thirteen stories chronologically and preserves the chosen story ID (2.3s)
+  ok 40 e2e\news-landing.spec.ts:60:5 › event stories scroll to the last article, tabs keep preview state isolated and narrow screens stay usable (4.1s)
+  ok 41 e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px (1.9s)
+  x  42 e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local (8.3s)
+(node:11616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 43 e2e\news-social.spec.ts:74:5 › discussion preview sorting, likes and posting never add comments to the actual article (2.3s)
+  ok 44 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (2.1s)
+  ok 45 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (2.8s)
+  ok 46 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (2.5s)
+  ok 47 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (2.2s)
+  ok 48 e2e\news.spec.ts:135:5 › briefs mark articles read locally and green calendar opens the correct event (2.9s)
+  ok 49 e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (28.6s)
+  ok 50 e2e\saved-events.spec.ts:3:5 › collection move, rename and delete preserve saved activities and allow cancellation (3.7s)
+  ok 51 e2e\saved-events.spec.ts:32:5 › collections pass only the selected saved activities into an unsaved reminder draft (3.1s)
+  ok 52 e2e\saved-events.spec.ts:52:5 › reminder channels, sound, custom timing and quiet hours save only when valid (2.8s)
+  ok 53 e2e\saved-events.spec.ts:107:5 › Figma previews are interactive without changing the real saved list or reminder settings (2.4s)
+  ok 54 e2e\scan.spec.ts:4:5 › scan sample states retry, open the handbook and preserve the five original tabs (2.6s)
+  ok 55 e2e\scan.spec.ts:23:5 › camera sample capture opens the result and its original detail screen (2.7s)
+  ok 56 e2e\scan.spec.ts:34:5 › sample processing, result detail and the five-point preview remain a local demonstration (2.6s)
+  ok 57 e2e\scan.spec.ts:50:5 › the scan handbook scrolls to its last material and returns to the same list (2.7s)
+  ok 58 e2e\scan.spec.ts:61:5 › actual camera stays separate from sample photos when permission is denied (2.4s)
+  ok 59 e2e\scan.spec.ts:80:5 › a chosen local photo opens manual selection and keeps its image in the result (2.0s)
+  ok 60 e2e\scan.spec.ts:121:5 › direct preview links keep the back and result controls usable (1.6s)
+  ok 61 e2e\settings.spec.ts:3:5 › sound changes apply on save and cancel restores the previous choices (1.9s)
+  ok 62 e2e\settings.spec.ts:20:5 › settings search filters Vietnamese text and opens the matching screen (1.9s)
+  ok 63 e2e\settings.spec.ts:32:5 › PIN preview requires six digits and does not claim to activate a real lock (1.8s)
+  ok 64 e2e\settings.spec.ts:47:5 › profile editor formats dates and validates the local preview (2.4s)
+
+
+  1) e2e\news-digest.spec.ts:38:5 › brief dates validate actual calendar dates, preserve read marks while open and recover empty filters 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('button', { name: /^Đọc toàn bài / })
+    Expected: 12
+    Received: 13
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('button', { name: /^Đọc toàn bài / }) with timeout 5000ms
+      - waiting for getByRole('button', { name: /^Đọc toàn bài / })
+        14 × locator resolved to 13 elements
+           - unexpected value "13"
+
+
+      53 |   await expect(page.getByText('Không có tin phù hợp', { exact: true })).toBeVisible();
+      54 |   await page.getByRole('button', { name: 'Xem tất cả tin', exact: true }).click();
+    > 55 |   await expect(page.getByRole('button', { name: /^Đọc toàn bài / })).toHaveCount(12);
+         |                                                                      ^
+      56 |   await page
+      57 |     .getByRole('button', {
+      58 |       name: 'Đánh dấu đã đọc Gom pin cũ thành một thói quen riêng',
+        at D:\BlueSteps\apps\mobile\e2e\news-digest.spec.ts:55:70
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-digest-brief-dates-va-21c0e-n-and-recover-empty-filters\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-digest-brief-dates-va-21c0e-n-and-recover-empty-filters\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-digest-brief-dates-va-21c0e-n-and-recover-empty-filters\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-digest-brief-dates-va-21c0e-n-and-recover-empty-filters\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) e2e\news-digest.spec.ts:78:5 › live Figma calendar and brief examples open explicit local details or related topics without creating registrations 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Tin nhanh', exact: true })
+
+
+      88 |   await page.getByRole('button', { name: 'Đóng tùy chọn lịch xanh', exact: true }).click();
+      89 |   await page.getByRole('button', { name: 'Quay lại', exact: true }).click();
+    > 90 |   await page.getByRole('button', { name: 'Tin nhanh', exact: true }).click();
+         |                                                                      ^
+      91 |   await page.goto('/articles/briefs?preview=1');
+      92 |   await expect(page.getByText('03 tin mới', { exact: true })).toBeVisible();
+      93 |   await page
+        at D:\BlueSteps\apps\mobile\e2e\news-digest.spec.ts:90:70
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-digest-live-Figma-cal-53400-hout-creating-registrations\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-digest-live-Figma-cal-53400-hout-creating-registrations\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-digest-live-Figma-cal-53400-hout-creating-registrations\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-digest-live-Figma-cal-53400-hout-creating-registrations\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('4 kết quả phù hợp', { exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('4 kết quả phù hợp', { exact: true }) with timeout 5000ms
+      - waiting for getByText('4 kết quả phù hợp', { exact: true })
+
+
+      61 |     await page.getByRole('button', { name: `Xem chủ đề ${topic}`, exact: true }).click();
+      62 |     expect(new URL(page.url()).searchParams.get('topic')).toBe(topic);
+    > 63 |     await expect(page.getByText(`${count} kết quả phù hợp`, { exact: true })).toBeVisible();
+         |                                                                               ^
+      64 |     await page.getByRole('button', { name: 'Quay lại', exact: true }).click();
+      65 |   }
+      66 |   await expect(
+        at D:\BlueSteps\apps\mobile\e2e\news-social.spec.ts:63:79
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-social-the-featured-s-002c6-follow-choices-remain-local\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-social-the-featured-s-002c6-follow-choices-remain-local\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-social-the-featured-s-002c6-follow-choices-remain-local\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-social-the-featured-s-002c6-follow-choices-remain-local\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    e2e\news-digest.spec.ts:38:5 › brief dates validate actual calendar dates, preserve read marks while open and recover empty filters 
+    e2e\news-digest.spec.ts:78:5 › live Figma calendar and brief examples open explicit local details or related topics without creating registrations 
+    e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local 
+  61 passed (4.8m)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:e2e: `playwright test`
+Exit status 1

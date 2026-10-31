@@ -1,0 +1,119 @@
+{
+  "scope": "backuped notifications frames at 428px",
+  "fullFidelityProven": false,
+  "notes": "Remaining full-frame differences include text and emoji rasterization. Asset geometry is audited separately.",
+  "rows": [
+    {
+      "frame": "386:7913",
+      "name": "notifications-all",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.8348934888947204,
+      "channelsDifferingByMoreThan20Percent": 3.9718785114013313
+    },
+    {
+      "frame": "386:8003",
+      "name": "notifications-community",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.3429381724228415,
+      "channelsDifferingByMoreThan20Percent": 3.2692618235400985
+    },
+    {
+      "frame": "386:8228",
+      "name": "notifications-delete",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.825003532427686,
+      "channelsDifferingByMoreThan20Percent": 4.05362898070958
+    },
+    {
+      "frame": "386:8311",
+      "name": "notifications-deleted",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.3380432369148787,
+      "channelsDifferingByMoreThan20Percent": 3.3827200366026795
+    },
+    {
+      "frame": "386:8380",
+      "name": "notifications-compact",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.744553332929627,
+      "channelsDifferingByMoreThan20Percent": 3.8564858736534724
+    },
+    {
+      "frame": "703:5399",
+      "name": "notifications-unread",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.158290607779415,
+      "channelsDifferingByMoreThan20Percent": 2.8642942209483055
+    },
+    {
+      "frame": "703:5468",
+      "name": "notifications-detail",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.357179743377539,
+      "channelsDifferingByMoreThan20Percent": 2.422656654757339
+    },
+    {
+      "frame": "703:5524",
+      "name": "notifications-settings",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.502168237755933,
+      "channelsDifferingByMoreThan20Percent": 2.035351190596341
+    },
+    {
+      "frame": "703:5589",
+      "name": "notifications-empty",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.8023758099352052,
+      "channelsDifferingByMoreThan20Percent": 1.9170148631100166
+    },
+    {
+      "frame": "712:5475",
+      "name": "notifications-activity",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.8995478492561717,
+      "channelsDifferingByMoreThan20Percent": 2.4732040128378516
+    },
+    {
+      "frame": "712:5578",
+      "name": "notifications-settings-activity",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.5008132994220276,
+      "channelsDifferingByMoreThan20Percent": 2.035182979754143
+    },
+    {
+      "frame": "712:5667",
+      "name": "notifications-settings-offers",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.5008132994220276,
+      "channelsDifferingByMoreThan20Percent": 2.035182979754143
+    },
+    {
+      "frame": "712:5756",
+      "name": "notifications-settings-community",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.503523176089838,
+      "channelsDifferingByMoreThan20Percent": 2.035519401438539
+    },
+    {
+      "frame": "712:5845",
+      "name": "notifications-settings-news",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.503523176089838,
+      "channelsDifferingByMoreThan20Percent": 2.035519401438539
+    }
+  ]
+}

@@ -1,5 +1,25 @@
 # Frontend delivery — 29/10/2026
 
+## Nhóm Hoạt động và phạm vi backuped — 31/10/2026
+
+Chỉ tiếp tục app Android/iOS từ **backuped (`386:7053`)**. Đã nối thêm 11 frame Hoạt động/đã lưu/feedback; có Quan tâm độc lập, ảnh/modal và xác nhận xóa. Bỏ lưu giữ vé/Quan tâm, dọn bộ sưu tập/nhắc lịch. Plus gốc đã xuất, SVG filter có derivative PNG 3× từ vector gốc. [Audit asset/source](figma-fidelity/event-detail-asset-audit.json), [provenance derivative](figma-fidelity/event-detail-native-derivatives.json).
+
+Kiểm kê live: **105/211 mapping**, còn 106; 43 frame thêm và 7 frame cũ bỏ khỏi trang đã được [đối chiếu](ui-progress-evidence-2026-10-31/figma-inventory-delta.json). [Báo cáo hôm nay](ui-progress-2026-10-31.md) ghi trạng thái kiểm chứng cuối. Bằng chứng mới ở log `event-detail-*`; suite Android Hoạt động ghi vào `native-events`. Lượt bị ngắt hoặc không đạt không được tính thành nghiệm thu. Không chạy export/E2E web trong lượt này.
+
+## Kiểm chứng app mới nhất — 31/10/2026
+
+Đã mở app qua Expo Go SDK 58 trên emulator Android 12/API 32 (1080 × 2340, 360 dp). Lượt QA trực tiếp tìm và sửa nhãn ảnh không hiện chữ, nút mở rộng cần vùng chạm accessibility riêng và lỗi chồng chữ/ảnh khi font 130%. Sau sửa, TypeScript/format đạt, lint 0 lỗi/3 cảnh báo cũ, **58/58 test, 18 suite đạt**; bundle Android/iOS mới đạt. **6/6 nhóm hồi quy Android đạt**, lưu 18 ảnh/cây UI; log ReactNativeJS/AndroidRuntime của lượt đạt không có lỗi. [Log unit](ui-progress-evidence-2026-10-31/android-ui-unit-final.log), [bundle](ui-progress-evidence-2026-10-31/android-ui-native-bundle.log), [báo cáo native](ui-progress-evidence-2026-10-31/native/qa-report.json), [tổng hợp xác minh](ui-progress-evidence-2026-10-31/android-ui-validation.json) và [cách chạy](android-ui-qa.md). Kiểm tra này không bao gồm iOS hoặc điện thoại thật. Các kết luận chưa có AVD ở mốc trước bên dưới là lịch sử.
+
+### Mốc triển khai 08:50 — trước QA Android
+
+Lượt tiếp tục React Native đã nối chín biến thể chi tiết Tin tức, dựng lại Khám phá Hoạt động và bổ sung quy trình `pnpm check:app`. TypeScript đạt; lint 0 lỗi/3 cảnh báo cũ; định dạng toàn app đạt; **58/58 test React Native, 18 suite đạt**. [Log kiểm chứng app cuối](ui-progress-evidence-2026-10-31/native-ui-check-app-final.log), [tổng hợp](ui-progress-evidence-2026-10-31/native-ui-validation.json), [audit asset/source](figma-fidelity/native-ui-asset-audit.json). Mapping hiện 94/175; 10 mapping mới chờ capture/QA native. Không có thiết bị Android kết nối hoặc AVD; Figma hiện từ chối truy cập, nên dùng nguồn thiết kế đã lưu.
+
+## Rà soát lịch sử lúc 08:07 — 31/10/2026
+
+[Báo cáo hiện tại](ui-progress-2026-10-31.md) và [bằng chứng ngày 31/10](ui-progress-evidence-2026-10-31/validation.json) thay cho các kết quả lịch sử bên dưới. Đã chạy lại TypeScript, lint (0 lỗi/3 cảnh báo), **45/45 unit test (17 suite)**, **64/64 E2E trên Chrome (3,9 phút)**, export web, bundle iOS/Android và cấu hình native: đạt. Định dạng toàn app còn 14 file chưa đạt. Trạng thái triển khai giữ 25 mục xong UI demo / 13 đang làm / 5 chưa làm; mapping 84/175 frame. Dữ liệu chi tiết chín frame Tin tức đã chuẩn bị nhưng chưa được màn chạy sử dụng. Chưa nghiệm thu toàn frame hoặc QA đầy đủ các luồng mới trên điện thoại.
+
+Các mục tiếp theo ghi lịch sử từng phiên; số fixture, test và coverage trong các mốc cũ không phải kết quả hiện tại.
+
 ## Cập nhật UI Tin tức — 30/10/2026
 
 Đã bổ sung grid/tìm kiếm không dấu/lọc/sắp xếp và bài đọc chi tiết, lưu/thích bài, thảo luận gắn đúng bài với trả lời/thích/xóa, theo dõi chủ đề, lịch xanh riêng trong Tin tức và bản tin theo ngày. Năm route mới nằm dưới `/articles`; tổng seed có 6 bài, 4 chủ đề và 2 bình luận bài đọc. Thẻ tin tức Home mở đúng `daily-waste`. State mới tách khỏi hoạt động/cộng đồng và được reset cùng phiên demo.

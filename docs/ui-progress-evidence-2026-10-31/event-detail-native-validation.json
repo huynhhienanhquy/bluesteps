@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-31T03:55:42.556Z",
+  "sourcePage": {
+    "id": "386:7053",
+    "name": "backuped"
+  },
+  "nativeQa": {
+    "passed": true,
+    "groups": 7,
+    "screenshots": 22,
+    "runtimeErrors": 0,
+    "report": "native-events/qa-report.json"
+  },
+  "detailFrames": [
+    "386:9376",
+    "386:7054",
+    "386:9470",
+    "386:17397",
+    "386:9575",
+    "386:9681",
+    "386:10026",
+    "386:17299"
+  ],
+  "extraFrames": [
+    "386:18069",
+    "386:10122",
+    "386:10131"
+  ],
+  "fullFidelityAccepted": false,
+  "copyVerification": {
+    "checkedAt": "2026-10-31T04:00:57.224Z",
+    "groups": 2,
+    "screenshots": 4,
+    "report": "native-event-copy/qa-report.json",
+    "runtimeErrors": 0
+  },
+  "opacityVerification": [
+    {
+      "nodeId": "386:10026",
+      "sourceOpacity": 0.5,
+      "visuallyReviewed": true,
+      "png": "docs/ui-progress-evidence-2026-10-31/native-events/qa-event-garden-opacity50.png",
+      "uiTree": "docs/ui-progress-evidence-2026-10-31/native-events/qa-event-garden-opacity50.xml",
+      "captureScope": "native viewport; thumbnail overlay follow-up only"
+    },
+    {
+      "nodeId": "386:17299",
+      "sourceOpacity": 0.5,
+      "visuallyReviewed": true,
+      "png": "docs/ui-progress-evidence-2026-10-31/native-events/qa-event-garden-interested-opacity50.png",
+      "uiTree": "docs/ui-progress-evidence-2026-10-31/native-events/qa-event-garden-interested-opacity50.xml",
+      "captureScope": "native viewport; thumbnail overlay follow-up only"
+    }
+  ],
+  "limitations": "Android emulator viewport and behavior QA only; no iOS, physical device, backend or full-frame fidelity acceptance"
+}

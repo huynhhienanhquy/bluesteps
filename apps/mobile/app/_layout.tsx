@@ -20,6 +20,7 @@ import { Roboto_800ExtraBold } from '@expo-google-fonts/roboto/800ExtraBold';
 import { Poppins_300Light } from '@expo-google-fonts/poppins/300Light';
 import { Poppins_500Medium } from '@expo-google-fonts/poppins/500Medium';
 import { Poppins_400Regular } from '@expo-google-fonts/poppins/400Regular';
+import { Poppins_700Bold } from '@expo-google-fonts/poppins/700Bold';
 import { Mulish_400Regular } from '@expo-google-fonts/mulish/400Regular';
 
 function Navigation() {
@@ -80,6 +81,9 @@ function Navigation() {
 }
 export default function RootLayout() {
   const [fontsLoaded, fontError] = useFonts({
+    Kavivanar_400Regular: require('../assets/fonts/kavivanar/Kavivanar-Regular.ttf'),
+    InknutAntiqua_400Regular: require('../assets/fonts/inknut-antiqua/InknutAntiqua-Regular.ttf'),
+    InknutAntiqua_700Bold: require('../assets/fonts/inknut-antiqua/InknutAntiqua-Bold.ttf'),
     BackupNotoSans_300Light: require('../assets/fonts/noto-sans/NotoSans-Light.ttf'),
     BackupNotoSans_500Medium: require('../assets/fonts/noto-sans/NotoSans-Medium.ttf'),
     BackupNotoSans_400Regular: require('../assets/fonts/noto-sans/NotoSans-Regular.ttf'),
@@ -104,6 +108,7 @@ export default function RootLayout() {
     Poppins_300Light,
     Poppins_500Medium,
     Poppins_400Regular,
+    Poppins_700Bold,
     Mulish_400Regular,
   });
   if (!fontsLoaded && !fontError) return null;

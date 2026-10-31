@@ -20,6 +20,7 @@
     "build": "pnpm --filter @bluesteps/mobile build",
     "format": "pnpm --filter @bluesteps/mobile format",
     "format:check": "pnpm --filter @bluesteps/mobile format:check",
+    "check:app": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm bundle:native && pnpm check:native-config",
     "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm build && pnpm check:native-config"
   }
 }

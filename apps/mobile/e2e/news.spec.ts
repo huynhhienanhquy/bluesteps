@@ -12,7 +12,7 @@ test.beforeEach(({ page }) => {
 test('news search combines Vietnamese terms, topics and ordering and recovers from empty results', async ({
   page,
 }) => {
-  await page.goto('/articles');
+  await page.goto('/articles?view=search');
   await expect(
     page.getByRole('button', { name: 'Đọc Gom pin cũ thành một thói quen riêng', exact: true }),
   ).toBeVisible();
@@ -21,10 +21,12 @@ test('news search combines Vietnamese terms, topics and ordering and recovers fr
   await page.getByRole('textbox', { name: 'Tìm bài viết', exact: true }).fill('khong tim thay');
   await expect(page.getByText('Không tìm thấy bài viết phù hợp', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Xóa bộ lọc', exact: true }).click();
-  await page.getByRole('button', { name: 'Cộng đồng', exact: true }).click();
-  await expect(page.getByRole('button', { name: /^Đọc / })).toHaveCount(1);
+  await page.getByRole('button', { name: 'Chọn chủ đề', exact: true }).click();
+  await page.getByRole('radio', { name: 'Cộng đồng', exact: true }).click();
+  await expect(page.getByRole('button', { name: /^Đọc / })).toHaveCount(4);
   await page.getByRole('button', { name: 'Tất cả', exact: true }).click();
-  await page.getByRole('button', { name: 'Phổ biến', exact: true }).click();
+  await page.getByRole('button', { name: 'Sắp xếp tin tức', exact: true }).click();
+  await page.getByRole('radio', { name: 'Phổ biến', exact: true }).click();
   await expect(page.getByRole('button', { name: /^Đọc / }).first()).toHaveAccessibleName(
     'Đọc 11 triệu tấn rác mỗi ngày: Chúng ta có thể làm gì?',
   );
@@ -111,16 +113,17 @@ test('article discussions validate input, support replies and isolate comments f
 test('topic following persists through navigation and selecting another topic updates the feed', async ({
   page,
 }) => {
-  await page.goto('/articles');
+  await page.goto('/articles?view=search');
   await page.getByRole('button', { name: 'Chủ đề', exact: true }).click();
   await page.getByRole('button', { name: 'Theo dõi Phân loại', exact: true }).click();
   await page.getByRole('button', { name: 'Xem chủ đề Phân loại', exact: true }).click();
-  await expect(page.getByRole('button', { name: /^Đọc / })).toHaveCount(2);
+  await expect(page.getByRole('button', { name: /^Đọc / })).toHaveCount(3);
   await page.getByRole('button', { name: 'Quay lại', exact: true }).click();
   await expect(
     page.getByRole('button', { name: 'Bỏ theo dõi Phân loại', exact: true }),
   ).toBeVisible();
   await page.getByRole('button', { name: 'Xem chủ đề Lối sống', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Lối sống', exact: true })).toBeVisible();
   await expect(
     page.getByRole('button', { name: 'Đọc Bắt đầu sống xanh từ những điều nhỏ', exact: true }),
   ).toBeVisible();
@@ -150,8 +153,10 @@ test('briefs mark articles read locally and green calendar opens the correct eve
     .click();
   await expect(page).toHaveURL(/\/articles\/community-day$/);
   await page.goto('/articles/calendar');
+  await page.getByRole('button', { name: 'Chọn ngày và lọc sự kiện', exact: true }).first().click();
   await page.getByRole('button', { name: 'Ngày 2 tháng 11', exact: true }).click();
   await expect(page.getByText('Chưa có sự kiện phù hợp', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Chọn ngày và lọc sự kiện', exact: true }).first().click();
   await page.getByRole('button', { name: 'Ngày 1 tháng 11, có sự kiện', exact: true }).click();
   await page
     .getByRole('button', { name: 'Xem sự kiện Một sáng sạch hơn cho biển', exact: true })
@@ -161,7 +166,9 @@ test('briefs mark articles read locally and green calendar opens the correct eve
 
 test('news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links', async ({
   page,
-}) => {
+}, testInfo) => {
+  // Sixteen route/viewport captures include scrolling to lazy related-article images.
+  test.setTimeout(60_000);
   for (const width of [390, 428]) {
     await page.setViewportSize({ width, height: 926 });
     for (const [path, name] of [
@@ -175,9 +182,52 @@ test('news screens render without runtime errors or overflow at 390 and 428 px a
       ['/articles/briefs', 'news-briefs'],
     ]) {
       await page.goto(path!);
-      await expect(page.getByRole('button', { name: 'Quay lại', exact: true })).toBeVisible();
+      await expect(
+        page.getByRole('button', {
+          name: path === '/articles' ? 'Đọc bài nổi bật' : 'Quay lại',
+          exact: true,
+        }),
+      ).toBeVisible();
       await expect(page.getByLabel('Đang tải', { exact: true })).toHaveCount(0);
-      await page.screenshot({ path: resolve(evidence, `${name}-${width}.png`) });
+      // Related articles can be below the fold and use the browser's lazy image loading.
+      // Visit pending images, verify them, then restore the scroll position for the capture.
+      for (const image of await page.locator('img').all()) {
+        if (
+          await image.evaluate(
+            (node) => node instanceof HTMLImageElement && node.complete && node.naturalWidth > 0,
+          )
+        )
+          continue;
+        await image.scrollIntoViewIfNeeded();
+        await expect
+          .poll(() =>
+            image.evaluate(
+              (node) => node instanceof HTMLImageElement && node.complete && node.naturalWidth > 0,
+            ),
+          )
+          .toBe(true);
+        await image.evaluate((node) => {
+          for (let parent = node.parentElement; parent; parent = parent.parentElement)
+            parent.scrollTop = 0;
+        });
+      }
+      await expect
+        .poll(() =>
+          page
+            .locator('img')
+            .evaluateAll((images) =>
+              images
+                .filter(
+                  (image) =>
+                    !(image instanceof HTMLImageElement) ||
+                    !image.complete ||
+                    image.naturalWidth === 0,
+                )
+                .map((image) => image.getAttribute('src')),
+            ),
+        )
+        .toEqual([]);
+      await page.screenshot({ path: testInfo.outputPath(`${name}-${width}.png`) });
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
         true,
       );

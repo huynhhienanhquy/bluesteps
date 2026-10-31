@@ -16,6 +16,14 @@ import { initialExperience, type ExperiencePreferences } from './services/experi
 import { defaultCollectionFilters, type CollectionFilters } from './services/collection';
 import type { CollectionProposalDraft } from './services/collection-forms';
 import { createNewsSession, type NewsSession } from './services/news';
+import { RewardsUiProvider, useRewardsUi } from './features/rewards/RewardsUiProvider';
+import { CommunityUiProvider, useCommunityUi } from './features/community/CommunityUiProvider';
+import { ChatUiProvider, useChatUi } from './features/messages/ChatUiProvider';
+import { BotUiProvider, useBotUi } from './features/assistant/BotUiProvider';
+import {
+  NotificationUiProvider,
+  useNotificationUi,
+} from './features/notifications/NotificationUiProvider';
 import {
   createEventPlanning,
   removeSavedEvent,
@@ -71,10 +79,30 @@ type DemoContextValue = {
   setState: (state: DemoState) => void;
 };
 const DemoContext = createContext<DemoContextValue | null>(null);
-export function AppProviders({
+export function AppProviders(props: PropsWithChildren<{ queryClient?: QueryClient }>) {
+  return (
+    <RewardsUiProvider>
+      <NotificationUiProvider>
+        <CommunityUiProvider>
+          <ChatUiProvider>
+            <BotUiProvider>
+              <AppStateProviders {...props} />
+            </BotUiProvider>
+          </ChatUiProvider>
+        </CommunityUiProvider>
+      </NotificationUiProvider>
+    </RewardsUiProvider>
+  );
+}
+function AppStateProviders({
   children,
   queryClient,
 }: PropsWithChildren<{ queryClient?: QueryClient }>) {
+  const { reset: resetRewards } = useRewardsUi();
+  const { reset: resetNotificationUi } = useNotificationUi();
+  const { reset: resetCommunityUi } = useCommunityUi();
+  const { reset: resetChatUi } = useChatUi();
+  const { reset: resetBotUi } = useBotUi();
   const [client] = useState(
     () =>
       queryClient ??
@@ -152,6 +180,11 @@ export function AppProviders({
               conversations: appendDemoMessage(current.conversations, id, text),
             })),
           resetDemo: () => {
+            resetRewards();
+            resetNotificationUi();
+            resetCommunityUi();
+            resetChatUi();
+            resetBotUi();
             setPointProposalDraft(null);
             setCollectionFilters(defaultCollectionFilters());
             setSelectedPoint('green-hub');

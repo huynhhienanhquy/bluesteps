@@ -93,6 +93,7 @@ export function Button({
   icon,
   disabled = false,
   pending = false,
+  accessibilityLabel,
 }: {
   title: string;
   onPress: () => void;
@@ -100,6 +101,7 @@ export function Button({
   icon?: string;
   disabled?: boolean;
   pending?: boolean;
+  accessibilityLabel?: string;
 }) {
   const { colors } = useApp();
   const foreground =
@@ -112,7 +114,7 @@ export function Button({
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={title}
+      accessibilityLabel={accessibilityLabel ?? title}
       accessibilityState={{ disabled: disabled || pending, busy: pending }}
       disabled={disabled || pending}
       onPress={onPress}

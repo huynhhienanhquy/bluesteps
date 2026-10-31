@@ -1,0 +1,704 @@
+{
+  "source": "Expected slots derived from fresh high-fidelity Figma contexts 612:5362 and 612:5441; chrome matches cached source expectations, numbered circles at (40,293/450/607), 38px. Static file/slot verification is not a full-frame fidelity acceptance.",
+  "toleranceCssPx": 0.1,
+  "slots": 29,
+  "failed": 0,
+  "rows": [
+    {
+      "frame": "612:5362",
+      "key": "imgTime",
+      "source": "apps/mobile/assets/figma/612-5362/imgTime.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "32439af09e7e326e62d3ba1af4665999",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        28,
+        12,
+        52,
+        21
+      ],
+      "actual": [
+        28,
+        12,
+        52,
+        21
+      ],
+      "maximumDifference": 0,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgRectangle",
+      "source": "apps/mobile/assets/figma/612-5362/imgRectangle.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "3c08102d221d4ee811f65f8078e1b0f0",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        363,
+        17.333,
+        22,
+        11.333
+      ],
+      "actual": [
+        363,
+        17.328125,
+        22,
+        11.328125
+      ],
+      "maximumDifference": 0.004875000000000185,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgCombinedShape",
+      "source": "apps/mobile/assets/figma/612-5362/imgCombinedShape.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "8be0d8b7e48d8c08fc5810c6787768d4",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        386.002,
+        21,
+        1.328,
+        4
+      ],
+      "actual": [
+        386.03125,
+        21,
+        1.3125,
+        4
+      ],
+      "maximumDifference": 0.02924999999999045,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgRectangle1",
+      "source": "apps/mobile/assets/figma/612-5362/imgRectangle1.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "3db7ace88df584925bc136bad159c554",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        365,
+        19.333,
+        18,
+        7.333
+      ],
+      "actual": [
+        365,
+        19.328125,
+        18,
+        7.328125
+      ],
+      "maximumDifference": 0.004875000000000185,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgWifi",
+      "source": "apps/mobile/assets/figma/612-5362/imgWifi.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "242c6e30ad0bdba1c3cc9ff71ba9fa5e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        342.698,
+        17.333,
+        15.272,
+        10.965
+      ],
+      "actual": [
+        342.71875,
+        17.328125,
+        15.265625,
+        10.953125
+      ],
+      "maximumDifference": 0.02075000000002092,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgMobileSignal",
+      "source": "apps/mobile/assets/figma/612-5362/imgMobileSignal.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "5bd19aafe6e53a18b3fba0ffc66918ef",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        320.67,
+        17.667,
+        17,
+        10.666
+      ],
+      "actual": [
+        320.671875,
+        17.65625,
+        17,
+        10.65625
+      ],
+      "maximumDifference": 0.010750000000001592,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgRectangle87",
+      "source": "apps/mobile/assets/figma/612-5362/imgRectangle87.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "01dd31946811f34ef8d574d9706f47f8",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        169.01720000000003,
+        858.9984,
+        94.97319999999999,
+        67.0016
+      ],
+      "actual": [
+        169.015625,
+        858.984375,
+        94.96875,
+        67
+      ],
+      "maximumDifference": 0.014024999999946886,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgGroup",
+      "source": "apps/mobile/assets/figma/612-5362/imgGroup.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "611bcfacf94ff95d9ed758048e46c288",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        364.9984,
+        868,
+        27.9912,
+        28.002399999999998
+      ],
+      "actual": [
+        364.984375,
+        868,
+        27.984375,
+        28
+      ],
+      "maximumDifference": 0.014025000000003729,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgGroup1",
+      "source": "apps/mobile/assets/figma/612-5362/imgGroup1.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "f5d26a60de8357e3013a93d60013846c",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        280.23068880000005,
+        867.24953568,
+        29.536622399999974,
+        29.50332864
+      ],
+      "actual": [
+        280.21875,
+        867.234375,
+        29.53125,
+        29.5
+      ],
+      "maximumDifference": 0.015160680000008142,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgGroup2",
+      "source": "apps/mobile/assets/figma/612-5362/imgGroup2.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "1d585056f1e85573d6e1594528a6041c",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        121.2286888,
+        867.24864712,
+        29.53662239999999,
+        32.04550575999999
+      ],
+      "actual": [
+        121.21875,
+        867.234375,
+        29.53125,
+        32.03125
+      ],
+      "maximumDifference": 0.014272119999986899,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgGroup37108",
+      "source": "apps/mobile/assets/figma/612-5362/imgGroup37108.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "a84f959e80ef60c2d2cbd601770ab0b8",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        11.984,
+        861,
+        87.0124,
+        47
+      ],
+      "actual": [
+        11.96875,
+        861,
+        87,
+        47
+      ],
+      "maximumDifference": 0.015249999999999986,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgGroup36731",
+      "source": "apps/mobile/assets/figma/612-5362/imgGroup36731.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "96456167aaf227bfc50de0bb1f5fa144",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        173.02406752000002,
+        810,
+        82.97906496000002,
+        83.00869751999998
+      ],
+      "actual": [
+        173.015625,
+        810,
+        82.96875,
+        83
+      ],
+      "maximumDifference": 0.010314960000016526,
+      "passed": true
+    },
+    {
+      "frame": "612:5362",
+      "key": "imgLine1",
+      "source": "apps/mobile/assets/figma/612-5362/imgLine1.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "7edf78d5b5a862ffc700bd4c8939c5b0",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        153.01,
+        917.4428,
+        140.9832,
+        2.56
+      ],
+      "actual": [
+        153,
+        917.4375,
+        140.96875,
+        2.546875
+      ],
+      "maximumDifference": 0.014450000000010732,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgTime",
+      "source": "apps/mobile/assets/figma/612-5441/imgTime.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "32439af09e7e326e62d3ba1af4665999",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        28,
+        12,
+        52,
+        21
+      ],
+      "actual": [
+        28,
+        12,
+        52,
+        21
+      ],
+      "maximumDifference": 0,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgRectangle",
+      "source": "apps/mobile/assets/figma/612-5441/imgRectangle.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "59f8b1a8b3db54880d6890fa771e88df",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        363,
+        17.333,
+        22,
+        11.333
+      ],
+      "actual": [
+        363,
+        17.328125,
+        22,
+        11.328125
+      ],
+      "maximumDifference": 0.004875000000000185,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgCombinedShape",
+      "source": "apps/mobile/assets/figma/612-5441/imgCombinedShape.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "8be0d8b7e48d8c08fc5810c6787768d4",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        386.002,
+        21,
+        1.328,
+        4
+      ],
+      "actual": [
+        386.03125,
+        21,
+        1.3125,
+        4
+      ],
+      "maximumDifference": 0.02924999999999045,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgRectangle1",
+      "source": "apps/mobile/assets/figma/612-5441/imgRectangle1.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "3db7ace88df584925bc136bad159c554",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        365,
+        19.333,
+        18,
+        7.333
+      ],
+      "actual": [
+        365,
+        19.328125,
+        18,
+        7.328125
+      ],
+      "maximumDifference": 0.004875000000000185,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgWifi",
+      "source": "apps/mobile/assets/figma/612-5441/imgWifi.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "242c6e30ad0bdba1c3cc9ff71ba9fa5e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        342.698,
+        17.333,
+        15.272,
+        10.965
+      ],
+      "actual": [
+        342.71875,
+        17.328125,
+        15.265625,
+        10.953125
+      ],
+      "maximumDifference": 0.02075000000002092,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgMobileSignal",
+      "source": "apps/mobile/assets/figma/612-5441/imgMobileSignal.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "5bd19aafe6e53a18b3fba0ffc66918ef",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        320.67,
+        17.667,
+        17,
+        10.666
+      ],
+      "actual": [
+        320.671875,
+        17.65625,
+        17,
+        10.65625
+      ],
+      "maximumDifference": 0.010750000000001592,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgRectangle87",
+      "source": "apps/mobile/assets/figma/612-5441/imgRectangle87.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "01dd31946811f34ef8d574d9706f47f8",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        169.01720000000003,
+        858.9984,
+        94.97319999999999,
+        67.0016
+      ],
+      "actual": [
+        169.015625,
+        858.984375,
+        94.96875,
+        67
+      ],
+      "maximumDifference": 0.014024999999946886,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgGroup",
+      "source": "apps/mobile/assets/figma/612-5441/imgGroup.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "611bcfacf94ff95d9ed758048e46c288",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        364.9984,
+        868,
+        27.9912,
+        28.002399999999998
+      ],
+      "actual": [
+        364.984375,
+        868,
+        27.984375,
+        28
+      ],
+      "maximumDifference": 0.014025000000003729,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgGroup1",
+      "source": "apps/mobile/assets/figma/612-5441/imgGroup1.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "f5d26a60de8357e3013a93d60013846c",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        280.23068880000005,
+        867.24953568,
+        29.536622399999974,
+        29.50332864
+      ],
+      "actual": [
+        280.21875,
+        867.234375,
+        29.53125,
+        29.5
+      ],
+      "maximumDifference": 0.015160680000008142,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgGroup2",
+      "source": "apps/mobile/assets/figma/612-5441/imgGroup2.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "1d585056f1e85573d6e1594528a6041c",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        121.2286888,
+        867.24864712,
+        29.53662239999999,
+        32.04550575999999
+      ],
+      "actual": [
+        121.21875,
+        867.234375,
+        29.53125,
+        32.03125
+      ],
+      "maximumDifference": 0.014272119999986899,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgGroup37108",
+      "source": "apps/mobile/assets/figma/612-5441/imgGroup37108.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "a84f959e80ef60c2d2cbd601770ab0b8",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        11.984,
+        861,
+        87.0124,
+        47
+      ],
+      "actual": [
+        11.96875,
+        861,
+        87,
+        47
+      ],
+      "maximumDifference": 0.015249999999999986,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgGroup36731",
+      "source": "apps/mobile/assets/figma/612-5441/imgGroup36731.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "4bd68215c02117d68dfc7fbb3296d0f4",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        173.02406752000002,
+        810,
+        82.97906496000002,
+        83.00869751999998
+      ],
+      "actual": [
+        173.015625,
+        810,
+        82.96875,
+        83
+      ],
+      "maximumDifference": 0.010314960000016526,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgLine1",
+      "source": "apps/mobile/assets/figma/612-5441/imgLine1.svg",
+      "callsite": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "nonempty": true,
+      "md5": "7edf78d5b5a862ffc700bd4c8939c5b0",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        153.01,
+        917.4428,
+        140.9832,
+        2.56
+      ],
+      "actual": [
+        153,
+        917.4375,
+        140.96875,
+        2.546875
+      ],
+      "maximumDifference": 0.014450000000010732,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgSTin",
+      "source": "apps/mobile/assets/figma/612-5441/imgSTin.svg",
+      "callsite": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "nonempty": true,
+      "md5": "104a7d759707d36b791e0f3feeb54dcb",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        40,
+        293,
+        38,
+        38
+      ],
+      "actual": [
+        40,
+        293,
+        38,
+        38
+      ],
+      "maximumDifference": 0,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgSTin1",
+      "source": "apps/mobile/assets/figma/612-5441/imgSTin1.svg",
+      "callsite": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "nonempty": true,
+      "md5": "13406c0cf4ee915155958c7714cd3f44",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        40,
+        450,
+        38,
+        38
+      ],
+      "actual": [
+        40,
+        450,
+        38,
+        38
+      ],
+      "maximumDifference": 0,
+      "passed": true
+    },
+    {
+      "frame": "612:5441",
+      "key": "imgSTin2",
+      "source": "apps/mobile/assets/figma/612-5441/imgSTin2.svg",
+      "callsite": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "nonempty": true,
+      "md5": "f1f81f760d8a7e0ff7ac6389b3333be8",
+      "exactLocalSource": true,
+      "loaded": true,
+      "expected": [
+        40,
+        607,
+        38,
+        38
+      ],
+      "actual": [
+        40,
+        607,
+        38,
+        38
+      ],
+      "maximumDifference": 0,
+      "passed": true
+    }
+  ]
+}

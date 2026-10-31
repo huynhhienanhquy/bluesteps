@@ -1,0 +1,10 @@
+$ node scripts/generate-route-types.cjs && tsc --noEmit
+src/features/content/NewsParts.tsx(48,25): error TS2345: Argument of type '{ pathname: "/articles/calendar" | "/articles/briefs" | "/articles/topics" | "/articles/reading-list" | "/articles/events/[id]"; params: { preview?: string | undefined; id?: "nhieu-loc" | undefined; }; }' is not assignable to parameter of type '"/collection-explore" | "/collection-directions" | "/collection" | "/collection-navigation" | "/journey" | "/" | "/saved" | "/calendar" | "/events" | "/event-collections" | ... 193 more ... | { ...; }'.
+  Type '{ pathname: "/articles/calendar" | "/articles/briefs" | "/articles/topics" | "/articles/reading-list" | "/articles/events/[id]"; params: { preview?: string | undefined; id?: "nhieu-loc" | undefined; }; }' is not assignable to type '{ pathname: "/collection-explore" | "/collection-directions" | "/collection" | "/collection-navigation" | "/journey" | "/" | "/saved" | "/calendar" | "/events" | "/event-collections" | ... 54 more ... | "/handbook/list"; params?: UnknownInputParams | undefined; } | { ...; }'.
+    Type '{ pathname: "/articles/calendar" | "/articles/briefs" | "/articles/topics" | "/articles/reading-list" | "/articles/events/[id]"; params: { preview?: string | undefined; id?: "nhieu-loc" | undefined; }; }' is not assignable to type '{ pathname: "/articles/events/[id]"; params: UnknownInputParams & { id: string | number; }; }'.
+      Types of property 'pathname' are incompatible.
+        Type '"/articles/calendar" | "/articles/briefs" | "/articles/topics" | "/articles/reading-list" | "/articles/events/[id]"' is not assignable to type '"/articles/events/[id]"'.
+          Type '"/articles/calendar"' is not assignable to type '"/articles/events/[id]"'.
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 typecheck: `node scripts/generate-route-types.cjs && tsc --noEmit`
+Exit status 2

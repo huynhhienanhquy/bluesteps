@@ -1,0 +1,1139 @@
+{
+  "pageId": "386:7053",
+  "pageName": "backuped",
+  "frame": "680:5461",
+  "width": 428,
+  "height": 926,
+  "nodes": [
+    {
+      "id": "680:5461",
+      "parent": "386:7053",
+      "type": "FRAME",
+      "name": "37. Tin tức / Chi tiết sự kiện xanh",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 926
+    },
+    {
+      "id": "680:5462",
+      "parent": "680:5461",
+      "type": "GROUP",
+      "name": "time line",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "680:5463",
+      "parent": "680:5462",
+      "type": "GROUP",
+      "name": "Group 1",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "680:5464",
+      "parent": "680:5463",
+      "type": "INSTANCE",
+      "name": "iPhone/Status Bar",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "I680:5464;47:200",
+      "parent": "680:5464",
+      "type": "GROUP",
+      "name": "Right Side",
+      "x": 336.666015625,
+      "y": 17.3310546875,
+      "width": 66.66201782226562,
+      "height": 11.335594177246094
+    },
+    {
+      "id": "I680:5464;47:201",
+      "parent": "I680:5464;47:200",
+      "type": "GROUP",
+      "name": "Battery",
+      "x": 378.9990234375,
+      "y": 17.3333740234375,
+      "width": 24.32803726196289,
+      "height": 11.333333015441895
+    },
+    {
+      "id": "I680:5464;47:202",
+      "parent": "I680:5464;47:201",
+      "type": "VECTOR",
+      "name": "Rectangle",
+      "x": 379,
+      "y": 17.3333740234375,
+      "width": 22,
+      "height": 11.333333015441895
+    },
+    {
+      "id": "I680:5464;47:203",
+      "parent": "I680:5464;47:201",
+      "type": "VECTOR",
+      "name": "Combined Shape",
+      "x": 402,
+      "y": 21,
+      "width": 1.328037977218628,
+      "height": 4
+    },
+    {
+      "id": "I680:5464;47:204",
+      "parent": "I680:5464;47:201",
+      "type": "VECTOR",
+      "name": "Rectangle",
+      "x": 381,
+      "y": 19.3333740234375,
+      "width": 18,
+      "height": 7.333333492279053
+    },
+    {
+      "id": "I680:5464;47:205",
+      "parent": "I680:5464;47:200",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Wifi",
+      "x": 358.693359375,
+      "y": 17.3310546875,
+      "width": 15.272473335266113,
+      "height": 10.965208053588867
+    },
+    {
+      "id": "I680:5464;47:206",
+      "parent": "I680:5464;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 358.693359375,
+      "y": 17.3306884765625,
+      "width": 15.27237606048584,
+      "height": 4.743237495422363
+    },
+    {
+      "id": "I680:5464;47:207",
+      "parent": "I680:5464;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 361.3564453125,
+      "y": 21.1246337890625,
+      "width": 9.94901180267334,
+      "height": 3.6339809894561768
+    },
+    {
+      "id": "I680:5464;47:208",
+      "parent": "I680:5464;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 364.0166015625,
+      "y": 24.9217529296875,
+      "width": 4.626293659210205,
+      "height": 3.3744072914123535
+    },
+    {
+      "id": "I680:5464;47:209",
+      "parent": "I680:5464;47:200",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Mobile Signal",
+      "x": 336.666015625,
+      "y": 17.66650390625,
+      "width": 17,
+      "height": 10.6669921875
+    },
+    {
+      "id": "I680:5464;47:210",
+      "parent": "I680:5464;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 336.666015625,
+      "y": 24.333251953125,
+      "width": 3,
+      "height": 4
+    },
+    {
+      "id": "I680:5464;47:211",
+      "parent": "I680:5464;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 341.3330078125,
+      "y": 22.333251953125,
+      "width": 3,
+      "height": 6
+    },
+    {
+      "id": "I680:5464;47:212",
+      "parent": "I680:5464;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 346,
+      "y": 19.9998779296875,
+      "width": 3,
+      "height": 8.333333015441895
+    },
+    {
+      "id": "I680:5464;47:213",
+      "parent": "I680:5464;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 350.666015625,
+      "y": 17.66650390625,
+      "width": 3,
+      "height": 10.666666984558105
+    },
+    {
+      "id": "I680:5464;47:216",
+      "parent": "680:5464",
+      "type": "GROUP",
+      "name": "Left Side",
+      "x": 12,
+      "y": 12,
+      "width": 52,
+      "height": 21
+    },
+    {
+      "id": "I680:5464;47:217",
+      "parent": "I680:5464;47:216",
+      "type": "FRAME",
+      "name": "Time",
+      "x": 12,
+      "y": 12,
+      "width": 52,
+      "height": 21
+    },
+    {
+      "id": "I680:5464;47:218",
+      "parent": "I680:5464;47:217",
+      "type": "VECTOR",
+      "name": "9:41",
+      "x": 24,
+      "y": 16,
+      "width": 28,
+      "height": 12
+    },
+    {
+      "id": "680:5465",
+      "parent": "680:5461",
+      "type": "GROUP",
+      "name": "Group 36735",
+      "x": -4,
+      "y": 810,
+      "width": 444,
+      "height": 116
+    },
+    {
+      "id": "680:5466",
+      "parent": "680:5465",
+      "type": "GROUP",
+      "name": "Group 36733",
+      "x": -4,
+      "y": 849,
+      "width": 185,
+      "height": 77
+    },
+    {
+      "id": "680:5467",
+      "parent": "680:5466",
+      "type": "RECTANGLE",
+      "name": "Rectangle 17",
+      "x": -4,
+      "y": 849,
+      "width": 185,
+      "height": 77
+    },
+    {
+      "id": "680:5468",
+      "parent": "680:5465",
+      "type": "RECTANGLE",
+      "name": "Rectangle 18",
+      "x": 255,
+      "y": 851,
+      "width": 185,
+      "height": 75
+    },
+    {
+      "id": "680:5469",
+      "parent": "680:5465",
+      "type": "VECTOR",
+      "name": "Rectangle 87",
+      "x": 173,
+      "y": 859,
+      "width": 95,
+      "height": 67
+    },
+    {
+      "id": "680:5470",
+      "parent": "680:5465",
+      "type": "GROUP",
+      "name": "Group 36734",
+      "x": 285,
+      "y": 868,
+      "width": 112,
+      "height": 28
+    },
+    {
+      "id": "680:5471",
+      "parent": "680:5470",
+      "type": "GROUP",
+      "name": "Group 36722",
+      "x": 369,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5472",
+      "parent": "680:5471",
+      "type": "GROUP",
+      "name": "Group",
+      "x": 369,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5473",
+      "parent": "680:5472",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 377.400390625,
+      "y": 873.60009765625,
+      "width": 11.200000762939453,
+      "height": 11.19999885559082
+    },
+    {
+      "id": "680:5474",
+      "parent": "680:5472",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 369,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5475",
+      "parent": "680:5470",
+      "type": "GROUP",
+      "name": "Group 36703",
+      "x": 285,
+      "y": 868,
+      "width": 28,
+      "height": 27.999975204467773
+    },
+    {
+      "id": "680:5476",
+      "parent": "680:5475",
+      "type": "GROUP",
+      "name": "Group",
+      "x": 285,
+      "y": 868,
+      "width": 28,
+      "height": 27.999975204467773
+    },
+    {
+      "id": "680:5477",
+      "parent": "680:5476",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 286.248046875,
+      "y": 880.5999755859375,
+      "width": 25.503496170043945,
+      "height": 15.399999618530273
+    },
+    {
+      "id": "680:5478",
+      "parent": "680:5476",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 285,
+      "y": 868,
+      "width": 28,
+      "height": 27.299999237060547
+    },
+    {
+      "id": "680:5479",
+      "parent": "680:5465",
+      "type": "GROUP",
+      "name": "Group 36732",
+      "x": 16,
+      "y": 861,
+      "width": 138,
+      "height": 47
+    },
+    {
+      "id": "680:5480",
+      "parent": "680:5479",
+      "type": "GROUP",
+      "name": "Group",
+      "x": 126,
+      "y": 868,
+      "width": 28,
+      "height": 30.5457763671875
+    },
+    {
+      "id": "680:5481",
+      "parent": "680:5480",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 126,
+      "y": 874.87158203125,
+      "width": 28,
+      "height": 23.6741943359375
+    },
+    {
+      "id": "680:5482",
+      "parent": "680:5480",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 126.873046875,
+      "y": 868,
+      "width": 26.25115966796875,
+      "height": 25.964494705200195
+    },
+    {
+      "id": "680:5483",
+      "parent": "680:5479",
+      "type": "GROUP",
+      "name": "Group 37108",
+      "x": 16,
+      "y": 861,
+      "width": 87,
+      "height": 47
+    },
+    {
+      "id": "680:5484",
+      "parent": "680:5483",
+      "type": "RECTANGLE",
+      "name": "Rectangle 759",
+      "x": 16,
+      "y": 861,
+      "width": 87,
+      "height": 47
+    },
+    {
+      "id": "680:5485",
+      "parent": "680:5483",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 44,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5486",
+      "parent": "680:5465",
+      "type": "GROUP",
+      "name": "Group 36731",
+      "x": 181,
+      "y": 810,
+      "width": 75,
+      "height": 75
+    },
+    {
+      "id": "680:5487",
+      "parent": "680:5486",
+      "type": "ELLIPSE",
+      "name": "Ellipse 9",
+      "x": 181,
+      "y": 810,
+      "width": 75,
+      "height": 75
+    },
+    {
+      "id": "680:5488",
+      "parent": "680:5486",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 204,
+      "y": 833,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "680:5489",
+      "parent": "680:5465",
+      "type": "LINE",
+      "name": "Line 1",
+      "x": 157,
+      "y": 920,
+      "width": 141,
+      "height": 0
+    },
+    {
+      "id": "680:5490",
+      "parent": "680:5461",
+      "type": "RECTANGLE",
+      "name": "Ảnh bìa sự kiện",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 300
+    },
+    {
+      "id": "680:5491",
+      "parent": "680:5461",
+      "type": "RECTANGLE",
+      "name": "Lớp phủ nhẹ",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 115
+    },
+    {
+      "id": "680:5492",
+      "parent": "680:5461",
+      "type": "GROUP",
+      "name": "time line",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "680:5493",
+      "parent": "680:5492",
+      "type": "GROUP",
+      "name": "Group 1",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "680:5494",
+      "parent": "680:5493",
+      "type": "INSTANCE",
+      "name": "iPhone/Status Bar",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "I680:5494;47:200",
+      "parent": "680:5494",
+      "type": "GROUP",
+      "name": "Right Side",
+      "x": 336.666015625,
+      "y": 17.3310546875,
+      "width": 66.66201782226562,
+      "height": 11.335594177246094
+    },
+    {
+      "id": "I680:5494;47:201",
+      "parent": "I680:5494;47:200",
+      "type": "GROUP",
+      "name": "Battery",
+      "x": 378.9990234375,
+      "y": 17.3333740234375,
+      "width": 24.32803726196289,
+      "height": 11.333333015441895
+    },
+    {
+      "id": "I680:5494;47:202",
+      "parent": "I680:5494;47:201",
+      "type": "VECTOR",
+      "name": "Rectangle",
+      "x": 379,
+      "y": 17.3333740234375,
+      "width": 22,
+      "height": 11.333333015441895
+    },
+    {
+      "id": "I680:5494;47:203",
+      "parent": "I680:5494;47:201",
+      "type": "VECTOR",
+      "name": "Combined Shape",
+      "x": 402,
+      "y": 21,
+      "width": 1.328037977218628,
+      "height": 4
+    },
+    {
+      "id": "I680:5494;47:204",
+      "parent": "I680:5494;47:201",
+      "type": "VECTOR",
+      "name": "Rectangle",
+      "x": 381,
+      "y": 19.3333740234375,
+      "width": 18,
+      "height": 7.333333492279053
+    },
+    {
+      "id": "I680:5494;47:205",
+      "parent": "I680:5494;47:200",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Wifi",
+      "x": 358.693359375,
+      "y": 17.3310546875,
+      "width": 15.272473335266113,
+      "height": 10.965208053588867
+    },
+    {
+      "id": "I680:5494;47:206",
+      "parent": "I680:5494;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 358.693359375,
+      "y": 17.3306884765625,
+      "width": 15.27237606048584,
+      "height": 4.743237495422363
+    },
+    {
+      "id": "I680:5494;47:207",
+      "parent": "I680:5494;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 361.3564453125,
+      "y": 21.1246337890625,
+      "width": 9.94901180267334,
+      "height": 3.6339809894561768
+    },
+    {
+      "id": "I680:5494;47:208",
+      "parent": "I680:5494;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 364.0166015625,
+      "y": 24.9217529296875,
+      "width": 4.626293659210205,
+      "height": 3.3744072914123535
+    },
+    {
+      "id": "I680:5494;47:209",
+      "parent": "I680:5494;47:200",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Mobile Signal",
+      "x": 336.666015625,
+      "y": 17.66650390625,
+      "width": 17,
+      "height": 10.6669921875
+    },
+    {
+      "id": "I680:5494;47:210",
+      "parent": "I680:5494;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 336.666015625,
+      "y": 24.333251953125,
+      "width": 3,
+      "height": 4
+    },
+    {
+      "id": "I680:5494;47:211",
+      "parent": "I680:5494;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 341.3330078125,
+      "y": 22.333251953125,
+      "width": 3,
+      "height": 6
+    },
+    {
+      "id": "I680:5494;47:212",
+      "parent": "I680:5494;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 346,
+      "y": 19.9998779296875,
+      "width": 3,
+      "height": 8.333333015441895
+    },
+    {
+      "id": "I680:5494;47:213",
+      "parent": "I680:5494;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 350.666015625,
+      "y": 17.66650390625,
+      "width": 3,
+      "height": 10.666666984558105
+    },
+    {
+      "id": "I680:5494;47:216",
+      "parent": "680:5494",
+      "type": "GROUP",
+      "name": "Left Side",
+      "x": 12,
+      "y": 12,
+      "width": 52,
+      "height": 21
+    },
+    {
+      "id": "I680:5494;47:217",
+      "parent": "I680:5494;47:216",
+      "type": "FRAME",
+      "name": "Time",
+      "x": 12,
+      "y": 12,
+      "width": 52,
+      "height": 21
+    },
+    {
+      "id": "I680:5494;47:218",
+      "parent": "I680:5494;47:217",
+      "type": "VECTOR",
+      "name": "9:41",
+      "x": 24,
+      "y": 16,
+      "width": 28,
+      "height": 12
+    },
+    {
+      "id": "680:5495",
+      "parent": "680:5461",
+      "type": "FRAME",
+      "name": "Nút điều hướng",
+      "x": 25,
+      "y": 61,
+      "width": 34,
+      "height": 34
+    },
+    {
+      "id": "680:5496",
+      "parent": "680:5495",
+      "type": "TEXT",
+      "name": "Biểu tượng",
+      "x": 25,
+      "y": 65,
+      "width": 34,
+      "height": 26,
+      "text": "‹",
+      "fontSize": 18,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5497",
+      "parent": "680:5461",
+      "type": "FRAME",
+      "name": "Nút điều hướng",
+      "x": 369,
+      "y": 61,
+      "width": 34,
+      "height": 34
+    },
+    {
+      "id": "680:5498",
+      "parent": "680:5497",
+      "type": "TEXT",
+      "name": "Biểu tượng",
+      "x": 369,
+      "y": 65,
+      "width": 34,
+      "height": 26,
+      "text": "♡",
+      "fontSize": 18,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5499",
+      "parent": "680:5461",
+      "type": "FRAME",
+      "name": "Nội dung sự kiện",
+      "x": 0,
+      "y": 266,
+      "width": 428,
+      "height": 568
+    },
+    {
+      "id": "680:5500",
+      "parent": "680:5499",
+      "type": "FRAME",
+      "name": "Nhãn sự kiện",
+      "x": 28,
+      "y": 289,
+      "width": 96,
+      "height": 25
+    },
+    {
+      "id": "680:5501",
+      "parent": "680:5500",
+      "type": "TEXT",
+      "name": "Tên nhãn",
+      "x": 33,
+      "y": 295,
+      "width": 86,
+      "height": 16,
+      "text": "SỰ KIỆN XANH",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5502",
+      "parent": "680:5499",
+      "type": "TEXT",
+      "name": "Tiêu đề sự kiện",
+      "x": 28,
+      "y": 324,
+      "width": 370,
+      "height": 60,
+      "text": "Dọn rác ven kênh Nhiêu Lộc cùng BlueSteps",
+      "fontSize": 21,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5503",
+      "parent": "680:5499",
+      "type": "TEXT",
+      "name": "Mô tả ngắn",
+      "x": 28,
+      "y": 393,
+      "width": 370,
+      "height": 42,
+      "text": "Cùng cộng đồng biến một buổi sáng thành thay đổi tích cực cho thành phố.",
+      "fontSize": 12,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5504",
+      "parent": "680:5499",
+      "type": "FRAME",
+      "name": "Thông tin thời gian và địa điểm",
+      "x": 28,
+      "y": 450,
+      "width": 372,
+      "height": 106
+    },
+    {
+      "id": "680:5505",
+      "parent": "680:5504",
+      "type": "TEXT",
+      "name": "Ngày giờ",
+      "x": 43,
+      "y": 466,
+      "width": 342,
+      "height": 25,
+      "text": "◷   02/11/2026  ·  07:30 – 11:00",
+      "fontSize": 13,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5506",
+      "parent": "680:5504",
+      "type": "RECTANGLE",
+      "name": "Divider",
+      "x": 43,
+      "y": 503,
+      "width": 342,
+      "height": 1
+    },
+    {
+      "id": "680:5507",
+      "parent": "680:5504",
+      "type": "TEXT",
+      "name": "Địa điểm",
+      "x": 43,
+      "y": 518,
+      "width": 342,
+      "height": 25,
+      "text": "⌖   Kênh Nhiêu Lộc, TP. Hồ Chí Minh",
+      "fontSize": 13,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5508",
+      "parent": "680:5499",
+      "type": "TEXT",
+      "name": "Tiêu đề giới thiệu",
+      "x": 28,
+      "y": 574,
+      "width": 330,
+      "height": 27,
+      "text": "Về hoạt động",
+      "fontSize": 18,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5509",
+      "parent": "680:5499",
+      "type": "TEXT",
+      "name": "Giới thiệu",
+      "x": 28,
+      "y": 608,
+      "width": 370,
+      "height": 59,
+      "text": "Tham gia thu gom và phân loại rác cùng các tình nguyện viên. Dụng cụ sẽ được chuẩn bị tại điểm hẹn; bạn chỉ cần mang theo nước uống và tinh thần sẵn sàng.",
+      "fontSize": 12,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5510",
+      "parent": "680:5499",
+      "type": "TEXT",
+      "name": "Tiêu đề lịch trình",
+      "x": 28,
+      "y": 673,
+      "width": 330,
+      "height": 25,
+      "text": "Lịch trình ngắn",
+      "fontSize": 18,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5511",
+      "parent": "680:5499",
+      "type": "FRAME",
+      "name": "Các mốc chương trình",
+      "x": 28,
+      "y": 703,
+      "width": 372,
+      "height": 48
+    },
+    {
+      "id": "680:5512",
+      "parent": "680:5511",
+      "type": "FRAME",
+      "name": "Mốc 07:30",
+      "x": 36,
+      "y": 711,
+      "width": 112,
+      "height": 32
+    },
+    {
+      "id": "680:5513",
+      "parent": "680:5512",
+      "type": "TEXT",
+      "name": "Giờ",
+      "x": 36,
+      "y": 711,
+      "width": 100,
+      "height": 14,
+      "text": "07:30",
+      "fontSize": 11,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5514",
+      "parent": "680:5512",
+      "type": "TEXT",
+      "name": "Hoạt động",
+      "x": 36,
+      "y": 727,
+      "width": 100,
+      "height": 16,
+      "text": "Tập trung",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5515",
+      "parent": "680:5511",
+      "type": "FRAME",
+      "name": "Mốc 08:00",
+      "x": 148,
+      "y": 711,
+      "width": 112,
+      "height": 32
+    },
+    {
+      "id": "680:5516",
+      "parent": "680:5515",
+      "type": "TEXT",
+      "name": "Giờ",
+      "x": 148,
+      "y": 711,
+      "width": 100,
+      "height": 14,
+      "text": "08:00",
+      "fontSize": 11,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5517",
+      "parent": "680:5515",
+      "type": "TEXT",
+      "name": "Hoạt động",
+      "x": 148,
+      "y": 727,
+      "width": 100,
+      "height": 16,
+      "text": "Thu gom",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5518",
+      "parent": "680:5511",
+      "type": "FRAME",
+      "name": "Mốc 10:30",
+      "x": 260,
+      "y": 711,
+      "width": 112,
+      "height": 32
+    },
+    {
+      "id": "680:5519",
+      "parent": "680:5518",
+      "type": "TEXT",
+      "name": "Giờ",
+      "x": 260,
+      "y": 711,
+      "width": 100,
+      "height": 14,
+      "text": "10:30",
+      "fontSize": 11,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5520",
+      "parent": "680:5518",
+      "type": "TEXT",
+      "name": "Hoạt động",
+      "x": 260,
+      "y": 727,
+      "width": 100,
+      "height": 16,
+      "text": "Tổng kết",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5521",
+      "parent": "680:5461",
+      "type": "FRAME",
+      "name": "Nút tham gia sự kiện",
+      "x": 28,
+      "y": 753,
+      "width": 372,
+      "height": 48
+    },
+    {
+      "id": "680:5522",
+      "parent": "680:5521",
+      "type": "TEXT",
+      "name": "Nhãn nút",
+      "x": 42,
+      "y": 766,
+      "width": 344,
+      "height": 25,
+      "text": "Tham gia sự kiện   →",
+      "fontSize": 14,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    }
+  ]
+}

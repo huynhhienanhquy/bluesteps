@@ -1,0 +1,28 @@
+$ pnpm --filter @bluesteps/mobile typecheck
+$ node scripts/generate-route-types.cjs && tsc --noEmit
+error TS2318: Cannot find global type 'Array'.
+error TS2318: Cannot find global type 'Boolean'.
+error TS2318: Cannot find global type 'CallableFunction'.
+error TS2318: Cannot find global type 'Function'.
+error TS2318: Cannot find global type 'IArguments'.
+error TS2318: Cannot find global type 'NewableFunction'.
+error TS2318: Cannot find global type 'Number'.
+error TS2318: Cannot find global type 'Object'.
+error TS2318: Cannot find global type 'RegExp'.
+error TS2318: Cannot find global type 'String'.
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+error TS2688: Cannot find type definition file for 'react'.
+  The file is in the program because:
+    Entry point of type library 'react' specified in compilerOptions
+error TS6053: File 'D:/BlueSteps/node_modules/.pnpm/typescript@6.0.3/node_modules/typescript/lib/lib.dom.d.ts' not found.
+  The file is in the program because:
+    Library 'lib.dom.d.ts' specified in compilerOptions
+error TS6053: File 'D:/BlueSteps/node_modules/.pnpm/typescript@6.0.3/node_modules/typescript/lib/lib.esnext.d.ts' not found.
+  The file is in the program because:
+    Library 'lib.esnext.d.ts' specified in compilerOptions
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 typecheck: `node scripts/generate-route-types.cjs && tsc --noEmit`
+Exit status 2
+[ELIFECYCLE] Command failed with exit code 2.

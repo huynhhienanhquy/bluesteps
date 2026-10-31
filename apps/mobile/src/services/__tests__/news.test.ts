@@ -5,6 +5,7 @@ import {
   createNewsSession,
   filterNews,
   newsTopics,
+  removeArticleComment,
 } from '../news';
 
 test('article metadata and discussion seeds reference actual articles and topics', () => {
@@ -23,12 +24,39 @@ test('article metadata and discussion seeds reference actual articles and topics
   expect(createNewsSession().comments[0]!.text).not.toBe('changed');
 });
 
+test('only an owned comment in the current article can be deleted, preserving replies and other articles', () => {
+  const parent = appendArticleComment(createNewsSession(), 'small-steps', 'My parent');
+  const parentId = parent.comments.at(-1)!.id;
+  const reply = appendArticleComment(parent, 'small-steps', 'Keep reply', parentId);
+  const replyId = reply.comments.at(-1)!.id;
+  const session = appendArticleComment(reply, 'recycle', 'Other article');
+  session.likedComments = [1, parentId, replyId];
+  expect(removeArticleComment(session, 'small-steps', 1)).toBe(session);
+  expect(removeArticleComment(session, 'small-steps', session.comments.at(-1)!.id)).toBe(session);
+  const removed = removeArticleComment(session, 'small-steps', parentId);
+  expect(removed.comments.some((comment) => comment.id === parentId)).toBe(false);
+  expect(removed.comments.find((comment) => comment.id === replyId)).toEqual(
+    expect.objectContaining({ text: 'Keep reply', replyTo: undefined }),
+  );
+  expect(removed.comments.at(-1)).toEqual(session.comments.at(-1));
+  expect(removed.likedComments).toEqual([1, replyId]);
+  expect(session.comments.find((comment) => comment.id === replyId)!.replyTo).toBe(parentId);
+});
+
 test('news search removes Vietnamese accents and combines topic, saved and sort filters', () => {
   const search = (term: string, topic = 'Tất cả') =>
     filterNews(articles, { search: term, topic, sort: 'newest' });
   expect(search('PIN CU').map((article) => article.id)).toEqual(['battery-care']);
   expect(search('yeu cau cua diem tiep nhan').map((article) => article.id)).toContain('recycle');
-  expect(search('', 'Cộng đồng').map((article) => article.id)).toEqual(['community-day']);
+  expect(search('', 'Cộng đồng').map((article) => article.id)).toEqual([
+    'community-day',
+    'green-sunday',
+    'saigon-cleanup',
+    'tourism-cleanup',
+    'youth-ideas',
+  ]);
+  expect(search('', 'Sự kiện')).toEqual(search('', 'Cộng đồng'));
+  expect(search('', 'Tái chế')).toEqual(search('', 'Phân loại'));
   expect(search('', 'missing')).toEqual([]);
   expect(
     filterNews(articles, { search: '', topic: 'Tất cả', sort: 'newest', savedIds: [] }),
@@ -42,6 +70,19 @@ test('news search removes Vietnamese accents and combines topic, saved and sort 
     }).map((article) => article.id),
   ).toEqual(['community-day', 'recycle']);
   expect(search('')[0]!.id).toBe('daily-waste');
+});
+
+test('saved order is explicit and content fixtures have stable IDs with separate design stories', () => {
+  expect(articles).toHaveLength(13);
+  expect(new Set(articles.map((article) => article.id)).size).toBe(articles.length);
+  expect(
+    filterNews(articles, {
+      search: '',
+      topic: 'Tất cả',
+      sort: 'saved',
+      savedIds: ['ha-long', 'daily-waste', 'green-sunday'],
+    }).map((article) => article.id),
+  ).toEqual(['ha-long', 'daily-waste', 'green-sunday']);
 });
 
 test('comments validate content and reply ownership, isolate articles and preserve rapid-send IDs', () => {

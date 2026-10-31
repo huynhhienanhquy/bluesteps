@@ -1,0 +1,197 @@
+const imgPolygon7 = "https://www.figma.com/api/mcp/asset/fe12ab54-ccda-48bc-86b8-2c771218be60.svg";
+const imgChat2 = "https://www.figma.com/api/mcp/asset/bbc8230e-da63-4a4a-b6d2-f94ce4e7c08e.png";
+const imgEllipse295 = "https://www.figma.com/api/mcp/asset/d6e9d32d-656f-4fbe-bfd3-d577c5d701d7.png";
+const imgEllipse294 = "https://www.figma.com/api/mcp/asset/184b4c79-90c0-4dbb-9161-3bf6bbd7c272.svg";
+const imgOut = "https://www.figma.com/api/mcp/asset/ee85acc6-0daa-4e35-baa5-ee2d5e563b7b.svg";
+const imgBtnSend = "https://www.figma.com/api/mcp/asset/d07d2bf5-f67c-4c19-a187-26eccb6bfb4b.svg";
+const imgEllipse321 = "https://www.figma.com/api/mcp/asset/d620a8f4-60ac-49d4-9b91-649b819d7829.svg";
+const imgAudio = "https://www.figma.com/api/mcp/asset/837d5b33-a11f-4c94-81ec-98de347c7fd7.svg";
+const imgAudio1 = "https://www.figma.com/api/mcp/asset/291780c6-a5bb-4501-80f8-82dd59046b4c.svg";
+const imgAudio2 = "https://www.figma.com/api/mcp/asset/2ceba0c0-bf1f-4264-b287-19ae0bfd7988.svg";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/973f38fd-2f85-4fba-85fb-3c8c91eb6680.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/c7d9c41f-c2ac-4492-85eb-3f4fd5ef4a7d.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/2ee11c62-da15-4671-8adb-66c68383f6ba.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/bb6c7334-ff79-44e9-8327-5bc9389493a3.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/37c64c8e-5526-42d1-bb58-07b9a991db13.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/c76a247c-7fd7-48af-9b25-7e9e7ff5e1f6.svg";
+
+function Polygon7({ className }: { className?: string }) {
+  return (
+    <button className={className || "block cursor-pointer h-[26.686px] relative w-[23.547px]"} data-node-id="306:4423">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPolygon7} />
+    </button>
+  );
+}
+
+export default function Chat2() {
+  return (
+    <div className="overflow-clip relative rounded-[25px] size-full" data-node-id="386:8977" data-name="chat2">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[25px] size-full" src={imgChat2} />
+      <div className="absolute bg-[rgba(240,246,249,0.8)] h-[123px] left-0 top-[3px] w-[428px]" data-node-id="386:8978" />
+      <div className="absolute contents left-[19px] top-[58px]" data-node-id="386:8979" data-name="logo">
+        <div className="absolute left-[19px] size-[50px] top-[58px]" data-node-id="386:8980">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse294} />
+        </div>
+        <div className="absolute left-[22px] size-[44px] top-[61px]" data-node-id="386:8981">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" height="44" src={imgEllipse295} width="44" />
+        </div>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[137.5px] not-italic text-[20px] text-black text-center top-[71px] whitespace-nowrap" data-node-id="386:8982">
+          RecycleBot
+        </p>
+      </div>
+      <div className="absolute left-[352px] size-[30px] top-[66px]" data-node-id="386:8983" data-name="OUT">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgOut} />
+      </div>
+      <div className="absolute contents left-[16px] top-[866px]" data-node-id="386:8984" data-name="send">
+        <div className="absolute bg-white border-[#7f7f7f] border-[0.5px] border-solid h-[43px] left-[16px] rounded-[20px] top-[867px] w-[285.569px]" data-node-id="386:8985" />
+        <div className="absolute h-[43px] left-[367.41px] top-[867px] w-[45.161px]" data-node-id="386:8986" data-name="btn send">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBtnSend} />
+        </div>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[120.1px] not-italic text-[15px] text-[rgba(0,0,0,0.5)] text-center top-[879px] w-[192.198px]" data-node-id="386:8989">{`Tôi có thể giúp gì cho bạn `}</p>
+        <div className="absolute contents left-[312.57px] top-[866px]" data-node-id="386:8990">
+          <div className="absolute left-[312.57px] size-[44px] top-[866px]" data-node-id="386:8991">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse321} />
+          </div>
+          <CodeConnectSnippet data-node-id="386:8992" data-name="Mic">
+            {/* Simple Design System component */}
+            <Mic variantSize="16" size="16" />
+          </CodeConnectSnippet>
+        </div>
+      </div>
+      <div className="absolute contents left-[19px] top-[159px]" data-node-id="386:8993" data-name="message">
+        <div className="absolute bg-[#cfe4f0] h-[47px] left-[19px] rounded-[20px] top-[159px] w-[306px]" data-node-id="386:8994" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[32px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[164px] w-[293px]" data-node-id="386:8995">
+          Chào bạn! Mình là RecycleBot,mình có thể giúp gì cho bạn vậy ?
+        </p>
+      </div>
+      <div className="absolute contents left-[19px] top-[313px]" data-node-id="386:8996" data-name="message">
+        <div className="absolute bg-[#cfe4f0] h-[47px] left-[19px] rounded-[20px] top-[313px] w-[306px]" data-node-id="386:8997" />
+        <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[32px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[318px] w-[293px] whitespace-pre-wrap" data-node-id="386:8998">
+          <p className="leading-[19px] mb-0">{`Một ngày thế giới phải gánh chịu 11 tấn `}</p>
+          <p className="leading-[19px]">rác thải từ nhiều loại khác nhau</p>
+        </div>
+      </div>
+      <div className="absolute contents left-[94px] top-[236px]" data-node-id="386:8999" data-name="message">
+        <div className="absolute bg-[#97bce6] h-[47px] left-[94px] rounded-[20px] top-[236px] w-[306px]" data-node-id="386:9000" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[107px] not-italic text-[15px] text-[rgba(0,0,0,0.9)] top-[241px] w-[281px]" data-node-id="386:9001">
+          Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?
+        </p>
+      </div>
+      <div className="absolute contents left-[19px] top-[467px]" data-node-id="386:9002" data-name="message">
+        <div className="absolute bg-[#cfe4f0] h-[47px] left-[19px] rounded-[20px] top-[467px] w-[306px]" data-node-id="386:9003" />
+        <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[32px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[472px] w-[293px] whitespace-pre-wrap" data-node-id="386:9004">
+          <p className="leading-[19px] mb-0">{`Một ngày thế giới phải gánh chịu 11 tấn `}</p>
+          <p className="leading-[19px]">rác thải từ nhiều loại khác nhau</p>
+        </div>
+      </div>
+      <div className="absolute contents left-[94px] top-[390px]" data-node-id="386:9005" data-name="message">
+        <div className="absolute bg-[#97bce6] h-[47px] left-[94px] rounded-[20px] top-[390px] w-[306px]" data-node-id="386:9006" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[107px] not-italic text-[15px] text-[rgba(0,0,0,0.9)] top-[395px] w-[281px]" data-node-id="386:9007">
+          Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?
+        </p>
+      </div>
+      <div className="absolute contents left-[94px] top-[544px]" data-node-id="386:9008" data-name="message">
+        <div className="absolute bg-[#97bce6] h-[34px] left-[94px] rounded-[20px] top-[544px] w-[306px]" data-node-id="386:9009" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[107px] not-italic text-[15px] text-[rgba(0,0,0,0.9)] top-[552px] w-[281px]" data-node-id="386:9010">
+          Phân loại rác thải nhựa thế nào ?
+        </p>
+      </div>
+      <div className="absolute contents left-[19px] top-[814px]" data-node-id="386:9011">
+        <div className="absolute contents left-[19px] top-[814px]" data-node-id="386:9012">
+          <div className="absolute bg-[#cfe4f0] h-[36px] left-[19px] rounded-[20px] top-[814px] w-[155px]" data-node-id="386:9013" />
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[46px] not-italic text-[12px] text-[rgba(0,0,0,0.5)] top-[822px] w-[113px]" data-node-id="386:9014">
+            phân loại rác nhựa
+          </p>
+        </div>
+        <div className="absolute contents left-[181px] top-[814px]" data-node-id="386:9015">
+          <div className="absolute bg-[#cfe4f0] h-[36px] left-[181px] rounded-[20px] top-[814px] w-[110px]" data-node-id="386:9016" />
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[203px] not-italic text-[12px] text-[rgba(0,0,0,0.5)] top-[823px] w-[67px]" data-node-id="386:9017">
+            xử lý pin củ
+          </p>
+        </div>
+        <div className="absolute contents left-[306px] top-[814px]" data-node-id="386:9018">
+          <div className="absolute bg-[#cfe4f0] h-[36px] left-[306px] rounded-[20px] top-[814px] w-[110px]" data-node-id="386:9019" />
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[328px] not-italic text-[12px] text-[rgba(0,0,0,0.5)] top-[823px] w-[79px]" data-node-id="386:9020">
+            rác nguy hại
+          </p>
+        </div>
+      </div>
+      <div className="absolute contents left-[111px] top-[608px]" data-node-id="386:9021" data-name="audio">
+        <div className="absolute bg-[#97bce6] h-[45px] left-[111px] rounded-[20px] top-[608px] w-[289px]" data-node-id="386:9022" />
+        <div className="absolute contents left-[123px] top-[613px]" data-node-id="386:9023" data-name="Mask group">
+          <div className="absolute h-[27.5px] left-[126px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-3px_-3.333px] mask-size-[150px_35px] top-[616.33px] w-[144px]" data-node-id="386:9025" style={{ maskImage: `url("${imgAudio}")` }} data-name="audio">
+            <div className="absolute inset-[0_-2.08%_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgAudio1} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[276px] top-[617px]" data-node-id="386:9050" data-name="Mask group">
+          <div className="absolute h-[27.5px] left-[276px] top-[617px] w-[84px]" data-node-id="386:9051" data-name="audio">
+            <div className="absolute inset-[0_-3.57%_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgAudio2} />
+            </div>
+          </div>
+        </div>
+        <Polygon7 className="absolute block cursor-pointer h-[26.686px] left-[368px] top-[617.31px] w-[23.547px]" />
+      </div>
+      <div className="absolute contents inset-[0.86%_1.64%_93.84%_1.4%]" data-node-id="386:9067" data-name="time">
+        <div className="absolute contents inset-[0.86%_1.64%_93.84%_1.4%]" data-node-id="386:9068">
+          <div className="absolute contents inset-[0.86%_1.64%_93.84%_1.4%]" data-node-id="386:9069">
+            <div className="absolute inset-[0.86%_1.64%_93.84%_1.4%] overflow-clip" data-node-id="386:9070" data-name="iPhone/Status Bar">
+              <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:9070;47:200" data-name="Right Side">
+                <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:9070;47:201" data-name="Battery">
+                  <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:9070;47:202" data-name="Rectangle">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+                  </div>
+                  <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:9070;47:203" data-name="Combined Shape">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+                  </div>
+                  <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:9070;47:204" data-name="Rectangle">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+                  </div>
+                </div>
+                <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:9070;47:205" data-name="Wifi">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+                </div>
+                <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:9070;47:209" data-name="Mobile Signal">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+                </div>
+              </div>
+              <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:9070;47:216" data-name="Left Side">
+                <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:9070;47:217" data-name="Time">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## X
+**Node ID:** 306:367
+
+Keywords: cancel, close, delete, remove, times, clear
+
+## Send
+**Node ID:** 306:738
+
+Keywords: message, mail, email, paper airplane, paper aeroplane
+
+## Mic
+**Node ID:** 306:751
+
+Keywords: record, sound, listen
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

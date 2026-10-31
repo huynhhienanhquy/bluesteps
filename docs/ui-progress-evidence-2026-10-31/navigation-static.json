@@ -1,0 +1,4817 @@
+{
+  "checkedAt": "2026-10-31T13:57:00.163Z",
+  "scope": "Local app source and saved 211-frame inventory; not live Figma prototype reactions.",
+  "routeCount": 68,
+  "frameCount": 211,
+  "missingFrameRoutes": [],
+  "unmatchedSourceReferences": [],
+  "routesWithNoLiteralReferences": [
+    {
+      "route": "/demo-tools",
+      "file": "apps/mobile/app/demo-tools.tsx"
+    },
+    {
+      "route": "/design-preview",
+      "file": "apps/mobile/app/design-preview.tsx"
+    }
+  ],
+  "limitations": [
+    "Literal references include fallback paths and inactive exports; they do not prove a clickable entry point.",
+    "Runtime state transitions and return behavior require interaction tests."
+  ],
+  "routes": [
+    {
+      "route": "/collection",
+      "file": "apps/mobile/app/(tabs)/collection.tsx"
+    },
+    {
+      "route": "/",
+      "file": "apps/mobile/app/(tabs)/index.tsx"
+    },
+    {
+      "route": "/profile",
+      "file": "apps/mobile/app/(tabs)/profile.tsx"
+    },
+    {
+      "route": "/rewards",
+      "file": "apps/mobile/app/(tabs)/rewards.tsx"
+    },
+    {
+      "route": "/scan",
+      "file": "apps/mobile/app/(tabs)/scan.tsx"
+    },
+    {
+      "route": "/achievements",
+      "file": "apps/mobile/app/achievements.tsx"
+    },
+    {
+      "route": "/articles/briefs",
+      "file": "apps/mobile/app/articles/briefs.tsx"
+    },
+    {
+      "route": "/articles/calendar",
+      "file": "apps/mobile/app/articles/calendar.tsx"
+    },
+    {
+      "route": "/articles/discussion",
+      "file": "apps/mobile/app/articles/discussion.tsx"
+    },
+    {
+      "route": "/articles/events/[id]",
+      "file": "apps/mobile/app/articles/events/[id].tsx"
+    },
+    {
+      "route": "/articles",
+      "file": "apps/mobile/app/articles/index.tsx"
+    },
+    {
+      "route": "/articles/reading-list",
+      "file": "apps/mobile/app/articles/reading-list.tsx"
+    },
+    {
+      "route": "/articles/saved",
+      "file": "apps/mobile/app/articles/saved.tsx"
+    },
+    {
+      "route": "/articles/search",
+      "file": "apps/mobile/app/articles/search.tsx"
+    },
+    {
+      "route": "/articles/topics",
+      "file": "apps/mobile/app/articles/topics.tsx"
+    },
+    {
+      "route": "/articles/[id]",
+      "file": "apps/mobile/app/articles/[id].tsx"
+    },
+    {
+      "route": "/assistant",
+      "file": "apps/mobile/app/assistant.tsx"
+    },
+    {
+      "route": "/calendar",
+      "file": "apps/mobile/app/calendar.tsx"
+    },
+    {
+      "route": "/change-password",
+      "file": "apps/mobile/app/change-password.tsx"
+    },
+    {
+      "route": "/collection-arrival",
+      "file": "apps/mobile/app/collection-arrival.tsx"
+    },
+    {
+      "route": "/collection-compare",
+      "file": "apps/mobile/app/collection-compare.tsx"
+    },
+    {
+      "route": "/collection-directions",
+      "file": "apps/mobile/app/collection-directions.tsx"
+    },
+    {
+      "route": "/collection-explore",
+      "file": "apps/mobile/app/collection-explore.tsx"
+    },
+    {
+      "route": "/collection-filters",
+      "file": "apps/mobile/app/collection-filters.tsx"
+    },
+    {
+      "route": "/collection-navigation",
+      "file": "apps/mobile/app/collection-navigation.tsx"
+    },
+    {
+      "route": "/collection-replacement",
+      "file": "apps/mobile/app/collection-replacement.tsx"
+    },
+    {
+      "route": "/collection-route",
+      "file": "apps/mobile/app/collection-route.tsx"
+    },
+    {
+      "route": "/community",
+      "file": "apps/mobile/app/community.tsx"
+    },
+    {
+      "route": "/compose",
+      "file": "apps/mobile/app/compose.tsx"
+    },
+    {
+      "route": "/connected-account",
+      "file": "apps/mobile/app/connected-account.tsx"
+    },
+    {
+      "route": "/conversation",
+      "file": "apps/mobile/app/conversation.tsx"
+    },
+    {
+      "route": "/demo-tools",
+      "file": "apps/mobile/app/demo-tools.tsx"
+    },
+    {
+      "route": "/design-preview",
+      "file": "apps/mobile/app/design-preview.tsx"
+    },
+    {
+      "route": "/discussion",
+      "file": "apps/mobile/app/discussion.tsx"
+    },
+    {
+      "route": "/edit-profile",
+      "file": "apps/mobile/app/edit-profile.tsx"
+    },
+    {
+      "route": "/event-collections",
+      "file": "apps/mobile/app/event-collections.tsx"
+    },
+    {
+      "route": "/event-reminders",
+      "file": "apps/mobile/app/event-reminders.tsx"
+    },
+    {
+      "route": "/event-summary",
+      "file": "apps/mobile/app/event-summary.tsx"
+    },
+    {
+      "route": "/event-ticket",
+      "file": "apps/mobile/app/event-ticket.tsx"
+    },
+    {
+      "route": "/events",
+      "file": "apps/mobile/app/events/index.tsx"
+    },
+    {
+      "route": "/events/[id]",
+      "file": "apps/mobile/app/events/[id].tsx"
+    },
+    {
+      "route": "/forgot-password",
+      "file": "apps/mobile/app/forgot-password.tsx"
+    },
+    {
+      "route": "/game",
+      "file": "apps/mobile/app/game.tsx"
+    },
+    {
+      "route": "/handbook/category/[category]",
+      "file": "apps/mobile/app/handbook/category/[category].tsx"
+    },
+    {
+      "route": "/handbook",
+      "file": "apps/mobile/app/handbook/index.tsx"
+    },
+    {
+      "route": "/handbook/list",
+      "file": "apps/mobile/app/handbook/list.tsx"
+    },
+    {
+      "route": "/handbook/types/[kind]",
+      "file": "apps/mobile/app/handbook/types/[kind].tsx"
+    },
+    {
+      "route": "/handbook/[id]",
+      "file": "apps/mobile/app/handbook/[id].tsx"
+    },
+    {
+      "route": "/history",
+      "file": "apps/mobile/app/history.tsx"
+    },
+    {
+      "route": "/journey",
+      "file": "apps/mobile/app/journey.tsx"
+    },
+    {
+      "route": "/legal",
+      "file": "apps/mobile/app/legal.tsx"
+    },
+    {
+      "route": "/login",
+      "file": "apps/mobile/app/login.tsx"
+    },
+    {
+      "route": "/messages",
+      "file": "apps/mobile/app/messages.tsx"
+    },
+    {
+      "route": "/notifications",
+      "file": "apps/mobile/app/notifications.tsx"
+    },
+    {
+      "route": "/onboarding",
+      "file": "apps/mobile/app/onboarding.tsx"
+    },
+    {
+      "route": "/point-proposal",
+      "file": "apps/mobile/app/point-proposal.tsx"
+    },
+    {
+      "route": "/point-report",
+      "file": "apps/mobile/app/point-report.tsx"
+    },
+    {
+      "route": "/points/[id]",
+      "file": "apps/mobile/app/points/[id].tsx"
+    },
+    {
+      "route": "/register",
+      "file": "apps/mobile/app/register.tsx"
+    },
+    {
+      "route": "/registration",
+      "file": "apps/mobile/app/registration.tsx"
+    },
+    {
+      "route": "/reset-password",
+      "file": "apps/mobile/app/reset-password.tsx"
+    },
+    {
+      "route": "/rewards/catalog",
+      "file": "apps/mobile/app/rewards/catalog.tsx"
+    },
+    {
+      "route": "/rewards/guide",
+      "file": "apps/mobile/app/rewards/guide.tsx"
+    },
+    {
+      "route": "/rewards/[id]",
+      "file": "apps/mobile/app/rewards/[id].tsx"
+    },
+    {
+      "route": "/saved",
+      "file": "apps/mobile/app/saved.tsx"
+    },
+    {
+      "route": "/settings",
+      "file": "apps/mobile/app/settings.tsx"
+    },
+    {
+      "route": "/statistics",
+      "file": "apps/mobile/app/statistics.tsx"
+    },
+    {
+      "route": "/verify-email",
+      "file": "apps/mobile/app/verify-email.tsx"
+    }
+  ],
+  "frameRoutes": [
+    {
+      "nodeId": "386:18241",
+      "route": "/game?preview=1&frame=386:18241",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "386:18285",
+      "route": "/game?preview=1&frame=386:18285",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "386:18308",
+      "route": "/game?preview=1&frame=386:18308",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "386:18336",
+      "route": "/game?preview=1&frame=386:18336",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "386:18364",
+      "route": "/game?preview=1&frame=386:18364",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "427:19392",
+      "route": "/game?preview=1&frame=427:19392",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "386:18396",
+      "route": "/game?preview=1&frame=386:18396",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "427:19460",
+      "route": "/game?preview=1&frame=427:19460",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "386:18428",
+      "route": "/game?preview=1&frame=386:18428",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "487:19805",
+      "route": "/game?preview=1&frame=487:19805",
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "nodeId": "391:25009",
+      "route": "/statistics?preview=1",
+      "targets": [
+        "/statistics"
+      ]
+    },
+    {
+      "nodeId": "386:8558",
+      "route": "/design-preview?frame=386:8558",
+      "targets": [
+        "/design-preview"
+      ]
+    },
+    {
+      "nodeId": "386:17297",
+      "route": "/design-preview?frame=386:17297",
+      "targets": [
+        "/design-preview"
+      ]
+    },
+    {
+      "nodeId": "386:18473",
+      "route": "/design-preview?frame=386:18473",
+      "targets": [
+        "/design-preview"
+      ]
+    },
+    {
+      "nodeId": "386:8930",
+      "route": "/assistant?preview=1&frame=386:8930",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:8977",
+      "route": "/assistant?preview=1&frame=386:8977",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9071",
+      "route": "/assistant?preview=1&frame=386:9071",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9115",
+      "route": "/assistant?preview=1&frame=386:9115",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9152",
+      "route": "/assistant?preview=1&frame=386:9152",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9191",
+      "route": "/assistant?preview=1&frame=386:9191",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9228",
+      "route": "/assistant?preview=1&frame=386:9228",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9265",
+      "route": "/assistant?preview=1&frame=386:9265",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9302",
+      "route": "/assistant?preview=1&frame=386:9302",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:9339",
+      "route": "/assistant?preview=1&frame=386:9339",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:17222",
+      "route": "/assistant?preview=1&frame=386:17222",
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "nodeId": "386:8086",
+      "route": "/messages?preview=1&frame=386:8086",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "386:8151",
+      "route": "/messages?preview=1&frame=386:8151",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "386:8179",
+      "route": "/messages?preview=1&frame=386:8179",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "386:17262",
+      "route": "/messages?preview=1&frame=386:17262",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6023",
+      "route": "/messages?preview=1&frame=771:6023",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6077",
+      "route": "/messages?preview=1&frame=771:6077",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6108",
+      "route": "/messages?preview=1&frame=771:6108",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6144",
+      "route": "/messages?preview=1&frame=771:6144",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6180",
+      "route": "/messages?preview=1&frame=771:6180",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6480",
+      "route": "/messages?preview=1&frame=771:6480",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6514",
+      "route": "/messages?preview=1&frame=771:6514",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "771:6565",
+      "route": "/messages?preview=1&frame=771:6565",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "772:6456",
+      "route": "/messages?preview=1&frame=772:6456",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "772:6544",
+      "route": "/messages?preview=1&frame=772:6544",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "773:6563",
+      "route": "/messages?preview=1&frame=773:6563",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "773:6609",
+      "route": "/messages?preview=1&frame=773:6609",
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "nodeId": "386:15047",
+      "route": "/compose?preview=1&frame=386:15047",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:15090",
+      "route": "/compose?preview=1&frame=386:15090",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:15150",
+      "route": "/compose?preview=1&frame=386:15150",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:15209",
+      "route": "/compose?preview=1&frame=386:15209",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:15270",
+      "route": "/compose?preview=1&frame=386:15270",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:15419",
+      "route": "/compose?preview=1&frame=386:15419",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:15552",
+      "route": "/compose?preview=1&frame=386:15552",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:15972",
+      "route": "/compose?preview=1&frame=386:15972",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:16071",
+      "route": "/compose?preview=1&frame=386:16071",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:16188",
+      "route": "/compose?preview=1&frame=386:16188",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "741:5779",
+      "route": "/compose?preview=1&frame=741:5779",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "741:5846",
+      "route": "/compose?preview=1&frame=741:5846",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "741:5913",
+      "route": "/compose?preview=1&frame=741:5913",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "741:5980",
+      "route": "/compose?preview=1&frame=741:5980",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "741:6047",
+      "route": "/compose?preview=1&frame=741:6047",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "741:6114",
+      "route": "/compose?preview=1&frame=741:6114",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "743:6023",
+      "route": "/compose?preview=1&frame=743:6023",
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "nodeId": "386:7647",
+      "route": "/community?preview=1&frame=386:7647",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "386:7813",
+      "route": "/community?preview=1&frame=386:7813",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "722:5570",
+      "route": "/community?preview=1&frame=722:5570",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "722:5635",
+      "route": "/community?preview=1&frame=722:5635",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "722:5699",
+      "route": "/community?preview=1&frame=722:5699",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "722:5749",
+      "route": "/community?preview=1&frame=722:5749",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "723:5646",
+      "route": "/community?preview=1&frame=723:5646",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "723:5722",
+      "route": "/community?preview=1&frame=723:5722",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "723:5809",
+      "route": "/community?preview=1&frame=723:5809",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "723:5892",
+      "route": "/community?preview=1&frame=723:5892",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "733:5722",
+      "route": "/community?preview=1&frame=733:5722",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "733:5787",
+      "route": "/community?preview=1&frame=733:5787",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "734:5760",
+      "route": "/community?preview=1&frame=734:5760",
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "nodeId": "386:7913",
+      "route": "/notifications?preview=1&frame=386:7913",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "386:8003",
+      "route": "/notifications?preview=1&frame=386:8003",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "386:8228",
+      "route": "/notifications?preview=1&frame=386:8228",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "386:8311",
+      "route": "/notifications?preview=1&frame=386:8311",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "386:8380",
+      "route": "/notifications?preview=1&frame=386:8380",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "703:5399",
+      "route": "/notifications?preview=1&frame=703:5399",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "703:5468",
+      "route": "/notifications?preview=1&frame=703:5468",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "703:5524",
+      "route": "/notifications?preview=1&frame=703:5524",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "703:5589",
+      "route": "/notifications?preview=1&frame=703:5589",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "712:5475",
+      "route": "/notifications?preview=1&frame=712:5475",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "712:5578",
+      "route": "/notifications?preview=1&frame=712:5578",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "712:5667",
+      "route": "/notifications?preview=1&frame=712:5667",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "712:5756",
+      "route": "/notifications?preview=1&frame=712:5756",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "712:5845",
+      "route": "/notifications?preview=1&frame=712:5845",
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "nodeId": "386:11010",
+      "route": "/rewards?preview=1&frame=386:11010",
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "nodeId": "386:16253",
+      "route": "/rewards?preview=1&frame=386:16253",
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "nodeId": "386:16592",
+      "route": "/rewards?preview=1&frame=386:16592",
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "nodeId": "386:11320",
+      "route": "/rewards/guide?preview=1&frame=386:11320",
+      "targets": [
+        "/rewards/guide",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:11451",
+      "route": "/rewards/catalog?preview=1&frame=386:11451",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:11652",
+      "route": "/rewards/catalog?preview=1&frame=386:11652",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:11858",
+      "route": "/rewards/catalog?preview=1&frame=386:11858",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:12064",
+      "route": "/rewards/catalog?preview=1&frame=386:12064",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:12071",
+      "route": "/history?preview=1&frame=386:12071",
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "nodeId": "386:12194",
+      "route": "/history?preview=1&frame=386:12194",
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "nodeId": "386:12284",
+      "route": "/history?preview=1&frame=386:12284",
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "nodeId": "386:12362",
+      "route": "/rewards/catalog?preview=1&frame=386:12362",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:12517",
+      "route": "/rewards/catalog?preview=1&frame=386:12517",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:12671",
+      "route": "/rewards/catalog?preview=1&frame=386:12671",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:12823",
+      "route": "/rewards/catalog?preview=1&frame=386:12823",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:12956",
+      "route": "/rewards/catalog?preview=1&frame=386:12956",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:13109",
+      "route": "/rewards/catalog?preview=1&frame=386:13109",
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "nodeId": "680:5343",
+      "route": "/articles/search?preview=1",
+      "targets": [
+        "/articles/search",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "680:5406",
+      "route": "/articles/reading-list?preview=1",
+      "targets": [
+        "/articles/reading-list",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "680:5461",
+      "route": "/articles/events/nhieu-loc?preview=1",
+      "targets": [
+        "/articles/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "695:5419",
+      "route": "/articles/events/nhieu-loc?preview=1&confirm=1",
+      "targets": [
+        "/articles/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:9376",
+      "route": "/events/green-class?preview=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:7054",
+      "route": "/events/green-class?preview=1&interested=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:9470",
+      "route": "/events/beach?preview=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:17397",
+      "route": "/events/beach?preview=1&interested=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:9575",
+      "route": "/events/school-class?preview=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:9681",
+      "route": "/events/school-class?preview=1&interested=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:10026",
+      "route": "/events/garden?preview=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:17299",
+      "route": "/events/garden?preview=1&interested=1",
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:18069",
+      "route": "/saved?preview=1",
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "nodeId": "386:10122",
+      "route": "/saved?preview=1&feedback=saved",
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "nodeId": "386:10131",
+      "route": "/saved?preview=1&feedback=removed",
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "nodeId": "534:49034",
+      "route": "/events?preview=1",
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "nodeId": "386:17608",
+      "route": "/articles/daily-waste?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:17701",
+      "route": "/articles/daily-waste?preview=1&expanded=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:10644",
+      "route": "/articles/youth-ideas?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:17794",
+      "route": "/articles/local-cleanup?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:10737",
+      "route": "/articles/green-sunday?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:17887",
+      "route": "/articles/storm-cleanup?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:10828",
+      "route": "/articles/saigon-cleanup?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:17978",
+      "route": "/articles/ha-long?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:10919",
+      "route": "/articles/tourism-cleanup?preview=1",
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "391:24796",
+      "route": "/articles?preview=1",
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "nodeId": "386:9787",
+      "route": "/articles?view=latest&preview=1",
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "nodeId": "386:9901",
+      "route": "/articles?view=events&preview=1",
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "nodeId": "612:5362",
+      "route": "/articles/calendar?preview=1",
+      "targets": [
+        "/articles/calendar",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "612:5441",
+      "route": "/articles/briefs?preview=1",
+      "targets": [
+        "/articles/briefs",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "609:5361",
+      "route": "/articles/discussion?id=daily-waste&preview=1",
+      "targets": [
+        "/articles/discussion",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "612:5286",
+      "route": "/articles/topics?preview=1",
+      "targets": [
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "609:5165",
+      "route": "/articles?view=search&preview=1",
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "nodeId": "609:5266",
+      "route": "/articles/saved?preview=1",
+      "targets": [
+        "/articles/saved",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "nodeId": "534:49845",
+      "route": "/event-collections?preview=1",
+      "targets": [
+        "/event-collections"
+      ]
+    },
+    {
+      "nodeId": "534:49968",
+      "route": "/event-reminders?preview=1",
+      "targets": [
+        "/event-reminders"
+      ]
+    },
+    {
+      "nodeId": "534:49166",
+      "route": "/calendar?preview=1",
+      "targets": [
+        "/calendar"
+      ]
+    },
+    {
+      "nodeId": "534:49416",
+      "route": "/event-ticket?id=green-class&preview=1",
+      "targets": [
+        "/event-ticket"
+      ]
+    },
+    {
+      "nodeId": "534:49326",
+      "route": "/registration?id=green-class&preview=1",
+      "targets": [
+        "/registration"
+      ]
+    },
+    {
+      "nodeId": "534:49760",
+      "route": "/event-summary?id=green-class&preview=1",
+      "targets": [
+        "/event-summary"
+      ]
+    },
+    {
+      "nodeId": "386:14241",
+      "route": "/scan?state=loading&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:14346",
+      "route": "/scan?state=detail&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:14379",
+      "route": "/scan?state=award&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:14454",
+      "route": "/scan?state=handbook&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:16931",
+      "route": "/handbook/types/plastic",
+      "targets": [
+        "/handbook/types/[kind]"
+      ]
+    },
+    {
+      "nodeId": "386:17005",
+      "route": "/handbook/types/medical",
+      "targets": [
+        "/handbook/types/[kind]"
+      ]
+    },
+    {
+      "nodeId": "386:17077",
+      "route": "/handbook/types/bag",
+      "targets": [
+        "/handbook/types/[kind]"
+      ]
+    },
+    {
+      "nodeId": "386:17145",
+      "route": "/handbook/types/battery",
+      "targets": [
+        "/handbook/types/[kind]"
+      ]
+    },
+    {
+      "nodeId": "386:13593",
+      "route": "/handbook/category/inorganic",
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "nodeId": "386:13685",
+      "route": "/handbook/category/inorganic?expanded=1",
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "nodeId": "386:13782",
+      "route": "/handbook/category/organic",
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "nodeId": "386:13838",
+      "route": "/handbook/category/organic?expanded=1",
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "nodeId": "386:13929",
+      "route": "/handbook/category/recycle",
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "nodeId": "386:14037",
+      "route": "/handbook/category/recycle?expanded=1",
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "nodeId": "534:48595",
+      "route": "/point-proposal",
+      "targets": [
+        "/point-proposal"
+      ]
+    },
+    {
+      "nodeId": "534:48690",
+      "route": "/point-report",
+      "targets": [
+        "/point-report"
+      ]
+    },
+    {
+      "nodeId": "386:10351",
+      "route": "/collection-route",
+      "targets": [
+        "/collection-route"
+      ]
+    },
+    {
+      "nodeId": "386:8633",
+      "route": "/collection-explore",
+      "targets": [
+        "/collection-explore"
+      ]
+    },
+    {
+      "nodeId": "386:10136",
+      "route": "/collection-navigation",
+      "targets": [
+        "/collection-navigation"
+      ]
+    },
+    {
+      "nodeId": "534:48869",
+      "route": "/collection-replacement",
+      "targets": [
+        "/collection-replacement"
+      ]
+    },
+    {
+      "nodeId": "534:48955",
+      "route": "/collection-arrival",
+      "targets": [
+        "/collection-arrival"
+      ]
+    },
+    {
+      "nodeId": "386:10279",
+      "route": "/collection-directions",
+      "targets": [
+        "/collection-directions"
+      ]
+    },
+    {
+      "nodeId": "386:10186",
+      "route": "/points/green-hub",
+      "targets": [
+        "/points/[id]"
+      ]
+    },
+    {
+      "nodeId": "534:48774",
+      "route": "/journey",
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "nodeId": "386:8569",
+      "route": "/collection",
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "nodeId": "534:48401",
+      "route": "/collection-filters",
+      "targets": [
+        "/collection-filters"
+      ]
+    },
+    {
+      "nodeId": "534:48505",
+      "route": "/collection-compare",
+      "targets": [
+        "/collection-compare"
+      ]
+    },
+    {
+      "nodeId": "386:14194",
+      "route": "/scan?state=start&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:14221",
+      "route": "/scan?state=camera&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:14264",
+      "route": "/scan?state=unrecognized&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:14309",
+      "route": "/scan?state=result&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:16189",
+      "route": "/scan?state=focused&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:16218",
+      "route": "/scan?state=success&preview=1",
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "nodeId": "386:13263",
+      "route": "/handbook",
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "nodeId": "386:13313",
+      "route": "/handbook?variant=active",
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "nodeId": "386:13364",
+      "route": "/handbook/list",
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:14521",
+      "route": "/handbook/plastic",
+      "targets": [
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:14595",
+      "route": "/handbook/carton",
+      "targets": [
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:14670",
+      "route": "/handbook/textiles",
+      "targets": [
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:14745",
+      "route": "/handbook/battery",
+      "targets": [
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:14820",
+      "route": "/handbook/organic",
+      "targets": [
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:14895",
+      "route": "/handbook/glass",
+      "targets": [
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:14970",
+      "route": "/handbook/paper",
+      "targets": [
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "nodeId": "386:8451",
+      "route": "/settings",
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "nodeId": "386:8516",
+      "route": "/edit-profile",
+      "targets": [
+        "/edit-profile"
+      ]
+    },
+    {
+      "nodeId": "521:4735",
+      "route": "/change-password",
+      "targets": [
+        "/change-password"
+      ]
+    },
+    {
+      "nodeId": "386:7348",
+      "route": "/connected-account",
+      "targets": [
+        "/connected-account"
+      ]
+    },
+    {
+      "nodeId": "514:5093",
+      "route": "/settings?overlay=search",
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "nodeId": "514:5096",
+      "route": "/settings?overlay=sound",
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "nodeId": "514:5099",
+      "route": "/settings?overlay=history",
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "nodeId": "514:5102",
+      "route": "/settings?overlay=pin",
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "nodeId": "391:25197",
+      "route": "/",
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "nodeId": "386:7420",
+      "route": "/profile",
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "nodeId": "386:7184",
+      "route": "/login",
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "nodeId": "386:7390",
+      "route": "/register",
+      "targets": [
+        "/register"
+      ]
+    },
+    {
+      "nodeId": "386:7225",
+      "route": "/forgot-password",
+      "targets": [
+        "/forgot-password"
+      ]
+    },
+    {
+      "nodeId": "386:7266",
+      "route": "/verify-email",
+      "targets": [
+        "/verify-email"
+      ]
+    },
+    {
+      "nodeId": "386:7307",
+      "route": "/reset-password",
+      "targets": [
+        "/reset-password"
+      ]
+    },
+    {
+      "nodeId": "386:7550",
+      "route": "/achievements",
+      "targets": [
+        "/achievements"
+      ]
+    },
+    {
+      "nodeId": "386:7148",
+      "route": "/onboarding?step=0&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7418",
+      "route": "/onboarding?step=1&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7154",
+      "route": "/onboarding?step=2&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7158",
+      "route": "/onboarding?step=3&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7149",
+      "route": "/onboarding?step=4&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7151",
+      "route": "/onboarding?step=5&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7156",
+      "route": "/onboarding?step=6&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7160",
+      "route": "/onboarding?step=7&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7168",
+      "route": "/onboarding?step=8&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "nodeId": "386:7176",
+      "route": "/onboarding?step=9&preview=1",
+      "targets": [
+        "/onboarding"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "value": "/",
+      "file": "apps/mobile/src/design-system/DesignFrameCanvas.tsx",
+      "line": 261,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/design-system/DesignFrameCanvas.tsx",
+      "line": 262,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/design-system/DesignFrameCanvas.tsx",
+      "line": 263,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/design-system/DesignFrameCanvas.tsx",
+      "line": 264,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/design-system/DesignFrameCanvas.tsx",
+      "line": 265,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/design-system/DesignScreen.tsx",
+      "line": 137,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 122,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 123,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 124,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 125,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 146,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 186,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 190,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 198,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 206,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 300,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "line": 379,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/design-system/ui.tsx",
+      "line": 395,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/messages",
+      "file": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+      "line": 26,
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+      "line": 360,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/login",
+      "file": "apps/mobile/src/features/auth/AccountLayout.tsx",
+      "line": 29,
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "value": "/connected-account",
+      "file": "apps/mobile/src/features/auth/AuthForm.tsx",
+      "line": 206,
+      "targets": [
+        "/connected-account"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/auth/AuthForm.tsx",
+      "line": 241,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/login",
+      "file": "apps/mobile/src/features/auth/AuthForm.tsx",
+      "line": 293,
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "value": "/forgot-password",
+      "file": "apps/mobile/src/features/auth/AuthForm.tsx",
+      "line": 371,
+      "targets": [
+        "/forgot-password"
+      ]
+    },
+    {
+      "value": "/register",
+      "file": "apps/mobile/src/features/auth/AuthForm.tsx",
+      "line": 430,
+      "targets": [
+        "/register"
+      ]
+    },
+    {
+      "value": "/settings",
+      "file": "apps/mobile/src/features/auth/ChangePasswordScreen.tsx",
+      "line": 57,
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "value": "/forgot-password",
+      "file": "apps/mobile/src/features/auth/ChangePasswordScreen.tsx",
+      "line": 77,
+      "targets": [
+        "/forgot-password"
+      ]
+    },
+    {
+      "value": "/settings",
+      "file": "apps/mobile/src/features/auth/ChangePasswordScreen.tsx",
+      "line": 149,
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "value": "/login",
+      "file": "apps/mobile/src/features/auth/ConnectedAccountScreen.tsx",
+      "line": 186,
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/auth/ConnectedAccountScreen.tsx",
+      "line": 196,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/register",
+      "file": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "line": 855,
+      "targets": [
+        "/register"
+      ]
+    },
+    {
+      "value": "/login",
+      "file": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "line": 863,
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "line": 865,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/verify-email",
+      "file": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+      "line": 69,
+      "targets": [
+        "/verify-email"
+      ]
+    },
+    {
+      "value": "/login",
+      "file": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+      "line": 74,
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "value": "/reset-password",
+      "file": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+      "line": 191,
+      "targets": [
+        "/reset-password"
+      ]
+    },
+    {
+      "value": "/login",
+      "file": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+      "line": 305,
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+      "line": 92,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+      "line": 294,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 15,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 16,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/statistics",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 17,
+      "targets": [
+        "/statistics"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 18,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 46,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 106,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/achievements",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 111,
+      "targets": [
+        "/achievements"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 113,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 117,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/handbook/category/organic",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 122,
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "value": "/handbook/category/recycle",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 127,
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "value": "/handbook/category/recycle",
+      "file": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+      "line": 132,
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "value": "/collection-directions?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionArrivalScreen.tsx",
+      "line": 55,
+      "targets": [
+        "/collection-directions"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionArrivalScreen.tsx",
+      "line": 56,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/point-report?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionArrivalScreen.tsx",
+      "line": 75,
+      "targets": [
+        "/point-report"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionArrivalScreen.tsx",
+      "line": 84,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/journey?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionCompareScreen.tsx",
+      "line": 31,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/journey?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionDirectionsScreen.tsx",
+      "line": 38,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/collection-route?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionDirectionsScreen.tsx",
+      "line": 218,
+      "targets": [
+        "/collection-route"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionDirectionsScreen.tsx",
+      "line": 226,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection-navigation?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionDirectionsScreen.tsx",
+      "line": 355,
+      "targets": [
+        "/collection-navigation"
+      ]
+    },
+    {
+      "value": "/points/*",
+      "file": "apps/mobile/src/features/collection/CollectionDirectionsScreen.tsx",
+      "line": 369,
+      "targets": [
+        "/points/[id]"
+      ]
+    },
+    {
+      "value": "/collection?query=*",
+      "file": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "line": 38,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "line": 38,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "line": 57,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "line": 87,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/collection-filters?next=nearby",
+      "file": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "line": 222,
+      "targets": [
+        "/collection-filters"
+      ]
+    },
+    {
+      "value": "/point-proposal",
+      "file": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "line": 245,
+      "targets": [
+        "/point-proposal"
+      ]
+    },
+    {
+      "value": "/journey",
+      "file": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "line": 278,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionFiltersScreen.tsx",
+      "line": 106,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionFiltersScreen.tsx",
+      "line": 108,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/points/*",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 53,
+      "targets": [
+        "/points/[id]"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 158,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 188,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/collection-compare",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 297,
+      "targets": [
+        "/collection-compare"
+      ]
+    },
+    {
+      "value": "/journey?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 409,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/collection-filters",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 448,
+      "targets": [
+        "/collection-filters"
+      ]
+    },
+    {
+      "value": "/collection-explore",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 487,
+      "targets": [
+        "/collection-explore"
+      ]
+    },
+    {
+      "value": "/collection-filters",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 494,
+      "targets": [
+        "/collection-filters"
+      ]
+    },
+    {
+      "value": "/journey",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 517,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/point-proposal",
+      "file": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "line": 524,
+      "targets": [
+        "/point-proposal"
+      ]
+    },
+    {
+      "value": "/collection-replacement",
+      "file": "apps/mobile/src/features/collection/CollectionNavigationScreen.tsx",
+      "line": 129,
+      "targets": [
+        "/collection-replacement"
+      ]
+    },
+    {
+      "value": "/collection-arrival",
+      "file": "apps/mobile/src/features/collection/CollectionNavigationScreen.tsx",
+      "line": 136,
+      "targets": [
+        "/collection-arrival"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionNavigationScreen.tsx",
+      "line": 202,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection-replacement",
+      "file": "apps/mobile/src/features/collection/CollectionNavigationScreen.tsx",
+      "line": 232,
+      "targets": [
+        "/collection-replacement"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "line": 77,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "line": 186,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/journey",
+      "file": "apps/mobile/src/features/collection/CollectionReplacementScreen.tsx",
+      "line": 31,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/journey",
+      "file": "apps/mobile/src/features/collection/CollectionReplacementScreen.tsx",
+      "line": 36,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/journey?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+      "line": 62,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/collection-directions",
+      "file": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+      "line": 89,
+      "targets": [
+        "/collection-directions"
+      ]
+    },
+    {
+      "value": "/collection-directions?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+      "line": 113,
+      "targets": [
+        "/collection-directions"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+      "line": 121,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection-navigation?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+      "line": 437,
+      "targets": [
+        "/collection-navigation"
+      ]
+    },
+    {
+      "value": "/collection-route?point=*",
+      "file": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+      "line": 448,
+      "targets": [
+        "/collection-route"
+      ]
+    },
+    {
+      "value": "/collection-navigation?point=*",
+      "file": "apps/mobile/src/features/collection/JourneyScreen.tsx",
+      "line": 436,
+      "targets": [
+        "/collection-navigation"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+      "line": 33,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+      "line": 66,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection-directions?point=*",
+      "file": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+      "line": 154,
+      "targets": [
+        "/collection-directions"
+      ]
+    },
+    {
+      "value": "/point-report?point=*",
+      "file": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+      "line": 300,
+      "targets": [
+        "/point-report"
+      ]
+    },
+    {
+      "value": "/journey",
+      "file": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+      "line": 369,
+      "targets": [
+        "/journey"
+      ]
+    },
+    {
+      "value": "/points/*",
+      "file": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+      "line": 375,
+      "targets": [
+        "/points/[id]"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 69,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 70,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 201,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/notifications?view=community",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 307,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/compose",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 333,
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "value": "/compose",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 338,
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "value": "/messages",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 425,
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "value": "/messages",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 572,
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 708,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/messages",
+      "file": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+      "line": 735,
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "value": "/messages",
+      "file": "apps/mobile/src/features/community/CommunityScreens.tsx",
+      "line": 30,
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "value": "/compose",
+      "file": "apps/mobile/src/features/community/CommunityScreens.tsx",
+      "line": 37,
+      "targets": [
+        "/compose"
+      ]
+    },
+    {
+      "value": "/discussion?postId=*",
+      "file": "apps/mobile/src/features/community/CommunityScreens.tsx",
+      "line": 73,
+      "targets": [
+        "/discussion"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/CommunityScreens.tsx",
+      "line": 107,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/CommunityScreens.tsx",
+      "line": 148,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+      "line": 303,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+      "line": 682,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/content/ContentScreens.tsx",
+      "line": 22,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/articles/*",
+      "file": "apps/mobile/src/features/content/ContentScreens.tsx",
+      "line": 24,
+      "targets": [
+        "/articles/briefs",
+        "/articles/calendar",
+        "/articles/discussion",
+        "/articles/reading-list",
+        "/articles/saved",
+        "/articles/search",
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/points/*",
+      "file": "apps/mobile/src/features/content/ContentScreens.tsx",
+      "line": 26,
+      "targets": [
+        "/points/[id]"
+      ]
+    },
+    {
+      "value": "/history",
+      "file": "apps/mobile/src/features/content/ContentScreens.tsx",
+      "line": 28,
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "value": "/onboarding",
+      "file": "apps/mobile/src/features/content/ContentScreens.tsx",
+      "line": 29,
+      "targets": [
+        "/onboarding"
+      ]
+    },
+    {
+      "value": "/articles/discussion",
+      "file": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+      "line": 70,
+      "targets": [
+        "/articles/discussion",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+      "line": 92,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/saved?preview=1",
+      "file": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+      "line": 222,
+      "targets": [
+        "/articles/saved",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/saved",
+      "file": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+      "line": 222,
+      "targets": [
+        "/articles/saved",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "line": 52,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/topics",
+      "file": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "line": 137,
+      "targets": [
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/*",
+      "file": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "line": 141,
+      "targets": [
+        "/articles/briefs",
+        "/articles/calendar",
+        "/articles/discussion",
+        "/articles/reading-list",
+        "/articles/saved",
+        "/articles/search",
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "line": 204,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "line": 245,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/articles/*",
+      "file": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "line": 273,
+      "targets": [
+        "/articles/briefs",
+        "/articles/calendar",
+        "/articles/discussion",
+        "/articles/reading-list",
+        "/articles/saved",
+        "/articles/search",
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 49,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 90,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/articles/events/[id]",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 115,
+      "targets": [
+        "/articles/events/[id]"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 121,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 194,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 217,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/articles/community-day",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 221,
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 223,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/calendar",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 228,
+      "targets": [
+        "/articles/calendar",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 246,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "line": 256,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 116,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 117,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 118,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 119,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 140,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 254,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 315,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 315,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/articles/*",
+      "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+      "line": 407,
+      "targets": [
+        "/articles/briefs",
+        "/articles/calendar",
+        "/articles/discussion",
+        "/articles/reading-list",
+        "/articles/saved",
+        "/articles/search",
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsDiscussionView.tsx",
+      "line": 115,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/**",
+      "file": "apps/mobile/src/features/content/NewsDiscussionView.tsx",
+      "line": 126,
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/calendar",
+      "file": "apps/mobile/src/features/content/NewsEventScreen.tsx",
+      "line": 55,
+      "targets": [
+        "/articles/calendar",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/calendar",
+      "file": "apps/mobile/src/features/content/NewsEventScreen.tsx",
+      "line": 67,
+      "targets": [
+        "/articles/calendar",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsExtendedParts.tsx",
+      "line": 81,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+      "line": 349,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/*",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 38,
+      "targets": [
+        "/articles/briefs",
+        "/articles/calendar",
+        "/articles/discussion",
+        "/articles/reading-list",
+        "/articles/saved",
+        "/articles/search",
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/search",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 45,
+      "targets": [
+        "/articles/search",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 76,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 427,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 450,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/articles/saved",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 533,
+      "targets": [
+        "/articles/saved",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 887,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "line": 932,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/articles/reading-list",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 28,
+      "targets": [
+        "/articles/reading-list",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/events/[id]",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 32,
+      "targets": [
+        "/articles/events/[id]"
+      ]
+    },
+    {
+      "value": "/articles/topics",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 35,
+      "targets": [
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/calendar",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 36,
+      "targets": [
+        "/articles/calendar",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/briefs",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 37,
+      "targets": [
+        "/articles/briefs",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/*",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 111,
+      "targets": [
+        "/articles/briefs",
+        "/articles/calendar",
+        "/articles/discussion",
+        "/articles/reading-list",
+        "/articles/saved",
+        "/articles/search",
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 122,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsParts.tsx",
+      "line": 166,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/[id]",
+      "file": "apps/mobile/src/features/content/NewsReadingListScreen.tsx",
+      "line": 73,
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/saved",
+      "file": "apps/mobile/src/features/content/NewsReadingListScreen.tsx",
+      "line": 77,
+      "targets": [
+        "/articles/saved",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/search",
+      "file": "apps/mobile/src/features/content/NewsReadingListScreen.tsx",
+      "line": 237,
+      "targets": [
+        "/articles/search",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/content/NewsScreens.tsx",
+      "line": 71,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/content/NewsScreens.tsx",
+      "line": 95,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/articles/discussion?id=*",
+      "file": "apps/mobile/src/features/content/NewsScreens.tsx",
+      "line": 127,
+      "targets": [
+        "/articles/discussion",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/saved",
+      "file": "apps/mobile/src/features/content/NewsScreens.tsx",
+      "line": 132,
+      "targets": [
+        "/articles/saved",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles/topics",
+      "file": "apps/mobile/src/features/content/NewsScreens.tsx",
+      "line": 146,
+      "targets": [
+        "/articles/topics",
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsSearchScreen.tsx",
+      "line": 95,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/[id]",
+      "file": "apps/mobile/src/features/content/NewsSearchScreen.tsx",
+      "line": 221,
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+      "line": 24,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+      "line": 30,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+      "line": 37,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+      "line": 189,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "line": 126,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "line": 130,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "line": 275,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/event-reminders",
+      "file": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "line": 451,
+      "targets": [
+        "/event-reminders"
+      ]
+    },
+    {
+      "value": "/event-ticket?id=*",
+      "file": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "line": 465,
+      "targets": [
+        "/event-ticket"
+      ]
+    },
+    {
+      "value": "/event-summary?id=*",
+      "file": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "line": 467,
+      "targets": [
+        "/event-summary"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "line": 468,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "line": 160,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/event-reminders",
+      "file": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "line": 321,
+      "targets": [
+        "/event-reminders"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "line": 396,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "line": 480,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 97,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 97,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/calendar",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 97,
+      "targets": [
+        "/calendar"
+      ]
+    },
+    {
+      "value": "/event-collections",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 97,
+      "targets": [
+        "/event-collections"
+      ]
+    },
+    {
+      "value": "/event-reminders",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 97,
+      "targets": [
+        "/event-reminders"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 204,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 373,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/calendar",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 380,
+      "targets": [
+        "/calendar"
+      ]
+    },
+    {
+      "value": "/event-ticket?id=*",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 389,
+      "targets": [
+        "/event-ticket"
+      ]
+    },
+    {
+      "value": "/registration?id=*",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 389,
+      "targets": [
+        "/registration"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 438,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/events/[id]",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 469,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/event-ticket?id=*",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 541,
+      "targets": [
+        "/event-ticket"
+      ]
+    },
+    {
+      "value": "/registration?id=*",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 541,
+      "targets": [
+        "/registration"
+      ]
+    },
+    {
+      "value": "/event-summary?id=*",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 549,
+      "targets": [
+        "/event-summary"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 554,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+      "line": 567,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/events/EventExploreScreen.tsx",
+      "line": 67,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/calendar",
+      "file": "apps/mobile/src/features/events/EventExploreScreen.tsx",
+      "line": 204,
+      "targets": [
+        "/calendar"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventExploreScreen.tsx",
+      "line": 229,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/events/EventExploreScreen.tsx",
+      "line": 286,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventFormParts.tsx",
+      "line": 26,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/event-ticket?id=*",
+      "file": "apps/mobile/src/features/events/EventParticipationScreens.tsx",
+      "line": 66,
+      "targets": [
+        "/event-ticket"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/events/EventParticipationScreens.tsx",
+      "line": 75,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/events/EventParts.tsx",
+      "line": 74,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventParts.tsx",
+      "line": 173,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventParts.tsx",
+      "line": 185,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/calendar",
+      "file": "apps/mobile/src/features/events/EventParts.tsx",
+      "line": 191,
+      "targets": [
+        "/calendar"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "line": 92,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "line": 102,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "line": 344,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/event-ticket?id=*",
+      "file": "apps/mobile/src/features/events/EventScreens.tsx",
+      "line": 99,
+      "targets": [
+        "/event-ticket"
+      ]
+    },
+    {
+      "value": "/registration?id=*",
+      "file": "apps/mobile/src/features/events/EventScreens.tsx",
+      "line": 99,
+      "targets": [
+        "/registration"
+      ]
+    },
+    {
+      "value": "/event-summary?id=*",
+      "file": "apps/mobile/src/features/events/EventScreens.tsx",
+      "line": 106,
+      "targets": [
+        "/event-summary"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/EventSummaryScreen.tsx",
+      "line": 73,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/events/EventSummaryScreen.tsx",
+      "line": 96,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/registration?id=*",
+      "file": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "line": 82,
+      "targets": [
+        "/registration"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "line": 90,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/calendar",
+      "file": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "line": 109,
+      "targets": [
+        "/calendar"
+      ]
+    },
+    {
+      "value": "/event-reminders",
+      "file": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "line": 112,
+      "targets": [
+        "/event-reminders"
+      ]
+    },
+    {
+      "value": "/registration?id=**",
+      "file": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "line": 117,
+      "targets": [
+        "/registration"
+      ]
+    },
+    {
+      "value": "/event-summary?id=*",
+      "file": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "line": 279,
+      "targets": [
+        "/event-summary"
+      ]
+    },
+    {
+      "value": "/event-collections",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 63,
+      "targets": [
+        "/event-collections"
+      ]
+    },
+    {
+      "value": "/event-reminders",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 63,
+      "targets": [
+        "/event-reminders"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 63,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 82,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/event-collections",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 114,
+      "targets": [
+        "/event-collections"
+      ]
+    },
+    {
+      "value": "/event-reminders",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 115,
+      "targets": [
+        "/event-reminders"
+      ]
+    },
+    {
+      "value": "/events/[id]",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 196,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+      "line": 268,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/handbook/list",
+      "file": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "line": 204,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/handbook/*",
+      "file": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "line": 247,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/handbook/list",
+      "file": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "line": 134,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/handbook/types/[kind]",
+      "file": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "line": 204,
+      "targets": [
+        "/handbook/types/[kind]"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "line": 220,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "line": 227,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/handbook/HandbookHeader.tsx",
+      "line": 79,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/handbook/list",
+      "file": "apps/mobile/src/features/handbook/HandbookLanding.tsx",
+      "line": 16,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/handbook/category/*",
+      "file": "apps/mobile/src/features/handbook/HandbookLanding.tsx",
+      "line": 87,
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "value": "/handbook/category/*",
+      "file": "apps/mobile/src/features/handbook/HandbookList.tsx",
+      "line": 92,
+      "targets": [
+        "/handbook/category/[category]"
+      ]
+    },
+    {
+      "value": "/handbook/*",
+      "file": "apps/mobile/src/features/handbook/HandbookList.tsx",
+      "line": 165,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/handbook/HandbookScreen.tsx",
+      "line": 44,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/handbook/HandbookScreen.tsx",
+      "line": 87,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/handbook/list",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 204,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/handbook/types/[kind]",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 216,
+      "targets": [
+        "/handbook/types/[kind]"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 228,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 229,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 230,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 231,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 232,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/handbook/types/[kind]",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 279,
+      "targets": [
+        "/handbook/types/[kind]"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "line": 283,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 21,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 22,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 23,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 24,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 35,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 61,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 111,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 165,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 190,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 197,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/events/*",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 220,
+      "targets": [
+        "/events/[id]"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 266,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/handbook/*",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 290,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 290,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/articles",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 308,
+      "targets": [
+        "/articles"
+      ]
+    },
+    {
+      "value": "/articles/daily-waste",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 313,
+      "targets": [
+        "/articles/[id]"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "line": 353,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+      "line": 107,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/conversation",
+      "file": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+      "line": 108,
+      "targets": [
+        "/conversation"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+      "line": 165,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/game",
+      "file": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+      "line": 736,
+      "targets": [
+        "/game"
+      ]
+    },
+    {
+      "value": "/messages",
+      "file": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+      "line": 788,
+      "targets": [
+        "/messages"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+      "line": 800,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/community?view=post",
+      "file": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+      "line": 849,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/assistant",
+      "file": "apps/mobile/src/features/messages/MessageScreens.tsx",
+      "line": 46,
+      "targets": [
+        "/assistant"
+      ]
+    },
+    {
+      "value": "/conversation?id=*",
+      "file": "apps/mobile/src/features/messages/MessageScreens.tsx",
+      "line": 47,
+      "targets": [
+        "/conversation"
+      ]
+    },
+    {
+      "value": "/handbook",
+      "file": "apps/mobile/src/features/messages/MessageScreens.tsx",
+      "line": 98,
+      "targets": [
+        "/handbook"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 51,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 52,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 92,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 101,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/rewards/catalog",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 101,
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "value": "/rewards/catalog",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 243,
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "value": "/events",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 256,
+      "targets": [
+        "/events"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 271,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+      "line": 385,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/profile/AchievementsScreen.tsx",
+      "line": 28,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/profile/AchievementsScreen.tsx",
+      "line": 64,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/profile/EditProfileScreen.tsx",
+      "line": 19,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/profile/EditProfileScreen.tsx",
+      "line": 86,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/change-password",
+      "file": "apps/mobile/src/features/profile/EditProfileScreen.tsx",
+      "line": 231,
+      "targets": [
+        "/change-password"
+      ]
+    },
+    {
+      "value": "/achievements",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 19,
+      "targets": [
+        "/achievements"
+      ]
+    },
+    {
+      "value": "/history",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 20,
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "value": "/saved",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 21,
+      "targets": [
+        "/saved"
+      ]
+    },
+    {
+      "value": "/statistics",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 22,
+      "targets": [
+        "/statistics"
+      ]
+    },
+    {
+      "value": "/edit-profile",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 29,
+      "targets": [
+        "/edit-profile"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 35,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/settings",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 41,
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "value": "/settings",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 58,
+      "targets": [
+        "/settings"
+      ]
+    },
+    {
+      "value": "/edit-profile",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 68,
+      "targets": [
+        "/edit-profile"
+      ]
+    },
+    {
+      "value": "/edit-profile",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 101,
+      "targets": [
+        "/edit-profile"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 122,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/achievements",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 136,
+      "targets": [
+        "/achievements"
+      ]
+    },
+    {
+      "value": "/history",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 247,
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "value": "/history",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 267,
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "value": "/community",
+      "file": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "line": 314,
+      "targets": [
+        "/community"
+      ]
+    },
+    {
+      "value": "/legal",
+      "file": "apps/mobile/src/features/profile/ProfileScreens.tsx",
+      "line": 79,
+      "targets": [
+        "/legal"
+      ]
+    },
+    {
+      "value": "/change-password",
+      "file": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+      "line": 57,
+      "targets": [
+        "/change-password"
+      ]
+    },
+    {
+      "value": "/edit-profile",
+      "file": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+      "line": 64,
+      "targets": [
+        "/edit-profile"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+      "line": 71,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+      "line": 53,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+      "line": 108,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/change-password",
+      "file": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+      "line": 260,
+      "targets": [
+        "/change-password"
+      ]
+    },
+    {
+      "value": "/edit-profile",
+      "file": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+      "line": 267,
+      "targets": [
+        "/edit-profile"
+      ]
+    },
+    {
+      "value": "/notifications",
+      "file": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+      "line": 308,
+      "targets": [
+        "/notifications"
+      ]
+    },
+    {
+      "value": "/login",
+      "file": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+      "line": 322,
+      "targets": [
+        "/login"
+      ]
+    },
+    {
+      "value": "/history",
+      "file": "apps/mobile/src/features/rewards/RewardScreens.tsx",
+      "line": 48,
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "value": "/rewards/*",
+      "file": "apps/mobile/src/features/rewards/RewardScreens.tsx",
+      "line": 86,
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/guide",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignParts.tsx",
+      "line": 172,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignParts.tsx",
+      "line": 173,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignParts.tsx",
+      "line": 174,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignParts.tsx",
+      "line": 175,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignParts.tsx",
+      "line": 176,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 16,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/rewards/guide",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 36,
+      "targets": [
+        "/rewards/guide",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "value": "/rewards/catalog",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 41,
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "value": "/history",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 46,
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 54,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/rewards/catalog",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 71,
+      "targets": [
+        "/rewards/catalog",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "value": "/history",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 286,
+      "targets": [
+        "/history"
+      ]
+    },
+    {
+      "value": "/rewards/guide",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 388,
+      "targets": [
+        "/rewards/guide",
+        "/rewards/[id]"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 395,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+      "line": 423,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "line": 366,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "line": 372,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "line": 373,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "line": 374,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/profile",
+      "file": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "line": 375,
+      "targets": [
+        "/profile"
+      ]
+    },
+    {
+      "value": "/scan",
+      "file": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "line": 376,
+      "targets": [
+        "/scan"
+      ]
+    },
+    {
+      "value": "/",
+      "file": "apps/mobile/src/features/scan/ScanScreen.tsx",
+      "line": 111,
+      "targets": [
+        "/"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/scan/ScanScreen.tsx",
+      "line": 230,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/handbook/*",
+      "file": "apps/mobile/src/features/scan/ScanScreen.tsx",
+      "line": 243,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    },
+    {
+      "value": "/collection",
+      "file": "apps/mobile/src/features/scan/ScanScreen.tsx",
+      "line": 346,
+      "targets": [
+        "/collection"
+      ]
+    },
+    {
+      "value": "/rewards",
+      "file": "apps/mobile/src/features/scan/ScanScreen.tsx",
+      "line": 352,
+      "targets": [
+        "/rewards"
+      ]
+    },
+    {
+      "value": "/handbook/*",
+      "file": "apps/mobile/src/features/scan/ScanScreen.tsx",
+      "line": 354,
+      "targets": [
+        "/handbook/list",
+        "/handbook/[id]"
+      ]
+    }
+  ]
+}

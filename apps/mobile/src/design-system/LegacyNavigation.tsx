@@ -2,6 +2,159 @@ import { Platform, Pressable, View } from 'react-native';
 import { router, type Href } from 'expo-router';
 import { Artwork } from './DesignScreen';
 import { achievementAssets as assets } from './achievement-assets';
+import { useState } from 'react';
+
+/** The 428 × 112 variant uses the frame's own SVGs and their original nested bounds. */
+function FrameNavigation({ source }: { source: Record<string, number> }) {
+  const [width, setWidth] = useState(428);
+  const scale = width / 428;
+  const rect = (left: number, top: number, right: number, bottom: number) => ({
+    left: left * 4.28,
+    top: top * 1.12,
+    width: (100 - left - right) * 4.28,
+    height: (100 - top - bottom) * 1.12,
+  });
+  const expand = (r: ReturnType<typeof rect>, horizontal: number, vertical: number) => ({
+    left: r.left - (r.width * horizontal) / 100,
+    top: r.top - (r.height * vertical) / 100,
+    width: r.width * (1 + (2 * horizontal) / 100),
+    height: r.height * (1 + (2 * vertical) / 100),
+  });
+  const layers = [
+    ['imgRectangle87', rect(39.86, 42.24, 38.74, 0)],
+    ['imgVector', rect(85.9, 54.83, 11.58, 35.52)],
+    ['imgVector1', rect(84.01, 50, 9.68, 25.86)],
+    ['imgVector2', expand(rect(65.37, 60.86, 28.88, 25.86), 2.94, 4.87)],
+    ['imgVector3', expand(rect(65.09, 50, 28.6, 26.47), 2.68, 2.75)],
+    ['imgVector4', expand(rect(29.28, 55.92, 64.41, 23.67), 2.68, 3.17)],
+    ['imgVector5', expand(rect(29.48, 50, 64.61, 27.62), 2.86, 2.89)],
+    [
+      'imgVector6',
+      expand(
+        {
+          left: 428 * 0.1081,
+          top: 58,
+          width: 428 * (1 - 0.1081 - 0.8288),
+          height: 428 * (1 - 0.1081 - 0.8288),
+        },
+        2.78,
+        2.78,
+      ),
+    ],
+    [
+      'imgEllipse9',
+      (() => {
+        const r = rect(41.67, 0, 41.44, 35.34);
+        return {
+          left: r.left - r.width * 0.0533,
+          top: r.top,
+          width: r.width * 1.1066,
+          height: r.height * 1.1067,
+        };
+      })(),
+    ],
+    ['imgVector7', expand(rect(46.85, 19.83, 46.4, 54.31), 3.33, 3.33)],
+    [
+      'imgLine1',
+      {
+        left: 428 * 0.3626,
+        top: 112 * 0.9483 - 2.56,
+        width: 428 * (1 - 0.3626 - 0.3198),
+        height: 2.56,
+      },
+    ],
+  ] as const;
+  return (
+    <View
+      onLayout={(event) => setWidth(event.nativeEvent.layout.width)}
+      style={{ width: '100%', height: 112 * scale }}
+    >
+      <View
+        style={{
+          position: 'absolute',
+          left: 0,
+          top: 112 * 0.3362 * scale,
+          width: 428 * 0.4167 * scale,
+          height: 112 * 0.6638 * scale,
+          backgroundColor: '#147CC1',
+          borderBottomLeftRadius: 25,
+          borderTopRightRadius: 35,
+        }}
+      />
+      <View
+        style={{
+          position: 'absolute',
+          right: 0,
+          top: 112 * 0.3534 * scale,
+          width: 428 * 0.4167 * scale,
+          height: 112 * 0.6466 * scale,
+          backgroundColor: '#147CC1',
+          borderBottomRightRadius: 25,
+          borderTopLeftRadius: 35,
+        }}
+      />
+      <View
+        style={{
+          position: 'absolute',
+          left: 428 * 0.045 * scale,
+          top: 112 * 0.4397 * scale,
+          width: 428 * 0.196 * scale,
+          height: 112 * 0.4051 * scale,
+          backgroundColor: '#147CC1',
+          borderRadius: 25,
+          borderBottomLeftRadius: 70,
+        }}
+      />
+      {layers
+        .filter(([key]) => Platform.OS === 'web' || key !== 'imgLine1')
+        .map(([key, r]) => (
+          <Artwork
+            key={key}
+            source={source[key]}
+            width={r.width * scale}
+            height={r.height * scale}
+            fit="fill"
+            style={{ position: 'absolute', left: r.left * scale, top: r.top * scale }}
+          />
+        ))}
+      {(
+        [
+          ['Trang chủ', '/', 0.045, 0.196],
+          ['Thu gom', '/collection', 0.25, 0.18],
+          ['Đổi quà', '/rewards', 0.63, 0.18],
+          ['Cá nhân', '/profile', 0.82, 0.18],
+        ] as const
+      ).map(([label, path, left, buttonWidth]) => (
+        <Pressable
+          key={label}
+          accessibilityRole="tab"
+          accessibilityLabel={label}
+          accessibilityState={{ selected: label === 'Trang chủ' }}
+          onPress={() => router.replace(path)}
+          style={{
+            position: 'absolute',
+            left: width * left,
+            top: 45 * scale,
+            width: width * buttonWidth,
+            height: 55 * scale,
+          }}
+        />
+      ))}
+      <Pressable
+        accessibilityRole="tab"
+        accessibilityLabel="Quét rác"
+        onPress={() => router.push('/scan')}
+        style={{
+          position: 'absolute',
+          left: width * 0.4,
+          top: 0,
+          width: width * 0.2,
+          height: 83 * scale,
+        }}
+      />
+    </View>
+  );
+}
 
 /** Original curved navigation used by the older frames on backuped. */
 export function LegacyNavigation({
@@ -11,6 +164,7 @@ export function LegacyNavigation({
   centerSource,
   gestureColor = '#000000',
   handbookAssets,
+  frameAssets,
 }: {
   selected?: 'home' | 'collection' | 'rewards' | 'profile' | 'scan' | null;
   handbook?: boolean;
@@ -18,7 +172,9 @@ export function LegacyNavigation({
   centerSource?: number;
   gestureColor?: string;
   handbookAssets?: Record<string, number>;
+  frameAssets?: Record<string, number>;
 }) {
+  if (frameAssets) return <FrameNavigation source={frameAssets} />;
   const links: {
     name: typeof selected;
     title: string;

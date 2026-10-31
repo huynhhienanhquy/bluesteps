@@ -1,0 +1,23 @@
+module.exports = {
+  group: 'bot',
+  feature: 'assistant',
+  exportName: 'botAssets',
+  preserveClipping: true,
+  preserveMasks: true,
+  componentLayout: 'bot-component-layout.json',
+  componentAssets: 'bot-component-assets.json',
+  addComponentAssets: true,
+  frames: [
+    '386:8930',
+    '386:8977',
+    '386:9071',
+    '386:9115',
+    '386:9152',
+    '386:9191',
+    '386:9228',
+    '386:9265',
+    '386:9302',
+    '386:9339',
+    '386:17222',
+  ],
+};

@@ -1,0 +1,14 @@
+
+Running 5 tests using 1 worker
+
+(node:12232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\events.spec.ts:13:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local (5.9s)
+  ok 2 e2e\events.spec.ts:72:5 › preview feedback does not create a ticket and the role picker preserves participation choices (4.3s)
+  ok 3 e2e\events.spec.ts:99:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation (3.2s)
+  ok 4 e2e\events.spec.ts:146:5 › calendar selects full dates, switches months and shows the empty state (1.8s)
+  ok 5 e2e\events.spec.ts:166:5 › event screens render at 390 and 428 px with local assets and valid empty deep links (20.0s)
+
+  5 passed (37.5s)

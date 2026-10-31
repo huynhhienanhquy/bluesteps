@@ -1,0 +1,1723 @@
+{
+  "checkedNodes": 67,
+  "zeroSize": [],
+  "hidden": [],
+  "noActions": [],
+  "rows": [
+    {
+      "id": "386:8091",
+      "frame": "386:8086",
+      "type": "RECTANGLE",
+      "width": 378,
+      "height": 49,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:8930",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8147",
+      "frame": "386:8086",
+      "type": "TEXT",
+      "width": 148,
+      "height": 15,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:8930",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8121",
+      "frame": "386:8086",
+      "type": "TEXT",
+      "width": 56,
+      "height": 17,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:18241",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8937",
+      "frame": "386:8930",
+      "type": "INSTANCE",
+      "width": 30,
+      "height": 30,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:8086",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8983",
+      "frame": "386:8977",
+      "type": "INSTANCE",
+      "width": 30,
+      "height": 30,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:8086",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17223",
+      "frame": "386:17222",
+      "type": "RECTANGLE",
+      "width": 162,
+      "height": 58,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:9152",
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9152",
+      "frame": "386:9152",
+      "type": "FRAME",
+      "width": 428,
+      "height": 481,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "AFTER_TIMEOUT",
+            "timeout": 0.23999999463558197
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:9115",
+              "navigation": "SWAP",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14241",
+      "frame": "386:14241",
+      "type": "FRAME",
+      "width": 428,
+      "height": 926,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "AFTER_TIMEOUT",
+            "timeout": 1.2000000476837158
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:16189",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14234",
+      "frame": "386:14221",
+      "type": "ELLIPSE",
+      "width": 56,
+      "height": 55,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14264",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14258",
+      "frame": "386:14241",
+      "type": "INSTANCE",
+      "width": 26,
+      "height": 26,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14194",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14271",
+      "frame": "386:14264",
+      "type": "INSTANCE",
+      "width": 26,
+      "height": 26,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14194",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14315",
+      "frame": "386:14309",
+      "type": "INSTANCE",
+      "width": 26,
+      "height": 26,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14221",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:16195",
+      "frame": "386:16189",
+      "type": "INSTANCE",
+      "width": 26,
+      "height": 26,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14221",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:16224",
+      "frame": "386:16218",
+      "type": "INSTANCE",
+      "width": 26,
+      "height": 26,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14221",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9607",
+      "frame": "386:9575",
+      "type": "INSTANCE",
+      "width": 84,
+      "height": 35,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:9681",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9761",
+      "frame": "386:9681",
+      "type": "INSTANCE",
+      "width": 40,
+      "height": 40,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:9575",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10130",
+      "frame": "386:10122",
+      "type": "INSTANCE",
+      "width": 237,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:18069",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10122",
+      "frame": "386:10122",
+      "type": "FRAME",
+      "width": 359,
+      "height": 162,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10131",
+      "frame": "386:10131",
+      "type": "FRAME",
+      "width": 359,
+      "height": 95,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "CLOSE"
+            }
+          ]
+        },
+        {
+          "trigger": {
+            "type": "AFTER_TIMEOUT",
+            "timeout": 1.100000023841858
+          },
+          "actions": [
+            {
+              "type": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "539:4992",
+      "frame": "386:18069",
+      "type": "INSTANCE",
+      "width": 44,
+      "height": 24,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:10131",
+              "overlayRelativePosition": {
+                "x": -316.5,
+                "y": 216.5
+              },
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "539:5002",
+      "frame": "386:18069",
+      "type": "INSTANCE",
+      "width": 44,
+      "height": 24,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:10131",
+              "overlayRelativePosition": {
+                "x": -316.5,
+                "y": 110.5
+              },
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "539:5012",
+      "frame": "386:18069",
+      "type": "INSTANCE",
+      "width": 44,
+      "height": 24,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:10131",
+              "overlayRelativePosition": {
+                "x": -316.5,
+                "y": 4.5
+              },
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "539:5022",
+      "frame": "386:18069",
+      "type": "INSTANCE",
+      "width": 44,
+      "height": 24,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:10131",
+              "overlayRelativePosition": {
+                "x": -316.5,
+                "y": -101.5
+              },
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "539:4971",
+      "frame": "386:18069",
+      "type": "INSTANCE",
+      "width": 24,
+      "height": 24,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:7054",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11030",
+      "frame": "386:11010",
+      "type": "GROUP",
+      "width": 64,
+      "height": 65,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:11451",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11038",
+      "frame": "386:11010",
+      "type": "GROUP",
+      "width": 64,
+      "height": 65,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:12071",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11046",
+      "frame": "386:11010",
+      "type": "GROUP",
+      "width": 64,
+      "height": 65,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:11320",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11029",
+      "frame": "386:11010",
+      "type": "TEXT",
+      "width": 133,
+      "height": 27,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:7420",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11252",
+      "frame": "386:11010",
+      "type": "ELLIPSE",
+      "width": 50,
+      "height": 50,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:7420",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8559",
+      "frame": "386:8558",
+      "type": "GROUP",
+      "width": 116,
+      "height": 40,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:7420",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8562",
+      "frame": "386:8558",
+      "type": "INSTANCE",
+      "width": 157,
+      "height": 25,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "391:24796",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8563",
+      "frame": "386:8558",
+      "type": "INSTANCE",
+      "width": 157,
+      "height": 25,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:7647",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8567",
+      "frame": "386:8558",
+      "type": "INSTANCE",
+      "width": 157,
+      "height": 25,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "391:25009",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I391:24830;2244:2013",
+      "frame": "391:24796",
+      "type": "INSTANCE",
+      "width": 22,
+      "height": 22,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:8558",
+              "overlayRelativePosition": {
+                "x": -145,
+                "y": 30
+              },
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13294",
+      "frame": "386:13263",
+      "type": "GROUP",
+      "width": 316,
+      "height": 62,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_HOVER"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:13313",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "easing": {
+                  "type": "EASE_IN"
+                },
+                "duration": 0.800000011920929
+              },
+              "resetVideoPosition": false
+            }
+          ]
+        },
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:13313",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14751",
+      "frame": "386:14745",
+      "type": "RECTANGLE",
+      "width": 190,
+      "height": 120,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:17297",
+              "navigation": "OVERLAY",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:17297",
+      "frame": "386:17297",
+      "type": "FRAME",
+      "width": 106.90792083740234,
+      "height": 60,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "CLOSE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "427:19460",
+      "frame": "427:19460",
+      "type": "FRAME",
+      "width": 428,
+      "height": 926,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "AFTER_TIMEOUT",
+            "timeout": 1
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "487:19805",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13416",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14521",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13425",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14820",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13434",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14970",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13443",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:17077",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13452",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:17145",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13461",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:17005",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13470",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14595",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13478",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14895",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13487",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14670",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13496",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:16931",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13505",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:13929",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13514",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:16931",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13523",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14820",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13532",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:13593",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13541",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14820",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13550",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:13593",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13559",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:13593",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13568",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:13593",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13581",
+      "frame": "386:13364",
+      "type": "GROUP",
+      "width": 350,
+      "height": 80,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:17145",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "478:4839",
+      "frame": "391:24796",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "391:25197",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false,
+              "resetScrollPosition": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "478:4841",
+      "frame": "391:24796",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:8633",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false,
+              "resetScrollPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "478:4843",
+      "frame": "391:24796",
+      "type": "FRAME",
+      "width": 68,
+      "height": 70,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14194",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false,
+              "resetScrollPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "478:4845",
+      "frame": "391:24796",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:16253",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false,
+              "resetScrollPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "478:4847",
+      "frame": "391:24796",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:7420",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false,
+              "resetScrollPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "491:4769",
+      "frame": "391:25009",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "391:25197",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "491:4771",
+      "frame": "391:25009",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:8633",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "491:4773",
+      "frame": "391:25009",
+      "type": "FRAME",
+      "width": 68,
+      "height": 70,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:14194",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "491:4775",
+      "frame": "391:25009",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:16253",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "491:4777",
+      "frame": "391:25009",
+      "type": "FRAME",
+      "width": 66,
+      "height": 54,
+      "visible": true,
+      "reactions": [
+        {
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "386:7420",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

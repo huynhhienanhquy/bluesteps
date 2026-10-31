@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-30T21:31:48.0944867+07:00",
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "sessionId": "57bc5ffe-9a8d-479a-b3a8-c7e80a804447",
+  "source": "Cached high-fidelity get_design_context JSX and original local assets; cached original 428x926 screenshots were viewed before implementation. Screenshots are never used as UI assets.",
+  "frames": [
+    {
+      "implementation": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+      "reference": "docs/figma-fidelity/reference/609-5165.png",
+      "scope": "Search and filtering, not the separate news landing frame",
+      "nodeId": "609:5165",
+      "route": "/articles?view=search&preview=1",
+      "context": "docs/figma-fidelity/contexts/609-5165.txt"
+    },
+    {
+      "implementation": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+      "reference": "docs/figma-fidelity/reference/609-5266.png",
+      "scope": "Saved article list and local confirmation/empty/filter/pagination interactions",
+      "nodeId": "609:5266",
+      "route": "/articles/saved?preview=1",
+      "context": "docs/figma-fidelity/contexts/609-5266.txt"
+    }
+  ],
+  "reused": [
+    "CollectionText/CollectionSheet/CollectionAction and existing Inter 3.19 font assets",
+    "EventField/EventRoleOption/EventTextAction",
+    "Artwork and all original frame images/SVGs",
+    "QueryContent/useDemoQuery, news provider session, filterNews and NewsNavigation"
+  ],
+  "supplemented": [
+    "NewsDesignPage is needed because existing page wrappers cannot express the 16px inset status bar, 42px circular back control, 23px heading and blue background without changing other screens",
+    "The grouped seven-asset navigation renderer uses exact nested percentage slots from the cached news JSX; existing LegacyNavigation variants use different vector layers",
+    "NewsDesignCard uses a bounded 170x174 native component with percentage asset slots, within responsive flow rows; rows clip shadows as in the design"
+  ],
+  "codeConnect": "No CodeConnectSnippet appears in either cached news context; no connected component was bypassed",
+  "assets": {
+    "audit": "docs/figma-fidelity/news-feed-asset-audit.json",
+    "imageFilesEdited": false,
+    "toleranceCssPx": 0.1,
+    "temporaryUrlsUsedAtRuntime": false,
+    "slots": 58,
+    "matchingMd5": 58,
+    "maxDifference": 0.02924999999999045
+  },
+  "intentionalDemoDifferences": [
+    "Search results are counted from actual fixtures: the preview query returns six matches, whereas the design text hardcodes twelve. The unfiltered real list has twelve articles.",
+    "Six canonical design stories were added with original titles/photos and synthetic metadata; all titles/person/event references remain unverified demo content. Existing articles use illustrative design photos, not factual photo attribution.",
+    "Real lists expose four articles per page with pagination and navigation links. Preview isolates six saved design stories and shows only the first four for the reference composition; saved/liked edits in preview do not update provider state.",
+    "The Tái chế pill aliases the Phân loại topic; Sự kiện aliases Cộng đồng. Other active topics are shown as an additional pill, while sort/topic/saved-search choices open reusable sheets.",
+    "Unselected save hearts are translucent, selected hearts use the original image unchanged. Like counts update locally.",
+    "Long card titles use two lines and retain the full accessible read label; original explicit line breaks are preserved for canonical stories."
+  ],
+  "freshFigmaRead": {
+    "status": "Denied",
+    "contextDebugId": "0f25e1c6-4e6d-4d2d-ad5f-f032f34ee664",
+    "savedScreenshotDebugId": "5eec3646-c48d-46c7-8027-8a6785c70ae5",
+    "searchScreenshotDebugId": "62419e18-ec93-489c-8f06-5d7e6fb2d444"
+  },
+  "fullFrameComparison": "docs/figma-fidelity/diff/report-news-.json",
+  "fullFidelityProven": false,
+  "physicalDeviceQaDone": false,
+  "remainingScope": [
+    "News landing/hero frame and article-detail variants",
+    "Discussion, topics, green calendar and briefs fidelity",
+    "Native keyboard/safe-area/font scaling QA",
+    "Remaining in-progress UI groups from the full progress report"
+  ],
+  "goalComplete": false,
+  "currentRouteUpdate": {
+    "checkedAt": "2026-10-30T22:58:10.2339115+07:00",
+    "previousRoute": "/articles?preview=1",
+    "newRoute": "/articles?view=search&preview=1",
+    "reason": "The default /articles now renders the separate news landing screen; the search frame retains its own explicit view"
+  }
+}

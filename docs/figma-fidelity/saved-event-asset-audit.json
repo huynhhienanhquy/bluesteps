@@ -1,0 +1,1345 @@
+{
+  "source": "Expectations derived from the saved high-fidelity Figma JSX flow and nested percentage bounds; fresh Figma screenshot/geometry access was denied. Text-dependent pill x position uses the cached Inter layout, rounded to 0.1px.",
+  "scope": "Every static image/SVG occurrence in the two 428px preview captures; 390px loading and overflow checked separately. This does not prove full-frame fidelity.",
+  "limitations": [
+    "The Plus Code Connect source package is absent. The original 18px plus from registration node 534:50224 is reused in the 24px slot; exact glyph parity with connected Plus 306:638 is not verified.",
+    "Collection flow from cached JSX is 1153px tall in the 1144px viewport and scrolls by 9px. Fresh original screenshot is needed to resolve the discrepancy; no full-frame fidelity claim."
+  ],
+  "toleranceCssPx": 0.1,
+  "slots": 53,
+  "failed": 0,
+  "callsites": {
+    "header": "apps/mobile/src/features/collection/CollectionPage.tsx",
+    "534:49845": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+    "534:49968": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+    "shared": "apps/mobile/src/features/events/EventSavedParts.tsx",
+    "navigation": "apps/mobile/src/design-system/LegacyNavigation.tsx"
+  },
+  "rows": [
+    {
+      "frame": "534:49845",
+      "key": "imgTime",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgTime.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        12,
+        12,
+        52,
+        21
+      ],
+      "actual": [
+        12,
+        12,
+        52,
+        21
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "76dc7793af1fd4a4fe11decfb9332da5",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgRectangle",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgRectangle.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        379,
+        17.333,
+        22,
+        11.333
+      ],
+      "actual": [
+        379,
+        17.328125,
+        22,
+        11.328125
+      ],
+      "maxDifference": 0.004875000000000185,
+      "nonempty": true,
+      "contentHash": "3ae95790fd93da0aff4535f2814ae982",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgCombinedShape",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgCombinedShape.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        402.002,
+        21,
+        1.328,
+        4
+      ],
+      "actual": [
+        402.03125,
+        21,
+        1.3125,
+        4
+      ],
+      "maxDifference": 0.02924999999999045,
+      "nonempty": true,
+      "contentHash": "8be0d8b7e48d8c08fc5810c6787768d4",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgRectangle1",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgRectangle1.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        381,
+        19.333,
+        18,
+        7.333
+      ],
+      "actual": [
+        381,
+        19.328125,
+        18,
+        7.328125
+      ],
+      "maxDifference": 0.004875000000000185,
+      "nonempty": true,
+      "contentHash": "3db7ace88df584925bc136bad159c554",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgWifi",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgWifi.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        358.698,
+        17.333,
+        15.272,
+        10.966
+      ],
+      "actual": [
+        358.71875,
+        17.328125,
+        15.265625,
+        10.953125
+      ],
+      "maxDifference": 0.02075000000002092,
+      "nonempty": true,
+      "contentHash": "4e3219a0a1d3f3d732217d3ea8722af1",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgMobileSignal",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgMobileSignal.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        336.67,
+        17.667,
+        17,
+        10.666
+      ],
+      "actual": [
+        336.671875,
+        17.65625,
+        17,
+        10.65625
+      ],
+      "maxDifference": 0.010750000000001592,
+      "nonempty": true,
+      "contentHash": "5bd19aafe6e53a18b3fba0ffc66918ef",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgBack",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49326/imgBack.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        31.75,
+        67.75,
+        8.5,
+        14.5
+      ],
+      "actual": [
+        31.75,
+        67.75,
+        8.5,
+        14.5
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "f1b74b1adc81e6ad63c1133bb36842d5",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgNhDiDin",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgNhDiDin.png",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        372,
+        59,
+        32,
+        32
+      ],
+      "actual": [
+        372,
+        59,
+        32,
+        32
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "472882f53554234601dfa71c857e63b0",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgHeart",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgHeart.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        24,
+        128,
+        24,
+        24
+      ],
+      "actual": [
+        24,
+        128,
+        24,
+        24
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "b90f05ddd8526cd92caf1d953d9e2de2",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgSun",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgSun.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        41,
+        198,
+        28,
+        28
+      ],
+      "actual": [
+        41,
+        198,
+        28,
+        28
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "aee0b3b1d16eba72391bc5d401c97cd0",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgEllipsis",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgEllipsis.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        173,
+        198,
+        18,
+        18
+      ],
+      "actual": [
+        173,
+        198,
+        18,
+        18
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "1812ad0aeeb7a1d75648e7b95b37d318",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgHouse",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgHouse.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        237,
+        198,
+        28,
+        28
+      ],
+      "actual": [
+        237,
+        198,
+        28,
+        28
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "30ac8645f9304a5f7608920013e8cece",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgEllipsis",
+      "occurrence": 1,
+      "source": "apps/mobile/assets/figma/534-49845/imgEllipsis.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        369,
+        198,
+        18,
+        18
+      ],
+      "actual": [
+        369,
+        198,
+        18,
+        18
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "1812ad0aeeb7a1d75648e7b95b37d318",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgUsers",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgUsers.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        41,
+        327,
+        28,
+        28
+      ],
+      "actual": [
+        41,
+        327,
+        28,
+        28
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "d25d1e4a77c86490c0d87fae8ac54a46",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgEllipsis",
+      "occurrence": 2,
+      "source": "apps/mobile/assets/figma/534-49845/imgEllipsis.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        173,
+        327,
+        18,
+        18
+      ],
+      "actual": [
+        173,
+        327,
+        18,
+        18
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "1812ad0aeeb7a1d75648e7b95b37d318",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgPlus",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49326/imgPlus.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        300,
+        348,
+        24,
+        24
+      ],
+      "actual": [
+        300,
+        348,
+        24,
+        24
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "64a26cd5c425525fbfec403d8efc81fd",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgSquareCheck",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgSquareCheck.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        41,
+        530,
+        22,
+        22
+      ],
+      "actual": [
+        41,
+        530,
+        22,
+        22
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "63ddcbc49aba118c87551e75d366aafa",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgNhMinhHa",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgNhMinhHa.png",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        73,
+        511,
+        60,
+        60
+      ],
+      "actual": [
+        73,
+        511,
+        60,
+        60
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "78948b96835128ca69d52c17049c6326",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgSquareCheck",
+      "occurrence": 1,
+      "source": "apps/mobile/assets/figma/534-49845/imgSquareCheck.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        41,
+        600,
+        22,
+        22
+      ],
+      "actual": [
+        41,
+        600,
+        22,
+        22
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "63ddcbc49aba118c87551e75d366aafa",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgNhMinhHa1",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgNhMinhHa1.png",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        73,
+        581,
+        60,
+        60
+      ],
+      "actual": [
+        73,
+        581,
+        60,
+        60
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "78b4f8e28433f126cabe772e205f794a",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgBell",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgBell.svg",
+      "callsite": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "expected": [
+        41,
+        730.5,
+        24,
+        24
+      ],
+      "actual": [
+        41,
+        730.5,
+        24,
+        24
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "17c72eee3a97d02acbd9dabad5977452",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgCheck",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgCheck.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        39,
+        857,
+        14,
+        14
+      ],
+      "actual": [
+        39,
+        857,
+        14,
+        14
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "afa6c877286f6c4a9df00d385efa5304",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgRectangle87",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgRectangle87.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        170.60080000000002,
+        1088.3088,
+        91.592,
+        64.69120000000001
+      ],
+      "actual": [
+        170.59375,
+        1088.296875,
+        91.578125,
+        64.6875
+      ],
+      "maxDifference": 0.01387499999999875,
+      "nonempty": true,
+      "contentHash": "23dd6eab76971a8f31dbfeca8c0e0bdc",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        367.65200000000004,
+        1102.4096,
+        10.785599999999976,
+        10.808
+      ],
+      "actual": [
+        367.640625,
+        1102.40625,
+        10.78125,
+        10.796875
+      ],
+      "maxDifference": 0.011375000000043656,
+      "nonempty": true,
+      "contentHash": "1b653890784ea373b08c3198f7b7ceba",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector1",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector1.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        359.56280000000004,
+        1097,
+        27.00679999999998,
+        27.036800000000003
+      ],
+      "actual": [
+        359.5625,
+        1097,
+        27,
+        27.03125
+      ],
+      "maxDifference": 0.006799999999980599,
+      "nonempty": true,
+      "contentHash": "de22e8a3894d156bb0e46c6cbfd011e7",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector2",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector2.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        279.06006600000006,
+        1108.43885568,
+        26.057067999999983,
+        16.322288640000004
+      ],
+      "actual": [
+        279.046875,
+        1108.4375,
+        26.046875,
+        16.3125
+      ],
+      "maxDifference": 0.013191000000063013,
+      "nonempty": true,
+      "contentHash": "ea3d29dc3b47994cc77a55352979067a",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector3",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector3.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        277.86141776000005,
+        1096.275276,
+        28.45436447999998,
+        27.803048000000004
+      ],
+      "actual": [
+        277.859375,
+        1096.265625,
+        28.453125,
+        27.796875
+      ],
+      "maxDifference": 0.009651000000076237,
+      "nonempty": true,
+      "contentHash": "fea235c198b4b5fe1a0a3aafa2d4eb3b",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector4",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector4.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        124.59461776,
+        1102.90576336,
+        28.454364480000017,
+        24.308473279999994
+      ],
+      "actual": [
+        124.59375,
+        1102.890625,
+        28.453125,
+        24.296875
+      ],
+      "maxDifference": 0.01513836000003721,
+      "nonempty": true,
+      "contentHash": "4718aecedabd9afed7d0306c9a26efb9",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector5",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector5.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        125.45096872,
+        1096.27560416,
+        26.741662559999984,
+        26.514391680000003
+      ],
+      "actual": [
+        125.4375,
+        1096.265625,
+        26.734375,
+        26.5
+      ],
+      "maxDifference": 0.014391680000002793,
+      "nonempty": true,
+      "contentHash": "fb046f198c778b58d4c7a77ede7c516e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector6",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector6.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        45.51601096,
+        1098.24921096,
+        28.50837808,
+        28.50837808
+      ],
+      "actual": [
+        45.515625,
+        1098.234375,
+        28.5,
+        28.5
+      ],
+      "maxDifference": 0.014835960000027626,
+      "nonempty": true,
+      "contentHash": "f168b5b4252ace96da7a440eaff6a06e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgEllipse9",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgEllipse9.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        174.49458564000003,
+        1041,
+        79.99522872000001,
+        80.14632864000001
+      ],
+      "actual": [
+        174.484375,
+        1041,
+        79.984375,
+        80.140625
+      ],
+      "maxDifference": 0.010853720000014278,
+      "nonempty": true,
+      "contentHash": "cfe1044e2a4c8cb280431e2675bc9f27",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgVector7",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgVector7.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        199.55596300000002,
+        1062.24512544,
+        30.814074,
+        30.89214912
+      ],
+      "actual": [
+        199.546875,
+        1062.234375,
+        30.8125,
+        30.890625
+      ],
+      "maxDifference": 0.010750440000037997,
+      "nonempty": true,
+      "contentHash": "7c19286503d95a559a1076f4f7661957",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49845",
+      "key": "imgLine1",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49845/imgLine1.svg",
+      "callsite": "apps/mobile/src/design-system/LegacyNavigation.tsx",
+      "expected": [
+        155.1928,
+        1144.6496,
+        135.9328,
+        2.56
+      ],
+      "actual": [
+        155.1875,
+        1144.640625,
+        135.921875,
+        2.546875
+      ],
+      "maxDifference": 0.013125000000000053,
+      "nonempty": true,
+      "contentHash": "78865ebd1d81040346c9628b7f377ead",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgTime",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgTime.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        12,
+        12,
+        52,
+        21
+      ],
+      "actual": [
+        12,
+        12,
+        52,
+        21
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "76dc7793af1fd4a4fe11decfb9332da5",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgRectangle",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgRectangle.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        379,
+        17.333,
+        22,
+        11.333
+      ],
+      "actual": [
+        379,
+        17.328125,
+        22,
+        11.328125
+      ],
+      "maxDifference": 0.004875000000000185,
+      "nonempty": true,
+      "contentHash": "bcc1b1f48ffd429bb7f3765e93cf4c67",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCombinedShape",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgCombinedShape.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        402.002,
+        21,
+        1.328,
+        4
+      ],
+      "actual": [
+        402.03125,
+        21,
+        1.3125,
+        4
+      ],
+      "maxDifference": 0.02924999999999045,
+      "nonempty": true,
+      "contentHash": "8be0d8b7e48d8c08fc5810c6787768d4",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgRectangle1",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgRectangle1.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        381,
+        19.333,
+        18,
+        7.333
+      ],
+      "actual": [
+        381,
+        19.328125,
+        18,
+        7.328125
+      ],
+      "maxDifference": 0.004875000000000185,
+      "nonempty": true,
+      "contentHash": "3db7ace88df584925bc136bad159c554",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgWifi",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgWifi.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        358.698,
+        17.333,
+        15.272,
+        10.966
+      ],
+      "actual": [
+        358.71875,
+        17.328125,
+        15.265625,
+        10.953125
+      ],
+      "maxDifference": 0.02075000000002092,
+      "nonempty": true,
+      "contentHash": "4e3219a0a1d3f3d732217d3ea8722af1",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgMobileSignal",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgMobileSignal.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        336.67,
+        17.667,
+        17,
+        10.666
+      ],
+      "actual": [
+        336.671875,
+        17.65625,
+        17,
+        10.65625
+      ],
+      "maxDifference": 0.010750000000001592,
+      "nonempty": true,
+      "contentHash": "5bd19aafe6e53a18b3fba0ffc66918ef",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgBack",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49326/imgBack.svg",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        31.75,
+        67.75,
+        8.5,
+        14.5
+      ],
+      "actual": [
+        31.75,
+        67.75,
+        8.5,
+        14.5
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "f1b74b1adc81e6ad63c1133bb36842d5",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgNhDiDin",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgNhDiDin.png",
+      "callsite": "apps/mobile/src/features/collection/CollectionPage.tsx",
+      "expected": [
+        372,
+        59,
+        32,
+        32
+      ],
+      "actual": [
+        372,
+        59,
+        32,
+        32
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "472882f53554234601dfa71c857e63b0",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgBellRing",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgBellRing.svg",
+      "callsite": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "expected": [
+        41,
+        142.5,
+        30,
+        30
+      ],
+      "actual": [
+        41,
+        142.5,
+        30,
+        30
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "a7a7ed01c0709ac37aa73f538185095c",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCongTc",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgCongTc.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        341,
+        189,
+        46,
+        28
+      ],
+      "actual": [
+        341,
+        189,
+        46,
+        28
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "bea859ea8642bc0e37a9858c7e79971e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCheck",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgCheck.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        44.5,
+        317,
+        15,
+        15
+      ],
+      "actual": [
+        44.5,
+        317,
+        15,
+        15
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "9d6f5de3afcbe0effe885f6335de6877",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCheck",
+      "occurrence": 1,
+      "source": "apps/mobile/assets/figma/534-49968/imgCheck.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        44.5,
+        366,
+        15,
+        15
+      ],
+      "actual": [
+        44.5,
+        366,
+        15,
+        15
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "9d6f5de3afcbe0effe885f6335de6877",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCheck1",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgCheck1.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        39,
+        510,
+        14,
+        14
+      ],
+      "actual": [
+        39,
+        510,
+        14,
+        14
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "afa6c877286f6c4a9df00d385efa5304",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCheck1",
+      "occurrence": 1,
+      "source": "apps/mobile/assets/figma/534-49968/imgCheck1.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        199.4,
+        510,
+        14,
+        14
+      ],
+      "actual": [
+        199.375,
+        510,
+        14,
+        14
+      ],
+      "maxDifference": 0.025000000000005684,
+      "nonempty": true,
+      "contentHash": "afa6c877286f6c4a9df00d385efa5304",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCongTc",
+      "occurrence": 1,
+      "source": "apps/mobile/assets/figma/534-49968/imgCongTc.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        341,
+        643,
+        46,
+        28
+      ],
+      "actual": [
+        341,
+        643,
+        46,
+        28
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "bea859ea8642bc0e37a9858c7e79971e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCongTc1",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgCongTc1.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        341,
+        693,
+        46,
+        28
+      ],
+      "actual": [
+        341,
+        693,
+        46,
+        28
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "9d9f8f790bf4625536fe0836162b586e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgCongTc",
+      "occurrence": 2,
+      "source": "apps/mobile/assets/figma/534-49968/imgCongTc.svg",
+      "callsite": "apps/mobile/src/features/events/EventSavedParts.tsx",
+      "expected": [
+        341,
+        737,
+        46,
+        28
+      ],
+      "actual": [
+        341,
+        737,
+        46,
+        28
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "bea859ea8642bc0e37a9858c7e79971e",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgMoon",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgMoon.svg",
+      "callsite": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "expected": [
+        24,
+        812,
+        22,
+        22
+      ],
+      "actual": [
+        24,
+        812,
+        22,
+        22
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "ae581a0f75a837fd5ee345ff493b92ff",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgChevronRight",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgChevronRight.svg",
+      "callsite": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "expected": [
+        386,
+        814,
+        18,
+        18
+      ],
+      "actual": [
+        386,
+        814,
+        18,
+        18
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "aa37bf39b11e5af1ba9c5c4934c9b693",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    },
+    {
+      "frame": "534:49968",
+      "key": "imgInfo",
+      "occurrence": 0,
+      "source": "apps/mobile/assets/figma/534-49968/imgInfo.svg",
+      "callsite": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "expected": [
+        38,
+        878,
+        20,
+        20
+      ],
+      "actual": [
+        38,
+        878,
+        20,
+        20
+      ],
+      "maxDifference": 0,
+      "nonempty": true,
+      "contentHash": "1e23a2bc1634f8fb503265441528f7d6",
+      "exactLocalSource": true,
+      "loaded": true,
+      "passed": true
+    }
+  ]
+}

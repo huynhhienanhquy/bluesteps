@@ -1,0 +1,23 @@
+export default function IPhone14Plus157() {
+  return (
+    <div className="bg-[#eaf5fc] overflow-clip relative rounded-[25px] size-full" data-node-id="386:18473" data-name="iPhone 14 Plus - 157">
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[362px]" data-node-id="386:18474">
+        <div className="-translate-x-1/2 absolute bg-[#147cc1] h-[25px] left-[calc(50%+0.5px)] rounded-[20px] top-[362px] w-[241px]" data-node-id="386:18475" />
+        <div className="-translate-x-1/2 absolute bg-[#95bed4] h-[19px] left-[calc(50%+0.5px)] rounded-[20px] top-[365px] w-[235px]" data-node-id="386:18476" />
+        <div className="-translate-x-1/2 absolute h-[19px] left-[calc(50%-39px)] rounded-bl-[20px] rounded-tl-[20px] top-[365px] w-[156px]" data-node-id="386:18477" style={{ backgroundImage: "linear-gradient(80.98166097167343deg, rgb(231, 175, 53) 4.0514%, rgb(229, 186, 54) 23.285%, rgb(228, 194, 54) 37.305%, rgb(226, 204, 55) 54.913%, rgb(224, 214, 56) 71.979%, rgb(223, 222, 57) 86.224%, rgb(221, 230, 57) 99.551%)" }} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[calc(50%-38px)] not-italic text-[#e7af35] text-[35px] top-[397px] whitespace-nowrap" data-node-id="386:18478">
+        64%
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

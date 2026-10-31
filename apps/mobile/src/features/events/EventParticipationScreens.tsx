@@ -1,36 +1,43 @@
 import { useState } from 'react';
-import { View } from 'react-native';
+import { Pressable, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
-import * as Clipboard from 'expo-clipboard';
 import { useApp } from '../../providers';
-import {
-  Button,
-  Card,
-  Chip,
-  Field,
-  Icon,
-  IconButton,
-  Label,
-  Notice,
-  Row,
-} from '../../design-system/ui';
+import { Notice } from '../../design-system/ui';
 import { events } from '../../services/fixtures';
-import { CheckOption, EventMissing, EventPage, EventSummary } from './EventParts';
+import { EventMissing } from './EventParts';
+import { Artwork } from '../../design-system/DesignScreen';
+import { eventDesignAssets } from '../../design-system/event-design-assets';
+import { collectionColors as eventColors } from '../collection/CollectionPage';
+import { CollectionInfo } from '../collection/CollectionFormParts';
+import {
+  EventAction,
+  EventCheck,
+  EventField,
+  EventFormPage,
+  EventRoleOption,
+  EventSheet,
+  EventText,
+} from './EventFormParts';
 
 const roles = ['Hướng dẫn phân loại rác', 'Hỗ trợ đón tiếp', 'Hỗ trợ hậu cần'];
 export function RegistrationScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, preview } = useLocalSearchParams<{ id: string; preview?: string }>();
   const event = events.find((item) => item.id === id);
   const { eventPlanning, setEventPlanning } = useApp();
   const existing = id ? eventPlanning.registrations[id] : undefined;
-  const [name, setName] = useState(existing?.name ?? '');
-  const [email, setEmail] = useState(existing?.email ?? '');
-  const [phone, setPhone] = useState(existing?.phone ?? '');
+  const sample = preview === '1';
+  const [name, setName] = useState(existing?.name ?? (sample ? 'Nguyễn Minh Anh' : ''));
+  const [email, setEmail] = useState(
+    existing?.email ?? (sample ? 'minhanh.nguyen@example.com' : ''),
+  );
+  const [phone, setPhone] = useState(existing?.phone ?? (sample ? '090 123 4567' : ''));
   const [people, setPeople] = useState(existing?.people ?? 1);
   const [role, setRole] = useState(existing?.role ?? roles[0]!);
-  const [safety, setSafety] = useState(false);
-  const [consent, setConsent] = useState(false);
+  const [roleOpen, setRoleOpen] = useState(false);
+  const [safety, setSafety] = useState(sample);
+  const [consent, setConsent] = useState(sample);
   const [checked, setChecked] = useState(false);
+  const a = eventDesignAssets['534:49326'];
   const errors = {
     name: name.trim().length < 2 ? 'Nhập tên ít nhất 2 ký tự.' : undefined,
     email: !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim()) ? 'Nhập email hợp lệ.' : undefined,
@@ -58,329 +65,216 @@ export function RegistrationScreen() {
     }));
     router.replace(`/event-ticket?id=${event.id}`);
   };
-  return (
-    <EventPage title="Đăng ký tham gia">
-      {!event ? (
+  if (!event) {
+    return (
+      <EventFormPage title="Đăng ký tham gia" footer={null}>
         <EventMissing />
-      ) : (
-        <>
-          <EventSummary event={event} />
-          <Notice>
-            Thử đăng ký tình nguyện viên trong demo. Thông tin chỉ lưu trong phiên; chưa gửi cho ban
-            tổ chức, giữ chỗ hoặc cấp vé thật.
-          </Notice>
-          <Label size={17} bold heading>
-            Thông tin người tham gia
-          </Label>
-          <Field
-            label="Họ và tên *"
-            value={name}
-            onChangeText={setName}
-            autoComplete="name"
-            maxLength={100}
-            error={checked ? errors.name : undefined}
-          />
-          <Row style={{ justifyContent: 'space-between' }}>
-            <View style={{ flex: 1 }}>
-              <Label size={14}>Số người tham gia</Label>
-              <Label size={11}>Bao gồm bạn · từ 18 tuổi · tối đa 5 người mẫu</Label>
-            </View>
-            <IconButton
-              name="remove"
-              label="Giảm số người"
-              onPress={() => setPeople(Math.max(1, people - 1))}
-            />
-            <Label bold>{people}</Label>
-            <IconButton
-              name="add"
-              label="Tăng số người"
-              onPress={() => setPeople(Math.min(5, people + 1))}
-            />
-          </Row>
-          <Label size={14} bold>
-            Vai trò tình nguyện *
-          </Label>
-          {roles.map((value) => (
-            <Chip
-              key={value}
-              label={value}
-              selected={role === value}
-              onPress={() => setRole(value)}
-            />
-          ))}
-          <Label size={17} bold heading>
-            Thông tin liên hệ
-          </Label>
-          <Field
-            label="Số điện thoại *"
-            value={phone}
-            onChangeText={setPhone}
-            keyboardType="phone-pad"
-            autoComplete="tel"
-            maxLength={20}
-            error={checked ? errors.phone : undefined}
-          />
-          <Field
-            label="Email nhận vé *"
-            value={email}
-            onChangeText={setEmail}
-            keyboardType="email-address"
-            autoCapitalize="none"
-            autoComplete="email"
-            maxLength={254}
-            error={checked ? errors.email : undefined}
-          />
-          <Label size={17} bold heading>
-            Chuẩn bị trước khi tham gia
-          </Label>
-          <Label size={13}>
-            Có mặt trước 15 phút tại điểm hẹn. Mang bình nước cá nhân và mặc trang phục gọn gàng.
-          </Label>
-          <CheckOption
-            label="Tôi đã đọc yêu cầu và đồng ý tuân thủ hướng dẫn an toàn"
-            selected={safety}
-            onPress={() => setSafety(!safety)}
-          />
-          <CheckOption
-            label="Cho phép dùng thông tin liên hệ cho hoạt động này"
-            selected={consent}
-            onPress={() => setConsent(!consent)}
-          />
-          {checked && (Object.values(errors).some(Boolean) || !safety || !consent) ? (
-            <Notice tone="error">Kiểm tra thông tin và hai mục đồng ý trước khi tiếp tục.</Notice>
-          ) : null}
-          <Button title="Xác nhận đăng ký mẫu · Miễn phí" onPress={submit} />
-        </>
-      )}
-    </EventPage>
-  );
-}
-
-export function EventTicketScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
-  const event = events.find((item) => item.id === id);
-  const { colors, eventPlanning, setEventPlanning } = useApp();
-  const registration = id ? eventPlanning.registrations[id] : undefined;
-  const [message, setMessage] = useState('');
+      </EventFormPage>
+    );
+  }
+  const date = event.date.split('-').reverse().join('/');
+  const time = event.time.split(' · ')[0]!.replace(/\s*[–-]\s*/g, '–');
   return (
-    <EventPage title="Vé tham gia">
-      {!event ? (
-        <EventMissing />
-      ) : !registration ? (
-        <>
-          <EventSummary event={event} />
-          <Notice>
-            Bạn chưa tạo vé mẫu cho hoạt động này. Lưu hoạt động không tạo đăng ký hoặc vé.
-          </Notice>
-          <Button
-            title="Mở biểu mẫu đăng ký"
-            onPress={() => router.replace(`/registration?id=${event.id}`)}
-          />
-        </>
-      ) : (
-        <>
-          <Notice>Vé minh họa · Không dùng để tham gia hoặc quét thực tế.</Notice>
-          <Card style={{ backgroundColor: colors.soft, alignItems: 'center', gap: 18 }}>
-            <Label size={12} bold color={colors.brand}>
-              VÉ TÌNH NGUYỆN VIÊN · DEMO
-            </Label>
-            <Label size={24} bold>
-              {event.title}
-            </Label>
-            <Label size={13} style={{ textAlign: 'center' }}>
-              {event.area}
-            </Label>
-            <Label size={19} bold>
-              {registration.name}
-            </Label>
-            <Label size={13}>
-              {registration.people} người · {registration.role}
-            </Label>
-            <View style={{ padding: 20, backgroundColor: colors.surface, borderRadius: 18 }}>
-              <Icon name="qr-code-outline" size={124} color={colors.text} />
-            </View>
-            <Label size={12}>QR minh họa · Không dùng để quét thực tế</Label>
-            <Label bold color={colors.brand}>
-              DEMO–{event.id.toUpperCase()}
-            </Label>
-            <Label size={13}>{event.time}</Label>
-          </Card>
-          <Card>
-            <Label bold>Thông tin tham gia</Label>
-            <Label size={13}>Có mặt sớm 15 phút · Điểm hẹn: cổng chính</Label>
-            <Label size={13}>
-              Gặp điều phối viên tại bàn đón tiếp. Thông tin người tổ chức thật chưa được kết nối.
-            </Label>
-            <Label size={13}>
-              Trạng thái: {registration.checkedIn ? 'Đã check-in mẫu' : 'Chưa check-in mẫu'}
-            </Label>
-          </Card>
-          <Button
-            title="Sao chép thông tin vé mẫu"
-            variant="secondary"
-            onPress={() => {
-              void Clipboard.setStringAsync(
-                `VÉ MẪU — KHÔNG CÓ GIÁ TRỊ THAM GIA\n${event.title}\n${event.time}\n${event.area}\n${registration.name} · ${registration.people} người · ${registration.role}`,
-              )
-                .then(() => setMessage('Đã sao chép thông tin vé mẫu.'))
-                .catch(() => setMessage('Chưa sao chép được. Hãy thử lại trên thiết bị.'));
-            }}
-          />
-          {message ? <Notice>{message}</Notice> : null}
-          <Button
-            title={registration.checkedIn ? 'Đã check-in mẫu' : 'Mô phỏng check-in'}
-            disabled={registration.checkedIn}
-            onPress={() => {
-              setEventPlanning((current) => ({
-                ...current,
-                registrations: {
-                  ...current.registrations,
-                  [event.id]: { ...registration, checkedIn: true },
-                },
-              }));
-            }}
-          />
-          <Button
-            title="Xem tổng kết mẫu"
-            variant="secondary"
-            onPress={() => router.push(`/event-summary?id=${event.id}`)}
-          />
-          <Button
-            title="Về lịch hoạt động"
-            variant="quiet"
-            onPress={() => router.push('/calendar')}
-          />
-        </>
-      )}
-    </EventPage>
-  );
-}
-
-export function EventSummaryScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
-  const event = events.find((item) => item.id === id);
-  const { colors, eventPlanning, setEventPlanning } = useApp();
-  const registration = id ? eventPlanning.registrations[id] : undefined;
-  const [rating, setRating] = useState(registration?.feedback?.rating ?? 4);
-  const [tags, setTags] = useState<string[]>(registration?.feedback?.tags ?? []);
-  const [comment, setComment] = useState(registration?.feedback?.comment ?? '');
-  const [sent, setSent] = useState(false);
-  return (
-    <EventPage title="Tổng kết hoạt động">
-      {!event ? (
-        <EventMissing />
-      ) : (
-        <>
-          <View style={{ alignItems: 'center', gap: 10 }}>
-            <Icon name="leaf-outline" size={54} color={colors.success} />
-            <Label size={25} bold heading style={{ textAlign: 'center' }}>
-              Cảm ơn bạn đã gieo mầm xanh!
-            </Label>
+    <EventFormPage
+      title="Đăng ký tham gia"
+      footer={
+        <EventAction
+          title="Xác nhận đăng ký • Miễn phí"
+          label="Xác nhận đăng ký mẫu · Miễn phí"
+          onPress={submit}
+        />
+      }
+    >
+      <View
+        style={{
+          padding: 15,
+          gap: 10,
+          borderWidth: 1,
+          borderColor: eventColors.border,
+          borderRadius: 20,
+          backgroundColor: eventColors.mint,
+        }}
+      >
+        <EventText size={12} color={eventColors.brand}>
+          TÌNH NGUYỆN VIÊN • {event.category.toLocaleUpperCase('vi')}
+        </EventText>
+        <EventText size={16} weight="semibold">
+          {event.title}
+        </EventText>
+        <EventText>
+          {date} • {time}
+        </EventText>
+        <EventText size={12} color={eventColors.muted}>
+          {event.area}
+        </EventText>
+      </View>
+      <CollectionInfo
+        source={a.imgInfo}
+        title="Đăng ký làm tình nguyện viên"
+        detail="Thông tin chỉ lưu trong phiên mẫu; chưa gửi ban tổ chức, giữ chỗ hoặc cấp vé thật."
+      />
+      <View style={{ gap: 12 }}>
+        <EventText size={16} weight="semibold" accessibilityRole="header">
+          Thông tin người tham gia
+        </EventText>
+        <EventField
+          label="Họ và tên *"
+          value={name}
+          onChangeText={setName}
+          autoComplete="name"
+          maxLength={100}
+          error={checked ? errors.name : undefined}
+        />
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: 12,
+          }}
+        >
+          <View style={{ flex: 1, gap: 4 }}>
+            <EventText>Số người tham gia</EventText>
+            <EventText size={12} color={eventColors.muted}>
+              Bao gồm bạn • từ 18 tuổi
+            </EventText>
           </View>
-          <EventSummary event={event} />
-          <Notice>
-            Đây là bản xem trước tổng kết. Số liệu minh họa không xác nhận bạn đã tham gia hoặc nhận
-            điểm.
-          </Notice>
-          <Label size={17} bold heading>
-            Cùng nhau, chúng ta đã làm được
-          </Label>
-          <Card>
-            <Row>
-              {[
-                ['200', 'người được hướng dẫn'],
-                ['24', 'tình nguyện viên'],
-                ['3', 'góc phân loại'],
-              ].map(([value, label]) => (
-                <View key={label} style={{ flex: 1, alignItems: 'center', gap: 4 }}>
-                  <Label size={27} bold color={colors.brand}>
-                    {value}
-                  </Label>
-                  <Label size={11} style={{ textAlign: 'center' }}>
-                    {label}
-                  </Label>
-                </View>
-              ))}
-            </Row>
-            <Label size={11} color={colors.muted}>
-              Bộ số liệu mẫu từ thiết kế · chưa có báo cáo tổ chức
-            </Label>
-          </Card>
-          <Label size={17} bold heading>
-            Trải nghiệm của bạn thế nào?
-          </Label>
-          <Row style={{ flexWrap: 'wrap' }}>
-            {[1, 2, 3, 4, 5].map((value) => (
-              <IconButton
-                key={value}
-                name={value <= rating ? 'star' : 'star-outline'}
-                label={`Đánh giá ${value} sao`}
-                selected={value === rating}
-                onPress={() => {
-                  setRating(value);
-                  setSent(false);
-                }}
-              />
-            ))}
-          </Row>
-          <Label size={13}>
-            {rating}/5 · {rating >= 4 ? 'Rất ý nghĩa' : 'Cần cải thiện'}
-          </Label>
-          <Row style={{ flexWrap: 'wrap' }}>
-            {['Tổ chức tốt', 'Nhiều trải nghiệm', 'Cần hướng dẫn thêm'].map((tag) => (
-              <Chip
-                key={tag}
-                label={tag}
-                selected={tags.includes(tag)}
-                onPress={() => {
-                  setTags(
-                    tags.includes(tag) ? tags.filter((item) => item !== tag) : [...tags, tag],
-                  );
-                  setSent(false);
-                }}
-              />
-            ))}
-          </Row>
-          <Field
-            label="Chia sẻ thêm"
-            value={comment}
-            onChangeText={(value) => {
-              setComment(value);
-              setSent(false);
+          <View
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              gap: 18,
+              padding: 10,
+              borderRadius: 12,
+              backgroundColor: eventColors.mint,
             }}
-            multiline
-            maxLength={500}
-          />
-          {registration ? (
-            <Button
-              title="Lưu phản hồi trong demo"
+          >
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Giảm số người"
+              accessibilityState={{ disabled: people === 1 }}
+              disabled={people === 1}
+              onPress={() => setPeople(Math.max(1, people - 1))}
+              hitSlop={12}
+            >
+              <Artwork source={a.imgMinus} width={18} />
+            </Pressable>
+            <EventText
+              size={16}
+              weight="semibold"
+              color="#000000"
+              style={{ minWidth: 8, textAlign: 'center' }}
+            >
+              {people}
+            </EventText>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Tăng số người"
+              accessibilityState={{ disabled: people === 5 }}
+              disabled={people === 5}
+              onPress={() => setPeople(Math.min(5, people + 1))}
+              hitSlop={12}
+            >
+              <Artwork source={a.imgPlus} width={18} />
+            </Pressable>
+          </View>
+        </View>
+        <View style={{ gap: 8 }}>
+          <EventText weight="medium">Vai trò tình nguyện *</EventText>
+          <Pressable
+            accessibilityRole="combobox"
+            accessibilityLabel="Vai trò tình nguyện"
+            accessibilityState={{ expanded: roleOpen }}
+            onPress={() => setRoleOpen(true)}
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              minHeight: 48,
+              padding: 13,
+              gap: 8,
+              borderWidth: 1,
+              borderColor: eventColors.border,
+              borderRadius: 12,
+              backgroundColor: '#F5F9FC',
+            }}
+          >
+            <EventText style={{ flex: 1 }}>{role}</EventText>
+            <Artwork source={a.imgChevronDown} width={18} />
+          </Pressable>
+        </View>
+      </View>
+      <View style={{ gap: 12 }}>
+        <EventText size={16} weight="semibold" accessibilityRole="header">
+          Thông tin liên hệ
+        </EventText>
+        <EventField
+          label="Số điện thoại *"
+          value={phone}
+          onChangeText={setPhone}
+          keyboardType="phone-pad"
+          autoComplete="tel"
+          maxLength={20}
+          error={checked ? errors.phone : undefined}
+        />
+        <EventField
+          label="Email nhận vé *"
+          value={email}
+          onChangeText={setEmail}
+          keyboardType="email-address"
+          autoCapitalize="none"
+          autoComplete="email"
+          maxLength={254}
+          error={checked ? errors.email : undefined}
+        />
+      </View>
+      <View style={{ gap: 12 }}>
+        <EventText size={16} weight="semibold" accessibilityRole="header">
+          Chuẩn bị trước khi tham gia
+        </EventText>
+        <EventText color={eventColors.muted}>
+          {event.id === 'green-class'
+            ? 'Có mặt lúc 07:45 tại cổng trường. Mang bình nước cá nhân, mặc trang phục gọn gàng; ban tổ chức chuẩn bị học cụ.'
+            : 'Có mặt sớm 15 phút tại điểm hẹn. Mang bình nước cá nhân và mặc trang phục gọn gàng.'}
+        </EventText>
+        <EventCheck
+          label="Tôi đã đọc yêu cầu và đồng ý tuân thủ hướng dẫn an toàn của ban tổ chức."
+          accessibilityLabel="Tôi đã đọc yêu cầu và đồng ý tuân thủ hướng dẫn an toàn"
+          selected={safety}
+          onPress={() => setSafety(!safety)}
+        />
+        <EventCheck
+          label="Cho phép dùng thông tin liên hệ để gửi vé và thông báo về hoạt động này."
+          accessibilityLabel="Cho phép dùng thông tin liên hệ cho hoạt động này"
+          selected={consent}
+          onPress={() => setConsent(!consent)}
+        />
+      </View>
+      <EventText size={12} color={eventColors.muted}>
+        Miễn phí tham gia. Bạn có thể liên hệ ban tổ chức nếu cần thay đổi đăng ký.
+      </EventText>
+      {checked && (Object.values(errors).some(Boolean) || !safety || !consent) ? (
+        <Notice tone="error">Kiểm tra thông tin và hai mục đồng ý trước khi tiếp tục.</Notice>
+      ) : null}
+      {roleOpen ? (
+        <EventSheet title="Vai trò tình nguyện" onClose={() => setRoleOpen(false)}>
+          {roles.map((value) => (
+            <EventRoleOption
+              key={value}
+              value={value}
+              selected={role === value}
               onPress={() => {
-                setEventPlanning((current) => ({
-                  ...current,
-                  registrations: {
-                    ...current.registrations,
-                    [event.id]: {
-                      ...registration,
-                      feedback: { rating, tags, comment: comment.trim() },
-                    },
-                  },
-                }));
-                setSent(true);
+                setRole(value);
+                setRoleOpen(false);
               }}
             />
-          ) : (
-            <Notice>Tạo vé mẫu để thử lưu phản hồi trong phiên.</Notice>
-          )}
-          {sent ? (
-            <Notice tone="success">Đã lưu phản hồi trong phiên demo, chưa gửi ban tổ chức.</Notice>
-          ) : null}
-          <Button
-            title="Khám phá hoạt động khác"
-            variant="secondary"
-            onPress={() => router.push('/events')}
-          />
-        </>
-      )}
-    </EventPage>
+          ))}
+          <EventAction title="Đóng" onPress={() => setRoleOpen(false)} />
+        </EventSheet>
+      ) : null}
+    </EventFormPage>
   );
 }
+
+export { EventTicketScreen } from './EventTicketScreen';
+
+export { EventSummaryScreen } from './EventSummaryScreen';

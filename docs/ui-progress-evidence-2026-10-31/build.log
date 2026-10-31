@@ -1,0 +1,18 @@
+$ pnpm --filter @bluesteps/mobile build
+$ expo export --platform web
+ReferenceError: exports is not defined in ES module scope
+ReferenceError: exports is not defined in ES module scope
+    at file:///D:/BlueSteps/node_modules/.pnpm/glob@13.0.6/node_modules/glob/dist/commonjs/index.min.js:3:65977
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:395:35)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:360:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1385:24)
+    at Module._compile (node:internal/modules/cjs/loader:1536:5)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 build: `expo export --platform web`
+Exit status 1
+[ELIFECYCLE] Command failed with exit code 1.

@@ -1,0 +1,867 @@
+$ jest --runInBand "--watch=false"
+FAIL src/features/events/EventDetailDesignScreen.test.tsx (24.275 s)
+  ● interest, saving and registration are independent; removing a save preserves interest
+
+    Unable to find an element with accessibility label: Đóng thông báo yêu thích
+
+    <RNCSafeAreaProvider>
+      <Text>
+        Phiên: workshop,green-class / green-class / 0 vé
+      </Text>
+      <View
+        testID="event-detail-386:7054"
+      >
+        <RCTScrollView>
+          <View>
+            <View
+              pointerEvents="none"
+            >
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+            </View>
+            <View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                accessibilityLabel="Xem ảnh hoạt động 1"
+                accessibilityRole="button"
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Xem ảnh hoạt động 2"
+                accessibilityRole="button"
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Xem ảnh hoạt động 3"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <View>
+                  <Text>
+                    10+
+                  </Text>
+                </View>
+              </View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View
+                accessibilityLabel="Bỏ lưu hoạt động"
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "selected": true,
+                  }
+                }
+                accessible={true}
+              />
+            </View>
+            <View>
+              <Text
+                accessibilityRole="header"
+              >
+                Giờ học xanh
+              </Text>
+              <View>
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+                <Text>
+                  Trường Mầm non Tuổi Xanh, TP HCM
+                </Text>
+              </View>
+            </View>
+            <View>
+              <View
+                accessibilityLabel="Người tham gia minh họa"
+                accessible={true}
+              >
+                <View
+                  pointerEvents="none"
+                >
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                </View>
+                <View
+                  pointerEvents="none"
+                >
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                </View>
+                <View
+                  pointerEvents="none"
+                >
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                </View>
+                <View
+                  pointerEvents="none"
+                >
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                </View>
+                <View
+                  pointerEvents="none"
+                >
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                </View>
+                <View
+                  pointerEvents="none"
+                >
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                </View>
+                <Text>
+                  232+
+                </Text>
+              </View>
+              <View
+                accessibilityLabel="Bỏ quan tâm hoạt động"
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "selected": true,
+                  }
+                }
+                accessible={true}
+              >
+                <Text>
+                  Đã Quan Tâm
+                </Text>
+              </View>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                </View>
+                <View>
+                  <Text>
+                    + 200 trẻ
+                  </Text>
+                  <Text>
+                    tham gia
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                </View>
+                <View>
+                  <Text>
+                    3-5
+                  </Text>
+                  <Text>
+                    tuổi
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                </View>
+                <View>
+                  <Text>
+                    45–60
+                  </Text>
+                  <Text>
+                    phút
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <View
+                    accessibilityLabel="Khám phá tất cả"
+                    accessibilityRole="button"
+                    accessibilityState={
+                      {
+                        "busy": false,
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                  >
+                    <Text>
+                      Khám phá tất cả
+                    </Text>
+                  </View>
+                </View>
+                <View>
+                  <View
+                    accessibilityLabel="Lịch hoạt động"
+                    accessibilityRole="button"
+                    accessibilityState={
+                      {
+                        "busy": false,
+                        "disabled": false,
+                      }
+                    }
+                    accessible={true}
+                  >
+                    <Text>
+                      Lịch hoạt động
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessibilityLabel="Xem biểu mẫu đăng ký"
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": false,
+                    "disabled": false,
+                  }
+                }
+                accessible={true}
+              >
+                <Text>
+                  Đăng ký tham gia
+                </Text>
+              </View>
+            </View>
+            <View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bé Ơi, Cùng Nhau Phân Loại Rác Nhé!
+              </Text>
+              <Text>
+                Hoạt động nhặt rác của các bạn nhỏ trường Mầm non Tuổi Xanh không chỉ là một hoạt động ngoại khóa, mà là một phần quan trọng trong việc giáo dục thế hệ mầm non tương lai về trách nhiệm với môi trường sống. Góp phần hình thành nên những công dân có ý thức, biết yêu quý và bảo vệ hành tinh xanh của chúng ta ngay từ khi còn bé.
+              </Text>
+              <Text>
+                Trong “Giờ học xanh”, các bé hát về Trái Đất, nghe chuyện “Những người bạn thùng rác vui vẻ” và học cách phân loại rác. Các em tham gia trò chơi “Ai nhanh – Ai đúng”, thi đua phân loại rác đúng màu. Kết thúc buổi học, các “chiến binh xanh nhí” nhận huy hiệu, chụp ảnh lưu niệm và hứa giữ gìn môi trường sạch đẹp.
+              </Text>
+              <Text>
+                Lịch, số người và đăng ký là dữ liệu mẫu trong phiên. Quan tâm và lưu yêu thích được giữ riêng.
+              </Text>
+            </View>
+            <View>
+              <Text
+                accessibilityRole="header"
+              >
+                Hoạt động khác
+              </Text>
+              <View
+                accessibilityLabel="Tất cả hoạt động"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <Text>
+                  Tất cả
+                </Text>
+              </View>
+            </View>
+            <RCTScrollView>
+              <View>
+                <View
+                  accessibilityLabel="Xem hoạt động Vườn nhỏ giữa phố"
+                  accessibilityRole="button"
+                  accessible={true}
+                >
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <Text>
+                    200+
+                  </Text>
+                  <Text>
+                    Cùng nhau làm vườn sạch
+    
+                  </Text>
+                  <Text>
+                    Trường THCS Thanh An , Quảng Trị
+                  </Text>
+                </View>
+                <View
+                  accessibilityLabel="Xem hoạt động Một sáng sạch hơn cho biển"
+                  accessibilityRole="button"
+                  accessible={true}
+                >
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <Text>
+                    Thanh niên làm sạch môi trường biển
+                  </Text>
+                  <Text>
+                    Bãi biển Mỹ Khê , Đà Nẵng
+                  </Text>
+                  <Text>
+                    250+
+                  </Text>
+                </View>
+                <View
+                  accessibilityLabel="Xem hoạt động Trải nghiệm phân loại rác thực tế"
+                  accessibilityRole="button"
+                  accessible={true}
+                >
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <View
+                    pointerEvents="none"
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                  </View>
+                  <Text>
+                    250+
+                  </Text>
+                  <Text>
+                    Trải nghiệm phân loại rác thực tế
+                  </Text>
+                  <Text>
+                    Trường Tiểu Học Vành Khuyên, TP Đà Nẵng
+                  </Text>
+                </View>
+              </View>
+            </RCTScrollView>
+            <View>
+              <View
+                accessibilityLabel="Xem tổng kết mẫu"
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": false,
+                    "disabled": false,
+                  }
+                }
+                accessible={true}
+              >
+                <Text>
+                  Xem tổng kết mẫu
+                </Text>
+              </View>
+              <View
+                accessibilityLabel="Hoạt động yêu thích"
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": false,
+                    "disabled": false,
+                  }
+                }
+                accessible={true}
+              >
+                <Text>
+                  Hoạt động yêu thích
+                </Text>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+        <View>
+          <View>
+            <View />
+            <View />
+            <ViewManagerAdapter_ExpoImage
+              accessible={false}
+              placeholder={[]}
+            />
+            <ViewManagerAdapter_ExpoImage
+              accessible={false}
+              placeholder={[]}
+            />
+            <ViewManagerAdapter_ExpoImage
+              accessible={false}
+              placeholder={[]}
+            />
+            <ViewManagerAdapter_ExpoImage
+              accessible={false}
+              placeholder={[]}
+            />
+            <ViewManagerAdapter_ExpoImage
+              accessible={false}
+              placeholder={[]}
+            />
+            <ViewManagerAdapter_ExpoImage
+              accessible={false}
+              placeholder={[]}
+            />
+            <View
+              accessibilityLabel="Trang chủ"
+              accessibilityRole="tab"
+              accessibilityState={
+                {
+                  "selected": true,
+                }
+              }
+              accessible={true}
+            />
+            <View
+              accessibilityLabel="Thu gom"
+              accessibilityRole="tab"
+              accessibilityState={
+                {
+                  "selected": false,
+                }
+              }
+              accessible={true}
+            />
+            <View
+              accessibilityLabel="Đổi quà"
+              accessibilityRole="tab"
+              accessibilityState={
+                {
+                  "selected": false,
+                }
+              }
+              accessible={true}
+            />
+            <View
+              accessibilityLabel="Cá nhân"
+              accessibilityRole="tab"
+              accessibilityState={
+                {
+                  "selected": false,
+                }
+              }
+              accessible={true}
+            />
+            <View
+              accessibilityLabel="Quét rác"
+              accessibilityRole="tab"
+              accessible={true}
+            />
+          </View>
+        </View>
+        <Modal>
+          <View>
+            <View
+              accessibilityLabel="Đóng thông báo yêu thích"
+              accessibilityRole="button"
+              accessible={true}
+            />
+            <View
+              accessibilityViewIsModal={true}
+            >
+              <View
+                pointerEvents="none"
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <View>
+                <View>
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                  <ViewManagerAdapter_ExpoImage
+                    accessible={false}
+                    placeholder={[]}
+                  />
+                </View>
+                <Text
+                  accessibilityRole="alert"
+                >
+                  Đã Thêm Vào Yêu Thích
+                </Text>
+              </View>
+              <View
+                accessibilityLabel="Đi đến mục yêu thích"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <Text>
+                  Đi đến mục yêu thích
+                </Text>
+              </View>
+            </View>
+          </View>
+        </Modal>
+      </View>
+    </RNCSafeAreaProvider>
+
+      54 |   await fireEvent.press(screen.getByLabelText('Lưu hoạt động'));
+      55 |   expect(screen.getByText('Phiên: workshop,green-class / green-class / 0 vé')).toBeTruthy();
+    > 56 |   await fireEvent.press(screen.getByLabelText('Đóng thông báo yêu thích'));
+         |                                ^
+      57 |   await fireEvent.press(screen.getByLabelText('Bỏ lưu hoạt động'));
+      58 |   expect(screen.getByText('Phiên: workshop / green-class / 0 vé')).toBeTruthy();
+      59 |   expect(screen.getByText('Hoạt động yêu thích đã xóa')).toBeTruthy();
+
+      at Object.getByLabelText (src/features/events/EventDetailDesignScreen.test.tsx:56:32)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+
+Test Suites: 1 failed, 18 passed, 19 total
+Tests:       1 failed, 65 passed, 66 total
+Snapshots:   0 total
+Time:        103.689 s
+Ran all test suites.
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test: `jest --runInBand "--watch=false"`
+Exit status 1

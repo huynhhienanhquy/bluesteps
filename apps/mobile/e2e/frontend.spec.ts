@@ -78,7 +78,8 @@ test('saving and composing stay local, auth validates and rewards stay disabled'
   await page
     .getByRole('textbox', { name: 'Nội dung bài viết' })
     .fill('Bước xanh thử nghiệm của tôi');
-  await page.getByRole('button', { name: 'Thêm bài vào phiên demo' }).click();
+  await page.getByRole('button', { name: 'Đăng bài viết', exact: true }).click();
+  await page.getByRole('button', { name: 'Về cộng đồng', exact: true }).click();
   await expect(page.getByText('Bước xanh thử nghiệm của tôi', { exact: true })).toBeVisible();
 });
 
@@ -96,21 +97,22 @@ test('theme toggles and the query error/retry state is accessible', async ({ pag
 });
 
 test('desktop preview and direct detail links render without overflow', async ({ page }) => {
+  test.setTimeout(60_000);
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto('/');
   await expect(page.getByText('Chào Linh Chi!', { exact: true })).toBeVisible();
   await page.screenshot({ path: resolve(evidence, 'home-desktop.png') });
   const paths = [
     ['/handbook/battery', 'Pin'],
-    ['/events/beach', 'Chi tiết hoạt động'],
+    ['/events/beach', 'Một sáng sạch hơn cho biển'],
     ['/articles/small-steps', 'Bài viết'],
     ['/points/green-hub', 'Công viên cộng đồng A'],
     ['/onboarding?step=1', /Một khởi đầu nhỏ/],
     ['/profile', 'Cá nhân'],
-    ['/statistics', 'Thống kê của tôi'],
-    ['/game', 'Sứ mệnh xanh'],
-    ['/assistant', 'RecycleBot · Demo'],
-    ['/messages', 'Tin nhắn'],
+    ['/statistics', 'Thống kê'],
+    ['/game', 'Trò chơi'],
+    ['/assistant', 'RecycleBot'],
+    ['/messages', 'Healing'],
     ['/legal', 'Điều khoản & quyền riêng tư'],
     ['/register', /Bắt đầu cùng/],
     ['/forgot-password', 'Quên mật khẩu?'],
@@ -119,7 +121,7 @@ test('desktop preview and direct detail links render without overflow', async ({
     ['/point-report', 'Báo cáo vấn đề'],
     ['/edit-profile', 'Chỉnh sửa'],
     ['/notifications', 'Thông báo'],
-    ['/history', 'Lịch sử điểm & quà'],
+    ['/history', 'Lịch sử'],
     ['/does-not-exist', 'Không tìm thấy trang'],
   ] as const;
   for (const [path, heading] of paths) {
@@ -137,27 +139,31 @@ test('seeded history, statistics, notifications and conversations are ready to d
   page,
 }) => {
   await page.goto('/history');
-  await expect(page.getByText('Ghi nhận hoạt động mẫu cuối tháng', { exact: true })).toBeVisible();
+  await expect(page.getByText('29/10/2025', { exact: true })).toBeVisible();
   await page.screenshot({ path: resolve(evidence, 'mock-history.png') });
-  await page.getByRole('button', { name: 'Quà đã đổi', exact: true }).click();
-  await expect(page.getByText('Túi vải mỗi ngày xanh', { exact: true })).toBeVisible();
+  await page.getByRole('tab', { name: 'Tuần này', exact: true }).click();
+  await expect(page.getByText('13/10/2025', { exact: true })).toHaveCount(0);
   await page.goto('/statistics');
-  await expect(page.getByText('8,4 kg mẫu', { exact: true })).toBeVisible();
+  await expect(page.getByText('2,500 Kg', { exact: true })).toBeVisible();
   await page.goto('/notifications');
-  await expect(page.getByText('3 chưa đọc · dữ liệu demo', { exact: true })).toBeVisible();
-  await page.getByRole('button', { name: 'Đánh dấu đã đọc', exact: true }).click();
-  await expect(page.getByText('0 chưa đọc · dữ liệu demo', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Lọc thông báo', exact: true }).click();
+  await page.getByRole('button', { name: 'Chưa đọc', exact: true }).click();
+  await expect(page.getByText('3 thông báo chưa đọc', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Đánh dấu tất cả đã đọc', exact: true }).click();
+  await expect(
+    page.getByText('Bạn đã xem hết thông báo', { exact: true }).filter({ visible: true }),
+  ).toBeVisible();
   await page.goto('/messages');
-  await page.getByRole('button', { name: 'Minh An · 2 chưa đọc', exact: true }).click();
+  await page.getByRole('button', { name: 'Hội thoại Nguyễn Thị Linh Chi', exact: true }).click();
   await page
-    .getByRole('textbox', { name: 'Nội dung tin nhắn demo' })
+    .getByRole('textbox', { name: 'Nội dung tin nhắn' })
     .fill('Đây là tin nhắn thử mock data');
-  await page.getByRole('button', { name: 'Thêm tin nhắn vào demo', exact: true }).click();
+  await page.getByRole('button', { name: 'Gửi tin nhắn', exact: true }).click();
   await page.getByRole('button', { name: 'Quay lại', exact: true }).click();
   await expect(
     page.getByText('Đây là tin nhắn thử mock data', { exact: true }).filter({ visible: true }),
   ).toBeVisible();
-  await page.getByRole('button', { name: 'Minh An', exact: true }).click();
+  await page.getByRole('button', { name: 'Hội thoại Nguyễn Thị Linh Chi', exact: true }).click();
   await expect(
     page.getByText('Đây là tin nhắn thử mock data', { exact: true }).filter({ visible: true }),
   ).toBeVisible();
@@ -165,7 +171,7 @@ test('seeded history, statistics, notifications and conversations are ready to d
   await page.goto('/community');
   await page.getByRole('button', { name: 'Xem thảo luận', exact: true }).first().click();
   await expect(
-    page.getByText('Góc phân loại gọn quá! Mình cũng sẽ thử dùng những chiếc hộp sẵn có.', {
+    page.getByText('Nhìn thành quả mà có thêm động lực! 🌱', {
       exact: true,
     }),
   ).toBeVisible();

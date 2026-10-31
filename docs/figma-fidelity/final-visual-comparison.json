@@ -1,0 +1,119 @@
+{
+  "scope": "backuped final frames at configured capture widths",
+  "fullFidelityProven": false,
+  "notes": "Transparent reference pixels are composited on the white preview backdrop. Remaining full-frame differences include text and emoji rasterization. Asset geometry is audited separately.",
+  "rows": [
+    {
+      "frame": "386:18241",
+      "name": "final-games",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.7172443026987747,
+      "channelsDifferingByMoreThan20Percent": 1.9913640553615526
+    },
+    {
+      "frame": "386:18285",
+      "name": "final-lobby",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 0.8635204510741944,
+      "channelsDifferingByMoreThan20Percent": 0.6594706068374343
+    },
+    {
+      "frame": "386:18308",
+      "name": "final-sorting",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.4628834366147905,
+      "channelsDifferingByMoreThan20Percent": 1.0979121670266379
+    },
+    {
+      "frame": "386:18336",
+      "name": "final-sorting-moved",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.4401556286712016,
+      "channelsDifferingByMoreThan20Percent": 1.1007717513440045
+    },
+    {
+      "frame": "386:18364",
+      "name": "final-sorting-filled",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.4618178209294659,
+      "channelsDifferingByMoreThan20Percent": 1.1514032148456161
+    },
+    {
+      "frame": "427:19392",
+      "name": "final-sorting-partial",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.254225456356015,
+      "channelsDifferingByMoreThan20Percent": 0.8824340781709427
+    },
+    {
+      "frame": "386:18396",
+      "name": "final-sorting-checked",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.0466532770836277,
+      "channelsDifferingByMoreThan20Percent": 1.7435053793827335
+    },
+    {
+      "frame": "427:19460",
+      "name": "final-sorting-partial-checked",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.860903090369593,
+      "channelsDifferingByMoreThan20Percent": 1.531139191107702
+    },
+    {
+      "frame": "386:18428",
+      "name": "final-result",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.041817215370434,
+      "channelsDifferingByMoreThan20Percent": 1.9389663780168616
+    },
+    {
+      "frame": "487:19805",
+      "name": "final-partial-result",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.097464726186391,
+      "channelsDifferingByMoreThan20Percent": 1.9975037511017808
+    },
+    {
+      "frame": "391:25009",
+      "name": "final-statistics",
+      "width": 428,
+      "height": 1726,
+      "meanAbsoluteChannelDifference": 3.3542075026261355,
+      "channelsDifferingByMoreThan20Percent": 4.203396468885255
+    },
+    {
+      "frame": "386:8558",
+      "name": "final-navigation",
+      "width": 179,
+      "height": 218,
+      "meanAbsoluteChannelDifference": 1.9600054670015206,
+      "channelsDifferingByMoreThan20Percent": 2.3824167563596603
+    },
+    {
+      "frame": "386:17297",
+      "name": "final-battery",
+      "width": 107,
+      "height": 60,
+      "meanAbsoluteChannelDifference": 1.583073727933541,
+      "channelsDifferingByMoreThan20Percent": 1.0072689511941848
+    },
+    {
+      "frame": "386:18473",
+      "name": "final-loading",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 0.03938068132119524,
+      "channelsDifferingByMoreThan20Percent": 0.035828909388183526
+    }
+  ]
+}

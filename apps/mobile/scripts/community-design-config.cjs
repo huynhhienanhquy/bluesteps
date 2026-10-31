@@ -1,0 +1,22 @@
+module.exports = {
+  group: 'community',
+  feature: 'community',
+  exportName: 'communityAssets',
+  componentLayout: 'community-component-layout.json',
+  componentAssets: 'community-component-assets.json',
+  frames: [
+    '386:7647',
+    '386:7813',
+    '722:5570',
+    '722:5635',
+    '722:5699',
+    '722:5749',
+    '723:5646',
+    '723:5722',
+    '723:5809',
+    '723:5892',
+    '733:5722',
+    '733:5787',
+    '734:5760',
+  ],
+};

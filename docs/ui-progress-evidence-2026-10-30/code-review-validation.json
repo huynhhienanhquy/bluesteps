@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-10-30T22:32:30.8213128+07:00",
+  "scope": "Current local worktree; source review, verification and progress report update only; no new product UI implemented in this review",
+  "branch": "codex/initial-upload",
+  "localHead": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "remoteHead": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "remoteBranch": "codex/initial-upload",
+  "remoteVerifiedThisReview": true,
+  "remoteVerification": "git ls-remote origin refs/heads/codex/initial-upload refs/heads/main refs/heads/master",
+  "uncommittedProductChanges": true,
+  "checks": {
+    "typecheck": {
+      "exitCode": 0,
+      "rerunThisReview": true,
+      "log": "code-review-typecheck.log"
+    },
+    "lint": {
+      "rerunThisReview": true,
+      "log": "code-review-lint.log",
+      "errors": 0,
+      "scope": "Entire mobile app",
+      "warningFile": "apps/mobile/e2e/events.spec.ts",
+      "warnings": 3,
+      "exitCode": 0
+    },
+    "unit": {
+      "rerunThisReview": true,
+      "durationSeconds": 15.132,
+      "log": "code-review-unit.log",
+      "total": 45,
+      "passed": 45,
+      "suites": 17,
+      "exitCode": 0
+    },
+    "webBuild": {
+      "exitCode": 0,
+      "rerunThisReview": true,
+      "log": "code-review-build.log"
+    },
+    "nativeConfig": {
+      "exitCode": 0,
+      "rerunThisReview": true,
+      "log": "code-review-native-config.log"
+    },
+    "e2e": {
+      "passed": 61,
+      "browser": "Installed Google Chrome",
+      "rerunThisReview": true,
+      "exitCode": 0,
+      "total": 61,
+      "duration": "3.8m",
+      "log": "code-review-e2e.log",
+      "usesFreshWebExport": true
+    },
+    "nativeBundle": {
+      "priorLog": "news-digest-native.log",
+      "rerunThisReview": false,
+      "physicalDeviceQa": false,
+      "priorEvidence": "news-digest-validation.json"
+    },
+    "fidelityCaptureAndAssetAudits": {
+      "priorEvidence": "news-digest-validation.json",
+      "rerunThisReview": false
+    },
+    "sourceHashesComparedWithPriorEvidence": [
+      {
+        "path": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+        "sha256": "394dae6e133ecde00b3772433e9998303452d7dc7f970606f99f478a855c8d33",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+        "sha256": "7e897bd7c7b4654fe41b0978e06a38527f786c4299867c08635d9c49ff892348",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+        "sha256": "08c3fcf712306cf51f4b84512b46dc1cdf85779e9e98ca21baef8e7a86cb6bd2",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/content/NewsExploreScreens.tsx",
+        "sha256": "fa1b5c4fa5ab9d5360fbc7c28e973e5f732cbadb2cd5237570212b40760be3c8",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/content/news-digest-data.ts",
+        "sha256": "a90cef6f97facc02a47a77554b47bc85c2a45c609def93342431d95f9b82b492",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/content/news-digest-data.test.ts",
+        "sha256": "ec079eceafee85cc9f54d90edbcbe34a52b71a244838c488ce960a351c29a21b",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/e2e/news-digest.spec.ts",
+        "sha256": "c808dc1ea11dc777d5f509e5fd67261ff2a7cb6d340c18ac555242a8dea15f36",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/e2e/news.spec.ts",
+        "sha256": "ce2e36204087a1021b2ff113832246f38624539370464c425d6f7923c06e1193",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/scripts/fidelity-targets.cjs",
+        "sha256": "fdbc17ca893d7770917336de8c12123682fd53a8b3fdb918ad672003ec44d3ac",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/scripts/audit-news-digest-assets.cjs",
+        "sha256": "4aa2c913beaca1def4f258dbfcdd4c92af1b9f3e3b59d87bcad719fa002bab9d",
+        "matchesPriorEvidence": true
+      }
+    ]
+  },
+  "sourceSnapshot": {
+    "algorithm": "SHA256 of sorted relative-path:SHA256 lines joined with LF",
+    "fileCount": 238,
+    "scope": "app, src, scripts, e2e and design-tokens source files with ts/tsx/js/cjs/json extensions",
+    "fingerprint": "ea765999f62df37966cdcc76421b0bfc50bef4e7330c2f3134dc0df146a7876a"
+  },
+  "functionStatusScope": "Overlapping demo UI scopes; not a product completion percentage",
+  "functionStatusCounts": {
+    "Đã làm xong UI": 24,
+    "Đang trong tiến trình": 13,
+    "Chưa làm UI": 5
+  },
+  "functionStatuses": [
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — tìm kiếm và lọc",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — trang chính và chi tiết bài đọc",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "figma": {
+    "mapped": 81,
+    "liveRecheckedThisReview": false,
+    "unmapped": 94,
+    "fullFidelityProven": false,
+    "missingMappedSources": [],
+    "inventoryRebuiltFromSavedSnapshot": true,
+    "frames": 175,
+    "framesWithContext": 89,
+    "newsFramesWithContextButNoImplementation": [
+      {
+        "nodeId": "386:9787",
+        "name": "tin tức mới nhất ",
+        "context": "contexts/386-9787.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:9901",
+        "name": "sự kiện sắp tới",
+        "context": "contexts/386-9901.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:10644",
+        "name": "tin tức chi tiết 2",
+        "context": "contexts/386-10644.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:10737",
+        "name": "tin tức chi tiết 4",
+        "context": "contexts/386-10737.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:10828",
+        "name": "tin tức chi tiết 6",
+        "context": "contexts/386-10828.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:10919",
+        "name": "tin tức chi tiết 8",
+        "context": "contexts/386-10919.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:17608",
+        "name": "tin tức chi tiết",
+        "context": "contexts/386-17608.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:17701",
+        "name": "tin tức chi tiết",
+        "context": "contexts/386-17701.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:17794",
+        "name": "tin tức chi tiết 3",
+        "context": "contexts/386-17794.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:17887",
+        "name": "tin tức chi tiết 5",
+        "context": "contexts/386-17887.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "386:17978",
+        "name": "tin tức chi tiết 7",
+        "context": "contexts/386-17978.txt",
+        "implementation": null,
+        "status": "pending"
+      },
+      {
+        "nodeId": "391:24796",
+        "name": "tin tức",
+        "context": "contexts/391-24796.txt",
+        "implementation": null,
+        "status": "pending"
+      }
+    ]
+  },
+  "routesExcludingLayouts": 63,
+  "missingReportLinks": [],
+  "limitations": [
+    "Physical iOS/Android QA remains open",
+    "Final Figma visual acceptance remains open",
+    "Three ESLint warnings in events E2E test",
+    "Whole-repository formatting and native bundles not rerun in this review",
+    "Latest product changes remain local and uncommitted"
+  ]
+}

@@ -31,28 +31,45 @@ test('saved removal requires confirmation and can be cancelled', async () => {
   expect(screen.getByText('Chưa có hoạt động yêu thích')).toBeTruthy();
 });
 
+test('tree category includes the new Figma tree-day fixture and preserves location search', async () => {
+  await renderApp(<EventListScreen />);
+  await screen.findByLabelText('Xem hoạt động Trồng cây cuối tuần');
+  await fireEvent.press(screen.getByRole('button', { name: /^Trồng cây$/ }));
+  expect(screen.getByLabelText('Xem hoạt động Trồng cây cuối tuần')).toBeTruthy();
+  expect(screen.getByLabelText('Xem hoạt động Vườn nhỏ giữa phố')).toBeTruthy();
+  expect(screen.queryByLabelText('Xem hoạt động Giờ học xanh')).toBeNull();
+  await fireEvent.changeText(screen.getByLabelText('Tìm hoạt động'), 'gia dinh');
+  expect(screen.getByLabelText('Xem hoạt động Trồng cây cuối tuần')).toBeTruthy();
+  expect(screen.queryByLabelText('Xem hoạt động Vườn nhỏ giữa phố')).toBeNull();
+});
+
 test('collection creation rejects duplicates and assigns the saved event', async () => {
   await renderApp(<EventCollectionsScreen />);
-  await fireEvent.changeText(screen.getByLabelText('Tên bộ sưu tập mới'), 'cuoi tuan');
   await fireEvent.press(screen.getByLabelText('Tạo bộ sưu tập'));
+  await fireEvent.changeText(screen.getByLabelText('Tên bộ sưu tập mới'), 'cuoi tuan');
+  await fireEvent.press(screen.getByLabelText('Xác nhận tạo bộ sưu tập'));
   expect(screen.getByText('Tên bộ sưu tập đã tồn tại.')).toBeTruthy();
   await fireEvent.changeText(screen.getByLabelText('Tên bộ sưu tập mới'), 'Kế hoạch mới');
-  await fireEvent.press(screen.getByLabelText('Tạo bộ sưu tập'));
+  await fireEvent.press(screen.getByLabelText('Xác nhận tạo bộ sưu tập'));
+  await fireEvent.press(screen.getByLabelText('Chọn hoạt động từ danh sách đã lưu'));
   await fireEvent.press(screen.getByLabelText('Đổi giấy cũ, gieo mầm xanh'));
+  await fireEvent.press(screen.getByLabelText('Xong'));
   await fireEvent.press(screen.getByLabelText('Thêm vào bộ sưu tập đang chọn'));
-  expect(screen.getByText('Kế hoạch mới · 1')).toBeTruthy();
+  expect(screen.getByLabelText('Kế hoạch mới · 1')).toBeTruthy();
 });
 
 test('reminders validate targets and quiet hours before saving the local draft', async () => {
   await renderApp(<EventRemindersScreen />);
-  await fireEvent(screen.getByLabelText('Bật nhắc lịch hoạt động'), 'valueChange', true);
+  await fireEvent.press(screen.getByLabelText('Bật nhắc lịch hoạt động'));
   await fireEvent.press(screen.getByLabelText('Lưu cấu hình nhắc lịch'));
   expect(screen.getByText('Chọn ít nhất một hoạt động và một thời điểm nhắc.')).toBeTruthy();
   await fireEvent.press(screen.getByLabelText('Đổi giấy cũ, gieo mầm xanh'));
+  await fireEvent.press(screen.getByLabelText('Chỉnh giờ yên lặng'));
   await fireEvent.changeText(screen.getByLabelText('Bắt đầu (HH:mm)'), '25:00');
-  await fireEvent.press(screen.getByLabelText('Lưu cấu hình nhắc lịch'));
+  await fireEvent.press(screen.getByLabelText('Áp dụng giờ yên lặng'));
   expect(screen.getByText(/Nhập giờ yên lặng theo/)).toBeTruthy();
   await fireEvent.changeText(screen.getByLabelText('Bắt đầu (HH:mm)'), '22:00');
+  await fireEvent.press(screen.getByLabelText('Áp dụng giờ yên lặng'));
   await fireEvent.press(screen.getByLabelText('Lưu cấu hình nhắc lịch'));
   expect(
     screen.getByText('Đã lưu cấu hình trong phiên demo. Chưa lên lịch hoặc gửi thông báo/email.'),

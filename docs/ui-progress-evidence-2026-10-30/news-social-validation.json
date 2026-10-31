@@ -1,0 +1,260 @@
+{
+  "checkedAt": "2026-10-30T22:07:30.1178569+07:00",
+  "sourceCommit": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "uncommittedChanges": true,
+  "goalComplete": false,
+  "completedDemoScopes": [
+    "Tin tức — thảo luận bài viết",
+    "Tin tức — khám phá chủ đề"
+  ],
+  "checks": {
+    "native": {
+      "passed": true,
+      "log": "news-social-native.log",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "physicalDeviceQa": false
+    },
+    "e2eFull": {
+      "passed": 58,
+      "duration": "3.7m",
+      "log": "news-social-e2e-full.log",
+      "total": 58
+    },
+    "unit": {
+      "durationSeconds": 14.821,
+      "passed": 43,
+      "log": "news-social-unit.log",
+      "suites": 16,
+      "total": 43
+    },
+    "format": {
+      "files": 11,
+      "passed": true
+    },
+    "assets": {
+      "md5Matched": 32,
+      "passed": 32,
+      "effectiveOpacityAndFitChecked": true,
+      "maxDifference": 0.02924999999999045,
+      "total": 32
+    },
+    "e2eFocused": {
+      "passed": 9,
+      "duration": "46.7s",
+      "log": "news-social-e2e-focused.log",
+      "total": 9
+    },
+    "lint": {
+      "passed": true,
+      "log": "news-social-lint.log",
+      "warnings": 0,
+      "errors": 0
+    },
+    "capture": {
+      "errors": 0,
+      "overflow": 0,
+      "unloaded": 0,
+      "report": "docs/figma-fidelity/rendered/capture-report-news-.json",
+      "screenshots": 8
+    },
+    "web": {
+      "log": "news-social-build.log",
+      "passed": true
+    },
+    "typecheck": {
+      "log": "news-social-typecheck.log",
+      "passed": true
+    }
+  },
+  "coverage": {
+    "frames": 175,
+    "mapped": 79,
+    "remaining": 96,
+    "fullFidelityProven": false
+  },
+  "functionStatuses": [
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — tìm kiếm và lọc",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — trang chính và chi tiết bài đọc",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 22,
+    "Đang trong tiến trình": 15
+  },
+  "sourceMap": "docs/figma-fidelity/news-social-source-map.json",
+  "sourceHashes": {
+    "apps/mobile/src/features/content/NewsTopicsScreen.tsx": "af3d559fe7dd7542ecfd38727b2cbb8ff5ddac02b4d1b58a2698463f3acb1049",
+    "apps/mobile/src/features/content/NewsDiscussionView.tsx": "1589689a4e7ee0d2b937277826f6db709f7431a97f057bd34bc3021baccd1e77",
+    "apps/mobile/src/features/content/NewsDesignParts.tsx": "f49505891d8dafb6c3e017276472a54d609c1e10b3f700fa1eb2159e5a9dab24",
+    "apps/mobile/src/services/news.ts": "5e805bfab689aae536ce896b6a7616caaf411209a8d29f85348580183d142888"
+  }
+}

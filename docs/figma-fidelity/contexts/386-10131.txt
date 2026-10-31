@@ -1,0 +1,25 @@
+const imgTwemojiCrossMark = "https://www.figma.com/api/mcp/asset/6e66245c-7a78-4967-9376-46f3ac6e290c.svg";
+
+export default function XoaHotDng() {
+  return (
+    <div className="overflow-clip relative rounded-[40px] size-full" data-node-id="386:10131" style={{ backgroundImage: "linear-gradient(122.31534359453678deg, rgba(238, 32, 32, 0.6) 26.009%, rgba(245, 124, 124, 0.764) 72.639%, rgba(244, 118, 118, 0.754) 88.81%, rgb(255, 255, 255) 189.21%)" }} data-name="xóa hoạt động">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-[calc(50%+0.5px)] top-[calc(50%+0.5px)]" data-node-id="386:10132">
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[74px] not-italic text-[18px] text-black top-[37px] whitespace-nowrap" data-node-id="386:10133">
+          Hoạt động yêu thích đã xóa
+        </p>
+        <div className="absolute inset-[43.16%_81.89%_37.89%_13.09%]" data-node-id="386:10134" data-name="twemoji:cross-mark">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTwemojiCrossMark} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

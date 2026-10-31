@@ -1,0 +1,4 @@
+$ pnpm --filter @bluesteps/mobile format:check
+$ prettier --check app src e2e scripts *.js *.ts *.json ../../packages/design-tokens/src
+Checking formatting...
+All matched files use Prettier code style!

@@ -1,0 +1,65 @@
+$ node scripts/check-android-ui.cjs
+ERROR: null root node returned by UiTestAutomationBridge.
+cat: /sdcard/bluesteps-ui-1.xml: No such file or directory
+Android QA: event discovery searches locations, resets filters and toggles saved state
+Android QA: article expands and collapses through native accessibility
+Android QA: article saves, likes and opens the matching discussion
+Android QA: collection creation works while the native keyboard is open
+Android QA: the other seven designed article routes render their own titles
+Error: Native UI not ready: Chủ Nhật Xanh ý nghĩa: Ca sĩ Thủy Tiên cùng cộng đồng chung tay "giải cứu" bãi biển!
+    at waitFor (D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:83:9)
+    at open (D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:106:10)
+    at D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:231:23
+    at check (D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:127:3)
+    at Object.<anonymous> (D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:222:3)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+{
+  "checkedAt": "2026-10-31T02:27:22.592Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "event discovery searches locations, resets filters and toggles saved state",
+      "passed": true
+    },
+    {
+      "name": "article expands and collapses through native accessibility",
+      "passed": true
+    },
+    {
+      "name": "article saves, likes and opens the matching discussion",
+      "passed": true
+    },
+    {
+      "name": "collection creation works while the native keyboard is open",
+      "passed": true
+    },
+    {
+      "name": "failure",
+      "passed": false,
+      "message": "Native UI not ready: Chủ Nhật Xanh ý nghĩa: Ca sĩ Thủy Tiên cùng cộng đồng chung tay \"giải cứu\" bãi biển!"
+    }
+  ],
+  "screenshots": [
+    "qa-event-explore",
+    "qa-event-save-restored",
+    "qa-article-collapsed",
+    "qa-article-expanded",
+    "qa-article-discussion",
+    "qa-article-returned",
+    "qa-collection-keyboard",
+    "qa-collection-created",
+    "qa-article-youth-ideas",
+    "qa-article-local-cleanup",
+    "qa-failure"
+  ],
+  "limitations": "Android emulator smoke/keyboard/font tests only; no iOS or physical-device acceptance; screenshots may include the Expo Go developer overlay"
+}
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:android: `node scripts/check-android-ui.cjs`
+Exit status 1

@@ -1,0 +1,503 @@
+{
+  "checkedAt": "2026-10-31T04:27:43.497Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "sourcePage": {
+    "id": "386:7053",
+    "name": "backuped"
+  },
+  "results": [
+    {
+      "name": "search matches accents, recovers empty results and carries its query into the grid",
+      "passed": true
+    },
+    {
+      "name": "reading preview removes only after confirmation and leaves the primary list empty",
+      "passed": true
+    },
+    {
+      "name": "failure",
+      "passed": false,
+      "message": "Native UI not ready: Bỏ lưu sự kiện xanh"
+    }
+  ],
+  "screenshots": [
+    "qa-news-680-5343",
+    "qa-news-search-empty",
+    "qa-news-search-grid",
+    "qa-news-680-5406",
+    "qa-news-reading-body",
+    "qa-news-reading-confirm",
+    "qa-news-reading-removed",
+    "qa-news-680-5461",
+    "qa-news-failure"
+  ],
+  "geometry": [
+    {
+      "frame": "680:5343",
+      "id": "news-search-cover-daily-waste",
+      "sourceSlot": [
+        116,
+        92
+      ],
+      "actual": [
+        96,
+        1074,
+        293,
+        233
+      ],
+      "expectedSize": [
+        292.7102803738318,
+        232.14953271028037
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-search-cover-storm-cleanup",
+      "sourceSlot": [
+        116,
+        92
+      ],
+      "actual": [
+        96,
+        1387,
+        293,
+        233
+      ],
+      "expectedSize": [
+        292.7102803738318,
+        232.14953271028037
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-search-cover-saigon-cleanup",
+      "sourceSlot": [
+        116,
+        92
+      ],
+      "actual": [
+        96,
+        1700,
+        293,
+        232
+      ],
+      "expectedSize": [
+        292.7102803738318,
+        232.14953271028037
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-extended-nav-imgRectangle87",
+      "expected": [
+        436.5420560747664,
+        2122.644859813084,
+        239.7196261682243,
+        169.06542056074767
+      ],
+      "actual": [
+        437,
+        2123,
+        239,
+        169
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-extended-nav-imgGroup",
+      "expected": [
+        931.1214953271028,
+        2145.355140186916,
+        70.65420560747664,
+        70.65420560747664
+      ],
+      "actual": [
+        931,
+        2145,
+        71,
+        70
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-extended-nav-imgGroup1",
+      "expected": [
+        717.2653457943925,
+        2143.461609153462,
+        74.44127102803738,
+        74.44120510621829
+      ],
+      "actual": [
+        717,
+        2143,
+        75,
+        74
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-extended-nav-imgGroup2",
+      "expected": [
+        316.0503925233645,
+        2143.4590182557863,
+        74.44127102803738,
+        80.87037114394714
+      ],
+      "actual": [
+        316,
+        2143,
+        75,
+        81
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-extended-nav-imgGroup37108",
+      "expected": [
+        40.373831775700936,
+        2127.691588785047,
+        219.53271028037383,
+        118.5981308411215
+      ],
+      "actual": [
+        40,
+        2128,
+        220,
+        119
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5343",
+      "id": "news-extended-nav-imgGroup36731",
+      "expected": [
+        446.64182242990654,
+        1999,
+        209.4266355140187,
+        209.44556074766356
+      ],
+      "actual": [
+        447,
+        1999,
+        209,
+        210
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-reading-featured-cover",
+      "sourceSlot": [
+        352,
+        139
+      ],
+      "actual": [
+        96,
+        715,
+        888,
+        351
+      ],
+      "expectedSize": [
+        888.2242990654206,
+        350.74766355140184
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-extended-nav-imgRectangle87",
+      "expected": [
+        436.5420560747664,
+        2122.644859813084,
+        239.7196261682243,
+        169.06542056074767
+      ],
+      "actual": [
+        437,
+        2123,
+        239,
+        169
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-extended-nav-imgGroup",
+      "expected": [
+        931.1214953271028,
+        2145.355140186916,
+        70.65420560747664,
+        70.65420560747664
+      ],
+      "actual": [
+        931,
+        2145,
+        71,
+        70
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-extended-nav-imgGroup1",
+      "expected": [
+        717.2653457943925,
+        2143.461609153462,
+        74.44127102803738,
+        74.44120510621829
+      ],
+      "actual": [
+        717,
+        2143,
+        75,
+        74
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-extended-nav-imgGroup2",
+      "expected": [
+        316.0503925233645,
+        2143.4590182557863,
+        74.44127102803738,
+        80.87037114394714
+      ],
+      "actual": [
+        316,
+        2143,
+        75,
+        81
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-extended-nav-imgGroup37108",
+      "expected": [
+        40.373831775700936,
+        2127.691588785047,
+        219.53271028037383,
+        118.5981308411215
+      ],
+      "actual": [
+        40,
+        2128,
+        220,
+        119
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-extended-nav-imgGroup36731",
+      "expected": [
+        446.64182242990654,
+        1999,
+        209.4266355140187,
+        209.44556074766356
+      ],
+      "actual": [
+        447,
+        1999,
+        209,
+        210
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-reading-cover-saigon-cleanup",
+      "sourceSlot": [
+        116,
+        92
+      ],
+      "actual": [
+        96,
+        1210,
+        293,
+        232
+      ],
+      "expectedSize": [
+        292.7102803738318,
+        232.14953271028037
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5406",
+      "id": "news-reading-cover-local-cleanup",
+      "sourceSlot": [
+        116,
+        92
+      ],
+      "actual": [
+        96,
+        1518,
+        293,
+        232
+      ],
+      "expectedSize": [
+        292.7102803738318,
+        232.14953271028037
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5461",
+      "id": "news-event-cover-viewport",
+      "sourceSlot": [
+        428,
+        263
+      ],
+      "actual": [
+        0,
+        136,
+        1080,
+        664
+      ],
+      "expectedSize": [
+        1080,
+        663.6448598130842
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5461",
+      "id": "news-extended-nav-imgRectangle87",
+      "expected": [
+        436.5420560747664,
+        2122.644859813084,
+        239.7196261682243,
+        169.06542056074767
+      ],
+      "actual": [
+        437,
+        2123,
+        239,
+        169
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5461",
+      "id": "news-extended-nav-imgGroup",
+      "expected": [
+        931.1214953271028,
+        2145.355140186916,
+        70.65420560747664,
+        70.65420560747664
+      ],
+      "actual": [
+        931,
+        2145,
+        71,
+        70
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5461",
+      "id": "news-extended-nav-imgGroup1",
+      "expected": [
+        717.2653457943925,
+        2143.461609153462,
+        74.44127102803738,
+        74.44120510621829
+      ],
+      "actual": [
+        717,
+        2143,
+        75,
+        74
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5461",
+      "id": "news-extended-nav-imgGroup2",
+      "expected": [
+        316.0503925233645,
+        2143.4590182557863,
+        74.44127102803738,
+        80.87037114394714
+      ],
+      "actual": [
+        316,
+        2143,
+        75,
+        81
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5461",
+      "id": "news-extended-nav-imgGroup37108",
+      "expected": [
+        40.373831775700936,
+        2127.691588785047,
+        219.53271028037383,
+        118.5981308411215
+      ],
+      "actual": [
+        40,
+        2128,
+        220,
+        119
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    },
+    {
+      "frame": "680:5461",
+      "id": "news-extended-nav-imgGroup36731",
+      "expected": [
+        446.64182242990654,
+        1999,
+        209.4266355140187,
+        209.44556074766356
+      ],
+      "actual": [
+        447,
+        1999,
+        209,
+        210
+      ],
+      "tolerancePhysicalPixels": 3,
+      "passed": true
+    }
+  ],
+  "environmentNotes": [],
+  "limitations": "Dedicated Android emulator behavior, native media slots and font QA; no iOS, physical-device or full-frame fidelity acceptance. Native OS status/navigation bars replace Figma mock system chrome."
+}

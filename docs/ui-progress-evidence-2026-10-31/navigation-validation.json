@@ -1,0 +1,549 @@
+{
+  "checkedAt": "2026-10-31T13:59:02.779Z",
+  "scope": "Latest result per test across original full run and focused reruns; not a new single green full-suite run.",
+  "total": 89,
+  "passed": 89,
+  "failed": 0,
+  "logs": [
+    "navigation-e2e.log",
+    "navigation-e2e-recheck.log",
+    "navigation-news-recheck.log",
+    "navigation-final-recheck.log"
+  ],
+  "results": [
+    {
+      "test": "e2e/bot-design.spec.ts: typed question clears the draft and its reply opens the handbook",
+      "passed": true,
+      "duration": "2.5s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/bot-design.spec.ts: suggestions add a question and cancelling listening adds no voice message",
+      "passed": true,
+      "duration": "2.0s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/bot-design.spec.ts: listening start and stop add a voice row with play and pause controls",
+      "passed": true,
+      "duration": "2.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/chat-design.spec.ts: searching contacts and sending text preserve the conversation and list preview",
+      "passed": true,
+      "duration": "3.4s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/chat-design.spec.ts: emoji and keyboard keys append to the draft and clear it after sending",
+      "passed": true,
+      "duration": "3.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/chat-design.spec.ts: photo and file pickers send the selected media and metadata to the current conversation",
+      "passed": true,
+      "duration": "5.1s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/chat-design.spec.ts: cancelled voice recording sends nothing and a sent voice message can toggle playback UI",
+      "passed": true,
+      "duration": "4.8s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/chat-design.spec.ts: community share picker sends a post to the chosen recipient and opens its details",
+      "passed": true,
+      "duration": "3.5s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection-forms.spec.ts: proposal requires a local photo, saves a draft and restores it after leaving the form",
+      "passed": true,
+      "duration": "3.0s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection-forms.spec.ts: report keeps the selected point, supports multiple issues and validates optional detail",
+      "passed": true,
+      "duration": "2.4s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection.spec.ts: route steps switch travel mode, validate departure time and open sample navigation",
+      "passed": true,
+      "duration": "2.8s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection.spec.ts: explore map opens its filters and carries a submitted search into nearby results",
+      "passed": true,
+      "duration": "3.9s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection.spec.ts: replacement changes only the first stop and keeps the following battery stop",
+      "passed": true,
+      "duration": "2.8s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection.spec.ts: point photos, route preview, arrival checks and the next stop are connected",
+      "passed": true,
+      "duration": "4.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection.spec.ts: filter drafts cancel, radius accepts keyboard input and applied choices survive reopening",
+      "passed": true,
+      "duration": "3.0s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection.spec.ts: comparison selection drives the first journey stop and permits removing it",
+      "passed": true,
+      "duration": "2.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/collection.spec.ts: journey supports accessible reorder, drag, origin edits and local handoff instructions",
+      "passed": true,
+      "duration": "2.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/community-design.spec.ts: likes and saves remain consistent between feed, post and saved screens",
+      "passed": true,
+      "duration": "3.1s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/community-design.spec.ts: comment editor validates empty text and displays the submitted comment",
+      "passed": true,
+      "duration": "2.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/community-design.spec.ts: explore searches members, follows the selected member and opens topic results",
+      "passed": true,
+      "duration": "3.4s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/community-design.spec.ts: post options copy a link and hide the selected post from the feed",
+      "passed": true,
+      "duration": "2.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/composer-design.spec.ts: composer preserves its draft, audience, place and feeling through every picker",
+      "passed": true,
+      "duration": "4.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/composer-design.spec.ts: two selected gallery photos are previewed and published once to the local feed",
+      "passed": true,
+      "duration": "5.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/composer-design.spec.ts: camera fixture can be captured, removed and replaced by a single gallery photo",
+      "passed": true,
+      "duration": "2.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/composer-design.spec.ts: web prototype keyboard edits the native text field without losing its text",
+      "passed": true,
+      "duration": "2.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/events.spec.ts: Home opens the matching activity and registration, ticket, check-in and feedback stay local",
+      "passed": true,
+      "duration": "13.1s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/events.spec.ts: preview feedback does not create a ticket and the role picker preserves participation choices",
+      "passed": true,
+      "duration": "7.3s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/events.spec.ts: saved events can be organized, reminders persist across navigation and deletion asks for confirmation",
+      "passed": true,
+      "duration": "6.9s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/events.spec.ts: ticket preview downloads a PNG and opens only local contact information without creating a registration",
+      "passed": true,
+      "duration": "5.4s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/events.spec.ts: calendar selects full dates, switches months and shows the empty state",
+      "passed": true,
+      "duration": "3.7s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/events.spec.ts: event screens render at 390 and 428 px with local assets and valid empty deep links",
+      "passed": true,
+      "duration": "23.3s",
+      "evidence": "navigation-final-recheck.log"
+    },
+    {
+      "test": "e2e/fidelity.spec.ts: the complete onboarding preserves choices through the five setup steps",
+      "passed": true,
+      "duration": "3.9s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/fidelity.spec.ts: Home uses the Figma frame geometry and every original asset loads locally",
+      "passed": true,
+      "duration": "2.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/fidelity.spec.ts: redesigned profile shortcuts navigate and its original imagery loads",
+      "passed": true,
+      "duration": "2.9s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/fidelity.spec.ts: recovery preview validates email, six digits and matching passwords without claiming a real reset",
+      "passed": true,
+      "duration": "3.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/final-design.spec.ts: searching games and sorting all eight items reaches a replayable result",
+      "passed": true,
+      "duration": "4.9s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/final-design.spec.ts: room and schedule forms validate and keep the saved title in the current session",
+      "passed": true,
+      "duration": "2.8s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/final-design.spec.ts: the original navigation opens statistics and its achievement action works",
+      "passed": true,
+      "duration": "3.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/final-design.spec.ts: reference result states replay and navigate to rewards",
+      "passed": true,
+      "duration": "4.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/frontend.spec.ts: home matches the mobile layout, has five tabs and opens the scan flow",
+      "passed": true,
+      "duration": "4.8s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/frontend.spec.ts: handbook search, point filters and adding/removing journey stops work",
+      "passed": true,
+      "duration": "7.1s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/frontend.spec.ts: saving and composing stay local, auth validates and rewards stay disabled",
+      "passed": true,
+      "duration": "12.1s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/frontend.spec.ts: theme toggles and the query error/retry state is accessible",
+      "passed": true,
+      "duration": "9.7s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/frontend.spec.ts: desktop preview and direct detail links render without overflow",
+      "passed": true,
+      "duration": "49.4s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/frontend.spec.ts: seeded history, statistics, notifications and conversations are ready to demonstrate",
+      "passed": true,
+      "duration": "15.0s",
+      "evidence": "navigation-e2e-recheck.log"
+    },
+    {
+      "test": "e2e/handbook.spec.ts: classification tables connect the original learn-more buttons and return to the guide",
+      "passed": true,
+      "duration": "5.1s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/handbook.spec.ts: original handbook navigation opens each of its five destinations",
+      "passed": true,
+      "duration": "9.1s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/handbook.spec.ts: category instructions close with Escape and filtered material keeps its detail route",
+      "passed": true,
+      "duration": "3.2s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/handbook.spec.ts: a direct category instruction link can close and reopen its original list",
+      "passed": true,
+      "duration": "2.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/handbook.spec.ts: handbook categories filter the list and its material opens the correct guide",
+      "passed": true,
+      "duration": "4.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/handbook.spec.ts: handbook search accepts Vietnamese without accents and returns from the guide",
+      "passed": true,
+      "duration": "3.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/news-digest.spec.ts: green calendar changes years, filters categories and restores the monthly list without changing event dates",
+      "passed": true,
+      "duration": "5.0s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-digest.spec.ts: brief dates validate actual calendar dates, preserve read marks while open and recover empty filters",
+      "passed": true,
+      "duration": "3.7s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-digest.spec.ts: live Figma calendar and brief examples open explicit local details or related topics without creating registrations",
+      "passed": true,
+      "duration": "6.7s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-feed.spec.ts: all thirteen news fixtures are reachable through pagination with local images",
+      "passed": true,
+      "duration": "3.6s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-feed.spec.ts: saved news search recovers locally and topic aliases select the matching articles",
+      "passed": true,
+      "duration": "4.7s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-feed.spec.ts: saved-design preview uses original stories and removal never changes the actual session",
+      "passed": true,
+      "duration": "4.5s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-landing.spec.ts: news landing opens search, the original featured article, saved stories and menu destinations",
+      "passed": true,
+      "duration": "4.4s",
+      "evidence": "navigation-final-recheck.log"
+    },
+    {
+      "test": "e2e/news-landing.spec.ts: latest news paginates all thirteen stories chronologically and preserves the chosen story ID",
+      "passed": true,
+      "duration": "4.4s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-landing.spec.ts: event stories scroll to the last article, tabs keep preview state isolated and narrow screens stay usable",
+      "passed": true,
+      "duration": "7.1s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-social.spec.ts: owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px",
+      "passed": true,
+      "duration": "3.3s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-social.spec.ts: the featured story and all four topic cards open their matching feed while follow choices remain local",
+      "passed": true,
+      "duration": "4.6s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news-social.spec.ts: discussion preview sorting, likes and posting never add comments to the actual article",
+      "passed": true,
+      "duration": "5.3s",
+      "evidence": "navigation-news-recheck.log"
+    },
+    {
+      "test": "e2e/news.spec.ts: news search combines Vietnamese terms, topics and ordering and recovers from empty results",
+      "passed": true,
+      "duration": "4.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/news.spec.ts: Home news opens the matching article and saved articles survive navigation and require removal confirmation",
+      "passed": true,
+      "duration": "5.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/news.spec.ts: article discussions validate input, support replies and isolate comments from other articles",
+      "passed": true,
+      "duration": "6.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/news.spec.ts: topic following persists through navigation and selecting another topic updates the feed",
+      "passed": true,
+      "duration": "5.5s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/news.spec.ts: briefs mark articles read locally and green calendar opens the correct event",
+      "passed": true,
+      "duration": "6.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/news.spec.ts: news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links",
+      "passed": true,
+      "duration": "40.6s",
+      "evidence": "navigation-final-recheck.log"
+    },
+    {
+      "test": "e2e/notifications-design.spec.ts: unread filtering, detail links and marking all read stay consistent",
+      "passed": true,
+      "duration": "5.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/notifications-design.spec.ts: notification preferences persist while navigating and community follow controls toggle",
+      "passed": true,
+      "duration": "5.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/notifications-design.spec.ts: deleting a notification remains deleted when the all filter is selected again",
+      "passed": true,
+      "duration": "3.8s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/rewards-design.spec.ts: daily reward, reminder and redemption remain consistent across reward screens",
+      "passed": true,
+      "duration": "7.4s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/rewards-design.spec.ts: categories, guide and bottom navigation open their intended destinations",
+      "passed": true,
+      "duration": "5.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/saved-events.spec.ts: collection move, rename and delete preserve saved activities and allow cancellation",
+      "passed": true,
+      "duration": "6.2s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/saved-events.spec.ts: collections pass only the selected saved activities into an unsaved reminder draft",
+      "passed": true,
+      "duration": "3.7s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/saved-events.spec.ts: reminder channels, sound, custom timing and quiet hours save only when valid",
+      "passed": true,
+      "duration": "5.0s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/saved-events.spec.ts: Figma previews are interactive without changing the real saved list or reminder settings",
+      "passed": true,
+      "duration": "4.4s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/scan.spec.ts: scan sample states retry, open the handbook and preserve the five original tabs",
+      "passed": true,
+      "duration": "3.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/scan.spec.ts: camera sample capture opens the result and its original detail screen",
+      "passed": true,
+      "duration": "3.6s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/scan.spec.ts: sample processing, result detail and the five-point preview remain a local demonstration",
+      "passed": true,
+      "duration": "2.9s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/scan.spec.ts: the scan handbook scrolls to its last material and returns to the same list",
+      "passed": true,
+      "duration": "3.1s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/scan.spec.ts: actual camera stays separate from sample photos when permission is denied",
+      "passed": true,
+      "duration": "2.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/scan.spec.ts: a chosen local photo opens manual selection and keeps its image in the result",
+      "passed": true,
+      "duration": "3.4s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/scan.spec.ts: direct preview links keep the back and result controls usable",
+      "passed": true,
+      "duration": "2.5s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/settings.spec.ts: sound changes apply on save and cancel restores the previous choices",
+      "passed": true,
+      "duration": "3.3s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/settings.spec.ts: settings search filters Vietnamese text and opens the matching screen",
+      "passed": true,
+      "duration": "3.4s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/settings.spec.ts: PIN preview requires six digits and does not claim to activate a real lock",
+      "passed": true,
+      "duration": "2.8s",
+      "evidence": "navigation-e2e.log"
+    },
+    {
+      "test": "e2e/settings.spec.ts: profile editor formats dates and validates the local preview",
+      "passed": true,
+      "duration": "2.4s",
+      "evidence": "navigation-e2e.log"
+    }
+  ]
+}

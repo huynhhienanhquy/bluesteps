@@ -1,0 +1,286 @@
+{
+  "checkedAt": "2026-10-30T20:36:45.6257717+07:00",
+  "scope": "Current local worktree including uncommitted changes; review and report update only",
+  "branch": "codex/initial-upload",
+  "localHead": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "remoteHead": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "remoteVerifiedThisReview": true,
+  "hasUncommittedProductChanges": true,
+  "checks": {
+    "typecheck": {
+      "exitCode": 0,
+      "log": "progress-review-typecheck.log",
+      "rerunThisReview": true
+    },
+    "lint": {
+      "log": "progress-review-lint.log",
+      "exitCode": 0,
+      "warnings": 3,
+      "errors": 0,
+      "rerunThisReview": true
+    },
+    "unit": {
+      "total": 39,
+      "durationSeconds": 26.729,
+      "exitCode": 0,
+      "rerunThisReview": true,
+      "suites": 16,
+      "passed": 39,
+      "log": "progress-review-unit.log"
+    },
+    "e2e": {
+      "priorFocusedFinalTotal": 6,
+      "reference": "ticket-calendar-validation.json",
+      "priorFocusedFinalPassed": 6,
+      "priorFullTotal": 48,
+      "priorFullPassed": 48,
+      "rerunThisReview": false,
+      "note": "Full regression predates final tree filter/cover and white-margin PNG changes; focused final event suite covers them"
+    },
+    "sourceHashes": [
+      {
+        "path": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+        "sha256": "0391af264cfa3c042d77b6ec16044c16caaaeb531f9eeddf6af2d35a21a06cae",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+        "sha256": "1b2d7e7397575fac36076af29aeb462d87c683028f3d56880b368302b7155bfb",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/events/EventParts.tsx",
+        "sha256": "6a652f0e9d814097691a4c091b1961eee01f64c691fd0151490bfb698064eaca",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/features/events/EventScreens.tsx",
+        "sha256": "a7a09114e148ad0268c9f3efef12a81dfc133b3e1dcdbcd59ae4ae4c21899a27",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/services/ticket-image.ts",
+        "sha256": "baa21cb0ae043210582e7ede13b533726c8e84dfd16246e2f135ff868aa15c95",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/services/ticket-image.web.ts",
+        "sha256": "6f860f5e080cadb70354bdcced4c36f42a63fbe7f0e82a07f33d2e415e5e404a",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/services/event-planning.ts",
+        "sha256": "adb22a0a57a57d762cb60907947273e222d97b7b8f0c403c976b718050acc8f1",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/src/services/fixtures.ts",
+        "sha256": "bcfa910c29084c6bb072da38281eaa977d08aadaf7d2cdd6f56a4c9729156046",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/app.json",
+        "sha256": "1e2c7eebc2a309761cf90a07544d21752fcfdcec38bd0cae7e50985d0d8d8673",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "apps/mobile/package.json",
+        "sha256": "befe55523c0687c72a92a17a691ce04d12acf1088d3fb4d50e126e6995b80fed",
+        "matchesPriorEvidence": true
+      },
+      {
+        "path": "pnpm-lock.yaml",
+        "sha256": "65d6d8f44cfe220990cdebebb628c24dfbb331e9284354ab75b19e32f7fffe39",
+        "matchesPriorEvidence": true
+      }
+    ]
+  },
+  "functionStatusScope": "Demo UI scopes; overlapping rows are not a product completion percentage",
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 17,
+    "Đang trong tiến trình": 19
+  },
+  "functionStatuses": [
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — danh sách, tìm kiếm và chi tiết",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "figma": {
+    "allMappedSourcesExist": true,
+    "unmapped": 102,
+    "frames": 175,
+    "mapped": 73,
+    "liveRecheckedThisReview": false,
+    "fullFidelityProven": false
+  },
+  "routesExcludingLayouts": 63,
+  "missingReportLinks": [],
+  "limitations": [
+    "Physical device QA remains open",
+    "Three ESLint warnings in events E2E test",
+    "Full repository formatting not rerun",
+    "Four new activity UI demo scopes remain uncommitted"
+  ]
+}

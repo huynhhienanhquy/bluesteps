@@ -1,0 +1,19 @@
+$ playwright test "e2e/news.spec.ts" "e2e/news-feed.spec.ts"
+
+Running 9 tests using 1 worker
+
+(node:10148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\news-feed.spec.ts:3:5 › all twelve news fixtures are reachable through pagination with local images (2.5s)
+  ok 2 e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles (2.1s)
+  ok 3 e2e\news-feed.spec.ts:74:5 › saved-design preview uses original stories and removal never changes the actual session (2.2s)
+  ok 4 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (2.2s)
+  ok 5 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (2.9s)
+  ok 6 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (2.3s)
+  ok 7 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (2.2s)
+  ok 8 e2e\news.spec.ts:134:5 › briefs mark articles read locally and green calendar opens the correct event (2.8s)
+  ok 9 e2e\news.spec.ts:164:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (25.4s)
+
+  9 passed (46.4s)

@@ -1,0 +1,540 @@
+$ jest --runInBand "--watch=false"
+FAIL src/features/content/NewsExtendedScreens.test.tsx (11.845 s)
+  ● search preview opens the right article and never writes primary search history
+
+    Unable to find an element with accessibility label: Tìm sống xanh
+
+    <RNCSafeAreaProvider>
+      <Text>
+        Phiên:  /  /  /  / 0 vé
+      </Text>
+      <View>
+        <View
+          testID="news-extended-680:5343"
+        >
+          <RCTScrollView>
+            <View>
+              <View>
+                <View
+                  accessibilityLabel="Quay lại"
+                  accessibilityRole="button"
+                  accessible={true}
+                >
+                  <Text>
+                    ‹
+                  </Text>
+                </View>
+                <Text
+                  accessibilityRole="header"
+                >
+                  Tìm kiếm tin tức
+                </Text>
+              </View>
+              <Text>
+                Tìm câu chuyện và hoạt động xanh bạn quan tâm
+              </Text>
+              <View>
+                <View>
+                  <Text>
+                    ⌕
+                  </Text>
+                  <TextInput
+                    accessibilityLabel="Tìm kiếm tin tức"
+                    placeholder="Từ khóa hoặc chủ đề"
+                    value="rác thải"
+                  />
+                  <View
+                    accessibilityLabel="Xóa từ khóa tìm kiếm"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      ×
+                    </Text>
+                  </View>
+                </View>
+                <Text>
+                  Tìm kiếm gần đây
+                </Text>
+                <View>
+                  <View
+                    accessibilityLabel="Tìm rác thải"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      rác thải
+                    </Text>
+                  </View>
+                  <View
+                    accessibilityLabel="Tìm tái chế"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      tái chế
+                    </Text>
+                  </View>
+                  <View
+                    accessibilityLabel="Tìm dọn rác"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      dọn rác
+                    </Text>
+                  </View>
+                </View>
+                <View />
+                <Text
+                  accessibilityRole="header"
+                >
+                  Kết quả cho “rác thải”
+                </Text>
+                <Text>
+                  3
+                   bài viết
+                </Text>
+                <View>
+                  <View
+                    accessibilityLabel="Đọc Mỗi ngày, thế giới thải ra khoảng 11 triệu tấn rác"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                    <View>
+                      <Text>
+                        TÁI CHẾ
+                      </Text>
+                      <Text>
+                        Mỗi ngày, thế giới thải ra khoảng 11 triệu tấn rác
+                      </Text>
+                      <Text>
+                        1.2k lượt xem · 5 phút đọc
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    accessibilityLabel="Đọc Người dân chung tay dọn rác sau cơn bão"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                    <View>
+                      <Text>
+                        CỘNG ĐỒNG
+                      </Text>
+                      <Text>
+                        Người dân chung tay dọn rác sau cơn bão
+                      </Text>
+                      <Text>
+                        1.7k lượt xem · 4 phút đọc
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    accessibilityLabel="Đọc Làm sạch dòng kênh: một hành động nhỏ, đổi thay lớn"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                    <View>
+                      <Text>
+                        SỐNG XANH
+                      </Text>
+                      <Text>
+                        Làm sạch dòng kênh: một hành động nhỏ, đổi thay lớn
+                      </Text>
+                      <Text>
+                        1.2k lượt xem · 6 phút đọc
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="Xem dạng lưới"
+                  accessibilityRole="button"
+                  accessible={true}
+                >
+                  <Text>
+                    Xem dạng lưới →
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+          <View>
+            <View>
+              <View />
+              <View />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <View
+                accessibilityLabel="Trang chủ"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": true,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Thu gom"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": false,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Đổi quà"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": false,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Cá nhân"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": false,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Quét rác"
+                accessibilityRole="tab"
+                accessible={true}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      70 |   });
+      71 |   expect(screen.getByText('Phiên:  /  /  /  / 0 vé')).toBeTruthy();
+    > 72 |   await fireEvent.press(screen.getByLabelText('Tìm sống xanh'));
+         |                                ^
+      73 |   expect(screen.getByLabelText('Tìm kiếm tin tức')).toHaveProp('value', 'sống xanh');
+      74 | });
+      75 | test('reading list uses actual saved articles and cancellation preserves the saved state', async () => {
+
+      at Object.getByLabelText (src/features/content/NewsExtendedScreens.test.tsx:72:32)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+
+Summary of all failing tests
+FAIL src/features/content/NewsExtendedScreens.test.tsx (11.845 s)
+  ● search preview opens the right article and never writes primary search history
+
+    Unable to find an element with accessibility label: Tìm sống xanh
+
+    <RNCSafeAreaProvider>
+      <Text>
+        Phiên:  /  /  /  / 0 vé
+      </Text>
+      <View>
+        <View
+          testID="news-extended-680:5343"
+        >
+          <RCTScrollView>
+            <View>
+              <View>
+                <View
+                  accessibilityLabel="Quay lại"
+                  accessibilityRole="button"
+                  accessible={true}
+                >
+                  <Text>
+                    ‹
+                  </Text>
+                </View>
+                <Text
+                  accessibilityRole="header"
+                >
+                  Tìm kiếm tin tức
+                </Text>
+              </View>
+              <Text>
+                Tìm câu chuyện và hoạt động xanh bạn quan tâm
+              </Text>
+              <View>
+                <View>
+                  <Text>
+                    ⌕
+                  </Text>
+                  <TextInput
+                    accessibilityLabel="Tìm kiếm tin tức"
+                    placeholder="Từ khóa hoặc chủ đề"
+                    value="rác thải"
+                  />
+                  <View
+                    accessibilityLabel="Xóa từ khóa tìm kiếm"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      ×
+                    </Text>
+                  </View>
+                </View>
+                <Text>
+                  Tìm kiếm gần đây
+                </Text>
+                <View>
+                  <View
+                    accessibilityLabel="Tìm rác thải"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      rác thải
+                    </Text>
+                  </View>
+                  <View
+                    accessibilityLabel="Tìm tái chế"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      tái chế
+                    </Text>
+                  </View>
+                  <View
+                    accessibilityLabel="Tìm dọn rác"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <Text>
+                      dọn rác
+                    </Text>
+                  </View>
+                </View>
+                <View />
+                <Text
+                  accessibilityRole="header"
+                >
+                  Kết quả cho “rác thải”
+                </Text>
+                <Text>
+                  3
+                   bài viết
+                </Text>
+                <View>
+                  <View
+                    accessibilityLabel="Đọc Mỗi ngày, thế giới thải ra khoảng 11 triệu tấn rác"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                    <View>
+                      <Text>
+                        TÁI CHẾ
+                      </Text>
+                      <Text>
+                        Mỗi ngày, thế giới thải ra khoảng 11 triệu tấn rác
+                      </Text>
+                      <Text>
+                        1.2k lượt xem · 5 phút đọc
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    accessibilityLabel="Đọc Người dân chung tay dọn rác sau cơn bão"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                    <View>
+                      <Text>
+                        CỘNG ĐỒNG
+                      </Text>
+                      <Text>
+                        Người dân chung tay dọn rác sau cơn bão
+                      </Text>
+                      <Text>
+                        1.7k lượt xem · 4 phút đọc
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    accessibilityLabel="Đọc Làm sạch dòng kênh: một hành động nhỏ, đổi thay lớn"
+                    accessibilityRole="button"
+                    accessible={true}
+                  >
+                    <ViewManagerAdapter_ExpoImage
+                      accessible={false}
+                      placeholder={[]}
+                    />
+                    <View>
+                      <Text>
+                        SỐNG XANH
+                      </Text>
+                      <Text>
+                        Làm sạch dòng kênh: một hành động nhỏ, đổi thay lớn
+                      </Text>
+                      <Text>
+                        1.2k lượt xem · 6 phút đọc
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessibilityLabel="Xem dạng lưới"
+                  accessibilityRole="button"
+                  accessible={true}
+                >
+                  <Text>
+                    Xem dạng lưới →
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+          <View>
+            <View>
+              <View />
+              <View />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <ViewManagerAdapter_ExpoImage
+                accessible={false}
+                placeholder={[]}
+              />
+              <View
+                accessibilityLabel="Trang chủ"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": true,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Thu gom"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": false,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Đổi quà"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": false,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Cá nhân"
+                accessibilityRole="tab"
+                accessibilityState={
+                  {
+                    "selected": false,
+                  }
+                }
+                accessible={true}
+              />
+              <View
+                accessibilityLabel="Quét rác"
+                accessibilityRole="tab"
+                accessible={true}
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      70 |   });
+      71 |   expect(screen.getByText('Phiên:  /  /  /  / 0 vé')).toBeTruthy();
+    > 72 |   await fireEvent.press(screen.getByLabelText('Tìm sống xanh'));
+         |                                ^
+      73 |   expect(screen.getByLabelText('Tìm kiếm tin tức')).toHaveProp('value', 'sống xanh');
+      74 | });
+      75 | test('reading list uses actual saved articles and cancellation preserves the saved state', async () => {
+
+      at Object.getByLabelText (src/features/content/NewsExtendedScreens.test.tsx:72:32)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+
+Test Suites: 1 failed, 20 passed, 21 total
+Tests:       1 failed, 76 passed, 77 total
+Snapshots:   0 total
+Time:        63.634 s, estimated 104 s
+Ran all test suites.
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test: `jest --runInBand "--watch=false"`
+Exit status 1

@@ -1,0 +1,35 @@
+ERROR: null root node returned by UiTestAutomationBridge.
+cat: /sdcard/bluesteps-ui-1.xml: No such file or directory
+Android QA: garden copy uses native paragraph breaks at font 1.0
+Error: Could not scroll to /^Dưới sự hướng dẫn/
+    at scrollTo (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:148:9)
+    at D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:187:25
+    at check (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:152:3)
+    at Object.<anonymous> (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:181:7)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+{
+  "checkedAt": "2026-10-31T03:58:46.569Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "failure",
+      "passed": false,
+      "message": "Could not scroll to /^Dưới sự hướng dẫn/"
+    }
+  ],
+  "screenshots": [
+    "qa-event-failure"
+  ],
+  "environmentNotes": [],
+  "limitations": "Android emulator viewport and behavior QA only; no iOS, physical device, backend or full-frame fidelity acceptance"
+}
+undefined
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL] Command failed with exit code 1: node scripts/check-android-event-ui.cjs --copy-only

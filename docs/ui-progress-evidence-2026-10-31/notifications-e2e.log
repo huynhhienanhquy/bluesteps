@@ -1,0 +1,14 @@
+
+Running 5 tests using 1 worker
+
+(node:1808) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1808) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\notifications-design.spec.ts:8:5 › unread filtering, detail links and marking all read stay consistent (3.4s)
+  ok 2 e2e\notifications-design.spec.ts:34:5 › notification preferences persist while navigating and community follow controls toggle (2.4s)
+  ok 3 e2e\notifications-design.spec.ts:58:5 › deleting a notification remains deleted when the all filter is selected again (2.0s)
+  ok 4 e2e\rewards-design.spec.ts:3:5 › daily reward, reminder and redemption remain consistent across reward screens (5.2s)
+  ok 5 e2e\rewards-design.spec.ts:50:5 › categories, guide and bottom navigation open their intended destinations (3.7s)
+
+  5 passed (19.2s)

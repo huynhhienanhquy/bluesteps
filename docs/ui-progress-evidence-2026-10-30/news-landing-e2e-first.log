@@ -1,0 +1,65 @@
+$ playwright test "e2e/news-landing.spec.ts" "e2e/news-feed.spec.ts" "e2e/news.spec.ts"
+
+Running 12 tests using 1 worker
+
+(node:9892) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9892) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\news-feed.spec.ts:3:5 › all thirteen news fixtures are reachable through pagination with local images (2.6s)
+  ok  2 e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles (2.2s)
+  ok  3 e2e\news-feed.spec.ts:74:5 › saved-design preview uses original stories and removal never changes the actual session (2.1s)
+  ok  4 e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations (2.7s)
+  ok  5 e2e\news-landing.spec.ts:29:5 › latest news paginates all thirteen stories chronologically and preserves the chosen story ID (2.1s)
+  ok  6 e2e\news-landing.spec.ts:60:5 › event stories scroll to the last article, tabs keep preview state isolated and narrow screens stay usable (4.0s)
+  ok  7 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (2.3s)
+  ok  8 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (2.9s)
+  ok  9 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (2.4s)
+  ok 10 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (2.1s)
+  ok 11 e2e\news.spec.ts:135:5 › briefs mark articles read locally and green calendar opens the correct event (2.9s)
+  x  12 e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (6.0s)
+
+
+  1) e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: 'Quay lại', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: 'Quay lại', exact: true }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Quay lại', exact: true })
+
+
+      183 |     ]) {
+      184 |       await page.goto(path!);
+    > 185 |       await expect(page.getByRole('button', { name: 'Quay lại', exact: true })).toBeVisible();
+          |                                                                                 ^
+      186 |       await expect(page.getByLabel('Đang tải', { exact: true })).toHaveCount(0);
+      187 |       // Related articles can be below the fold and use the browser's lazy image loading.
+      188 |       // Visit pending images, verify them, then restore the scroll position for the capture.
+        at D:\BlueSteps\apps\mobile\e2e\news.spec.ts:185:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links 
+  11 passed (37.0s)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:e2e: `playwright test "e2e/news-landing.spec.ts" "e2e/news-feed.spec.ts" "e2e/news.spec.ts"`
+Exit status 1

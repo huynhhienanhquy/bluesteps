@@ -1,0 +1,15 @@
+# UI backuped — bàn giao mã nguồn ngày 31/10/2026
+
+Đã triển khai mã UI cho **211/211 frame** của trang **backuped (`386:7053`)** trong file Figma `7GCLABwia0mauoszRi0Vtt`. Kiểm kê live cuối có 223 node trực tiếp, gồm 211 frame và 12 lớp đồ họa khác. Phạm vi là React Native/Expo cho Android/iOS, tương tác cục bộ và asset đi kèm; không triển khai backend, phát hành ứng dụng hay ghi ngược vào Figma.
+
+Lượt cuối bổ sung 10 biến thể Trò chơi, Thống kê, menu điều hướng 179 × 218, khung minh họa 106,9 × 60 và trạng thái tải 64%. Màn chơi có chọn/xếp vật phẩm, kiểm tra hoàn tất, xem kết quả, chơi lại, tìm trò chơi và biểu mẫu phòng/lịch trong phiên. Kết quả 1 điểm là nội dung mẫu của Figma, không chấm đáp án hoặc cộng vào ví. XO và Đua vịt được thể hiện bằng các thẻ đã có trong thiết kế. Thống kê nối tới Thành tích, Hoạt động và Sổ tay; menu được dùng trong bảng khám phá Tin tức.
+
+Mã chính: [Trò chơi](../apps/mobile/src/features/backuped/BackupedGameScreen.tsx), [Thống kê và khung phụ](../apps/mobile/src/features/backuped/BackupedParts.tsx), [dữ liệu lớp UI](../apps/mobile/src/features/backuped/final-design-data.json), [asset cục bộ](../apps/mobile/src/design-system/final-assets.ts). Các khung phụ có thể mở bằng `/design-preview?frame=386:8558`, `/design-preview?frame=386:17297`, `/design-preview?frame=386:18473`. Các biến thể trò chơi nhận `frame` và `preview=1` tại `/game`.
+
+Đã kiểm tra TypeScript, ESLint, 77 unit test trong 21 suite và 10 kiểm thử E2E. Web và bundle JS/Hermes Android/iOS export thành công. E2E có một bài duyệt nhiều deep link dùng giới hạn 60 giây. Có 28 ảnh chụp của 14 frame cuối ở hai kích thước; 440 vị trí ảnh/SVG đạt kiểm tra file, asset gốc, tỷ lệ, opacity và tọa độ. Bổ sung 50 ảnh cho 25 frame cũ còn thiếu trong hồ sơ tổng hợp, không lỗi runtime, ảnh tải lỗi hoặc tràn ngang.
+
+Asset tĩnh dùng file gốc cục bộ. Hai SVG có filter giữ bản gốc và có PNG trong suốt 3× cho native. Các cung biểu đồ giữ đúng SVG và wrapper trong nguồn Figma; nền trò chơi giữ opacity 70%, nền sảnh 80%. Khung pin giữ ảnh trong suốt và nền xem trước `#F5F5F5`. Một gradient tải được chuyển từ chính thông số fill. Sảnh trò chơi được ghép từ context các lớp con vì lần đọc root hết thời gian chờ; [nguồn ghép](figma-fidelity/final-context-composition.json) được giữ để truy vết.
+
+Hồ sơ cuối: [kiểm kê live](ui-progress-evidence-2026-10-31/figma-live-inventory-final.json), [coverage](figma-fidelity/coverage.json), [audit bàn giao](figma-fidelity/ui-code-completion-audit.json), [audit asset nhóm cuối](figma-fidelity/final-asset-audit.json), [đối chiếu ảnh](figma-fidelity/final-visual-comparison.json). Log kiểm chứng nằm trong `docs/ui-progress-evidence-2026-10-31/final-*.log` và `completion-capture.log`.
+
+Đây là hoàn tất phạm vi **sinh mã UI**, không phải chứng nhận giống từng pixel. Chữ, emoji và cách raster hóa có thể khác Figma. Bundle native không phải APK/IPA hoặc nghiệm thu trên điện thoại thật. Các báo cáo tiến độ cũ được giữ như lịch sử; số liệu hiện tại dùng hồ sơ bàn giao này.

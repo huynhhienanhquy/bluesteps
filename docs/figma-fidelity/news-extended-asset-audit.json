@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-31T04:27:05.598Z",
+  "passed": true,
+  "pageId": "386:7053",
+  "rows": [
+    {
+      "frame": "680:5343",
+      "callsite": "apps/mobile/src/features/content/NewsSearchScreen.tsx",
+      "originalImageOccurrences": 16,
+      "originalMediaKeys": [
+        "imgNhBaiVit",
+        "imgNhBaiVit1",
+        "imgNhBaiVit2"
+      ],
+      "navImageOccurrences": 7
+    },
+    {
+      "frame": "680:5406",
+      "callsite": "apps/mobile/src/features/content/NewsReadingListScreen.tsx",
+      "originalImageOccurrences": 16,
+      "originalMediaKeys": [
+        "imgNhBaiNiBt",
+        "imgNhBaiVit",
+        "imgNhBaiVit1"
+      ],
+      "navImageOccurrences": 7
+    },
+    {
+      "frame": "680:5461",
+      "callsite": "apps/mobile/src/features/content/NewsEventScreen.tsx",
+      "originalImageOccurrences": 20,
+      "originalMediaKeys": [
+        "imgNhBiaSKin"
+      ],
+      "navImageOccurrences": 7
+    }
+  ],
+  "checkedFiles": 46,
+  "derivatives": 3,
+  "nativeAdaptations": [
+    "Native safe areas replace mock status and home bars",
+    "Event photo is a 300px source image clipped by 37px of mock status and 34px body overlap",
+    "Text and cards flow when enlarged; displayed search count is the actual matching sample count (3), not the static 12 in Figma"
+  ],
+  "scope": "Source asset slots, nonempty local files, callsites and derivative hashes. Native geometry is reported by native-news-extended/qa-report.json; full-frame fidelity is not accepted."
+}

@@ -1,0 +1,68 @@
+
+Running 12 tests using 1 worker
+
+(node:17252) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17252) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates (5.0s)
+  ok  2 e2e\news-digest.spec.ts:40:5 › brief dates validate actual calendar dates, preserve read marks while open and recover empty filters (3.7s)
+  ok  3 e2e\news-digest.spec.ts:80:5 › live Figma calendar and brief examples open explicit local details or related topics without creating registrations (6.7s)
+  ok  4 e2e\news-feed.spec.ts:3:5 › all thirteen news fixtures are reachable through pagination with local images (3.6s)
+  ok  5 e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles (4.7s)
+  ok  6 e2e\news-feed.spec.ts:76:5 › saved-design preview uses original stories and removal never changes the actual session (4.5s)
+  x   7 e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations (11.9s)
+(node:12804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  8 e2e\news-landing.spec.ts:31:5 › latest news paginates all thirteen stories chronologically and preserves the chosen story ID (4.4s)
+  ok  9 e2e\news-landing.spec.ts:62:5 › event stories scroll to the last article, tabs keep preview state isolated and narrow screens stay usable (7.1s)
+  ok 10 e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px (3.3s)
+  ok 11 e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local (4.6s)
+  ok 12 e2e\news-social.spec.ts:78:5 › discussion preview sorting, likes and posting never add comments to the actual article (5.3s)
+
+
+  1) e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations 
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/articles\/reading-list$/
+    Received string:  "http://127.0.0.1:4173/articles/saved"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 5000ms
+        13 × locator resolved to <html lang="en">…</html>
+           - unexpected value "http://127.0.0.1:4173/articles/saved"
+
+
+      17 |     .click();
+      18 |   await page.getByRole('button', { name: 'Bài đã lưu', exact: true }).click();
+    > 19 |   await expect(page).toHaveURL(/\/articles\/reading-list$/);
+         |                      ^
+      20 |   await expect(page.getByText('Bạn đã lưu 1 bài viết', { exact: true })).toBeVisible();
+      21 |   await page.goBack();
+      22 |   await page.getByRole('button', { name: 'Mở menu tin tức', exact: true }).click();
+        at D:\BlueSteps\apps\mobile\e2e\news-landing.spec.ts:19:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results-navigation-news\news-landing-news-landing--808ef-ories-and-menu-destinations\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results-navigation-news\news-landing-news-landing--808ef-ories-and-menu-destinations\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-navigation-news\news-landing-news-landing--808ef-ories-and-menu-destinations\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results-navigation-news\news-landing-news-landing--808ef-ories-and-menu-destinations\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations 
+  11 passed (1.3m)
+undefined
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL] Command failed with exit code 1: playwright test e2e/news-digest.spec.ts e2e/news-feed.spec.ts e2e/news-landing.spec.ts e2e/news-social.spec.ts "--output=test-results-navigation-news"

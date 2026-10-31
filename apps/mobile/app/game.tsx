@@ -1,1 +1,1 @@
-export { GameScreen as default } from '../src/features/games/GameScreen';
+export { BackupedGameScreen as default } from '../src/features/backuped/BackupedGameScreen';

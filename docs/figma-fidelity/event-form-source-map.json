@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-30",
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "pageId": "386:7053",
+  "frames": [
+    {
+      "nodeId": "534:49326",
+      "route": "/registration?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventParticipationScreens.tsx",
+      "context": "contexts/534-49326.txt",
+      "reference": "reference/534-49326.png",
+      "rendered": "rendered/event-registration-428.png"
+    },
+    {
+      "nodeId": "534:49760",
+      "route": "/event-summary?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventSummaryScreen.tsx",
+      "context": "contexts/534-49760.txt",
+      "reference": "reference/534-49760.png",
+      "rendered": "rendered/event-summary-428.png"
+    }
+  ],
+  "assets": "event-design-asset-map.json",
+  "backArrow": {
+    "sourceNodeId": "534:49349",
+    "asset": "apps/mobile/assets/figma/534-49326/imgBack.svg",
+    "rootWidth": 8.5,
+    "rootHeight": 14.5,
+    "slotWidth": 24,
+    "slotHeight": 24,
+    "codeConnectAdaptation": "ChevronLeft from the external Simple Design System has no React Native implementation in this repo. Uses the original SVG exported from that node, centered at its intrinsic dimensions."
+  },
+  "sharedComponents": ["CollectionPage", "CollectionAction", "CollectionText", "CollectionSheet", "CollectionInfo"],
+  "geometry": "event-form-asset-geometry.json",
+  "assetAudit": "event-form-asset-audit.json",
+  "limits": [
+    "Consent and registration stay local; no reservation or account command is sent",
+    "Preview links explicitly prefill synthetic values for visual comparison; normal registration starts empty",
+    "Feedback and album are local demonstrations, not verified attendance or impact",
+    "Static-asset geometry matches do not prove full text rasterization or whole-frame visual equality"
+  ]
+}

@@ -1,0 +1,2 @@
+$ pnpm --filter @bluesteps/mobile typecheck
+$ node scripts/generate-route-types.cjs && tsc --noEmit

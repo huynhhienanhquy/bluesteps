@@ -1,0 +1,49 @@
+
+Running 12 tests using 1 worker
+
+(node:11296) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11296) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\events.spec.ts:14:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local (13.1s)
+  ok  2 e2e\events.spec.ts:78:5 › preview feedback does not create a ticket and the role picker preserves participation choices (7.3s)
+  ok  3 e2e\events.spec.ts:105:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation (6.9s)
+  ok  4 e2e\events.spec.ts:158:5 › ticket preview downloads a PNG and opens only local contact information without creating a registration (5.4s)
+  ok  5 e2e\events.spec.ts:188:5 › calendar selects full dates, switches months and shows the empty state (3.7s)
+  x   6 e2e\events.spec.ts:213:5 › event screens render at 390 and 428 px with local assets and valid empty deep links (35.7s)
+(node:3492) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3492) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  7 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (4.8s)
+  ok  8 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (7.1s)
+  ok  9 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (12.1s)
+  ok 10 e2e\frontend.spec.ts:86:5 › theme toggles and the query error/retry state is accessible (9.7s)
+  ok 11 e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow (49.4s)
+  ok 12 e2e\frontend.spec.ts:138:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (15.0s)
+
+
+  1) e2e\events.spec.ts:213:5 › event screens render at 390 and 428 px with local assets and valid empty deep links 
+
+    Test timeout of 30000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results-navigation-recheck\events-event-screens-rende-732cb--and-valid-empty-deep-links\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results-navigation-recheck\events-event-screens-rende-732cb--and-valid-empty-deep-links\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-navigation-recheck\events-event-screens-rende-732cb--and-valid-empty-deep-links\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results-navigation-recheck\events-event-screens-rende-732cb--and-valid-empty-deep-links\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\events.spec.ts:213:5 › event screens render at 390 and 428 px with local assets and valid empty deep links 
+  11 passed (3.1m)
+undefined
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL] Command failed with exit code 1: playwright test e2e/events.spec.ts e2e/frontend.spec.ts "--output=test-results-navigation-recheck"

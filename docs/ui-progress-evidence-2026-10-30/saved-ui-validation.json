@@ -1,0 +1,291 @@
+{
+  "checkedAt": "2026-10-30T21:02:24.4742873+07:00",
+  "sourceCommit": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "branch": "codex/initial-upload",
+  "uncommittedChanges": true,
+  "goalStatus": "active",
+  "goalComplete": false,
+  "scopes": [
+    {
+      "status": "Đã làm xong UI demo",
+      "frame": "534:49968",
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu"
+    },
+    {
+      "status": "Đang trong tiến trình",
+      "remaining": [
+        "Verify connected Plus glyph",
+        "Resolve 9px source-flow/frame-height discrepancy against original screenshot"
+      ],
+      "frame": "534:49845",
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích"
+    }
+  ],
+  "checks": {
+    "e2eFull": {
+      "log": "saved-ui-e2e-full.log",
+      "browser": "Installed Google Chrome",
+      "usesFinalWebExport": true,
+      "duration": "4.1m",
+      "total": 52,
+      "passed": 52
+    },
+    "typecheck": {
+      "passed": true,
+      "log": "saved-ui-typecheck.log"
+    },
+    "nativeExport": {
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "log": "saved-ui-native.log",
+      "passed": true,
+      "physicalDeviceQa": false
+    },
+    "e2eEarlierFocused": {
+      "total": 10,
+      "log": "saved-ui-e2e-focused.log",
+      "passed": 10,
+      "duration": "1.2m"
+    },
+    "capture": {
+      "unloaded": 0,
+      "runtimeErrors": 0,
+      "horizontalOverflows": 0,
+      "screenshots": 4,
+      "report": "docs/figma-fidelity/rendered/capture-report-event-saved-.json",
+      "manuallyViewed": 4
+    },
+    "webExport": {
+      "passed": true,
+      "log": "saved-ui-build.log"
+    },
+    "unit": {
+      "total": 41,
+      "log": "saved-ui-unit.log",
+      "suites": 16,
+      "passed": 41,
+      "durationSeconds": 23.034
+    },
+    "changedSourceFormat": {
+      "passed": true,
+      "files": 14
+    },
+    "changedSourceLint": {
+      "log": "saved-ui-lint.log",
+      "errors": 0,
+      "passed": true,
+      "excludesPreexistingEventsTestWarnings": true,
+      "warnings": 0
+    },
+    "assetSlots": {
+      "toleranceCssPx": 0.1,
+      "maxDifference": 0.02924999999999045,
+      "report": "docs/figma-fidelity/saved-event-asset-audit.json",
+      "matchedSourceMd5": 53,
+      "total": 53,
+      "doesNotVerifyConnectedPlusOrFullFrame": true,
+      "passed": 53
+    }
+  },
+  "functionStatuses": [
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — danh sách, tìm kiếm và chi tiết",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 18,
+    "Đang trong tiến trình": 18
+  },
+  "coverage": {
+    "frames": 175,
+    "fullFidelityProven": false,
+    "remaining": 100,
+    "liveReinventoryThisTurn": false,
+    "mapped": 75
+  },
+  "limitations": [
+    "The Plus Code Connect source package is absent. The original 18px plus from registration node 534:50224 is reused in the 24px slot; exact glyph parity with connected Plus 306:638 is not verified.",
+    "Collection flow from cached JSX is 1153px tall in the 1144px viewport and scrolls by 9px. Fresh original screenshot is needed to resolve the discrepancy; no full-frame fidelity claim."
+  ],
+  "sourceMap": "docs/figma-fidelity/saved-event-source-map.json",
+  "sourceHashes": {
+    "apps/mobile/src/features/events/EventCollectionsScreen.tsx": "16206bc6ba32cca166ed3d29bb9f27a7640e01ee297312e611e50c4719025043",
+    "apps/mobile/src/features/events/EventRemindersScreen.tsx": "33e3b08242c0e52f2ac359678a84bd82246928446acd356edfc14ed3c88b6854",
+    "apps/mobile/src/features/events/EventSavedParts.tsx": "9136aa274a1931c62600d03c443359ca217dac8026c81f22e9f67453e70f5683",
+    "apps/mobile/src/features/events/SavedEventScreens.tsx": "93decf00bcf2e874c4eae205c040e94044f705073c7136eeab213e7ef61b9991",
+    "apps/mobile/src/features/events/EventFormParts.tsx": "183c5a05280a7b9b5274b7ebeb45a9bc27b214ca67b7df9a68efd06854a01c2c",
+    "apps/mobile/src/features/collection/CollectionPage.tsx": "134f99d8644bb4717e127b0d8c4400a96523a1eca9d9eb2aa2d930c110d3ca48",
+    "apps/mobile/src/design-system/LegacyNavigation.tsx": "e7eae574bc6aaa8a2f37f729a798d6886d8a850ca9d63b41b7c865666f102bfe",
+    "apps/mobile/src/services/event-planning.ts": "af3c301140643566d1ab1639ae5a6dfd402dc9ca7283c128c03fc68131a1e6a2",
+    "apps/mobile/src/services/__tests__/event-planning.test.ts": "6a0a6db172a5d281d005d5908aca96853fc56314cf07e4d654da257d0e495c97",
+    "apps/mobile/src/features/events/EventScreens.test.tsx": "7f6d5707064a003f1dab44affcbf8aaaf3be90b6daed4b88c07fa2b8897d5041",
+    "apps/mobile/e2e/events.spec.ts": "aeff9a9168fcd827c55b38e6ba545192d1d0d7617fac1ec1db799e71cc733606",
+    "apps/mobile/e2e/saved-events.spec.ts": "330209f0a1d0347933272db213aebb2b3ba27ec2d6494471c620d6eb650e50e6",
+    "apps/mobile/scripts/fidelity-targets.cjs": "2735975a2d22966f7240404392e8265923cc8ec7ba88ea1e7051ff1f39dfe4bb",
+    "apps/mobile/scripts/audit-saved-event-assets.cjs": "d5ca6743b704324acfdcbb3b0bca528e1a6c66cb8dd7c4728a99be62681ec6ed"
+  }
+}

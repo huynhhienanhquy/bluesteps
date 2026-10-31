@@ -1,0 +1,87 @@
+{
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "sessionId": "57bc5ffe-9a8d-479a-b3a8-c7e80a804447",
+  "source": "High-fidelity get_design_context JSX saved from the preceding successful Figma read; full-size screenshots and node geometry read successfully during this implementation. Original screenshots are visual references, never implementation assets.",
+  "implementation": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+  "frames": [
+    {
+      "nodeId": "391:24796",
+      "context": "docs/figma-fidelity/contexts/391-24796-live.txt",
+      "reference": "docs/figma-fidelity/reference/391-24796.png",
+      "route": "/articles?preview=1",
+      "scope": "News landing with hero, featured article, saved shortcut and seven grid placements"
+    },
+    {
+      "nodeId": "386:9787",
+      "context": "docs/figma-fidelity/contexts/386-9787.txt",
+      "reference": "docs/figma-fidelity/reference/386-9787.png",
+      "route": "/articles?view=latest&preview=1",
+      "scope": "Latest news with previous/next navigation and four original preview articles"
+    },
+    {
+      "nodeId": "386:9901",
+      "context": "docs/figma-fidelity/contexts/386-9901.txt",
+      "reference": "docs/figma-fidelity/reference/386-9901.png",
+      "route": "/articles?view=events&preview=1",
+      "scope": "Event-related stories with a scrollable list, including its fifth article"
+    }
+  ],
+  "reused": [
+    "Artwork",
+    "NewsText and Inter 3.19",
+    "NewsSheet and NewsNavigation",
+    "NewsDesignNavigation with an optional 4px layer offset for older frames",
+    "LegacyCanvas for the fixed legacy designs",
+    "QueryContent/useDemoQuery",
+    "NewsSession and filterNews"
+  ],
+  "supplemented": [
+    "The new main landing uses native flow layout. The two older frames use their original fixed 428px composition and the existing scaled LegacyCanvas; the event list scrolls independently as in Figma.",
+    "LandingCard retains each original frame's artwork, geometry and source title layout; it does not borrow different photos from the search or saved frame.",
+    "Inknut Antiqua Regular/Bold are bundled from google/fonts with OFL.txt, alongside the existing Inter fonts."
+  ],
+  "codeConnect": {
+    "nodes": [
+      "386:9858",
+      "386:9861"
+    ],
+    "component": "ChevronBackward from Material 3 Design Kit",
+    "inspection": "No corresponding component, import path or installed design-kit package exists in this React Native repository. The two original nodes were exported through Figma exportAsync(SVG_STRING) without editing their SVG contents.",
+    "localFiles": [
+      "apps/mobile/assets/figma/386-9787/chevron-backward.svg",
+      "apps/mobile/assets/figma/386-9787/chevron-forward.svg"
+    ]
+  },
+  "assets": {
+    "map": "docs/figma-fidelity/news-landing-asset-map.json",
+    "audit": "docs/figma-fidelity/news-landing-asset-audit.json",
+    "staticContextReferences": 103,
+    "additionalOriginalIconExports": 2,
+    "imageFilesEdited": false,
+    "temporaryUrlsUsedAtRuntime": false,
+    "slotsAt428And390": 306,
+    "toleranceCssPx": 0.1,
+    "geometrySource": "Saved high-fidelity JSX correlated with fresh read-only Figma bounds. The audit expands Item components and nested SVG effect insets independently of product layout coordinates. At 390px the main flow retains its 170px card columns and shrinks full-width containers; legacy frames scale proportionally.",
+    "maximumDifferenceCssPx": 0.03417056074766833
+  },
+  "intentionalDemoDifferences": [
+    "Normal latest news is sorted from all thirteen fixture articles; preview uses the four exact original source stories and its Hạ Long 1.7k/20 counters.",
+    "The youth-ideas card has a dedicated stable article ID and original image. Its title/body/metadata are synthetic and do not verify the pictured event.",
+    "Both Saigon placements in the main source point to the same canonical article, rather than creating duplicate catalog data.",
+    "Preview saves and likes are isolated from the provider and reset between preview views; normal saves and likes persist across navigation in the local session.",
+    "The featured article's normal view/comments counts use demo data; preview retains the source 1.2k/50 figures.",
+    "Search moved to /articles?view=search. Existing q/topic deep links continue to select the search feed.",
+    "Prototype-only empty navigation rectangles outside the main frame's visible composition are replaced with hit areas on the actual five-tab navigation.",
+    "Menu destinations open working saved/topics/calendar/briefs screens; the sheet closes before navigation."
+  ],
+  "remaining": [
+    "Nine article-detail variants",
+    "Physical iOS/Android QA",
+    "Final whole-frame visual acceptance",
+    "Other in-progress UI groups in the progress report"
+  ],
+  "fullFrameFidelityProven": false,
+  "physicalDeviceQaDone": false,
+  "goalComplete": false,
+  "checkedAt": "2026-10-30T23:08:23.0396691+07:00"
+}

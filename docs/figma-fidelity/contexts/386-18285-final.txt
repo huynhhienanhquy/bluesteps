@@ -1,0 +1,92 @@
+// Composition: exact lobby child contexts and target geometry; common status artwork from 386:18308.
+const status_imgRectangle = "https://www.figma.com/api/mcp/asset/54172c29-d1e3-4dee-a6c1-953d4415be6e.svg";
+const status_imgCombinedShape = "https://www.figma.com/api/mcp/asset/f0e8fbeb-04b5-4b98-88f8-db82977e9a0b.svg";
+const status_imgRectangle1 = "https://www.figma.com/api/mcp/asset/3019a08e-4d53-4784-b7fe-0a2534709d73.svg";
+const status_imgWifi = "https://www.figma.com/api/mcp/asset/4a15249c-1e6d-4a70-b5ed-ed9a43ee4a87.svg";
+const status_imgMobileSignal = "https://www.figma.com/api/mcp/asset/4e6e7b6d-6c30-4cf0-8b82-bf044b2ef529.svg";
+const status_imgTime = "https://www.figma.com/api/mcp/asset/feead03d-409b-4791-8e62-9f0922f96d3b.svg";
+const n386_18289_imgRectangle851 = "https://www.figma.com/api/mcp/asset/5dbfaaa2-50e2-43a7-8fa2-9e03c9126d28.png";
+const n386_18290_imgEllipse43 = "https://www.figma.com/api/mcp/asset/a5d6ef51-67de-44ef-bfcc-e712455ce89c.png";
+const n386_18291_imgEllipse44 = "https://www.figma.com/api/mcp/asset/e27e22e6-fb98-4433-8ad5-c41111c58cee.png";
+const n386_18292_imgEllipse45 = "https://www.figma.com/api/mcp/asset/4210fef4-3100-4ae4-9fad-89a3ce2038f5.png";
+const n386_18293_imgEllipse46 = "https://www.figma.com/api/mcp/asset/4d745d03-b84c-4ef9-bf7b-c2eb5d7d7989.png";
+const n386_18294_imgEllipse47 = "https://www.figma.com/api/mcp/asset/6c9b2f26-5eec-461e-a51f-935140775c17.png";
+const n386_18298_imgEllipse18 = "https://www.figma.com/api/mcp/asset/4a6769ec-7069-4253-a338-de3924093953.png";
+const n386_18299_imgEllipse48 = "https://www.figma.com/api/mcp/asset/d31a7dec-85b4-49ce-aa70-3b280ad1203c.png";
+export default function Lobby(){ return <div className="bg-white overflow-clip relative rounded-[25px] size-full" data-node-id="386:18285"><div className="absolute contents inset-[1.19%_0.47%_93.52%_-0.47%]" data-node-id="386:18286">
+        <div className="absolute inset-[1.19%_0.47%_93.52%_-0.47%] overflow-clip" data-node-id="386:18287" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:18287;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:18287;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:18287;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={status_imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:18287;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={status_imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:18287;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={status_imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:18287;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={status_imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:18287;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={status_imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:18287;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:18287;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={status_imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+<p className="[text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] not-italic relative size-full text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:18288">
+      Nhấn để đổi thưởng
+    </p>
+<div className="relative size-full" data-node-id="386:18289">
+      <img alt="" className="absolute inset-0 max-w-none object-cover opacity-80 pointer-events-none size-full" src={n386_18289_imgRectangle851} />
+    </div>
+<div className="relative size-full" data-node-id="386:18290">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="40" src={n386_18290_imgEllipse43} width="40" />
+    </div>
+<div className="relative size-full" data-node-id="386:18291">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="40" src={n386_18291_imgEllipse44} width="40" />
+    </div>
+<div className="relative size-full" data-node-id="386:18292">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="40" src={n386_18292_imgEllipse45} width="40" />
+    </div>
+<div className="relative size-full" data-node-id="386:18293">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="40" src={n386_18293_imgEllipse46} width="40" />
+    </div>
+<div className="relative size-full" data-node-id="386:18294">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="40" src={n386_18294_imgEllipse47} width="40" />
+    </div>
+<p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative size-full text-[#6d6d6d] text-[14px] whitespace-nowrap" data-node-id="386:18295">
+      Đã tham gia
+    </p>
+<div className="bg-[#eaf5fc] overflow-clip relative rounded-[10px] size-full" data-node-id="386:18296" />
+<div className="bg-[#eaf5fc] overflow-clip relative rounded-[10px] size-full" data-node-id="386:18297" />
+<div className="relative size-full" data-node-id="386:18298">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="42" src={n386_18298_imgEllipse18} width="42" />
+    </div>
+<div className="relative size-full" data-node-id="386:18299">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" height="42" src={n386_18299_imgEllipse48} width="42" />
+    </div>
+<p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative size-full text-[14px] text-black whitespace-nowrap" data-node-id="386:18300">
+      Đang chơi
+    </p>
+<p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative size-full text-[14px] text-black whitespace-nowrap" data-node-id="386:18301">
+      Đã chơi 10 phút trước
+    </p>
+<div className="contents relative size-full" data-node-id="386:18302">
+      <div className="absolute bg-[#e3cf36] h-[50px] left-[149px] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[573px] w-[135px]" data-node-id="386:18303" />
+      <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Bold'] font-bold h-[28px] leading-[0] left-[calc(50%-38px)] not-italic text-[22px] text-black top-[583px] w-[88px]" data-node-id="386:18304">
+        <p className="leading-[normal]">Bắt đầu</p>
+      </a>
+    </div>
+<p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative size-full text-[25px] text-black whitespace-nowrap" data-node-id="386:18305">
+      Sứ mệnh xanh
+    </p>
+<div data-node-id="386:18306" />
+<div data-node-id="386:18307" /></div>; }

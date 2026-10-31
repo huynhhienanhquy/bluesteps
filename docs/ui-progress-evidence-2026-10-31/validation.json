@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-31T01:08:01.338Z",
+  "timezone": "Asia/Bangkok",
+  "scope": "Local worktree review and report update, including pre-existing uncommitted product changes",
+  "branch": "codex/initial-upload",
+  "localHead": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "remoteVerifiedThisReview": false,
+  "freshFigmaReadsThisReview": false,
+  "productImplementationChangedThisReview": false,
+  "overallUiComplete": false,
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 25,
+    "Đang trong tiến trình": 13
+  },
+  "coverage": {
+    "frames": 175,
+    "mapped": 84,
+    "pending": 91,
+    "mappingPercentage": 48,
+    "routesExcludingLayouts": 63,
+    "missingMappedSources": [],
+    "missingMappedRoutes": [],
+    "missingMappedRenders": []
+  },
+  "previousEvidenceHashComparison": {
+    "matching": 24,
+    "total": 24,
+    "scope": "Only the 24 files hashed by news-landing-validation.json; not the full worktree"
+  },
+  "checks": {
+    "typecheck": {
+      "exitCode": 0,
+      "passed": true,
+      "log": "typecheck-unrestricted.log"
+    },
+    "lint": {
+      "exitCode": 0,
+      "passed": true,
+      "errors": 0,
+      "warnings": 3,
+      "log": "lint-unrestricted.log"
+    },
+    "unit": {
+      "exitCode": 0,
+      "passed": 45,
+      "total": 45,
+      "suites": 17,
+      "durationSeconds": 21.021,
+      "log": "unit-unrestricted.log"
+    },
+    "web": {
+      "exitCode": 0,
+      "passed": true,
+      "log": "build-unrestricted.log"
+    },
+    "nativeBundle": {
+      "exitCode": 0,
+      "passed": true,
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "physicalDeviceQa": false,
+      "log": "native-bundle-unrestricted.log"
+    },
+    "nativeConfig": {
+      "exitCode": 0,
+      "passed": true,
+      "log": "native-config.log"
+    },
+    "format": {
+      "exitCode": 1,
+      "passed": false,
+      "scope": "All files selected by pnpm format:check",
+      "filesWithIssues": [
+        "app/articles/briefs.tsx",
+        "app/articles/calendar.tsx",
+        "app/articles/discussion.tsx",
+        "app/articles/saved.tsx",
+        "app/articles/topics.tsx",
+        "app/event-collections.tsx",
+        "app/event-reminders.tsx",
+        "app/event-summary.tsx",
+        "app/event-ticket.tsx",
+        "src/features/content/ContentScreens.tsx",
+        "src/features/content/news-detail-design-data.ts",
+        "src/features/home/HomeScreen.tsx",
+        "src/providers.tsx",
+        "scripts/prepare-news-detail-design.cjs"
+      ],
+      "log": "format-unrestricted.log"
+    },
+    "e2e": {
+      "status": "passed",
+      "exitCode": 0,
+      "passed": 64,
+      "total": 64,
+      "duration": "3.9m",
+      "browser": "Installed Google Chrome",
+      "usesFreshWebExport": true,
+      "log": "e2e-unrestricted.log"
+    },
+    "sourceAndRouteAudit": {
+      "exitCode": 0,
+      "passed": true,
+      "log": "frame-audit.log",
+      "report": "frame-audit.json"
+    }
+  },
+  "initialSandboxAttempts": {
+    "resolvedByRunningOutsideSandbox": true,
+    "logs": [
+      "typecheck.log",
+      "lint.log",
+      "unit.log",
+      "build.log"
+    ],
+    "cause": "Dependency files present but some are not readable within sandbox; successful unrestricted reruns supersede these failures",
+    "offlineInstall": {
+      "exitCode": 1,
+      "log": "install-offline.log",
+      "note": "Aborted before reinstall because modules removal requires TTY; dependencies were not reinstalled"
+    }
+  },
+  "visualEvidence": {
+    "recapturedThisReview": false,
+    "assetAuditsRerunThisReview": false,
+    "fullFrameAcceptance": false,
+    "priorValidation": "../ui-progress-evidence-2026-10-30/news-landing-validation.json"
+  },
+  "articleDetailPreparation": {
+    "frameIds": [
+      "386:17608",
+      "386:17701",
+      "386:10644",
+      "386:17794",
+      "386:10737",
+      "386:17887",
+      "386:10828",
+      "386:17978",
+      "386:10919"
+    ],
+    "modules": [
+      {
+        "file": "apps/mobile/src/features/content/news-detail-design-data.ts",
+        "exists": true,
+        "importedByProductFiles": []
+      },
+      {
+        "file": "apps/mobile/src/design-system/news-detail-assets.ts",
+        "exists": true,
+        "importedByProductFiles": []
+      }
+    ],
+    "countedAsCompleted": false
+  },
+  "remaining": [
+    "Nine article-detail frame variants are prepared but not imported by the running app",
+    "Other 13 in-progress scopes and 5 missing UI scopes",
+    "Format 14 files and resolve 3 ESLint warnings",
+    "Whole-frame visual acceptance and physical-device QA",
+    "Production backend integrations"
+  ],
+  "allQualityChecksPassed": false,
+  "reportLinks": {
+    "passed": true,
+    "checked": 174,
+    "missing": [],
+    "report": "report-links.json"
+  }
+}

@@ -10,7 +10,7 @@ import {
   type TextProps,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { router } from 'expo-router';
+import { router, type Href } from 'expo-router';
 import { Artwork } from '../../design-system/DesignScreen';
 import { collectionFlowAssets } from '../../design-system/collection-flow-assets';
 const a = collectionFlowAssets['534:48401'];
@@ -74,7 +74,23 @@ export function CollectionPage({
   children,
   footer,
   source = a,
-}: PropsWithChildren<{ title: string; footer: ReactNode; source?: PageAssets }>) {
+  backTo = '/collection',
+  backSource = require('../../../assets/figma/common/collection-chevron.svg'),
+  backSize = { width: 24, height: 24 },
+  titleColor = collectionColors.ink,
+  homeBarColor = collectionColors.ink,
+  bottom,
+}: PropsWithChildren<{
+  title: string;
+  footer: ReactNode;
+  source?: PageAssets;
+  backTo?: Href;
+  backSource?: number;
+  backSize?: { width: number; height: number };
+  titleColor?: string;
+  homeBarColor?: string;
+  bottom?: ReactNode;
+}>) {
   const insets = useSafeAreaInsets();
   const { height } = useWindowDimensions();
   const [width, setWidth] = useState(428);
@@ -149,19 +165,16 @@ export function CollectionPage({
             accessibilityRole="button"
             accessibilityLabel="Quay lại"
             hitSlop={10}
-            onPress={() => (router.canGoBack() ? router.back() : router.replace('/collection'))}
+            onPress={() => (router.canGoBack() ? router.back() : router.replace(backTo))}
             style={{ width: 24, height: 24, alignItems: 'center', justifyContent: 'center' }}
           >
-            <Artwork
-              source={require('../../../assets/figma/common/collection-chevron.svg')}
-              width={24}
-              height={24}
-            />
+            <Artwork source={backSource} width={backSize.width} height={backSize.height} />
           </Pressable>
           <CollectionText
             accessibilityRole="header"
             size={18}
             weight="bold"
+            color={titleColor}
             lineHeight={22}
             style={{ flex: 1 }}
           >
@@ -181,24 +194,26 @@ export function CollectionPage({
         <View style={{ flex: 1 }} />
         <View style={{ paddingTop: 12, gap: 12 }}>
           <View style={{ paddingHorizontal: 24, gap: 10 }}>{footer}</View>
-          <View
-            style={{
-              height: Platform.OS === 'web' ? 28 : Math.max(insets.bottom, 12),
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            {Platform.OS === 'web' ? (
-              <View
-                style={{
-                  height: 4,
-                  width: 141,
-                  backgroundColor: collectionColors.ink,
-                  borderRadius: 4,
-                }}
-              />
-            ) : null}
-          </View>
+          {bottom ?? (
+            <View
+              style={{
+                height: Platform.OS === 'web' ? 28 : Math.max(insets.bottom, 12),
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              {Platform.OS === 'web' ? (
+                <View
+                  style={{
+                    height: 4,
+                    width: 141,
+                    backgroundColor: homeBarColor,
+                    borderRadius: 4,
+                  }}
+                />
+              ) : null}
+            </View>
+          )}
         </View>
       </ScrollView>
     </View>
@@ -208,14 +223,19 @@ export function CollectionAction({
   title,
   onPress,
   disabled = false,
+  label,
+  shadow = false,
 }: {
   title: string;
   onPress: () => void;
   disabled?: boolean;
+  label?: string;
+  shadow?: boolean;
 }) {
   return (
     <Pressable
       accessibilityRole="button"
+      accessibilityLabel={label ?? title}
       accessibilityState={{ disabled }}
       disabled={disabled}
       onPress={onPress}
@@ -226,6 +246,7 @@ export function CollectionAction({
         opacity: disabled ? 0.5 : 1,
         alignItems: 'center',
         justifyContent: 'center',
+        boxShadow: shadow ? '0px 5px 2px rgba(89,183,96,0.25)' : undefined,
       }}
     >
       <CollectionText

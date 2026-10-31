@@ -1,0 +1,48 @@
+
+Running 6 tests using 1 worker
+
+(node:21832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\events.spec.ts:14:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local (6.7s)
+  ok 2 e2e\events.spec.ts:77:5 › preview feedback does not create a ticket and the role picker preserves participation choices (4.8s)
+  ok 3 e2e\events.spec.ts:104:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation (3.4s)
+  ok 4 e2e\events.spec.ts:151:5 › ticket preview downloads a PNG and opens only local contact information without creating a registration (3.7s)
+  ok 5 e2e\events.spec.ts:177:5 › calendar selects full dates, switches months and shows the empty state (2.9s)
+  x  6 e2e\events.spec.ts:202:5 › event screens render at 390 and 428 px with local assets and valid empty deep links (5.9s)
+
+
+  1) e2e\events.spec.ts:202:5 › event screens render at 390 and 428 px with local assets and valid empty deep links 
+
+    Error: UNKNOWN: unknown error, open 'D:\BlueSteps\docs\ui-progress-evidence-2026-10-30\event-registration-390.png'
+
+      216 |       await page.goto(path!);
+      217 |       await expect(page.getByRole('button', { name: 'Quay lại', exact: true })).toBeVisible();
+    > 218 |       await page.screenshot({ path: resolve(evidence, `${name}-${width}.png`) });
+          |       ^
+      219 |       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+      220 |         true,
+      221 |       );
+        at D:\BlueSteps\apps\mobile\e2e\events.spec.ts:218:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\events-event-screens-rende-732cb--and-valid-empty-deep-links\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\events-event-screens-rende-732cb--and-valid-empty-deep-links\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\events-event-screens-rende-732cb--and-valid-empty-deep-links\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\events-event-screens-rende-732cb--and-valid-empty-deep-links\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\events.spec.ts:202:5 › event screens render at 390 and 428 px with local assets and valid empty deep links 
+  5 passed (31.5s)
+undefined
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL] Command failed with exit code 1: playwright test e2e/events.spec.ts

@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-10-30T22:17:39.4387386+07:00",
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "sessionId": "57bc5ffe-9a8d-479a-b3a8-c7e80a804447",
+  "freshFigmaAccess": {
+    "getDesignContext": "Succeeded for both frames, with screenshots",
+    "wholePageReinventoried": false,
+    "assets": "Downloaded all 29 original static SVG references using the curl instructions from fresh contexts",
+    "getScreenshot": "Succeeded for both frames at 428x926"
+  },
+  "frames": [
+    {
+      "reference": "docs/figma-fidelity/reference/612-5362.png",
+      "context": "docs/figma-fidelity/contexts/612-5362.txt",
+      "implementation": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "route": "/articles/calendar?preview=1",
+      "nodeId": "612:5362",
+      "latestDesignChanges": [
+        "32px back button",
+        "second and third example show Sắp mở đăng ký",
+        "footer Xem tin sự kiện liên quan"
+      ]
+    },
+    {
+      "reference": "docs/figma-fidelity/reference/612-5441.png",
+      "context": "docs/figma-fidelity/contexts/612-5441.txt",
+      "implementation": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "route": "/articles/briefs?preview=1",
+      "nodeId": "612:5441",
+      "latestDesignChanges": [
+        "32px back button",
+        "third card opens topic discovery"
+      ]
+    }
+  ],
+  "historicalReferences": "Earlier contexts/reference PNGs preserved as *-previous.*; fresh responses also retained as *-live.*. Canonical reference/context now point to the latest read.",
+  "reused": [
+    "NewsDesignPage/NewsText/NewsSheet/NewsAction; journal label/back button are optional extensions",
+    "Artwork, all original frame assets and navigation",
+    "QueryContent/useDemoQuery, articleMetadata/filterNews, calendarDays/shiftMonth",
+    "EventField/EventRoleOption/EventTextAction"
+  ],
+  "codeConnect": "No CodeConnectSnippet appears in either fresh high-fidelity context; no connected component was bypassed",
+  "staticAssets": {
+    "slots": 29,
+    "maxDifference": 0.02924999999999045,
+    "toleranceCssPx": 0.1,
+    "report": "docs/figma-fidelity/news-digest-asset-audit.json",
+    "temporaryRuntimeUrls": false,
+    "matchingMd5": 29,
+    "staticAssetFilesEdited": false
+  },
+  "behavior": [
+    "Actual calendar lists sorted existing event fixtures, with full-date/category selection in a sheet, year/month navigation and related article/event routes",
+    "Preview calendar has three isolated source examples. Details disclose unverified schedules and illustrative end times; no global catalog entry, registration or reservation is created",
+    "The two source planned entries show Sắp mở đăng ký; opening them shows only local explanatory details",
+    "Actual briefs use metadata date/title/summary and open the same article; local read/unread state survives filter changes while mounted",
+    "Brief date input rejects invalid dates, accepts leap dates; labels use UTC date arithmetic independent of device timezone",
+    "Source brief examples stay isolated. First two cards open a clearly marked local summary sheet with a separate related-demo-article link because no full verified source text is available; third opens topics as the live design specifies"
+  ],
+  "intentionalDemoDifferences": [
+    "Normal calendar counts are derived from six November fixtures rather than the three source examples",
+    "Normal brief counts use current fixture/filter state; preview has three source examples on 29 October 2026",
+    "Normal calendar shows date/category, discovery and demo disclaimers below the source list; normal briefs expose read markers/filter controls below/in the cards",
+    "Cards grow for dynamic long titles/summaries and narrower screens; 428px preview retains source geometry",
+    "No real organizers, geolocation, news publication, calendar subscription or notification service is connected"
+  ],
+  "referenceComparison": "docs/figma-fidelity/diff/report-news-.json",
+  "fullFidelityProven": false,
+  "physicalDeviceQaDone": false,
+  "remaining": [
+    "News landing/hero and article-detail variants",
+    "Other in-progress UI groups",
+    "Physical native QA and final visual acceptance"
+  ],
+  "goalComplete": false,
+  "sourceHashes": {
+    "apps/mobile/src/features/content/NewsCalendarScreen.tsx": "394dae6e133ecde00b3772433e9998303452d7dc7f970606f99f478a855c8d33",
+    "apps/mobile/src/features/content/NewsBriefsScreen.tsx": "7e897bd7c7b4654fe41b0978e06a38527f786c4299867c08635d9c49ff892348",
+    "apps/mobile/src/features/content/NewsDesignParts.tsx": "08c3fcf712306cf51f4b84512b46dc1cdf85779e9e98ca21baef8e7a86cb6bd2",
+    "apps/mobile/src/features/content/NewsExploreScreens.tsx": "fa1b5c4fa5ab9d5360fbc7c28e973e5f732cbadb2cd5237570212b40760be3c8",
+    "apps/mobile/src/features/content/news-digest-data.ts": "a90cef6f97facc02a47a77554b47bc85c2a45c609def93342431d95f9b82b492",
+    "apps/mobile/src/features/content/news-digest-data.test.ts": "ec079eceafee85cc9f54d90edbcbe34a52b71a244838c488ce960a351c29a21b",
+    "apps/mobile/e2e/news-digest.spec.ts": "c808dc1ea11dc777d5f509e5fd67261ff2a7cb6d340c18ac555242a8dea15f36",
+    "apps/mobile/e2e/news.spec.ts": "ce2e36204087a1021b2ff113832246f38624539370464c425d6f7923c06e1193",
+    "apps/mobile/scripts/fidelity-targets.cjs": "fdbc17ca893d7770917336de8c12123682fd53a8b3fdb918ad672003ec44d3ac",
+    "apps/mobile/scripts/audit-news-digest-assets.cjs": "4aa2c913beaca1def4f258dbfcdd4c92af1b9f3e3b59d87bcad719fa002bab9d"
+  }
+}

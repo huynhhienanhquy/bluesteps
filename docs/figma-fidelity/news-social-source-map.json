@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-10-30T22:05:30.9435822+07:00",
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "sessionId": "57bc5ffe-9a8d-479a-b3a8-c7e80a804447",
+  "source": "Cached high-fidelity get_design_context JSX and previously downloaded original 428x926 reference PNGs; screenshots were inspected and never used as UI images",
+  "frames": [
+    {
+      "route": "/articles/discussion?id=daily-waste&preview=1",
+      "reference": "docs/figma-fidelity/reference/609-5361.png",
+      "source": "apps/mobile/src/features/content/NewsDiscussionView.tsx",
+      "context": "docs/figma-fidelity/contexts/609-5361.txt",
+      "nodeId": "609:5361"
+    },
+    {
+      "route": "/articles/topics?preview=1",
+      "reference": "docs/figma-fidelity/reference/612-5286.png",
+      "source": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+      "context": "docs/figma-fidelity/contexts/612-5286.txt",
+      "nodeId": "612:5286"
+    }
+  ],
+  "reused": [
+    "NewsDesignPage/NewsText/NewsDesignNavigation, extended with frame-specific assets and journal header/background",
+    "CollectionSheet/CollectionAction and existing role/text actions",
+    "Artwork and all original static images/SVGs",
+    "NewsSession/appendArticleComment; added immutable owned-comment deletion helper"
+  ],
+  "layout": [
+    "Normal responsive flow for hero, headers, comment cards, composer and two-column topics grid",
+    "Comment cards have a 95px minimum height and grow for long text/replies; 500-character unbroken text verified at 320px",
+    "The shared page uses KeyboardAvoidingView on iOS; physical keyboard/safe-area QA remains unverified",
+    "Editor expands on focus and stays expanded until successful send, so blur does not move the send button before pointer-up"
+  ],
+  "assets": {
+    "slots": 32,
+    "matchedMd5": 32,
+    "temporaryUrlsUsedAtRuntime": false,
+    "maxDifference": 0.02924999999999045,
+    "opacityAndFitVerified": true,
+    "audit": "docs/figma-fidelity/news-social-asset-audit.json",
+    "imageFilesEdited": false
+  },
+  "codeConnect": "Neither cached context contains a CodeConnectSnippet; no connected component was bypassed",
+  "intentionalDemoDifferences": [
+    "Discussion preview shows three actual sample comments, not the design hardcoded fifty. Topic counts derive from twelve fixtures rather than design placeholders 12/18/24/9/15.",
+    "Preview discussion has isolated comments/likes; posting and sorting do not update provider state. Real discussion retains existing article-specific state.",
+    "Real comments show reply/delete controls and an editor counter; preview omits those additional controls for the source composition. Only owned comments can be deleted; replies are kept and detached.",
+    "The topic preview hides extra follow/back controls; normal UI exposes them and saves follow choices locally. Topic links open real filtered data.",
+    "Tái chế maps to Phân loại; Sống xanh maps to Lối sống. The featured ocean card opens the Môi trường feed.",
+    "The preview headline/category follow the design variant; normal discussion uses current article title/category with a demo label.",
+    "The article/hero photos are original asset exports, not a factual assertion about the people or events in the demo"
+  ],
+  "freshFigmaRead": {
+    "discussionScreenshotDebugId": "cdd55603-1d36-47dd-918f-c3b8e21336f8",
+    "topicsScreenshotDebugId": "c272a561-6a49-45df-985b-ce711e9714fa",
+    "contextDebugId": "8d367d83-cea8-4284-adbc-08fd08f246ad",
+    "status": "Denied"
+  },
+  "comparison": "docs/figma-fidelity/diff/report-news-.json",
+  "fullFidelityProven": false,
+  "physicalDeviceQaDone": false,
+  "remaining": [
+    "News landing and article-detail variants",
+    "News green calendar and briefs fidelity",
+    "Other in-progress UI groups and native visual QA"
+  ],
+  "goalComplete": false
+}

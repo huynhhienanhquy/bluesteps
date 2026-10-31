@@ -1,0 +1,625 @@
+$ pnpm --filter @bluesteps/mobile test
+$ jest --runInBand
+FAIL src/features/content/NewsArticleScreen.test.tsx (14.07 s)
+  ● article route daily-waste opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:17608
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● article route youth-ideas opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:10644
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● article route local-cleanup opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:17794
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● article route green-sunday opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:10737
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● article route storm-cleanup opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:17887
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● article route saigon-cleanup opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:10828
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● article route ha-long opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:17978
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● article route tourism-cleanup opens its own design and discussion
+
+    Unable to find an element with testID: news-article-386:10919
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      36 |   jest.spyOn(ExpoRouter, 'useLocalSearchParams').mockReturnValue({ id });
+      37 |   await renderApp(<ArticleDetailScreen />);
+    > 38 |   expect(screen.getByTestId(`news-article-${frame}`)).toBeTruthy();
+         |                 ^
+      39 |   await fireEvent.press(screen.getByLabelText(/^Thảo luận bài viết/));
+      40 |   expect(router.push).toHaveBeenLastCalledWith({
+      41 |     pathname: '/articles/discussion',
+
+      at getByTestId (src/features/content/NewsArticleScreen.test.tsx:38:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+  ● expanded deep link and unknown article both have usable native routes
+
+    Unable to find an element with testID: news-article-386:17701
+
+    <RNCSafeAreaProvider>
+      <View>
+        <View>
+          <View />
+          <View>
+            <View>
+              <View
+                accessibilityLabel="Quay lại"
+                accessibilityRole="button"
+                accessible={true}
+              >
+                <ViewManagerAdapter_ExpoImage
+                  accessible={false}
+                  placeholder={[]}
+                />
+              </View>
+              <Text
+                accessibilityRole="header"
+              >
+                Bài viết
+              </Text>
+              <View />
+            </View>
+          </View>
+          <RCTScrollView>
+            <View>
+              <View>
+                <Text>
+                  Bài viết không tồn tại
+                </Text>
+                <View
+                  accessibilityLabel="Về tin tức"
+                  accessibilityRole="button"
+                  accessibilityState={
+                    {
+                      "busy": false,
+                      "disabled": false,
+                    }
+                  }
+                  accessible={true}
+                >
+                  <Text>
+                    Về tin tức
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </RNCSafeAreaProvider>
+
+      76 |     .mockReturnValue({ id: 'daily-waste', expanded: '1' });
+      77 |   const view = await renderApp(<ArticleDetailScreen />);
+    > 78 |   expect(screen.getByTestId('news-article-386:17701')).toBeTruthy();
+         |                 ^
+      79 |   params.mockReturnValue({ id: 'missing-article' });
+      80 |   await view.rerender(<ArticleDetailScreen />);
+      81 |   expect(screen.getByText('Bài viết không tồn tại')).toBeTruthy();
+
+      at Object.getByTestId (src/features/content/NewsArticleScreen.test.tsx:78:17)
+      at asyncGeneratorStep (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:17)
+      at _next (../../node_modules/.pnpm/@babel+runtime@7.29.10/node_modules/@babel/runtime/helpers/asyncToGenerator.js:17:9)
+
+
+Test Suites: 1 failed, 17 passed, 18 total
+Tests:       9 failed, 47 passed, 56 total
+Snapshots:   0 total
+Time:        40.449 s
+Ran all test suites.
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test: `jest --runInBand`
+Exit status 1
+[ELIFECYCLE] Test failed. See above for more details.

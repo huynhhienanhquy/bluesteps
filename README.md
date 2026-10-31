@@ -1,8 +1,8 @@
 # BlueSteps frontend
 
-Báo cáo UI mới nhất: [tiến độ ngày 30/10/2026](docs/ui-progress-2026-10-30.md) — ghi rõ từng chức năng **đã làm xong UI / đang trong tiến trình / chưa làm UI**, phần còn thiếu và bằng chứng. Độ phủ Figma: 69/175 frame có ánh xạ triển khai; chưa nghiệm thu hình ảnh toàn bộ.
+Đã sinh mã UI cho **211/211 frame** của trang Figma **backuped** trong app Android/iOS. [Báo cáo bàn giao mã nguồn ngày 31/10/2026](docs/ui-backuped-complete-2026-10-31.md) ghi nguồn, route và kiểm chứng. TypeScript, lint, 77 unit test, 10 E2E và bundle web/Android/iOS đạt. Tương tác dùng dữ liệu cục bộ; phạm vi này không gồm backend hoặc phát hành ứng dụng. Các thay đổi đang ở workspace local.
 
-Frontend mobile tiếng Việt bằng **Expo SDK 58 / React Native / TypeScript / Expo Router**, bám catalog và ảnh Home mới của `docs/figma-analysis`. Preview web dùng cùng mã nguồn native. SDK 58 được chọn để thử trên Expo Go cả iPhone và Android.
+Frontend mobile tiếng Việt bằng **Expo SDK 58 / React Native / TypeScript / Expo Router**, bám catalog và ảnh Home mới của `docs/figma-analysis`. Phạm vi hiện tại là app Android/iOS, chạy thử bằng Expo Go.
 
 ## Chạy ứng dụng
 
@@ -12,10 +12,10 @@ Yêu cầu Node 22.14+ và pnpm 11.25.0.
 
 ```powershell
 pnpm install --frozen-lockfile
-pnpm web
+pnpm go
 ```
 
-Expo phục vụ preview ở URL được in trong terminal (mặc định `http://localhost:8081`). Để mở native dev server: `pnpm dev`. Android development build: `pnpm --filter @bluesteps/mobile android` sau khi có Android SDK/emulator hoặc thiết bị. iOS native build cần macOS/Xcode. Không cần API, Supabase hoặc biến môi trường để chạy demo.
+Quét QR trong terminal bằng điện thoại để mở app. Để mở native dev server: `pnpm dev`. Android development build: `pnpm --filter @bluesteps/mobile android` sau khi có Android SDK/emulator hoặc thiết bị. iOS native build cần macOS/Xcode. Không cần API, Supabase hoặc biến môi trường để chạy demo.
 
 ```powershell
 pnpm typecheck
@@ -23,13 +23,15 @@ pnpm lint
 pnpm test
 pnpm format:check
 pnpm check:native-config
-pnpm build
-pnpm preview
+pnpm bundle:native
+pnpm check:app
 ```
 
 `build` export vào `apps/mobile/dist`; `preview` mở server cục bộ ở `http://127.0.0.1:4173` có fallback cho deep link. Server này chỉ phục vụ kiểm tra local.
 
 `pnpm bundle:native` kiểm tra bundle JavaScript/Hermes Android và iOS ở `apps/mobile/dist-native`; lệnh này không tạo APK/IPA và không thay build/chạy thiết bị thật.
+
+Kiểm tra UI app trực tiếp trên emulator Android QA riêng: `pnpm --filter @bluesteps/mobile test:android`. Cần emulator 1080 × 2340 và Metro/Expo Go đang mở ở cổng 8091; [hướng dẫn và phạm vi kiểm tra](docs/android-ui-qa.md).
 
 E2E trên Chromium:
 
@@ -47,16 +49,16 @@ Nếu dùng Chromium có sẵn, đặt `PLAYWRIGHT_CHROMIUM_EXECUTABLE` tới ex
 - Sổ tay: tìm kiếm, nhóm vật liệu, hướng dẫn và nhãn nguy hại.
 - Scan: camera có xin quyền/torch/chụp lại, chọn ảnh cục bộ, xem trước, nhập tay, kết quả mẫu và xác nhận không phát điểm. Camera unmount khi tab mất focus.
 - Thu gom: tìm kiếm/bộ lọc nháp–áp dụng/hủy, chi tiết, thêm/xóa/sắp xếp điểm dừng, hướng dẫn bàn giao và preview đề xuất/báo cáo.
-- Hoạt động: thẻ ảnh/tìm tên và địa điểm không dấu/lọc, chi tiết, lưu có xác nhận xóa, lịch tháng/tuần, form số người/vai trò/liên hệ, vé và check-in mẫu, tổng kết/phản hồi cục bộ; bộ sưu tập và cấu hình nhắc lịch trong phiên.
+- Hoạt động: thẻ ảnh/tìm tên và địa điểm không dấu/lọc, chi tiết, lưu có xác nhận xóa, lịch tháng/tuần có cảnh báo trùng giờ, form số người/vai trò/liên hệ, vé và check-in mẫu, lưu ảnh vé PNG, tổng kết/phản hồi cục bộ; lưới bộ sưu tập có tạo/đổi tên/thêm/chuyển/bỏ/xóa và cấu hình nhắc lịch theo từng kênh, âm thanh/rung, giờ yên lặng trong phiên.
 - Điểm/quà: ví mẫu, danh mục, kiểm tra số dư minh họa, lịch sử điểm/quà đã có seed và command đổi quà thật bị khóa.
 - Cộng đồng: thích/bỏ thích, soạn bài cục bộ; tin nhắn cục bộ, RecycleBot trả lời cố định có nhãn demo.
-- Tin tức: grid, tìm kiếm không dấu/lọc chủ đề/sắp xếp, chi tiết, lưu và thích bài, thảo luận/trả lời cục bộ, theo dõi chủ đề, lịch sự kiện xanh và bản tin nhanh theo ngày; thẻ Home mở đúng bài `daily-waste`.
+- Tin tức: grid ảnh, tìm kiếm/lọc/sắp xếp, phân trang đủ 13 bài và xác nhận bỏ lưu; thảo luận soạn 500 ký tự, trả lời/thích/xóa của mình/giữ phản hồi; chủ đề có thẻ nổi bật/lưới/theo dõi; lịch xanh có thẻ ngày, đổi tháng/năm, lọc ngày/danh mục; bản tin có ngày/tóm tắt và đánh dấu đã đọc. Trang chính có hero/bài nổi bật/menu, Tin mới nhất phân trang và danh sách Sự kiện sắp tới cuộn đủ các thẻ; chi tiết còn tiếp tục hoàn thiện. Thẻ Home mở đúng bài `daily-waste`; preview không sửa dữ liệu phiên thật.
 - Thông báo có trạng thái đã đọc/chưa đọc, onboarding, form đăng nhập/đăng ký/khôi phục, hồ sơ, cài đặt, thống kê tuần giả lập và luyện tập phân loại.
 - Trong Cài đặt có thể bật dữ liệu trống/lỗi/tải chậm để kiểm tra loading/error/retry/empty.
 
 ## Chạy với mock data
 
-Chạy `pnpm demo` để mở Expo web với seed đã nạp tự động, không cần `.env`, API hoặc database. Bộ mẫu gồm 10 mục sổ tay, 6 điểm thu gom, 7 hoạt động, 6 quà, 6 bài đọc/4 chủ đề/2 bình luận bài đọc, 5 bài cộng đồng, hồ sơ Linh Chi, ví 180 điểm, lịch sử điểm/quà, thống kê 4 tuần, 5 thông báo và 3 hội thoại.
+Chạy `pnpm go` để mở app với seed đã nạp tự động, không cần `.env`, API hoặc database. Bộ mẫu gồm 10 mục sổ tay, 6 điểm thu gom, 8 hoạt động (có hai hoạt động trùng giờ ngày 25/10 để thử lịch), 6 quà, 13 bài đọc/4 chủ đề/2 bình luận bài đọc, 5 bài cộng đồng, hồ sơ Linh Chi, ví 180 điểm, lịch sử điểm/quà, thống kê 4 tuần, 5 thông báo và 3 hội thoại. Tám bài chi tiết có bố cục/ảnh từ thiết kế (riêng `daily-waste` có hai trạng thái), chưa phải bản tin hoặc sự kiện đã xác minh.
 
 Hành trình được nạp sẵn 2 điểm dừng; có 1 hoạt động đã lưu và 1 bài cộng đồng đã thích. Tin nhắn, lưu/thích bài đọc, bình luận và chủ đề theo dõi giữ nguyên khi chuyển màn trong cùng phiên. **Cài đặt → Khôi phục dữ liệu demo** đặt lại các thay đổi về seed ban đầu; reload cũng tạo phiên mới. Theme không bị đổi khi khôi phục dữ liệu. Đánh dấu đọc của bản tin nhanh chỉ giữ khi màn đó còn mở.
 

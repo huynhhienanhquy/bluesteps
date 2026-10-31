@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-31T09:35:12+07:00",
+  "scope": "Native Android QA and fixes to article captions, expansion accessibility and enlarged text",
+  "checks": {
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "existingWarnings": 3
+    },
+    "format": "passed",
+    "unit": {
+      "passed": 58,
+      "suites": 18
+    },
+    "androidBundle": "passed",
+    "iosBundle": "passed",
+    "androidUI": {
+      "passed": 6,
+      "failed": 0,
+      "pngCaptures": 18,
+      "xmlCaptures": 18,
+      "runtimeErrorLogEmpty": true
+    }
+  },
+  "device": {
+    "serial": "emulator-5556",
+    "androidVersion": "12",
+    "api": 32,
+    "resolution": "1080x2340",
+    "density": 480,
+    "logicalWidth": 360,
+    "expoSDK": 58,
+    "fontScaleChecked": [
+      1.0,
+      1.3
+    ]
+  },
+  "sourceSHA256": {
+    "apps/mobile/src/features/content/NewsArticleScreen.test.tsx": "6112C63F812B9181B72587B5EF94F0512301A55E75F769103904D85742A827D6",
+    "apps/mobile/scripts/check-android-ui.cjs": "0BD1D1B98BCE69EAFBAA7300B96EE2E7BE95CDBA65BB6006C07230E07F1B262A",
+    "apps/mobile/package.json": "432B7FB9C5585888F7088A6215ABC2E3D407A3F1278832AA928F23AA329472B4",
+    "apps/mobile/src/features/content/NewsArticleScreen.tsx": "B496906B976072558AAB77E509EA26D7E68C48AD3BC115343F545E51E8677E70"
+  },
+  "logs": [
+    "android-ui-typecheck.log",
+    "android-ui-lint.log",
+    "android-ui-format.log",
+    "android-ui-runner-lint.log",
+    "android-ui-runner-format.log",
+    "android-ui-unit-final.log",
+    "android-ui-native-bundle.log",
+    "android-ui-smoke-passed.log",
+    "native/qa-runtime.log"
+  ],
+  "nativeReport": "native/qa-report.json",
+  "webBuildRun": false,
+  "webE2ERun": false,
+  "physicalDeviceQA": "pending",
+  "iosRuntimeQA": "pending",
+  "fullFidelityAccepted": false,
+  "sourceFrameMappings": 94,
+  "totalFrames": 175,
+  "goalComplete": false
+}

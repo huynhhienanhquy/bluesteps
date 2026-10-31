@@ -1,0 +1,147 @@
+const imgRectangle207 = "https://www.figma.com/api/mcp/asset/6dbb69c9-bb09-43e0-aa28-4da08b432656.png";
+const imgEllipse4 = "https://www.figma.com/api/mcp/asset/7365bcea-9bd5-4e3b-9d2b-06ea4821835e.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/a72abf98-a1a9-4b5c-b2f4-de6d20c467ae.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/a237f688-bbc3-4947-98da-3ec659bf0389.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/b063a0ee-6120-4a45-8a8d-b19d6b8c9496.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/0b1d8aee-e88a-4802-b2e2-72cd0bd4de0a.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/9458d050-8e07-48fe-839c-de83976445ae.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/35b7d782-ee7b-4bc0-9e14-4ee3ea5f6f21.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/be0bb09b-d319-45a1-8fb2-cb7f03576c6f.svg";
+const imgVuesaxLinearArrowLeft = "https://www.figma.com/api/mcp/asset/16574636-a22e-401a-b740-9aedc62050cf.svg";
+const imgGroup36732 = "https://www.figma.com/api/mcp/asset/db1771f6-a308-4747-9fc0-00218a8c7825.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/c7ab6c01-93cc-4525-8db3-9959bae3dd9c.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/a0e574ed-5400-45d4-ad82-9815ed67164c.svg";
+const imgEllipse5 = "https://www.figma.com/api/mcp/asset/39e34b31-8466-495d-bfcc-61caa24123fe.svg";
+const imgEllipse6 = "https://www.figma.com/api/mcp/asset/aeef9c99-4d1e-403a-a359-3886ea6f0e57.svg";
+const imgGroup36700 = "https://www.figma.com/api/mcp/asset/1a51da8d-79b7-41d9-9f06-4019f541a4a5.svg";
+const imgArrowRefresh01 = "https://www.figma.com/api/mcp/asset/60025cfb-cb0a-4389-87e0-d8249845806b.svg";
+const imgVuesaxLinearArrowLeft1 = "https://www.figma.com/api/mcp/asset/2c355032-6c76-49fa-8886-a226180cf22a.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/4707dc88-b413-4208-abff-077b698ccea8.svg";
+
+export default function KquaScan2() {
+  return (
+    <div className="bg-[#147cc1] overflow-clip relative rounded-[25px] size-full" data-node-id="386:14264" data-name="Kqua_Scan2">
+      <div className="-translate-x-1/2 absolute h-[827px] left-1/2 top-[57px] w-[428px]" data-node-id="386:14265">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle207} />
+      </div>
+      <div className="absolute bg-[rgba(217,217,217,0.35)] h-[828px] left-0 top-[57px] w-[428px]" data-node-id="386:14266" />
+      <div className="absolute contents inset-[0.32%_0_94.38%_0]" data-node-id="386:14267">
+        <div className="absolute inset-[0.32%_0_94.38%_0] overflow-clip" data-node-id="386:14268" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:14268;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:14268;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:14268;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:14268;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:14268;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:14268;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:14268;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:14268;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:14268;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-0 left-[143px] top-[918px] w-[141px]" data-node-id="386:14269" data-name="line">
+        <div className="absolute inset-[-2.56px_0_0_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine} />
+        </div>
+      </div>
+      <div className="absolute left-[24px] size-[26px] top-[85px]" data-node-id="386:14271" data-name="Line arrow-left">
+        <div className="absolute contents inset-0" data-node-id="I386:14271;8011:21790" data-name="vuesax/linear/arrow-left">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxLinearArrowLeft} />
+        </div>
+      </div>
+      <div className="absolute h-[19px] left-[399px] top-[90px] w-[5px]" data-node-id="386:14272">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup36732} />
+      </div>
+      <div className="absolute inset-[9.18%_77.1%_88.23%_17.29%]" data-node-id="386:14276" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+      </div>
+      <div className="absolute h-[55px] left-[50px] top-[777px] w-[56px]" data-node-id="386:14277">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="55" src={imgEllipse4} width="56" />
+      </div>
+      <div className="absolute inset-[84.67%_12.85%_11.02%_77.8%]" data-node-id="386:14278" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+      </div>
+      <div className="-translate-x-1/2 absolute left-[calc(50%-1.5px)] size-[85px] top-[762px]" data-node-id="386:14279">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse5} />
+      </div>
+      <div className="absolute left-[175px] size-[75px] top-[767px]" data-node-id="386:14280">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse6} />
+      </div>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[552px] left-1/2 top-[calc(50%-25px)] w-[428px]" data-node-id="386:14281">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup36700} />
+      </div>
+      <div className="absolute bg-[rgba(217,217,217,0.6)] h-[832px] left-0 top-[54px] w-[428px]" data-node-id="386:14284" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute contents left-1/2 top-[calc(50%+6.62px)]" data-node-id="386:14285">
+        <div className="absolute bg-white h-[220.292px] left-[54px] rounded-[16px] top-[359.48px] w-[320px]" data-node-id="386:14286" />
+        <a className="-translate-x-1/2 absolute contents cursor-pointer left-[calc(50%-75.5px)] top-[479px]" data-node-id="386:14287">
+          <div className="absolute bg-[rgba(168,213,240,0.7)] h-[47px] left-[64px] rounded-[25px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[479px] w-[149px]" data-node-id="386:14288" />
+          <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[15.946px] leading-[normal] left-[99.06px] not-italic text-[#555] text-[14px] top-[492.43px] w-[57.892px]" data-node-id="386:14289">
+            Quét lại
+          </p>
+          <div className="absolute inset-[53.02%_56.31%_44.38%_38.08%]" data-node-id="386:14290" data-name="arrow-refresh-01">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgArrowRefresh01} />
+          </div>
+        </a>
+        <a className="-translate-x-1/2 absolute contents cursor-pointer left-[calc(50%+81.5px)] top-[479px]" data-node-id="386:14291">
+          <div className="absolute bg-[#147cc1] h-[47px] left-[223px] rounded-[25px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] top-[479px] w-[145px]" data-node-id="386:14292" />
+          <div className="absolute contents left-[248px] top-[493px]" data-node-id="386:14293">
+            <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[16px] leading-[normal] left-[calc(50%+34px)] not-italic text-[14px] text-white top-[494px] w-[69px]" data-node-id="386:14294">
+              Sổ tay rác
+            </p>
+            <div className="absolute flex h-[21px] items-center justify-center left-[323px] top-[493px] w-[20px]" data-node-id="386:14295">
+              <div className="-scale-y-100 flex-none rotate-180">
+                <div className="h-[21px] relative w-[20px]" data-name="Line arrow-left">
+                  <div className="absolute contents inset-0" data-node-id="I386:14295;8011:21790" data-name="vuesax/linear/arrow-left">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxLinearArrowLeft1} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <div className="absolute contents left-[339px] top-[375px]" data-node-id="386:14296">
+          <div className="absolute bg-[#edf7fc] left-[339px] rounded-[20px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] size-[20px] top-[375px]" data-node-id="386:14297" />
+          <CodeConnectSnippet data-node-id="386:14298" data-name="close">
+            {/* Material 3 Design Kit component */}
+            <Close />
+          </CodeConnectSnippet>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-1/2 top-[395px]" data-node-id="386:14299">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Roboto:Medium'] font-medium h-[42px] leading-[normal] left-[calc(50%+18px)] text-[#494949] text-[18px] text-center top-[395px] tracking-[0.54px] w-[194px]" data-node-id="386:14300" style={{ fontVariationSettings: '"wdth" 100' }}>
+          Không nhận diện được rác
+        </p>
+        <div className="absolute inset-[42.87%_72.9%_53.02%_23.13%]" data-node-id="386:14301" data-name="Group">
+          <div className="absolute inset-[-0.66%_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: M3/sys/light/on-surface: #1D1B20.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

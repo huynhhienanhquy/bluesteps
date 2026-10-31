@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-10-30T19:16:55.2524255+07:00",
+  "sourceCommit": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "commandPrefix": "corepack pnpm --filter @bluesteps/mobile",
+  "checks": [
+    {
+      "check": "typecheck",
+      "exitCode": 0,
+      "log": "latest-review-typecheck.log"
+    },
+    {
+      "check": "lint",
+      "exitCode": 0,
+      "log": "latest-review-lint.log"
+    },
+    {
+      "check": "unit",
+      "exitCode": 0,
+      "log": "latest-review-unit.log"
+    },
+    {
+      "check": "native-config",
+      "exitCode": 0,
+      "log": "latest-review-native-config.log"
+    },
+    {
+      "check": "build",
+      "exitCode": 0,
+      "log": "latest-review-build.log"
+    }
+  ],
+  "e2e": {
+    "exitCode": 0,
+    "browser": "Installed Google Chrome",
+    "log": "latest-review-e2e.log",
+    "usesFreshWebExport": true,
+    "passed": 46,
+    "total": 46,
+    "duration": "3.3m"
+  },
+  "reviewCompletedAt": "2026-10-30T12:21:31.366Z",
+  "remoteHeadAtReview": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "baselineCommit": "84f81b77240fefcc4ecb598fd56d5023abb7b7cc",
+  "unit": {
+    "passed": 33,
+    "total": 33,
+    "suites": 15
+  },
+  "functionStatusScope": "UI demo scopes listed in the report; rows can overlap and are not an overall completion percentage",
+  "functionStatuses": [
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — danh sách, tìm kiếm và chi tiết",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "historicalFigmaMapping": {
+    "mapped": 69,
+    "frames": 175,
+    "liveFigmaRechecked": false,
+    "updatedForNewScreens": false
+  }
+}

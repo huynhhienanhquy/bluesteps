@@ -11,6 +11,9 @@ export type ArticleComment = {
   replyTo?: number;
 };
 export type NewsSession = {
+  recentSearches: string[];
+  interestedEvents: string[];
+  savedEvents: string[];
   saved: string[];
   liked: string[];
   followedTopics: string[];
@@ -33,6 +36,56 @@ export const articleMetadata: Record<
   string,
   { date: string; minutes: number; views: number; likes: number; summary: string }
 > = {
+  'youth-ideas': {
+    date: '2026-10-18',
+    minutes: 3,
+    views: 1900,
+    likes: 20,
+    summary:
+      'Bài đọc mẫu theo thẻ ý tưởng của các bạn trẻ trong thiết kế Figma; nội dung và hoạt động chưa được xác minh.',
+  },
+  'storm-cleanup': {
+    date: '2026-10-24',
+    minutes: 3,
+    views: 1200,
+    likes: 50,
+    summary: 'Bài đọc mẫu từ thiết kế về rác thải và hoạt động cộng đồng.',
+  },
+  'green-sunday': {
+    date: '2026-10-23',
+    minutes: 3,
+    views: 2200,
+    likes: 170,
+    summary: 'Tiêu đề và ảnh minh họa trong Figma; thông tin nhân vật chưa được xác minh.',
+  },
+  'local-cleanup': {
+    date: '2026-10-22',
+    minutes: 3,
+    views: 1500,
+    likes: 40,
+    summary: 'Minh họa giao diện cho câu chuyện thu gom tại địa phương.',
+  },
+  'saigon-cleanup': {
+    date: '2026-10-21',
+    minutes: 3,
+    views: 1200,
+    likes: 50,
+    summary: 'Bài mẫu theo ảnh và tiêu đề thiết kế, chưa phải tin đã biên tập.',
+  },
+  'ha-long': {
+    date: '2026-10-20',
+    minutes: 3,
+    views: 1200,
+    likes: 50,
+    summary: 'Mẫu UI bài đọc về rác thải tại địa điểm trong thiết kế.',
+  },
+  'tourism-cleanup': {
+    date: '2026-10-19',
+    minutes: 3,
+    views: 1200,
+    likes: 50,
+    summary: 'Nội dung mẫu cho màn bài viết đã lưu, chưa xác minh sự kiện thực tế.',
+  },
   'small-steps': {
     date: '2026-10-29',
     minutes: 3,
@@ -77,6 +130,9 @@ export const articleMetadata: Record<
   },
 };
 export const createNewsSession = (): NewsSession => ({
+  recentSearches: [],
+  interestedEvents: [],
+  savedEvents: [],
   saved: [],
   liked: [],
   followedTopics: [],
@@ -109,17 +165,30 @@ export const normalizeNewsSearch = (value: string) =>
     .trim();
 export function filterNews(
   items: NewsArticle[],
-  options: { search: string; topic: string; sort: 'newest' | 'popular'; savedIds?: string[] },
+  options: {
+    search: string;
+    topic: string;
+    sort: 'newest' | 'popular' | 'saved';
+    savedIds?: string[];
+  },
 ) {
   const term = normalizeNewsSearch(options.search);
+  const topic =
+    options.topic === 'Tái chế'
+      ? 'Phân loại'
+      : options.topic === 'Sự kiện'
+        ? 'Cộng đồng'
+        : options.topic;
   return items
     .filter(
       (article) =>
         (!options.savedIds || options.savedIds.includes(article.id)) &&
-        (options.topic === 'Tất cả' || options.topic === article.tag) &&
+        (topic === 'Tất cả' || topic === article.tag) &&
         normalizeNewsSearch(`${article.title} ${article.tag} ${article.body}`).includes(term),
     )
     .sort((left, right) => {
+      if (options.sort === 'saved' && options.savedIds)
+        return options.savedIds.indexOf(left.id) - options.savedIds.indexOf(right.id);
       const a = articleMetadata[left.id]!;
       const b = articleMetadata[right.id]!;
       return options.sort === 'popular'
@@ -155,5 +224,28 @@ export function appendArticleComment(
         replyTo,
       },
     ],
+  };
+}
+
+/** Removing your own comment preserves replies as standalone messages in this local demo. */
+export function removeArticleComment(
+  session: NewsSession,
+  articleId: string,
+  commentId: number,
+): NewsSession {
+  if (
+    !session.comments.some(
+      (comment) => comment.id === commentId && comment.articleId === articleId && comment.mine,
+    )
+  )
+    return session;
+  return {
+    ...session,
+    comments: session.comments
+      .filter((comment) => comment.id !== commentId)
+      .map((comment) =>
+        comment.replyTo === commentId ? { ...comment, replyTo: undefined } : comment,
+      ),
+    likedComments: session.likedComments.filter((id) => id !== commentId),
   };
 }

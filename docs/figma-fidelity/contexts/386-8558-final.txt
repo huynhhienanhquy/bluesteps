@@ -1,0 +1,73 @@
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/1ca01991-7b85-40c1-b833-139e0fd011cb.png";
+const imgEllipse58 = "https://www.figma.com/api/mcp/asset/49c6fa0e-5ea0-4066-9b12-30f826613855.svg";
+
+function Feature({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[25px] relative w-[157px]"} data-node-id="306:631" data-name="feature">
+      <div className="absolute bg-[#f3f3f3] inset-0 rounded-[10px]" data-node-id="306:632" />
+      <div className="absolute contents inset-[24%_54.04%_37.29%_3.18%]" data-node-id="306:633" data-name="group">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[24%_54.04%_37.29%_3.18%] leading-[normal] not-italic text-[12px] text-black" data-node-id="306:634">{` Thống kê `}</p>
+      </div>
+    </div>
+  );
+}
+
+function Group36779({ className }: { className?: string }) {
+  return (
+    <a className={className || "block cursor-pointer h-[25px] relative w-[157px]"} data-node-id="306:3918">
+      <div className="absolute bg-[#f3f3f3] inset-0 rounded-[10px]" data-node-id="306:3919" />
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[20%_61.78%_20%_5.1%] leading-[normal] not-italic text-[12px] text-black text-left whitespace-nowrap" data-node-id="306:3920">
+        Bài Đăng
+      </p>
+    </a>
+  );
+}
+
+function Group36778({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[25px] relative w-[157px]"} data-node-id="306:628">
+      <div className="absolute bg-[#f3f3f3] inset-0 rounded-[10px]" data-node-id="306:629" />
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold inset-[20%_68.79%_20%_5.1%] leading-[normal] not-italic text-[12px] text-black whitespace-nowrap" data-node-id="306:630">
+        Tin tức
+      </p>
+    </div>
+  );
+}
+
+export default function Navigation() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[15px] size-full" data-node-id="386:8558" data-name="navigation">
+      <div className="absolute contents left-[15px] top-[14px]" data-node-id="386:8559" data-name="hi">
+        <div className="absolute left-[15px] size-[40px] top-[14px]" data-node-id="386:8560">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" height="40" src={imgEllipse2} width="40" />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[68px] not-italic text-[12px] text-black top-[26px] whitespace-nowrap" data-node-id="386:8561">
+          Hi, Healing
+        </p>
+      </div>
+      <Group36778 className="absolute h-[25px] left-[13px] top-[69px] w-[157px]" />
+      <Group36779 className="absolute block cursor-pointer h-[25px] left-[13px] top-[104px] w-[157px]" />
+      <a className="absolute contents cursor-pointer left-[13px] top-[174px]" data-node-id="386:8564">
+        <div className="absolute bg-[#f3f3f3] h-[25px] left-[13px] rounded-[10px] top-[174px] w-[157px]" data-node-id="386:8565" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[22px] not-italic text-[12px] text-black top-[179px] whitespace-nowrap" data-node-id="386:8566">
+          Sổ Tay
+        </p>
+      </a>
+      <Feature className="absolute h-[25px] left-[13px] top-[139px] w-[157px]" />
+      <div className="absolute left-[-97px] size-[273px] top-[-141px]" data-node-id="386:8568">
+        <div className="absolute inset-[-73.26%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse58} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

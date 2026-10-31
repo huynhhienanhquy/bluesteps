@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-30",
+  "baseCommit": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "workingTreeImplementation": true,
+  "goal": "tiếp tục thực hiện các UI đang trong tiến trình",
+  "goalComplete": false,
+  "completedDemoScopes": [
+    "Đăng ký tham gia hoạt động",
+    "Tổng kết sau hoạt động"
+  ],
+  "design": {
+    "fileKey": "7GCLABwia0mauoszRi0Vtt",
+    "pageId": "386:7053",
+    "implementedFrameIds": [
+      "534:49326",
+      "534:49760"
+    ],
+    "freshContexts": 14,
+    "downloadedAssetReferences": 255,
+    "sourceMap": "../figma-fidelity/event-form-source-map.json"
+  },
+  "checks": {
+    "typecheck": "passed",
+    "changedCodeLint": "passed",
+    "changedCodeFormatting": "passed",
+    "webExport": {
+      "status": "passed",
+      "log": "event-fidelity-build.log"
+    },
+    "nativeExport": {
+      "status": "passed",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "log": "event-fidelity-native.log",
+      "isDeviceQA": false
+    },
+    "unit": {
+      "passed": 33,
+      "total": 33,
+      "suites": 15,
+      "log": "event-fidelity-unit.log"
+    },
+    "e2eFull": {
+      "passed": 47,
+      "total": 47,
+      "duration": "3.4m",
+      "log": "event-fidelity-e2e-full.log"
+    },
+    "finalEventE2E": {
+      "passed": 5,
+      "total": 5,
+      "duration": "37.5s",
+      "log": "event-fidelity-e2e-final.log",
+      "covers": [
+        "role dropdown",
+        "participant limits",
+        "preview feedback does not create a ticket",
+        "album open/close",
+        "registration to ticket",
+        "saved collections and reminder regression"
+      ]
+    },
+    "capture": {
+      "screenshots": 4,
+      "widths": [
+        428,
+        390
+      ],
+      "runtimeErrors": 0,
+      "unloadedImages": 0,
+      "horizontalOverflow": 0,
+      "log": "event-fidelity-capture.log"
+    },
+    "assetSlots": {
+      "passed": 31,
+      "total": 31,
+      "toleranceCssPx": 0.1,
+      "maxDifference": 0.03125
+    }
+  },
+  "coverage": {
+    "frames": 175,
+    "mapped": 71,
+    "remaining": 104
+  },
+  "sourceHashes": {
+    "apps/mobile/src/features/events/EventFormParts.tsx": "ca62eef8efed9067975fc445249508041a027e82f395f54a847a309596357725",
+    "apps/mobile/src/features/events/EventParticipationScreens.tsx": "103df40184212b82930c62befc45ca96b47f11bb99582f40d676115e0b3820e5",
+    "apps/mobile/src/features/events/EventSummaryScreen.tsx": "434a9e1a3ede235f23639e41f23679b82d27733bb073fc885abc9bf630309ae4",
+    "apps/mobile/src/features/collection/CollectionPage.tsx": "f0e9c0ceb032a3408cf9115f33fe6a4ce143aa643ed8582e5b31283337ce03fb"
+  },
+  "limits": [
+    "Whole-frame text rasterization and the intentional demo copy still differ from Figma",
+    "Feedback for a real sample registration stays in session; standalone preview feedback stays on its screen",
+    "No real registration, ticket verification, reward, upload or backend command",
+    "Native bundles passed; physical-device QA remains open",
+    "Other UI scopes in progress remain active"
+  ]
+}

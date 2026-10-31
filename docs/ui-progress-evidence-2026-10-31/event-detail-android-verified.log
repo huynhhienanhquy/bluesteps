@@ -1,0 +1,12 @@
+$ node scripts/check-android-event-ui.cjs
+ERROR: null root node returned by UiTestAutomationBridge.
+cat: /sdcard/bluesteps-ui-1.xml: No such file or directory
+Android QA: green-class: original detail, interest and related native scroll
+Android QA: beach: original detail, interest and related native scroll
+Android QA: school-class: original detail, interest and related native scroll
+Android QA: garden: original detail, interest and related native scroll
+Android QA: saving remains independent of interest and saved deletion needs confirmation
+Android QA: saved reference list and preview feedback stay separate from the main session
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:android:events: `node scripts/check-android-event-ui.cjs`
+Exit status 4294967295

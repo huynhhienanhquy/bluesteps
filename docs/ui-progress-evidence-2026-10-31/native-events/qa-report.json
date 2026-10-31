@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-31T03:55:42.556Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "green-class: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "beach: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "school-class: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "garden: original detail, interest and related native scroll",
+      "passed": true
+    },
+    {
+      "name": "saving remains independent of interest and saved deletion needs confirmation",
+      "passed": true
+    },
+    {
+      "name": "saved reference list and preview feedback stay separate from the main session",
+      "passed": true
+    },
+    {
+      "name": "130 percent text keeps native detail, related cards and saved rows usable",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "qa-event-386-9376",
+    "qa-event-386-7054",
+    "qa-event-gallery",
+    "qa-event-green-class-body",
+    "qa-event-386-9470",
+    "qa-event-386-17397",
+    "qa-event-beach-body",
+    "qa-event-386-9575",
+    "qa-event-386-9681",
+    "qa-event-school-class-body",
+    "qa-event-386-10026",
+    "qa-event-386-17299",
+    "qa-event-garden-body",
+    "qa-event-386-10122",
+    "qa-event-saved-session",
+    "qa-event-386-10131",
+    "qa-event-386-18069",
+    "qa-event-collections-plus",
+    "qa-event-font130-top",
+    "qa-event-font130-body",
+    "qa-event-font130-related",
+    "qa-event-font130-saved"
+  ],
+  "environmentNotes": [
+    "Android System UI boot timeout: chose Wait"
+  ],
+  "limitations": "Android emulator viewport and behavior QA only; no iOS, physical device, backend or full-frame fidelity acceptance"
+}

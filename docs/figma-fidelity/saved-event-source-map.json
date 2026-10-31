@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-30",
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "sessionId": "57bc5ffe-9a8d-479a-b3a8-c7e80a804447",
+  "source": "Previously downloaded high-fidelity get_design_context JSX and original local assets; not screenshots as UI",
+  "frames": [
+    {
+      "status": "UI implemented; exact Plus glyph and full-frame composition remain in progress",
+      "route": "/event-collections?preview=1",
+      "implementation": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "nodeId": "534:49845",
+      "context": "docs/figma-fidelity/contexts/534-49845.txt",
+      "preview": "Isolated synthetic collections, selected activities and counts; edits never change AppProviders state"
+    },
+    {
+      "status": "Demo UI implemented; full-frame and physical device QA remain open",
+      "route": "/event-reminders?preview=1",
+      "implementation": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "nodeId": "534:49968",
+      "context": "docs/figma-fidelity/contexts/534-49968.txt",
+      "preview": "Isolated defaults and two selected sample activities; save does not change provider settings"
+    }
+  ],
+  "reusedComponents": [
+    "CollectionPage/CollectionText/CollectionAction/CollectionSheet",
+    "EventFormPage/EventField/EventOutlineAction",
+    "LegacyNavigation extended with a flow-based 428x112 variant using the collection frame assets",
+    "EventCover for dynamic saved-activity imagery"
+  ],
+  "sourceGeometry": "Expectations derived from the saved high-fidelity Figma JSX flow and nested percentage bounds; fresh Figma screenshot/geometry access was denied. Text-dependent pill x position uses the cached Inter layout, rounded to 0.1px.",
+  "assetAudit": "docs/figma-fidelity/saved-event-asset-audit.json",
+  "assetSlots": 53,
+  "exactAssetHashesMatched": 53,
+  "codeConnect": {
+    "plus": "Connected Plus component 306:638 has no import path or corresponding installed package. Original registration plus node 534:50224 rendered in the 24px slot; exact glyph parity is unverified and collection UI remains in progress",
+    "back": "Connected ChevronLeft package absent; existing original 8.5x14.5 back SVG reused in the 24px wrapper, as in prior event forms"
+  },
+  "intentionalDemoDifferences": [
+    "Actual local membership and selection counts replace hardcoded design counts; preview supplies isolated example counts",
+    "Preview reminder dates are illustrative Vietnam wall-clock dates, not a scheduled notification or a claim that the event is in the future",
+    "Independent push/email and sound/vibration preferences are saved only in the local session; no permission request or delivery service is triggered",
+    "Custom timing, activity selection, rename/delete and quiet hours open interactive sheets instead of permanently expanding the source layout",
+    "The email caption identifies the demo account rather than displaying a specific fictitious address"
+  ],
+  "freshFigmaRead": {
+    "reminderScreenshotDebugId": "50ef75d4-6b2a-424e-bef7-a37b7b6e48e0",
+    "originalScreenshotAvailableForTheseFrames": false,
+    "collectionScreenshotDebugId": "61d36d3f-a4c9-4485-8094-5c3c64a424c5",
+    "status": "Denied",
+    "getContextDebugId": "318304a3-329f-4632-8688-704909bcdd21"
+  },
+  "knownLimits": [
+    "The Plus Code Connect source package is absent. The original 18px plus from registration node 534:50224 is reused in the 24px slot; exact glyph parity with connected Plus 306:638 is not verified.",
+    "Collection flow from cached JSX is 1153px tall in the 1144px viewport and scrolls by 9px. Fresh original screenshot is needed to resolve the discrepancy; no full-frame fidelity claim."
+  ],
+  "fullFrameFidelityProven": false,
+  "physicalDeviceQaDone": false,
+  "goalComplete": false
+}

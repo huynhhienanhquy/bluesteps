@@ -1,0 +1,8 @@
+$ pnpm --filter @bluesteps/mobile test
+$ jest --runInBand
+
+Test Suites: 17 passed, 17 total
+Tests:       45 passed, 45 total
+Snapshots:   0 total
+Time:        21.021 s
+Ran all test suites.

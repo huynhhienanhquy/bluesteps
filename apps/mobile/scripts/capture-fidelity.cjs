@@ -1,9 +1,17 @@
 const { chromium } = require('@playwright/test');
-const { mkdirSync, writeFileSync } = require('node:fs');
+const { mkdirSync, writeFileSync, existsSync } = require('node:fs');
 const { resolve } = require('node:path');
 const prefix = process.argv[2];
-const targets = require('./fidelity-targets.cjs').filter(
-  (target) => !prefix || target.name.startsWith(prefix),
+const targets = require('./fidelity-targets.cjs').filter((target) =>
+  prefix === '--missing'
+    ? !existsSync(
+        resolve(
+          __dirname,
+          '../../../docs/figma-fidelity/rendered',
+          `${target.name}-${target.width ?? 428}.png`,
+        ),
+      )
+    : !prefix || target.name.startsWith(prefix),
 );
 const { spawn } = require('node:child_process');
 
@@ -38,15 +46,25 @@ const { spawn } = require('node:child_process');
     const errors = [];
     page.on('pageerror', (error) => errors.push(error.message));
     const results = [];
-    for (const { route: path, name, heading, readyButton, prepare, height = 926 } of targets) {
+    for (const {
+      route: path,
+      name,
+      heading,
+      readyButton,
+      readyTestId,
+      prepare,
+      height = 926,
+      width = 428,
+    } of targets) {
       for (const viewport of [
-        { width: 428, height },
+        { width, height },
         { width: 390, height: 844 },
       ]) {
         console.log(`Capturing ${name} at ${viewport.width}`);
         await page.setViewportSize(viewport);
         await page.goto(`http://127.0.0.1:4174${path}`);
-        if (readyButton)
+        if (readyTestId) await page.getByTestId(readyTestId).waitFor();
+        else if (readyButton)
           await page.getByRole('button', { name: readyButton, exact: true }).waitFor();
         else await page.getByRole('heading', { name: new RegExp(heading) }).waitFor();
         if (prepare === 'strong-password') {
@@ -98,6 +116,9 @@ const { spawn } = require('node:child_process');
           images: await page.evaluate(() =>
             Array.from(document.images, (image) => {
               const bounds = image.getBoundingClientRect();
+              let opacity = 1;
+              for (let element = image; element; element = element.parentElement)
+                opacity *= Number(getComputedStyle(element).opacity);
               return {
                 src: image.currentSrc.split('/').pop(),
                 loaded: image.complete && image.naturalWidth > 0,
@@ -107,6 +128,8 @@ const { spawn } = require('node:child_process');
                 height: bounds.height,
                 naturalWidth: image.naturalWidth,
                 naturalHeight: image.naturalHeight,
+                opacity,
+                fit: getComputedStyle(image).objectFit,
               };
             }),
           ),
@@ -115,7 +138,14 @@ const { spawn } = require('node:child_process');
       }
     }
     writeFileSync(
-      resolve(output, prefix ? `capture-report-${prefix}.json` : 'capture-report.json'),
+      resolve(
+        output,
+        prefix === '--missing'
+          ? 'capture-report-missing.json'
+          : prefix
+            ? `capture-report-${prefix}.json`
+            : 'capture-report.json',
+      ),
       JSON.stringify({ errors, results }, null, 2),
     );
     console.log(

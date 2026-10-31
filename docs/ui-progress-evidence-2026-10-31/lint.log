@@ -1,0 +1,34 @@
+$ pnpm --filter @bluesteps/mobile lint
+$ eslint .
+
+Oops! Something went wrong! :(
+
+ESLint: 9.39.5
+
+Error: Cannot find module 'fast-deep-equal'
+Require stack:
+- D:\BlueSteps\node_modules\.pnpm\ajv@6.15.0\node_modules\ajv\lib\compile\resolve.js
+- D:\BlueSteps\node_modules\.pnpm\ajv@6.15.0\node_modules\ajv\lib\compile\index.js
+- D:\BlueSteps\node_modules\.pnpm\ajv@6.15.0\node_modules\ajv\lib\ajv.js
+- D:\BlueSteps\node_modules\.pnpm\@eslint+eslintrc@3.3.7_supports-color@8.1.1\node_modules\@eslint\eslintrc\dist\eslintrc-universal.cjs
+- D:\BlueSteps\node_modules\.pnpm\eslint@9.39.5_supports-color@8.1.1\node_modules\eslint\lib\linter\linter.js
+- D:\BlueSteps\node_modules\.pnpm\eslint@9.39.5_supports-color@8.1.1\node_modules\eslint\lib\linter\index.js
+- D:\BlueSteps\node_modules\.pnpm\eslint@9.39.5_supports-color@8.1.1\node_modules\eslint\lib\eslint\eslint-helpers.js
+- D:\BlueSteps\node_modules\.pnpm\eslint@9.39.5_supports-color@8.1.1\node_modules\eslint\lib\eslint\eslint.js
+- D:\BlueSteps\node_modules\.pnpm\eslint@9.39.5_supports-color@8.1.1\node_modules\eslint\lib\eslint\index.js
+- D:\BlueSteps\node_modules\.pnpm\eslint@9.39.5_supports-color@8.1.1\node_modules\eslint\lib\cli.js
+- D:\BlueSteps\node_modules\.pnpm\eslint@9.39.5_supports-color@8.1.1\node_modules\eslint\bin\eslint.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (D:\BlueSteps\node_modules\.pnpm\ajv@6.15.0\node_modules\ajv\lib\compile\resolve.js:4:13)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 lint: `eslint .`
+Exit status 2
+[ELIFECYCLE] Command failed with exit code 2.

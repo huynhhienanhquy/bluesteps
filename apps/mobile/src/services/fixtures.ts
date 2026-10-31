@@ -348,7 +348,33 @@ export const events: GreenEvent[] = [
     icon: 'school-outline',
     category: 'Giáo dục',
   },
+  {
+    id: 'tree-day',
+    title: 'Trồng cây cuối tuần',
+    date: '2026-10-25',
+    day: '25',
+    month: 'TH10',
+    time: '09:00 – 11:00 · 25/10/2026',
+    area: 'Công viên Gia Định, TP HCM',
+    description:
+      'Lịch trồng cây minh họa theo Figma, dùng để thử bộ lọc và cảnh báo trùng giờ. Chưa có lịch tổ chức được xác minh hoặc mở đăng ký thật.',
+    icon: 'leaf-outline',
+    category: 'Trồng cây',
+  },
   ...baseEvents,
+  {
+    id: 'school-class',
+    title: 'Trải nghiệm phân loại rác thực tế',
+    date: '2026-11-07',
+    day: '07',
+    month: 'TH11',
+    time: '08:00 – 10:00 · 07/11/2026',
+    area: 'Trường Tiểu học Cần Thơ',
+    description:
+      'Học sinh thực hành phân loại rác và giữ gìn sân trường xanh sạch. Lịch minh họa dùng để thử giao diện và đăng ký mẫu trong phiên.',
+    icon: 'school-outline',
+    category: 'Giáo dục',
+  },
   {
     id: 'repair',
     date: '2026-11-15',
@@ -447,6 +473,21 @@ export const articles = [
     icon: 'people-outline',
     body: 'Đọc kỹ thông tin từ đơn vị tổ chức, chuẩn bị nước uống và trang phục phù hợp.\n\nKhông tự xử lý vật sắc nhọn hoặc vật liệu nguy hại. Hỏi người phụ trách khi gặp vật chưa rõ.\n\nBài viết minh họa, không phải hướng dẫn vận hành một sự kiện cụ thể.',
   },
+  ...[
+    ['youth-ideas', 'Các bạn trẻ với những ý tưởng xử lý rác thải', 'Cộng đồng'],
+    ['storm-cleanup', 'Người dân tham gia dọn rác sau bảo số 13', 'Môi trường'],
+    ['green-sunday', 'Ca Sỹ Thủy Tiên tham gia chủ nhật xanh', 'Cộng đồng'],
+    ['local-cleanup', 'Người dân địa phương tham gia thu gom rác ...', 'Phân loại'],
+    ['saigon-cleanup', 'Các bạn trẻ của nhóm Sài Gòn Xanh dọn rác ở kênh.', 'Cộng đồng'],
+    ['ha-long', 'Làm sạch rác thải tại Vịnh Hạ Long', 'Môi trường'],
+    ['tourism-cleanup', 'Tham gia làm sạch các điểm thu hút khách du lịch', 'Cộng đồng'],
+  ].map(([id, title, tag]) => ({
+    id: id!,
+    title: title!,
+    tag: tag!,
+    icon: 'leaf-outline',
+    body: 'Đây là bài mẫu dùng để kiểm tra UI Tin tức, dựa trên tiêu đề và ảnh có trong thiết kế Figma. Nội dung về rác thải, nhân vật, địa điểm và hoạt động trong tiêu đề chưa được đối chiếu nguồn; không coi là bản tin đã xác minh.\n\nBạn có thể thử lưu, thích và thảo luận trong phiên demo. Chưa có thao tác nào gửi đến ban tổ chức hay người trong ảnh.',
+  })),
 ];
 export const initialPosts = [
   ...basePosts,

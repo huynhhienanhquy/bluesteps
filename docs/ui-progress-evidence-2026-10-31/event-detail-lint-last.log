@@ -1,0 +1,10 @@
+$ eslint .
+
+D:\BlueSteps\apps\mobile\e2e\events.spec.ts
+    2:27  warning  'node:fs' imported multiple times        import/no-duplicates
+    4:30  warning  'node:fs' imported multiple times        import/no-duplicates
+  172:19  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 3 problems (0 errors, 3 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

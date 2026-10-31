@@ -1,0 +1,68 @@
+$ playwright test "e2e/news.spec.ts" "e2e/news-digest.spec.ts"
+
+Running 9 tests using 1 worker
+
+(node:21124) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21124) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates (7.0s)
+(node:21076) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21076) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 e2e\news-digest.spec.ts:38:5 › brief dates validate actual calendar dates, preserve read marks while open and recover empty filters (1.9s)
+  ok 3 e2e\news-digest.spec.ts:78:5 › live Figma calendar and brief examples open explicit local details or related topics without creating registrations (3.1s)
+  ok 4 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (2.2s)
+  ok 5 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (3.7s)
+  ok 6 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (2.4s)
+  ok 7 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (2.1s)
+  ok 8 e2e\news.spec.ts:135:5 › briefs mark articles read locally and green calendar opens the correct event (2.9s)
+  ok 9 e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (27.3s)
+
+
+  1) e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('button', { name: /^Xem sự kiện / })
+    Expected: 3
+    Received: 4
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('button', { name: /^Xem sự kiện / }) with timeout 5000ms
+      - waiting for getByRole('button', { name: /^Xem sự kiện / })
+        14 × locator resolved to 4 elements
+           - unexpected value "4"
+
+
+      14 |   await page.getByRole('button', { name: 'Chọn ngày và lọc sự kiện', exact: true }).first().click();
+      15 |   await page.getByRole('radio', { name: 'Workshop', exact: true }).click();
+    > 16 |   await expect(page.getByRole('button', { name: /^Xem sự kiện / })).toHaveCount(3);
+         |                                                                     ^
+      17 |   await page.getByRole('button', { name: 'Chọn ngày và lọc sự kiện', exact: true }).first().click();
+      18 |   await page.getByRole('button', { name: 'Ngày 7 tháng 11, có sự kiện', exact: true }).click();
+      19 |   await expect(page.getByRole('button', { name: /^Xem sự kiện / })).toHaveCount(1);
+        at D:\BlueSteps\apps\mobile\e2e\news-digest.spec.ts:16:69
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates 
+  8 passed (55.6s)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:e2e: `playwright test "e2e/news.spec.ts" "e2e/news-digest.spec.ts"`
+Exit status 1

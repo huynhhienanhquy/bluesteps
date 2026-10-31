@@ -1,0 +1,251 @@
+const imgRectangle2 = "https://www.figma.com/api/mcp/asset/042d07bd-c108-43be-8a37-ca2534d807ec.png";
+const imgRectangle3 = "https://www.figma.com/api/mcp/asset/4fda3095-fda7-42ea-8eaf-3fe25f0b24cb.png";
+const imgRectangle4 = "https://www.figma.com/api/mcp/asset/6c30f0d2-8d27-448b-ac2a-48093cc10497.png";
+const imgRectangle5 = "https://www.figma.com/api/mcp/asset/8221a09b-e167-483f-8560-181f17f61162.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/d19b9e83-4bb2-44d7-bd0f-f7da2d37b764.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/1c811273-0916-41b7-a919-3188d383db09.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/c85dcfff-6e00-4511-acf5-a734bb201732.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/ab3840a0-0507-4bc1-82f3-a4187fdf3205.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/d66fac4c-e855-41b6-ad8a-4c85fc0d9558.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/c279d431-d087-4f3b-a39c-d0bf95772a9c.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/9f130d63-84ee-47dc-9c71-9479da112764.svg";
+const imgFolder = "https://www.figma.com/api/mcp/asset/0427111b-2910-45ec-af61-24f8511cd978.svg";
+const imgBell = "https://www.figma.com/api/mcp/asset/70f2d430-68be-4a50-a08f-5d418d33b052.svg";
+const imgMapPin = "https://www.figma.com/api/mcp/asset/d831ceea-2dca-4117-af82-b8e7965c2c3b.svg";
+const imgRectangle87 = "https://www.figma.com/api/mcp/asset/c4e5c4f3-b8f5-467f-9600-cbf66114c5e0.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/187058b1-b4c8-40c1-8a07-5dd4e6e03d27.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/b7ebd9bb-db25-4a9d-b808-d2707c3c4ee4.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/18ca20b5-0f6c-48a1-8009-3990cd011285.svg";
+const imgGroup37108 = "https://www.figma.com/api/mcp/asset/2c10e7d6-4478-4ecc-a8f9-778725f48bfa.svg";
+const imgGroup36731 = "https://www.figma.com/api/mcp/asset/30f3f867-ece0-4aad-8966-77f11e9ae657.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/b33b2d4f-0306-43c7-8812-c83f0bd69863.svg";
+const imgEllipse78 = "https://www.figma.com/api/mcp/asset/1a3ea3c7-0a10-49b4-bcb0-0037c72abf22.svg";
+const imgEllipse79 = "https://www.figma.com/api/mcp/asset/23e03a9e-edce-4454-846b-fb261f6c7158.svg";
+
+function BtnDelete({ className }: { className?: string }) {
+  return (
+    <div className={className || "h-[24px] relative w-[44px]"} data-node-id="306:2284" data-name="btn-delete">
+      <div className="absolute bg-[#e90404] inset-0 rounded-[10px] shadow-[0px_0px_10px_0px_rgba(240,47,47,0.25)]" data-node-id="306:2285" />
+      <p className="[word-break:break-word] absolute bottom-1/4 font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[29.55%] not-italic right-[27.27%] text-[10px] text-white top-1/4 whitespace-nowrap" data-node-id="306:2286">
+        Xóa
+      </p>
+    </div>
+  );
+}
+
+export default function HotDngYeuThich() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-bl-[50px] rounded-br-[50px] size-full" data-node-id="386:18069" data-name="hoạt động yêu thích">
+      <div className="absolute contents left-0 top-0" data-node-id="386:18070" data-name="time và line">
+        <div className="absolute contents inset-[0_0_94.67%_0]" data-node-id="386:18071" data-name="time">
+          <div className="absolute contents inset-[0_0_94.67%_0]" data-node-id="386:18072">
+            <div className="absolute contents inset-[0_0_94.67%_0]" data-node-id="386:18073">
+              <div className="absolute inset-[0_0_94.67%_0] overflow-clip" data-node-id="386:18074" data-name="iPhone/Status Bar">
+                <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:18074;47:200" data-name="Right Side">
+                  <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:18074;47:201" data-name="Battery">
+                    <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:18074;47:202" data-name="Rectangle">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+                    </div>
+                    <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:18074;47:203" data-name="Combined Shape">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+                    </div>
+                    <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:18074;47:204" data-name="Rectangle">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+                    </div>
+                  </div>
+                  <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:18074;47:205" data-name="Wifi">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+                  </div>
+                  <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:18074;47:209" data-name="Mobile Signal">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+                  </div>
+                </div>
+                <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:18074;47:216" data-name="Left Side">
+                  <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:18074;47:217" data-name="Time">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute h-0 left-[148.1px] top-[916px] w-[143.005px]" data-node-id="386:18075" data-name="line">
+          <div className="absolute inset-[-2.56px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex gap-[12px] items-center left-0 px-[16px] top-[49px] w-[428px]" data-node-id="539:4970" data-name="header">
+        <CodeConnectSnippet data-node-id="539:4971" data-name="Chevron left">
+          {/* Simple Design System component */}
+          <ChevronLeft variantSize="24" size="24" />
+        </CodeConnectSnippet>
+        <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Bold'] font-bold leading-[normal] min-w-px not-italic relative text-[#172b3d] text-[18px] text-center" data-node-id="539:4974">
+          Hoạt động yêu thích
+        </p>
+        <div className="relative shrink-0 size-[24px]" data-node-id="539:4975" data-name="Frame" />
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[16px] items-start left-0 pb-[24px] px-[21px] top-[104px] w-[428px]" data-node-id="539:4976" data-name="main-content">
+        <div className="content-stretch cursor-pointer flex gap-[12px] items-start relative shrink-0 w-full" data-node-id="539:4977" data-name="entry-controls">
+          <a className="bg-[var(--gs-blue,#dceef9)] border border-[var(--gs-primary,#147cc1)] border-solid content-stretch flex flex-[1_0_0] gap-[8px] h-[44px] items-center justify-center min-w-px relative rounded-[22px]" data-node-id="539:4978" data-name="btn-collections">
+            <div className="relative shrink-0 size-[16px]" data-node-id="539:5026" data-name="folder">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFolder} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[14px] text-[color:var(--gs-primary,#147cc1)] text-left whitespace-nowrap" data-node-id="539:4980">
+              Bộ sưu tập
+            </p>
+          </a>
+          <a className="bg-[var(--gs-white,white)] border border-[#deebf3] border-solid content-stretch flex flex-[1_0_0] gap-[8px] h-[44px] items-center justify-center min-w-px relative rounded-[22px]" data-node-id="539:4981" data-name="btn-reminders">
+            <div className="relative shrink-0 size-[16px]" data-node-id="539:5029" data-name="bell">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBell} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#677c8c] text-[14px] text-left whitespace-nowrap" data-node-id="539:4983">
+              Nhắc lịch
+            </p>
+          </a>
+        </div>
+        <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="539:4984" data-name="activity-list">
+          <a className="bg-[#f8fbff] content-stretch cursor-pointer flex gap-[20px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="539:4985" data-name="item">
+            <div className="relative rounded-[10px] shrink-0 size-[70px]" data-node-id="539:4986" data-name="Rectangle">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={imgRectangle2} />
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="539:4987" data-name="Frame">
+              <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#1a3f76] text-[16px] text-left w-full" data-node-id="539:4988">
+                GIỜ HỌC XANH
+              </p>
+              <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-full" data-node-id="539:4989" data-name="Frame">
+                <div className="relative shrink-0 size-[14px]" data-node-id="539:5032" data-name="map-pin">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMapPin} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[normal] min-w-px not-italic relative text-[#2d528b] text-[12px] text-left" data-node-id="539:4991">
+                  Trường Mầm non Tuổi Xanh, TP HCM
+                </p>
+              </div>
+            </div>
+            <BtnDelete className="h-[24px] relative shrink-0 w-[44px]" />
+          </a>
+          <div className="bg-[#f8fbff] content-stretch flex gap-[20px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="539:4995" data-name="item">
+            <div className="relative rounded-[10px] shrink-0 size-[70px]" data-node-id="539:4996" data-name="Rectangle">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={imgRectangle3} />
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="539:4997" data-name="Frame">
+              <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#1a3f76] text-[16px] w-full" data-node-id="539:4998">
+                GIỜ HỌC XANH
+              </p>
+              <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-full" data-node-id="539:4999" data-name="Frame">
+                <div className="relative shrink-0 size-[14px]" data-node-id="539:5035" data-name="map-pin">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMapPin} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[normal] min-w-px not-italic relative text-[#2d528b] text-[12px]" data-node-id="539:5001">
+                  Trường Mầm non Tuổi Xanh, TP HCM
+                </p>
+              </div>
+            </div>
+            <BtnDelete className="h-[24px] relative shrink-0 w-[44px]" />
+          </div>
+          <div className="bg-[#f8fbff] content-stretch flex gap-[20px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="539:5005" data-name="item">
+            <div className="relative rounded-[10px] shrink-0 size-[70px]" data-node-id="539:5006" data-name="Rectangle">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={imgRectangle4} />
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="539:5007" data-name="Frame">
+              <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#1a3f76] text-[16px] w-full" data-node-id="539:5008">
+                GIỜ HỌC XANH
+              </p>
+              <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-full" data-node-id="539:5009" data-name="Frame">
+                <div className="relative shrink-0 size-[14px]" data-node-id="539:5038" data-name="map-pin">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMapPin} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[normal] min-w-px not-italic relative text-[#2d528b] text-[12px]" data-node-id="539:5011">
+                  Trường Mầm non Tuổi Xanh, TP HCM
+                </p>
+              </div>
+            </div>
+            <BtnDelete className="h-[24px] relative shrink-0 w-[44px]" />
+          </div>
+          <div className="bg-[#f8fbff] content-stretch flex gap-[20px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="539:5015" data-name="item">
+            <div className="relative rounded-[10px] shrink-0 size-[70px]" data-node-id="539:5016" data-name="Rectangle">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[10px] size-full" src={imgRectangle5} />
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-node-id="539:5017" data-name="Frame">
+              <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#1a3f76] text-[16px] w-full" data-node-id="539:5018">
+                GIỜ HỌC XANH
+              </p>
+              <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-full" data-node-id="539:5019" data-name="Frame">
+                <div className="relative shrink-0 size-[14px]" data-node-id="539:5041" data-name="map-pin">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMapPin} />
+                </div>
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[normal] min-w-px not-italic relative text-[#2d528b] text-[12px]" data-node-id="539:5021">
+                  Trường Mầm non Tuổi Xanh, TP HCM
+                </p>
+              </div>
+            </div>
+            <BtnDelete className="h-[24px] relative shrink-0 w-[44px]" />
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[-1.87%] right-[-1.87%] top-[810px]" data-node-id="386:18128">
+        <div className="absolute contents inset-[91.68%_58.64%_0_-1.87%]" data-node-id="386:18129">
+          <div className="absolute bg-[#147cc1] inset-[91.68%_58.64%_0_-1.87%] rounded-bl-[25px] rounded-tr-[35px]" data-node-id="386:18130" />
+        </div>
+        <div className="absolute bg-[#147cc1] inset-[91.9%_-1.87%_0_58.64%] rounded-br-[25px] rounded-tl-[35px]" data-node-id="386:18131" />
+        <div className="absolute inset-[92.76%_38.32%_0_39.49%]" data-node-id="386:18132">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle87} />
+        </div>
+        <div className="absolute contents cursor-pointer inset-[93.74%_8.18%_3.24%_65.65%]" data-node-id="386:18133">
+          <a className="absolute contents inset-[93.74%_8.18%_3.24%_85.28%]" data-node-id="386:18134">
+            <div className="absolute inset-[93.74%_8.18%_3.24%_85.28%]" data-node-id="386:18135" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </a>
+          <a className="absolute contents inset-[93.74%_27.8%_3.24%_65.65%]" data-node-id="386:18138">
+            <div className="absolute inset-[93.74%_27.8%_3.24%_65.65%]" data-node-id="386:18139" data-name="Group">
+              <div className="absolute inset-[-2.68%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="absolute contents inset-[92.98%_64.95%_1.94%_2.8%]" data-node-id="386:18142">
+          <a className="absolute block cursor-pointer inset-[93.74%_64.95%_2.96%_28.5%]" data-node-id="386:18143" data-name="Group">
+            <div className="absolute inset-[-2.46%_-2.68%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+            </div>
+          </a>
+          <div className="absolute h-[47px] left-[2.8%] right-[76.87%] top-[861px]" data-node-id="386:18146">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup37108} />
+          </div>
+        </div>
+        <a className="absolute block cursor-pointer inset-[87.47%_41.12%_4.43%_41.36%]" data-node-id="386:18149">
+          <div className="absolute inset-[0_-5.33%_-10.67%_-5.33%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup36731} />
+          </div>
+        </a>
+        <div className="absolute inset-[99.35%_31.31%_0.65%_35.75%]" data-node-id="386:18152">
+          <div className="absolute inset-[-2.56px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine1} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute left-[-113px] size-[318px] top-[-42px]" data-node-id="386:18126">
+        <div className="absolute inset-[-31.45%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse78} />
+        </div>
+      </div>
+      <div className="absolute left-[49px] size-[318px] top-[104px]" data-node-id="386:18127">
+        <div className="absolute inset-[-31.45%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse79} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

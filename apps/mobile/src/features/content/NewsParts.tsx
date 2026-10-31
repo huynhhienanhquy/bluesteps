@@ -1,9 +1,9 @@
 import type { PropsWithChildren } from 'react';
 import { KeyboardAvoidingView, Platform, Pressable, View } from 'react-native';
-import { router, type Href } from 'expo-router';
+import { router } from 'expo-router';
 import { useApp } from '../../providers';
 import { Artwork, DesignScreen } from '../../design-system/DesignScreen';
-import { homeAssets } from '../../design-system/figma-assets';
+import { newsCover } from './news-design-data';
 import { Button, Card, Icon, IconButton, Label, Row } from '../../design-system/ui';
 import { articleMetadata, type NewsArticle } from '../../services/news';
 
@@ -19,14 +19,23 @@ export function NewsPage({ title, children }: PropsWithChildren<{ title: string 
     </KeyboardAvoidingView>
   );
 }
-export function NewsNavigation() {
+export function NewsNavigation({
+  onNavigate,
+  sample = false,
+}: { onNavigate?: () => void; sample?: boolean } = {}) {
   const { colors } = useApp();
-  const links: { label: string; icon: string; path: Href }[] = [
-    { label: 'Bài đã lưu', icon: 'bookmark-outline', path: '/articles/saved' },
+  const links = [
+    { label: 'Bài đã lưu', icon: 'bookmark-outline', path: '/articles/reading-list' },
+    {
+      label: 'Sự kiện xanh',
+      icon: 'leaf-outline',
+      path: '/articles/events/[id]',
+      params: { id: 'nhieu-loc' },
+    },
     { label: 'Chủ đề', icon: 'compass-outline', path: '/articles/topics' },
     { label: 'Lịch xanh', icon: 'calendar-outline', path: '/articles/calendar' },
     { label: 'Tin nhanh', icon: 'flash-outline', path: '/articles/briefs' },
-  ];
+  ] as const;
   return (
     <Row style={{ gap: 6 }}>
       {links.map((link) => (
@@ -34,7 +43,15 @@ export function NewsNavigation() {
           key={link.path.toString()}
           accessibilityRole="button"
           accessibilityLabel={link.label}
-          onPress={() => router.push(link.path)}
+          onPress={() => {
+            onNavigate?.();
+            if ('params' in link)
+              router.push({
+                pathname: link.path,
+                params: { ...link.params, ...(sample ? { preview: '1' } : {}) },
+              });
+            else router.push({ pathname: link.path, params: sample ? { preview: '1' } : {} });
+          }}
           style={{
             flex: 1,
             alignItems: 'center',
@@ -55,32 +72,14 @@ export function NewsNavigation() {
   );
 }
 export function ArticleCover({ article, height = 116 }: { article: NewsArticle; height?: number }) {
-  const { colors } = useApp();
-  if (article.id === 'daily-waste')
-    return (
-      <Artwork
-        source={homeAssets.imgNhTinTc}
-        width={380}
-        height={height}
-        fit="cover"
-        style={{ width: '100%' }}
-      />
-    );
   return (
-    <View
-      style={{
-        height,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: colors.soft,
-        gap: 5,
-      }}
-    >
-      <Icon name={article.icon} size={38} color={colors.brand} />
-      <Label size={10} color={colors.muted}>
-        Minh họa · {article.tag}
-      </Label>
-    </View>
+    <Artwork
+      source={newsCover(article)}
+      width={380}
+      height={height}
+      fit="cover"
+      style={{ width: '100%' }}
+    />
   );
 }
 export function ArticleCard({
@@ -136,7 +135,7 @@ export function ArticleCard({
                 ...current,
                 saved: current.saved.includes(article.id)
                   ? current.saved.filter((id) => id !== article.id)
-                  : [...current.saved, article.id],
+                  : [article.id, ...current.saved],
               }));
           }}
         />

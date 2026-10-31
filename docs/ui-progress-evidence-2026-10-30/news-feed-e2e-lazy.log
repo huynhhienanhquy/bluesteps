@@ -1,0 +1,63 @@
+$ playwright test "e2e/news.spec.ts" "e2e/news-feed.spec.ts"
+
+Running 9 tests using 1 worker
+
+(node:10824) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10824) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\news-feed.spec.ts:3:5 › all twelve news fixtures are reachable through pagination with local images (2.7s)
+  ok 2 e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles (2.6s)
+  ok 3 e2e\news-feed.spec.ts:74:5 › saved-design preview uses original stories and removal never changes the actual session (3.2s)
+  ok 4 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (2.4s)
+  ok 5 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (3.7s)
+  ok 6 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (2.3s)
+  ok 7 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (2.3s)
+  ok 8 e2e\news.spec.ts:134:5 › briefs mark articles read locally and green calendar opens the correct event (2.9s)
+  x  9 e2e\news.spec.ts:164:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (9.4s)
+
+
+  1) e2e\news.spec.ts:164:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 3
+
+    - Array []
+    + Array [
+    +   "/assets/assets/figma/609-5266/imgRectangle939.13a82812668ff00e41e3bf97df60259f.png",
+    + ]
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      195 |             ),
+      196 |         )
+    > 197 |         .toEqual([]);
+          |          ^
+      198 |       await page.screenshot({ path: testInfo.outputPath(`${name}-${width}.png`) });
+      199 |       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+      200 |         true,
+        at D:\BlueSteps\apps\mobile\e2e\news.spec.ts:197:10
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    e2e\news.spec.ts:164:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links 
+  8 passed (34.3s)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:e2e: `playwright test "e2e/news.spec.ts" "e2e/news-feed.spec.ts"`
+Exit status 1

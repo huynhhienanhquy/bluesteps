@@ -1,0 +1,410 @@
+const imgRectangle = "https://www.figma.com/api/mcp/asset/ecad020a-a69a-45fb-9a1b-348b1f8303d0.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/21aa652b-2473-4c77-8e99-5451b1516305.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/8055ef7e-7997-4b07-be75-e8d34a8c695f.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/83a232b8-47f5-46b6-ae03-0e4338ac6585.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/5c015a7a-03f1-4611-9777-42b776161612.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/68fabbe3-527f-411b-8513-7f0c21ae483a.svg";
+const imgGroup36750 = "https://www.figma.com/api/mcp/asset/b0960873-e746-4d1d-b250-b54923acdd28.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/9e95a453-ea1b-4fd1-bacf-cb3a7d991db2.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/d7436cb3-d4b3-4cd3-9cd9-404394678501.svg";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/946403f5-e0bf-4a2e-8caf-49ace0c0f585.svg";
+const imgEllipse3 = "https://www.figma.com/api/mcp/asset/55ff4149-437a-44a5-b3d2-17865bcfef0f.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/839dd7cb-0c04-49b6-9bf3-3af0d051ea1b.svg";
+const imgCheckContained = "https://www.figma.com/api/mcp/asset/8fbe1459-2fd4-4c6d-920b-c65502c10963.svg";
+const imgAddSquare02 = "https://www.figma.com/api/mcp/asset/75afb27a-2cf6-4d57-854b-7230a15e8b05.svg";
+const imgRectangle87 = "https://www.figma.com/api/mcp/asset/6ff2c3ee-dafa-4d01-95c1-ca028875e8ec.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/1b24250e-a159-4dfe-bbad-dce25233a73e.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/c705f81a-4f3a-48de-9547-1a72e71e5fd4.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/013f248d-6c49-44c5-a4aa-0b2824c2c2b3.svg";
+const imgGroup37108 = "https://www.figma.com/api/mcp/asset/9b64ccd3-9b84-4d53-a398-54c0a02f6211.svg";
+const imgGroup36731 = "https://www.figma.com/api/mcp/asset/970b4c12-d447-465c-a388-246583f5c091.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/71ad8f80-32c2-464d-9114-9444ee98f8f9.svg";
+
+export default function ThngKe() {
+  return (
+    <div className="bg-[#f8fbff] content-stretch flex flex-col gap-[16px] items-start overflow-clip pb-[16px] pt-[12px] px-[16px] relative rounded-[25px] size-full" data-node-id="391:25009" data-name="thống kê">
+      <div className="h-[49px] overflow-clip relative shrink-0 w-full" data-node-id="391:25010" data-name="iPhone/Status Bar">
+        <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I391:25010;150:3701" data-name="Right Side">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I391:25010;150:3702" data-name="Battery">
+            <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I391:25010;150:3703" data-name="Rectangle">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+            </div>
+            <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I391:25010;150:3704" data-name="Combined Shape">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+            </div>
+            <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I391:25010;150:3705" data-name="Rectangle">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+            </div>
+          </div>
+          <div className="absolute h-[10.965px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I391:25010;150:3706" data-name="Wifi">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+          </div>
+          <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I391:25010;150:3710" data-name="Mobile Signal">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+          </div>
+        </div>
+        <div className="absolute contents left-[12px] top-[12px]" data-node-id="I391:25010;150:3717" data-name="Left Side">
+          <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I391:25010;150:3718" data-name="Time">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="391:25011" data-name="header">
+        <div className="bg-white content-stretch drop-shadow-[0px_4px_6px_rgba(15,23,42,0.08)] flex flex-col items-center justify-center relative rounded-[20px] shrink-0 size-[40px]" data-node-id="391:25012" data-name="Frame">
+          <div className="relative shrink-0 size-[24px]" data-node-id="391:25013">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup36750} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[28px] whitespace-nowrap" data-node-id="391:25014">
+          Thống kê
+        </p>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="391:25015" data-name="content">
+        <div className="bg-white content-stretch drop-shadow-[0px_6px_9px_rgba(15,23,42,0.07)] flex flex-col gap-[12px] items-start p-[16px] relative rounded-[24px] shrink-0 w-full" data-node-id="391:25016" data-name="section-total">
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#164561] text-[16px] w-[133px]" data-node-id="391:25017">
+            Thống kê loại rác
+          </p>
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[18px] whitespace-nowrap" data-node-id="391:25018">
+            Tổng lượng rác
+          </p>
+          <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="391:25019" data-name="Frame">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 size-[220px]" data-node-id="391:25020" data-name="Frame">
+              <div className="absolute left-0 size-[220px] top-0" data-node-id="391:25021" data-name="Ellipse">
+                <div className="absolute bottom-[65.33%] left-1/2 right-[4.76%] top-0">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse} />
+                </div>
+              </div>
+              <div className="absolute left-0 size-[220px] top-0" data-node-id="391:25022" data-name="Ellipse">
+                <div className="absolute inset-[28.71%_0_13.55%_74.64%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+                </div>
+              </div>
+              <div className="absolute left-0 size-[220px] top-0" data-node-id="391:25023" data-name="Ellipse">
+                <div className="absolute bottom-0 left-1/2 right-[15.77%] top-[76.24%]">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                </div>
+              </div>
+              <div className="absolute left-0 size-[220px] top-0" data-node-id="391:25024" data-name="Ellipse">
+                <div className="absolute bottom-0 left-0 right-1/2 top-0">
+                  <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[4px] items-center justify-center leading-[normal] left-0 not-italic size-[220px] top-0 whitespace-nowrap" data-node-id="391:25025" data-name="Frame">
+                <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[#0f172a] text-[34px]" data-node-id="391:25026">
+                  30%
+                </p>
+                <p className="font-['Inter:Medium'] font-medium relative shrink-0 text-[#64748b] text-[14px]" data-node-id="391:25027">
+                  ​
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[12px] items-start min-w-px relative" data-node-id="391:25028" data-name="Frame">
+              <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="391:25029" data-name="Frame">
+                <div className="bg-[#0ea5e9] relative rounded-[4px] shrink-0 size-[16px]" data-node-id="391:25030" data-name="Frame" />
+                <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-w-px not-italic relative whitespace-nowrap" data-node-id="391:25031" data-name="Frame">
+                  <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#0f172a] text-[14px]" data-node-id="391:25032">
+                    Hữu cơ
+                  </p>
+                  <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#64748b] text-[12px]" data-node-id="391:25033">
+                    12%
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="391:25034" data-name="Frame">
+                <div className="bg-[#f97316] relative rounded-[4px] shrink-0 size-[16px]" data-node-id="391:25035" data-name="Frame" />
+                <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-w-px not-italic relative whitespace-nowrap" data-node-id="391:25036" data-name="Frame">
+                  <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#0f172a] text-[14px]" data-node-id="391:25037">
+                    Khác
+                  </p>
+                  <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#64748b] text-[12px]" data-node-id="391:25038">
+                    18%
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="391:25039" data-name="Frame">
+                <div className="bg-[#61b7e5] relative rounded-[4px] shrink-0 size-[16px]" data-node-id="391:25040" data-name="Frame" />
+                <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-w-px not-italic relative whitespace-nowrap" data-node-id="391:25041" data-name="Frame">
+                  <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#0f172a] text-[14px]" data-node-id="391:25042">
+                    Vô cơ
+                  </p>
+                  <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#64748b] text-[12px]" data-node-id="391:25043">
+                    20%
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="391:25044" data-name="Frame">
+                <div className="bg-[#0ea5e9] relative rounded-[4px] shrink-0 size-[16px]" data-node-id="391:25045" data-name="Frame" />
+                <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-w-px not-italic relative whitespace-nowrap" data-node-id="391:25046" data-name="Frame">
+                  <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#0f172a] text-[14px]" data-node-id="391:25047">
+                    Tái chế
+                  </p>
+                  <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#64748b] text-[12px]" data-node-id="391:25048">
+                    50%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#164561] text-[22px] w-[99px]" data-node-id="391:25049">
+            2,500 Kg
+          </p>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[12px] w-[92px]" data-node-id="391:25050">
+            Trong nhóm này
+          </p>
+        </div>
+        <div className="bg-white content-stretch drop-shadow-[0px_6px_9px_rgba(15,23,42,0.07)] flex flex-col gap-[12px] items-start p-[16px] relative rounded-[24px] shrink-0 w-full" data-node-id="391:25051" data-name="section-frequency">
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[18px] whitespace-nowrap" data-node-id="391:25052">
+            Tần suất phân loại
+          </p>
+          <div className="bg-[#f8fbff] content-stretch flex flex-col gap-[16px] items-start p-[16px] relative rounded-[20px] shrink-0 w-full" data-node-id="391:25053" data-name="Frame">
+            <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="391:25054" data-name="Frame">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[14px] whitespace-nowrap" data-node-id="391:25055">
+                12O lần/Tuần
+              </p>
+            </div>
+            <div className="h-[175px] relative shrink-0 w-full" data-node-id="391:25056" data-name="Frame">
+              <div className="absolute bg-[#159dda] h-[29.15px] left-[40px] top-[130.85px] w-[12px]" data-node-id="391:25057" data-name="Rectangle" />
+              <div className="absolute bg-[#f4c400] h-[36.28px] left-[58.5px] top-[123.72px] w-[12px]" data-node-id="391:25058" data-name="Rectangle" />
+              <div className="absolute bg-[#159dda] h-[42.11px] left-[77px] top-[117.89px] w-[12px]" data-node-id="391:25059" data-name="Rectangle" />
+              <div className="absolute bg-[#ff553b] h-[58.96px] left-[95.5px] top-[101.04px] w-[12px]" data-node-id="391:25060" data-name="Rectangle" />
+              <div className="absolute bg-[#159dda] h-[29.15px] left-[114px] top-[130.85px] w-[12px]" data-node-id="391:25061" data-name="Rectangle" />
+              <div className="absolute bg-[#f4c400] h-[77.1px] left-[132.5px] top-[82.9px] w-[12px]" data-node-id="391:25062" data-name="Rectangle" />
+              <div className="absolute bg-[#ff553b] h-[72.56px] left-[151px] top-[87.44px] w-[12px]" data-node-id="391:25063" data-name="Rectangle" />
+              <div className="absolute bg-[#f4c400] h-[86.81px] left-[169.5px] top-[73.19px] w-[12px]" data-node-id="391:25064" data-name="Rectangle" />
+              <div className="absolute bg-[#159dda] h-[79.69px] left-[188px] top-[80.31px] w-[12px]" data-node-id="391:25065" data-name="Rectangle" />
+              <div className="absolute bg-[#f4c400] h-[53.77px] left-[206.5px] top-[106.23px] w-[12px]" data-node-id="391:25066" data-name="Rectangle" />
+              <div className="absolute bg-[#ff553b] h-[98.48px] left-[225px] top-[61.52px] w-[12px]" data-node-id="391:25067" data-name="Rectangle" />
+              <div className="absolute bg-[#159dda] h-[107.5px] left-[243.5px] top-[52.5px] w-[12px]" data-node-id="391:25068" data-name="Rectangle" />
+              <div className="absolute bg-[#f4c400] h-[118.6px] left-[262px] top-[41.4px] w-[12px]" data-node-id="391:25069" data-name="Rectangle" />
+              <div className="absolute bg-[#ff553b] h-[125px] left-[280.5px] top-[35px] w-[12px]" data-node-id="391:25070" data-name="Rectangle" />
+              <div className="absolute bg-[#159dda] h-[139.9px] left-[299px] top-[20.1px] w-[12px]" data-node-id="391:25071" data-name="Rectangle" />
+              <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#64748b] text-[9px] top-0 w-[30px]" data-node-id="391:25072">
+                40%
+              </p>
+              <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#64748b] text-[9px] top-[35px] w-[30px]" data-node-id="391:25073">
+                30%
+              </p>
+              <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#64748b] text-[9px] top-[55px] w-[30px]" data-node-id="391:25074">
+                25%
+              </p>
+              <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#64748b] text-[9px] top-[75px] w-[30px]" data-node-id="391:25075">
+                20%
+              </p>
+              <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#64748b] text-[9px] top-[115px] w-[30px]" data-node-id="391:25076">
+                10%
+              </p>
+              <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-0 not-italic text-[#64748b] text-[9px] top-[155px] w-[30px]" data-node-id="391:25077">
+                0
+              </p>
+              <div className="absolute h-[132px] left-[36px] top-[4px] w-[279px]" data-node-id="391:25078" data-name="Vector">
+                <div className="absolute inset-[-0.48%_-0.14%_-0.55%_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgVector} />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="391:25079" data-name="Frame">
+              <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="391:25080" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[10px] whitespace-nowrap" data-node-id="391:25081">
+                  T2
+                </p>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="391:25082" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[10px] whitespace-nowrap" data-node-id="391:25083">
+                  T3
+                </p>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="391:25084" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[10px] whitespace-nowrap" data-node-id="391:25085">
+                  T4
+                </p>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="391:25086" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[10px] whitespace-nowrap" data-node-id="391:25087">
+                  T5
+                </p>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="391:25088" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[10px] whitespace-nowrap" data-node-id="391:25089">
+                  T6
+                </p>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="391:25090" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[10px] whitespace-nowrap" data-node-id="391:25091">
+                  T7
+                </p>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] items-start justify-center min-w-px relative" data-node-id="391:25092" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#64748b] text-[10px] whitespace-nowrap" data-node-id="391:25093">
+                  CN
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch drop-shadow-[0px_6px_9px_rgba(15,23,42,0.07)] flex flex-col gap-[12px] items-start p-[16px] relative rounded-[24px] shrink-0 w-full" data-node-id="391:25094" data-name="section-goals">
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[18px] whitespace-nowrap" data-node-id="391:25095">{`Mục tiêu & Thành tựu`}</p>
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="391:25096" data-name="Frame">
+            <div className="bg-[#f8fbff] content-stretch flex gap-[12px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="391:25097" data-name="Frame">
+              <div className="bg-[#0ea5e9] content-stretch flex flex-col items-center justify-center relative rounded-[20px] shrink-0 size-[40px]" data-node-id="391:25098" data-name="Frame">
+                <div className="relative shrink-0 size-[24px]" data-node-id="391:25099" data-name="check-contained">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheckContained} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="391:25100" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[14px] whitespace-nowrap" data-node-id="391:25101">
+                  Đã tái chế 50kg giấy
+                </p>
+              </div>
+            </div>
+            <div className="bg-[#f8fbff] content-stretch flex gap-[12px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="391:25102" data-name="Frame">
+              <div className="bg-[#0ea5e9] content-stretch flex flex-col items-center justify-center relative rounded-[20px] shrink-0 size-[40px]" data-node-id="391:25103" data-name="Frame">
+                <div className="relative shrink-0 size-[24px]" data-node-id="391:25104" data-name="check-contained">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheckContained} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="391:25105" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[14px] whitespace-nowrap" data-node-id="391:25106">
+                  Tham gia thử thách
+                </p>
+              </div>
+            </div>
+            <div className="bg-[#f8fbff] content-stretch flex gap-[12px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="391:25107" data-name="Frame">
+              <div className="bg-[#0ea5e9] content-stretch flex flex-col items-center justify-center relative rounded-[20px] shrink-0 size-[40px]" data-node-id="391:25108" data-name="Frame">
+                <div className="relative shrink-0 size-[24px]" data-node-id="391:25109" data-name="add-square-02">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAddSquare02} />
+                </div>
+              </div>
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="391:25110" data-name="Frame">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[14px] whitespace-nowrap" data-node-id="391:25111">
+                  Thu gom 10kg vụn
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#0ea5e9] content-stretch flex flex-col gap-[8px] items-start p-[16px] relative rounded-[16px] shrink-0 w-full" data-node-id="391:25112" data-name="Frame">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="391:25113">
+              Giảm rác thải nhựa
+            </p>
+            <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="391:25114" data-name="Frame">
+              <div className="bg-[rgba(255,255,255,0.2)] content-stretch flex flex-[1_0_0] flex-col h-[8px] items-start min-w-px relative rounded-[4px]" data-node-id="391:25115" data-name="Frame">
+                <div className="bg-white h-[8px] relative rounded-[4px] shrink-0 w-[180px]" data-node-id="391:25116" data-name="Frame" />
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="391:25117">
+                75% hoàn thành
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[12px] text-[rgba(255,255,255,0.8)] whitespace-nowrap" data-node-id="391:25118">
+              500kg
+            </p>
+          </div>
+        </div>
+        <div className="bg-white content-stretch drop-shadow-[0px_6px_9px_rgba(15,23,42,0.07)] flex flex-col gap-[12px] items-start p-[16px] relative rounded-[24px] shrink-0 w-full" data-node-id="391:25119" data-name="section-detail">
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[18px] whitespace-nowrap" data-node-id="391:25120">
+            Thống kê chi tiết
+          </p>
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#164561] text-[14px] w-[63px]" data-node-id="391:25121">
+            Phân loại
+          </p>
+          <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full" data-node-id="391:25122" data-name="Frame">
+            <div className="bg-[#f8fbff] content-stretch flex gap-[12px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="391:25123" data-name="Frame">
+              <div className="bg-[#fbc900] relative rounded-[6px] shrink-0 size-[12px]" data-node-id="391:25124" data-name="Frame" />
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-w-px not-italic relative whitespace-nowrap" data-node-id="391:25125" data-name="Frame">
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#0f172a] text-[14px]" data-node-id="391:25126">
+                  Hữu Cơ
+                </p>
+                <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#64748b] text-[12px]" data-node-id="391:25127">
+                  1,125 kg
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[12px] whitespace-pre" data-node-id="391:25128">{`45%  ·  4000%`}</p>
+            </div>
+            <div className="bg-[#f8fbff] content-stretch flex gap-[12px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="391:25129" data-name="Frame">
+              <div className="bg-[#f9373b] relative rounded-[6px] shrink-0 size-[12px]" data-node-id="391:25130" data-name="Frame" />
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-w-px not-italic relative whitespace-nowrap" data-node-id="391:25131" data-name="Frame">
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#0f172a] text-[14px]" data-node-id="391:25132">
+                  Nhựa
+                </p>
+                <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#64748b] text-[12px]" data-node-id="391:25133">
+                  325 kg
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[12px] whitespace-pre" data-node-id="391:25134">{`150kg  ·  5000%`}</p>
+            </div>
+            <div className="bg-[#f8fbff] content-stretch flex gap-[12px] items-center p-[12px] relative rounded-[16px] shrink-0 w-full" data-node-id="391:25135" data-name="Frame">
+              <div className="bg-[#7dafca] relative rounded-[6px] shrink-0 size-[12px]" data-node-id="391:25136" data-name="Frame" />
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-w-px not-italic relative whitespace-nowrap" data-node-id="391:25137" data-name="Frame">
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#0f172a] text-[14px]" data-node-id="391:25138">
+                  Tái chế
+                </p>
+                <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#64748b] text-[12px]" data-node-id="391:25139">
+                  125 kg
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#0f172a] text-[12px] whitespace-pre" data-node-id="391:25140">{`45kg  ·  1500%`}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[116px] left-0 overflow-clip top-[1610px] w-[428px]" data-node-id="391:25141" data-name="Điều hướng gốc">
+        <div className="absolute contents left-[-1.87%] right-[-1.87%] top-0" data-node-id="391:25142">
+          <div className="absolute contents inset-[33.62%_58.64%_0_-1.87%]" data-node-id="391:25143">
+            <div className="absolute bg-[#147cc1] inset-[33.62%_58.64%_0_-1.87%] rounded-bl-[25px] rounded-tr-[35px]" data-node-id="391:25144" />
+          </div>
+          <div className="absolute bg-[#147cc1] inset-[35.34%_-1.87%_0_58.64%] rounded-br-[25px] rounded-tl-[35px]" data-node-id="391:25145" />
+          <div className="absolute inset-[42.24%_38.32%_0_39.49%]" data-node-id="391:25146">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle87} />
+          </div>
+          <div className="absolute bottom-[25.86%] contents cursor-pointer left-[65.65%] right-[8.18%] top-1/2" data-node-id="391:25147">
+            <a className="absolute bottom-[25.86%] contents left-[85.28%] right-[8.18%] top-1/2" data-node-id="391:25148">
+              <div className="absolute bottom-[25.86%] left-[85.28%] right-[8.18%] top-1/2" data-node-id="391:25149" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+            </a>
+            <a className="absolute bottom-[25.86%] contents left-[65.65%] right-[27.8%] top-1/2" data-node-id="391:25152">
+              <div className="absolute bottom-[25.86%] left-[65.65%] right-[27.8%] top-1/2" data-node-id="391:25153" data-name="Group">
+                <div className="absolute inset-[-2.68%]">
+                  <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="absolute contents inset-[43.97%_64.95%_15.52%_2.8%]" data-node-id="391:25156">
+            <a className="absolute block bottom-[23.67%] cursor-pointer left-[28.5%] right-[64.95%] top-1/2" data-node-id="391:25157" data-name="Group">
+              <div className="absolute inset-[-2.46%_-2.68%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+              </div>
+            </a>
+            <div className="absolute h-[47px] left-[2.8%] right-[76.87%] top-[51px]" data-node-id="391:25160">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup37108} />
+            </div>
+          </div>
+          <a className="absolute block cursor-pointer inset-[0_41.12%_35.34%_41.36%]" data-node-id="391:25163">
+            <div className="absolute inset-[0_-5.33%_-10.67%_-5.33%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup36731} />
+            </div>
+          </a>
+          <div className="absolute inset-[94.83%_31.31%_5.17%_35.75%]" data-node-id="391:25166">
+            <div className="absolute inset-[-2.56px_0_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgLine1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <a className="block cursor-pointer h-[54px] relative shrink-0 w-[66px]" data-node-id="491:4769" data-name="Prototype / Nav / Trang chủ" />
+      <a className="block cursor-pointer h-[54px] relative shrink-0 w-[66px]" data-node-id="491:4771" data-name="Prototype / Nav / Thu gom" />
+      <a className="block cursor-pointer h-[70px] relative shrink-0 w-[68px]" data-node-id="491:4773" data-name="Prototype / Nav / Quét rác" />
+      <a className="block cursor-pointer h-[54px] relative shrink-0 w-[66px]" data-node-id="491:4775" data-name="Prototype / Nav / Đổi quà" />
+      <a className="block cursor-pointer h-[54px] relative shrink-0 w-[66px]" data-node-id="491:4777" data-name="Prototype / Nav / Cá nhân" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

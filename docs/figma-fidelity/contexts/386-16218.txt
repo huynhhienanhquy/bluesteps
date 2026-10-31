@@ -1,0 +1,120 @@
+const imgRectangle207 = "https://www.figma.com/api/mcp/asset/853604de-a316-4288-86f3-4fb25fd924a3.png";
+const imgEllipse4 = "https://www.figma.com/api/mcp/asset/6cba902a-008c-4232-a214-f6bb63d958f6.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/16dbe91c-c816-457d-9d88-cfb869f361e8.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/50aa9837-ed7d-4065-a35f-c36e4af6a831.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/1d804c83-7045-4dc5-8607-6c82a5a7e943.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/1031f3f7-b459-4911-976b-530a61d0cb1d.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/5944d309-475b-42ed-b8e7-09704a03118d.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/781cd1eb-ef6a-4287-b0d1-48970af034b4.svg";
+const imgLine = "https://www.figma.com/api/mcp/asset/eb43fb6c-2b2d-47ca-b5da-138889fd09d0.svg";
+const imgVuesaxLinearArrowLeft = "https://www.figma.com/api/mcp/asset/d1ca3258-b251-410f-9176-27687ff2d92a.svg";
+const imgGroup36732 = "https://www.figma.com/api/mcp/asset/738124ee-fc54-4248-8b4c-8753d09e2ee2.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/96a60a3b-524d-4ea9-8d51-5c425e4165c9.svg";
+const imgVector1 = "https://www.figma.com/api/mcp/asset/6afae1eb-5406-4833-8f79-82499839d059.svg";
+const imgEllipse5 = "https://www.figma.com/api/mcp/asset/cb272906-023e-4673-a75b-468ea65b60b2.svg";
+const imgEllipse6 = "https://www.figma.com/api/mcp/asset/b5b89b64-ab15-4428-a6c9-840597ffced1.svg";
+const imgGroup36931 = "https://www.figma.com/api/mcp/asset/e2723d56-ba21-4100-89e0-10752c8830a5.svg";
+const imgCheckboxOn = "https://www.figma.com/api/mcp/asset/5d7c633e-608b-4bbc-a98a-faee6a7f7303.svg";
+
+export default function KquScan1() {
+  return (
+    <div className="bg-[#147cc1] overflow-clip relative rounded-[25px] size-full" data-node-id="386:16218" data-name="Kqu_Scan1">
+      <div className="-translate-x-1/2 absolute h-[827px] left-1/2 top-[59px] w-[428px]" data-node-id="386:16219">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle207} />
+      </div>
+      <div className="absolute contents inset-[0.22%_-0.47%_94.49%_0.47%]" data-node-id="386:16220">
+        <div className="absolute inset-[0.22%_-0.47%_94.49%_0.47%] overflow-clip" data-node-id="386:16221" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:16221;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:16221;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:16221;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:16221;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:16221;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:16221;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:16221;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:16221;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:16221;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-0 left-[143px] top-[918px] w-[141px]" data-node-id="386:16222" data-name="line">
+        <div className="absolute inset-[-2.56px_0_0_0]">
+          <img alt="" className="block max-w-none size-full" src={imgLine} />
+        </div>
+      </div>
+      <div className="absolute left-[24px] size-[26px] top-[85px]" data-node-id="386:16224" data-name="Line arrow-left">
+        <div className="absolute contents inset-0" data-node-id="I386:16224;8011:21790" data-name="vuesax/linear/arrow-left">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVuesaxLinearArrowLeft} />
+        </div>
+      </div>
+      <div className="absolute h-[19px] left-[399px] top-[90px] w-[5px]" data-node-id="386:16225">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup36732} />
+      </div>
+      <div className="absolute inset-[9.18%_77.1%_88.23%_17.29%]" data-node-id="386:16229" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector} />
+      </div>
+      <div className="absolute h-[55px] left-[50px] top-[777px] w-[56px]" data-node-id="386:16230">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="55" src={imgEllipse4} width="56" />
+      </div>
+      <div className="absolute inset-[84.67%_12.85%_11.02%_77.8%]" data-node-id="386:16231" data-name="Vector">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector1} />
+      </div>
+      <div className="-translate-x-1/2 absolute left-[calc(50%-1.5px)] size-[85px] top-[762px]" data-node-id="386:16232">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse5} />
+      </div>
+      <div className="absolute left-[175px] size-[75px] top-[767px]" data-node-id="386:16233">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse6} />
+      </div>
+      <div className="absolute contents left-0 top-[162px]" data-node-id="386:16234">
+        <div className="absolute bg-[rgba(255,255,255,0)] h-[477px] left-0 rounded-[10px] top-[162px] w-[428px]" data-node-id="386:16235" />
+      </div>
+      <div className="absolute contents left-[-1px] top-[59px]" data-node-id="386:16236">
+        <div className="absolute contents left-[-1px] top-[59px]" data-node-id="386:16237">
+          <div className="absolute bg-[rgba(36,36,36,0.53)] h-[132px] left-px top-[59px] w-[427px]" data-node-id="386:16238" />
+          <div className="absolute bg-[rgba(36,36,36,0.53)] h-[695px] left-[-1px] top-[191px] w-[107px]" data-node-id="386:16239" />
+          <div className="absolute bg-[rgba(36,36,36,0.53)] h-[119px] left-[106px] top-[767px] w-[215px]" data-node-id="386:16240" />
+          <div className="absolute bg-[rgba(36,36,36,0.53)] h-[695px] left-[321px] top-[191px] w-[107px]" data-node-id="386:16241" />
+        </div>
+        <div className="absolute h-[576px] left-[105px] top-[190px] w-[216px]" data-node-id="386:16242">
+          <div className="absolute inset-[0_-0.51%_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup36931} />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[356px]" data-node-id="386:16247">
+        <div className="-translate-x-1/2 absolute bg-[#edf7fc] h-[147px] left-[calc(50%+0.5px)] rounded-[25px] top-[356px] w-[245px]" data-node-id="386:16248" />
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[calc(50%-75px)] not-italic text-[18px] text-black top-[456px] whitespace-nowrap" data-node-id="386:16249">
+          Quét thành công!
+        </p>
+        <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[374px]" data-node-id="386:16250">
+          <div className="absolute bg-[rgba(255,255,255,0.41)] h-[66px] left-[170px] rounded-[20px] top-[374px] w-[89px]" data-node-id="386:16251" />
+          <div className="absolute inset-[41.5%_45.43%_53.75%_45.66%]" data-node-id="386:16252" data-name="Checkbox / on">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheckboxOn} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

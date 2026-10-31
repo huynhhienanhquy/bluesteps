@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-30",
+  "fileKey": "7GCLABwia0mauoszRi0Vtt",
+  "pageId": "386:7053",
+  "frames": [
+    {
+      "nodeId": "534:49416",
+      "source": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "context": "contexts/534-49416.txt",
+      "route": "/event-ticket?id=green-class&preview=1",
+      "reference": "reference/534-49416.png",
+      "rendered": "rendered/event-ticket-428.png",
+      "qrPattern": {
+        "nodeId": "534:49455",
+        "asset": "apps/mobile/assets/figma/534-49416/imgQrPattern.png",
+        "width": 196,
+        "height": 196,
+        "description": "Original Figma motif exported as its own asset; contains no live ticket payload. It is not a screen screenshot."
+      }
+    },
+    {
+      "nodeId": "534:49166",
+      "source": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "context": "contexts/534-49166.txt",
+      "route": "/calendar?preview=1",
+      "reference": "reference/534-49166-context.png",
+      "rendered": "rendered/event-calendar-428.png",
+      "referenceStatus": "Context screenshot available at reduced resolution; attempt to retrieve full-resolution screenshot was denied in this session. Source JSX and original assets were already retrieved before this denial."
+    }
+  ],
+  "assetMap": "event-design-asset-map.json",
+  "sharedLayout": "CollectionPage with optional title/home-bar colors, original Inter fonts and intrinsic-size back SVG",
+  "intentionalDemoDifferences": [
+    "Ticket label and code say DEMO; organizer details do not expose a real contact number",
+    "Normal ticket links require local registration; preview links render synthetic data without creating a registration",
+    "Check-in is local and cannot prove real attendance",
+    "Calendar history says check-in sample rather than completed real participation",
+    "Normal calendar markers follow actual fixture data; preview markers at 18, 22 and 25 October match the source composition"
+  ],
+  "saveImplementation": {
+    "web": "html2canvas-pro on a cloned ticket, after fonts/images are ready; removes the display shadow in the clone and downloads PNG without changing the live view",
+    "native": "captureRef tmpfile, add-only media permission, Asset.create, finally releaseCapture",
+    "fallback": "User may explicitly open the OS share chooser after save failure/permission denial; opening it does not claim the file was saved",
+    "permission": "Requested only when the save button is pressed; no gallery reads or audio/video permissions",
+    "physicalDeviceValidation": false
+  },
+  "sourceAccessErrors": [
+    { "tool": "get_screenshot", "nodeId": "534:49166", "debugId": "56e4310b-e952-4e64-b410-b6063b6abbf2", "message": "Missing edit access" },
+    { "tool": "use_figma", "debugId": "7ef32852-685c-43f8-b557-32671b233d91", "message": "Missing edit access" }
+  ]
+}

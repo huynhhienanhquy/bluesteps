@@ -1,0 +1,304 @@
+{
+  "checkedAt": "2026-10-30T21:35:55.0955426+07:00",
+  "sourceCommit": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "branch": "codex/initial-upload",
+  "uncommittedChanges": true,
+  "goalStatus": "active",
+  "goalComplete": false,
+  "completedDemoScopes": [
+    "Tin tức — tìm kiếm và lọc",
+    "Tin tức — bài viết đã lưu"
+  ],
+  "checks": {
+    "web": {
+      "passed": true,
+      "log": "news-feed-build.log"
+    },
+    "e2eFocused": {
+      "note": "Full suite includes final active-topic pill assertion",
+      "passed": 9,
+      "log": "news-feed-e2e-focused.log",
+      "total": 9,
+      "duration": "46.4s"
+    },
+    "scopeFormat": {
+      "passed": true,
+      "files": 13
+    },
+    "e2eFull": {
+      "total": 55,
+      "passed": 55,
+      "browser": "Installed Google Chrome",
+      "usesFinalWebExport": true,
+      "duration": "3.7m",
+      "log": "news-feed-e2e-full.log"
+    },
+    "typecheck": {
+      "passed": true,
+      "log": "news-feed-typecheck.log"
+    },
+    "capture": {
+      "screenshots": 4,
+      "manuallyViewed": 4,
+      "overflow": 0,
+      "unloaded": 0,
+      "report": "docs/figma-fidelity/rendered/capture-report-news-.json",
+      "errors": 0
+    },
+    "scopeLint": {
+      "warnings": 0,
+      "log": "news-feed-lint.log",
+      "passed": true,
+      "errors": 0,
+      "files": 13
+    },
+    "native": {
+      "physicalDeviceQa": false,
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "passed": true,
+      "log": "news-feed-native.log"
+    },
+    "assets": {
+      "maxDifference": 0.02924999999999045,
+      "fullFrameFidelityProven": false,
+      "total": 58,
+      "passed": 58,
+      "matchingMd5": 58,
+      "toleranceCssPx": 0.1,
+      "report": "docs/figma-fidelity/news-feed-asset-audit.json"
+    },
+    "unit": {
+      "suites": 16,
+      "durationSeconds": 17.829,
+      "passed": 42,
+      "log": "news-feed-unit.log",
+      "total": 42
+    }
+  },
+  "testCoverage": [
+    "Twelve unique fixture IDs reachable across three pages",
+    "Search/topic aliases/sort/filter recovery",
+    "Save/removal confirmation/cancel and activity-news state isolation",
+    "Preview edits isolated from provider",
+    "Original images load, including below-fold lazy related-article images",
+    "Home opens matching article; topics/discussion/briefs/calendar continue to work"
+  ],
+  "earlierFailures": {
+    "fix": "Wait for image readiness; scroll to pending lazy images, validate, then reset ancestor scroll positions before capture. Original assertions remain.",
+    "cause": "Initial image assertions preceded decode; a related article photo used lazy loading below the fold",
+    "logs": [
+      "news-feed-e2e-first.log",
+      "news-feed-e2e-lazy.log"
+    ]
+  },
+  "coverage": {
+    "frames": 175,
+    "liveReinventoryThisTurn": false,
+    "fullFidelityProven": false,
+    "mapped": 77,
+    "remaining": 98
+  },
+  "fixtureArticles": 12,
+  "sourceMap": "docs/figma-fidelity/news-feed-source-map.json",
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 20,
+    "Đang trong tiến trình": 17
+  },
+  "functionStatuses": [
+    {
+      "function": "Tin tức — tìm kiếm và lọc",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — trang chính và chi tiết bài đọc",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "limits": [
+    "News landing/hero and article detail variants remain in progress",
+    "Discussion/topics/calendar/briefs fidelity remain in progress",
+    "Collection Plus glyph/9px frame height still pending",
+    "Physical device QA remains open",
+    "Fresh Figma access denied; cached full-size screenshots/context used",
+    "Nonzero full-frame pixel differences; no percentage-similarity claim"
+  ],
+  "sourceHashes": {
+    "apps/mobile/src/features/content/NewsDesignParts.tsx": "5cedf066245c59a68c1c892c435f74969a1d61a6e0bb9508ee5ba1d3013258ff",
+    "apps/mobile/src/features/content/NewsFeedScreen.tsx": "7a4bc1ec2c5c15b4cd49543fc8f99ba54c8e01e8622e13611e283749708f7289",
+    "apps/mobile/src/features/content/news-design-data.ts": "525107f8e3bc47daf3cbdf838a70f96b9111e3e20f22f9f626b6146f942208ab",
+    "apps/mobile/src/features/content/NewsScreens.tsx": "a5a6551bed2a6ffb74f94affb42f49547617a4ff98cca0ee33f01ee684c9101f",
+    "apps/mobile/src/features/content/NewsParts.tsx": "0588d9223c56f35bdd234006e318880fd48011cd66f77ddbc9094a80586363e8",
+    "apps/mobile/src/features/content/NewsScreens.test.tsx": "b75bdbc3805ec598fdcc869dcbe1be13ee23d1c3a0c875cfc6d95066944f8a1f",
+    "apps/mobile/src/services/news.ts": "c720acbb80a8441e5766c371a06d0986971fe96b8b63063d4b03689bbddf63be",
+    "apps/mobile/src/services/__tests__/news.test.ts": "2419e173745153501a82509ed644786c881e6195abe18fb7bf7b9d3f05e5df02",
+    "apps/mobile/src/services/fixtures.ts": "38b358833c3f244806932f7d48181d745e2d6dadbf03d63d2f764c8b771be054",
+    "apps/mobile/scripts/fidelity-targets.cjs": "d48ea0090c3ac8f0134c9127ff618821849ab55795013410b73c3148bba4bea7",
+    "apps/mobile/scripts/audit-news-feed-assets.cjs": "314e277a496ecb8e914618477ec78f1da49b358a3593bc00643b2ddf75c59379",
+    "apps/mobile/e2e/news.spec.ts": "65d7a557d4db6c7d8aa9a77f44fea490dee41633fa23cf57f6ba65a90d8824d8",
+    "apps/mobile/e2e/news-feed.spec.ts": "75b89ff302d5b8a0d367982da44838b62564f0b553939def02652d89ffcfad6e"
+  }
+}

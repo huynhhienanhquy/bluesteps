@@ -1,0 +1,15 @@
+
+Running 6 tests using 1 worker
+
+(node:2912) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2912) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (3.1s)
+  ok 2 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (5.4s)
+  ok 3 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (6.4s)
+  ok 4 e2e\frontend.spec.ts:85:5 › theme toggles and the query error/retry state is accessible (4.3s)
+  ok 5 e2e\frontend.spec.ts:98:5 › desktop preview and direct detail links render without overflow (25.5s)
+  ok 6 e2e\frontend.spec.ts:136:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (11.2s)
+
+  6 passed (59.0s)

@@ -14,16 +14,19 @@ export function Artwork({
   height = width,
   style,
   fit = 'contain',
+  testID,
 }: {
   source: ComponentProps<typeof Image>['source'];
   width: number;
   height?: number;
   style?: ComponentProps<typeof Image>['style'];
   fit?: 'cover' | 'contain' | 'fill';
+  testID?: string;
 }) {
   return (
     <Image
       source={source}
+      testID={testID}
       style={[{ width, height }, style]}
       contentFit={fit}
       transition={0}

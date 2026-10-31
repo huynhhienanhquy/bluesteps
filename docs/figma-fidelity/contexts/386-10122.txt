@@ -1,0 +1,49 @@
+const imgImage26 = "https://www.figma.com/api/mcp/asset/1b01ab12-90f5-4c4e-8856-d54c6d9aeee4.png";
+const imgEllipse67 = "https://www.figma.com/api/mcp/asset/57882c2e-ef8c-4291-b740-60b41f36a6d7.svg";
+const imgEllipse80 = "https://www.figma.com/api/mcp/asset/679ebc77-e6a2-4748-a6ef-e0791906d8ce.svg";
+const imgEllipse81 = "https://www.figma.com/api/mcp/asset/61cfef95-faaf-4592-9f23-b2acf0476ed5.svg";
+
+export default function YeuThich() {
+  return (
+    <div className="bg-[#f8f2f2] overflow-clip relative rounded-[40px] size-full" data-node-id="386:10122" data-name="yêu thích">
+      <div className="absolute contents left-[56px] top-[31px]" data-node-id="386:10123">
+        <div className="absolute contents left-[56px] top-[31px]" data-node-id="386:10124">
+          <div className="absolute left-[56px] size-[32px] top-[31px]" data-node-id="386:10125">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse67} />
+          </div>
+          <div className="absolute left-[63px] size-[18px] top-[38px]" data-node-id="386:10126" data-name="image 26">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage26} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[95px] not-italic text-[18px] text-black top-[34px] whitespace-nowrap" data-node-id="386:10127">
+          Đã Thêm Vào Yêu Thích
+        </p>
+      </div>
+      <div className="absolute left-[250px] size-[170px] top-[-38px]" data-node-id="386:10128">
+        <div className="absolute inset-[-88.24%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse80} />
+        </div>
+      </div>
+      <div className="absolute left-[-29px] size-[170px] top-[-38px]" data-node-id="386:10129">
+        <div className="absolute inset-[-88.24%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse81} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[54px] left-1/2 top-[calc(50%+24px)] w-[237px]" data-node-id="386:10130">
+        <div className="absolute bg-[#075a9c] inset-0 rounded-[20px]" data-node-id="I386:10130;2291:574" />
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold inset-[29.63%_11.39%_29.63%_10.97%] leading-[normal] not-italic text-[18px] text-white whitespace-nowrap" data-node-id="I386:10130;2291:575">
+          Đi đến mục yêu thích
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

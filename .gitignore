@@ -3,12 +3,14 @@ node_modules/
 .expo/
 dist/
 dist-native/
+.native-qa/
 coverage/
 .env
 .env.*
 !.env.example
 *.tsbuildinfo
 test-results/
+test-results-*/
 
 # Local download and verbose dependency diagnostics; retain project QA evidence.
 docs/figma-fidelity/inter-3.19.zip

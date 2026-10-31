@@ -1,0 +1,28 @@
+ERROR: null root node returned by UiTestAutomationBridge.
+cat: /sdcard/bluesteps-ui-1.xml: No such file or directory
+Android QA: garden copy uses native paragraph breaks at font 1.0
+Android QA: garden copy uses native paragraph breaks at font 1.3
+{
+  "checkedAt": "2026-10-31T04:00:57.224Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "garden copy uses native paragraph breaks at font 1.0",
+      "passed": true
+    },
+    {
+      "name": "garden copy uses native paragraph breaks at font 1.3",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "qa-event-copy-font100",
+    "qa-event-copy-related-font100",
+    "qa-event-copy-font130",
+    "qa-event-copy-related-font130"
+  ],
+  "environmentNotes": [],
+  "limitations": "Android emulator viewport and behavior QA only; no iOS, physical device, backend or full-frame fidelity acceptance"
+}

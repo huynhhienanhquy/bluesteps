@@ -3,51 +3,26 @@
   "scope": "backuped 386:7053, top-level FRAME nodes only",
   "liveTopLevelNodes": 186,
   "liveFrames": 175,
-  "oldSnapshotFrames": 169,
-  "mappedFrames": 69,
-  "remainingFrames": 106,
-  "newFrames": [
-    {
-      "nodeId": "609:5165",
-      "name": "Tin tức · Tìm kiếm và lọc"
-    },
-    {
-      "nodeId": "609:5266",
-      "name": "Tin tức · Bài viết đã lưu"
-    },
-    {
-      "nodeId": "609:5361",
-      "name": "Tin tức · Thảo luận bài viết"
-    },
-    {
-      "nodeId": "612:5286",
-      "name": "Tin tức · Khám phá chủ đề"
-    },
-    {
-      "nodeId": "612:5362",
-      "name": "Tin tức · Lịch sự kiện xanh"
-    },
-    {
-      "nodeId": "612:5441",
-      "name": "Tin tức · Bản tin nhanh"
-    }
-  ],
+  "oldSnapshotFrames": 175,
+  "mappedFrames": 84,
+  "remainingFrames": 91,
+  "newFrames": [],
   "missingMappedSources": [],
   "historicalEvidence": {
-    "withContext": 65,
-    "withReference": 69,
-    "withRendered": 69
+    "withContext": 89,
+    "withReference": 82,
+    "withRendered": 84
   },
   "groups": {
     "Hoạt động đã lưu & nhắc lịch": {
       "total": 5,
-      "mapped": 0,
-      "remaining": 5
+      "mapped": 2,
+      "remaining": 3
     },
     "Hoạt động & tham gia": {
       "total": 13,
-      "mapped": 0,
-      "remaining": 13
+      "mapped": 4,
+      "remaining": 9
     },
     "Hành trình & bàn giao": {
       "total": 9,
@@ -106,8 +81,8 @@
     },
     "Tin tức": {
       "total": 18,
-      "mapped": 0,
-      "remaining": 18
+      "mapped": 9,
+      "remaining": 9
     },
     "Sổ tay & kiến thức rác": {
       "total": 21,
@@ -146,78 +121,78 @@
       "name": "Cài đặt nhắc lịch hoạt động đã lưu",
       "group": "Hoạt động đã lưu & nhắc lịch",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
+      "route": "/event-reminders?preview=1",
+      "source": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
       "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "534:49845",
       "name": "Quản lý bộ sưu tập yêu thích",
       "group": "Hoạt động đã lưu & nhắc lịch",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
+      "route": "/event-collections?preview=1",
+      "source": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
       "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "534:49760",
       "name": "Tổng kết sau hoạt động",
       "group": "Hoạt động & tham gia",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "route": "/event-summary?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventSummaryScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "534:49416",
       "name": "Vé tham gia & check-in",
       "group": "Hoạt động & tham gia",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "route": "/event-ticket?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "534:49326",
       "name": "Đăng ký tham gia hoạt động",
       "group": "Hoạt động & tham gia",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "route": "/registration?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventParticipationScreens.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "534:49166",
       "name": "Lịch hoạt động môi trường",
       "group": "Hoạt động & tham gia",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
+      "route": "/calendar?preview=1",
+      "source": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
       "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "534:49034",
@@ -228,7 +203,7 @@
       "source": null,
       "sourceExists": false,
       "contextExists": true,
-      "referenceExists": false,
+      "referenceExists": true,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
     },
@@ -822,26 +797,26 @@
       "name": "tin tức mới nhất ",
       "group": "Tin tức",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "route": "/articles?view=latest&preview=1",
+      "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "386:9901",
       "name": "sự kiện sắp tới",
       "group": "Tin tức",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "route": "/articles?view=events&preview=1",
+      "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "386:10026",
@@ -942,7 +917,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -955,7 +930,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -968,7 +943,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -981,7 +956,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -1800,7 +1775,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -1813,7 +1788,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -1826,7 +1801,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -1839,7 +1814,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -1852,7 +1827,7 @@
       "route": null,
       "source": null,
       "sourceExists": false,
-      "contextExists": false,
+      "contextExists": true,
       "referenceExists": false,
       "renderedExists": false,
       "status": "no-frame-specific-mapping"
@@ -2109,13 +2084,13 @@
       "name": "tin tức",
       "group": "Tin tức",
       "newSinceSnapshot": false,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "route": "/articles?preview=1",
+      "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "391:25009",
@@ -2342,79 +2317,79 @@
       "nodeId": "609:5165",
       "name": "Tin tức · Tìm kiếm và lọc",
       "group": "Tin tức",
-      "newSinceSnapshot": true,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "newSinceSnapshot": false,
+      "route": "/articles?view=search&preview=1",
+      "source": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "609:5266",
       "name": "Tin tức · Bài viết đã lưu",
       "group": "Tin tức",
-      "newSinceSnapshot": true,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "newSinceSnapshot": false,
+      "route": "/articles/saved?preview=1",
+      "source": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "609:5361",
       "name": "Tin tức · Thảo luận bài viết",
       "group": "Tin tức",
-      "newSinceSnapshot": true,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "newSinceSnapshot": false,
+      "route": "/articles/discussion?id=daily-waste&preview=1",
+      "source": "apps/mobile/src/features/content/NewsDiscussionView.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "612:5286",
       "name": "Tin tức · Khám phá chủ đề",
       "group": "Tin tức",
-      "newSinceSnapshot": true,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "newSinceSnapshot": false,
+      "route": "/articles/topics?preview=1",
+      "source": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "612:5362",
       "name": "Tin tức · Lịch sự kiện xanh",
       "group": "Tin tức",
-      "newSinceSnapshot": true,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "newSinceSnapshot": false,
+      "route": "/articles/calendar?preview=1",
+      "source": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     },
     {
       "nodeId": "612:5441",
       "name": "Tin tức · Bản tin nhanh",
       "group": "Tin tức",
-      "newSinceSnapshot": true,
-      "route": null,
-      "source": null,
-      "sourceExists": false,
-      "contextExists": false,
-      "referenceExists": false,
-      "renderedExists": false,
-      "status": "no-frame-specific-mapping"
+      "newSinceSnapshot": false,
+      "route": "/articles/briefs?preview=1",
+      "source": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "sourceExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
     }
   ]
 }

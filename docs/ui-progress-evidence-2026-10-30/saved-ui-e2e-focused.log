@@ -1,0 +1,20 @@
+$ playwright test "e2e/events.spec.ts" "e2e/saved-events.spec.ts"
+
+Running 10 tests using 1 worker
+
+(node:2148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\events.spec.ts:14:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local (9.1s)
+  ok  2 e2e\events.spec.ts:77:5 › preview feedback does not create a ticket and the role picker preserves participation choices (5.8s)
+  ok  3 e2e\events.spec.ts:104:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation (4.8s)
+  ok  4 e2e\events.spec.ts:156:5 › ticket preview downloads a PNG and opens only local contact information without creating a registration (4.2s)
+  ok  5 e2e\events.spec.ts:186:5 › calendar selects full dates, switches months and shows the empty state (2.5s)
+  ok  6 e2e\events.spec.ts:211:5 › event screens render at 390 and 428 px with local assets and valid empty deep links (24.9s)
+  ok  7 e2e\saved-events.spec.ts:3:5 › collection move, rename and delete preserve saved activities and allow cancellation (5.4s)
+  ok  8 e2e\saved-events.spec.ts:32:5 › collections pass only the selected saved activities into an unsaved reminder draft (3.4s)
+  ok  9 e2e\saved-events.spec.ts:52:5 › reminder channels, sound, custom timing and quiet hours save only when valid (4.2s)
+  ok 10 e2e\saved-events.spec.ts:107:5 › Figma previews are interactive without changing the real saved list or reminder settings (3.1s)
+
+  10 passed (1.2m)

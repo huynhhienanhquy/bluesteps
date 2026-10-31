@@ -1,0 +1,305 @@
+const imgPlus = "https://www.figma.com/api/mcp/asset/533d0b2a-9f45-4f4e-85c8-e21d860f8e6c.svg";
+const imgDocument = "https://www.figma.com/api/mcp/asset/109620f8-c3ae-4433-8bc1-288226b22032.svg";
+const imgImage2 = "https://www.figma.com/api/mcp/asset/0b58e57f-4a2b-4ba1-bf9a-d568ef1f3aae.svg";
+const imgVoice = "https://www.figma.com/api/mcp/asset/7f7347c8-48cf-4016-898e-da09b0f85f65.svg";
+const imgVideo = "https://www.figma.com/api/mcp/asset/399cf164-9751-440a-afda-2ba012e46a01.svg";
+const imgIconlyRegularOutlineCall = "https://www.figma.com/api/mcp/asset/a8f2d6b6-502c-4cc7-8031-c2433d5a9bec.svg";
+const imgEllipse32 = "https://www.figma.com/api/mcp/asset/70d2950b-90b7-468c-8c40-28bcde241543.png";
+const imgEllipse33 = "https://www.figma.com/api/mcp/asset/367f80e4-2241-4338-9cfe-164deac4189f.png";
+const imgEllipse34 = "https://www.figma.com/api/mcp/asset/ccbe52ac-17c6-49e4-9de7-3d46703c2a4e.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/16e67158-914f-40d1-88b3-e2f2b6470270.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/eef945a1-3e89-430e-92bf-32732f9e7193.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/bde312fe-5d69-446e-9e7f-d63231524672.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/859fbe33-1069-4879-9c38-80fb22fbb76b.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/5221532f-cf68-4c56-add2-750049ea585b.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/f078b62c-e5ed-4999-acda-50b76b739a2e.svg";
+const imgEllipse35 = "https://www.figma.com/api/mcp/asset/3a649c63-38f4-46f2-ac88-365410943e1d.svg";
+const imgCamera = "https://www.figma.com/api/mcp/asset/7b3ead07-89f3-4774-8dd1-435fe76ab66e.svg";
+
+function IconlyRegularLightPlus({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:603" data-name="Iconly/Regular/Light/Plus">
+      <div className="absolute inset-[8.33%]" data-node-id="306:604" data-name="Plus">
+        <div className="absolute inset-[-3.75%]">
+          <img alt="" className="block max-w-none size-full" src={imgPlus} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IconlyRegularLightDocument({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:597" data-name="Iconly/Regular/Light/Document">
+      <div className="absolute inset-[11.46%_14.93%_11.83%_15.63%]" data-node-id="306:598" data-name="Document">
+        <div className="absolute inset-[-4.07%_-4.5%]">
+          <img alt="" className="block max-w-none size-full" src={imgDocument} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IconlyRegularLightImage3({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:592" data-name="Iconly/Regular/Light/Image 3">
+      <div className="absolute inset-[11.46%_11.64%_11.65%_11.46%]" data-node-id="306:593" data-name="Image 2">
+        <div className="absolute inset-[-4.06%]">
+          <img alt="" className="block max-w-none size-full" src={imgImage2} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IconlyRegularLightVoice({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:587" data-name="Iconly/Regular/Light/Voice">
+      <div className="absolute inset-[8.33%_16.67%]" data-node-id="306:588" data-name="Voice">
+        <div className="absolute inset-[-3.75%_-4.69%]">
+          <img alt="" className="block max-w-none size-full" src={imgVoice} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function IconlyRegularOutlineVideo({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:571" data-name="Iconly/Regular/Outline/Video">
+      <div className="absolute inset-[20.83%_4.86%_14.58%_8.33%]" data-node-id="306:572" data-name="Video">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVideo} />
+      </div>
+    </div>
+  );
+}
+
+function IconlyRegularOutlineCall({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[24px]"} data-node-id="306:567" data-name="Iconly/Regular/Outline/Call">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconlyRegularOutlineCall} />
+    </div>
+  );
+}
+
+export default function Component71ChatDangSonTin() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[25px] size-full" data-node-id="772:6456" data-name="71. Chat / Đang soạn tin">
+      <div className="absolute contents inset-[1.19%_0.47%_93.52%_-0.47%]" data-node-id="772:6457">
+        <div className="absolute inset-[1.19%_0.47%_93.52%_-0.47%] overflow-clip" data-node-id="772:6458" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I772:6458;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I772:6458;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I772:6458;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I772:6458;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I772:6458;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I772:6458;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I772:6458;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I772:6458;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I772:6458;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute left-[50px] size-[51px] top-[55px]" data-node-id="772:6459">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="51" src={imgEllipse32} width="51" />
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[180.5px] not-italic text-[14px] text-black text-center top-[60px] whitespace-nowrap" data-node-id="772:6460">
+        Nguyễn Thị Linh Chi
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[213.5px] not-italic text-[14px] text-black text-center top-[281px] whitespace-nowrap" data-node-id="772:6461">
+        Nguyễn Thị Linh Chi
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[153px] not-italic text-[14px] text-black text-center top-[87px] whitespace-nowrap" data-node-id="772:6462">
+        8 phút trước
+      </p>
+      <CodeConnectSnippet data-node-id="772:6463" data-name="chevron_backward">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <IconlyRegularOutlineCall className="absolute inset-[7.45%_14.95%_89.96%_79.44%]" />
+      <IconlyRegularOutlineVideo className="absolute inset-[7.45%_6.78%_89.96%_87.62%]" />
+      <div className="absolute left-[147px] size-[130px] top-[141px]" data-node-id="772:6466">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="130" src={imgEllipse33} width="130" />
+      </div>
+      <div className="absolute left-[18px] size-[50px] top-[399px]" data-node-id="772:6467">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" height="50" src={imgEllipse34} width="50" />
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[212.5px] not-italic text-[14px] text-black text-center top-[362px] whitespace-nowrap" data-node-id="772:6468">
+        10 thg 10, 2026
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[206px] not-italic text-[14px] text-black text-center top-[415px] whitespace-nowrap" data-node-id="772:6469">
+        Xin chào, rất vui được làm quen
+      </p>
+      <div className="absolute bg-[#147cc1] h-[81px] left-[149px] rounded-[15px] top-[521px] w-[252px]" data-node-id="772:6470" />
+      <div className="absolute bg-[#147cc1] h-[44px] left-[229px] rounded-[15px] top-[463px] w-[170px]" data-node-id="772:6471" />
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[325.5px] not-italic text-[14px] text-center text-white top-[476px] whitespace-nowrap" data-node-id="772:6472">
+        Mình cũng rất vui
+      </p>
+      <div className="absolute bg-[#fdfdfd] border border-[#e8e8e8] border-solid h-[36px] left-[133px] rounded-[10px] top-[308px] w-[151px]" data-node-id="772:6473" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[158px] not-italic text-[#333] text-[12px] top-[318px] whitespace-nowrap" data-node-id="772:6474">
+        Xem trang cá nhân
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[72px] leading-[normal] left-[165px] not-italic text-[14px] text-white top-[526px] w-[237px]" data-node-id="772:6475">
+        Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!
+      </p>
+      <div className="absolute bg-[#f2f2f2] h-[56px] left-[23px] rounded-[15px] top-[852px] w-[381px]" data-node-id="772:6476" />
+      <div className="absolute left-[31px] size-[45px] top-[858px]" data-node-id="772:6477">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse35} />
+      </div>
+      <div className="-translate-y-1/2 absolute aspect-[24/24] left-[9.35%] right-[84.11%] top-[calc(50%+416px)]" data-node-id="772:6478" data-name="Iconly/Regular/Bulk/Camera">
+        <div className="absolute inset-[12.5%_8.33%]" data-node-id="I772:6478;29221:1260" data-name="Camera">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCamera} />
+        </div>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[118.5px] not-italic text-[#6d6d6d] text-[14px] text-center top-[872px] whitespace-nowrap" data-node-id="772:6479">
+        Nhắn tin...
+      </p>
+      <IconlyRegularLightVoice className="absolute inset-[93.74%_26.87%_3.57%_67.52%]" />
+      <IconlyRegularLightImage3 className="absolute inset-[93.74%_19.86%_3.57%_74.53%]" />
+      <IconlyRegularLightDocument className="absolute inset-[93.74%_13.32%_3.57%_81.07%]" />
+      <IconlyRegularLightPlus className="absolute inset-[93.74%_6.78%_3.57%_87.62%]" />
+      <div className="absolute bg-white h-[317px] left-0 top-[609px] w-[428px]" data-node-id="772:6484" data-name="Typing surface" />
+      <div className="absolute bg-[#f0f5fa] h-[54px] left-[22px] rounded-[17px] top-[620px] w-[382px]" data-node-id="772:6485" data-name="Composer active" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[30px] leading-[normal] left-[87px] not-italic text-[#1f2b36] text-[15px] top-[633px] w-[287px]" data-node-id="772:6486">
+        Mình thấy rất hay và hữu ích 💚
+      </p>
+      <a className="absolute bg-[#147cc1] block cursor-pointer left-[364px] rounded-[18px] size-[35px] top-[625px]" data-node-id="772:6487" data-name="Send button" />
+      <a className="[word-break:break-word] absolute block cursor-pointer font-['Inter:Bold'] font-bold h-[36px] leading-[0] left-[374px] not-italic text-[18px] text-white top-[632px] w-[25px]" data-node-id="772:6488">
+        <p className="leading-[normal]">➤</p>
+      </a>
+      <div className="absolute bg-[#d6dbe0] h-[242px] left-0 top-[684px] w-[428px]" data-node-id="772:6489" data-name="Keyboard" />
+      <div className="absolute bg-white h-[42px] left-[10px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6490" data-name="Key Q" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[21px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6491">
+        Q
+      </p>
+      <div className="absolute bg-white h-[42px] left-[50px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6492" data-name="Key W" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[61px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6493">
+        W
+      </p>
+      <div className="absolute bg-white h-[42px] left-[90px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6494" data-name="Key E" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[101px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6495">
+        E
+      </p>
+      <div className="absolute bg-white h-[42px] left-[130px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6496" data-name="Key R" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[141px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6497">
+        R
+      </p>
+      <div className="absolute bg-white h-[42px] left-[170px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6498" data-name="Key T" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[181px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6499">
+        T
+      </p>
+      <div className="absolute bg-white h-[42px] left-[210px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6500" data-name="Key Y" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[221px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6501">
+        Y
+      </p>
+      <div className="absolute bg-white h-[42px] left-[250px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6502" data-name="Key U" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[261px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6503">
+        U
+      </p>
+      <div className="absolute bg-white h-[42px] left-[290px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6504" data-name="Key I" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[301px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6505">
+        I
+      </p>
+      <div className="absolute bg-white h-[42px] left-[330px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6506" data-name="Key O" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[341px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6507">
+        O
+      </p>
+      <div className="absolute bg-white h-[42px] left-[370px] rounded-[5px] top-[704px] w-[36px]" data-node-id="772:6508" data-name="Key P" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[381px] not-italic text-[#1f2b36] text-[14px] top-[713px] w-[20px]" data-node-id="772:6509">
+        P
+      </p>
+      <div className="absolute bg-white h-[42px] left-[21px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6510" data-name="Key A" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[32px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6511">
+        A
+      </p>
+      <div className="absolute bg-white h-[42px] left-[63px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6512" data-name="Key S" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[74px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6513">
+        S
+      </p>
+      <div className="absolute bg-white h-[42px] left-[105px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6514" data-name="Key D" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[116px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6515">
+        D
+      </p>
+      <div className="absolute bg-white h-[42px] left-[147px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6516" data-name="Key F" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[158px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6517">
+        F
+      </p>
+      <div className="absolute bg-white h-[42px] left-[189px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6518" data-name="Key G" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[200px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6519">
+        G
+      </p>
+      <div className="absolute bg-white h-[42px] left-[231px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6520" data-name="Key H" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[242px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6521">
+        H
+      </p>
+      <div className="absolute bg-white h-[42px] left-[273px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6522" data-name="Key J" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[284px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6523">
+        J
+      </p>
+      <div className="absolute bg-white h-[42px] left-[315px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6524" data-name="Key K" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[326px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6525">
+        K
+      </p>
+      <div className="absolute bg-white h-[42px] left-[357px] rounded-[5px] top-[755px] w-[38px]" data-node-id="772:6526" data-name="Key L" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[368px] not-italic text-[#1f2b36] text-[14px] top-[764px] w-[20px]" data-node-id="772:6527">
+        L
+      </p>
+      <div className="absolute bg-white h-[42px] left-[60px] rounded-[5px] top-[806px] w-[43px]" data-node-id="772:6528" data-name="Key Z" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[71px] not-italic text-[#1f2b36] text-[14px] top-[815px] w-[20px]" data-node-id="772:6529">
+        Z
+      </p>
+      <div className="absolute bg-white h-[42px] left-[107px] rounded-[5px] top-[806px] w-[43px]" data-node-id="772:6530" data-name="Key X" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[118px] not-italic text-[#1f2b36] text-[14px] top-[815px] w-[20px]" data-node-id="772:6531">
+        X
+      </p>
+      <div className="absolute bg-white h-[42px] left-[154px] rounded-[5px] top-[806px] w-[43px]" data-node-id="772:6532" data-name="Key C" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[165px] not-italic text-[#1f2b36] text-[14px] top-[815px] w-[20px]" data-node-id="772:6533">
+        C
+      </p>
+      <div className="absolute bg-white h-[42px] left-[201px] rounded-[5px] top-[806px] w-[43px]" data-node-id="772:6534" data-name="Key V" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[212px] not-italic text-[#1f2b36] text-[14px] top-[815px] w-[20px]" data-node-id="772:6535">
+        V
+      </p>
+      <div className="absolute bg-white h-[42px] left-[248px] rounded-[5px] top-[806px] w-[43px]" data-node-id="772:6536" data-name="Key B" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[259px] not-italic text-[#1f2b36] text-[14px] top-[815px] w-[20px]" data-node-id="772:6537">
+        B
+      </p>
+      <div className="absolute bg-white h-[42px] left-[295px] rounded-[5px] top-[806px] w-[43px]" data-node-id="772:6538" data-name="Key N" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[306px] not-italic text-[#1f2b36] text-[14px] top-[815px] w-[20px]" data-node-id="772:6539">
+        N
+      </p>
+      <div className="absolute bg-white h-[42px] left-[342px] rounded-[5px] top-[806px] w-[43px]" data-node-id="772:6540" data-name="Key M" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[28px] leading-[normal] left-[353px] not-italic text-[#1f2b36] text-[14px] top-[815px] w-[20px]" data-node-id="772:6541">
+        M
+      </p>
+      <div className="absolute bg-white h-[43px] left-[94px] rounded-[5px] top-[859px] w-[215px]" data-node-id="772:6542" data-name="Space key" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[26px] leading-[normal] left-[168px] not-italic text-[#7a8791] text-[13px] top-[869px] w-[120px]" data-node-id="772:6543">
+        dấu cách
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: M3/sys/light/on-surface: #1D1B20.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

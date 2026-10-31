@@ -1,0 +1,53 @@
+$ node scripts/check-android-ui.cjs
+Android QA: event discovery searches locations, resets filters and toggles saved state
+Android QA: article expands and collapses through native accessibility
+Android QA: article saves, likes and opens the matching discussion
+AssertionError [ERR_ASSERTION]: Discussion should belong to the opened article
+    at D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:170:5
+    at check (D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:121:3)
+    at Object.<anonymous> (D:\BlueSteps\apps\mobile\scripts\check-android-ui.cjs:160:3)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '=='
+}
+{
+  "checkedAt": "2026-10-31T02:18:08.338Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "event discovery searches locations, resets filters and toggles saved state",
+      "passed": true
+    },
+    {
+      "name": "article expands and collapses through native accessibility",
+      "passed": true
+    },
+    {
+      "name": "failure",
+      "passed": false,
+      "message": "Discussion should belong to the opened article"
+    }
+  ],
+  "screenshots": [
+    "qa-event-explore",
+    "qa-event-save-restored",
+    "qa-article-collapsed",
+    "qa-article-expanded",
+    "qa-failure"
+  ],
+  "limitations": "Android emulator smoke/keyboard/font tests only; no iOS or physical-device acceptance; screenshots may include the Expo Go developer overlay"
+}
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:android: `node scripts/check-android-ui.cjs`
+Exit status 1

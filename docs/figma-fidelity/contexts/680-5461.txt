@@ -1,0 +1,203 @@
+const imgNhBiaSKin = "https://www.figma.com/api/mcp/asset/f1e1d219-0b20-4503-83fa-adf81334f820.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/161deb84-e07a-4748-be70-00648912aeea.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/a398ba0e-3e90-4bcc-90ed-20816ca44d6f.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/73f2b3be-8948-40f7-bd41-c9d223b47d4e.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/38f42675-e050-4091-b07b-3e322546ab0b.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/96150fd8-7b2d-4bcd-9156-6f9c4c228b06.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/e4ec518b-6f7e-4f7a-bb7d-03e1d5857b0d.svg";
+const imgRectangle87 = "https://www.figma.com/api/mcp/asset/4796a67d-89f6-40e6-a9fe-0935e0b9fec5.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/4a398454-01e8-4878-b3d7-52119f15a4de.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/26f45da9-765a-44e3-bb96-9a3318ef19de.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/9adca477-2f6c-4d15-b9b1-a14ca17b859e.svg";
+const imgGroup37108 = "https://www.figma.com/api/mcp/asset/e38066d2-f079-4d08-8f79-6944cb0dcefa.svg";
+const imgGroup36731 = "https://www.figma.com/api/mcp/asset/01461dc8-07cd-4dc3-8125-e46a06273788.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/c449cd21-578d-4b99-8b43-b5ded3383481.svg";
+
+export default function Component37TinTcChiTitSKinXanh() {
+  return (
+    <div className="bg-[#f0f9ff] overflow-clip relative rounded-[18px] size-full" data-node-id="680:5461" data-name="37. Tin tức / Chi tiết sự kiện xanh">
+      <div className="absolute contents inset-[0_0_95.36%_0]" data-node-id="680:5462" data-name="time line">
+        <div className="absolute contents inset-[0_0_95.36%_0]" data-node-id="680:5463">
+          <div className="absolute inset-[0_0_95.36%_0] overflow-clip" data-node-id="680:5464" data-name="iPhone/Status Bar">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I680:5464;47:200" data-name="Right Side">
+              <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I680:5464;47:201" data-name="Battery">
+                <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I680:5464;47:202" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+                </div>
+                <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I680:5464;47:203" data-name="Combined Shape">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+                </div>
+                <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I680:5464;47:204" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+                </div>
+              </div>
+              <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I680:5464;47:205" data-name="Wifi">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+              </div>
+              <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I680:5464;47:209" data-name="Mobile Signal">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+              </div>
+            </div>
+            <div className="absolute contents left-[12px] top-[12px]" data-node-id="I680:5464;47:216" data-name="Left Side">
+              <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I680:5464;47:217" data-name="Time">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-[-0.93%] right-[-2.8%] top-[810px]" data-node-id="680:5465">
+        <div className="absolute contents inset-[91.68%_57.71%_0_-0.93%]" data-node-id="680:5466">
+          <div className="absolute bg-[#147cc1] inset-[91.68%_57.71%_0_-0.93%] rounded-bl-[25px] rounded-tr-[35px]" data-node-id="680:5467" />
+        </div>
+        <div className="absolute bg-[#147cc1] inset-[91.9%_-2.8%_0_59.58%] rounded-br-[25px] rounded-tl-[35px]" data-node-id="680:5468" />
+        <div className="absolute inset-[92.76%_37.38%_0_40.42%]" data-node-id="680:5469">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle87} />
+        </div>
+        <div className="absolute contents cursor-pointer inset-[93.74%_7.24%_3.24%_66.59%]" data-node-id="680:5470">
+          <a className="absolute contents inset-[93.74%_7.24%_3.24%_86.21%]" data-node-id="680:5471">
+            <div className="absolute inset-[93.74%_7.24%_3.24%_86.21%]" data-node-id="680:5472" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </a>
+          <a className="absolute contents inset-[93.74%_26.87%_3.24%_66.59%]" data-node-id="680:5475">
+            <div className="absolute inset-[93.74%_26.87%_3.24%_66.59%]" data-node-id="680:5476" data-name="Group">
+              <div className="absolute inset-[-2.68%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="absolute contents inset-[92.98%_64.02%_1.94%_3.74%]" data-node-id="680:5479">
+          <a className="absolute block cursor-pointer inset-[93.74%_64.02%_2.96%_29.44%]" data-node-id="680:5480" data-name="Group">
+            <div className="absolute inset-[-2.46%_-2.68%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+            </div>
+          </a>
+          <div className="absolute h-[47px] left-[3.74%] right-[75.93%] top-[861px]" data-node-id="680:5483">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup37108} />
+          </div>
+        </div>
+        <a className="absolute block cursor-pointer inset-[87.47%_40.19%_4.43%_42.29%]" data-node-id="680:5486">
+          <div className="absolute inset-[0_-5.33%_-10.67%_-5.33%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup36731} />
+          </div>
+        </a>
+        <div className="absolute inset-[99.35%_30.37%_0.65%_36.68%]" data-node-id="680:5489">
+          <div className="absolute inset-[-2.56px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine1} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute h-[300px] left-0 top-0 w-[428px]" data-node-id="680:5490" data-name="Ảnh bìa sự kiện">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgNhBiaSKin} />
+      </div>
+      <div className="absolute bg-[#0d212b] h-[115px] left-0 opacity-38 top-0 w-[428px]" data-node-id="680:5491" data-name="Lớp phủ nhẹ" />
+      <div className="absolute contents inset-[0_0_95.36%_0]" data-node-id="680:5492" data-name="time line">
+        <div className="absolute contents inset-[0_0_95.36%_0]" data-node-id="680:5493">
+          <div className="absolute inset-[0_0_95.36%_0] overflow-clip" data-node-id="680:5494" data-name="iPhone/Status Bar">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I680:5494;47:200" data-name="Right Side">
+              <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I680:5494;47:201" data-name="Battery">
+                <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I680:5494;47:202" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+                </div>
+                <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I680:5494;47:203" data-name="Combined Shape">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+                </div>
+                <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I680:5494;47:204" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+                </div>
+              </div>
+              <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I680:5494;47:205" data-name="Wifi">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+              </div>
+              <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I680:5494;47:209" data-name="Mobile Signal">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+              </div>
+            </div>
+            <div className="absolute contents left-[12px] top-[12px]" data-node-id="I680:5494;47:216" data-name="Left Side">
+              <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I680:5494;47:217" data-name="Time">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a className="absolute bg-white block cursor-pointer left-[25px] overflow-clip rounded-[17px] size-[34px] top-[61px]" data-node-id="680:5495" data-name="Nút điều hướng">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[26px] leading-[normal] left-[17px] not-italic text-[#0b2e4f] text-[18px] text-center top-[4px] w-[34px]" data-node-id="680:5496">
+          ‹
+        </p>
+      </a>
+      <div className="absolute bg-white left-[369px] overflow-clip rounded-[17px] size-[34px] top-[61px]" data-node-id="680:5497" data-name="Nút điều hướng">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[26px] leading-[normal] left-[17px] not-italic text-[#ed4f47] text-[18px] text-center top-[4px] w-[34px]" data-node-id="680:5498">
+          ♡
+        </p>
+      </div>
+      <div className="absolute bg-[#f0f9ff] h-[568px] left-0 overflow-clip rounded-[22px] top-[266px] w-[428px]" data-node-id="680:5499" data-name="Nội dung sự kiện">
+        <div className="absolute bg-[#147cc1] h-[25px] left-[28px] overflow-clip rounded-[12px] top-[23px] w-[96px]" data-node-id="680:5500" data-name="Nhãn sự kiện">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[16px] leading-[normal] left-[48px] not-italic text-[10px] text-center text-white top-[6px] w-[86px]" data-node-id="680:5501">
+            SỰ KIỆN XANH
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[60px] leading-[normal] left-[28px] not-italic text-[#0f172a] text-[21px] top-[58px] w-[370px]" data-node-id="680:5502">
+          Dọn rác ven kênh Nhiêu Lộc cùng BlueSteps
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[42px] leading-[normal] left-[28px] not-italic text-[#6e7a87] text-[12px] top-[127px] w-[370px]" data-node-id="680:5503">
+          Cùng cộng đồng biến một buổi sáng thành thay đổi tích cực cho thành phố.
+        </p>
+        <div className="absolute bg-white h-[106px] left-[28px] overflow-clip rounded-[15px] top-[184px] w-[372px]" data-node-id="680:5504" data-name="Thông tin thời gian và địa điểm">
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[25px] leading-[normal] left-[15px] not-italic text-[#0b2e4f] text-[13px] top-[16px] w-[342px] whitespace-pre-wrap" data-node-id="680:5505">{`◷   02/11/2026  ·  07:30 – 11:00`}</p>
+          <div className="absolute bg-[#d1e3ed] h-px left-[15px] top-[53px] w-[342px]" data-node-id="680:5506" data-name="Divider" />
+          <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[25px] leading-[normal] left-[15px] not-italic text-[#0b2e4f] text-[13px] top-[68px] w-[342px] whitespace-pre-wrap" data-node-id="680:5507">{`⌖   Kênh Nhiêu Lộc, TP. Hồ Chí Minh`}</p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[27px] leading-[normal] left-[28px] not-italic text-[#0f172a] text-[18px] top-[308px] w-[330px]" data-node-id="680:5508">
+          Về hoạt động
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[59px] leading-[normal] left-[28px] not-italic text-[#0f172a] text-[12px] top-[342px] w-[370px]" data-node-id="680:5509">
+          Tham gia thu gom và phân loại rác cùng các tình nguyện viên. Dụng cụ sẽ được chuẩn bị tại điểm hẹn; bạn chỉ cần mang theo nước uống và tinh thần sẵn sàng.
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[25px] leading-[normal] left-[28px] not-italic text-[#0f172a] text-[18px] top-[407px] w-[330px]" data-node-id="680:5510">
+          Lịch trình ngắn
+        </p>
+        <div className="[word-break:break-word] absolute bg-white content-stretch flex h-[48px] items-start leading-[normal] left-[28px] not-italic overflow-clip p-[8px] rounded-[12px] top-[437px] w-[372px]" data-node-id="680:5511" data-name="Các mốc chương trình">
+          <div className="content-stretch flex flex-col gap-[2px] h-[32px] items-start overflow-clip relative shrink-0 w-[112px]" data-node-id="680:5512" data-name="Mốc 07:30">
+            <p className="font-['Inter:Bold'] font-bold h-[14px] relative shrink-0 text-[#147cc1] text-[11px] w-[100px]" data-node-id="680:5513">
+              07:30
+            </p>
+            <p className="font-['Inter:Regular'] font-normal h-[16px] relative shrink-0 text-[#6e7a87] text-[10px] w-[100px]" data-node-id="680:5514">
+              Tập trung
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[2px] h-[32px] items-start overflow-clip relative shrink-0 w-[112px]" data-node-id="680:5515" data-name="Mốc 08:00">
+            <p className="font-['Inter:Bold'] font-bold h-[14px] relative shrink-0 text-[#147cc1] text-[11px] w-[100px]" data-node-id="680:5516">
+              08:00
+            </p>
+            <p className="font-['Inter:Regular'] font-normal h-[16px] relative shrink-0 text-[#6e7a87] text-[10px] w-[100px]" data-node-id="680:5517">
+              Thu gom
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[2px] h-[32px] items-start overflow-clip relative shrink-0 w-[112px]" data-node-id="680:5518" data-name="Mốc 10:30">
+            <p className="font-['Inter:Bold'] font-bold h-[14px] relative shrink-0 text-[#147cc1] text-[11px] w-[100px]" data-node-id="680:5519">
+              10:30
+            </p>
+            <p className="font-['Inter:Regular'] font-normal h-[16px] relative shrink-0 text-[#6e7a87] text-[10px] w-[100px]" data-node-id="680:5520">
+              Tổng kết
+            </p>
+          </div>
+        </div>
+      </div>
+      <button className="absolute bg-[#147cc1] block cursor-pointer h-[48px] left-[28px] overflow-clip rounded-[24px] top-[753px] w-[372px]" data-node-id="680:5521" data-name="Nút tham gia sự kiện">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[25px] leading-[normal] left-[186px] not-italic text-[14px] text-center text-white top-[13px] w-[344px] whitespace-pre-wrap" data-node-id="680:5522">{`Tham gia sự kiện   →`}</p>
+      </button>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

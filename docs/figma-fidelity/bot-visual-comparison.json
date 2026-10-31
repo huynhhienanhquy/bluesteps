@@ -1,0 +1,95 @@
+{
+  "scope": "backuped bot frames at configured capture widths",
+  "fullFidelityProven": false,
+  "notes": "Remaining full-frame differences include text and emoji rasterization. Asset geometry is audited separately.",
+  "rows": [
+    {
+      "frame": "386:8930",
+      "name": "bot-chat",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.7805983932500353,
+      "channelsDifferingByMoreThan20Percent": 2.8800219346938225
+    },
+    {
+      "frame": "386:8977",
+      "name": "bot-voice-message",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.8368380062305296,
+      "channelsDifferingByMoreThan20Percent": 2.99894700012784
+    },
+    {
+      "frame": "386:9071",
+      "name": "bot-playing",
+      "width": 289,
+      "height": 45,
+      "meanAbsoluteChannelDifference": 2.7650903498654364,
+      "channelsDifferingByMoreThan20Percent": 4.341919774445726
+    },
+    {
+      "frame": "386:9115",
+      "name": "bot-listening-one",
+      "width": 428,
+      "height": 481,
+      "meanAbsoluteChannelDifference": 0.825762138846251,
+      "channelsDifferingByMoreThan20Percent": 1.218418274493041
+    },
+    {
+      "frame": "386:9152",
+      "name": "bot-listening-two",
+      "width": 428,
+      "height": 481,
+      "meanAbsoluteChannelDifference": 0.8062868763803344,
+      "channelsDifferingByMoreThan20Percent": 1.1267737903251922
+    },
+    {
+      "frame": "386:9191",
+      "name": "bot-listening-three",
+      "width": 428,
+      "height": 481,
+      "meanAbsoluteChannelDifference": 0.7380214506382731,
+      "channelsDifferingByMoreThan20Percent": 1.0474349259395987
+    },
+    {
+      "frame": "386:9228",
+      "name": "bot-listening-four",
+      "width": 428,
+      "height": 481,
+      "meanAbsoluteChannelDifference": 0.7126216799113996,
+      "channelsDifferingByMoreThan20Percent": 0.9886593998743531
+    },
+    {
+      "frame": "386:9265",
+      "name": "bot-listening-five",
+      "width": 428,
+      "height": 481,
+      "meanAbsoluteChannelDifference": 0.825762138846251,
+      "channelsDifferingByMoreThan20Percent": 1.218418274493041
+    },
+    {
+      "frame": "386:9302",
+      "name": "bot-listening-six",
+      "width": 428,
+      "height": 481,
+      "meanAbsoluteChannelDifference": 0.7105005796594581,
+      "channelsDifferingByMoreThan20Percent": 0.9774871924404636
+    },
+    {
+      "frame": "386:9339",
+      "name": "bot-listening-seven",
+      "width": 428,
+      "height": 481,
+      "meanAbsoluteChannelDifference": 0.7126216799113996,
+      "channelsDifferingByMoreThan20Percent": 0.9886593998743531
+    },
+    {
+      "frame": "386:17222",
+      "name": "bot-listening-idle",
+      "width": 428,
+      "height": 409,
+      "meanAbsoluteChannelDifference": 0.9387229699365521,
+      "channelsDifferingByMoreThan20Percent": 1.3180845310726717
+    }
+  ]
+}

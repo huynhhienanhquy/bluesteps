@@ -1,0 +1,103 @@
+$ playwright test "e2e/news.spec.ts" "e2e/news-social.spec.ts"
+
+Running 9 tests using 1 worker
+
+(node:2352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px (30.8s)
+(node:15520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local (3.1s)
+  ok 3 e2e\news-social.spec.ts:74:5 › discussion preview sorting, likes and posting never add comments to the actual article (2.2s)
+  ok 4 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (2.4s)
+  ok 5 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (3.1s)
+  x  6 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (7.7s)
+(node:10432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 7 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (2.5s)
+  ok 8 e2e\news.spec.ts:135:5 › briefs mark articles read locally and green calendar opens the correct event (2.6s)
+  ok 9 e2e\news.spec.ts:165:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (27.9s)
+
+
+  1) e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Trả lời Bạn · Demo', exact: true })
+
+
+      15 |   await field.fill('Bình luận cha của tôi');
+      16 |   await page.getByRole('button', { name: 'Đăng thảo luận trong demo', exact: true }).click();
+    > 17 |   await page.getByRole('button', { name: 'Trả lời Bạn · Demo', exact: true }).click();
+         |                                                                               ^
+      18 |   const content = 'x'.repeat(500);
+      19 |   await field.fill(content);
+      20 |   await expect(field).toHaveValue(content);
+        at D:\BlueSteps\apps\mobile\e2e\news-social.spec.ts:17:79
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-social-owned-parent-d-13446-ithout-overflowing-at-320px\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-social-owned-parent-d-13446-ithout-overflowing-at-320px\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-social-owned-parent-d-13446-ithout-overflowing-at-320px\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-social-owned-parent-d-13446-ithout-overflowing-at-320px\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText(/Trả lời Minh An · Mẫu:/)
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText(/Trả lời Minh An · Mẫu:/) with timeout 5000ms
+      - waiting for getByText(/Trả lời Minh An · Mẫu:/)
+
+
+      87 |     .fill('Mình cũng thử đặt bình gần cửa');
+      88 |   await page.getByRole('button', { name: 'Đăng thảo luận trong demo', exact: true }).click();
+    > 89 |   await expect(page.getByText(/Trả lời Minh An · Mẫu:/)).toBeVisible();
+         |                                                          ^
+      90 |   await page
+      91 |     .getByRole('button', { name: 'Thích bình luận của Minh An · Mẫu', exact: true })
+      92 |     .click();
+        at D:\BlueSteps\apps\mobile\e2e\news.spec.ts:89:58
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-article-discussions-v-fcab2-omments-from-other-articles\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-article-discussions-v-fcab2-omments-from-other-articles\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-article-discussions-v-fcab2-omments-from-other-articles\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-article-discussions-v-fcab2-omments-from-other-articles\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px 
+    e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles 
+  7 passed (1.5m)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:e2e: `playwright test "e2e/news.spec.ts" "e2e/news-social.spec.ts"`
+Exit status 1

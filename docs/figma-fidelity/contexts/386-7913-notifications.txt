@@ -1,0 +1,271 @@
+const imgRectangle101 = "https://www.figma.com/api/mcp/asset/b5e06175-4c82-4271-97e6-c6d6e73e4ead.png";
+const imgRectangle102 = "https://www.figma.com/api/mcp/asset/358bd2bf-6921-4e8f-b6e2-7fd4a7ab1d7f.png";
+const imgRectangle746 = "https://www.figma.com/api/mcp/asset/5e5ea96c-695b-44e3-95b7-384e19ff9768.png";
+const imgRectangle751 = "https://www.figma.com/api/mcp/asset/925a6839-56f3-4189-b329-ee69e1640af3.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/b5285091-0724-4729-8938-924708380a0f.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/b8fce8b8-ecb5-4ccd-8aa9-f3387f2c4fec.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/727e6692-5710-4a04-9a3b-bbc3a17e8a4a.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/916b00fb-13fe-4634-a197-d630a5883278.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/08a2c3e2-98a0-47ce-89ab-da38b12ea4fd.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/9d84a266-5893-4fdb-8b53-372bfd092141.svg";
+const imgGroup36732 = "https://www.figma.com/api/mcp/asset/e86bed43-823a-4ecf-88d7-f9fc6e315ee8.svg";
+const imgRectangle87 = "https://www.figma.com/api/mcp/asset/4cc3f684-e889-4ba8-b72c-066592772f92.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/faed2756-3cdf-4e68-8933-11ae1d82b547.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/886548f1-e679-44ad-8c5c-e2e3eccaea43.svg";
+const imgGroup2 = "https://www.figma.com/api/mcp/asset/b834136e-5829-45a4-bd04-d00e49cd7dc0.svg";
+const imgVector = "https://www.figma.com/api/mcp/asset/802e001f-322b-4ae2-b8b4-7b7fc0ebb045.svg";
+const imgGroup36731 = "https://www.figma.com/api/mcp/asset/f2bb1cfc-18f1-4cbc-a44b-f0825ce913d2.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/e1df7f54-bf1a-45d8-90f5-1ade014ffc31.svg";
+
+export default function Component48ThongBao() {
+  return (
+    <div className="bg-[#147cc1] overflow-clip relative rounded-[25px] size-full" data-node-id="386:7913" data-name="48. Thông báo">
+      <CodeConnectSnippet data-node-id="386:7914" data-name="chevron_backward">
+        {/* Material 3 Design Kit component */}
+        <ChevronBackward />
+      </CodeConnectSnippet>
+      <div className="absolute contents inset-[1.19%_0.47%_93.52%_-0.47%]" data-node-id="386:7915">
+        <div className="absolute inset-[1.19%_0.47%_93.52%_-0.47%] overflow-clip" data-node-id="386:7916" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:7916;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:7916;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:7916;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:7916;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:7916;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:7916;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:7916;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:7916;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:7916;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[130px] not-italic text-[32px] text-white top-[62px] whitespace-nowrap" data-node-id="386:7917">
+        Thông báo
+      </p>
+      <a className="absolute block cursor-pointer h-[19px] left-[392px] top-[72px] w-[5px]" data-node-id="386:7918">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup36732} />
+      </a>
+      <div className="absolute content-stretch flex flex-col gap-[22px] h-[785px] items-start left-[34px] overflow-x-clip overflow-y-auto top-[125px] w-[360px]" data-node-id="386:7923">
+        <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[16px] text-black w-[min-content]" data-node-id="386:7924">
+          Hôm nay, 30 tháng 10
+        </p>
+        <a className="cursor-pointer grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7925">
+          <div className="bg-[#f2f2f2] col-1 h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7926" />
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[311px] mt-[33px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7927">
+            8:00
+          </p>
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[62px] mt-[52px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7928">
+            Nhấn để đổi thưởng
+          </p>
+          <div className="col-1 h-[42px] ml-[5px] mt-[22px] relative row-1 w-[45px]" data-node-id="386:7929">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle101} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[61px] mt-[8px] not-italic relative row-1 text-[16px] text-black w-[240px]" data-node-id="386:7930">
+            Bạn vừa hoàn thành một lượt phân loại!
+          </p>
+        </a>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7931">
+          <div className="bg-[#f2f2f2] col-1 h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7932" />
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[304px] mt-[33px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7933">
+            16:00
+          </p>
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[62px] mt-[52px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7934">
+            Tới thùng rác
+          </p>
+          <div className="col-1 h-[46px] ml-[5px] mt-[16px] relative row-1 w-[45px]" data-node-id="386:7935">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle102} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[61px] mt-[10px] not-italic relative row-1 text-[16px] text-black w-[240px]" data-node-id="386:7936">
+            Hãy chụp ảnh rác để hệ thống nhận diện.
+          </p>
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[16px] text-black w-[min-content]" data-node-id="386:7937">
+          Hôm qua, 29 tháng 10
+        </p>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7938">
+          <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1" data-node-id="386:7939">
+            <a className="bg-[#f2f2f2] block col-1 cursor-pointer h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7940" />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[305px] mt-[33px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7941">
+            10:00
+          </p>
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[63px] mt-[52px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7942">
+            Lấy mã giảm giá ngay
+          </p>
+          <div className="col-1 h-[46px] ml-[9px] mt-[21px] relative row-1 w-[45px]" data-node-id="386:7943">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle746} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[66px] mt-[14px] not-italic relative row-1 text-[16px] text-black w-[240px]" data-node-id="386:7944">
+            Voucher tặng 10% cho ngày hôm nay.
+          </p>
+        </div>
+        <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] min-w-full not-italic relative shrink-0 text-[16px] text-black w-[min-content]" data-node-id="386:7945">
+          Hôm trước, 28 tháng 10
+        </p>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7946">
+          <div className="bg-[#f2f2f2] col-1 h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7947" />
+          <div className="col-1 h-[42px] ml-[5px] mt-[22px] relative row-1 w-[45px]" data-node-id="386:7948">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle101} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[301px] mt-[33px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7949">
+            12:00
+          </p>
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[62px] mt-[52px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7950">
+            Nhấn để đổi thưởng
+          </p>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[61px] mt-[8px] not-italic relative row-1 text-[16px] text-black w-[240px]" data-node-id="386:7951">
+            Bạn vừa hoàn thành một lượt phân loại!
+          </p>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7952">
+          <div className="bg-[#f2f2f2] col-1 h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7953" />
+          <div className="col-1 h-[42px] ml-[5px] mt-[20px] relative row-1 w-[45px]" data-node-id="386:7954">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle751} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[304px] mt-[31px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7955">
+            22:00
+          </p>
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[62px] mt-[56px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7956">
+            Nhấn để đổi thưởng
+          </p>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[64px] mt-[12px] not-italic relative row-1 text-[16px] text-black w-[240px] whitespace-pre-wrap" data-node-id="386:7957">{`Lỗi  trong quá trình xử lí dữ liệu bạn ơi.`}</p>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7958">
+          <div className="bg-[#f2f2f2] col-1 h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7959" />
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[64px] mt-[56px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7960">
+            Lấy mã giảm giá ngay
+          </p>
+          <div className="col-1 h-[46px] ml-[14px] mt-[20px] relative row-1 w-[45px]" data-node-id="386:7961">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle746} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[313px] mt-[33px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7962">
+            9:00
+          </p>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[66px] mt-[9px] not-italic relative row-1 text-[16px] text-black w-[240px]" data-node-id="386:7963">
+            Voucher tặng 10% cho ngày hôm nay.
+          </p>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7964">
+          <div className="bg-[#f2f2f2] col-1 h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7965" />
+          <div className="col-1 h-[42px] ml-[5px] mt-[22px] relative row-1 w-[45px]" data-node-id="386:7966">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle101} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[301px] mt-[33px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7967">
+            12:00
+          </p>
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[62px] mt-[52px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7968">
+            Nhấn để đổi thưởng
+          </p>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[61px] mt-[8px] not-italic relative row-1 text-[16px] text-black w-[240px]" data-node-id="386:7969">
+            Bạn vừa hoàn thành một lượt phân loại!
+          </p>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7970">
+          <div className="bg-[#f2f2f2] col-1 h-[85px] ml-0 mt-0 relative rounded-[20px] row-1 w-[357px]" data-node-id="386:7971" />
+          <div className="col-1 h-[42px] ml-[5px] mt-[22px] relative row-1 w-[45px]" data-node-id="386:7972">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle101} />
+          </div>
+          <p className="[word-break:break-word] col-1 font-['Inter:Regular'] font-normal leading-[normal] ml-[301px] mt-[33px] not-italic relative row-1 text-[16px] text-black whitespace-nowrap" data-node-id="386:7973">
+            12:00
+          </p>
+          <p className="[text-underline-position:from-font] [word-break:break-word] col-1 decoration-from-font decoration-solid font-['Inter:Regular'] font-normal leading-[normal] ml-[62px] mt-[52px] not-italic relative row-1 text-[#256f97] text-[16px] underline whitespace-nowrap" data-node-id="386:7974">
+            Nhấn để đổi thưởng
+          </p>
+          <p className="[word-break:break-word] col-1 font-['Inter:Medium'] font-medium leading-[normal] ml-[61px] mt-[8px] not-italic relative row-1 text-[16px] text-black w-[240px]" data-node-id="386:7975">
+            Bạn vừa hoàn thành một lượt phân loại!
+          </p>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="386:7976">
+          <div className="bg-[rgba(217,217,217,0)] col-1 h-[50px] ml-0 mt-0 relative row-1 w-[386px]" data-node-id="386:7977" />
+        </div>
+      </div>
+      <div className="absolute contents left-[-2.57%] right-[-1.17%] top-[814px]" data-node-id="386:7978">
+        <div className="absolute contents inset-[92.12%_59.35%_-0.43%_-2.57%]" data-node-id="386:7979">
+          <div className="absolute bg-[#147cc1] inset-[92.12%_59.35%_-0.43%_-2.57%] rounded-bl-[25px] rounded-tr-[35px]" data-node-id="386:7980" />
+        </div>
+        <div className="absolute bg-[#147cc1] inset-[92.33%_-1.17%_-0.43%_57.94%] rounded-br-[25px] rounded-tl-[35px]" data-node-id="386:7981" />
+        <div className="absolute inset-[93.2%_39.02%_-0.43%_38.79%]" data-node-id="386:7982">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle87} />
+        </div>
+        <div className="absolute contents inset-[93.2%_1.4%_1.73%_64.95%]" data-node-id="386:7983">
+          <a className="absolute contents cursor-pointer inset-[93.2%_1.4%_1.73%_78.27%]" data-node-id="386:7984">
+            <div className="absolute bg-[#075a9c] inset-[93.2%_1.4%_1.73%_78.27%] rounded-bl-[25px] rounded-br-[70px] rounded-tl-[25px] rounded-tr-[25px]" data-node-id="386:7985" />
+          </a>
+          <div className="absolute contents inset-[94.17%_8.88%_2.81%_84.58%]" data-node-id="386:7986">
+            <div className="absolute inset-[94.17%_8.88%_2.81%_84.58%]" data-node-id="386:7987" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <a className="absolute contents cursor-pointer inset-[94.17%_28.5%_2.81%_64.95%]" data-node-id="386:7990">
+            <div className="absolute inset-[94.17%_28.5%_2.81%_64.95%]" data-node-id="386:7991" data-name="Group">
+              <div className="absolute inset-[-2.68%]">
+                <img alt="" className="block max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="absolute contents inset-[94.17%_65.65%_2.53%_8.64%]" data-node-id="386:7994">
+          <a className="absolute block cursor-pointer inset-[94.17%_65.65%_2.53%_27.8%]" data-node-id="386:7995" data-name="Group">
+            <div className="absolute inset-[-2.46%_-2.68%_-2.45%_-2.68%]">
+              <img alt="" className="block max-w-none size-full" src={imgGroup2} />
+            </div>
+          </a>
+          <div className="absolute aspect-[24/24] left-[8.64%] right-[84.81%] top-[872px]" data-node-id="386:7998" data-name="Vector">
+            <div className="absolute inset-[-2.68%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector} />
+            </div>
+          </div>
+        </div>
+        <a className="absolute block cursor-pointer inset-[87.9%_41.82%_4%_40.65%]" data-node-id="386:7999">
+          <div className="absolute inset-[0_-5.33%_-10.67%_-5.33%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup36731} />
+          </div>
+        </a>
+        <div className="absolute inset-[99.78%_32.01%_0.22%_35.05%]" data-node-id="386:8002">
+          <div className="absolute inset-[-2.56px_0_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgLine1} />
+          </div>
+        </div>
+      </div>
+      <a className="absolute block cursor-pointer h-[54px] left-[14px] top-[842px] w-[66px]" data-node-id="478:4785" data-name="Prototype / Nav / Trang chủ" />
+      <a className="absolute block cursor-pointer h-[54px] left-[98px] top-[842px] w-[66px]" data-node-id="478:4787" data-name="Prototype / Nav / Thu gom" />
+      <a className="absolute block cursor-pointer h-[70px] left-[180px] top-[814px] w-[68px]" data-node-id="478:4789" data-name="Prototype / Nav / Quét rác" />
+      <a className="absolute block cursor-pointer h-[54px] left-[264px] top-[842px] w-[66px]" data-node-id="478:4791" data-name="Prototype / Nav / Đổi quà" />
+      <a className="absolute block cursor-pointer h-[54px] left-[348px] top-[842px] w-[66px]" data-node-id="478:4793" data-name="Prototype / Nav / Cá nhân" />
+      <a className="absolute bg-[#3691c7] block cursor-pointer h-[30px] left-[322px] overflow-clip rounded-[15px] top-[118px] w-[80px]" data-node-id="713:5570" data-name="Prototype / Lọc thông báo">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[22px] leading-[normal] left-[40px] not-italic text-[12px] text-center text-white top-[7px] w-[80px] whitespace-pre-wrap" data-node-id="713:5571">{`Lọc  ▾`}</p>
+      </a>
+      <a className="absolute bg-[rgba(255,255,255,0)] block cursor-pointer h-[85px] left-[34px] top-[166px] w-[357px]" data-node-id="713:5573" data-name="Prototype / Mở detail 166" />
+      <a className="absolute bg-[rgba(255,255,255,0)] block cursor-pointer h-[85px] left-[34px] top-[273px] w-[357px]" data-node-id="713:5575" data-name="Prototype / Mở scan 273" />
+      <a className="absolute bg-[rgba(255,255,255,0)] block cursor-pointer h-[85px] left-[34px] top-[569px] w-[357px]" data-node-id="713:5577" data-name="Prototype / Mở detail 569" />
+      <a className="absolute bg-[rgba(255,255,255,0)] block cursor-pointer h-[85px] left-[34px] top-[676px] w-[357px]" data-node-id="713:5579" data-name="Prototype / Mở scan 676" />
+      <a className="absolute bg-[rgba(255,255,255,0)] block cursor-pointer h-[30px] left-[34px] top-[783px] w-[357px]" data-node-id="713:5581" data-name="Prototype / Mở reward 783" />
+      <a className="absolute bg-[rgba(255,255,255,0)] block cursor-pointer h-[32px] left-[89px] top-[211px] w-[160px]" data-node-id="713:5583" data-name="Prototype / Đổi thưởng từ kết quả" />
+      <a className="absolute bg-[rgba(255,255,255,0)] block cursor-pointer h-[42px] left-[373px] top-[62px] w-[40px]" data-node-id="715:5570" data-name="Prototype / Mở cài đặt" />
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: M3/white: #FFFFFF.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

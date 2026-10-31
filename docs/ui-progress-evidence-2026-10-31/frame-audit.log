@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-10-31T01:01:50.258Z",
+  "timezone": "Asia/Bangkok",
+  "scope": "Local code and saved Figma inventory; no fresh Figma or remote Git read",
+  "branch": "codex/initial-upload",
+  "localHead": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "inventoryCapturedOn": "2026-10-30",
+  "totalFrames": 175,
+  "mappedFrames": 84,
+  "remainingFrames": 91,
+  "mappedPercentage": 48,
+  "routesExcludingLayouts": 63,
+  "duplicateTargetIds": [],
+  "unknownTargetIds": [],
+  "missingMappedSources": [],
+  "missingMappedRoutes": [],
+  "missingMappedRenders": [],
+  "coverageMatchesTargets": true,
+  "savedEvidence": {
+    "withContext": 89,
+    "withReference": 91,
+    "withRendered": 84
+  },
+  "previousValidation": {
+    "file": "docs/ui-progress-evidence-2026-10-30/news-landing-validation.json",
+    "checkedAt": "2026-10-30T23:17:01.2254479+07:00",
+    "matchingHashes": 24,
+    "totalHashes": 24
+  },
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 25,
+    "Đang trong tiến trình": 13
+  },
+  "articleDetailPreparation": {
+    "frameIds": [
+      "386:17608",
+      "386:17701",
+      "386:10644",
+      "386:17794",
+      "386:10737",
+      "386:17887",
+      "386:10828",
+      "386:17978",
+      "386:10919"
+    ],
+    "modules": [
+      {
+        "file": "apps/mobile/src/features/content/news-detail-design-data.ts",
+        "exists": true,
+        "importedByProductFiles": []
+      },
+      {
+        "file": "apps/mobile/src/design-system/news-detail-assets.ts",
+        "exists": true,
+        "importedByProductFiles": []
+      }
+    ],
+    "countedAsCompleted": false
+  },
+  "groups": {
+    "Hoạt động đã lưu & nhắc lịch": {
+      "total": 5,
+      "mapped": 2,
+      "remaining": 3
+    },
+    "Hoạt động & tham gia": {
+      "total": 13,
+      "mapped": 4,
+      "remaining": 9
+    },
+    "Hành trình & bàn giao": {
+      "total": 9,
+      "mapped": 6,
+      "remaining": 3
+    },
+    "Điểm thu gom": {
+      "total": 10,
+      "mapped": 7,
+      "remaining": 3
+    },
+    "Tài khoản & xác thực": {
+      "total": 6,
+      "mapped": 6,
+      "remaining": 0
+    },
+    "Hồ sơ": {
+      "total": 2,
+      "mapped": 2,
+      "remaining": 0
+    },
+    "Điểm, đổi quà & thành tích": {
+      "total": 17,
+      "mapped": 1,
+      "remaining": 16
+    },
+    "Cộng đồng & tạo bài": {
+      "total": 12,
+      "mapped": 0,
+      "remaining": 12
+    },
+    "Thông báo": {
+      "total": 7,
+      "mapped": 0,
+      "remaining": 7
+    },
+    "Tin nhắn cá nhân": {
+      "total": 4,
+      "mapped": 0,
+      "remaining": 4
+    },
+    "Cài đặt & bảo mật": {
+      "total": 6,
+      "mapped": 6,
+      "remaining": 0
+    },
+    "Điều hướng dùng chung": {
+      "total": 2,
+      "mapped": 1,
+      "remaining": 1
+    },
+    "RecycleBot & giọng nói": {
+      "total": 11,
+      "mapped": 0,
+      "remaining": 11
+    },
+    "Tin tức": {
+      "total": 18,
+      "mapped": 9,
+      "remaining": 9
+    },
+    "Sổ tay & kiến thức rác": {
+      "total": 21,
+      "mapped": 21,
+      "remaining": 0
+    },
+    "Camera & nhận diện": {
+      "total": 9,
+      "mapped": 9,
+      "remaining": 0
+    },
+    "Tư liệu/khung phụ": {
+      "total": 2,
+      "mapped": 0,
+      "remaining": 2
+    },
+    "Trò chơi": {
+      "total": 10,
+      "mapped": 0,
+      "remaining": 10
+    },
+    "Thống kê": {
+      "total": 1,
+      "mapped": 0,
+      "remaining": 1
+    },
+    "Onboarding & cá nhân hóa": {
+      "total": 10,
+      "mapped": 10,
+      "remaining": 0
+    }
+  }
+}

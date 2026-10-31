@@ -1,0 +1,135 @@
+{
+  "scope": "backuped chat frames at 428px",
+  "fullFidelityProven": false,
+  "notes": "Remaining full-frame differences include text and emoji rasterization. Asset geometry is audited separately.",
+  "rows": [
+    {
+      "frame": "386:8086",
+      "name": "chat-list",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 3.1044707077639395,
+      "channelsDifferingByMoreThan20Percent": 2.504911756592183
+    },
+    {
+      "frame": "386:8151",
+      "name": "chat-thread",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.5241163884459337,
+      "channelsDifferingByMoreThan20Percent": 2.0038116576842078
+    },
+    {
+      "frame": "386:8179",
+      "name": "chat-shared-post",
+      "width": 428,
+      "height": 959,
+      "meanAbsoluteChannelDifference": 2.396393894210935,
+      "channelsDifferingByMoreThan20Percent": 3.1930652061629616
+    },
+    {
+      "frame": "386:17262",
+      "name": "chat-share",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.8110874494526419,
+      "channelsDifferingByMoreThan20Percent": 1.6069181755179214
+    },
+    {
+      "frame": "771:6023",
+      "name": "chat-emoji",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 3.5885663726341144,
+      "channelsDifferingByMoreThan20Percent": 3.992232023307294
+    },
+    {
+      "frame": "771:6077",
+      "name": "chat-emoji-sent",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.689449984188181,
+      "channelsDifferingByMoreThan20Percent": 2.234765144022123
+    },
+    {
+      "frame": "771:6108",
+      "name": "chat-attachments",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.0806478472376417,
+      "channelsDifferingByMoreThan20Percent": 2.1124758617441444
+    },
+    {
+      "frame": "771:6144",
+      "name": "chat-photo-preview",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 0.8279177852687672,
+      "channelsDifferingByMoreThan20Percent": 0.34693486203346724
+    },
+    {
+      "frame": "771:6180",
+      "name": "chat-photo-sent",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 2.8235779455400576,
+      "channelsDifferingByMoreThan20Percent": 3.8907167800407745
+    },
+    {
+      "frame": "771:6480",
+      "name": "chat-file-sent",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.80316976511038,
+      "channelsDifferingByMoreThan20Percent": 2.397088606743236
+    },
+    {
+      "frame": "771:6514",
+      "name": "chat-recording",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.3357555694609853,
+      "channelsDifferingByMoreThan20Percent": 1.8070890777335944
+    },
+    {
+      "frame": "771:6565",
+      "name": "chat-voice-sent",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.610708806846854,
+      "channelsDifferingByMoreThan20Percent": 2.126185045383285
+    },
+    {
+      "frame": "772:6456",
+      "name": "chat-editing",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.5739412809592055,
+      "channelsDifferingByMoreThan20Percent": 2.121054614696245
+    },
+    {
+      "frame": "772:6544",
+      "name": "chat-text-sent",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 1.7318937849458025,
+      "channelsDifferingByMoreThan20Percent": 2.29523694179232
+    },
+    {
+      "frame": "773:6563",
+      "name": "chat-photos",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 4.158430222778439,
+      "channelsDifferingByMoreThan20Percent": 5.865512067445819
+    },
+    {
+      "frame": "773:6609",
+      "name": "chat-files",
+      "width": 428,
+      "height": 926,
+      "meanAbsoluteChannelDifference": 0.8714229964406586,
+      "channelsDifferingByMoreThan20Percent": 1.2165008107762594
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+
+Running 11 tests using 1 worker
+
+(node:14248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   1 e2e\chat-design.spec.ts:3:5 › searching contacts and sending text preserve the conversation and list preview (3.0s)
+(node:14228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 e2e\chat-design.spec.ts:29:5 › emoji and keyboard keys append to the draft and clear it after sending (2.8s)
+  ok  3 e2e\chat-design.spec.ts:49:5 › photo and file pickers send the selected media and metadata to the current conversation (2.6s)
+  ok  4 e2e\chat-design.spec.ts:70:5 › cancelled voice recording sends nothing and a sent voice message can toggle playback UI (4.5s)
+  x   5 e2e\chat-design.spec.ts:85:5 › community share picker sends a post to the chosen recipient and opens its details (8.4s)
+(node:8028) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8028) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  6 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (3.3s)
+  ok  7 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (5.5s)
+  ok  8 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (8.0s)
+  ok  9 e2e\frontend.spec.ts:86:5 › theme toggles and the query error/retry state is accessible (4.0s)
+  ok 10 e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow (24.0s)
+  ok 11 e2e\frontend.spec.ts:137:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (7.0s)
+
+
+  1) e2e\chat-design.spec.ts:3:5 › searching contacts and sending text preserve the conversation and list preview 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Mình sẽ tham gia thu gom cuối tuần này', { exact: true })
+    Expected: visible
+    Error: strict mode violation: getByText('Mình sẽ tham gia thu gom cuối tuần này', { exact: true }) resolved to 2 elements:
+        1) <div dir="auto" class="css-146c3p1" data-testid="reward-text-386:8131">Mình sẽ tham gia thu gom cuối tuần này</div> aka getByTestId('reward-text-386:8131')
+        2) <div dir="auto" class="css-146c3p1">Mình sẽ tham gia thu gom cuối tuần này</div> aka getByTestId('chat-message-1').getByText('Mình sẽ tham gia thu gom cuối')
+
+    Call log:
+      - Expect "toBeVisible" getByText('Mình sẽ tham gia thu gom cuối tuần này', { exact: true }) with timeout 5000ms
+      - waiting for getByText('Mình sẽ tham gia thu gom cuối tuần này', { exact: true })
+
+
+      16 |   await expect(
+      17 |     page.getByText('Mình sẽ tham gia thu gom cuối tuần này', { exact: true }),
+    > 18 |   ).toBeVisible();
+         |     ^
+      19 |   await page.getByRole('button', { name: 'Quay lại', exact: true }).click();
+      20 |   await expect(
+      21 |     page.getByText('Mình sẽ tham gia thu gom cuối tuần này', { exact: true }),
+        at D:\BlueSteps\apps\mobile\e2e\chat-design.spec.ts:18:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\chat-design-searching-cont-dd5b4-nversation-and-list-preview\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\chat-design-searching-cont-dd5b4-nversation-and-list-preview\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\chat-design-searching-cont-dd5b4-nversation-and-list-preview\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\chat-design-searching-cont-dd5b4-nversation-and-list-preview\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) e2e\chat-design.spec.ts:85:5 › community share picker sends a post to the chosen recipient and opens its details 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByText('Nguyễn Quang Huy', { exact: true })
+    Expected: 2
+    Received: 3
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByText('Nguyễn Quang Huy', { exact: true }) with timeout 5000ms
+      - waiting for getByText('Nguyễn Quang Huy', { exact: true })
+        4 × locator resolved to 1 element
+          - unexpected value "1"
+        10 × locator resolved to 3 elements
+           - unexpected value "3"
+
+
+      89 |   await page.getByRole('button', { name: 'Chia sẻ bài đăng', exact: true }).first().click();
+      90 |   await page.getByRole('button', { name: 'Gửi đến Nguyễn Quang Huy', exact: true }).click();
+    > 91 |   await expect(page.getByText('Nguyễn Quang Huy', { exact: true })).toHaveCount(2);
+         |                                                                     ^
+      92 |   await page.getByRole('button', { name: 'Mở bài viết đã chia sẻ', exact: true }).click();
+      93 |   await expect(page.getByText('Bài đăng', { exact: true })).toBeVisible();
+      94 | });
+        at D:\BlueSteps\apps\mobile\e2e\chat-design.spec.ts:91:69
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\chat-design-community-shar-6f284-pient-and-opens-its-details\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\chat-design-community-shar-6f284-pient-and-opens-its-details\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\chat-design-community-shar-6f284-pient-and-opens-its-details\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\chat-design-community-shar-6f284-pient-and-opens-its-details\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    e2e\chat-design.spec.ts:3:5 › searching contacts and sending text preserve the conversation and list preview 
+    e2e\chat-design.spec.ts:85:5 › community share picker sends a post to the chosen recipient and opens its details 
+  9 passed (1.3m)

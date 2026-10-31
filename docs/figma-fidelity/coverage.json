@@ -2,78 +2,103 @@
   "fileKey": "7GCLABwia0mauoszRi0Vtt",
   "pageId": "386:7053",
   "pageName": "backuped",
-  "snapshotDate": "2026-10-29",
-  "goalStatus": "blocked",
+  "snapshotDate": "2026-10-31",
+  "inventory": "docs/ui-progress-evidence-2026-10-31/figma-live-inventory-final.json",
+  "uiCodeEvidenceComplete": true,
   "fullFidelityProven": false,
-  "totalFrames": 169,
-  "implemented": 69,
-  "pending": 100,
+  "totalFrames": 211,
+  "implemented": 211,
+  "pending": 0,
   "frames": [
     {
       "nodeId": "534:49968",
       "name": "Cài đặt nhắc lịch hoạt động đã lưu",
       "width": 428,
       "height": 1142,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/534-49968.txt",
+      "reference": "reference/534-49968.png",
+      "implementation": {
+        "route": "/event-reminders?preview=1",
+        "source": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+        "render": "event-saved-reminders"
+      },
+      "rendered": "rendered/event-saved-reminders-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "534:49845",
       "name": "Quản lý bộ sưu tập yêu thích",
       "width": 428,
       "height": 1144,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/534-49845.txt",
+      "reference": "reference/534-49845.png",
+      "implementation": {
+        "route": "/event-collections?preview=1",
+        "source": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+        "render": "event-saved-collections"
+      },
+      "rendered": "rendered/event-saved-collections-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "534:49760",
       "name": "Tổng kết sau hoạt động",
       "width": 428,
       "height": 1279,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/534-49760.txt",
+      "reference": "reference/534-49760.png",
+      "implementation": {
+        "route": "/event-summary?id=green-class&preview=1",
+        "source": "apps/mobile/src/features/events/EventSummaryScreen.tsx",
+        "render": "event-summary"
+      },
+      "rendered": "rendered/event-summary-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "534:49416",
       "name": "Vé tham gia & check-in",
       "width": 428,
       "height": 1139,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/534-49416.txt",
+      "reference": "reference/534-49416.png",
+      "implementation": {
+        "route": "/event-ticket?id=green-class&preview=1",
+        "source": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+        "render": "event-ticket"
+      },
+      "rendered": "rendered/event-ticket-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "534:49326",
       "name": "Đăng ký tham gia hoạt động",
       "width": 428,
       "height": 1245,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/534-49326.txt",
+      "reference": "reference/534-49326.png",
+      "implementation": {
+        "route": "/registration?id=green-class&preview=1",
+        "source": "apps/mobile/src/features/events/EventParticipationScreens.tsx",
+        "render": "event-registration"
+      },
+      "rendered": "rendered/event-registration-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "534:49166",
       "name": "Lịch hoạt động môi trường",
       "width": 428,
       "height": 1407,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/534-49166.txt",
+      "reference": "reference/534-49166.png",
+      "implementation": {
+        "route": "/calendar?preview=1",
+        "source": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+        "render": "event-calendar"
+      },
+      "rendered": "rendered/event-calendar-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "534:49034",
@@ -81,10 +106,14 @@
       "width": 428,
       "height": 1084,
       "context": "contexts/534-49034.txt",
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "reference": "reference/534-49034.png",
+      "implementation": {
+        "route": "/events?preview=1",
+        "source": "apps/mobile/src/features/events/EventExploreScreen.tsx",
+        "render": "event-explore"
+      },
+      "rendered": "rendered/event-explore-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "534:48955",
@@ -99,7 +128,7 @@
         "render": "collection-arrival"
       },
       "rendered": "rendered/collection-arrival-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "534:48869",
@@ -114,7 +143,7 @@
         "render": "collection-replacement"
       },
       "rendered": "rendered/collection-replacement-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "534:48774",
@@ -129,7 +158,7 @@
         "render": "collection-journey"
       },
       "rendered": "rendered/collection-journey-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "534:48690",
@@ -144,7 +173,7 @@
         "render": "collection-report"
       },
       "rendered": "rendered/collection-report-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "534:48595",
@@ -159,7 +188,7 @@
         "render": "collection-proposal"
       },
       "rendered": "rendered/collection-proposal-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "534:48505",
@@ -174,7 +203,7 @@
         "render": "collection-compare"
       },
       "rendered": "rendered/collection-compare-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "534:48401",
@@ -189,18 +218,22 @@
         "render": "collection-filters"
       },
       "rendered": "rendered/collection-filters-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7054",
       "name": "hoạt động",
       "width": 428,
       "height": 1406,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-7054.txt",
+      "reference": "reference/386-7054.png",
+      "implementation": {
+        "route": "/events/green-class?preview=1&interested=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-green-class-interested"
+      },
+      "rendered": "rendered/event-detail-green-class-interested-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:7184",
@@ -215,7 +248,7 @@
         "render": "login"
       },
       "rendered": "rendered/login-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7225",
@@ -230,7 +263,7 @@
         "render": "forgot"
       },
       "rendered": "rendered/forgot-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7266",
@@ -245,7 +278,7 @@
         "render": "otp"
       },
       "rendered": "rendered/otp-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7307",
@@ -260,7 +293,7 @@
         "render": "reset"
       },
       "rendered": "rendered/reset-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7348",
@@ -275,7 +308,7 @@
         "render": "connected-account"
       },
       "rendered": "rendered/connected-account-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7390",
@@ -290,7 +323,7 @@
         "render": "register"
       },
       "rendered": "rendered/register-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7420",
@@ -305,7 +338,7 @@
         "render": "profile"
       },
       "rendered": "rendered/profile-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7550",
@@ -320,121 +353,161 @@
         "render": "achievements"
       },
       "rendered": "rendered/achievements-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7647",
-      "name": "Cộng đồng",
+      "name": "38. Cộng đồng",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-7647-community.txt",
+      "reference": "reference/386-7647-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=386:7647",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-feed"
+      },
+      "rendered": "rendered/community-feed-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:7813",
-      "name": "Cộng đồng",
+      "name": "38. Cộng đồng",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-7813-community.txt",
+      "reference": "reference/386-7813-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=386:7813",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-feed-liked"
+      },
+      "rendered": "rendered/community-feed-liked-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:7913",
-      "name": "Thông báo",
+      "name": "48. Thông báo",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-7913-notifications.txt",
+      "reference": "reference/386-7913-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=386:7913",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-all"
+      },
+      "rendered": "rendered/notifications-all-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8003",
-      "name": "Thống báo cộng đồng",
+      "name": "39. Thống báo cộng đồng",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8003-notifications.txt",
+      "reference": "reference/386-8003-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=386:8003",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-community"
+      },
+      "rendered": "rendered/notifications-community-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8086",
-      "name": "Chat",
+      "name": "68. Chat",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8086-chat.txt",
+      "reference": "reference/386-8086-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=386:8086",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-list"
+      },
+      "rendered": "rendered/chat-list-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8151",
-      "name": "Chat",
+      "name": "69. Chat",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8151-chat.txt",
+      "reference": "reference/386-8151-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=386:8151",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-thread"
+      },
+      "rendered": "rendered/chat-thread-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8179",
-      "name": "Chat",
+      "name": "70. Chat",
       "width": 428,
       "height": 959,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8179-chat.txt",
+      "reference": "reference/386-8179-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=386:8179",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-shared-post"
+      },
+      "rendered": "rendered/chat-shared-post-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8228",
-      "name": "Thông báo",
+      "name": "48. Thông báo",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8228-notifications.txt",
+      "reference": "reference/386-8228-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=386:8228",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-delete"
+      },
+      "rendered": "rendered/notifications-delete-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8311",
-      "name": "Thông báo",
+      "name": "48.Thông báo",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8311-notifications.txt",
+      "reference": "reference/386-8311-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=386:8311",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-deleted"
+      },
+      "rendered": "rendered/notifications-deleted-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8380",
-      "name": "Thông báo",
+      "name": "48. Thông báo",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8380-notifications.txt",
+      "reference": "reference/386-8380-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=386:8380",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-compact"
+      },
+      "rendered": "rendered/notifications-compact-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8451",
-      "name": "Cài đặt",
+      "name": "23 Cài đặt",
       "width": 428,
       "height": 931,
       "context": "contexts/386-8451.txt",
@@ -445,11 +518,11 @@
         "render": "settings"
       },
       "rendered": "rendered/settings-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:8516",
-      "name": "Chỉnh sửa",
+      "name": "24 Chỉnh sửa",
       "width": 428,
       "height": 926,
       "context": "contexts/386-8516.txt",
@@ -460,18 +533,23 @@
         "render": "edit-profile"
       },
       "rendered": "rendered/edit-profile-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:8558",
       "name": "navigation",
       "width": 179,
       "height": 218,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8558-final.txt",
+      "reference": "reference/386-8558-final.png",
+      "implementation": {
+        "route": "/design-preview?frame=386:8558",
+        "source": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+        "render": "final-navigation",
+        "renderWidth": 179
+      },
+      "rendered": "rendered/final-navigation-179.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8569",
@@ -486,7 +564,7 @@
         "render": "collection-map"
       },
       "rendered": "rendered/collection-map-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:8633",
@@ -501,216 +579,302 @@
         "render": "collection-explore"
       },
       "rendered": "rendered/collection-explore-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:8930",
       "name": "Chat",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8930-bot.txt",
+      "reference": "reference/386-8930-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:8930",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-chat",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-chat-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:8977",
       "name": "chat2",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-8977-bot.txt",
+      "reference": "reference/386-8977-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:8977",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-voice-message",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-voice-message-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9071",
       "name": "Frame 36844",
       "width": 289,
       "height": 45,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9071-bot.txt",
+      "reference": "reference/386-9071-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9071",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-playing",
+        "renderWidth": 289
+      },
+      "rendered": "rendered/bot-playing-289.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9115",
       "name": "Frame 36836",
       "width": 428,
       "height": 481,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9115-bot.txt",
+      "reference": "reference/386-9115-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9115",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-one",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-one-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9152",
       "name": "Frame 36843",
       "width": 428,
       "height": 481,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9152-bot.txt",
+      "reference": "reference/386-9152-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9152",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-two",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-two-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9191",
       "name": "Frame 36838",
       "width": 428,
       "height": 481,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9191-bot.txt",
+      "reference": "reference/386-9191-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9191",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-three",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-three-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9228",
       "name": "Frame 36837",
       "width": 428,
       "height": 481,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9228-bot.txt",
+      "reference": "reference/386-9228-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9228",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-four",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-four-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9265",
       "name": "Frame 36840",
       "width": 428,
       "height": 481,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9265-bot.txt",
+      "reference": "reference/386-9265-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9265",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-five",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-five-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9302",
       "name": "Frame 36841",
       "width": 428,
       "height": 481,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9302-bot.txt",
+      "reference": "reference/386-9302-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9302",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-six",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-six-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9339",
       "name": "Frame 36842",
       "width": 428,
       "height": 481,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9339-bot.txt",
+      "reference": "reference/386-9339-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:9339",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-seven",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-seven-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9376",
       "name": "hoạt động",
       "width": 428,
       "height": 1460,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9376.txt",
+      "reference": "reference/386-9376.png",
+      "implementation": {
+        "route": "/events/green-class?preview=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-green-class"
+      },
+      "rendered": "rendered/event-detail-green-class-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9470",
       "name": "hoạt động 2",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9470.txt",
+      "reference": "reference/386-9470.png",
+      "implementation": {
+        "route": "/events/beach?preview=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-beach"
+      },
+      "rendered": "rendered/event-detail-beach-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9575",
       "name": "hoạt động 3",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9575.txt",
+      "reference": "reference/386-9575.png",
+      "implementation": {
+        "route": "/events/school-class?preview=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-school-class"
+      },
+      "rendered": "rendered/event-detail-school-class-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9681",
       "name": "hoạt động 5",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9681.txt",
+      "reference": "reference/386-9681.png",
+      "implementation": {
+        "route": "/events/school-class?preview=1&interested=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-school-class-interested"
+      },
+      "rendered": "rendered/event-detail-school-class-interested-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9787",
-      "name": "tin tức mới nhất ",
+      "name": "27. tin tức mới nhất ",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9787.txt",
+      "reference": "reference/386-9787.png",
+      "implementation": {
+        "route": "/articles?view=latest&preview=1",
+        "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+        "render": "news-landing-latest"
+      },
+      "rendered": "rendered/news-landing-latest-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:9901",
-      "name": "sự kiện sắp tới",
+      "name": "28. sự kiện sắp tới",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-9901.txt",
+      "reference": "reference/386-9901.png",
+      "implementation": {
+        "route": "/articles?view=events&preview=1",
+        "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+        "render": "news-landing-events"
+      },
+      "rendered": "rendered/news-landing-events-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:10026",
       "name": "hoạt động 1",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-10026.txt",
+      "reference": "reference/386-10026.png",
+      "implementation": {
+        "route": "/events/garden?preview=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-garden"
+      },
+      "rendered": "rendered/event-detail-garden-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:10122",
       "name": "yêu thích",
       "width": 359,
       "height": 162,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-10122.txt",
+      "reference": "reference/386-10122.png",
+      "implementation": {
+        "route": "/saved?preview=1&feedback=saved",
+        "source": "apps/mobile/src/features/events/EventSavedFeedback.tsx",
+        "render": "event-feedback-saved"
+      },
+      "rendered": "rendered/event-feedback-saved-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:10131",
       "name": "xóa hoạt động",
       "width": 359,
       "height": 95,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-10131.txt",
+      "reference": "reference/386-10131.png",
+      "implementation": {
+        "route": "/saved?preview=1&feedback=removed",
+        "source": "apps/mobile/src/features/events/EventSavedFeedback.tsx",
+        "render": "event-feedback-removed"
+      },
+      "rendered": "rendered/event-feedback-removed-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:10136",
@@ -725,7 +889,7 @@
         "render": "collection-navigation"
       },
       "rendered": "rendered/collection-navigation-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:10186",
@@ -740,7 +904,7 @@
         "render": "collection-point"
       },
       "rendered": "rendered/collection-point-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:10279",
@@ -755,7 +919,7 @@
         "render": "collection-directions"
       },
       "rendered": "rendered/collection-directions-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:10351",
@@ -770,216 +934,292 @@
         "render": "collection-route"
       },
       "rendered": "rendered/collection-route-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:10644",
-      "name": "tin tức chi tiết 2",
+      "name": "29. tin tức chi tiết 2",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-10644.txt",
+      "reference": "reference/386-10644.png",
+      "implementation": {
+        "route": "/articles/youth-ideas?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-youth-ideas"
+      },
+      "rendered": "rendered/news-detail-youth-ideas-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:10737",
-      "name": "tin tức chi tiết 4",
+      "name": "29. tin tức chi tiết 4",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-10737.txt",
+      "reference": "reference/386-10737.png",
+      "implementation": {
+        "route": "/articles/green-sunday?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-green-sunday"
+      },
+      "rendered": "rendered/news-detail-green-sunday-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:10828",
-      "name": "tin tức chi tiết 6",
+      "name": "29. tin tức chi tiết 6",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-10828.txt",
+      "reference": "reference/386-10828.png",
+      "implementation": {
+        "route": "/articles/saigon-cleanup?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-saigon-cleanup"
+      },
+      "rendered": "rendered/news-detail-saigon-cleanup-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:10919",
-      "name": "tin tức chi tiết 8",
+      "name": "29. tin tức chi tiết 8",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-10919.txt",
+      "reference": "reference/386-10919.png",
+      "implementation": {
+        "route": "/articles/tourism-cleanup?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-tourism-cleanup"
+      },
+      "rendered": "rendered/news-detail-tourism-cleanup-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:11010",
       "name": "Tích điểm và phần thưởng",
       "width": 428,
       "height": 1725,
-      "context": "contexts/386-11010.txt",
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-11010-rewards.txt",
+      "reference": "reference/386-11010-rewards.png",
+      "implementation": {
+        "route": "/rewards?preview=1&frame=386:11010",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-wallet-original"
+      },
+      "rendered": "rendered/rewards-wallet-original-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:11320",
       "name": "Cách quy đổi điểm",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-11320-rewards.txt",
+      "reference": "reference/386-11320-rewards.png",
+      "implementation": {
+        "route": "/rewards/guide?preview=1&frame=386:11320",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-guide"
+      },
+      "rendered": "rendered/rewards-guide-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:11451",
       "name": "Phần thưởng",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-11451-rewards.txt",
+      "reference": "reference/386-11451-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:11451",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-catalog"
+      },
+      "rendered": "rendered/rewards-catalog-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:11652",
       "name": "Sau khi nhận điểm mỗi ngày",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-11652-rewards.txt",
+      "reference": "reference/386-11652-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:11652",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-claimed"
+      },
+      "rendered": "rendered/rewards-claimed-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:11858",
       "name": "Nhắc tôi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-11858-rewards.txt",
+      "reference": "reference/386-11858-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:11858",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-reminder"
+      },
+      "rendered": "rendered/rewards-reminder-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12064",
       "name": "Thông báo nhắc",
       "width": 429,
       "height": 215,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12064-rewards.txt",
+      "reference": "reference/386-12064-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:12064",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-reminder-notice"
+      },
+      "rendered": "rendered/rewards-reminder-notice-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12071",
       "name": "Lịch sử",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12071-rewards.txt",
+      "reference": "reference/386-12071-rewards.png",
+      "implementation": {
+        "route": "/history?preview=1&frame=386:12071",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-history-all"
+      },
+      "rendered": "rendered/rewards-history-all-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12194",
       "name": "Lịch sử",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12194-rewards.txt",
+      "reference": "reference/386-12194-rewards.png",
+      "implementation": {
+        "route": "/history?preview=1&frame=386:12194",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-history-month"
+      },
+      "rendered": "rendered/rewards-history-month-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12284",
       "name": "Lịch sử",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12284-rewards.txt",
+      "reference": "reference/386-12284-rewards.png",
+      "implementation": {
+        "route": "/history?preview=1&frame=386:12284",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-history-week"
+      },
+      "rendered": "rendered/rewards-history-week-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12362",
       "name": "Sau khi xác nhận đổi quà",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12362-rewards.txt",
+      "reference": "reference/386-12362-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:12362",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-redemption-success"
+      },
+      "rendered": "rendered/rewards-redemption-success-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12517",
       "name": "xác nhận đổi quà",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12517-rewards.txt",
+      "reference": "reference/386-12517-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:12517",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-redemption-confirm"
+      },
+      "rendered": "rendered/rewards-redemption-confirm-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12671",
       "name": "Nhận thưởng ngày",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12671-rewards.txt",
+      "reference": "reference/386-12671-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:12671",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-daily-award"
+      },
+      "rendered": "rendered/rewards-daily-award-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12823",
       "name": "Phần thưởng giải trí",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12823-rewards.txt",
+      "reference": "reference/386-12823-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:12823",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-entertainment"
+      },
+      "rendered": "rendered/rewards-entertainment-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:12956",
       "name": "Phần thưởng khác",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-12956-rewards.txt",
+      "reference": "reference/386-12956-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:12956",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-other"
+      },
+      "rendered": "rendered/rewards-other-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:13109",
       "name": "Phần thưởng voucher",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-13109-rewards.txt",
+      "reference": "reference/386-13109-rewards.png",
+      "implementation": {
+        "route": "/rewards/catalog?preview=1&frame=386:13109",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-voucher"
+      },
+      "rendered": "rendered/rewards-voucher-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:13263",
@@ -994,7 +1234,7 @@
         "render": "handbook"
       },
       "rendered": "rendered/handbook-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:13313",
@@ -1009,7 +1249,7 @@
         "render": "handbook-active"
       },
       "rendered": "rendered/handbook-active-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:13364",
@@ -1024,7 +1264,7 @@
         "render": "handbook-list"
       },
       "rendered": "rendered/handbook-list-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:13593",
@@ -1039,7 +1279,7 @@
         "render": "handbook-category-inorganic"
       },
       "rendered": "rendered/handbook-category-inorganic-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:13685",
@@ -1054,7 +1294,7 @@
         "render": "handbook-category-inorganic-tips"
       },
       "rendered": "rendered/handbook-category-inorganic-tips-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:13782",
@@ -1069,7 +1309,7 @@
         "render": "handbook-category-organic"
       },
       "rendered": "rendered/handbook-category-organic-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:13838",
@@ -1084,7 +1324,7 @@
         "render": "handbook-category-organic-tips"
       },
       "rendered": "rendered/handbook-category-organic-tips-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:13929",
@@ -1099,7 +1339,7 @@
         "render": "handbook-category-recycle"
       },
       "rendered": "rendered/handbook-category-recycle-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14037",
@@ -1114,14 +1354,14 @@
         "render": "handbook-category-recycle-tips"
       },
       "rendered": "rendered/handbook-category-recycle-tips-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14194",
       "name": "Scan",
       "width": 428,
       "height": 926,
-      "context": null,
+      "context": "contexts/386-14194.txt",
       "reference": "reference/386-14194.png",
       "implementation": {
         "route": "/scan?state=start&preview=1",
@@ -1129,14 +1369,14 @@
         "render": "scan-start"
       },
       "rendered": "rendered/scan-start-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14221",
       "name": "Scan1",
       "width": 428,
       "height": 926,
-      "context": null,
+      "context": "contexts/386-14221.txt",
       "reference": "reference/386-14221.png",
       "implementation": {
         "route": "/scan?state=camera&preview=1",
@@ -1144,7 +1384,7 @@
         "render": "scan-camera"
       },
       "rendered": "rendered/scan-camera-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14241",
@@ -1159,14 +1399,14 @@
         "render": "scan-loading"
       },
       "rendered": "rendered/scan-loading-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14264",
       "name": "Kqua_Scan2",
       "width": 428,
       "height": 926,
-      "context": null,
+      "context": "contexts/386-14264.txt",
       "reference": "reference/386-14264.png",
       "implementation": {
         "route": "/scan?state=unrecognized&preview=1",
@@ -1174,14 +1414,14 @@
         "render": "scan-unrecognized"
       },
       "rendered": "rendered/scan-unrecognized-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14309",
       "name": "Kqu_Scan2",
       "width": 428,
       "height": 926,
-      "context": null,
+      "context": "contexts/386-14309.txt",
       "reference": "reference/386-14309.png",
       "implementation": {
         "route": "/scan?state=result&preview=1",
@@ -1189,7 +1429,7 @@
         "render": "scan-result"
       },
       "rendered": "rendered/scan-result-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14346",
@@ -1204,7 +1444,7 @@
         "render": "scan-detail"
       },
       "rendered": "rendered/scan-detail-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14379",
@@ -1219,7 +1459,7 @@
         "render": "scan-award"
       },
       "rendered": "rendered/scan-award-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14454",
@@ -1234,7 +1474,7 @@
         "render": "scan-handbook"
       },
       "rendered": "rendered/scan-handbook-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14521",
@@ -1249,7 +1489,7 @@
         "render": "handbook-plastic"
       },
       "rendered": "rendered/handbook-plastic-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14595",
@@ -1264,7 +1504,7 @@
         "render": "handbook-carton"
       },
       "rendered": "rendered/handbook-carton-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14670",
@@ -1279,7 +1519,7 @@
         "render": "handbook-textiles"
       },
       "rendered": "rendered/handbook-textiles-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14745",
@@ -1294,7 +1534,7 @@
         "render": "handbook-battery"
       },
       "rendered": "rendered/handbook-battery-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14820",
@@ -1309,7 +1549,7 @@
         "render": "handbook-organic"
       },
       "rendered": "rendered/handbook-organic-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14895",
@@ -1324,7 +1564,7 @@
         "render": "handbook-glass"
       },
       "rendered": "rendered/handbook-glass-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:14970",
@@ -1339,124 +1579,164 @@
         "render": "handbook-paper"
       },
       "rendered": "rendered/handbook-paper-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:15047",
-      "name": "Đăng bài viết",
+      "name": "54. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15047-composer.txt",
+      "reference": "reference/386-15047-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15047",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-empty"
+      },
+      "rendered": "rendered/composer-empty-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:15090",
-      "name": "Đăng bài viết",
+      "name": "59. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15090-composer.txt",
+      "reference": "reference/386-15090-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15090",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-editor"
+      },
+      "rendered": "rendered/composer-editor-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:15150",
-      "name": "Đăng bài viết",
+      "name": "60. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15150-composer.txt",
+      "reference": "reference/386-15150-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15150",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-loading"
+      },
+      "rendered": "rendered/composer-loading-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:15209",
-      "name": "Đăng bài viết",
+      "name": "62. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15209-composer.txt",
+      "reference": "reference/386-15209-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15209",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-success"
+      },
+      "rendered": "rendered/composer-success-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:15270",
-      "name": "Đăng bài viết",
+      "name": "55. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15270-composer.txt",
+      "reference": "reference/386-15270-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15270",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-audience"
+      },
+      "rendered": "rendered/composer-audience-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:15419",
-      "name": "Đăng bài viết",
+      "name": "57. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15419-composer.txt",
+      "reference": "reference/386-15419-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15419",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-location"
+      },
+      "rendered": "rendered/composer-location-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:15552",
-      "name": "Đăng bài viết",
+      "name": "56. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15552-composer.txt",
+      "reference": "reference/386-15552-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15552",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-feeling"
+      },
+      "rendered": "rendered/composer-feeling-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:15972",
-      "name": "Đăng bài viết",
+      "name": "58. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-15972-composer.txt",
+      "reference": "reference/386-15972-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:15972",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-gallery"
+      },
+      "rendered": "rendered/composer-gallery-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:16071",
-      "name": "Đăng bài viết",
+      "name": "58. Đăng bài viết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-16071-composer.txt",
+      "reference": "reference/386-16071-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:16071",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-multiple"
+      },
+      "rendered": "rendered/composer-multiple-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:16188",
-      "name": "loading_đăng bài",
+      "name": "61. Đăng bài / Đang tải lên",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-16188-composer.txt",
+      "reference": "reference/386-16188-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=386:16188",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-upload"
+      },
+      "rendered": "rendered/composer-upload-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:16189",
       "name": "Kqu_Scan1",
       "width": 428,
       "height": 926,
-      "context": null,
+      "context": "contexts/386-16189.txt",
       "reference": "reference/386-16189.png",
       "implementation": {
         "route": "/scan?state=focused&preview=1",
@@ -1464,14 +1744,14 @@
         "render": "scan-focused"
       },
       "rendered": "rendered/scan-focused-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:16218",
       "name": "Kqu_Scan1",
       "width": 428,
       "height": 926,
-      "context": null,
+      "context": "contexts/386-16218.txt",
       "reference": "reference/386-16218.png",
       "implementation": {
         "route": "/scan?state=success&preview=1",
@@ -1479,29 +1759,37 @@
         "render": "scan-success"
       },
       "rendered": "rendered/scan-success-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:16253",
       "name": "Tích điểm và phần thưởng",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-16253-rewards.txt",
+      "reference": "reference/386-16253-rewards.png",
+      "implementation": {
+        "route": "/rewards?preview=1&frame=386:16253",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-wallet"
+      },
+      "rendered": "rendered/rewards-wallet-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:16592",
       "name": "Tích điểm và phần thưởng",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-16592-rewards.txt",
+      "reference": "reference/386-16592-rewards.png",
+      "implementation": {
+        "route": "/rewards?preview=1&frame=386:16592",
+        "source": "apps/mobile/src/features/rewards/RewardsDesignScreens.tsx",
+        "render": "rewards-wallet-level-three"
+      },
+      "rendered": "rendered/rewards-wallet-level-three-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:16931",
@@ -1516,7 +1804,7 @@
         "render": "handbook-types-plastic"
       },
       "rendered": "rendered/handbook-types-plastic-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:17005",
@@ -1531,7 +1819,7 @@
         "render": "handbook-types-medical"
       },
       "rendered": "rendered/handbook-types-medical-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:17077",
@@ -1546,7 +1834,7 @@
         "render": "handbook-types-bag"
       },
       "rendered": "rendered/handbook-types-bag-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:17145",
@@ -1561,348 +1849,370 @@
         "render": "handbook-types-battery"
       },
       "rendered": "rendered/handbook-types-battery-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:17222",
       "name": "Frame 36839",
       "width": 428,
       "height": 409,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17222-bot.txt",
+      "reference": "reference/386-17222-bot.png",
+      "implementation": {
+        "route": "/assistant?preview=1&frame=386:17222",
+        "source": "apps/mobile/src/features/assistant/BotDesignScreen.tsx",
+        "render": "bot-listening-idle",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/bot-listening-idle-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17262",
-      "name": "iPhone 14 Plus - 2",
+      "name": "67. iPhone 14 Plus - 2",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17262-chat.txt",
+      "reference": "reference/386-17262-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=386:17262",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-share"
+      },
+      "rendered": "rendered/chat-share-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17297",
       "name": "Frame 36707",
       "width": 106.90792083740234,
       "height": 60,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17297-final.txt",
+      "reference": "reference/386-17297-final.png",
+      "implementation": {
+        "route": "/design-preview?frame=386:17297",
+        "source": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+        "render": "final-battery",
+        "renderWidth": 107
+      },
+      "rendered": "rendered/final-battery-107.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17299",
       "name": "hoạt động 6",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17299.txt",
+      "reference": "reference/386-17299.png",
+      "implementation": {
+        "route": "/events/garden?preview=1&interested=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-garden-interested"
+      },
+      "rendered": "rendered/event-detail-garden-interested-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17397",
       "name": "hoạt động 4",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17397.txt",
+      "reference": "reference/386-17397.png",
+      "implementation": {
+        "route": "/events/beach?preview=1&interested=1",
+        "source": "apps/mobile/src/features/events/EventDetailDesignScreen.tsx",
+        "render": "event-detail-beach-interested"
+      },
+      "rendered": "rendered/event-detail-beach-interested-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17608",
-      "name": "tin tức chi tiết",
+      "name": "29. tin tức chi tiết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17608.txt",
+      "reference": "reference/386-17608.png",
+      "implementation": {
+        "route": "/articles/daily-waste?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-daily-waste"
+      },
+      "rendered": "rendered/news-detail-daily-waste-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17701",
-      "name": "tin tức chi tiết",
+      "name": "29. tin tức chi tiết",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17701.txt",
+      "reference": "reference/386-17701.png",
+      "implementation": {
+        "route": "/articles/daily-waste?preview=1&expanded=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-daily-waste-expanded"
+      },
+      "rendered": "rendered/news-detail-daily-waste-expanded-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17794",
-      "name": "tin tức chi tiết 3",
+      "name": "29. tin tức chi tiết 3",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17794.txt",
+      "reference": "reference/386-17794.png",
+      "implementation": {
+        "route": "/articles/local-cleanup?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-local-cleanup"
+      },
+      "rendered": "rendered/news-detail-local-cleanup-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17887",
-      "name": "tin tức chi tiết 5",
+      "name": "29. tin tức chi tiết 5",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17887.txt",
+      "reference": "reference/386-17887.png",
+      "implementation": {
+        "route": "/articles/storm-cleanup?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-storm-cleanup"
+      },
+      "rendered": "rendered/news-detail-storm-cleanup-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:17978",
-      "name": "tin tức chi tiết 7",
+      "name": "29. tin tức chi tiết 7",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-17978.txt",
+      "reference": "reference/386-17978.png",
+      "implementation": {
+        "route": "/articles/ha-long?preview=1",
+        "source": "apps/mobile/src/features/content/NewsArticleScreen.tsx",
+        "render": "news-detail-ha-long"
+      },
+      "rendered": "rendered/news-detail-ha-long-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18069",
       "name": "hoạt động yêu thích",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
-    },
-    {
-      "nodeId": "386:18153",
-      "name": "Thông báo",
-      "width": 428,
-      "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18069.txt",
+      "reference": "reference/386-18069.png",
+      "implementation": {
+        "route": "/saved?preview=1",
+        "source": "apps/mobile/src/features/events/SavedEventScreens.tsx",
+        "render": "events-saved"
+      },
+      "rendered": "rendered/events-saved-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18241",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18241-final.txt",
+      "reference": "reference/386-18241-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=386:18241",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-games"
+      },
+      "rendered": "rendered/final-games-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18285",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18285-final.txt",
+      "reference": "reference/386-18285-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=386:18285",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-lobby"
+      },
+      "rendered": "rendered/final-lobby-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18308",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18308-final.txt",
+      "reference": "reference/386-18308-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=386:18308",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-sorting"
+      },
+      "rendered": "rendered/final-sorting-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18336",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18336-final.txt",
+      "reference": "reference/386-18336-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=386:18336",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-sorting-moved"
+      },
+      "rendered": "rendered/final-sorting-moved-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18364",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18364-final.txt",
+      "reference": "reference/386-18364-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=386:18364",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-sorting-filled"
+      },
+      "rendered": "rendered/final-sorting-filled-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "427:19392",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/427-19392-final.txt",
+      "reference": "reference/427-19392-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=427:19392",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-sorting-partial"
+      },
+      "rendered": "rendered/final-sorting-partial-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18396",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18396-final.txt",
+      "reference": "reference/386-18396-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=386:18396",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-sorting-checked"
+      },
+      "rendered": "rendered/final-sorting-checked-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "427:19460",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/427-19460-final.txt",
+      "reference": "reference/427-19460-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=427:19460",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-sorting-partial-checked"
+      },
+      "rendered": "rendered/final-sorting-partial-checked-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18428",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18428-final.txt",
+      "reference": "reference/386-18428-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=386:18428",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-result"
+      },
+      "rendered": "rendered/final-result-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "487:19805",
       "name": "Trò chơi",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/487-19805-final.txt",
+      "reference": "reference/487-19805-final.png",
+      "implementation": {
+        "route": "/game?preview=1&frame=487:19805",
+        "source": "apps/mobile/src/features/backuped/BackupedGameScreen.tsx",
+        "render": "final-partial-result"
+      },
+      "rendered": "rendered/final-partial-result-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "386:18473",
       "name": "iPhone 14 Plus - 157",
       "width": 428,
       "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
-    },
-    {
-      "nodeId": "386:18479",
-      "name": "map",
-      "width": 428,
-      "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
-    },
-    {
-      "nodeId": "386:18563",
-      "name": "map",
-      "width": 428,
-      "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
-    },
-    {
-      "nodeId": "386:18627",
-      "name": "map",
-      "width": 428,
-      "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
-    },
-    {
-      "nodeId": "386:18677",
-      "name": "map",
-      "width": 428,
-      "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
-    },
-    {
-      "nodeId": "386:18770",
-      "name": "map",
-      "width": 428,
-      "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
-    },
-    {
-      "nodeId": "386:18842",
-      "name": "map",
-      "width": 428,
-      "height": 926,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/386-18473-final.txt",
+      "reference": "reference/386-18473-final.png",
+      "implementation": {
+        "route": "/design-preview?frame=386:18473",
+        "source": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+        "render": "final-loading",
+        "renderWidth": 428
+      },
+      "rendered": "rendered/final-loading-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "391:24796",
-      "name": "tin tức",
+      "name": "26. tin tức",
       "width": 428,
       "height": 1686,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/391-24796.txt",
+      "reference": "reference/391-24796.png",
+      "implementation": {
+        "route": "/articles?preview=1",
+        "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+        "render": "news-landing-all"
+      },
+      "rendered": "rendered/news-landing-all-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "391:25009",
       "name": "thống kê",
       "width": 428,
       "height": 1726,
-      "context": null,
-      "reference": null,
-      "implementation": null,
-      "rendered": null,
-      "status": "pending"
+      "context": "contexts/391-25009-final.txt",
+      "reference": "reference/391-25009-final.png",
+      "implementation": {
+        "route": "/statistics?preview=1",
+        "source": "apps/mobile/src/features/backuped/BackupedParts.tsx",
+        "render": "final-statistics"
+      },
+      "rendered": "rendered/final-statistics-428.png",
+      "status": "implemented"
     },
     {
       "nodeId": "391:25197",
@@ -1917,7 +2227,7 @@
         "render": "home"
       },
       "rendered": "rendered/home-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7148",
@@ -1932,7 +2242,7 @@
         "render": "splash"
       },
       "rendered": "rendered/splash-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7418",
@@ -1947,7 +2257,7 @@
         "render": "welcome"
       },
       "rendered": "rendered/welcome-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7154",
@@ -1962,7 +2272,7 @@
         "render": "reduce"
       },
       "rendered": "rendered/reduce-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7158",
@@ -1977,7 +2287,7 @@
         "render": "reuse"
       },
       "rendered": "rendered/reuse-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7149",
@@ -1992,7 +2302,7 @@
         "render": "recycle-intro"
       },
       "rendered": "rendered/recycle-intro-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7151",
@@ -2007,7 +2317,7 @@
         "render": "interests"
       },
       "rendered": "rendered/interests-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7156",
@@ -2022,7 +2332,7 @@
         "render": "goals"
       },
       "rendered": "rendered/goals-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7160",
@@ -2037,7 +2347,7 @@
         "render": "location-intro"
       },
       "rendered": "rendered/location-intro-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7168",
@@ -2052,7 +2362,7 @@
         "render": "reminders"
       },
       "rendered": "rendered/reminders-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "386:7176",
@@ -2067,11 +2377,11 @@
         "render": "ready"
       },
       "rendered": "rendered/ready-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "514:5093",
-      "name": "Cài đặt · Overlay · Tìm kiếm",
+      "name": "19 Cài đặt · Overlay · Tìm kiếm",
       "width": 428,
       "height": 931,
       "context": "contexts/514-5093.txt",
@@ -2082,11 +2392,11 @@
         "render": "settings-search"
       },
       "rendered": "rendered/settings-search-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "514:5096",
-      "name": "Cài đặt · Overlay · Âm thanh và rung",
+      "name": "20 Cài đặt · Overlay · Âm thanh và rung",
       "width": 428,
       "height": 931,
       "context": "contexts/514-5096.txt",
@@ -2097,11 +2407,11 @@
         "render": "settings-sound"
       },
       "rendered": "rendered/settings-sound-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "514:5099",
-      "name": "Cài đặt · Overlay · Lịch sử đăng nhập",
+      "name": "21 Cài đặt · Overlay · Lịch sử đăng nhập",
       "width": 428,
       "height": 931,
       "context": "contexts/514-5099.txt",
@@ -2112,11 +2422,11 @@
         "render": "settings-history"
       },
       "rendered": "rendered/settings-history-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "514:5102",
-      "name": "Cài đặt · Overlay · Thiết lập PIN",
+      "name": "22 Cài đặt · Overlay · Thiết lập PIN",
       "width": 428,
       "height": 931,
       "context": "contexts/514-5102.txt",
@@ -2127,7 +2437,7 @@
         "render": "settings-pin"
       },
       "rendered": "rendered/settings-pin-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
     },
     {
       "nodeId": "521:4735",
@@ -2142,8 +2452,742 @@
         "render": "change-password"
       },
       "rendered": "rendered/change-password-428.png",
-      "status": "implemented-awaiting-complete-visual-audit"
+      "status": "implemented"
+    },
+    {
+      "nodeId": "609:5165",
+      "name": "30. Tin tức · Tìm kiếm và lọc",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/609-5165.txt",
+      "reference": "reference/609-5165.png",
+      "implementation": {
+        "route": "/articles?view=search&preview=1",
+        "source": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+        "render": "news-search"
+      },
+      "rendered": "rendered/news-search-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "609:5266",
+      "name": "31. Tin tức · Bài viết đã lưu",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/609-5266.txt",
+      "reference": "reference/609-5266.png",
+      "implementation": {
+        "route": "/articles/saved?preview=1",
+        "source": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+        "render": "news-saved"
+      },
+      "rendered": "rendered/news-saved-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "609:5361",
+      "name": "32. Tin tức · Thảo luận bài viết",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/609-5361.txt",
+      "reference": "reference/609-5361.png",
+      "implementation": {
+        "route": "/articles/discussion?id=daily-waste&preview=1",
+        "source": "apps/mobile/src/features/content/NewsDiscussionView.tsx",
+        "render": "news-discussion"
+      },
+      "rendered": "rendered/news-discussion-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "612:5286",
+      "name": "33. Tin tức · Khám phá chủ đề",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/612-5286.txt",
+      "reference": "reference/612-5286.png",
+      "implementation": {
+        "route": "/articles/topics?preview=1",
+        "source": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+        "render": "news-topics"
+      },
+      "rendered": "rendered/news-topics-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "612:5362",
+      "name": "34. Tin tức · Lịch sự kiện xanh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/612-5362.txt",
+      "reference": "reference/612-5362.png",
+      "implementation": {
+        "route": "/articles/calendar?preview=1",
+        "source": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+        "render": "news-calendar"
+      },
+      "rendered": "rendered/news-calendar-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "612:5441",
+      "name": "34. Tin tức · Bản tin nhanh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/612-5441.txt",
+      "reference": "reference/612-5441.png",
+      "implementation": {
+        "route": "/articles/briefs?preview=1",
+        "source": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+        "render": "news-briefs"
+      },
+      "rendered": "rendered/news-briefs-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "680:5343",
+      "name": "35. Tin tức / Tìm kiếm và kết quả",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/680-5343.txt",
+      "reference": "reference/680-5343.png",
+      "implementation": {
+        "route": "/articles/search?preview=1",
+        "source": "apps/mobile/src/features/content/NewsSearchScreen.tsx",
+        "render": "news-search-list"
+      },
+      "rendered": "rendered/news-search-list-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "680:5406",
+      "name": "36. Tin tức / Danh sách đọc",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/680-5406.txt",
+      "reference": "reference/680-5406.png",
+      "implementation": {
+        "route": "/articles/reading-list?preview=1",
+        "source": "apps/mobile/src/features/content/NewsReadingListScreen.tsx",
+        "render": "news-reading-list"
+      },
+      "rendered": "rendered/news-reading-list-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "680:5461",
+      "name": "37. Tin tức / Chi tiết sự kiện xanh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/680-5461.txt",
+      "reference": "reference/680-5461.png",
+      "implementation": {
+        "route": "/articles/events/nhieu-loc?preview=1",
+        "source": "apps/mobile/src/features/content/NewsEventScreen.tsx",
+        "render": "news-green-event"
+      },
+      "rendered": "rendered/news-green-event-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "695:5419",
+      "name": "37. Tin tức / Xác nhận quan tâm sự kiện",
+      "width": 340,
+      "height": 255,
+      "context": "contexts/695-5419.txt",
+      "reference": "reference/695-5419.png",
+      "implementation": {
+        "route": "/articles/events/nhieu-loc?preview=1&confirm=1",
+        "source": "apps/mobile/src/features/content/NewsEventScreen.tsx",
+        "render": "news-event-interested"
+      },
+      "rendered": "rendered/news-event-interested-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "703:5399",
+      "name": "49. Thông báo / Bộ lọc",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/703-5399-notifications.txt",
+      "reference": "reference/703-5399-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=703:5399",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-unread"
+      },
+      "rendered": "rendered/notifications-unread-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "703:5468",
+      "name": "50. Thông báo / Chi tiết phân loại",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/703-5468-notifications.txt",
+      "reference": "reference/703-5468-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=703:5468",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-detail"
+      },
+      "rendered": "rendered/notifications-detail-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "703:5524",
+      "name": "51. Thông báo / Cài đặt",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/703-5524-notifications.txt",
+      "reference": "reference/703-5524-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=703:5524",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-settings"
+      },
+      "rendered": "rendered/notifications-settings-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "703:5589",
+      "name": "52. Thông báo / Đã xem hết",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/703-5589-notifications.txt",
+      "reference": "reference/703-5589-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=703:5589",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-empty"
+      },
+      "rendered": "rendered/notifications-empty-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "712:5475",
+      "name": "53. Thông báo / Hoạt động",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/712-5475-notifications.txt",
+      "reference": "reference/712-5475-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=712:5475",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-activity"
+      },
+      "rendered": "rendered/notifications-activity-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "712:5578",
+      "name": "51. Thông báo / Cài đặt · Hoạt động đã đổi",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/712-5578-notifications.txt",
+      "reference": "reference/712-5578-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=712:5578",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-settings-activity"
+      },
+      "rendered": "rendered/notifications-settings-activity-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "712:5667",
+      "name": "51. Thông báo / Cài đặt · Ưu đãi đã đổi",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/712-5667-notifications.txt",
+      "reference": "reference/712-5667-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=712:5667",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-settings-offers"
+      },
+      "rendered": "rendered/notifications-settings-offers-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "712:5756",
+      "name": "51.  Thông báo / Cài đặt · Cộng đồng đã đổi",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/712-5756-notifications.txt",
+      "reference": "reference/712-5756-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=712:5756",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-settings-community"
+      },
+      "rendered": "rendered/notifications-settings-community-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "712:5845",
+      "name": "51. Thông báo / Cài đặt · Tin tức đã đổi",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/712-5845-notifications.txt",
+      "reference": "reference/712-5845-notifications.png",
+      "implementation": {
+        "route": "/notifications?preview=1&frame=712:5845",
+        "source": "apps/mobile/src/features/notifications/NotificationScreens.tsx",
+        "render": "notifications-settings-news"
+      },
+      "rendered": "rendered/notifications-settings-news-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "722:5570",
+      "name": "40. Cộng đồng / Khám phá",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/722-5570-community.txt",
+      "reference": "reference/722-5570-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=722:5570",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-explore"
+      },
+      "rendered": "rendered/community-explore-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "722:5635",
+      "name": "40. Cộng đồng / Chi tiết bài đăng",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/722-5635-community.txt",
+      "reference": "reference/722-5635-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=722:5635",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-post"
+      },
+      "rendered": "rendered/community-post-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "722:5699",
+      "name": "41. Cộng đồng / Trang thành viên",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/722-5699-community.txt",
+      "reference": "reference/722-5699-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=722:5699",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-member"
+      },
+      "rendered": "rendered/community-member-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "722:5749",
+      "name": "42. Cộng đồng / Bài đã lưu",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/722-5749-community.txt",
+      "reference": "reference/722-5749-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=722:5749",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-saved"
+      },
+      "rendered": "rendered/community-saved-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "723:5646",
+      "name": "43. Cộng đồng / Viết bình luận",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/723-5646-community.txt",
+      "reference": "reference/723-5646-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=723:5646",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-comment"
+      },
+      "rendered": "rendered/community-comment-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "723:5722",
+      "name": "44. Cộng đồng / Đã gửi bình luận",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/723-5722-community.txt",
+      "reference": "reference/723-5722-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=723:5722",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-comment-sent"
+      },
+      "rendered": "rendered/community-comment-sent-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "723:5809",
+      "name": "45. Cộng đồng / Tùy chọn bài đăng",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/723-5809-community.txt",
+      "reference": "reference/723-5809-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=723:5809",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-post-options"
+      },
+      "rendered": "rendered/community-post-options-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "723:5892",
+      "name": "46. Cộng đồng / Đang theo dõi thành viên",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/723-5892-community.txt",
+      "reference": "reference/723-5892-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=723:5892",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-member-following"
+      },
+      "rendered": "rendered/community-member-following-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "733:5722",
+      "name": "47. Cộng đồng / Lọc thành viên",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/733-5722-community.txt",
+      "reference": "reference/733-5722-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=733:5722",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-members"
+      },
+      "rendered": "rendered/community-members-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "733:5787",
+      "name": "47. Cộng đồng / Lọc chủ đề",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/733-5787-community.txt",
+      "reference": "reference/733-5787-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=733:5787",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-topics"
+      },
+      "rendered": "rendered/community-topics-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "734:5760",
+      "name": "45. Cộng đồng / Bài đăng đã thích",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/734-5760-community.txt",
+      "reference": "reference/734-5760-community.png",
+      "implementation": {
+        "route": "/community?preview=1&frame=734:5760",
+        "source": "apps/mobile/src/features/community/CommunityDesignScreens.tsx",
+        "render": "community-post-liked"
+      },
+      "rendered": "rendered/community-post-liked-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "741:5779",
+      "name": "63. Đăng bài / Bản nháp có ảnh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/741-5779-composer.txt",
+      "reference": "reference/741-5779-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=741:5779",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-photos"
+      },
+      "rendered": "rendered/composer-photos-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "741:5846",
+      "name": "64. Đăng bài / Đã gắn vị trí",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/741-5846-composer.txt",
+      "reference": "reference/741-5846-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=741:5846",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-located"
+      },
+      "rendered": "rendered/composer-located-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "741:5913",
+      "name": "64. Đăng bài / Đã thêm cảm xúc",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/741-5913-composer.txt",
+      "reference": "reference/741-5913-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=741:5913",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-feeling-added"
+      },
+      "rendered": "rendered/composer-feeling-added-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "741:5980",
+      "name": "64. Đăng bài / Người xem: Bạn bè",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/741-5980-composer.txt",
+      "reference": "reference/741-5980-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=741:5980",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-friends"
+      },
+      "rendered": "rendered/composer-friends-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "741:6047",
+      "name": "64. Đăng bài / Người xem: Chỉ mình tôi",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/741-6047-composer.txt",
+      "reference": "reference/741-6047-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=741:6047",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-private"
+      },
+      "rendered": "rendered/composer-private-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "741:6114",
+      "name": "65. Đăng bài / Xem trước bài viết",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/741-6114-composer.txt",
+      "reference": "reference/741-6114-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=741:6114",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-preview"
+      },
+      "rendered": "rendered/composer-preview-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "743:6023",
+      "name": "66. Đăng bài / Chụp ảnh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/743-6023-composer.txt",
+      "reference": "reference/743-6023-composer.png",
+      "implementation": {
+        "route": "/compose?preview=1&frame=743:6023",
+        "source": "apps/mobile/src/features/community/ComposerDesignScreen.tsx",
+        "render": "composer-camera"
+      },
+      "rendered": "rendered/composer-camera-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6023",
+      "name": "71. Chat / Chọn emoji",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6023-chat.txt",
+      "reference": "reference/771-6023-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6023",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-emoji"
+      },
+      "rendered": "rendered/chat-emoji-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6077",
+      "name": "71. Chat / Đã gửi emoji",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6077-chat.txt",
+      "reference": "reference/771-6077-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6077",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-emoji-sent"
+      },
+      "rendered": "rendered/chat-emoji-sent-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6108",
+      "name": "72. Chat / Đính kèm",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6108-chat.txt",
+      "reference": "reference/771-6108-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6108",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-attachments"
+      },
+      "rendered": "rendered/chat-attachments-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6144",
+      "name": "73. Chat / Xem trước ảnh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6144-chat.txt",
+      "reference": "reference/771-6144-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6144",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-photo-preview"
+      },
+      "rendered": "rendered/chat-photo-preview-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6180",
+      "name": "74. Chat / Đã gửi ảnh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6180-chat.txt",
+      "reference": "reference/771-6180-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6180",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-photo-sent"
+      },
+      "rendered": "rendered/chat-photo-sent-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6480",
+      "name": "71. Chat / Đã gửi tệp",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6480-chat.txt",
+      "reference": "reference/771-6480-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6480",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-file-sent"
+      },
+      "rendered": "rendered/chat-file-sent-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6514",
+      "name": "71. Chat / Đang ghi âm",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6514-chat.txt",
+      "reference": "reference/771-6514-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6514",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-recording"
+      },
+      "rendered": "rendered/chat-recording-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "771:6565",
+      "name": "71. Chat / Đã gửi ghi âm",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/771-6565-chat.txt",
+      "reference": "reference/771-6565-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=771:6565",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-voice-sent"
+      },
+      "rendered": "rendered/chat-voice-sent-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "772:6456",
+      "name": "71. Chat / Đang soạn tin",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/772-6456-chat.txt",
+      "reference": "reference/772-6456-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=772:6456",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-editing"
+      },
+      "rendered": "rendered/chat-editing-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "772:6544",
+      "name": "71. Chat / Đã gửi tin",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/772-6544-chat.txt",
+      "reference": "reference/772-6544-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=772:6544",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-text-sent"
+      },
+      "rendered": "rendered/chat-text-sent-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "773:6563",
+      "name": "75. Chat / Chọn ảnh",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/773-6563-chat.txt",
+      "reference": "reference/773-6563-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=773:6563",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-photos"
+      },
+      "rendered": "rendered/chat-photos-428.png",
+      "status": "implemented"
+    },
+    {
+      "nodeId": "773:6609",
+      "name": "76. Chat / Chọn tệp",
+      "width": 428,
+      "height": 926,
+      "context": "contexts/773-6609-chat.txt",
+      "reference": "reference/773-6609-chat.png",
+      "implementation": {
+        "route": "/messages?preview=1&frame=773:6609",
+        "source": "apps/mobile/src/features/messages/ChatDesignScreens.tsx",
+        "render": "chat-files"
+      },
+      "rendered": "rendered/chat-files-428.png",
+      "status": "implemented"
     }
-  ],
-  "blocker": "Figma MCP denies design reads; the desktop Figma window remains minimized and cannot be restored by the available UI tool."
+  ]
 }

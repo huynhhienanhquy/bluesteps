@@ -1,0 +1,1029 @@
+{
+  "pageId": "386:7053",
+  "pageName": "backuped",
+  "frame": "680:5343",
+  "width": 428,
+  "height": 926,
+  "nodes": [
+    {
+      "id": "680:5343",
+      "parent": "386:7053",
+      "type": "FRAME",
+      "name": "35. Tin tức / Tìm kiếm và kết quả",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 926
+    },
+    {
+      "id": "680:5344",
+      "parent": "680:5343",
+      "type": "GROUP",
+      "name": "time line",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "680:5345",
+      "parent": "680:5344",
+      "type": "GROUP",
+      "name": "Group 1",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "680:5346",
+      "parent": "680:5345",
+      "type": "INSTANCE",
+      "name": "iPhone/Status Bar",
+      "x": 0,
+      "y": 0,
+      "width": 428,
+      "height": 43
+    },
+    {
+      "id": "I680:5346;47:200",
+      "parent": "680:5346",
+      "type": "GROUP",
+      "name": "Right Side",
+      "x": 336.666015625,
+      "y": 17.3310546875,
+      "width": 66.66201782226562,
+      "height": 11.335594177246094
+    },
+    {
+      "id": "I680:5346;47:201",
+      "parent": "I680:5346;47:200",
+      "type": "GROUP",
+      "name": "Battery",
+      "x": 378.9990234375,
+      "y": 17.3333740234375,
+      "width": 24.32803726196289,
+      "height": 11.333333015441895
+    },
+    {
+      "id": "I680:5346;47:202",
+      "parent": "I680:5346;47:201",
+      "type": "VECTOR",
+      "name": "Rectangle",
+      "x": 379,
+      "y": 17.3333740234375,
+      "width": 22,
+      "height": 11.333333015441895
+    },
+    {
+      "id": "I680:5346;47:203",
+      "parent": "I680:5346;47:201",
+      "type": "VECTOR",
+      "name": "Combined Shape",
+      "x": 402,
+      "y": 21,
+      "width": 1.328037977218628,
+      "height": 4
+    },
+    {
+      "id": "I680:5346;47:204",
+      "parent": "I680:5346;47:201",
+      "type": "VECTOR",
+      "name": "Rectangle",
+      "x": 381,
+      "y": 19.3333740234375,
+      "width": 18,
+      "height": 7.333333492279053
+    },
+    {
+      "id": "I680:5346;47:205",
+      "parent": "I680:5346;47:200",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Wifi",
+      "x": 358.693359375,
+      "y": 17.3310546875,
+      "width": 15.272473335266113,
+      "height": 10.965208053588867
+    },
+    {
+      "id": "I680:5346;47:206",
+      "parent": "I680:5346;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 358.693359375,
+      "y": 17.3306884765625,
+      "width": 15.27237606048584,
+      "height": 4.743237495422363
+    },
+    {
+      "id": "I680:5346;47:207",
+      "parent": "I680:5346;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 361.3564453125,
+      "y": 21.1246337890625,
+      "width": 9.94901180267334,
+      "height": 3.6339809894561768
+    },
+    {
+      "id": "I680:5346;47:208",
+      "parent": "I680:5346;47:205",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "x": 364.0166015625,
+      "y": 24.9217529296875,
+      "width": 4.626293659210205,
+      "height": 3.3744072914123535
+    },
+    {
+      "id": "I680:5346;47:209",
+      "parent": "I680:5346;47:200",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Mobile Signal",
+      "x": 336.666015625,
+      "y": 17.66650390625,
+      "width": 17,
+      "height": 10.6669921875
+    },
+    {
+      "id": "I680:5346;47:210",
+      "parent": "I680:5346;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 336.666015625,
+      "y": 24.333251953125,
+      "width": 3,
+      "height": 4
+    },
+    {
+      "id": "I680:5346;47:211",
+      "parent": "I680:5346;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 341.3330078125,
+      "y": 22.333251953125,
+      "width": 3,
+      "height": 6
+    },
+    {
+      "id": "I680:5346;47:212",
+      "parent": "I680:5346;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 346,
+      "y": 19.9998779296875,
+      "width": 3,
+      "height": 8.333333015441895
+    },
+    {
+      "id": "I680:5346;47:213",
+      "parent": "I680:5346;47:209",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "x": 350.666015625,
+      "y": 17.66650390625,
+      "width": 3,
+      "height": 10.666666984558105
+    },
+    {
+      "id": "I680:5346;47:216",
+      "parent": "680:5346",
+      "type": "GROUP",
+      "name": "Left Side",
+      "x": 12,
+      "y": 12,
+      "width": 52,
+      "height": 21
+    },
+    {
+      "id": "I680:5346;47:217",
+      "parent": "I680:5346;47:216",
+      "type": "FRAME",
+      "name": "Time",
+      "x": 12,
+      "y": 12,
+      "width": 52,
+      "height": 21
+    },
+    {
+      "id": "I680:5346;47:218",
+      "parent": "I680:5346;47:217",
+      "type": "VECTOR",
+      "name": "9:41",
+      "x": 24,
+      "y": 16,
+      "width": 28,
+      "height": 12
+    },
+    {
+      "id": "680:5347",
+      "parent": "680:5343",
+      "type": "GROUP",
+      "name": "Group 36735",
+      "x": -4,
+      "y": 810,
+      "width": 444,
+      "height": 116
+    },
+    {
+      "id": "680:5348",
+      "parent": "680:5347",
+      "type": "GROUP",
+      "name": "Group 36733",
+      "x": -4,
+      "y": 849,
+      "width": 185,
+      "height": 77
+    },
+    {
+      "id": "680:5349",
+      "parent": "680:5348",
+      "type": "RECTANGLE",
+      "name": "Rectangle 17",
+      "x": -4,
+      "y": 849,
+      "width": 185,
+      "height": 77
+    },
+    {
+      "id": "680:5350",
+      "parent": "680:5347",
+      "type": "RECTANGLE",
+      "name": "Rectangle 18",
+      "x": 255,
+      "y": 851,
+      "width": 185,
+      "height": 75
+    },
+    {
+      "id": "680:5351",
+      "parent": "680:5347",
+      "type": "VECTOR",
+      "name": "Rectangle 87",
+      "x": 173,
+      "y": 859,
+      "width": 95,
+      "height": 67
+    },
+    {
+      "id": "680:5352",
+      "parent": "680:5347",
+      "type": "GROUP",
+      "name": "Group 36734",
+      "x": 285,
+      "y": 868,
+      "width": 112,
+      "height": 28
+    },
+    {
+      "id": "680:5353",
+      "parent": "680:5352",
+      "type": "GROUP",
+      "name": "Group 36722",
+      "x": 369,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5354",
+      "parent": "680:5353",
+      "type": "GROUP",
+      "name": "Group",
+      "x": 369,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5355",
+      "parent": "680:5354",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 377.400390625,
+      "y": 873.60009765625,
+      "width": 11.200000762939453,
+      "height": 11.19999885559082
+    },
+    {
+      "id": "680:5356",
+      "parent": "680:5354",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 369,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5357",
+      "parent": "680:5352",
+      "type": "GROUP",
+      "name": "Group 36703",
+      "x": 285,
+      "y": 868,
+      "width": 28,
+      "height": 27.999975204467773
+    },
+    {
+      "id": "680:5358",
+      "parent": "680:5357",
+      "type": "GROUP",
+      "name": "Group",
+      "x": 285,
+      "y": 868,
+      "width": 28,
+      "height": 27.999975204467773
+    },
+    {
+      "id": "680:5359",
+      "parent": "680:5358",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 286.248046875,
+      "y": 880.5999755859375,
+      "width": 25.503496170043945,
+      "height": 15.399999618530273
+    },
+    {
+      "id": "680:5360",
+      "parent": "680:5358",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 285,
+      "y": 868,
+      "width": 28,
+      "height": 27.299999237060547
+    },
+    {
+      "id": "680:5361",
+      "parent": "680:5347",
+      "type": "GROUP",
+      "name": "Group 36732",
+      "x": 16,
+      "y": 861,
+      "width": 138,
+      "height": 47
+    },
+    {
+      "id": "680:5362",
+      "parent": "680:5361",
+      "type": "GROUP",
+      "name": "Group",
+      "x": 126,
+      "y": 868,
+      "width": 28,
+      "height": 30.5457763671875
+    },
+    {
+      "id": "680:5363",
+      "parent": "680:5362",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 126,
+      "y": 874.87158203125,
+      "width": 28,
+      "height": 23.6741943359375
+    },
+    {
+      "id": "680:5364",
+      "parent": "680:5362",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 126.873046875,
+      "y": 868,
+      "width": 26.25115966796875,
+      "height": 25.964494705200195
+    },
+    {
+      "id": "680:5365",
+      "parent": "680:5361",
+      "type": "GROUP",
+      "name": "Group 37108",
+      "x": 16,
+      "y": 861,
+      "width": 87,
+      "height": 47
+    },
+    {
+      "id": "680:5366",
+      "parent": "680:5365",
+      "type": "RECTANGLE",
+      "name": "Rectangle 759",
+      "x": 16,
+      "y": 861,
+      "width": 87,
+      "height": 47
+    },
+    {
+      "id": "680:5367",
+      "parent": "680:5365",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 44,
+      "y": 868,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "id": "680:5368",
+      "parent": "680:5347",
+      "type": "GROUP",
+      "name": "Group 36731",
+      "x": 181,
+      "y": 810,
+      "width": 75,
+      "height": 75
+    },
+    {
+      "id": "680:5369",
+      "parent": "680:5368",
+      "type": "ELLIPSE",
+      "name": "Ellipse 9",
+      "x": 181,
+      "y": 810,
+      "width": 75,
+      "height": 75
+    },
+    {
+      "id": "680:5370",
+      "parent": "680:5368",
+      "type": "VECTOR",
+      "name": "Vector",
+      "x": 204,
+      "y": 833,
+      "width": 30,
+      "height": 30
+    },
+    {
+      "id": "680:5371",
+      "parent": "680:5347",
+      "type": "LINE",
+      "name": "Line 1",
+      "x": 157,
+      "y": 920,
+      "width": 141,
+      "height": 0
+    },
+    {
+      "id": "680:5372",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Nút điều hướng",
+      "x": 28,
+      "y": 60,
+      "width": 34,
+      "height": 34
+    },
+    {
+      "id": "680:5373",
+      "parent": "680:5372",
+      "type": "TEXT",
+      "name": "Biểu tượng",
+      "x": 28,
+      "y": 64,
+      "width": 34,
+      "height": 26,
+      "text": "‹",
+      "fontSize": 18,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5374",
+      "parent": "680:5343",
+      "type": "TEXT",
+      "name": "Tiêu đề màn hình",
+      "x": 75,
+      "y": 62,
+      "width": 325,
+      "height": 34,
+      "text": "Tìm kiếm tin tức",
+      "fontSize": 25,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5375",
+      "parent": "680:5343",
+      "type": "TEXT",
+      "name": "Mô tả",
+      "x": 30,
+      "y": 103,
+      "width": 366,
+      "height": 38,
+      "text": "Tìm câu chuyện và hoạt động xanh bạn quan tâm",
+      "fontSize": 12,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5376",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Ô tìm kiếm đang nhập",
+      "x": 28,
+      "y": 151,
+      "width": 372,
+      "height": 52
+    },
+    {
+      "id": "680:5377",
+      "parent": "680:5376",
+      "type": "TEXT",
+      "name": "Biểu tượng tìm kiếm",
+      "x": 43,
+      "y": 158,
+      "width": 26,
+      "height": 32,
+      "text": "⌕",
+      "fontSize": 27,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5378",
+      "parent": "680:5376",
+      "type": "TEXT",
+      "name": "Từ khóa",
+      "x": 80,
+      "y": 166,
+      "width": 250,
+      "height": 25,
+      "text": "rác thải",
+      "fontSize": 15,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5379",
+      "parent": "680:5376",
+      "type": "TEXT",
+      "name": "Xóa từ khóa",
+      "x": 361,
+      "y": 164,
+      "width": 24,
+      "height": 25,
+      "text": "×",
+      "fontSize": 19,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5380",
+      "parent": "680:5343",
+      "type": "TEXT",
+      "name": "Nhãn tìm kiếm gần đây",
+      "x": 30,
+      "y": 224,
+      "width": 240,
+      "height": 24,
+      "text": "Tìm kiếm gần đây",
+      "fontSize": 15,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5381",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Từ khóa / tái chế",
+      "x": 30,
+      "y": 255,
+      "width": 95,
+      "height": 33
+    },
+    {
+      "id": "680:5382",
+      "parent": "680:5381",
+      "type": "TEXT",
+      "name": "Nhãn",
+      "x": 38,
+      "y": 263,
+      "width": 79,
+      "height": 18,
+      "text": "tái chế",
+      "fontSize": 12,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5383",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Từ khóa / dọn rác",
+      "x": 133,
+      "y": 255,
+      "width": 106,
+      "height": 33
+    },
+    {
+      "id": "680:5384",
+      "parent": "680:5383",
+      "type": "TEXT",
+      "name": "Nhãn",
+      "x": 141,
+      "y": 263,
+      "width": 90,
+      "height": 18,
+      "text": "dọn rác",
+      "fontSize": 12,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5385",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Từ khóa / sống xanh",
+      "x": 247,
+      "y": 255,
+      "width": 120,
+      "height": 33
+    },
+    {
+      "id": "680:5386",
+      "parent": "680:5385",
+      "type": "TEXT",
+      "name": "Nhãn",
+      "x": 255,
+      "y": 263,
+      "width": 104,
+      "height": 18,
+      "text": "sống xanh",
+      "fontSize": 12,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5387",
+      "parent": "680:5343",
+      "type": "RECTANGLE",
+      "name": "Divider",
+      "x": 28,
+      "y": 307,
+      "width": 372,
+      "height": 1
+    },
+    {
+      "id": "680:5388",
+      "parent": "680:5343",
+      "type": "TEXT",
+      "name": "Tiêu đề kết quả",
+      "x": 30,
+      "y": 326,
+      "width": 330,
+      "height": 30,
+      "text": "Kết quả cho “rác thải”",
+      "fontSize": 20,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5389",
+      "parent": "680:5343",
+      "type": "TEXT",
+      "name": "Số kết quả",
+      "x": 30,
+      "y": 359,
+      "width": 180,
+      "height": 18,
+      "text": "12 bài viết",
+      "fontSize": 11,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5390",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Bài viết / Mỗi ngày, thế giới thải ra khoảng 11 triệu tấn rác",
+      "x": 28,
+      "y": 393,
+      "width": 372,
+      "height": 112
+    },
+    {
+      "id": "680:5391",
+      "parent": "680:5390",
+      "type": "RECTANGLE",
+      "name": "Ảnh bài viết",
+      "x": 38,
+      "y": 403,
+      "width": 116,
+      "height": 92
+    },
+    {
+      "id": "680:5392",
+      "parent": "680:5390",
+      "type": "TEXT",
+      "name": "Chuyên mục",
+      "x": 168,
+      "y": 405,
+      "width": 210,
+      "height": 18,
+      "text": "TÁI CHẾ",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5393",
+      "parent": "680:5390",
+      "type": "TEXT",
+      "name": "Tiêu đề",
+      "x": 168,
+      "y": 427,
+      "width": 215,
+      "height": 47,
+      "text": "Mỗi ngày, thế giới thải ra khoảng 11 triệu tấn rác",
+      "fontSize": 14,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5394",
+      "parent": "680:5390",
+      "type": "TEXT",
+      "name": "Thông tin",
+      "x": 168,
+      "y": 477,
+      "width": 210,
+      "height": 18,
+      "text": "1.2k lượt xem · 5 phút đọc",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5395",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Bài viết / Người dân chung tay dọn rác sau cơn bão",
+      "x": 28,
+      "y": 517,
+      "width": 372,
+      "height": 112
+    },
+    {
+      "id": "680:5396",
+      "parent": "680:5395",
+      "type": "RECTANGLE",
+      "name": "Ảnh bài viết",
+      "x": 38,
+      "y": 527,
+      "width": 116,
+      "height": 92
+    },
+    {
+      "id": "680:5397",
+      "parent": "680:5395",
+      "type": "TEXT",
+      "name": "Chuyên mục",
+      "x": 168,
+      "y": 529,
+      "width": 210,
+      "height": 18,
+      "text": "CỘNG ĐỒNG",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5398",
+      "parent": "680:5395",
+      "type": "TEXT",
+      "name": "Tiêu đề",
+      "x": 168,
+      "y": 551,
+      "width": 215,
+      "height": 47,
+      "text": "Người dân chung tay dọn rác sau cơn bão",
+      "fontSize": 14,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5399",
+      "parent": "680:5395",
+      "type": "TEXT",
+      "name": "Thông tin",
+      "x": 168,
+      "y": 601,
+      "width": 210,
+      "height": 18,
+      "text": "1.7k lượt xem · 4 phút đọc",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5400",
+      "parent": "680:5343",
+      "type": "FRAME",
+      "name": "Bài viết / Làm sạch dòng kênh: một hành động nhỏ, đổi thay lớn",
+      "x": 28,
+      "y": 641,
+      "width": 372,
+      "height": 112
+    },
+    {
+      "id": "680:5401",
+      "parent": "680:5400",
+      "type": "RECTANGLE",
+      "name": "Ảnh bài viết",
+      "x": 38,
+      "y": 651,
+      "width": 116,
+      "height": 92
+    },
+    {
+      "id": "680:5402",
+      "parent": "680:5400",
+      "type": "TEXT",
+      "name": "Chuyên mục",
+      "x": 168,
+      "y": 653,
+      "width": 210,
+      "height": 18,
+      "text": "SỐNG XANH",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5403",
+      "parent": "680:5400",
+      "type": "TEXT",
+      "name": "Tiêu đề",
+      "x": 168,
+      "y": 675,
+      "width": 215,
+      "height": 47,
+      "text": "Làm sạch dòng kênh: một hành động nhỏ, đổi thay lớn",
+      "fontSize": 14,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5404",
+      "parent": "680:5400",
+      "type": "TEXT",
+      "name": "Thông tin",
+      "x": 168,
+      "y": 725,
+      "width": 210,
+      "height": 18,
+      "text": "1.2k lượt xem · 6 phút đọc",
+      "fontSize": 10,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "680:5405",
+      "parent": "680:5343",
+      "type": "TEXT",
+      "name": "Xem thêm kết quả",
+      "x": 113,
+      "y": 774,
+      "width": 202,
+      "height": 25,
+      "text": "Xem dạng lưới  →",
+      "fontSize": 13,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    }
+  ]
+}

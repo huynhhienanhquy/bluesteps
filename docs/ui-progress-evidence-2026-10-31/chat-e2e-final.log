@@ -1,0 +1,28 @@
+
+Running 19 tests using 1 worker
+
+(node:4704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\chat-design.spec.ts:3:5 › searching contacts and sending text preserve the conversation and list preview (2.9s)
+  ok  2 e2e\chat-design.spec.ts:35:5 › emoji and keyboard keys append to the draft and clear it after sending (2.4s)
+  ok  3 e2e\chat-design.spec.ts:55:5 › photo and file pickers send the selected media and metadata to the current conversation (2.8s)
+  ok  4 e2e\chat-design.spec.ts:76:5 › cancelled voice recording sends nothing and a sent voice message can toggle playback UI (4.6s)
+  ok  5 e2e\chat-design.spec.ts:91:5 › community share picker sends a post to the chosen recipient and opens its details (3.4s)
+  ok  6 e2e\community-design.spec.ts:8:5 › likes and saves remain consistent between feed, post and saved screens (3.7s)
+  ok  7 e2e\community-design.spec.ts:27:5 › comment editor validates empty text and displays the submitted comment (2.4s)
+  ok  8 e2e\community-design.spec.ts:49:5 › explore searches members, follows the selected member and opens topic results (2.8s)
+  ok  9 e2e\community-design.spec.ts:74:5 › post options copy a link and hide the selected post from the feed (2.4s)
+  ok 10 e2e\composer-design.spec.ts:3:5 › composer preserves its draft, audience, place and feeling through every picker (4.2s)
+  ok 11 e2e\composer-design.spec.ts:36:5 › two selected gallery photos are previewed and published once to the local feed (5.9s)
+  ok 12 e2e\composer-design.spec.ts:67:5 › camera fixture can be captured, removed and replaced by a single gallery photo (2.9s)
+  ok 13 e2e\composer-design.spec.ts:82:5 › web prototype keyboard edits the native text field without losing its text (2.1s)
+  ok 14 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (2.8s)
+  ok 15 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (5.7s)
+  ok 16 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (9.0s)
+  ok 17 e2e\frontend.spec.ts:86:5 › theme toggles and the query error/retry state is accessible (5.6s)
+  ok 18 e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow (25.7s)
+  ok 19 e2e\frontend.spec.ts:137:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (7.6s)
+
+  19 passed (1.7m)

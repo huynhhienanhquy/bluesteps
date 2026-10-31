@@ -1,0 +1,32 @@
+export default function Component61DangBaiDangTiLen() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="386:16188" data-name="61. Đăng bài / Đang tải lên">
+      <div className="absolute bg-[#e0f2fc] left-[138px] overflow-clip rounded-[76px] size-[152px] top-[304px]" data-node-id="743:6035" data-name="Vòng tiến trình">
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[94px] leading-[normal] left-[76px] not-italic text-[#147cc1] text-[72px] text-center top-[20px] w-[90px]" data-node-id="743:6036">
+          ↻
+        </p>
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[40px] leading-[normal] left-[214px] not-italic text-[#0a1217] text-[23px] text-center top-[487px] w-[336px]" data-node-id="743:6037">
+        Đang đăng bài viết...
+      </p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[26px] leading-[normal] left-[214px] not-italic text-[#6e7d8a] text-[14px] text-center top-[539px] w-[320px]" data-node-id="743:6038">
+        Vui lòng chờ trong giây lát
+      </p>
+      <div className="absolute bg-[#e0f2fc] h-[10px] left-[60px] overflow-clip rounded-[5px] top-[597px] w-[308px]" data-node-id="743:6039" data-name="Thanh tiến trình">
+        <div className="absolute bg-[#147cc1] h-[10px] left-0 rounded-[5px] top-0 w-[206px]" data-node-id="743:6040" data-name="Đã tải" />
+      </div>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[25px] leading-[normal] left-[214px] not-italic text-[#6e7d8a] text-[12px] text-center top-[620px] w-[270px]" data-node-id="743:6041">
+        Đang tải ảnh và nội dung
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

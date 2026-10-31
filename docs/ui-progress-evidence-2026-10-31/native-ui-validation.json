@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-31T08:50:54+07:00",
+  "scope": "Continue native app UI from the 31 October report; Android/iOS only",
+  "head": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "uncommittedWorktree": true,
+  "command": "pnpm check:app",
+  "exitCode": 0,
+  "checks": {
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "existingWarnings": 3
+    },
+    "format": "passed",
+    "unit": {
+      "tests": 58,
+      "suites": 18,
+      "failed": 0
+    },
+    "androidHermesBundle": "passed",
+    "iosHermesBundle": "passed",
+    "nativeConfig": "passed",
+    "localAssetAudit": "passed"
+  },
+  "frameMapping": {
+    "before": 84,
+    "after": 94,
+    "total": 175,
+    "pending": 81,
+    "newFramesAwaitingNativeCapture": 10,
+    "historicalRenderedFrames": 84
+  },
+  "webBuildRun": false,
+  "webE2ERun": false,
+  "nativeDeviceQA": "pending: adb reports no connected devices; emulator -list-avds returns no AVDs",
+  "nativeInstallerBuild": "not generated: JS/Hermes bundles only, no APK/IPA",
+  "figmaLiveAccess": "create_session/get_design_context rejected: no edit access; used saved high-fidelity contexts, references and local assets",
+  "visualFidelityAccepted": false,
+  "goalComplete": false,
+  "logs": [
+    "native-ui-check-app-final.log",
+    "native-ui-assets.log"
+  ],
+  "sourceSHA256": {
+    "apps/mobile/src/features/events/EventExploreScreen.tsx": "F09C46C79E01FADFD3ABBC3AEF6665ABD6381163A8286B4CF3E594442682D0DE",
+    "apps/mobile/src/features/content/news-detail-design-data.ts": "BDCE481BB2F9AC6F58F483DCB0AF4576EACA6EFAE8A1B2BB5F09E558CB497222",
+    "apps/mobile/src/features/content/NewsScreens.tsx": "8A0CBDEE907CB01DDD6CEC61CDDA38DE629E5A91F155DA3FC5C562E98B814418",
+    "apps/mobile/src/design-system/news-detail-assets.ts": "59E30035B7337508884CFA33C5FB027B0CFC1DA733F6D4FB50E11D351FDDBF8A",
+    "apps/mobile/src/features/content/NewsArticleScreen.tsx": "A54FEF103E20173E1CE2C6C5D130BA231844E02DE4D93089BE55CE74D553C402",
+    "apps/mobile/scripts/audit-native-ui-assets.cjs": "579E20C314670F2D3597D4E2966938D2F535CE38D2A9FD8B3D8997E731A8D302",
+    "apps/mobile/src/features/events/EventScreens.tsx": "A80508CB692B755A24936A0DEBD03F930CBDA831203A3E848D81D3EEEF875FBB",
+    "apps/mobile/src/features/content/NewsDiscussionView.tsx": "DB5B00B90F7D15B7D929F431F891FBD8611664AD24E7FAAB7FD25E9E2686C0DA",
+    "apps/mobile/src/features/content/NewsArticleScreen.test.tsx": "6112C63F812B9181B72587B5EF94F0512301A55E75F769103904D85742A827D6",
+    "package.json": "CC352BAAAEF6F131D3E358D9E249579E28F740497F397BF95C627F2BE632CDA6",
+    "apps/mobile/scripts/fidelity-targets.cjs": "BEB01E06EE0821BB8107EDFC7911842C5D27EFF88FEA185D513F317C50554C4A"
+  }
+}

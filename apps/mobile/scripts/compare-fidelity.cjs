@@ -2,7 +2,10 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { PNG } = require('../../../node_modules/.pnpm/pngjs@3.4.0/node_modules/pngjs');
 const root = path.resolve(__dirname, '../../../docs/figma-fidelity');
-const targets = require('./fidelity-targets.cjs');
+const prefix = process.argv[2];
+const targets = require('./fidelity-targets.cjs').filter(
+  (target) => !prefix || target.name.startsWith(prefix),
+);
 const output = path.join(root, 'diff');
 fs.mkdirSync(output, { recursive: true });
 const result = [];
@@ -82,5 +85,8 @@ for (const target of targets) {
     note: 'Exact visual equivalence remains unproven; inspect diff and source geometry.',
   });
 }
-fs.writeFileSync(path.join(output, 'report.json'), JSON.stringify(result, null, 2));
+fs.writeFileSync(
+  path.join(output, prefix ? `report-${prefix}.json` : 'report.json'),
+  JSON.stringify(result, null, 2),
+);
 console.log(JSON.stringify(result, null, 2));

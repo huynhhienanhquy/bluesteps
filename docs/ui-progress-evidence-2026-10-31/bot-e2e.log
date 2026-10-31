@@ -1,0 +1,23 @@
+
+Running 14 tests using 1 worker
+
+(node:18116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\bot-design.spec.ts:2:5 › typed question clears the draft and its reply opens the handbook (3.2s)
+  ok  2 e2e\bot-design.spec.ts:16:5 › suggestions add a question and cancelling listening adds no voice message (2.8s)
+  ok  3 e2e\bot-design.spec.ts:27:5 › listening start and stop add a voice row with play and pause controls (3.4s)
+  ok  4 e2e\chat-design.spec.ts:3:5 › searching contacts and sending text preserve the conversation and list preview (4.2s)
+  ok  5 e2e\chat-design.spec.ts:35:5 › emoji and keyboard keys append to the draft and clear it after sending (5.1s)
+  ok  6 e2e\chat-design.spec.ts:55:5 › photo and file pickers send the selected media and metadata to the current conversation (5.1s)
+  ok  7 e2e\chat-design.spec.ts:76:5 › cancelled voice recording sends nothing and a sent voice message can toggle playback UI (6.1s)
+  ok  8 e2e\chat-design.spec.ts:91:5 › community share picker sends a post to the chosen recipient and opens its details (4.5s)
+  ok  9 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (4.8s)
+  ok 10 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (8.1s)
+  ok 11 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (9.2s)
+  ok 12 e2e\frontend.spec.ts:86:5 › theme toggles and the query error/retry state is accessible (4.9s)
+  ok 13 e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow (28.6s)
+  ok 14 e2e\frontend.spec.ts:137:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (9.6s)
+
+  14 passed (1.7m)

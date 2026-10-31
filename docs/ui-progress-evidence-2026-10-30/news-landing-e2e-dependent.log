@@ -1,0 +1,16 @@
+$ playwright test "e2e/news-digest.spec.ts" "e2e/news-social.spec.ts"
+
+Running 6 tests using 1 worker
+
+(node:15752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates (2.4s)
+  ok 2 e2e\news-digest.spec.ts:38:5 › brief dates validate actual calendar dates, preserve read marks while open and recover empty filters (1.6s)
+  ok 3 e2e\news-digest.spec.ts:78:5 › live Figma calendar and brief examples open explicit local details or related topics without creating registrations (3.0s)
+  ok 4 e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px (1.7s)
+  ok 5 e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local (2.7s)
+  ok 6 e2e\news-social.spec.ts:74:5 › discussion preview sorting, likes and posting never add comments to the actual article (2.2s)
+
+  6 passed (15.3s)

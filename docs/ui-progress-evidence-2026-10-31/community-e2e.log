@@ -1,0 +1,16 @@
+
+Running 7 tests using 1 worker
+
+(node:17144) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17144) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\community-design.spec.ts:8:5 › likes and saves remain consistent between feed, post and saved screens (3.2s)
+  ok 2 e2e\community-design.spec.ts:27:5 › comment editor validates empty text and displays the submitted comment (2.1s)
+  ok 3 e2e\community-design.spec.ts:49:5 › explore searches members, follows the selected member and opens topic results (2.7s)
+  ok 4 e2e\community-design.spec.ts:74:5 › post options copy a link and hide the selected post from the feed (2.7s)
+  ok 5 e2e\notifications-design.spec.ts:8:5 › unread filtering, detail links and marking all read stay consistent (3.4s)
+  ok 6 e2e\notifications-design.spec.ts:34:5 › notification preferences persist while navigating and community follow controls toggle (3.2s)
+  ok 7 e2e\notifications-design.spec.ts:58:5 › deleting a notification remains deleted when the all filter is selected again (2.3s)
+
+  7 passed (21.8s)

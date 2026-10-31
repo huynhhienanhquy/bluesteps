@@ -1,1 +1,1 @@
-export { MessagesScreen as default } from '../src/features/messages/MessageScreens';
+export { MessagesDesignScreen as default } from '../src/features/messages/ChatDesignScreens';

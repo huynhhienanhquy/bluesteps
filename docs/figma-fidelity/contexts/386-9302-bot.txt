@@ -1,0 +1,44 @@
+// Composition: common panel context 386:9339; exact geometry 386:9302; audio 386:9314 and rectangle 386:9155.
+const imgEllipse322 = "https://www.figma.com/api/mcp/asset/83fe1609-7c20-40b8-8412-2005eafa3a3a.svg";
+const imgAudio = "https://www.figma.com/api/mcp/asset/dcde3cd4-963b-485b-af6d-b17ed8ccbf22.svg";
+const imgAudio1 = "https://www.figma.com/api/mcp/asset/662b0091-1f75-41f5-a6f7-ac60423e8027.svg";
+
+export default function Frame36842() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[25px] size-full" data-node-id="386:9302">
+      <div className="-translate-x-1/2 absolute left-1/2 size-[180px] top-[39px]" data-node-id="386:9303">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse322} />
+      </div>
+      <div className="absolute bg-[#147cc1] h-[58px] left-[37px] rounded-[40px] top-[358px] w-[162px]" data-node-id="386:9304" />
+      <a className="absolute bg-[#d9d9d9] block cursor-pointer h-[58px] left-[231px] rounded-[40px] top-[358px] w-[162px]" data-node-id="386:9305" />
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[19px] left-[calc(50%-73px)] not-italic text-[32px] text-black top-[241px] whitespace-nowrap" data-node-id="386:9306">
+        Listening...
+      </p>
+      <CodeConnectSnippet data-node-id="386:9307" data-name="Mic">
+        {/* Simple Design System component */}
+        <Mic variantSize="48" size="48" />
+      </CodeConnectSnippet>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[89px] not-italic text-[24px] text-black top-[373px] whitespace-nowrap" data-node-id="386:9308">
+        Start
+      </p>
+      <CodeConnectSnippet data-node-id="386:9309" data-name="X">
+        {/* Simple Design System component */}
+        <X variantSize="48" size="48" />
+      </CodeConnectSnippet>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[19px] left-[618px] not-italic text-[32px] text-black top-[349px] whitespace-nowrap" data-node-id="386:9310">
+        ​
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[284px] not-italic text-[24px] text-black top-[372px] whitespace-nowrap" data-node-id="386:9311">
+        Stop
+      </p>
+      <div className="absolute contents left-[139px] top-[295px]" data-node-id="386:9312" data-name="Mask group">
+        <div className="absolute h-[33px] left-[142px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-3px_-4px] mask-size-[150px_42px] top-[299px] w-[144px]" data-node-id="386:9314" style={{ maskImage: `url("${imgAudio}")` }} data-name="audio">
+          <div className="absolute inset-[0_-2.43%_0_0]">
+            <img alt="" className="block max-w-none size-full" src={imgAudio1} />
+          </div>
+        </div>
+      </div>
+    <a className="absolute bg-[#d9d9d9] rounded-[40px]" data-node-id="386:9155" />
+</div>
+  );
+}

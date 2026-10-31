@@ -1,1 +1,1 @@
-export { StatisticsScreen as default } from '../src/features/profile/ProfileScreens';
+export { BackupedStatisticsScreen as default } from '../src/features/backuped/BackupedParts';

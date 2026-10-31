@@ -1,0 +1,2736 @@
+{
+  "checkedAt": "2026-10-31T01:01:50.258Z",
+  "timezone": "Asia/Bangkok",
+  "scope": "Local code and saved Figma inventory; no fresh Figma or remote Git read",
+  "branch": "codex/initial-upload",
+  "localHead": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "inventoryCapturedOn": "2026-10-30",
+  "totalFrames": 175,
+  "mappedFrames": 84,
+  "remainingFrames": 91,
+  "mappedPercentage": 48,
+  "routesExcludingLayouts": 63,
+  "duplicateTargetIds": [],
+  "unknownTargetIds": [],
+  "missingMappedSources": [],
+  "missingMappedRoutes": [],
+  "missingMappedRenders": [],
+  "coverageMatchesTargets": true,
+  "savedEvidence": {
+    "withContext": 89,
+    "withReference": 91,
+    "withRendered": 84
+  },
+  "previousValidation": {
+    "file": "docs/ui-progress-evidence-2026-10-30/news-landing-validation.json",
+    "checkedAt": "2026-10-30T23:17:01.2254479+07:00",
+    "matchingHashes": 24,
+    "totalHashes": 24,
+    "sourceHashes": [
+      {
+        "file": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+        "sha256": "21ed4a8fb29a9116604d31a29e06b9eb5861547aa094340d32710c7146310cbe",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/features/content/NewsScreens.tsx",
+        "sha256": "c52ff54cb068e330aaaf6a3f2e016538d119aa89d7689ad9d039637d6f044ce3",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/features/content/NewsDesignParts.tsx",
+        "sha256": "44160b1f3d77d0880f0af54c9d0c96b44a19b0ab7435878d2c2529d18d7167b0",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/features/content/NewsParts.tsx",
+        "sha256": "d8e90b8c4ea3e470138e672d1f858a987ed7e79ed6405d1bf295ec938b3a75d1",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/features/content/news-design-data.ts",
+        "sha256": "7097a129721721aa262ef178e8b998c04531c89b2bad25eba3c56b1a56fc0f4c",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/design-system/news-landing-assets.ts",
+        "sha256": "586d0471c4ca15930fc83417128f4a52e22bf19449dae9c51626a518ab9ae41b",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/services/fixtures.ts",
+        "sha256": "fabd2c0eed4f9b7ae7a32fc4d0cfb7482c7e91a6cb077f2bdb3019ab13f1574d",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/services/news.ts",
+        "sha256": "4586e416fa0680dea9829a5635d2acf61355e6daaab567f61342934b5ec09419",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/services/__tests__/news.test.ts",
+        "sha256": "2a476b8338d3209573a5cee1cdad67429a3a0d5ae8a82d1186e1c93241e211f3",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/src/features/content/NewsScreens.test.tsx",
+        "sha256": "6500f2712ab4017366b8a94baed59af5fa1c34c1e5a34ce9891dcf4ec665bd07",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/app/_layout.tsx",
+        "sha256": "00212cba4aa007590de1dc1d55aec2e53d3df5aaa46bd720c2900de80076bf83",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/e2e/news-landing.spec.ts",
+        "sha256": "a558b186d8cec7b99b7449a9d4927375b1389912067f5dc47b107d35f04ec038",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/e2e/news-feed.spec.ts",
+        "sha256": "630c95acc6321baea00c22b44f1075db3b2ae541e729cd520d7fa3a84da9f2fe",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/e2e/news.spec.ts",
+        "sha256": "75034f2b210e8be3703c2fcfb3856230e04ce9c7832477e79933f22ae9bfd2ae",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/e2e/news-digest.spec.ts",
+        "sha256": "c7e44927bf8c87361a61438681938d7f425976933ad6ca961db4ce434c9cdd89",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/e2e/news-social.spec.ts",
+        "sha256": "648c8cccfc36cbc6df89d10c8ea2e1f3bdd642a17f5a969778238aa0b7119e8f",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/scripts/fidelity-targets.cjs",
+        "sha256": "283c0a11e0b7c0bc347d4613e8b344e2d3e055dee3420b6175a717e5d21c2880",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/scripts/audit-news-feed-assets.cjs",
+        "sha256": "fe9f46d1f6175063178fe54c3defa06c61954e5bf029d5fd602830d72dd5a8be",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/scripts/audit-news-landing-assets.cjs",
+        "sha256": "821b1a3ffc2c628704b378c15a7ef2516816f6db1f0731a57d9154285bbbfd92",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/assets/fonts/inknut-antiqua/InknutAntiqua-Regular.ttf",
+        "sha256": "d46c7420b1e5fedc2086c8ce89275a6ed13c6778829c0617f56df8c3bddd686f",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/assets/fonts/inknut-antiqua/InknutAntiqua-Bold.ttf",
+        "sha256": "222a233da522553541938fa7780d3bcc008af009679797658885f0052ffb76ef",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/assets/fonts/inknut-antiqua/OFL.txt",
+        "sha256": "3c6545e1923c7dbbe2103b93023e21514d005012ef6543f90ecf51ee45667a73",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/assets/figma/386-9787/chevron-backward.svg",
+        "sha256": "8cade461b12b4a98c2c3d7ec4b3a3469b5976465dfaf0edf5d8f48f06ba48e5c",
+        "matchesPreviousEvidence": true
+      },
+      {
+        "file": "apps/mobile/assets/figma/386-9787/chevron-forward.svg",
+        "sha256": "fba00ab8975b847ed3fd16c94eb91c90bf1484a6742c5a3ee7f9d944b507344f",
+        "matchesPreviousEvidence": true
+      }
+    ]
+  },
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 25,
+    "Đang trong tiến trình": 13
+  },
+  "functionStatuses": [
+    {
+      "function": "Tin tức — trang chính và các danh sách",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — tìm kiếm và lọc",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — chi tiết bài đọc",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "articleDetailPreparation": {
+    "frameIds": [
+      "386:17608",
+      "386:17701",
+      "386:10644",
+      "386:17794",
+      "386:10737",
+      "386:17887",
+      "386:10828",
+      "386:17978",
+      "386:10919"
+    ],
+    "modules": [
+      {
+        "file": "apps/mobile/src/features/content/news-detail-design-data.ts",
+        "exists": true,
+        "importedByProductFiles": []
+      },
+      {
+        "file": "apps/mobile/src/design-system/news-detail-assets.ts",
+        "exists": true,
+        "importedByProductFiles": []
+      }
+    ],
+    "countedAsCompleted": false
+  },
+  "groups": {
+    "Hoạt động đã lưu & nhắc lịch": {
+      "total": 5,
+      "mapped": 2,
+      "remaining": 3
+    },
+    "Hoạt động & tham gia": {
+      "total": 13,
+      "mapped": 4,
+      "remaining": 9
+    },
+    "Hành trình & bàn giao": {
+      "total": 9,
+      "mapped": 6,
+      "remaining": 3
+    },
+    "Điểm thu gom": {
+      "total": 10,
+      "mapped": 7,
+      "remaining": 3
+    },
+    "Tài khoản & xác thực": {
+      "total": 6,
+      "mapped": 6,
+      "remaining": 0
+    },
+    "Hồ sơ": {
+      "total": 2,
+      "mapped": 2,
+      "remaining": 0
+    },
+    "Điểm, đổi quà & thành tích": {
+      "total": 17,
+      "mapped": 1,
+      "remaining": 16
+    },
+    "Cộng đồng & tạo bài": {
+      "total": 12,
+      "mapped": 0,
+      "remaining": 12
+    },
+    "Thông báo": {
+      "total": 7,
+      "mapped": 0,
+      "remaining": 7
+    },
+    "Tin nhắn cá nhân": {
+      "total": 4,
+      "mapped": 0,
+      "remaining": 4
+    },
+    "Cài đặt & bảo mật": {
+      "total": 6,
+      "mapped": 6,
+      "remaining": 0
+    },
+    "Điều hướng dùng chung": {
+      "total": 2,
+      "mapped": 1,
+      "remaining": 1
+    },
+    "RecycleBot & giọng nói": {
+      "total": 11,
+      "mapped": 0,
+      "remaining": 11
+    },
+    "Tin tức": {
+      "total": 18,
+      "mapped": 9,
+      "remaining": 9
+    },
+    "Sổ tay & kiến thức rác": {
+      "total": 21,
+      "mapped": 21,
+      "remaining": 0
+    },
+    "Camera & nhận diện": {
+      "total": 9,
+      "mapped": 9,
+      "remaining": 0
+    },
+    "Tư liệu/khung phụ": {
+      "total": 2,
+      "mapped": 0,
+      "remaining": 2
+    },
+    "Trò chơi": {
+      "total": 10,
+      "mapped": 0,
+      "remaining": 10
+    },
+    "Thống kê": {
+      "total": 1,
+      "mapped": 0,
+      "remaining": 1
+    },
+    "Onboarding & cá nhân hóa": {
+      "total": 10,
+      "mapped": 10,
+      "remaining": 0
+    }
+  },
+  "frames": [
+    {
+      "nodeId": "534:49968",
+      "name": "Cài đặt nhắc lịch hoạt động đã lưu",
+      "group": "Hoạt động đã lưu & nhắc lịch",
+      "route": "/event-reminders?preview=1",
+      "source": "apps/mobile/src/features/events/EventRemindersScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": false,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:49845",
+      "name": "Quản lý bộ sưu tập yêu thích",
+      "group": "Hoạt động đã lưu & nhắc lịch",
+      "route": "/event-collections?preview=1",
+      "source": "apps/mobile/src/features/events/EventCollectionsScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": false,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:49760",
+      "name": "Tổng kết sau hoạt động",
+      "group": "Hoạt động & tham gia",
+      "route": "/event-summary?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventSummaryScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:49416",
+      "name": "Vé tham gia & check-in",
+      "group": "Hoạt động & tham gia",
+      "route": "/event-ticket?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventTicketScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:49326",
+      "name": "Đăng ký tham gia hoạt động",
+      "group": "Hoạt động & tham gia",
+      "route": "/registration?id=green-class&preview=1",
+      "source": "apps/mobile/src/features/events/EventParticipationScreens.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:49166",
+      "name": "Lịch hoạt động môi trường",
+      "group": "Hoạt động & tham gia",
+      "route": "/calendar?preview=1",
+      "source": "apps/mobile/src/features/events/EventCalendarScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": false,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:49034",
+      "name": "Khám phá hoạt động",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "534:48955",
+      "name": "Đã đến nơi & hướng dẫn bàn giao",
+      "group": "Hành trình & bàn giao",
+      "route": "/collection-arrival",
+      "source": "apps/mobile/src/features/collection/CollectionArrivalScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48869",
+      "name": "Chọn điểm thay thế trên hành trình",
+      "group": "Hành trình & bàn giao",
+      "route": "/collection-replacement",
+      "source": "apps/mobile/src/features/collection/CollectionReplacementScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48774",
+      "name": "Lập hành trình thu gom nhiều điểm",
+      "group": "Hành trình & bàn giao",
+      "route": "/journey",
+      "source": "apps/mobile/src/features/collection/JourneyScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48690",
+      "name": "Báo cáo vấn đề tại điểm thu gom",
+      "group": "Điểm thu gom",
+      "route": "/point-report",
+      "source": "apps/mobile/src/features/collection/CollectionReportScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48595",
+      "name": "Đề xuất điểm thu gom mới",
+      "group": "Điểm thu gom",
+      "route": "/point-proposal",
+      "source": "apps/mobile/src/features/collection/CollectionProposalScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48505",
+      "name": "So sánh điểm thu gom",
+      "group": "Điểm thu gom",
+      "route": "/collection-compare",
+      "source": "apps/mobile/src/features/collection/CollectionCompareScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "534:48401",
+      "name": "Bộ lọc điểm thu gom",
+      "group": "Điểm thu gom",
+      "route": "/collection-filters",
+      "source": "apps/mobile/src/features/collection/CollectionFiltersScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7054",
+      "name": "hoạt động",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:7184",
+      "name": "11 · Đăng nhập",
+      "group": "Tài khoản & xác thực",
+      "route": "/login",
+      "source": "apps/mobile/src/features/auth/AuthForm.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7225",
+      "name": "13 · Quên mật khẩu",
+      "group": "Tài khoản & xác thực",
+      "route": "/forgot-password",
+      "source": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7266",
+      "name": "14 · Xác thực OTP",
+      "group": "Tài khoản & xác thực",
+      "route": "/verify-email",
+      "source": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7307",
+      "name": "15 · Đặt mật khẩu mới",
+      "group": "Tài khoản & xác thực",
+      "route": "/reset-password",
+      "source": "apps/mobile/src/features/auth/RecoveryScreens.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7348",
+      "name": "16 · Kết nối Google / Facebook",
+      "group": "Tài khoản & xác thực",
+      "route": "/connected-account",
+      "source": "apps/mobile/src/features/auth/ConnectedAccountScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7390",
+      "name": "12 · Đăng ký tài khoản",
+      "group": "Tài khoản & xác thực",
+      "route": "/register",
+      "source": "apps/mobile/src/features/auth/AuthForm.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7420",
+      "name": "18 · Profile — Cá nhân",
+      "group": "Hồ sơ",
+      "route": "/profile",
+      "source": "apps/mobile/src/features/profile/ProfileOverview.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7550",
+      "name": "Thành tích",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": "/achievements",
+      "source": "apps/mobile/src/features/profile/AchievementsScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7647",
+      "name": "Cộng đồng",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:7813",
+      "name": "Cộng đồng",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:7913",
+      "name": "Thông báo",
+      "group": "Thông báo",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8003",
+      "name": "Thống báo cộng đồng",
+      "group": "Thông báo",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8086",
+      "name": "Chat",
+      "group": "Tin nhắn cá nhân",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8151",
+      "name": "Chat",
+      "group": "Tin nhắn cá nhân",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8179",
+      "name": "Chat",
+      "group": "Tin nhắn cá nhân",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8228",
+      "name": "Thông báo",
+      "group": "Thông báo",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8311",
+      "name": "Thông báo",
+      "group": "Thông báo",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8380",
+      "name": "Thông báo",
+      "group": "Thông báo",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8451",
+      "name": "Cài đặt",
+      "group": "Cài đặt & bảo mật",
+      "route": "/settings",
+      "source": "apps/mobile/src/features/profile/SettingsScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8516",
+      "name": "Chỉnh sửa",
+      "group": "Hồ sơ",
+      "route": "/edit-profile",
+      "source": "apps/mobile/src/features/profile/EditProfileScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8558",
+      "name": "navigation",
+      "group": "Điều hướng dùng chung",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8569",
+      "name": "map",
+      "group": "Điểm thu gom",
+      "route": "/collection",
+      "source": "apps/mobile/src/features/collection/CollectionMapScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8633",
+      "name": "map",
+      "group": "Điểm thu gom",
+      "route": "/collection-explore",
+      "source": "apps/mobile/src/features/collection/CollectionExploreScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:8930",
+      "name": "Chat",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:8977",
+      "name": "chat2",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9071",
+      "name": "Frame 36844",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9115",
+      "name": "Frame 36836",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9152",
+      "name": "Frame 36843",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9191",
+      "name": "Frame 36838",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9228",
+      "name": "Frame 36837",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9265",
+      "name": "Frame 36840",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9302",
+      "name": "Frame 36841",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9339",
+      "name": "Frame 36842",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9376",
+      "name": "hoạt động",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9470",
+      "name": "hoạt động 2",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9575",
+      "name": "hoạt động 3",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9681",
+      "name": "hoạt động 5",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:9787",
+      "name": "tin tức mới nhất ",
+      "group": "Tin tức",
+      "route": "/articles?view=latest&preview=1",
+      "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:9901",
+      "name": "sự kiện sắp tới",
+      "group": "Tin tức",
+      "route": "/articles?view=events&preview=1",
+      "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10026",
+      "name": "hoạt động 1",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10122",
+      "name": "yêu thích",
+      "group": "Hoạt động đã lưu & nhắc lịch",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10131",
+      "name": "xóa hoạt động",
+      "group": "Hoạt động đã lưu & nhắc lịch",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10136",
+      "name": "map",
+      "group": "Hành trình & bàn giao",
+      "route": "/collection-navigation",
+      "source": "apps/mobile/src/features/collection/CollectionNavigationScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10186",
+      "name": "map",
+      "group": "Điểm thu gom",
+      "route": "/points/green-hub",
+      "source": "apps/mobile/src/features/collection/PointDetailScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10279",
+      "name": "map",
+      "group": "Hành trình & bàn giao",
+      "route": "/collection-directions",
+      "source": "apps/mobile/src/features/collection/CollectionDirectionsScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10351",
+      "name": "map",
+      "group": "Hành trình & bàn giao",
+      "route": "/collection-route",
+      "source": "apps/mobile/src/features/collection/CollectionRouteScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:10644",
+      "name": "tin tức chi tiết 2",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10737",
+      "name": "tin tức chi tiết 4",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10828",
+      "name": "tin tức chi tiết 6",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:10919",
+      "name": "tin tức chi tiết 8",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11010",
+      "name": "Tích điểm và phần thưởng",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11320",
+      "name": "Cách quy đổi điểm",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11451",
+      "name": "Phần thưởng",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11652",
+      "name": "Sau khi nhận điểm mỗi ngày",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:11858",
+      "name": "Nhắc tôi",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12064",
+      "name": "Thông báo nhắc",
+      "group": "Thông báo",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12071",
+      "name": "Lịch sử",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12194",
+      "name": "Lịch sử",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12284",
+      "name": "Lịch sử",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12362",
+      "name": "Sau khi xác nhận đổi quà",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12517",
+      "name": "xác nhận đổi quà",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12671",
+      "name": "Nhận thưởng ngày",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12823",
+      "name": "Phần thưởng giải trí",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:12956",
+      "name": "Phần thưởng khác",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:13109",
+      "name": "Phần thưởng voucher",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:13263",
+      "name": "SoTayRac",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook",
+      "source": "apps/mobile/src/features/handbook/HandbookLanding.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13313",
+      "name": "SoTayRac1",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook?variant=active",
+      "source": "apps/mobile/src/features/handbook/HandbookLanding.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13364",
+      "name": "AllSoTayRac",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/list",
+      "source": "apps/mobile/src/features/handbook/HandbookList.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13593",
+      "name": "RacVoCo",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/category/inorganic",
+      "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13685",
+      "name": "RacVoCo1",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/category/inorganic?expanded=1",
+      "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13782",
+      "name": "RacHuuCo",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/category/organic",
+      "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13838",
+      "name": "RacHuuCo1",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/category/organic?expanded=1",
+      "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:13929",
+      "name": "RacTaiChe",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/category/recycle",
+      "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14037",
+      "name": "RacTaiChe1",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/category/recycle?expanded=1",
+      "source": "apps/mobile/src/features/handbook/HandbookCategoryScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14194",
+      "name": "Scan",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=start&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": false,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14221",
+      "name": "Scan1",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=camera&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": false,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14241",
+      "name": "Loading",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=loading&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14264",
+      "name": "Kqua_Scan2",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=unrecognized&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": false,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14309",
+      "name": "Kqu_Scan2",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=result&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": false,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14346",
+      "name": "Ttin rác",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=detail&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14379",
+      "name": "TBáo_tích điểm",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=award&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14454",
+      "name": "Sổ tay rác_Scan",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/scan?state=handbook&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanDetailsScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14521",
+      "name": "Sổ tay_Nhựa",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/plastic",
+      "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14595",
+      "name": "Sổ tay_Hộp carton",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/carton",
+      "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14670",
+      "name": "Sổ tay_Áo quần",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/textiles",
+      "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14745",
+      "name": "Sổ tay_Pin",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/battery",
+      "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14820",
+      "name": "Sổ tay_Rác hữu cơ",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/organic",
+      "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14895",
+      "name": "Sổ tay_Thủy tinh",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/glass",
+      "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:14970",
+      "name": "Sổ tay_Giấy",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/paper",
+      "source": "apps/mobile/src/features/handbook/HandbookGuide.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:15047",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15090",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15150",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15209",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15270",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15419",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15552",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:15972",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16071",
+      "name": "Đăng bài viết",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16188",
+      "name": "loading_đăng bài",
+      "group": "Cộng đồng & tạo bài",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16189",
+      "name": "Kqu_Scan1",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=focused&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": false,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:16218",
+      "name": "Kqu_Scan1",
+      "group": "Camera & nhận diện",
+      "route": "/scan?state=success&preview=1",
+      "source": "apps/mobile/src/features/scan/ScanScene.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": false,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:16253",
+      "name": "Tích điểm và phần thưởng",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16592",
+      "name": "Tích điểm và phần thưởng",
+      "group": "Điểm, đổi quà & thành tích",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:16931",
+      "name": "Phân loại rác - nhựa",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/types/plastic",
+      "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17005",
+      "name": "Phân loại rác - dụng cụ y tế",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/types/medical",
+      "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17077",
+      "name": "Phân loại rác - nilong",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/types/bag",
+      "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17145",
+      "name": "Phân loại rác - pin",
+      "group": "Sổ tay & kiến thức rác",
+      "route": "/handbook/types/battery",
+      "source": "apps/mobile/src/features/handbook/HandbookTypesScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:17222",
+      "name": "Frame 36839",
+      "group": "RecycleBot & giọng nói",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17262",
+      "name": "iPhone 14 Plus - 2",
+      "group": "Tin nhắn cá nhân",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17297",
+      "name": "Frame 36707",
+      "group": "Tư liệu/khung phụ",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17299",
+      "name": "hoạt động 6",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17397",
+      "name": "hoạt động 4",
+      "group": "Hoạt động & tham gia",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17608",
+      "name": "tin tức chi tiết",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17701",
+      "name": "tin tức chi tiết",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17794",
+      "name": "tin tức chi tiết 3",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17887",
+      "name": "tin tức chi tiết 5",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:17978",
+      "name": "tin tức chi tiết 7",
+      "group": "Tin tức",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18069",
+      "name": "hoạt động yêu thích",
+      "group": "Hoạt động đã lưu & nhắc lịch",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18153",
+      "name": "Thông báo",
+      "group": "Thông báo",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18241",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18285",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18308",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18336",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18364",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "427:19392",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18396",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "427:19460",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18428",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "487:19805",
+      "name": "Trò chơi",
+      "group": "Trò chơi",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18473",
+      "name": "iPhone 14 Plus - 157",
+      "group": "Tư liệu/khung phụ",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18479",
+      "name": "map",
+      "group": "Điểm thu gom",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18563",
+      "name": "map",
+      "group": "Điểm thu gom",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18627",
+      "name": "map",
+      "group": "Hành trình & bàn giao",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18677",
+      "name": "map",
+      "group": "Điểm thu gom",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18770",
+      "name": "map",
+      "group": "Hành trình & bàn giao",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "386:18842",
+      "name": "map",
+      "group": "Hành trình & bàn giao",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "391:24796",
+      "name": "tin tức",
+      "group": "Tin tức",
+      "route": "/articles?preview=1",
+      "source": "apps/mobile/src/features/content/NewsLandingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "391:25009",
+      "name": "thống kê",
+      "group": "Thống kê",
+      "route": null,
+      "source": null,
+      "sourceExists": false,
+      "routeExists": false,
+      "contextExists": false,
+      "referenceExists": false,
+      "renderedExists": false,
+      "status": "pending"
+    },
+    {
+      "nodeId": "391:25197",
+      "name": "17 · Home — Trang chủ",
+      "group": "Điều hướng dùng chung",
+      "route": "/",
+      "source": "apps/mobile/src/features/home/HomeScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7148",
+      "name": "01 · Khởi động GreenSteps",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=0&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7418",
+      "name": "02 · Chào mừng",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=1&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7154",
+      "name": "03 · REDUCE — Giảm rác",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=2&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7158",
+      "name": "04 · REUSE — Tái sử dụng",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=3&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7149",
+      "name": "05 · RECYCLE — Phân loại đúng",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=4&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7151",
+      "name": "06 · Chọn điều bạn quan tâm",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=5&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7156",
+      "name": "07 · Mục tiêu khởi đầu",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=6&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7160",
+      "name": "08 · Điểm thu gom gần bạn",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=7&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7168",
+      "name": "09 · Lời nhắc sống xanh",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=8&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "386:7176",
+      "name": "10 · Sẵn sàng bắt đầu",
+      "group": "Onboarding & cá nhân hóa",
+      "route": "/onboarding?step=9&preview=1",
+      "source": "apps/mobile/src/features/auth/OnboardingScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5093",
+      "name": "Cài đặt · Overlay · Tìm kiếm",
+      "group": "Cài đặt & bảo mật",
+      "route": "/settings?overlay=search",
+      "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5096",
+      "name": "Cài đặt · Overlay · Âm thanh và rung",
+      "group": "Cài đặt & bảo mật",
+      "route": "/settings?overlay=sound",
+      "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5099",
+      "name": "Cài đặt · Overlay · Lịch sử đăng nhập",
+      "group": "Cài đặt & bảo mật",
+      "route": "/settings?overlay=history",
+      "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "514:5102",
+      "name": "Cài đặt · Overlay · Thiết lập PIN",
+      "group": "Cài đặt & bảo mật",
+      "route": "/settings?overlay=pin",
+      "source": "apps/mobile/src/features/profile/SettingsOverlay.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "521:4735",
+      "name": "21 · Thay đổi mật khẩu",
+      "group": "Cài đặt & bảo mật",
+      "route": "/change-password",
+      "source": "apps/mobile/src/features/auth/ChangePasswordScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "609:5165",
+      "name": "Tin tức · Tìm kiếm và lọc",
+      "group": "Tin tức",
+      "route": "/articles?view=search&preview=1",
+      "source": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "609:5266",
+      "name": "Tin tức · Bài viết đã lưu",
+      "group": "Tin tức",
+      "route": "/articles/saved?preview=1",
+      "source": "apps/mobile/src/features/content/NewsFeedScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "609:5361",
+      "name": "Tin tức · Thảo luận bài viết",
+      "group": "Tin tức",
+      "route": "/articles/discussion?id=daily-waste&preview=1",
+      "source": "apps/mobile/src/features/content/NewsDiscussionView.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "612:5286",
+      "name": "Tin tức · Khám phá chủ đề",
+      "group": "Tin tức",
+      "route": "/articles/topics?preview=1",
+      "source": "apps/mobile/src/features/content/NewsTopicsScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "612:5362",
+      "name": "Tin tức · Lịch sự kiện xanh",
+      "group": "Tin tức",
+      "route": "/articles/calendar?preview=1",
+      "source": "apps/mobile/src/features/content/NewsCalendarScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    },
+    {
+      "nodeId": "612:5441",
+      "name": "Tin tức · Bản tin nhanh",
+      "group": "Tin tức",
+      "route": "/articles/briefs?preview=1",
+      "source": "apps/mobile/src/features/content/NewsBriefsScreen.tsx",
+      "sourceExists": true,
+      "routeExists": true,
+      "contextExists": true,
+      "referenceExists": true,
+      "renderedExists": true,
+      "status": "mapped-awaiting-complete-visual-audit"
+    }
+  ]
+}

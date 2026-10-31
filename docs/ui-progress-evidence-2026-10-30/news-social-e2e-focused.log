@@ -1,0 +1,19 @@
+$ playwright test "e2e/news.spec.ts" "e2e/news-social.spec.ts"
+
+Running 9 tests using 1 worker
+
+(node:11028) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11028) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px (1.9s)
+  ok 2 e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local (2.8s)
+  ok 3 e2e\news-social.spec.ts:74:5 › discussion preview sorting, likes and posting never add comments to the actual article (2.2s)
+  ok 4 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (1.8s)
+  ok 5 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (2.9s)
+  ok 6 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (2.4s)
+  ok 7 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (2.1s)
+  ok 8 e2e\news.spec.ts:135:5 › briefs mark articles read locally and green calendar opens the correct event (2.7s)
+  ok 9 e2e\news.spec.ts:165:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (26.3s)
+
+  9 passed (46.7s)

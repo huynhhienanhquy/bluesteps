@@ -1,0 +1,62 @@
+$ node scripts/check-android-ui.cjs
+ERROR: null root node returned by UiTestAutomationBridge.
+cat: /sdcard/bluesteps-ui-1.xml: No such file or directory
+Android QA: event discovery searches locations, resets filters and toggles saved state
+Android QA: article expands and collapses through native accessibility
+Android QA: article saves, likes and opens the matching discussion
+Android QA: collection creation works while the native keyboard is open
+Android QA: the other seven designed article routes render their own titles
+Android QA: 130 percent text reflows material images and consequences without overlap
+{
+  "checkedAt": "2026-10-31T02:34:05.453Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "event discovery searches locations, resets filters and toggles saved state",
+      "passed": true
+    },
+    {
+      "name": "article expands and collapses through native accessibility",
+      "passed": true
+    },
+    {
+      "name": "article saves, likes and opens the matching discussion",
+      "passed": true
+    },
+    {
+      "name": "collection creation works while the native keyboard is open",
+      "passed": true
+    },
+    {
+      "name": "the other seven designed article routes render their own titles",
+      "passed": true
+    },
+    {
+      "name": "130 percent text reflows material images and consequences without overlap",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "qa-event-explore",
+    "qa-event-save-restored",
+    "qa-article-collapsed",
+    "qa-article-expanded",
+    "qa-article-discussion",
+    "qa-article-returned",
+    "qa-collection-keyboard",
+    "qa-collection-created",
+    "qa-article-youth-ideas",
+    "qa-article-local-cleanup",
+    "qa-article-green-sunday",
+    "qa-article-storm-cleanup",
+    "qa-article-saigon-cleanup",
+    "qa-article-ha-long",
+    "qa-article-tourism-cleanup",
+    "qa-article-font130-top",
+    "qa-article-font130-body",
+    "qa-article-font130-actions"
+  ],
+  "limitations": "Android emulator smoke/keyboard/font tests only; no iOS or physical-device acceptance; screenshots may include the Expo Go developer overlay"
+}

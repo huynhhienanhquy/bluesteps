@@ -1,0 +1,24 @@
+$ pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm bundle:native && pnpm check:native-config
+$ pnpm --filter @bluesteps/mobile typecheck
+$ node scripts/generate-route-types.cjs && tsc --noEmit
+$ pnpm --filter @bluesteps/mobile lint
+$ eslint .
+
+D:\BlueSteps\apps\mobile\e2e\events.spec.ts
+    2:27  warning  'node:fs' imported multiple times        import/no-duplicates
+    4:30  warning  'node:fs' imported multiple times        import/no-duplicates
+  172:19  warning  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 3 problems (0 errors, 3 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
+$ pnpm --filter @bluesteps/mobile format:check
+$ prettier --check app src e2e scripts *.js *.ts *.json ../../packages/design-tokens/src
+Checking formatting...
+[warn] src/features/content/NewsArticleScreen.test.tsx
+[warn] Code style issues found in the above file. Run Prettier with --write to fix.
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 format:check: `prettier --check app src e2e scripts *.js *.ts *.json ../../packages/design-tokens/src`
+Exit status 1
+[ELIFECYCLE] Command failed with exit code 1.
+[ELIFECYCLE] Command failed with exit code 1.

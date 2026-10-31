@@ -1,0 +1,32 @@
+$ node scripts/check-android-event-ui.cjs
+Error: Native UI not ready: Hồ sơ cá nhân
+    at waitFor (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:86:9)
+    at Object.<anonymous> (D:\BlueSteps\apps\mobile\scripts\check-android-event-ui.cjs:157:3)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49
+{
+  "checkedAt": "2026-10-31T03:45:37.022Z",
+  "serial": "emulator-5556",
+  "expoUrl": "exp://127.0.0.1:8091",
+  "androidVersion": "12",
+  "results": [
+    {
+      "name": "failure",
+      "passed": false,
+      "message": "Native UI not ready: Hồ sơ cá nhân"
+    }
+  ],
+  "screenshots": [
+    "qa-event-failure"
+  ],
+  "limitations": "Android emulator viewport and behavior QA only; no iOS, physical device, backend or full-frame fidelity acceptance"
+}
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:android:events: `node scripts/check-android-event-ui.cjs`
+Exit status 1

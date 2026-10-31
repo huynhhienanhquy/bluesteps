@@ -1,0 +1,67 @@
+const imgGroup37166 = "https://www.figma.com/api/mcp/asset/5500acba-9f1c-486f-9d64-7bd83b2b4fc1.svg";
+const imgAudio = "https://www.figma.com/api/mcp/asset/5f213af3-df4c-4fcb-bbb0-ac600b74cb7a.svg";
+const imgAudio1 = "https://www.figma.com/api/mcp/asset/70027a79-fc73-4596-84c9-99807145af25.svg";
+const imgAudio2 = "https://www.figma.com/api/mcp/asset/6eb54da5-0343-45f5-ba88-9d1cd703263d.svg";
+
+export default function Frame36839() {
+  return (
+    <div className="bg-white overflow-clip relative rounded-[25px] size-full" data-node-id="386:17222">
+      <button className="absolute bg-[#147cc1] block cursor-pointer h-[58px] left-[36px] rounded-[40px] top-[339px] w-[162px]" data-node-id="386:17223" />
+      <a className="absolute bg-[#d9d9d9] block cursor-pointer h-[58px] left-[230px] rounded-[40px] top-[339px] w-[162px]" data-node-id="386:17224" />
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[19px] left-[calc(50%-73px)] not-italic text-[32px] text-black top-[222px] whitespace-nowrap" data-node-id="386:17225">
+        Listening...
+      </p>
+      <div className="absolute left-[124px] size-[180px] top-[22px]" data-node-id="386:17226">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup37166} />
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[88px] not-italic text-[24px] text-black top-[354px] whitespace-nowrap" data-node-id="386:17229">
+        Start
+      </p>
+      <CodeConnectSnippet data-node-id="386:17230" data-name="X">
+        {/* Simple Design System component */}
+        <X variantSize="48" size="48" />
+      </CodeConnectSnippet>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[19px] left-[618px] not-italic text-[32px] text-black top-[349px] whitespace-nowrap" data-node-id="386:17231">
+        ​
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[283px] not-italic text-[24px] text-black top-[353px] whitespace-nowrap" data-node-id="386:17232">
+        Stop
+      </p>
+      <div className="absolute contents left-[139px] top-[274px]" data-node-id="386:17233" data-name="Mask group">
+        <div className="absolute contents left-[142px] top-[274px]" data-node-id="386:17235" data-name="audio">
+          <div className="absolute h-[42px] left-[142px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-3px_0px] mask-size-[150px_42px] top-[274px] w-[69px]" data-node-id="386:17236" style={{ maskImage: `url("${imgAudio}")` }} data-name="audio">
+            <div className="absolute inset-[0_-5.07%_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgAudio1} />
+            </div>
+          </div>
+          <div className="absolute h-[42px] left-[218px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[-79px_0px] mask-size-[150px_42px] top-[274px] w-[73px]" data-node-id="386:17249" style={{ maskImage: `url("${imgAudio}")` }} data-name="audio">
+            <div className="absolute inset-[0_-4.79%_0_0]">
+              <img alt="" className="block max-w-none size-full" src={imgAudio2} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Mic
+**Node ID:** 306:751
+
+Keywords: record, sound, listen
+
+## X
+**Node ID:** 306:367
+
+Keywords: cancel, close, delete, remove, times, clear
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

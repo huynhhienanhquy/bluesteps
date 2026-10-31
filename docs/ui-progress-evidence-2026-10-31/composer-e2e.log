@@ -1,0 +1,23 @@
+
+Running 14 tests using 1 worker
+
+(node:12084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\community-design.spec.ts:8:5 › likes and saves remain consistent between feed, post and saved screens (4.4s)
+  ok  2 e2e\community-design.spec.ts:27:5 › comment editor validates empty text and displays the submitted comment (2.8s)
+  ok  3 e2e\community-design.spec.ts:49:5 › explore searches members, follows the selected member and opens topic results (3.6s)
+  ok  4 e2e\community-design.spec.ts:74:5 › post options copy a link and hide the selected post from the feed (2.9s)
+  ok  5 e2e\composer-design.spec.ts:3:5 › composer preserves its draft, audience, place and feeling through every picker (4.7s)
+  ok  6 e2e\composer-design.spec.ts:24:5 › two selected gallery photos are previewed and published once to the local feed (6.0s)
+  ok  7 e2e\composer-design.spec.ts:43:5 › camera fixture can be captured, removed and replaced by a single gallery photo (2.7s)
+  ok  8 e2e\composer-design.spec.ts:56:5 › web prototype keyboard edits the native text field without losing its text (2.4s)
+  ok  9 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (3.1s)
+  ok 10 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (5.8s)
+  ok 11 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (8.8s)
+  ok 12 e2e\frontend.spec.ts:86:5 › theme toggles and the query error/retry state is accessible (4.4s)
+  ok 13 e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow (24.7s)
+  ok 14 e2e\frontend.spec.ts:137:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (8.3s)
+
+  14 passed (1.5m)

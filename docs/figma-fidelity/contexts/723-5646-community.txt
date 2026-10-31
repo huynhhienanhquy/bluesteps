@@ -1,0 +1,236 @@
+const imgAvatar = "https://www.figma.com/api/mcp/asset/cccf87fc-19af-4144-ac53-0316aabc9260.png";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/19b81b7c-a0a2-4cad-b9bb-0d715004eed0.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/1a37d930-c570-4c9a-8173-0647757e2e8c.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/e4affb19-09db-4156-afc3-fdb7968602a0.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/0ca80a7d-0d32-4879-8695-dcf24c96a563.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/dd2c6be2-321e-4753-b2c2-a1c3393a7968.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/243505f5-179f-4b6e-bde9-13e70335dd08.svg";
+
+export default function Component43CngDngVitBinhLun() {
+  return (
+    <div className="bg-[#f0f7fc] overflow-clip relative rounded-[23px] size-full" data-node-id="723:5646" data-name="43. Cộng đồng / Viết bình luận">
+      <div className="absolute bg-[#147cc1] h-[125px] left-0 overflow-clip top-0 w-[428px]" data-node-id="723:5647" data-name="Đầu trang xanh">
+        <div className="absolute contents inset-[8.8%_0.47%_52%_-0.47%]" data-node-id="723:5648">
+          <div className="absolute inset-[8.8%_0.47%_52%_-0.47%] overflow-clip" data-node-id="723:5649" data-name="iPhone/Status Bar">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I723:5649;47:200" data-name="Right Side">
+              <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I723:5649;47:201" data-name="Battery">
+                <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I723:5649;47:202" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+                </div>
+                <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I723:5649;47:203" data-name="Combined Shape">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+                </div>
+                <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I723:5649;47:204" data-name="Rectangle">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+                </div>
+              </div>
+              <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I723:5649;47:205" data-name="Wifi">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+              </div>
+              <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I723:5649;47:209" data-name="Mobile Signal">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+              </div>
+            </div>
+            <div className="absolute contents left-[12px] top-[12px]" data-node-id="I723:5649;47:216" data-name="Left Side">
+              <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I723:5649;47:217" data-name="Time">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a className="-translate-x-1/2 [word-break:break-word] absolute block cursor-pointer font-['Inter:Regular'] font-normal h-[38px] leading-[0] left-[35.5px] not-italic text-[34px] text-center text-white top-[62px] w-[31px]" data-node-id="723:5650">
+          <p className="leading-[normal]">‹</p>
+        </a>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[36px] leading-[normal] left-[215.5px] not-italic text-[25px] text-center text-white top-[65px] w-[279px]" data-node-id="723:5651">
+          Viết bình luận
+        </p>
+        <a className="-translate-x-1/2 [word-break:break-word] absolute block cursor-pointer font-['Inter:Bold'] font-bold h-[25px] leading-[0] left-[390px] not-italic text-[15px] text-center text-white top-[73px] w-[42px]" data-node-id="723:5652">
+          <p className="leading-[normal]">Gửi</p>
+        </a>
+      </div>
+      <div className="absolute bg-white h-[117px] left-[20px] overflow-clip rounded-[17px] top-[145px] w-[388px]" data-node-id="723:5653" data-name="Bài đang bình luận">
+        <div className="absolute left-[13px] rounded-[24px] size-[47px] top-[15px]" data-node-id="723:5654" data-name="Avatar">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[24px] size-full" src={imgAvatar} />
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[23px] leading-[normal] left-[72px] not-italic text-[#0a2e4a] text-[14px] top-[15px] w-[250px]" data-node-id="723:5655">
+          Healing
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[59px] leading-[normal] left-[72px] not-italic text-[#0a2e4a] text-[13px] top-[43px] w-[296px]" data-node-id="723:5656">
+          Tôi vừa phân loại xong rác hôm nay! Cảm giác thật nhẹ lòng 💚
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold h-[27px] leading-[normal] left-[23px] not-italic text-[#0a2e4a] text-[18px] top-[290px] w-[312px]" data-node-id="723:5657">
+        Bình luận của bạn
+      </p>
+      <div className="[word-break:break-word] absolute bg-white font-['Inter:Regular'] font-normal h-[150px] leading-[normal] left-[20px] not-italic overflow-clip rounded-[17px] top-[329px] w-[388px]" data-node-id="723:5658" data-name="Ô bình luận đang soạn">
+        <p className="absolute h-[86px] left-[15px] text-[#0a2e4a] text-[15px] top-[17px] w-[357px]" data-node-id="723:5659">
+          Tuyệt quá! Mình cũng sẽ bắt đầu phân loại rác từ hôm nay 🌱
+        </p>
+        <p className="-translate-x-full absolute h-[19px] left-[369px] text-[#667887] text-[11px] text-right top-[116px] w-[68px]" data-node-id="723:5660">
+          58/500
+        </p>
+      </div>
+      <div className="absolute bg-[#d1d9e3] h-[393px] left-0 overflow-clip top-[533px] w-[428px]" data-node-id="723:5661" data-name="Bàn phím đang mở">
+        <div className="absolute bg-white h-[44px] left-[26px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5662" data-name="Phím Q">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5663">
+            Q
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[64px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5664" data-name="Phím W">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5665">
+            W
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[102px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5666" data-name="Phím E">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5667">
+            E
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[140px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5668" data-name="Phím R">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5669">
+            R
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[178px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5670" data-name="Phím T">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5671">
+            T
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[216px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5672" data-name="Phím Y">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5673">
+            Y
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[254px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5674" data-name="Phím U">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5675">
+            U
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[292px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5676" data-name="Phím I">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5677">
+            I
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[330px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5678" data-name="Phím O">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5679">
+            O
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[368px] overflow-clip rounded-[5px] top-[36px] w-[34px]" data-node-id="723:5680" data-name="Phím P">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[17px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[34px]" data-node-id="723:5681">
+            P
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[19px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5682" data-name="Phím A">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5683">
+            A
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[63px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5684" data-name="Phím S">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5685">
+            S
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[107px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5686" data-name="Phím D">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5687">
+            D
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[151px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5688" data-name="Phím F">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5689">
+            F
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[195px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5690" data-name="Phím G">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5691">
+            G
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[239px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5692" data-name="Phím H">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5693">
+            H
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[283px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5694" data-name="Phím J">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5695">
+            J
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[327px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5696" data-name="Phím K">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5697">
+            K
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[371px] overflow-clip rounded-[5px] top-[91px] w-[38px]" data-node-id="723:5698" data-name="Phím L">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5699">
+            L
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[19px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5700" data-name="Phím ⇧">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5701">
+            ⇧
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[63px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5702" data-name="Phím Z">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5703">
+            Z
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[107px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5704" data-name="Phím X">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5705">
+            X
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[151px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5706" data-name="Phím C">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5707">
+            C
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[195px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5708" data-name="Phím V">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5709">
+            V
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[239px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5710" data-name="Phím B">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5711">
+            B
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[283px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5712" data-name="Phím N">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5713">
+            N
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[327px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5714" data-name="Phím M">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5715">
+            M
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[371px] overflow-clip rounded-[5px] top-[146px] w-[38px]" data-node-id="723:5716" data-name="Phím ⌫">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Medium'] font-medium h-[24px] leading-[normal] left-[19px] not-italic text-[#0a2e4a] text-[14px] text-center top-[11px] w-[38px]" data-node-id="723:5717">
+            ⌫
+          </p>
+        </div>
+        <div className="absolute bg-white h-[44px] left-[100px] overflow-clip rounded-[6px] top-[211px] w-[229px]" data-node-id="723:5718" data-name="Phím cách">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal h-[23px] leading-[normal] left-[114.5px] not-italic text-[#667887] text-[13px] text-center top-[11px] w-[213px]" data-node-id="723:5719">
+            dấu cách
+          </p>
+        </div>
+        <a className="absolute bg-[#147cc1] block cursor-pointer h-[44px] left-[335px] overflow-clip rounded-[6px] top-[211px] w-[78px]" data-node-id="723:5720" data-name="Gửi từ bàn phím">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold h-[22px] leading-[normal] left-[39px] not-italic text-[14px] text-center text-white top-[11px] w-[70px]" data-node-id="723:5721">
+            Gửi
+          </p>
+        </a>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

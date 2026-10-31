@@ -1,0 +1,350 @@
+{
+  "checkedAt": "2026-10-30T23:17:01.2254479+07:00",
+  "sourceCommit": "8fce4f02a7bf86aaffd368379f31ae5208d3596c",
+  "branch": "codex/initial-upload",
+  "uncommittedChanges": true,
+  "goalStatus": "active",
+  "goalComplete": false,
+  "completedDemoScopes": [
+    "Tin tức — trang chính và các danh sách"
+  ],
+  "completedFrames": [
+    "391:24796",
+    "386:9787",
+    "386:9901"
+  ],
+  "checks": {
+    "typecheck": {
+      "exitCode": 0,
+      "passed": true,
+      "log": "news-landing-typecheck.log"
+    },
+    "lint": {
+      "warnings": 3,
+      "passed": true,
+      "exitCode": 0,
+      "log": "news-landing-lint.log",
+      "scope": "Entire mobile app",
+      "errors": 0
+    },
+    "unit": {
+      "durationSeconds": 14.14,
+      "suites": 17,
+      "passed": 45,
+      "exitCode": 0,
+      "log": "news-landing-unit.log",
+      "total": 45
+    },
+    "e2eFull": {
+      "duration": "3.9m",
+      "usesFinalWebExport": true,
+      "passed": 64,
+      "browser": "Installed Google Chrome",
+      "exitCode": 0,
+      "log": "news-landing-e2e-full.log",
+      "total": 64
+    },
+    "dependentE2e": {
+      "total": 6,
+      "note": "Before final async URL assertions; final full regression includes those assertions",
+      "passed": 6,
+      "duration": "15.3s",
+      "log": "news-landing-e2e-dependent.log"
+    },
+    "web": {
+      "exitCode": 0,
+      "passed": true,
+      "log": "news-landing-build.log"
+    },
+    "native": {
+      "exitCode": 0,
+      "physicalDeviceQa": false,
+      "passed": true,
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "log": "news-landing-native.log"
+    },
+    "format": {
+      "wholeRepository": false,
+      "files": 19,
+      "passed": true,
+      "log": "news-landing-format-check.log"
+    },
+    "capture": {
+      "errors": 0,
+      "unloaded": 0,
+      "newScreensManuallyViewed": 6,
+      "report": "docs/figma-fidelity/rendered/capture-report-news-.json",
+      "overflow": 0,
+      "screenshots": 18
+    },
+    "assets": {
+      "toleranceCssPx": 0.1,
+      "passed": 306,
+      "maxDifferenceCssPx": 0.03417056074766833,
+      "total": 306,
+      "report": "docs/figma-fidelity/news-landing-asset-audit.json",
+      "unaccounted": 0,
+      "priorSocialSlotsPassed": 32,
+      "priorDigestSlotsPassed": 29,
+      "priorFeedSlotsPassed": 58,
+      "exactMd5Matched": 306
+    },
+    "fullFrameVisualAcceptance": {
+      "report": "docs/figma-fidelity/diff/report-news-landing-.json",
+      "passed": false,
+      "note": "All three full-frame comparisons remain nonzero; no 100% fidelity claim"
+    }
+  },
+  "freshFigmaReads": {
+    "screenshots": "Succeeded for all three frames at original dimensions",
+    "wholePageReinventoried": false,
+    "readOnlyGeometry": "Succeeded for all three frames",
+    "originalCarouselSvgExports": 2
+  },
+  "sourceMap": "docs/figma-fidelity/news-landing-source-map.json",
+  "sourceHashes": {
+    "apps/mobile/src/features/content/NewsLandingScreen.tsx": "21ed4a8fb29a9116604d31a29e06b9eb5861547aa094340d32710c7146310cbe",
+    "apps/mobile/src/features/content/NewsScreens.tsx": "c52ff54cb068e330aaaf6a3f2e016538d119aa89d7689ad9d039637d6f044ce3",
+    "apps/mobile/src/features/content/NewsDesignParts.tsx": "44160b1f3d77d0880f0af54c9d0c96b44a19b0ab7435878d2c2529d18d7167b0",
+    "apps/mobile/src/features/content/NewsParts.tsx": "d8e90b8c4ea3e470138e672d1f858a987ed7e79ed6405d1bf295ec938b3a75d1",
+    "apps/mobile/src/features/content/news-design-data.ts": "7097a129721721aa262ef178e8b998c04531c89b2bad25eba3c56b1a56fc0f4c",
+    "apps/mobile/src/design-system/news-landing-assets.ts": "586d0471c4ca15930fc83417128f4a52e22bf19449dae9c51626a518ab9ae41b",
+    "apps/mobile/src/services/fixtures.ts": "fabd2c0eed4f9b7ae7a32fc4d0cfb7482c7e91a6cb077f2bdb3019ab13f1574d",
+    "apps/mobile/src/services/news.ts": "4586e416fa0680dea9829a5635d2acf61355e6daaab567f61342934b5ec09419",
+    "apps/mobile/src/services/__tests__/news.test.ts": "2a476b8338d3209573a5cee1cdad67429a3a0d5ae8a82d1186e1c93241e211f3",
+    "apps/mobile/src/features/content/NewsScreens.test.tsx": "6500f2712ab4017366b8a94baed59af5fa1c34c1e5a34ce9891dcf4ec665bd07",
+    "apps/mobile/app/_layout.tsx": "00212cba4aa007590de1dc1d55aec2e53d3df5aaa46bd720c2900de80076bf83",
+    "apps/mobile/e2e/news-landing.spec.ts": "a558b186d8cec7b99b7449a9d4927375b1389912067f5dc47b107d35f04ec038",
+    "apps/mobile/e2e/news-feed.spec.ts": "630c95acc6321baea00c22b44f1075db3b2ae541e729cd520d7fa3a84da9f2fe",
+    "apps/mobile/e2e/news.spec.ts": "75034f2b210e8be3703c2fcfb3856230e04ce9c7832477e79933f22ae9bfd2ae",
+    "apps/mobile/e2e/news-digest.spec.ts": "c7e44927bf8c87361a61438681938d7f425976933ad6ca961db4ce434c9cdd89",
+    "apps/mobile/e2e/news-social.spec.ts": "648c8cccfc36cbc6df89d10c8ea2e1f3bdd642a17f5a969778238aa0b7119e8f",
+    "apps/mobile/scripts/fidelity-targets.cjs": "283c0a11e0b7c0bc347d4613e8b344e2d3e055dee3420b6175a717e5d21c2880",
+    "apps/mobile/scripts/audit-news-feed-assets.cjs": "fe9f46d1f6175063178fe54c3defa06c61954e5bf029d5fd602830d72dd5a8be",
+    "apps/mobile/scripts/audit-news-landing-assets.cjs": "821b1a3ffc2c628704b378c15a7ef2516816f6db1f0731a57d9154285bbbfd92",
+    "apps/mobile/assets/fonts/inknut-antiqua/InknutAntiqua-Regular.ttf": "d46c7420b1e5fedc2086c8ce89275a6ed13c6778829c0617f56df8c3bddd686f",
+    "apps/mobile/assets/fonts/inknut-antiqua/InknutAntiqua-Bold.ttf": "222a233da522553541938fa7780d3bcc008af009679797658885f0052ffb76ef",
+    "apps/mobile/assets/fonts/inknut-antiqua/OFL.txt": "3c6545e1923c7dbbe2103b93023e21514d005012ef6543f90ecf51ee45667a73",
+    "apps/mobile/assets/figma/386-9787/chevron-backward.svg": "8cade461b12b4a98c2c3d7ec4b3a3469b5976465dfaf0edf5d8f48f06ba48e5c",
+    "apps/mobile/assets/figma/386-9787/chevron-forward.svg": "fba00ab8975b847ed3fd16c94eb91c90bf1484a6742c5a3ee7f9d944b507344f"
+  },
+  "functionStatusCounts": {
+    "Chưa làm UI": 5,
+    "Đã làm xong UI": 25,
+    "Đang trong tiến trình": 13
+  },
+  "functionStatuses": [
+    {
+      "function": "Tin tức — trang chính và các danh sách",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — lịch sự kiện xanh",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bản tin nhanh",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — thảo luận bài viết",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — khám phá chủ đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — tìm kiếm và lọc",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tin tức — bài viết đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cấu hình nhắc lịch hoạt động đã lưu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Vé tham gia và check-in hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Lịch hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng ký tham gia hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tổng kết sau hoạt động",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Trang chủ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Onboarding và cá nhân hóa ban đầu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đăng nhập và đăng ký tài khoản",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Khôi phục mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hoàn tất tài khoản Google/Facebook",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hồ sơ cá nhân và chỉnh sửa hồ sơ",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Thành tích",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Cài đặt và các bảng tùy chọn",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đổi mật khẩu",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tra cứu sổ tay và danh mục rác",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Hướng dẫn vật liệu và bảng phân loại",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Quét rác — camera/chọn ảnh và các trạng thái demo",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Đề xuất điểm thu gom và báo cáo vấn đề",
+      "status": "Đã làm xong UI"
+    },
+    {
+      "function": "Tìm và xem điểm thu gom",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Lập hành trình và bàn giao",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Khám phá và xem chi tiết hoạt động",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Hoạt động đã lưu",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Quản lý bộ sưu tập hoạt động yêu thích",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Ví điểm, danh mục/chi tiết quà và lịch sử",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Cộng đồng và soạn bài",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thông báo",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin nhắn cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "RecycleBot — hội thoại chữ",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Tin tức — chi tiết bài đọc",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Trò chơi phân loại",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Thống kê cá nhân",
+      "status": "Đang trong tiến trình"
+    },
+    {
+      "function": "Nhận thưởng ngày và nhắc thưởng",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Hướng dẫn quy đổi điểm",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Xác nhận và kết quả đổi quà theo thiết kế",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "Đính kèm ảnh, chọn quyền riêng tư và trạng thái tải khi đăng bài",
+      "status": "Chưa làm UI"
+    },
+    {
+      "function": "RecycleBot — giọng nói",
+      "status": "Chưa làm UI"
+    }
+  ],
+  "coverage": {
+    "missingMappedSources": 0,
+    "routesExcludingLayouts": 63,
+    "pending": 91,
+    "frames": 175,
+    "mapped": 84
+  },
+  "previousFailures": [
+    {
+      "total": 12,
+      "fix": "Wait for the featured article on the landing; retain back-button checks on other screens",
+      "passed": 11,
+      "cause": "Old render check expected a back button on the new landing",
+      "log": "news-landing-e2e-first.log"
+    },
+    {
+      "total": 64,
+      "fix": "Expect actual 13/5 fixture counts and open the new news menu",
+      "passed": 61,
+      "cause": "Old expectations assumed 12 articles, 4 Community stories and a direct brief shortcut",
+      "log": "news-landing-e2e-full-first.log"
+    },
+    {
+      "total": 64,
+      "fix": "Await exact pathname/topic URL matcher in calendar/topic tests; no retry or timeout increase",
+      "passed": 63,
+      "cause": "Synchronous URL assertion ran before Expo completed navigation",
+      "log": "news-landing-e2e-full-second.log"
+    }
+  ],
+  "remaining": [
+    "Nine article-detail variants",
+    "All other in-progress UI groups in the progress report",
+    "Physical native QA",
+    "Final whole-frame visual acceptance"
+  ],
+  "missingReportLinks": []
+}

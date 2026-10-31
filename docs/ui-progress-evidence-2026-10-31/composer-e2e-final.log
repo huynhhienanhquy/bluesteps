@@ -1,0 +1,22 @@
+
+Running 13 tests using 1 worker
+
+(node:10924) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10924) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\community-design.spec.ts:8:5 › likes and saves remain consistent between feed, post and saved screens (3.6s)
+  ok  2 e2e\community-design.spec.ts:27:5 › comment editor validates empty text and displays the submitted comment (2.5s)
+  ok  3 e2e\community-design.spec.ts:49:5 › explore searches members, follows the selected member and opens topic results (3.2s)
+  ok  4 e2e\community-design.spec.ts:74:5 › post options copy a link and hide the selected post from the feed (2.8s)
+  ok  5 e2e\composer-design.spec.ts:3:5 › composer preserves its draft, audience, place and feeling through every picker (3.9s)
+  ok  6 e2e\composer-design.spec.ts:36:5 › two selected gallery photos are previewed and published once to the local feed (5.7s)
+  ok  7 e2e\composer-design.spec.ts:67:5 › camera fixture can be captured, removed and replaced by a single gallery photo (2.5s)
+  ok  8 e2e\composer-design.spec.ts:82:5 › web prototype keyboard edits the native text field without losing its text (2.3s)
+  ok  9 e2e\notifications-design.spec.ts:8:5 › unread filtering, detail links and marking all read stay consistent (3.4s)
+  ok 10 e2e\notifications-design.spec.ts:34:5 › notification preferences persist while navigating and community follow controls toggle (3.5s)
+  ok 11 e2e\notifications-design.spec.ts:58:5 › deleting a notification remains deleted when the all filter is selected again (3.1s)
+  ok 12 e2e\rewards-design.spec.ts:3:5 › daily reward, reminder and redemption remain consistent across reward screens (7.5s)
+  ok 13 e2e\rewards-design.spec.ts:50:5 › categories, guide and bottom navigation open their intended destinations (4.3s)
+
+  13 passed (50.7s)

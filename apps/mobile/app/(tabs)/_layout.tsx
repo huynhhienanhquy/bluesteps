@@ -21,7 +21,8 @@ const DesignTabBar: NonNullable<ComponentProps<typeof Tabs>['tabBar']> = ({
 }) => {
   const { colors } = useApp();
   const insets = useSafeAreaInsets();
-  if (['scan', 'collection'].includes(state.routes[state.index]?.name ?? '')) return null;
+  if (['scan', 'collection', 'rewards'].includes(state.routes[state.index]?.name ?? ''))
+    return null;
   return (
     <View
       style={{

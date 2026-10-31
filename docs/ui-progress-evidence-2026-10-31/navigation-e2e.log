@@ -1,0 +1,507 @@
+$ pnpm --filter @bluesteps/mobile test:e2e
+$ playwright test
+
+Running 89 tests using 1 worker
+
+(node:10736) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10736) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\bot-design.spec.ts:2:5 › typed question clears the draft and its reply opens the handbook (2.5s)
+  ok  2 e2e\bot-design.spec.ts:16:5 › suggestions add a question and cancelling listening adds no voice message (2.0s)
+  ok  3 e2e\bot-design.spec.ts:27:5 › listening start and stop add a voice row with play and pause controls (2.3s)
+  ok  4 e2e\chat-design.spec.ts:3:5 › searching contacts and sending text preserve the conversation and list preview (3.4s)
+  ok  5 e2e\chat-design.spec.ts:35:5 › emoji and keyboard keys append to the draft and clear it after sending (3.3s)
+  ok  6 e2e\chat-design.spec.ts:55:5 › photo and file pickers send the selected media and metadata to the current conversation (5.1s)
+  ok  7 e2e\chat-design.spec.ts:76:5 › cancelled voice recording sends nothing and a sent voice message can toggle playback UI (4.8s)
+  ok  8 e2e\chat-design.spec.ts:91:5 › community share picker sends a post to the chosen recipient and opens its details (3.5s)
+  ok  9 e2e\collection-forms.spec.ts:4:5 › proposal requires a local photo, saves a draft and restores it after leaving the form (3.0s)
+  ok 10 e2e\collection-forms.spec.ts:39:5 › report keeps the selected point, supports multiple issues and validates optional detail (2.4s)
+  ok 11 e2e\collection.spec.ts:3:5 › route steps switch travel mode, validate departure time and open sample navigation (2.8s)
+  ok 12 e2e\collection.spec.ts:25:5 › explore map opens its filters and carries a submitted search into nearby results (3.9s)
+  ok 13 e2e\collection.spec.ts:42:5 › replacement changes only the first stop and keeps the following battery stop (2.8s)
+  ok 14 e2e\collection.spec.ts:59:5 › point photos, route preview, arrival checks and the next stop are connected (4.7s)
+  ok 15 e2e\collection.spec.ts:93:5 › filter drafts cancel, radius accepts keyboard input and applied choices survive reopening (3.0s)
+  ok 16 e2e\collection.spec.ts:121:5 › comparison selection drives the first journey stop and permits removing it (2.7s)
+  ok 17 e2e\collection.spec.ts:143:5 › journey supports accessible reorder, drag, origin edits and local handoff instructions (2.6s)
+  ok 18 e2e\community-design.spec.ts:8:5 › likes and saves remain consistent between feed, post and saved screens (3.1s)
+  ok 19 e2e\community-design.spec.ts:27:5 › comment editor validates empty text and displays the submitted comment (2.3s)
+  ok 20 e2e\community-design.spec.ts:49:5 › explore searches members, follows the selected member and opens topic results (3.4s)
+  ok 21 e2e\community-design.spec.ts:74:5 › post options copy a link and hide the selected post from the feed (2.6s)
+  ok 22 e2e\composer-design.spec.ts:3:5 › composer preserves its draft, audience, place and feeling through every picker (4.7s)
+  ok 23 e2e\composer-design.spec.ts:36:5 › two selected gallery photos are previewed and published once to the local feed (5.7s)
+  ok 24 e2e\composer-design.spec.ts:67:5 › camera fixture can be captured, removed and replaced by a single gallery photo (2.7s)
+  ok 25 e2e\composer-design.spec.ts:82:5 › web prototype keyboard edits the native text field without losing its text (2.6s)
+  x  26 e2e\events.spec.ts:14:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local (31.6s)
+(node:6392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 27 e2e\events.spec.ts:77:5 › preview feedback does not create a ticket and the role picker preserves participation choices (5.1s)
+  x  28 e2e\events.spec.ts:104:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation (31.4s)
+(node:16432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 29 e2e\events.spec.ts:156:5 › ticket preview downloads a PNG and opens only local contact information without creating a registration (6.0s)
+  ok 30 e2e\events.spec.ts:186:5 › calendar selects full dates, switches months and shows the empty state (3.1s)
+  ok 31 e2e\events.spec.ts:211:5 › event screens render at 390 and 428 px with local assets and valid empty deep links (28.5s)
+  ok 32 e2e\fidelity.spec.ts:3:5 › the complete onboarding preserves choices through the five setup steps (3.9s)
+  ok 33 e2e\fidelity.spec.ts:38:5 › Home uses the Figma frame geometry and every original asset loads locally (2.3s)
+  ok 34 e2e\fidelity.spec.ts:77:5 › redesigned profile shortcuts navigate and its original imagery loads (2.9s)
+  ok 35 e2e\fidelity.spec.ts:86:5 › recovery preview validates email, six digits and matching passwords without claiming a real reset (3.3s)
+  ok 36 e2e\final-design.spec.ts:9:5 › searching games and sorting all eight items reaches a replayable result (4.9s)
+  ok 37 e2e\final-design.spec.ts:44:5 › room and schedule forms validate and keep the saved title in the current session (2.8s)
+  ok 38 e2e\final-design.spec.ts:60:5 › the original navigation opens statistics and its achievement action works (3.3s)
+  ok 39 e2e\final-design.spec.ts:74:5 › reference result states replay and navigate to rewards (4.6s)
+  ok 40 e2e\frontend.spec.ts:13:5 › home matches the mobile layout, has five tabs and opens the scan flow (3.8s)
+  ok 41 e2e\frontend.spec.ts:29:5 › handbook search, point filters and adding/removing journey stops work (7.3s)
+  ok 42 e2e\frontend.spec.ts:62:5 › saving and composing stay local, auth validates and rewards stay disabled (9.4s)
+  ok 43 e2e\frontend.spec.ts:86:5 › theme toggles and the query error/retry state is accessible (4.6s)
+  x  44 e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow (32.9s)
+(node:18420) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18420) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 45 e2e\frontend.spec.ts:137:5 › seeded history, statistics, notifications and conversations are ready to demonstrate (11.3s)
+  ok 46 e2e\handbook.spec.ts:3:5 › classification tables connect the original learn-more buttons and return to the guide (5.1s)
+  ok 47 e2e\handbook.spec.ts:29:5 › original handbook navigation opens each of its five destinations (9.1s)
+  ok 48 e2e\handbook.spec.ts:43:5 › category instructions close with Escape and filtered material keeps its detail route (3.2s)
+  ok 49 e2e\handbook.spec.ts:63:5 › a direct category instruction link can close and reopen its original list (2.7s)
+  ok 50 e2e\handbook.spec.ts:78:5 › handbook categories filter the list and its material opens the correct guide (4.7s)
+  ok 51 e2e\handbook.spec.ts:93:5 › handbook search accepts Vietnamese without accents and returns from the guide (3.7s)
+  x  52 e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates (7.4s)
+(node:6832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 53 e2e\news-digest.spec.ts:40:5 › brief dates validate actual calendar dates, preserve read marks while open and recover empty filters (4.8s)
+  ok 54 e2e\news-digest.spec.ts:80:5 › live Figma calendar and brief examples open explicit local details or related topics without creating registrations (6.8s)
+  ok 55 e2e\news-feed.spec.ts:3:5 › all thirteen news fixtures are reachable through pagination with local images (4.4s)
+  x  56 e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles (10.4s)
+(node:20644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 57 e2e\news-feed.spec.ts:74:5 › saved-design preview uses original stories and removal never changes the actual session (4.9s)
+  x  58 e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations (10.5s)
+(node:10008) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10008) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 59 e2e\news-landing.spec.ts:29:5 › latest news paginates all thirteen stories chronologically and preserves the chosen story ID (5.0s)
+  ok 60 e2e\news-landing.spec.ts:60:5 › event stories scroll to the last article, tabs keep preview state isolated and narrow screens stay usable (8.3s)
+  ok 61 e2e\news-social.spec.ts:9:5 › owned parent deletion can be cancelled and preserves a long reply without overflowing at 320px (4.7s)
+  ok 62 e2e\news-social.spec.ts:42:5 › the featured story and all four topic cards open their matching feed while follow choices remain local (5.6s)
+  x  63 e2e\news-social.spec.ts:78:5 › discussion preview sorting, likes and posting never add comments to the actual article (12.6s)
+(node:6292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 64 e2e\news.spec.ts:12:5 › news search combines Vietnamese terms, topics and ordering and recovers from empty results (4.6s)
+  ok 65 e2e\news.spec.ts:35:5 › Home news opens the matching article and saved articles survive navigation and require removal confirmation (5.3s)
+  ok 66 e2e\news.spec.ts:71:5 › article discussions validate input, support replies and isolate comments from other articles (6.7s)
+  ok 67 e2e\news.spec.ts:113:5 › topic following persists through navigation and selecting another topic updates the feed (5.5s)
+  ok 68 e2e\news.spec.ts:135:5 › briefs mark articles read locally and green calendar opens the correct event (6.6s)
+  x  69 e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links (1.1m)
+(node:8620) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8620) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 70 e2e\notifications-design.spec.ts:8:5 › unread filtering, detail links and marking all read stay consistent (5.6s)
+  ok 71 e2e\notifications-design.spec.ts:34:5 › notification preferences persist while navigating and community follow controls toggle (5.3s)
+  ok 72 e2e\notifications-design.spec.ts:58:5 › deleting a notification remains deleted when the all filter is selected again (3.8s)
+  ok 73 e2e\rewards-design.spec.ts:3:5 › daily reward, reminder and redemption remain consistent across reward screens (7.4s)
+  ok 74 e2e\rewards-design.spec.ts:50:5 › categories, guide and bottom navigation open their intended destinations (5.3s)
+  ok 75 e2e\saved-events.spec.ts:3:5 › collection move, rename and delete preserve saved activities and allow cancellation (6.2s)
+  ok 76 e2e\saved-events.spec.ts:32:5 › collections pass only the selected saved activities into an unsaved reminder draft (3.7s)
+  ok 77 e2e\saved-events.spec.ts:52:5 › reminder channels, sound, custom timing and quiet hours save only when valid (5.0s)
+  ok 78 e2e\saved-events.spec.ts:107:5 › Figma previews are interactive without changing the real saved list or reminder settings (4.4s)
+  ok 79 e2e\scan.spec.ts:4:5 › scan sample states retry, open the handbook and preserve the five original tabs (3.3s)
+  ok 80 e2e\scan.spec.ts:23:5 › camera sample capture opens the result and its original detail screen (3.6s)
+  ok 81 e2e\scan.spec.ts:34:5 › sample processing, result detail and the five-point preview remain a local demonstration (2.9s)
+  ok 82 e2e\scan.spec.ts:50:5 › the scan handbook scrolls to its last material and returns to the same list (3.1s)
+  ok 83 e2e\scan.spec.ts:61:5 › actual camera stays separate from sample photos when permission is denied (2.3s)
+  ok 84 e2e\scan.spec.ts:80:5 › a chosen local photo opens manual selection and keeps its image in the result (3.4s)
+  ok 85 e2e\scan.spec.ts:121:5 › direct preview links keep the back and result controls usable (2.5s)
+  ok 86 e2e\settings.spec.ts:3:5 › sound changes apply on save and cancel restores the previous choices (3.3s)
+  ok 87 e2e\settings.spec.ts:20:5 › settings search filters Vietnamese text and opens the matching screen (3.4s)
+  ok 88 e2e\settings.spec.ts:32:5 › PIN preview requires six digits and does not claim to activate a real lock (2.8s)
+  ok 89 e2e\settings.spec.ts:47:5 › profile editor formats dates and validates the local preview (2.4s)
+
+
+  1) e2e\events.spec.ts:14:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> C:/Program Files/Google/Chrome/Application/chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\DELL\AppData\Local\Temp\playwright_chromiumdev_profile-FH0dYt --remote-debugging-pipe --no-startup-window
+    <launched> pid=19632
+    [pid=19632] <gracefully close start>
+    Call log:
+      - waiting for getByRole('button', { name: 'Xem biểu mẫu đăng ký', exact: true })
+        - locator resolved to <button tabindex="0" role="button" type="button" aria-label="Xem biểu mẫu đăng ký" class="css-g5y9jx r-1loqt21 r-1otgn73 r-1awozwy r-1ylenci r-18u37iz r-1cmwbt1 r-1777fci r-1pl7oy7 r-kritb0 r-3pj75a">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div dir="auto" role="alert" class="css-146c3p1">Đã Thêm Vào Yêu Thích</div> from <div>…</div> subtree intercepts pointer events
+      2 × retrying click action
+          - waiting 100ms
+          - waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+      13 × retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div dir="auto" role="alert" class="css-146c3p1">Đã Thêm Vào Yêu Thích</div> from <div>…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+           - waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+      - retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      21 |   await expect(page.getByText('Trường Mầm non Tuổi Xanh, TP HCM', { exact: true })).toBeVisible();
+      22 |   await page.getByRole('button', { name: 'Lưu hoạt động', exact: true }).click();
+    > 23 |   await page.getByRole('button', { name: 'Xem biểu mẫu đăng ký', exact: true }).click();
+         |                                                                                 ^
+      24 |   await page.getByRole('button', { name: 'Xác nhận đăng ký mẫu · Miễn phí', exact: true }).click();
+      25 |   await expect(page.getByText('Nhập tên ít nhất 2 ký tự.', { exact: true })).toBeVisible();
+      26 |   await page.getByRole('textbox', { name: 'Họ và tên *', exact: true }).fill('Linh Chi');
+        at D:\BlueSteps\apps\mobile\e2e\events.spec.ts:23:81
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\events-Home-opens-the-matc-9f7cf--in-and-feedback-stay-local\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\events-Home-opens-the-matc-9f7cf--in-and-feedback-stay-local\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\events-Home-opens-the-matc-9f7cf--in-and-feedback-stay-local\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\events-Home-opens-the-matc-9f7cf--in-and-feedback-stay-local\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) e2e\events.spec.ts:104:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Browser logs:
+
+    <launching> C:/Program Files/Google/Chrome/Application/chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,AvoidCorsURLLoaderRestartOnRedirect,Translate,AutoDeElevate,OptimizationHints,NetworkTimeServiceQuerying,AimEnabled,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=C:\Users\DELL\AppData\Local\Temp\playwright_chromiumdev_profile-TlSEIa --remote-debugging-pipe --no-startup-window
+    <launched> pid=8844
+    [pid=8844] <gracefully close start>
+    Call log:
+      - waiting for getByRole('button', { name: 'Bộ sưu tập', exact: true })
+        - locator resolved to <button tabindex="0" role="button" type="button" aria-label="Bộ sưu tập" class="css-g5y9jx r-1loqt21 r-1otgn73">…</button>
+      - attempting click action
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+        - retrying click action
+        - waiting 20ms
+        2 × waiting for element to be visible, enabled and stable
+          - element is visible, enabled and stable
+          - scrolling into view if needed
+          - done scrolling
+          - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+        - retrying click action
+          - waiting 100ms
+        50 × waiting for element to be visible, enabled and stable
+           - element is visible, enabled and stable
+           - scrolling into view if needed
+           - done scrolling
+           - <div tabindex="0" class="css-g5y9jx r-1loqt21 r-1otgn73"></div> from <div>…</div> subtree intercepts pointer events
+         - retrying click action
+           - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+
+
+      148 |   await page.getByRole('button', { name: 'Xác nhận xóa', exact: true }).click();
+      149 |   await expect(page.getByText('Chưa có hoạt động yêu thích', { exact: true })).toBeVisible();
+    > 150 |   await page.getByRole('button', { name: 'Bộ sưu tập', exact: true }).click();
+          |                                                                       ^
+      151 |   await expect(
+      152 |     page.getByRole('button', { name: 'Kế hoạch tháng 11 · 0', exact: true }),
+      153 |   ).toBeVisible();
+        at D:\BlueSteps\apps\mobile\e2e\events.spec.ts:150:71
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\events-saved-events-can-be-ea5c6-etion-asks-for-confirmation\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\events-saved-events-can-be-ea5c6-etion-asks-for-confirmation\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\events-saved-events-can-be-ea5c6-etion-asks-for-confirmation\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\events-saved-events-can-be-ea5c6-etion-asks-for-confirmation\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow ───
+
+    Test timeout of 30000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\frontend-desktop-preview-a-8408a-nks-render-without-overflow\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\frontend-desktop-preview-a-8408a-nks-render-without-overflow\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\frontend-desktop-preview-a-8408a-nks-render-without-overflow\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\frontend-desktop-preview-a-8408a-nks-render-without-overflow\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('6 hoạt động trong tháng', { exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('6 hoạt động trong tháng', { exact: true }) with timeout 5000ms
+      - waiting for getByText('6 hoạt động trong tháng', { exact: true })
+
+
+      11 | }) => {
+      12 |   await page.goto('/articles/calendar');
+    > 13 |   await expect(page.getByText('6 hoạt động trong tháng', { exact: true })).toBeVisible();
+         |                                                                            ^
+      14 |   await page.getByRole('button', { name: 'Chọn ngày và lọc sự kiện', exact: true }).first().click();
+      15 |   await page.getByRole('radio', { name: 'Workshop', exact: true }).click();
+      16 |   await expect(page.getByRole('button', { name: /^Xem sự kiện / })).toHaveCount(4);
+        at D:\BlueSteps\apps\mobile\e2e\news-digest.spec.ts:13:76
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-digest-green-calendar-9bb2a-ithout-changing-event-dates\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('1 bài viết đã lưu', { exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('1 bài viết đã lưu', { exact: true }) with timeout 5000ms
+      - waiting for getByText('1 bài viết đã lưu', { exact: true })
+
+
+      55 |     .click();
+      56 |   await page.getByRole('button', { name: 'Bài đã lưu', exact: true }).click();
+    > 57 |   await expect(page.getByText('1 bài viết đã lưu', { exact: true })).toBeVisible();
+         |                                                                      ^
+      58 |   await page.getByRole('button', { name: 'Sắp xếp bài đã lưu', exact: true }).click();
+      59 |   await page
+      60 |     .getByRole('textbox', { name: 'Tìm bài viết đã lưu', exact: true })
+        at D:\BlueSteps\apps\mobile\e2e\news-feed.spec.ts:57:70
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-feed-saved-news-searc-0f55a-elect-the-matching-articles\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-feed-saved-news-searc-0f55a-elect-the-matching-articles\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-feed-saved-news-searc-0f55a-elect-the-matching-articles\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-feed-saved-news-searc-0f55a-elect-the-matching-articles\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('textbox', { name: 'Tìm bài viết', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('textbox', { name: 'Tìm bài viết', exact: true }) with timeout 5000ms
+      - waiting for getByRole('textbox', { name: 'Tìm bài viết', exact: true })
+
+
+       7 |   await expect(page.getByRole('button', { name: 'Đọc bài nổi bật', exact: true })).toBeVisible();
+       8 |   await page.getByRole('button', { name: 'Tìm bài viết', exact: true }).click();
+    >  9 |   await expect(page.getByRole('textbox', { name: 'Tìm bài viết', exact: true })).toBeVisible();
+         |                                                                                  ^
+      10 |   await page.goBack();
+      11 |   await page.getByRole('button', { name: 'Đọc bài nổi bật', exact: true }).click();
+      12 |   await expect(page).toHaveURL(/\/articles\/daily-waste$/);
+        at D:\BlueSteps\apps\mobile\e2e\news-landing.spec.ts:9:82
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-landing-news-landing--808ef-ories-and-menu-destinations\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-landing-news-landing--808ef-ories-and-menu-destinations\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-landing-news-landing--808ef-ories-and-menu-destinations\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-landing-news-landing--808ef-ories-and-menu-destinations\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) e2e\news-social.spec.ts:78:5 › discussion preview sorting, likes and posting never add comments to the actual article 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Chưa có thảo luận cho bài viết', { exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('Chưa có thảo luận cho bài viết', { exact: true }) with timeout 5000ms
+      - waiting for getByText('Chưa có thảo luận cho bài viết', { exact: true })
+
+
+      106 |   await page.getByRole('button', { name: 'Về bài viết', exact: true }).click();
+      107 |   await page.getByRole('button', { name: 'Thảo luận bài viết · 0', exact: true }).click();
+    > 108 |   await expect(page.getByText('Chưa có thảo luận cho bài viết', { exact: true })).toBeVisible();
+          |                                                                                   ^
+      109 |   await expect(page.getByText('Nội dung chỉ trong preview', { exact: true })).toHaveCount(0);
+      110 | });
+      111 |
+        at D:\BlueSteps\apps\mobile\e2e\news-social.spec.ts:108:83
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-social-discussion-pre-ad930-ments-to-the-actual-article\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-social-discussion-pre-ad930-ments-to-the-actual-article\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-social-discussion-pre-ad930-ments-to-the-actual-article\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-social-discussion-pre-ad930-ments-to-the-actual-article\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links 
+
+    Test timeout of 60000ms exceeded.
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Bài viết không tồn tại', { exact: true })
+    Expected: visible
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('Bài viết không tồn tại', { exact: true }) with timeout 5000ms
+      - waiting for getByText('Bài viết không tồn tại', { exact: true })
+      - Test timeout of 60000ms exceeded.
+
+
+      247 |   await expect(page.getByText('Bài viết không tồn tại', { exact: true })).toBeVisible();
+      248 |   await page.goto('/articles/discussion?id=missing');
+    > 249 |   await expect(page.getByText('Bài viết không tồn tại', { exact: true })).toBeVisible();
+          |                                                                           ^
+      250 | });
+      251 |
+        at D:\BlueSteps\apps\mobile\e2e\news.spec.ts:249:75
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\trace.zip
+    Usage:
+
+        pnpm exec playwright show-trace test-results\news-news-screens-render-w-5a351-d-handle-missing-deep-links\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8 failed
+    e2e\events.spec.ts:14:5 › Home opens the matching activity and registration, ticket, check-in and feedback stay local 
+    e2e\events.spec.ts:104:5 › saved events can be organized, reminders persist across navigation and deletion asks for confirmation 
+    e2e\frontend.spec.ts:99:5 › desktop preview and direct detail links render without overflow ────
+    e2e\news-digest.spec.ts:9:5 › green calendar changes years, filters categories and restores the monthly list without changing event dates 
+    e2e\news-feed.spec.ts:44:5 › saved news search recovers locally and topic aliases select the matching articles 
+    e2e\news-landing.spec.ts:3:5 › news landing opens search, the original featured article, saved stories and menu destinations 
+    e2e\news-social.spec.ts:78:5 › discussion preview sorting, likes and posting never add comments to the actual article 
+    e2e\news.spec.ts:167:5 › news screens render without runtime errors or overflow at 390 and 428 px and handle missing deep links 
+  81 passed (10.3m)
+D:\BlueSteps\apps\mobile:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @bluesteps/mobile@0.1.0 test:e2e: `playwright test`
+Exit status 1
+[ELIFECYCLE] Command failed with exit code 1.

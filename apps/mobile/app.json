@@ -24,6 +24,15 @@
           "cameraPermission": "BlueSteps dùng camera khi bạn chọn chụp vật liệu để phân loại."
         }
       ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "BlueSteps mở ảnh do bạn chọn để xem trước vật liệu.",
+          "savePhotosPermission": "BlueSteps lưu ảnh vé mẫu khi bạn chọn Lưu vé vào thiết bị.",
+          "granularPermissions": [],
+          "isAccessMediaLocationEnabled": false
+        }
+      ],
       "expo-image",
       "expo-font"
     ],

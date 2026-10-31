@@ -4,6 +4,8 @@ import { router } from 'expo-router';
 import { useApp } from '../../providers';
 import { Artwork, DesignScreen } from '../../design-system/DesignScreen';
 import { homeAssets } from '../../design-system/figma-assets';
+import { eventDesignAssets } from '../../design-system/event-design-assets';
+import { eventDetailAssets } from '../../design-system/event-detail-assets';
 import { Button, Card, Icon, IconButton, Label, Row } from '../../design-system/ui';
 import type { GreenEvent } from '../../services/fixtures';
 
@@ -27,7 +29,13 @@ export function EventCover({ event, height = 152 }: { event: GreenEvent; height?
       ? homeAssets.imgNhHotDng
       : event.id === 'beach'
         ? homeAssets.imgNhHotDng1
-        : undefined;
+        : event.id === 'tree-day'
+          ? eventDesignAssets['534:49034'].imgRectangle738
+          : event.id === 'school-class'
+            ? eventDetailAssets['386:9575'].imgRectangle749
+            : event.id === 'garden'
+              ? eventDetailAssets['386:10026'].imgRectangle749
+              : undefined;
   return source ? (
     <Artwork source={source} width={380} height={height} fit="cover" style={{ width: '100%' }} />
   ) : (

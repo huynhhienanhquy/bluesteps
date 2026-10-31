@@ -1,0 +1,165 @@
+const imgChat = "https://www.figma.com/api/mcp/asset/26d52910-be98-4abf-9d8c-de4715789494.png";
+const imgEllipse295 = "https://www.figma.com/api/mcp/asset/b2463ced-1ba1-415c-b4c1-c61af40e71a8.png";
+const imgEllipse294 = "https://www.figma.com/api/mcp/asset/06d7f385-2742-44c7-99a0-e1184aad85dc.svg";
+const imgOut = "https://www.figma.com/api/mcp/asset/b14c213d-ee4d-44bc-9c97-3a124f53decd.svg";
+const imgBtnSend = "https://www.figma.com/api/mcp/asset/6b130293-4ea8-4ed2-a341-86039f7439be.svg";
+const imgEllipse321 = "https://www.figma.com/api/mcp/asset/df9a2e7c-c60e-4a7d-b368-c8fd72776c92.svg";
+const imgRectangle = "https://www.figma.com/api/mcp/asset/938f295f-c492-4ce7-a7da-93939a125475.svg";
+const imgCombinedShape = "https://www.figma.com/api/mcp/asset/09d6ee68-787b-46bb-805c-d9ce3cf2bea0.svg";
+const imgRectangle1 = "https://www.figma.com/api/mcp/asset/e375583e-576f-4ae8-b91b-824f0282a456.svg";
+const imgWifi = "https://www.figma.com/api/mcp/asset/d14eb4ec-8b55-4779-bdbf-cb29a9f08b88.svg";
+const imgMobileSignal = "https://www.figma.com/api/mcp/asset/48781f05-94a4-40a0-a3dc-975b946c67a1.svg";
+const imgTime = "https://www.figma.com/api/mcp/asset/43a224d6-9ba2-4e79-9d42-1dc490ce9504.svg";
+
+export default function Chat() {
+  return (
+    <div className="overflow-clip relative rounded-[25px] size-full" data-node-id="386:8930" data-name="Chat">
+      <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[25px] size-full" src={imgChat} />
+      <div className="absolute contents left-0 top-0" data-node-id="386:8931">
+        <div className="absolute bg-[rgba(240,246,249,0.8)] h-[123px] left-0 top-0 w-[428px]" data-node-id="386:8932" />
+        <div className="absolute contents left-[19px] top-[59px]" data-node-id="386:8933" data-name="logo">
+          <div className="absolute left-[19px] size-[50px] top-[59px]" data-node-id="386:8934">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse294} />
+          </div>
+          <div className="absolute left-[22px] size-[44px] top-[62px]" data-node-id="386:8935">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" height="44" src={imgEllipse295} width="44" />
+          </div>
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[137.5px] not-italic text-[20px] text-black text-center top-[72px] whitespace-nowrap" data-node-id="386:8936">
+            RecycleBot
+          </p>
+        </div>
+        <div className="absolute left-[352px] size-[30px] top-[67px]" data-node-id="386:8937" data-name="OUT">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgOut} />
+        </div>
+      </div>
+      <div className="absolute contents left-[16px] top-[866px]" data-node-id="386:8938" data-name="send">
+        <div className="absolute bg-white border-[#7f7f7f] border-[0.5px] border-solid h-[43px] left-[16px] rounded-[20px] top-[867px] w-[285.569px]" data-node-id="386:8939" />
+        <div className="absolute h-[43px] left-[367.41px] top-[867px] w-[45.161px]" data-node-id="386:8940" data-name="btn send">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBtnSend} />
+        </div>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[119.67px] not-italic text-[15px] text-[rgba(0,0,0,0.5)] text-center top-[878px] w-[192.198px]" data-node-id="386:8943">{`Tôi có thể giúp gì cho bạn `}</p>
+        <div className="absolute contents left-[314.57px] top-[866px]" data-node-id="386:8944">
+          <div className="absolute left-[314.57px] size-[44px] top-[866px]" data-node-id="386:8945">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse321} />
+          </div>
+          <CodeConnectSnippet data-node-id="386:8946" data-name="Mic">
+            {/* Simple Design System component */}
+            <Mic variantSize="16" size="16" />
+          </CodeConnectSnippet>
+        </div>
+      </div>
+      <div className="absolute contents left-[19px] top-[156px]" data-node-id="386:8947" data-name="message">
+        <div className="absolute bg-[#cfe4f0] h-[47px] left-[19px] rounded-[20px] top-[156px] w-[306px]" data-node-id="386:8948" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[32px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[161px] w-[293px]" data-node-id="386:8949">
+          Chào bạn! Mình là RecycleBot,mình có thể giúp gì cho bạn vậy ?
+        </p>
+      </div>
+      <div className="absolute contents left-[19px] top-[310px]" data-node-id="386:8950" data-name="message">
+        <div className="absolute bg-[#cfe4f0] h-[47px] left-[19px] rounded-[20px] top-[310px] w-[306px]" data-node-id="386:8951" />
+        <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[32px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[315px] w-[293px] whitespace-pre-wrap" data-node-id="386:8952">
+          <p className="leading-[19px] mb-0">{`Một ngày thế giới phải gánh chịu 11 tấn `}</p>
+          <p className="leading-[19px]">rác thải từ nhiều loại khác nhau</p>
+        </div>
+      </div>
+      <div className="absolute contents left-[94px] top-[233px]" data-node-id="386:8953" data-name="message">
+        <div className="absolute bg-[#97bce6] h-[47px] left-[94px] rounded-[20px] top-[233px] w-[306px]" data-node-id="386:8954" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[107px] not-italic text-[15px] text-[rgba(0,0,0,0.9)] top-[238px] w-[281px]" data-node-id="386:8955">
+          Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?
+        </p>
+      </div>
+      <div className="absolute contents left-[19px] top-[464px]" data-node-id="386:8956" data-name="message">
+        <div className="absolute bg-[#cfe4f0] h-[47px] left-[19px] rounded-[20px] top-[464px] w-[306px]" data-node-id="386:8957" />
+        <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[32px] not-italic text-[15px] text-[rgba(0,0,0,0.8)] top-[469px] w-[293px] whitespace-pre-wrap" data-node-id="386:8958">
+          <p className="leading-[19px] mb-0">{`Một ngày thế giới phải gánh chịu 11 tấn `}</p>
+          <p className="leading-[19px]">rác thải từ nhiều loại khác nhau</p>
+        </div>
+      </div>
+      <div className="absolute contents left-[94px] top-[387px]" data-node-id="386:8959" data-name="message">
+        <div className="absolute bg-[#97bce6] h-[47px] left-[94px] rounded-[20px] top-[387px] w-[306px]" data-node-id="386:8960" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[107px] not-italic text-[15px] text-[rgba(0,0,0,0.9)] top-[392px] w-[281px]" data-node-id="386:8961">
+          Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?
+        </p>
+      </div>
+      <div className="absolute contents left-[94px] top-[541px]" data-node-id="386:8962" data-name="message">
+        <div className="absolute bg-[#97bce6] h-[34px] left-[94px] rounded-[20px] top-[541px] w-[306px]" data-node-id="386:8963" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[107px] not-italic text-[15px] text-[rgba(0,0,0,0.9)] top-[549px] w-[281px]" data-node-id="386:8964">
+          Phân loại rác thải nhựa thế nào ?
+        </p>
+      </div>
+      <div className="absolute contents left-[19px] top-[806px]" data-node-id="386:8965">
+        <div className="absolute contents left-[19px] top-[806px]" data-node-id="386:8966">
+          <div className="absolute bg-[#cfe4f0] h-[36px] left-[19px] rounded-[20px] top-[806px] w-[155px]" data-node-id="386:8967" />
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[46px] not-italic text-[12px] text-[rgba(0,0,0,0.5)] top-[814px] w-[113px]" data-node-id="386:8968">
+            phân loại rác nhựa
+          </p>
+        </div>
+        <div className="absolute contents left-[181px] top-[806px]" data-node-id="386:8969">
+          <div className="absolute bg-[#cfe4f0] h-[36px] left-[181px] rounded-[20px] top-[806px] w-[110px]" data-node-id="386:8970" />
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[203px] not-italic text-[12px] text-[rgba(0,0,0,0.5)] top-[815px] w-[67px]" data-node-id="386:8971">
+            xử lý pin củ
+          </p>
+        </div>
+        <div className="absolute contents left-[306px] top-[806px]" data-node-id="386:8972">
+          <div className="absolute bg-[#cfe4f0] h-[36px] left-[306px] rounded-[20px] top-[806px] w-[110px]" data-node-id="386:8973" />
+          <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[19px] left-[328px] not-italic text-[12px] text-[rgba(0,0,0,0.5)] top-[815px] w-[79px]" data-node-id="386:8974">
+            rác nguy hại
+          </p>
+        </div>
+      </div>
+      <div className="absolute contents inset-[0.67%_1.64%_95.75%_1.4%]" data-node-id="386:8975" data-name="time">
+        <div className="absolute inset-[0.67%_1.64%_95.75%_1.4%] overflow-clip" data-node-id="386:8976" data-name="iPhone/Status Bar">
+          <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:8976;47:200" data-name="Right Side">
+            <div className="absolute contents right-[24.67px] top-[17.33px]" data-node-id="I386:8976;47:201" data-name="Battery">
+              <div className="absolute h-[11.333px] right-[27px] top-[17.33px] w-[22px]" data-node-id="I386:8976;47:202" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle} />
+              </div>
+              <div className="absolute h-[4px] right-[24.67px] top-[21px] w-[1.328px]" data-node-id="I386:8976;47:203" data-name="Combined Shape">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCombinedShape} />
+              </div>
+              <div className="absolute h-[7.333px] right-[29px] top-[19.33px] w-[18px]" data-node-id="I386:8976;47:204" data-name="Rectangle">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRectangle1} />
+              </div>
+            </div>
+            <div className="absolute h-[10.966px] right-[54.03px] top-[17.33px] w-[15.272px]" data-node-id="I386:8976;47:205" data-name="Wifi">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgWifi} />
+            </div>
+            <div className="absolute h-[10.666px] right-[74.33px] top-[17.67px] w-[17px]" data-node-id="I386:8976;47:209" data-name="Mobile Signal">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgMobileSignal} />
+            </div>
+          </div>
+          <div className="absolute contents left-[12px] top-[12px]" data-node-id="I386:8976;47:216" data-name="Left Side">
+            <div className="absolute h-[21px] left-[12px] top-[12px] w-[52px]" data-node-id="I386:8976;47:217" data-name="Time">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTime} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+If the node is connected to a code component in the users codebase via Code Connect, the connected component will be included in the final markup wrapped in a CodeConnectSnippet element, with relevant imports at the top of the file. There are two formats: 1. Single snippet: <CodeConnectSnippet data-snippet-language="React"><TitleComponent>Hello World</TitleComponent></CodeConnectSnippet> 2. Multiple options: <CodeConnectSnippet data-snippet-language="React" options={[<Button variant="primary" />, <Button variant="secondary" />]} /> IMPORTANT: the CodeConnectSnippet wrapper element should not be part of the final code. For the options format, choose the single most appropriate option to use in your implementation. The source of the code component will be in the import path, e.g. import {ComponentName } from 'path/to/component'; IMPORTANT: the import path may not be relative/may point to a URL, so you should search for the component in the codebase and MUST use it if possible.
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## X
+**Node ID:** 306:367
+
+Keywords: cancel, close, delete, remove, times, clear
+
+## Send
+**Node ID:** 306:738
+
+Keywords: message, mail, email, paper airplane, paper aeroplane
+
+## Mic
+**Node ID:** 306:751
+
+Keywords: record, sound, listen
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

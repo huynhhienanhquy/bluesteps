@@ -1,1 +1,1 @@
-export { DiscussionScreen as default } from '../src/features/community/CommunityScreens';
+export { CommunityPostScreen as default } from '../src/features/community/CommunityDesignScreens';

@@ -3,7 +3,7 @@ import { fireEvent, screen } from '@testing-library/react-native';
 import { renderApp } from '../../test/render';
 import { Button, Label } from '../../design-system/ui';
 import { useApp } from '../../providers';
-import { ArticlesScreen } from './NewsScreens';
+import { ArticlesScreen } from './NewsFeedScreen';
 import { NewsTopicsScreen } from './NewsExploreScreens';
 
 function LocalNewsFlow() {
@@ -41,7 +41,7 @@ test('article search and empty recovery apply to titles and body without accents
   expect(screen.getByText('1 kết quả phù hợp')).toBeTruthy();
   await fireEvent.changeText(screen.getByLabelText('Tìm bài viết'), 'khong co bai nay');
   await fireEvent.press(screen.getByLabelText('Xóa bộ lọc'));
-  expect(screen.getByText('6 kết quả phù hợp')).toBeTruthy();
+  expect(screen.getByText('13 kết quả phù hợp')).toBeTruthy();
 });
 
 test('following a topic changes its action and count without subscribing to notifications', async () => {

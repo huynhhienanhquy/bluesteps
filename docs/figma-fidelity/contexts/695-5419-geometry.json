@@ -1,0 +1,119 @@
+{
+  "pageId": "386:7053",
+  "pageName": "backuped",
+  "frame": "695:5419",
+  "width": 340,
+  "height": 255,
+  "nodes": [
+    {
+      "id": "695:5419",
+      "parent": "386:7053",
+      "type": "FRAME",
+      "name": "37. Tin tức / Xác nhận quan tâm sự kiện",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 255
+    },
+    {
+      "id": "695:5420",
+      "parent": "695:5419",
+      "type": "FRAME",
+      "name": "Xác nhận",
+      "x": 136,
+      "y": 23,
+      "width": 68,
+      "height": 68
+    },
+    {
+      "id": "695:5421",
+      "parent": "695:5420",
+      "type": "TEXT",
+      "name": "Dấu xác nhận",
+      "x": 136,
+      "y": 32,
+      "width": 68,
+      "height": 50,
+      "text": "✓",
+      "fontSize": 34,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "695:5422",
+      "parent": "695:5419",
+      "type": "TEXT",
+      "name": "Tiêu đề",
+      "x": 25,
+      "y": 104,
+      "width": 290,
+      "height": 34,
+      "text": "Đã ghi nhận sự quan tâm",
+      "fontSize": 19,
+      "fontName": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "695:5423",
+      "parent": "695:5419",
+      "type": "TEXT",
+      "name": "Mô tả",
+      "x": 29,
+      "y": 148,
+      "width": 282,
+      "height": 42,
+      "text": "Thông tin sự kiện đã được thêm vào lịch quan tâm của bạn.",
+      "fontSize": 12,
+      "fontName": {
+        "family": "Inter",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400,
+          "slnt": 0
+        }
+      }
+    },
+    {
+      "id": "695:5424",
+      "parent": "695:5419",
+      "type": "FRAME",
+      "name": "Nút hoàn tất",
+      "x": 28,
+      "y": 201,
+      "width": 284,
+      "height": 39
+    },
+    {
+      "id": "695:5425",
+      "parent": "695:5424",
+      "type": "TEXT",
+      "name": "Xong",
+      "x": 28,
+      "y": 212,
+      "width": 284,
+      "height": 25,
+      "text": "Xong",
+      "fontSize": 13,
+      "fontName": {
+        "family": "Inter",
+        "style": "Semi Bold",
+        "variationSettings": {
+          "wght": 600,
+          "slnt": 0
+        }
+      }
+    }
+  ]
+}
