@@ -1,1 +1,1 @@
-export { EditProfileScreen as default } from '../src/features/profile/EditProfileScreen';
+export { EditProfileScreen as default } from '../src/features/live/ProfileScreens';

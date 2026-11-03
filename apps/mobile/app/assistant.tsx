@@ -1,1 +1,1 @@
-export { BotDesignScreen as default } from '../src/features/assistant/BotDesignScreen';
+export { AssistantScreen as default } from '../src/features/live/AssistantScreen';

@@ -1,1 +1,1 @@
-export { ConnectedAccountScreen as default } from '../src/features/auth/ConnectedAccountScreen';
+export { SessionsScreen as default } from '../src/features/live/ProfileScreens';

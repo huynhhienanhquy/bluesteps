@@ -1,3 +1,5 @@
+> Báo cáo lịch sử của giai đoạn trước tích hợp. Trạng thái hiện hành và kiểm chứng nằm trong [live-integration](live-integration.md).
+
 # Frontend-first implementation
 
 Nguồn: `figma-analysis/12-agent-start-here.md`, `02-components-and-app.md`, `08-tech-stack.md`, ảnh `391-25197.png` và catalog trang backuped `386:7053`. Yêu cầu mới trong chat ưu tiên frontend trước backend; không đổi trạng thái các packet backend hoặc coi prerequisite API đã đạt.

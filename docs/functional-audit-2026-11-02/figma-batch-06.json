@@ -1,0 +1,1512 @@
+{
+  "frames": [
+    {
+      "id": "386:10351",
+      "name": "map",
+      "texts": [
+        "Rẽ phải vào Trần Đại Nghĩa/Đ. Trần Đại Nghĩa",
+        "80 m",
+        "Rẽ trái",
+        "160 m",
+        "90 m",
+        "Rẽ phải",
+        "Vị trí của bạn",
+        "Các chặng",
+        "Tuyến đường gần nhất",
+        "5 phút (2,0 km)",
+        "Tránh trạm thu phí",
+        "Khởi hành lúc 10:00",
+        "Lái xe",
+        "9 phút",
+        "4 phút",
+        "5 phút",
+        "Đi về phía hướng Tây",
+        "130 m",
+        "Rẽ phải về hướng Trần Đại Nghĩa/Đ. Trần Hưng Đạo/ĐT607",
+        "Đi qua Tuyết Nhung ở phía bên phải",
+        "Thêm điểm dừng",
+        "Bắt đầu",
+        "Chia sẻ",
+        "Lập hành trình nhiều điểm"
+      ],
+      "interactions": [
+        {
+          "id": "386:10387",
+          "name": "Line 25",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10393",
+          "name": "Group 36937",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10431",
+          "name": "Group 36954",
+          "label": "Bắt đầu",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10136",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26954",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26958",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26963",
+          "name": "Group 37109",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26969",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10644",
+      "name": "29. tin tức chi tiết 2",
+      "texts": [
+        "Tuổi trẻ hành động: Chung tay làm sạch dòng kênh, vì một Việt Nam không rác thải!",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "Hình ảnh này là một minh chứng sống động: Hàng trăm bạn đoàn viên, thanh niên đang hăng hái lội xuống dòng kênh, không quản ngại khó khăn để vớt từng bọc rác, từng chai nhựa. Đây không chỉ là một hoạt động...xem thêm",
+        "Hiện trạng: Thử thách và trách nhiệm của tuổi trẻ",
+        "Mỗi ngày, những con kênh, dòng sông – mạch sống của đô thị và nông thôn – đang phải \"oằn mình\" gánh chịu hàng triệu tấn rác thải đủ loại. Rác thải sinh hoạt, nhựa, rác công nghiệp... không chỉ gây ô nhiễm nặng nề mà còn làm mất đi vẻ đẹp tự nhiên, ảnh hưởng trực tiếp đến sức khỏe cộng đồng và cuộc sống của các loài thủy sinh. Đây là vấn đề cấp bách, đòi hỏi sự chung tay giải quyết, và tuổi trẻ đã tiên phong hành động.",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Tiên phong làm sạch môi trường: Trực tiếp dọn dẹp kênh rạch, bãi biển, các khu vực công cộng.\nTuyên truyền nâng cao nhận thức: Giúp cộng đồng hiểu rõ tác hại của rác thải và lợi ích của việc bảo vệ môi trường.\nTriển khai các mô hình sáng tạo: Đề xuất và thực hiện các giải pháp thu gom, phân loại, tái chế rác hiệu quả.",
+        "4.Hành động ngay từ hôm nay:",
+        "3. Hậu quả: Không của riêng ai",
+        "Môi trường bị hủy hoại: Rác thải gây ô nhiễm nguồn nước, đất, không khí, đe dọa đa dạng sinh học.\nSức khỏe cộng đồng bị ảnh hưởng: là nguyên nhân gây ra nhiều bệnh tật nghiêm trọng cho con người.\nMất đi vẻ đẹp cảnh quan: Những dòng kênh, bờ sông đầy rác làm mất đi giá trị thẩm mỹ."
+      ],
+      "interactions": [
+        {
+          "id": "386:10718",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10722",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10727",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10733",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "690:5493",
+          "name": "Prototype / Quay lại bài trước",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10737",
+      "name": "29. tin tức chi tiết 4",
+      "texts": [
+        "Chủ Nhật Xanh ý nghĩa: Ca sĩ Thủy Tiên cùng cộng đồng chung tay \"giải cứu\" bãi biển!",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "Gác lại hình ảnh lộng lẫy trên sân khấu, trong ngày Chủ Nhật Xanh, hình ảnh ca sĩ Thủy Tiên không ngại nắng gió, trực tiếp cùng hàng trăm tình nguyện viên lội xuống bãi biển ngập rác đã truyền đi một thông điệp vô cùng mạnh mẽ.\nKhi một người có tầm ảnh hưởng...xem thêm",
+        " Sức mạnh của sự lan tỏa",
+        "\nTruyền cảm hứng hành động: Khuyến khích mọi người, không phân biệt là ai, đều có thể xắn tay áo lên và tạo ra sự thay đổi.\nBiến ý thức thành hành động: Hành động thực tế của cô là lời kêu gọi mạnh mẽ nhất, hiệu quả hơn ngàn lời hô hào, rằng bảo vệ môi trường là trách nhiệm chung của tất cả mọi người.",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Đừng xả rác bừa bãi: Đặc biệt là khi đi du lịch biển.\nHạn chế nhựa một lần: Hãy tập thói quen mang theo bình nước, túi vải.\nHãy hành động: Đừng ngần ngại nhặt một mảnh rác bạn thấy.",
+        "4.Từ Chủ Nhật Xanh đến mỗi ngày Xanh",
+        "3. \"Giải cứu\" môi trường sống",
+        "Hình ảnh bãi biển ngập trong rác thải là một thực tế đáng buồn. Rác thải nhựa, túi nilon, và rác sinh hoạt đang từng ngày hủy hoại cảnh quan, giết chết sinh vật biển \nHành động của Thủy Tiên và các tình nguyện viên hôm nay chính là nỗ lực \"giải cứu\" thiết thực, \"trả lại\" sự trong lành cho bãi biển."
+      ],
+      "interactions": [
+        {
+          "id": "386:10809",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10813",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10818",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10824",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "690:5495",
+          "name": "Prototype / Quay lại bài trước",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10828",
+      "name": "29. tin tức chi tiết 6",
+      "texts": [
+        "Sức trẻ Sài Gòn Xanh: \"Lội bùn\" hồi sinh những dòng kênh ô nhiễm",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "Thay vì chỉ chia sẻ sự bức xúc trên mạng xã hội, các bạn trẻ của nhóm \"Sài Gòn Xanh\" đã chọn hành động thực tế. Hình ảnh họ không ngại bùn đất, trực tiếp lội xuống những dòng kênh đen kịt, ngập ngụa rác thải...xem thêm",
+        "Sức mạnh của tinh thần xung kích",
+        "Hành động thực tế: Các bạn trẻ không chỉ dọn dẹp ở những nơi dễ thấy. Họ tìm đến những \"điểm đen\" ô nhiễm nặng nhất, ngâm mình hàng giờ trong dòng nước bẩn để vớt từng bao rác, khơi thông từng miệng cống.\nLan tỏa ý thức: Hành động dũng cảm của Sài Gòn Xanh là lời nhắc nhở trực diện và mạnh mẽ nhất đến ý thức của cộng đồng về thói quen xả rác bừa bãi.",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Hành động của nhóm Sài Gòn Xanh không chỉ là làm sạch. Họ đang gieo mầm hy vọng và truyền cảm hứng cho toàn xã hội, đặc biệt là giới trẻ. Họ chứng minh rằng, chỉ cần chúng ta dám hành động, chúng ta có thể tạo ra sự thay đổi. Từ một nhóm nhỏ, tinh thần này đang lan tỏa, kêu gọi mọi người hãy ngưng xả rác và cùng chung tay bảo vệ \"lá phổi\" của thành phố.",
+        "4.Xây dựng một lối sống \"Xanh\"",
+        "3.Các loại rác \"bóp nghẹt\" dòng kênh",
+        "Rác thải nhựa: Chai lọ, túi nilon, hộp xốp... chiếm số lượng lớn nhất.\nRác thải sinh hoạt: Thức ăn thừa, vật dụng hỏng... bị vứt trực tiếp xuống kênh.\nRác công nghiệp & điện tử: Lẫn trong đó là cả những loại rác độc hại từ các cơ sở sản xuất nhỏ lẻ."
+      ],
+      "interactions": [
+        {
+          "id": "386:10900",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10904",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10909",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10915",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "690:5499",
+          "name": "Prototype / Quay lại bài trước",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10919",
+      "name": "29. tin tức chi tiết 8",
+      "texts": [
+        "Trả lại vẻ đẹp cho Di sản: Phong trào làm sạch các danh lam thắng cảnh",
+        "7 phút đọc",
+        "Tái Chế",
+        "Tale",
+        "\nTrước tình hình đó, một làn sóng hành động mạnh mẽ đang lan tỏa. Không chỉ là các đội tình nguyện, chính những người dân địa phương, các bạn trẻ, và cả du khách đã cùng chung tay \"giải cứu\" những danh thắng này...xem thêm",
+        "Sức mạnh từ ý thức bảo vệ \"báu vật\" quốc gia",
+        "Hành động vì \"nồi cơm\": Rất nhiều người dân mưu sinh trực tiếp từ du lịch tại các danh thắng. Họ hiểu rằng, bảo vệ cảnh quan sạch đẹp chính là bảo vệ cuộc sống và tương lai của chính mình.\nLan tỏa tinh thần \"chủ nhà\": Hành động của họ là lời nhắc nhở mạnh mẽ nhất, đánh thức ý thức của cả cộng đồng và du khách. Khi \"chủ nhà\" trân trọng, \"khách\" cũng sẽ ý thức ",
+        "Hình ảnh các loại rác thải phổ biến",
+        "Rác thải nhựa",
+        "Rác công nghiệp",
+        "Rác điện tử",
+        "Rác sinh hoạt",
+        "Du lịch có trách nhiệm: Kêu gọi du khách \"Không lấy gì ngoài những bức ảnh, không để lại gì ngoài những dấu chân\".\nChuyển đổi địa phương: Vận động các cơ sở kinh doanh, người dân địa phương áp dụng các giải pháp giảm thiểu nhựa, thu gom và tái chế rác hiệu quả.\nTương lai: Mục tiêu là xây dựng một nền du lịch bền vững, nơi vẻ đẹp của di sản và danh thắng được bảo tồn trọn vẹn cho thế hệ mai sau.",
+        "4.Xây dựng nền du lịch \"Xanh\" và bền vững",
+        "3. Rác thải \"bức tử\" danh lam thắng cảnh",
+        "Rác thải nhựa: Chiếm số lượng lớn nhất, chủ yếu từ du khách (chai nước, túi nilon, ống hút), từ các khu dân cư và hàng quán dịch vụ xung quanh.\nHậu quả: Rác thải không chỉ làm mất mỹ quan nghiêm trọng, mà còn hủy hoại hệ sinh thái (rạn san hô, sinh vật biển...) "
+      ],
+      "interactions": [
+        {
+          "id": "386:10991",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10995",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11000",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11006",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "690:5503",
+          "name": "Prototype / Quay lại bài trước",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11010",
+      "name": "Tích điểm và phần thưởng",
+      "texts": [
+        "Điểm hiện tại của bạn: ",
+        "180 điểm",
+        "👉 Chỉ còn 97 điểm nữa để lên cấp!",
+        "Mầm xanh",
+        "Tích điểm & phần thưởng",
+        "Cấp độ 2 - Chiến Binh Tái Chế",
+        "Thu Phương",
+        "Phần thưởng",
+        "Lịch sử",
+        "Cách tính điểm",
+        "Người Bảo Vệ Trái Đất",
+        "1",
+        "2",
+        "Chiến Binh Tái Chế",
+        "Đại sứ xanh",
+        "Người Gìn Giữ Hành Tinh",
+        "Anh Hùng Sinh Thái",
+        "Hộ Vệ Thiên Nhiên",
+        "Tinh Linh Môi Trường",
+        "Tổng điểm tích lũy: 253 điểm",
+        "100",
+        "200",
+        "350",
+        "500",
+        "700"
+      ],
+      "interactions": [
+        {
+          "id": "386:11029",
+          "name": "Thu Phương",
+          "label": "Thu Phương",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11030",
+          "name": "Group 36780",
+          "label": "Phần thưởng",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11451",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11038",
+          "name": "Lịch sử",
+          "label": "Lịch sử",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11046",
+          "name": "Group cách tính điểm",
+          "label": "Cách tính điểm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11320",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11252",
+          "name": "Ellipse 10",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11320",
+      "name": "Cách quy đổi điểm",
+      "texts": [
+        "Cách tính điểm  / 1 lần quét",
+        "Rác vô cơ",
+        "+2 điểm",
+        "Rác tái chế",
+        "+5 điểm",
+        "+3 điểm",
+        "Rác hữu cơ",
+        "Hãy cùng chung tay bảo vệ môi trường!  Mỗi lần bạn phân loại rác đúng cách, hệ thống sẽ cộng điểm xanh tương ứng.  Điểm xanh có thể quy đổi thành phần thưởng, voucher hoặc trồng cây gây quỹ.",
+        "Đổi thưởng  ",
+        "253 điểm",
+        "Tổng điểm tích lũy",
+        "Quy đổi điểm xanh 🎯  ",
+        "180 điểm",
+        "100",
+        "200",
+        "350",
+        "500",
+        "700"
+      ],
+      "interactions": [
+        {
+          "id": "386:11369",
+          "name": "Group 36782",
+          "label": "Đổi thưởng  ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11451",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11404",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11432",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11436",
+          "name": "Group 37110",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11443",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11447",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11451",
+      "name": "Phần thưởng",
+      "texts": [
+        "Phần thưởng",
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Nhận ngay 2 điểm",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Nhắc tôi",
+        "Lịch sử",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Khác",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Chậu cây tái chế",
+        "Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn",
+        "80 điểm",
+        "Ly tái chế Eco",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "Túi vải canvas",
+        "Thời trang – thay thế túi nilon",
+        "100 điểm",
+        "Xà phòng hữu cơ",
+        "Từ thiên nhiên – an toàn cho da và môi trường",
+        "150 điểm",
+        "Móc khóa tái chế",
+        "Làm từ nắp chai nhựa, nhiều hình dáng dễ thương.",
+        "70 điểm",
+        "Bút bi thân nhựa",
+        "100% vỏ nhựa thu hồi, viết êm, thân thiện môi trường.",
+        "Khung ảnh mini",
+        "Kim loại tái chế để bàn học, bàn làm việc.",
+        "Hộp đựng tài liệu",
+        "Giấy cứng tái chế, dùng lưu trữ hồ sơ, sách, tài liệu."
+      ],
+      "interactions": [
+        {
+          "id": "386:11462",
+          "name": "Group 36851",
+          "label": "Nhận ngay 2 điểm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12671",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11520",
+          "name": "Group 36816",
+          "label": "Voucher",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13109",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11524",
+          "name": "Group 36817",
+          "label": "Giải trí ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12823",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11528",
+          "name": "Group 36818",
+          "label": "🌞 Khác",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12956",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11621",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11633",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11637",
+          "name": "Group 37110",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11644",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11648",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11652",
+      "name": "Sau khi nhận điểm mỗi ngày",
+      "texts": [
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Nhắc tôi",
+        "Lịch sử",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Khác",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Chậu cây tái chế",
+        "Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn",
+        "80 điểm",
+        "Ly tái chế Eco",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "Túi vải canvas",
+        "Thời trang – thay thế túi nilon",
+        "100 điểm",
+        "Xà phòng hữu cơ",
+        "Từ thiên nhiên – an toàn cho da và môi trường",
+        "150 điểm",
+        "Móc khóa tái chế",
+        "Làm từ nắp chai nhựa, nhiều hình dáng dễ thương.",
+        "70 điểm",
+        "Bút bi thân nhựa",
+        "100% vỏ nhựa thu hồi, viết êm, thân thiện môi trường.",
+        "Khung ảnh mini",
+        "Kim loại tái chế để bàn học, bàn làm việc.",
+        "Hộp đựng tài liệu",
+        "Giấy cứng tái chế, dùng lưu trữ hồ sơ, sách, tài liệu.",
+        "Quay lại ngày mai nhé",
+        "Phần thưởng"
+      ],
+      "interactions": [
+        {
+          "id": "386:11694",
+          "name": "Group 36790",
+          "label": "Nhắc tôi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12064",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11697",
+          "name": "Group 36850",
+          "label": "Lịch sử",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11716",
+          "name": "Group 36816",
+          "label": "Voucher",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13109",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11720",
+          "name": "Group 36817",
+          "label": "Giải trí ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12823",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11724",
+          "name": "Group 36818",
+          "label": "🌞 Khác",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12956",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11729",
+          "name": "Group 36815",
+          "label": "Chậu cây tái chế | Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn | 80 điểm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12517",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11827",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11839",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11843",
+          "name": "Group 37110",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11850",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11854",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:11858",
+      "name": "Nhắc tôi",
+      "texts": [
+        "180 điểm",
+        "Điểm danh nhận điểm mỗi ngày",
+        "Hôm nay",
+        "+2 điểm",
+        "Ngày 2",
+        "Ngày 3",
+        "+3 điểm",
+        "Ngày 4",
+        "Ngày 5",
+        "Ngày 6",
+        "+5 điểm",
+        "Ngày 7",
+        "Lịch sử",
+        "Gom rác, tích xanh  - Đổi quà thật nhanh!",
+        "ĐỔI CÁC PHẦN QUÀ",
+        "Đồ tái chế",
+        "Voucher",
+        "Giải trí ",
+        "🌞 Khác",
+        "🌱 Phân loại rác - Sống xanh mỗi ngày cùng Tên Ap ♻️",
+        "Chậu cây tái chế",
+        "Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn",
+        "80 điểm",
+        "Ly tái chế Eco",
+        "Ly làm từ vật liệu tự nhiên, thân thiện môi trường",
+        "120 điểm",
+        "Túi vải canvas",
+        "Thời trang – thay thế túi nilon",
+        "100 điểm",
+        "Xà phòng hữu cơ",
+        "Từ thiên nhiên – an toàn cho da và môi trường",
+        "150 điểm",
+        "Móc khóa tái chế",
+        "Làm từ nắp chai nhựa, nhiều hình dáng dễ thương.",
+        "70 điểm",
+        "Bút bi thân nhựa",
+        "100% vỏ nhựa thu hồi, viết êm, thân thiện môi trường.",
+        "Khung ảnh mini",
+        "Kim loại tái chế để bàn học, bàn làm việc.",
+        "Hộp đựng tài liệu",
+        "Giấy cứng tái chế, dùng lưu trữ hồ sơ, sách, tài liệu.",
+        "Quay lại ngày mai nhé",
+        "Hủy lời nhắc",
+        "Phần thưởng"
+      ],
+      "interactions": [
+        {
+          "id": "386:11900",
+          "name": "Group 36850",
+          "label": "Lịch sử",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12071",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11919",
+          "name": "Group 36816",
+          "label": "Voucher",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13109",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11923",
+          "name": "Group 36817",
+          "label": "Giải trí ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12823",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11927",
+          "name": "Group 36818",
+          "label": "🌞 Khác",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12956",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:11932",
+          "name": "Group 36815",
+          "label": "Chậu cây tái chế | Chậu làm từ nhựa tái chế, nhỏ gọn, xinh xắn | 80 điểm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:12517",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12028",
+          "name": "Group 36790",
+          "label": "Hủy lời nhắc",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:11652",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12033",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16592",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12045",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12049",
+          "name": "Group 37110",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12056",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:12060",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

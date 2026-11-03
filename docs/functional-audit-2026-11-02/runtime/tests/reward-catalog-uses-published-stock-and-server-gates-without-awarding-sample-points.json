@@ -1,0 +1,128 @@
+{
+  "title": "reward catalog uses published stock and server gates without awarding sample points",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 5889,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/rewards",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/rewards/1104d5ea-0f17-46d7-b4fc-f0382b763aa4",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/rewards",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/daily-claims",
+      "status": 503
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    }
+  ]
+}

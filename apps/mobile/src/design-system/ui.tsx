@@ -1,9 +1,12 @@
 import {
   forwardRef,
+  createContext,
+  useContext,
   useState,
   type ComponentProps,
   type ComponentRef,
   type PropsWithChildren,
+  type Ref,
 } from 'react';
 import {
   ActivityIndicator,
@@ -16,6 +19,7 @@ import {
   TextInput,
   View,
   type TextInputProps,
+  type TextProps,
   type ViewStyle,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -24,6 +28,34 @@ import { router } from 'expo-router';
 import { useApp } from '../providers';
 
 export type IconName = ComponentProps<typeof Ionicons>['name'];
+export type FontFamily = 'montserrat' | 'inter' | 'roboto' | 'mulish' | 'poppins' | 'inknut';
+export const Typography = createContext<FontFamily>('montserrat');
+export function fontName(
+  family: FontFamily,
+  weight: 'regular' | 'medium' | 'semibold' | 'bold' = 'regular',
+) {
+  const families = {
+    montserrat: 'Montserrat',
+    inter: 'Inter',
+    roboto: 'Roboto',
+    mulish: 'Mulish',
+    poppins: 'Poppins',
+    inknut: 'InknutAntiqua',
+  };
+  if (family === 'inknut')
+    return weight === 'bold' ? 'InknutAntiqua_700Bold' : 'InknutAntiqua_400Regular';
+  const weights = {
+    regular: '400Regular',
+    medium: '500Medium',
+    semibold: '600SemiBold',
+    bold: '700Bold',
+  };
+  if (family === 'roboto' && weight === 'bold') return 'Roboto_800ExtraBold';
+  if (family === 'roboto' && weight === 'semibold') return 'Roboto_500Medium';
+  if (family === 'mulish' && weight !== 'regular') return 'Mulish_700Bold';
+  if (family === 'poppins' && weight === 'semibold') return 'Poppins_500Medium';
+  return `${families[family]}_${weights[weight]}`;
+}
 export function Icon({ name, size = 24, color }: { name: string; size?: number; color?: string }) {
   const { colors } = useApp();
   return (
@@ -45,25 +77,32 @@ export function Label({
   style,
   heading = false,
   weight,
-}: PropsWithChildren<{
-  size?: number;
-  bold?: boolean;
-  color?: ComponentProps<typeof Ionicons>['color'];
-  style?: ComponentProps<typeof Text>['style'];
-  heading?: boolean;
-  weight?: 'regular' | 'medium' | 'semibold' | 'bold';
-}>) {
+  family,
+  ...textProps
+}: PropsWithChildren<
+  TextProps & {
+    size?: number;
+    bold?: boolean;
+    color?: ComponentProps<typeof Ionicons>['color'];
+    style?: ComponentProps<typeof Text>['style'];
+    heading?: boolean;
+    weight?: 'regular' | 'medium' | 'semibold' | 'bold';
+    family?: FontFamily;
+  }
+>) {
   const { colors } = useApp();
+  const inheritedFamily = useContext(Typography);
   return (
     <Text
-      accessibilityRole={heading ? 'header' : undefined}
+      {...textProps}
+      accessibilityRole={heading ? 'header' : textProps.accessibilityRole}
       style={[
         {
           color: color ?? colors.text,
           fontSize: size,
           lineHeight: size * 1.5,
           fontWeight: '400',
-          fontFamily: `Montserrat_${({ regular: '400Regular', medium: '500Medium', semibold: '600SemiBold', bold: '700Bold' } as const)[weight ?? (bold ? 'bold' : 'regular')]}`,
+          fontFamily: fontName(family ?? inheritedFamily, weight ?? (bold ? 'bold' : 'regular')),
           includeFontPadding: false,
         },
         style,
@@ -153,19 +192,22 @@ export function IconButton({
   label,
   onPress,
   selected,
+  disabled = false,
 }: {
   name: string;
   label: string;
   onPress: () => void;
   selected?: boolean;
+  disabled?: boolean;
 }) {
   const { colors } = useApp();
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={label}
-      accessibilityState={{ selected }}
+      accessibilityState={{ selected, disabled }}
       aria-pressed={selected}
+      disabled={disabled}
       onPress={onPress}
       style={({ pressed }) => ({
         minWidth: 48,
@@ -186,21 +228,25 @@ export function Chip({
   label,
   selected,
   onPress,
+  disabled = false,
 }: {
   label: string;
   selected: boolean;
   onPress: () => void;
+  disabled?: boolean;
 }) {
   const { colors } = useApp();
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityState={{ selected }}
+      accessibilityState={{ selected, disabled }}
       aria-pressed={selected}
+      disabled={disabled}
       onPress={onPress}
       style={[
         styles.chip,
         {
+          opacity: disabled ? 0.45 : 1,
           backgroundColor: selected ? colors.primary : colors.surface,
           borderColor: selected ? colors.primary : colors.border,
         },
@@ -282,10 +328,12 @@ export function Search({
   value,
   onChangeText,
   placeholder = 'Tìm kiếm',
+  maxLength,
 }: {
   value: string;
   onChangeText: (text: string) => void;
   placeholder?: string;
+  maxLength?: number;
 }) {
   const { colors } = useApp();
   return (
@@ -305,6 +353,7 @@ export function Search({
         placeholderTextColor={colors.muted}
         value={value}
         onChangeText={onChangeText}
+        maxLength={maxLength}
         style={{ flex: 1, minHeight: 50, fontSize: 15, color: colors.text, padding: 10 }}
       />
       {value ? (
@@ -370,11 +419,21 @@ export function Screen({
   subtitle,
   back = false,
   action,
+  scrollRef,
+  onScroll,
+  onContentSizeChange,
+  onLayout,
+  scrollEnabled = true,
 }: PropsWithChildren<{
   title: string;
   subtitle?: string;
   back?: boolean;
   action?: React.ReactNode;
+  scrollRef?: Ref<ComponentRef<typeof ScrollView>>;
+  onScroll?: ComponentProps<typeof ScrollView>['onScroll'];
+  onContentSizeChange?: ComponentProps<typeof ScrollView>['onContentSizeChange'];
+  onLayout?: ComponentProps<typeof ScrollView>['onLayout'];
+  scrollEnabled?: boolean;
 }>) {
   const { colors } = useApp();
   return (
@@ -386,7 +445,16 @@ export function Screen({
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
         style={{ flex: 1 }}
       >
-        <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={styles.screen}>
+        <ScrollView
+          ref={scrollRef}
+          scrollEnabled={scrollEnabled}
+          onScroll={onScroll}
+          scrollEventThrottle={250}
+          onContentSizeChange={onContentSizeChange}
+          onLayout={onLayout}
+          keyboardShouldPersistTaps="handled"
+          contentContainerStyle={styles.screen}
+        >
           <Row style={{ alignItems: 'center', paddingBottom: 8 }}>
             {back ? (
               <IconButton

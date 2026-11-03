@@ -1,0 +1,1639 @@
+{
+  "frames": [
+    {
+      "id": "771:6077",
+      "name": "71. Chat / Đã gửi emoji",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "💚",
+        "Đã gửi · 10:43",
+        "☺"
+      ],
+      "interactions": [
+        {
+          "id": "771:6084",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6097",
+          "name": "Rectangle 782",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6099",
+          "name": "Iconly/Regular/Bulk/Camera",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6100",
+          "name": "Nhắn tin...",
+          "label": "Nhắn tin...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6101",
+          "name": "Iconly/Regular/Light/Voice",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6102",
+          "name": "Iconly/Regular/Light/Image 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6103",
+          "name": "Iconly/Regular/Light/Document",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6104",
+          "name": "Iconly/Regular/Light/Plus",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6713",
+          "name": "Mở bảng emoji",
+          "label": "☺",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6023",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "771:6108",
+      "name": "72. Chat / Đính kèm",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "Đính kèm",
+        "🖼️    Ảnh và video",
+        "📷    Chụp ảnh",
+        "📄    Tệp tài liệu",
+        "🎙️    Ghi âm",
+        "Hủy"
+      ],
+      "interactions": [
+        {
+          "id": "771:6115",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6139",
+          "name": "Photo option",
+          "label": "🖼️    Ảnh và video",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6140",
+          "name": "Camera option",
+          "label": "📷    Chụp ảnh",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6141",
+          "name": "File option",
+          "label": "📄    Tệp tài liệu",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6609",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6142",
+          "name": "Voice option",
+          "label": "🎙️    Ghi âm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6143",
+          "name": "Cancel option",
+          "label": "Hủy",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8151",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "771:6144",
+      "name": "73. Chat / Xem trước ảnh",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "‹",
+        "Xem trước ảnh",
+        "Thêm chú thích...",
+        "➤"
+      ],
+      "interactions": [
+        {
+          "id": "771:6151",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6173",
+          "name": "Preview back",
+          "label": "‹",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8151",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6178",
+          "name": "Send image button",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6180",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6179",
+          "name": "Send image arrow",
+          "label": "➤",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6180",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "771:6180",
+      "name": "74. Chat / Đã gửi ảnh",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "Đã gửi · 10:44",
+        "☺"
+      ],
+      "interactions": [
+        {
+          "id": "771:6187",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6200",
+          "name": "Rectangle 782",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6202",
+          "name": "Iconly/Regular/Bulk/Camera",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6203",
+          "name": "Nhắn tin...",
+          "label": "Nhắn tin...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6204",
+          "name": "Iconly/Regular/Light/Voice",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6205",
+          "name": "Iconly/Regular/Light/Image 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6206",
+          "name": "Iconly/Regular/Light/Document",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6207",
+          "name": "Iconly/Regular/Light/Plus",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6721",
+          "name": "Mở bảng emoji",
+          "label": "☺",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6023",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "771:6480",
+      "name": "71. Chat / Đã gửi tệp",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "📄",
+        "Huong-dan-phan-loai-rac.pdf",
+        "PDF · 1,2 MB",
+        "Đã gửi · 10:45",
+        "☺"
+      ],
+      "interactions": [
+        {
+          "id": "771:6487",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6500",
+          "name": "Rectangle 782",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6502",
+          "name": "Iconly/Regular/Bulk/Camera",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6503",
+          "name": "Nhắn tin...",
+          "label": "Nhắn tin...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6504",
+          "name": "Iconly/Regular/Light/Voice",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6505",
+          "name": "Iconly/Regular/Light/Image 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6506",
+          "name": "Iconly/Regular/Light/Document",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6507",
+          "name": "Iconly/Regular/Light/Plus",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6729",
+          "name": "Mở bảng emoji",
+          "label": "☺",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6023",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "771:6514",
+      "name": "71. Chat / Đang ghi âm",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "Đang ghi âm  00:12",
+        "Hủy",
+        "Gửi"
+      ],
+      "interactions": [
+        {
+          "id": "771:6521",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6562",
+          "name": "Cancel recording",
+          "label": "Hủy",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8151",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6563",
+          "name": "Send recording button",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6565",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6564",
+          "name": "Send recording",
+          "label": "Gửi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6565",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "771:6565",
+      "name": "71. Chat / Đã gửi ghi âm",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "▶",
+        "0:12",
+        "Đã gửi · 10:46",
+        "☺"
+      ],
+      "interactions": [
+        {
+          "id": "771:6572",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6585",
+          "name": "Rectangle 782",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6587",
+          "name": "Iconly/Regular/Bulk/Camera",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6588",
+          "name": "Nhắn tin...",
+          "label": "Nhắn tin...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6589",
+          "name": "Iconly/Regular/Light/Voice",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6590",
+          "name": "Iconly/Regular/Light/Image 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6591",
+          "name": "Iconly/Regular/Light/Document",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "771:6592",
+          "name": "Iconly/Regular/Light/Plus",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6737",
+          "name": "Mở bảng emoji",
+          "label": "☺",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6023",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "772:6456",
+      "name": "71. Chat / Đang soạn tin",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "Mình thấy rất hay và hữu ích 💚",
+        "➤",
+        "Q",
+        "W",
+        "E",
+        "R",
+        "T",
+        "Y",
+        "U",
+        "I",
+        "O",
+        "P",
+        "A",
+        "S",
+        "D",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L",
+        "Z",
+        "X",
+        "C",
+        "V",
+        "B",
+        "N",
+        "M",
+        "dấu cách"
+      ],
+      "interactions": [
+        {
+          "id": "772:6463",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6487",
+          "name": "Send button",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6544",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6488",
+          "name": "Send icon",
+          "label": "➤",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6544",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "772:6544",
+      "name": "71. Chat / Đã gửi tin",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "Mình thấy rất hay và hữu ích 💚",
+        "Đã gửi · 10:42",
+        "☺"
+      ],
+      "interactions": [
+        {
+          "id": "772:6551",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6564",
+          "name": "Rectangle 782",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6566",
+          "name": "Iconly/Regular/Bulk/Camera",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6567",
+          "name": "Nhắn tin...",
+          "label": "Nhắn tin...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6568",
+          "name": "Iconly/Regular/Light/Voice",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6569",
+          "name": "Iconly/Regular/Light/Image 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "773:6563",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6570",
+          "name": "Iconly/Regular/Light/Document",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6571",
+          "name": "Iconly/Regular/Light/Plus",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "772:6705",
+          "name": "Mở bảng emoji",
+          "label": "☺",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6023",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "773:6563",
+      "name": "75. Chat / Chọn ảnh",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "☺",
+        "‹",
+        "Chọn ảnh",
+        "Gần đây",
+        "Chọn một ảnh để xem trước và gửi"
+      ],
+      "interactions": [
+        {
+          "id": "773:6570",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6585",
+          "name": "Iconly/Regular/Bulk/Camera",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6586",
+          "name": "Nhắn tin...",
+          "label": "Nhắn tin...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6587",
+          "name": "Iconly/Regular/Light/Voice",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6588",
+          "name": "Iconly/Regular/Light/Image 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6589",
+          "name": "Iconly/Regular/Light/Document",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6590",
+          "name": "Iconly/Regular/Light/Plus",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6591",
+          "name": "Mở bảng emoji",
+          "label": "☺",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6023",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6593",
+          "name": "Gallery back",
+          "label": "‹",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8151",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6596",
+          "name": "Gallery photo 0",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6597",
+          "name": "Gallery photo 1",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6598",
+          "name": "Gallery photo 2",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6599",
+          "name": "Gallery photo 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6600",
+          "name": "Gallery photo 4",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6601",
+          "name": "Gallery photo 5",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6602",
+          "name": "Gallery photo 6",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6603",
+          "name": "Gallery photo 7",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6604",
+          "name": "Gallery photo 8",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6605",
+          "name": "Gallery photo 9",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6606",
+          "name": "Gallery photo 10",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6607",
+          "name": "Gallery photo 11",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

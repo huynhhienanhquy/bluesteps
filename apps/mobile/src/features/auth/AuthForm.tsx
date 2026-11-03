@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { router } from 'expo-router';
+import { router, useFocusEffect, useLocalSearchParams, type Href } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import {
   KeyboardAvoidingView,
@@ -15,15 +15,14 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useApp } from '../../providers';
+import { ApiError, errorMessage } from '../../services/api';
 import { Label, Notice } from '../../design-system/ui';
 import { Artwork, DesignLink, StatusSpace } from '../../design-system/DesignScreen';
-import {
-  assets386_7184 as loginAssets,
-  assets386_7390 as registerAssets,
-} from '../../design-system/screen-assets';
+import { loginAssets, registerAssets } from '../../design-system/app-assets';
+import { safeAuthReturn } from '../../services/auth-return';
 
 const loginSchema = z.object({
-  email: z.email('Nhập email hợp lệ.'),
+  email: z.string().trim().max(254, 'Email tối đa 254 ký tự.').pipe(z.email('Nhập email hợp lệ.')),
   password: z.string().min(1, 'Nhập mật khẩu.'),
 });
 const registerSchema = loginSchema.extend({
@@ -31,32 +30,65 @@ const registerSchema = loginSchema.extend({
     .string()
     .min(8, 'Mật khẩu cần ít nhất 8 ký tự.')
     .max(128, 'Mật khẩu tối đa 128 ký tự.'),
-  name: z.string().trim().min(2, 'Nhập họ tên ít nhất 2 ký tự.'),
+  name: z
+    .string()
+    .trim()
+    .min(2, 'Nhập họ tên ít nhất 2 ký tự.')
+    .max(100, 'Họ tên tối đa 100 ký tự.'),
   consent: z.boolean().refine((value) => value, 'Cần đồng ý điều khoản để tiếp tục.'),
 });
 type AuthFields = z.infer<typeof registerSchema>;
 
 export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) {
-  const { colors } = useApp();
+  const {
+    email,
+    authNotice,
+    returnTo: requestedReturn,
+  } = useLocalSearchParams<{ email?: string; authNotice?: string; returnTo?: string }>();
+  const returnTo = safeAuthReturn(requestedReturn);
+  const { colors, api, login } = useApp();
   const insets = useSafeAreaInsets();
   const { height } = useWindowDimensions();
   const register = mode === 'register';
   const assets = register ? registerAssets : loginAssets;
   const [visible, setVisible] = useState(false);
-  const [remember, setRemember] = useState(true);
   const [submitted, setSubmitted] = useState(false);
-  const [provider, setProvider] = useState('');
   const [focused, setFocused] = useState('');
+  const [pending, setPending] = useState(false);
+  const [submitError, setSubmitError] = useState('');
+  const [verificationEmail, setVerificationEmail] = useState('');
+  const [requestingVerification, setRequestingVerification] = useState(false);
+  const sending = useRef(false);
+  const active = useRef(true);
+  useFocusEffect(
+    useCallback(() => {
+      active.current = true;
+      return () => {
+        active.current = false;
+      };
+    }, []),
+  );
   const {
     control,
+    getValues,
+    setValue,
     handleSubmit,
     formState: { errors },
   } = useForm<AuthFields>({
     resolver: zodResolver(
-      register ? registerSchema : registerSchema.extend({ password: loginSchema.shape.password }),
+      register
+        ? registerSchema
+        : registerSchema.extend({
+            password: loginSchema.shape.password,
+            name: z.string(),
+            consent: z.boolean(),
+          }),
     ),
-    defaultValues: { email: '', password: '', name: register ? '' : 'Demo', consent: true },
+    defaultValues: { email: email ?? '', password: '', name: '', consent: false },
   });
+  useEffect(() => {
+    if (email !== undefined) setValue('email', email);
+  }, [email, setValue]);
   const field = (name: 'name' | 'email' | 'password', label: string, placeholder: string) => (
     <Controller
       control={control}
@@ -87,6 +119,8 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
               aria-invalid={!!errors[name]}
               value={field.value}
               onChangeText={field.onChange}
+              editable={!pending}
+              maxLength={name === 'name' ? 100 : name === 'email' ? 254 : 128}
               onFocus={() => setFocused(name)}
               onBlur={() => {
                 field.onBlur();
@@ -175,8 +209,63 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
   const submit = (
     <Pressable
       accessibilityRole="button"
+      disabled={pending}
+      accessibilityState={{ busy: pending, disabled: pending }}
       onPress={() => {
-        void handleSubmit(() => setSubmitted(true))();
+        void handleSubmit(async (fields) => {
+          if (sending.current) return;
+          sending.current = true;
+          setPending(true);
+          setSubmitError('');
+          setVerificationEmail('');
+          try {
+            if (register) {
+              const config = await api.request<{ termsVersion: string }>(
+                '/v1/bootstrap',
+                {},
+                false,
+              );
+              if (!active.current) return;
+              const result = await api.request<{ challengeId: string }>(
+                '/v1/auth/register',
+                {
+                  method: 'POST',
+                  body: JSON.stringify({
+                    name: fields.name,
+                    email: fields.email,
+                    password: fields.password,
+                    consentVersion: config.termsVersion,
+                  }),
+                },
+                false,
+              );
+              if (!active.current) return;
+              router.replace({
+                pathname: '/verify-email',
+                params: {
+                  challengeId: result.challengeId,
+                  purpose: 'verify_email',
+                  email: fields.email,
+                  returnTo,
+                },
+              });
+            } else {
+              await login(fields.email, fields.password);
+              if (active.current) router.dismissTo((returnTo ?? '/') as Href);
+            }
+          } catch (error) {
+            if (active.current) {
+              setSubmitError(errorMessage(error));
+              setSubmitted(true);
+              if (!register && error instanceof ApiError && error.code === 'INVALID_CREDENTIALS') {
+                setVerificationEmail(fields.email);
+              }
+            }
+          } finally {
+            sending.current = false;
+            setPending(false);
+          }
+        })();
       }}
       style={{
         height: 56,
@@ -187,27 +276,71 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
       }}
     >
       <Label size={15} weight="semibold" color={colors.heroText} style={{ lineHeight: 22 }}>
-        {register ? 'Tạo tài khoản' : 'Đăng nhập'}
+        {pending ? 'Đang xử lý…' : register ? 'Tạo tài khoản' : 'Đăng nhập'}
       </Label>
     </Pressable>
   );
   const result = (
     <>
-      {submitted ? (
-        <Notice>
-          Đây là bản xem trước. Chưa có tài khoản hoặc phiên đăng nhập được tạo. Mật khẩu không được
-          lưu hay gửi đi.
+      {!register && !submitted && (authNotice === 'verified' || authNotice === 'password_reset') ? (
+        <Notice tone="success">
+          {authNotice === 'verified'
+            ? 'Email đã được xác minh. Đăng nhập để tiếp tục.'
+            : 'Mật khẩu đã được cập nhật. Đăng nhập bằng mật khẩu mới.'}
         </Notice>
       ) : null}
-      {provider ? (
-        <>
-          <Notice>Đăng nhập với {provider} chưa được kết nối trong bản xem trước.</Notice>
-          <DesignLink
-            onPress={() => router.push({ pathname: '/connected-account', params: { provider } })}
+      {submitted && submitError ? <Notice tone="error">{submitError}</Notice> : null}
+      {!register && verificationEmail ? (
+        <View style={{ gap: 4 }}>
+          <Label size={12} color={colors.muted}>
+            Nếu chưa xác minh {verificationEmail}, bạn có thể nhận lại mã để hoàn tất đăng ký.
+          </Label>
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel="Nhận lại mã xác minh email"
+            accessibilityState={{ disabled: pending, busy: requestingVerification }}
+            disabled={pending}
+            style={{ minHeight: 44, justifyContent: 'center' }}
+            onPress={() => {
+              if (sending.current) return;
+              sending.current = true;
+              setPending(true);
+              setRequestingVerification(true);
+              setSubmitError('');
+              const recipient = verificationEmail;
+              void api
+                .request<{ challengeId: string }>(
+                  '/v1/auth/email-verification/request',
+                  { method: 'POST', body: JSON.stringify({ email: recipient }) },
+                  false,
+                )
+                .then((response) => {
+                  if (!active.current) return;
+                  router.push({
+                    pathname: '/verify-email',
+                    params: {
+                      challengeId: response.challengeId,
+                      purpose: 'verify_email',
+                      email: recipient,
+                      returnTo,
+                    },
+                  });
+                })
+                .catch((error) => {
+                  if (active.current) setSubmitError(errorMessage(error));
+                })
+                .finally(() => {
+                  sending.current = false;
+                  setPending(false);
+                  setRequestingVerification(false);
+                });
+            }}
           >
-            Xem màn hoàn tất mẫu
-          </DesignLink>
-        </>
+            <Label size={13} weight="semibold" color={colors.brand}>
+              {requestingVerification ? 'Đang gửi mã…' : 'Nhận lại mã xác minh email'}
+            </Label>
+          </Pressable>
+        </View>
       ) : null}
     </>
   );
@@ -238,7 +371,11 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
               <Pressable
                 accessibilityRole="button"
                 accessibilityLabel="Quay lại"
-                onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
+                onPress={() =>
+                  router.canGoBack()
+                    ? router.back()
+                    : router.replace({ pathname: '/login', params: { returnTo } })
+                }
                 style={{
                   width: 48,
                   height: 48,
@@ -268,8 +405,8 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
               </Label>
             </View>
             <View style={{ marginTop: 27, marginHorizontal: 24, gap: 16 }}>
-              {field('name', 'Họ và tên', 'Linh Chi')}
-              {field('email', 'Email', 'linhchi@example.com')}
+              {field('name', 'Họ và tên', 'Nhập họ và tên')}
+              {field('email', 'Email', 'Email của bạn')}
               {field('password', 'Mật khẩu', '••••••••••••')}
             </View>
             <View style={{ marginTop: 19, marginHorizontal: 24 }}>
@@ -290,7 +427,12 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
             </View>
             <View style={{ marginTop: 38, marginHorizontal: 24 }}>{submit}</View>
             <DesignLink
-              onPress={() => router.replace('/login')}
+              onPress={() =>
+                router.replace({
+                  pathname: '/login',
+                  params: { email: getValues('email').trim(), returnTo },
+                })
+              }
               style={{ marginTop: 21, alignItems: 'center' }}
             >
               Đã có tài khoản? Đăng nhập
@@ -303,7 +445,7 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
             >
               Một tài khoản. Nhiều hành động có ý nghĩa.
             </Label>
-            {submitted || provider ? (
+            {submitted ? (
               <View style={{ marginHorizontal: 24, marginTop: 20, gap: 12 }}>{result}</View>
             ) : null}
           </>
@@ -315,7 +457,7 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
                 backgroundColor: colors.brand,
               }}
             >
-              <StatusSpace inverse source={loginAssets.imgSongWiFiPin} />
+              <StatusSpace />
               <View
                 style={{
                   marginTop: 23,
@@ -327,7 +469,7 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
               >
                 <Artwork source={loginAssets.imgIconLeaf} width={28} />
                 <Label size={20} bold color={colors.heroText} style={{ lineHeight: 28 }}>
-                  GreenSteps
+                  BlueSteps
                 </Label>
               </View>
               <View style={{ marginTop: 32, marginLeft: 24, gap: 10 }}>
@@ -356,7 +498,7 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
               }}
             >
               <View style={{ gap: 16 }}>
-                {field('email', 'Email', 'linhchi@example.com')}
+                {field('email', 'Email', 'Email của bạn')}
                 {field('password', 'Mật khẩu', '••••••••••••')}
               </View>
               <View
@@ -367,67 +509,28 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
                   alignItems: 'center',
                 }}
               >
-                {checkbox(remember, 'Ghi nhớ tôi', () => setRemember(!remember))}
-                <DesignLink onPress={() => router.push('/forgot-password')}>
+                <Label size={12} color={colors.muted}>
+                  Phiên được lưu an toàn
+                </Label>
+                <DesignLink
+                  onPress={() =>
+                    router.push({
+                      pathname: '/forgot-password',
+                      params: { email: getValues('email').trim(), returnTo },
+                    })
+                  }
+                >
                   Quên mật khẩu?
                 </DesignLink>
               </View>
               <View style={{ marginTop: 12 }}>{submit}</View>
-              <View
-                style={{
-                  marginTop: 26,
-                  height: 18,
-                  flexDirection: 'row',
-                  gap: 12,
-                  alignItems: 'center',
-                }}
-              >
-                <View style={{ height: 1, flex: 1, backgroundColor: colors.border }} />
-                <Label
-                  size={12}
-                  weight="medium"
-                  color={colors.muted}
-                  style={{ width: 206, textAlign: 'center', lineHeight: 18 }}
-                >
-                  hoặc tiếp tục với
-                </Label>
-                <View style={{ height: 1, flex: 1, backgroundColor: colors.border }} />
-              </View>
-              <View style={{ marginTop: 24, flexDirection: 'row', gap: 14 }}>
-                {[
-                  { name: 'Google', source: loginAssets.imgIcon, textWidth: 68 },
-                  { name: 'Facebook', source: loginAssets.imgIcon1, textWidth: 88 },
-                ].map((item) => (
-                  <Pressable
-                    key={item.name}
-                    accessibilityRole="button"
-                    accessibilityLabel={`Tiếp tục với ${item.name}`}
-                    onPress={() => setProvider(item.name)}
-                    style={{
-                      flex: 1,
-                      height: 54,
-                      borderWidth: 1,
-                      borderColor: colors.border,
-                      borderRadius: 16,
-                      flexDirection: 'row',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      gap: 9,
-                    }}
-                  >
-                    <Artwork source={item.source} width={22} />
-                    <Label
-                      size={13}
-                      weight="semibold"
-                      style={{ lineHeight: 18, width: item.textWidth }}
-                    >
-                      {item.name}
-                    </Label>
-                  </Pressable>
-                ))}
-              </View>
               <DesignLink
-                onPress={() => router.replace('/register')}
+                onPress={() =>
+                  router.replace({
+                    pathname: '/register',
+                    params: { email: getValues('email').trim(), returnTo },
+                  })
+                }
                 style={{ marginTop: 18, alignItems: 'center' }}
               >
                 Chưa có tài khoản? Đăng ký ngay
@@ -451,9 +554,7 @@ export function AuthScreen({ mode = 'login' }: { mode?: 'login' | 'register' }) 
                   Thông tin của bạn được bảo vệ
                 </Label>
               </View>
-              {submitted || provider ? (
-                <View style={{ marginTop: 20, gap: 12 }}>{result}</View>
-              ) : null}
+              {submitted ? <View style={{ marginTop: 20, gap: 12 }}>{result}</View> : null}
             </View>
           </>
         )}

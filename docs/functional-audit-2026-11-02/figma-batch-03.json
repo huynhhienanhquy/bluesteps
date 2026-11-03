@@ -1,0 +1,1924 @@
+{
+  "frames": [
+    {
+      "id": "386:8228",
+      "name": "48. Thông báo",
+      "texts": [
+        "Thông báo",
+        "Hôm nay, 30 tháng 10",
+        "Hôm trước, 28 tháng 10",
+        "Hôm qua, 29 tháng 10",
+        "8:00",
+        "Nhấn để đổi thưởng",
+        "Lấy mã giảm giá ngay",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "12:00",
+        "9:00",
+        "22:00",
+        "Lỗi  trong quá trình xử lí dữ liệu bạn ơi.",
+        "16:00",
+        "Tới thùng rác",
+        "Hãy chụp ảnh rác để hệ thống nhận diện.",
+        "Voucher tặng 10% cho ngày hôm nay.",
+        "10:00",
+        "Lọc  ▾"
+      ],
+      "interactions": [
+        {
+          "id": "386:8233",
+          "name": "Group 36732",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5524",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8277",
+          "name": "Frame 36733",
+          "label": "10:00 | Lấy mã giảm giá ngay | Voucher tặng 10% cho ngày hôm nay.",
+          "reactions": [
+            {
+              "trigger": "MOUSE_UP",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8311",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8311",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8292",
+          "name": "Group 37111",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8298",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8303",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8307",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5585",
+          "name": "Prototype / Lọc thông báo",
+          "label": "Lọc  ▾",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5399",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5588",
+          "name": "Prototype / Mở detail 161",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5468",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5590",
+          "name": "Prototype / Mở scan 271",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5592",
+          "name": "Prototype / Mở detail 553",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5468",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5594",
+          "name": "Prototype / Mở scan 665",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5596",
+          "name": "Prototype / Mở reward 775",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5598",
+          "name": "Prototype / Đổi thưởng từ kết quả",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "715:5572",
+          "name": "Prototype / Mở cài đặt",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5524",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8311",
+      "name": "48.Thông báo",
+      "texts": [
+        "Thông báo",
+        "Hôm nay, 30 tháng 10",
+        "Hôm trước, 28 tháng 10",
+        "Hôm qua, 29 tháng 10",
+        "8:00",
+        "16:00",
+        "Nhấn để đổi thưởng",
+        "Tới thùng rác",
+        "Lấy mã giảm giá ngay",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "12:00",
+        "22:00",
+        "9:00",
+        "Lỗi  trong quá trình xử lí dữ liệu bạn ơi.",
+        "Hãy chụp ảnh rác để hệ thống nhận diện.",
+        "Voucher tặng 10% cho ngày hôm nay.",
+        "Lọc  ▾"
+      ],
+      "interactions": [
+        {
+          "id": "386:8311",
+          "name": "48.Thông báo",
+          "label": "Thông báo | Hôm nay, 30 tháng 10 | Hôm trước, 28 tháng 10 | Hôm qua, 29 tháng 10 | 8:00 | 16:00 | Nhấn để đổi thưởng | Tới thùng rác | Lấy mã giảm giá ngay | Bạn vừa hoàn thành một lượt phân loại! | 12:00 | 12:00 | 22:00 | 9:00 | Nhấn để đổi thưởng | Nhấn để đổi thưởng | Nhấn để đổi thưởng | Bạn vừa hoàn thành một lượt phân loại! | Bạn vừa hoàn thành một lượt phân loại! | Lỗi  trong quá trình xử lí dữ liệu bạn ơi. | Hãy chụp ảnh rác để hệ thống nhận diện. | Voucher tặng 10% cho ngày hôm nay. | Lọc  ▾",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8380",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8312",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8316",
+          "name": "Group 36732",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5524",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8361",
+          "name": "Group 37111",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8367",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8372",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8376",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5600",
+          "name": "Prototype / Lọc thông báo",
+          "label": "Lọc  ▾",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5399",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5603",
+          "name": "Prototype / Mở detail 161",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5468",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5605",
+          "name": "Prototype / Mở scan 271",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5607",
+          "name": "Prototype / Mở reward 411",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5609",
+          "name": "Prototype / Mở detail 555",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5468",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5611",
+          "name": "Prototype / Mở scan 665",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5613",
+          "name": "Prototype / Mở reward 775",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5615",
+          "name": "Prototype / Đổi thưởng từ kết quả",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "715:5574",
+          "name": "Prototype / Mở cài đặt",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5524",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8380",
+      "name": "48. Thông báo",
+      "texts": [
+        "Thông báo",
+        "Hôm nay, 30 tháng 10",
+        "Hôm trước, 28 tháng 10",
+        "8:00",
+        "16:00",
+        "Nhấn để đổi thưởng",
+        "Tới thùng rác",
+        "Lấy mã giảm giá ngay",
+        "Bạn vừa hoàn thành một lượt phân loại!",
+        "12:00",
+        "22:00",
+        "9:00",
+        "Lỗi  trong quá trình xử lí dữ liệu bạn ơi.",
+        "Hãy chụp ảnh rác để hệ thống nhận diện.",
+        "Voucher tặng 10% cho ngày hôm nay.",
+        "Lọc  ▾"
+      ],
+      "interactions": [
+        {
+          "id": "386:8381",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8385",
+          "name": "Group 36732",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5524",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8432",
+          "name": "Group 37111",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8438",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8443",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8447",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5617",
+          "name": "Prototype / Lọc thông báo",
+          "label": "Lọc  ▾",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5399",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5620",
+          "name": "Prototype / Mở detail 161",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5468",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5622",
+          "name": "Prototype / Mở scan 271",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5624",
+          "name": "Prototype / Mở detail 417",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5468",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5626",
+          "name": "Prototype / Mở scan 527",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5628",
+          "name": "Prototype / Mở reward 637",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5630",
+          "name": "Prototype / Mở detail 739",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5468",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "713:5632",
+          "name": "Prototype / Đổi thưởng từ kết quả",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "715:5576",
+          "name": "Prototype / Mở cài đặt",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "703:5524",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8451",
+      "name": "23 Cài đặt",
+      "texts": [
+        "Cài đặt",
+        "Đăng xuất",
+        "Healing",
+        "linhchi@gmail.com",
+        "Giao diện tối",
+        "Âm thanh và rung",
+        "Thay đổi mật khẩu",
+        "Giao diện sáng",
+        "Thông báo",
+        "Sửa thông tin cá nhân",
+        "Lịch sử đăng nhập",
+        "Thiết lập mật mã",
+        "Chế độ ban đêm",
+        "Đỡ mỏi mắt",
+        "Chế độ âm thanh",
+        "Nhạc chuông",
+        "Chế độ ban ngày",
+        "Rõ ràng, sáng sủa",
+        "Thanh tâm trạng",
+        "Không làm phiền"
+      ],
+      "interactions": [
+        {
+          "id": "386:8452",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4796",
+          "name": "Prototype / Settings / Hồ sơ cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4798",
+          "name": "Prototype / Settings / Sửa thông tin cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8516",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4800",
+          "name": "Prototype / Settings / Thay đổi mật khẩu",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "521:4735",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4802",
+          "name": "Prototype / Settings / Thông báo",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7913",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4804",
+          "name": "Prototype / Settings / Đăng xuất",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7184",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4808",
+          "name": "Prototype / Settings / Chọn giao diện tối",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "508:4810",
+          "name": "Prototype / Settings / Chọn giao diện sáng",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5471",
+          "name": "Prototype / Settings / Tìm kiếm cài đặt",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5093",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5473",
+          "name": "Prototype / Settings / Âm thanh và rung",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5096",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5475",
+          "name": "Prototype / Settings / Lịch sử đăng nhập",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5099",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "514:5477",
+          "name": "Prototype / Settings / Thiết lập mật mã",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "NODE",
+                  "destinationId": "514:5102",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8516",
+      "name": "24 Chỉnh sửa",
+      "texts": [
+        "Chỉnh sửa",
+        "Tên",
+        "Linh Chi",
+        "Email",
+        "linhchi@gmail.com",
+        "Mật khẩu",
+        "*******",
+        "Ngày sinh",
+        "30/10/2005",
+        "Quốc gia",
+        "VietNam",
+        "Lưu thay đổi"
+      ],
+      "interactions": [
+        {
+          "id": "386:8517",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8552",
+          "name": "Frame 36837",
+          "label": "Lưu thay đổi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "SET_VARIABLE"
+                },
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8555",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8558",
+      "name": "navigation",
+      "texts": [
+        "Hi, Healing",
+        "Tin tức",
+        "Bài Đăng",
+        "Sổ Tay",
+        " Thống kê "
+      ],
+      "interactions": [
+        {
+          "id": "386:8559",
+          "name": "hi",
+          "label": "Hi, Healing",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8562",
+          "name": "Group 36778",
+          "label": "Tin tức",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:24796",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8563",
+          "name": "Group 36779",
+          "label": "Bài Đăng",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8564",
+          "name": "Group 36781",
+          "label": "Sổ Tay",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8567",
+          "name": "feature",
+          "label": " Thống kê ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25009",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8569",
+      "name": "map",
+      "texts": [
+        "Chỉ đường",
+        "460 Trần Đại Nghĩa,Ngũ Hành Sơn,TP. Đà Nẵng",
+        "200m -  5 phút đi bộ",
+        "Còn chỗ",
+        "Thùng rác cộng đồng- Công Viên A",
+        "Công viên gần nhất",
+        "Gần bạn",
+        "Khám phá",
+        "Đã chọn",
+        "Công viên cộng đồng A",
+        "So sánh"
+      ],
+      "interactions": [
+        {
+          "id": "386:8577",
+          "name": "Rectangle 769",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8579",
+          "name": "Frame 36722",
+          "label": "460 Trần Đại Nghĩa,Ngũ Hành Sơn,TP. Đà Nẵng | 200m -  5 phút đi bộ | Còn chỗ | Thùng rác cộng đồng- Công Viên A",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10186",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8602",
+          "name": "Chevron left",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8611",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8615",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8620",
+          "name": "Group 37109",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8626",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:4889",
+          "name": "compare-action",
+          "label": "So sánh",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48505",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8633",
+      "name": "map",
+      "texts": [
+        "Tìm kiếm địa điểm phân loại rác",
+        "Khám phá",
+        "Bộ lọc",
+        "Đề xuất địa điểm"
+      ],
+      "interactions": [
+        {
+          "id": "386:8639",
+          "name": "Group 37217",
+          "label": "Tìm kiếm địa điểm phân loại rác",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8649",
+          "name": "Chevron left",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:8691",
+          "name": "Ellipse 323",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8698",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8702",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8707",
+          "name": "Group 37109",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8713",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4749",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4751",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4753",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4755",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:4941",
+          "name": "Bộ lọc",
+          "label": "Bộ lọc",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48401",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:4944",
+          "name": "Đề xuất địa điểm",
+          "label": "Đề xuất địa điểm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48595",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8930",
+      "name": "Chat",
+      "texts": [
+        "RecycleBot",
+        "Tôi có thể giúp gì cho bạn ",
+        "Chào bạn! Mình là RecycleBot,mình có thể giúp gì cho bạn vậy ?",
+        "Một ngày thế giới phải gánh chịu 11 tấn \nrác thải từ nhiều loại khác nhau",
+        "Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?",
+        "Phân loại rác thải nhựa thế nào ?",
+        "phân loại rác nhựa",
+        "xử lý pin củ",
+        "rác nguy hại"
+      ],
+      "interactions": [
+        {
+          "id": "386:8937",
+          "name": "OUT",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8946",
+          "name": "Mic",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17222",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_DRAG",
+              "actions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:8977",
+      "name": "chat2",
+      "texts": [
+        "RecycleBot",
+        "Tôi có thể giúp gì cho bạn ",
+        "Chào bạn! Mình là RecycleBot,mình có thể giúp gì cho bạn vậy ?",
+        "Một ngày thế giới phải gánh chịu 11 tấn \nrác thải từ nhiều loại khác nhau",
+        "Một ngày thế giới phải gánh chịu bao nhiêu tấn rác thải thế ?",
+        "Phân loại rác thải nhựa thế nào ?",
+        "phân loại rác nhựa",
+        "xử lý pin củ",
+        "rác nguy hại"
+      ],
+      "interactions": [
+        {
+          "id": "386:8983",
+          "name": "OUT",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:8992",
+          "name": "Mic",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17222",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_DRAG",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9066",
+          "name": "Polygon 7",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9071",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "frames": [
+    {
+      "id": "723:5646",
+      "name": "43. Cộng đồng / Viết bình luận",
+      "texts": [
+        "‹",
+        "Viết bình luận",
+        "Gửi",
+        "Healing",
+        "Tôi vừa phân loại xong rác hôm nay! Cảm giác thật nhẹ lòng 💚",
+        "Bình luận của bạn",
+        "Tuyệt quá! Mình cũng sẽ bắt đầu phân loại rác từ hôm nay 🌱",
+        "58/500",
+        "Q",
+        "W",
+        "E",
+        "R",
+        "T",
+        "Y",
+        "U",
+        "I",
+        "O",
+        "P",
+        "A",
+        "S",
+        "D",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L",
+        "⇧",
+        "Z",
+        "X",
+        "C",
+        "V",
+        "B",
+        "N",
+        "M",
+        "⌫",
+        "dấu cách"
+      ],
+      "interactions": [
+        {
+          "id": "723:5650",
+          "name": "Quay lại",
+          "label": "‹",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5635",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5652",
+          "name": "Gửi bình luận",
+          "label": "Gửi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5722",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5720",
+          "name": "Gửi từ bàn phím",
+          "label": "Gửi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5722",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "723:5722",
+      "name": "44. Cộng đồng / Đã gửi bình luận",
+      "texts": [
+        "‹",
+        "Bài đăng",
+        "Healing",
+        "Vừa xong · Công khai",
+        "⋮",
+        "Tôi vừa phân loại xong rác hôm nay! Cảm giác thật nhẹ lòng 💚",
+        "♥ 100",
+        "◉ 6 bình luận",
+        "➤ 50",
+        "♡ Thích",
+        "◉ Bình luận",
+        "➤ Chia sẻ",
+        "Bình luận",
+        "Linh Chi",
+        "Nhìn thành quả mà có thêm động lực! 🌱",
+        "Viết bình luận...",
+        "➤",
+        "Bạn · Vừa xong",
+        "Tuyệt quá! Mình cũng sẽ bắt đầu phân loại rác 🌱"
+      ],
+      "interactions": [
+        {
+          "id": "723:5726",
+          "name": "Quay lại",
+          "label": "‹",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5734",
+          "name": "Group 37111",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5740",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5745",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5749",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5753",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5754",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5755",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5756",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5757",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5762",
+          "name": "Tùy chọn",
+          "label": "⋮",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5809",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5772",
+          "name": "Mở bình luận",
+          "label": "◉ Bình luận",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5646",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5783",
+          "name": "Thanh viết bình luận",
+          "label": "Viết bình luận... | ➤",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5646",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "723:5809",
+      "name": "45. Cộng đồng / Tùy chọn bài đăng",
+      "texts": [
+        "‹",
+        "Bài đăng",
+        "Healing",
+        "Vừa xong · Công khai",
+        "⋮",
+        "Tôi vừa phân loại xong rác hôm nay! Cảm giác thật nhẹ lòng 💚",
+        "♥ 100",
+        "◉ 5 bình luận",
+        "➤ 50",
+        "♡ Thích",
+        "◉ Bình luận",
+        "➤ Chia sẻ",
+        "Bình luận",
+        "Linh Chi",
+        "Nhìn thành quả mà có thêm động lực! 🌱",
+        "Thu Phương",
+        "Rất tuyệt, cùng cố gắng nhé!",
+        "Viết bình luận...",
+        "➤",
+        "Tùy chọn bài đăng",
+        "▣",
+        "Lưu bài đăng",
+        "↗",
+        "Sao chép liên kết",
+        "◌",
+        "Ẩn bài đăng",
+        "×",
+        "Hủy"
+      ],
+      "interactions": [
+        {
+          "id": "723:5821",
+          "name": "Group 37111",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5827",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5832",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5836",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5840",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5841",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5842",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5843",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5844",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5873",
+          "name": "Lớp nền tối",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5635",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5877",
+          "name": "Tác vụ / Lưu bài đăng",
+          "label": "▣ | Lưu bài đăng",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5749",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5881",
+          "name": "Tác vụ / Sao chép liên kết",
+          "label": "↗ | Sao chép liên kết",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5635",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5885",
+          "name": "Tác vụ / Ẩn bài đăng",
+          "label": "◌ | Ẩn bài đăng",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7647",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5889",
+          "name": "Tác vụ / Hủy",
+          "label": "× | Hủy",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5635",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "723:5892",
+      "name": "46. Cộng đồng / Đang theo dõi thành viên",
+      "texts": [
+        "‹",
+        "Trang thành viên",
+        "Healing",
+        "Sống xanh từng bước nhỏ 🌱",
+        "18 bài viết",
+        "1,2k theo dõi",
+        "✓ Đang theo dõi",
+        "Bài viết gần đây",
+        "PHÂN LOẠI RÁC",
+        "Tôi vừa phân loại xong rác hôm nay! Cảm giác thật nhẹ lòng 💚"
+      ],
+      "interactions": [
+        {
+          "id": "723:5896",
+          "name": "Quay lại",
+          "label": "‹",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5699",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5904",
+          "name": "Group 37111",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5910",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5915",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5919",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5923",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5924",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5925",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5926",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5927",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5935",
+          "name": "Theo dõi thành viên",
+          "label": "✓ Đang theo dõi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5699",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "723:5938",
+          "name": "Bài viết của Healing",
+          "label": "PHÂN LOẠI RÁC | Tôi vừa phân loại xong rác hôm nay! Cảm giác thật nhẹ lòng 💚",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5635",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "733:5722",
+      "name": "47. Cộng đồng / Lọc thành viên",
+      "texts": [
+        "‹",
+        "Khám phá",
+        "⌕",
+        "tái chế",
+        "×",
+        "Bài viết",
+        "Thành viên",
+        "Chủ đề",
+        "Thành viên nổi bật",
+        "3 thành viên",
+        "Healing",
+        "Chia sẻ về sống xanh",
+        "Theo dõi",
+        "Linh Chi",
+        "Cùng nhau dọn sạch góc phố",
+        "Mỹ Duyên",
+        "Yêu phân loại và tái chế"
+      ],
+      "interactions": [
+        {
+          "id": "733:5726",
+          "name": "Quay lại",
+          "label": "‹",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5570",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5734",
+          "name": "Group 37111",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5740",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5745",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5749",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5753",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5754",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5755",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5756",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5757",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5762",
+          "name": "Bộ lọc / Bài viết",
+          "label": "Bài viết",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5570",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5764",
+          "name": "Bộ lọc / Thành viên",
+          "label": "Thành viên",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5699",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5766",
+          "name": "Bộ lọc / Chủ đề",
+          "label": "Chủ đề",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "733:5787",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5871",
+          "name": "Thành viên / Healing",
+          "label": "Healing | Chia sẻ về sống xanh | Theo dõi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5699",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5875",
+          "name": "Theo dõi / Healing",
+          "label": "Theo dõi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5892",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5877",
+          "name": "Thành viên / Linh Chi",
+          "label": "Linh Chi | Cùng nhau dọn sạch góc phố | Theo dõi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5699",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5881",
+          "name": "Theo dõi / Linh Chi",
+          "label": "Theo dõi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5892",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5883",
+          "name": "Thành viên / Mỹ Duyên",
+          "label": "Mỹ Duyên | Yêu phân loại và tái chế | Theo dõi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "722:5699",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "733:5887",
+          "name": "Theo dõi / Mỹ Duyên",
+          "label": "Theo dõi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "723:5892",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "title": "public catalogs come from database IDs and never expose synthetic seeds",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 5619,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/v1/waste-items",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/waste-items/61155040-237a-4fcd-8d30-507ffd8dc019",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    }
+  ]
+}

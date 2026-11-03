@@ -1,43 +1,64 @@
-# Chạy BlueSteps bằng Expo Go SDK 58
+# Chạy BlueSteps trên điện thoại
 
-Baseline hiện tại: **Expo 58.0.21 / React 19.3.0 / React Native 0.88.1 / Expo Router 58.0.28**, TypeScript 6. Phiên bản native theo `expo/bundledNativeModules.json` và lockfile. Ngày 29/10/2026 người dùng chọn nâng SDK 58 sau khi request điện thoại xác nhận iOS SDK 58, Android SDK 57. Các baseline 54/55 trong báo cáo cũ đã được thay thế.
+Baseline của repository là Expo SDK 58. Dùng Expo Go tương thích SDK 58; phiên bản khóa nằm trong `apps/mobile/package.json` và `pnpm-lock.yaml`.
 
-## Mở app
+## LAN
 
-Từ `D:\BlueSteps`:
+Backend Python chạy trên máy tính và kết nối database Supabase đã cấu hình. Điện thoại không thể dùng `127.0.0.1` của máy tính.
+
+Cách chạy chung:
 
 ```powershell
-pnpm install --frozen-lockfile
-pnpm go:tunnel
+cd D:\BlueSteps
+pnpm go:connected
 ```
 
-1. **Cả hai điện thoại cần Expo Go SDK 58.** Android cập nhật [Expo Go trên Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent). Request iOS hiện có đã xác nhận SDK 58. Nếu báo incompatible SDK, đối chiếu số version của app đã cài với project; không chỉ sửa trường sdkVersion để bỏ qua.
-2. Giữ Metro và internet máy tính hoạt động. Tunnel không yêu cầu điện thoại cùng Wi-Fi.
-3. Quét QR root mới trong terminal bằng Expo Go Android / Camera iPhone. Có thể dùng `exps://` thay `exp://` để bắt buộc HTTPS; [Expo xác nhận cách ánh xạ giao thức](https://docs.expo.dev/linking/into-your-app/).
-4. Không quét QR trang HTML `/_expo/loading` bằng trình quét bên trong Expo Go: nó có thể tải HTML như manifest và báo failed to download remote update. Trang loading chỉ mở bằng Safari/Chrome rồi bấm Expo Go.
-5. Nếu cần đăng nhập Expo, dùng cùng tài khoản Expo đang đăng nhập CLI. Không cần tài khoản BlueSteps hoặc database. Cấp quyền camera/ảnh của Expo Go khi thử tính năng tương ứng.
+Lệnh mở API trên LAN, chạy worker và Expo Go, tự chọn IPv4 LAN cho `EXPO_PUBLIC_API_URL`. Dừng phiên `pnpm dev:connected` đang chạy trước để nhường cổng 8000/8081. Điện thoại và máy tính phải cùng mạng; quét QR mới trong terminal. Nếu máy có nhiều card mạng, đặt `$env:BLUESTEPS_DEV_HOST = '<IPv4-LAN>'` trước khi chạy. `pnpm dev:connected` dành cho web và không cung cấp API LAN cho điện thoại.
 
-**Tunnel phiên hiện tại:** `exps://c-quyhuynh2005-c275k1-mvt8n45jlwts1kal.on.expo.app`. [QR root SDK 58](frontend-evidence/expo-go-sdk58-qr.png). URL tạm thời thay đổi sau khi chạy lại; luôn ưu tiên URL/QR được terminal in mới nhất. Dừng Ctrl+C đóng tunnel.
+Sau khi cập nhật backend, áp dụng migration trước khi chạy: `pnpm api:migrate` cho database local hoặc `pnpm api:migrate --allow-remote` cho Supabase đang cấu hình. Lệnh dùng URL owner `BLUESTEPS_MIGRATION_DATABASE_URL` trong `apps/api/.env`. Readiness kiểm tra cả schema nhắc lịch của worker; thiếu migration sẽ trả 503 và launcher dừng với hướng dẫn thay vì mở Expo rồi lỗi `UndefinedTable`. Launcher không tự áp dụng migration lên cloud.
 
-LAN vẫn có thể dùng với `pnpm go` nếu máy tính/điện thoại cùng mạng và không bị chặn. Lệnh `pnpm go:link` mở launcher HTTP LAN port 8082 để bấm mở app. LAN đã không truy cập được từ điện thoại của người dùng trong phiên này nên ưu tiên tunnel; không tắt firewall Windows.
+Nếu muốn chạy từng dịch vụ riêng:
 
-## Đã kiểm tra và giới hạn
+```powershell
+# Terminal 1: mở API cho mạng local
+pnpm api:lan
+# Terminal 2
+pnpm api:worker
+# Terminal 3: thay bằng IPv4 LAN thực của máy tính
+$env:EXPO_PUBLIC_API_URL = 'http://<LAN-IP>:8000'
+pnpm go
+```
 
-- `expo install --check`: dependencies up to date; `pnpm peers check`: không có peer issues.
-- `pnpm typecheck`: đạt sau cập nhật ref TextInput và màu tab theo React Native 0.88/TypeScript 6.
-- `pnpm lint`, `pnpm format:check`, `pnpm check:native-config` và export web SDK 58 đạt. Native config vẫn bật camera/photos và loại microphone.
-- `pnpm test:e2e` SDK 58: 6/6 đạt trên Chromium, gồm navigation, filter/journey, saved/composer/auth, theme/error, deep link và dữ liệu seed.
-- `pnpm test`: 19/19 test, 12/12 suites đạt với Jest 30 / React Native Testing Library 14 và test-renderer 1.3.0. Các render/fireEvent trong test được await theo API mới.
-- Metro SDK 58 hoạt động qua tunnel. Manifest báo SDK 58.0.0, bundle iOS/Android local trả HTTP 200. Lần dựng cold cache qua tunnel đầu có HTTP 504; đã dựng cache trực tiếp local rồi kiểm lại trước thử điện thoại.
-- QR SDK 58 đã được decoder độc lập đọc đúng URL root `exps://`.
-- Mock data nạp tự động. Camera/ảnh chỉ xem trước cục bộ; chưa gọi API/AI hoặc phát giao dịch thật. Config plugin chỉ áp dụng native build riêng, Expo Go dùng permission của app Expo Go.
-- Người dùng đã xác nhận **cả iPhone và Android mở được BlueSteps trên SDK 58**. Metro runtime inspector ghi nhận `host.exp.Exponent (iPhone)` và `host.exp.exponent (OPPO CPH1911)`, Android 11/API 30. Đây là chứng cứ mở app native trên cả hai nền tảng; chưa thay kiểm thử chi tiết keyboard, safe area, camera và picker trên thiết bị.
-- Metro runtime inspector cũng ghi nhận `host.exp.Exponent (iPhone)` / `React Native Bridgeless [C++ connection]`, cung cấp bằng chứng app native thực sự kết nối chứ không chỉ request manifest từ công cụ.
-- Sau khi cache dựng xong, manifest và bundle tunnel SDK 58 cả hai nền tảng đã đạt HTTP 200 (iOS 7.668.516 bytes, Android 8.332.866 bytes tại lượt kiểm).
+Nối điện thoại và máy tính cùng mạng, quét QR mới trong terminal. Không dùng URL tunnel/QR cũ trong báo cáo lịch sử. Có thể kiểm tra `http://<LAN-IP>:8000/health/ready` từ trình duyệt điện thoại trước khi mở app. API chỉ trả `ready` khi kết nối được database bằng runtime role hợp lệ.
 
-## Chẩn đoán đã có
+`pnpm go:tunnel` chỉ tạo tunnel Metro, không tự đưa API ra internet. Khi LAN không dùng được, cần API HTTPS có thể truy cập từ điện thoại và đặt `EXPO_PUBLIC_API_URL` tương ứng trước khi khởi động Metro. Không đưa database hoặc khóa backend vào biến `EXPO_PUBLIC_*`.
 
-- LAN port 8082 không tải được từ Safari/Chrome: đã chuyển tunnel, không sửa firewall.
-- `Failed to download remote update`: từng có Android request `/_expo/loading` nhận HTML; dùng QR root để mở manifest.
-- `Incompatible SDK version`: log request thật có Android `exposdk:57.0.0`, iOS `exposdk:58.0.0`, project khi đó 54. Đã được người dùng cho phép nâng project lên 58; Android phải cập nhật cùng bản.
-- Nếu còn lỗi, cần nội dung Show details/View error log, platform và phiên bản Expo Go; kiểm request thực rồi mới sửa.
+## Tunnel cho bundle và API
+
+Nếu Expo Go báo `Failed to download remote update`, thử mở `http://<LAN-IP>:8081/status` bằng trình duyệt điện thoại. Phải thấy `packager-status:running`. Nếu không tải được dù cùng Wi-Fi, đường LAN từ điện thoại tới Metro đang bị chặn; API/Metro trả 200 trên chính máy tính chưa chứng minh điện thoại truy cập được. Dừng phiên LAN và chạy:
+
+```powershell
+pnpm go:tunnel:connected
+```
+
+Quét QR mới của phiên tunnel, không dùng QR chứa IP LAN. Tunnel chuyển cả bundle và API qua cùng địa chỉ HTTPS; `pnpm go:tunnel` riêng lẻ không nối API. Cần giữ phiên terminal chạy khi thử điện thoại. Expo Go phải hỗ trợ SDK 58; trên iPhone, đăng nhập cùng tài khoản Expo CLI. Xem [hướng dẫn kết nối Expo](https://docs.expo.dev/get-started/start-developing/) và [yêu cầu tài khoản iPhone](https://docs.expo.dev/troubleshooting/expo-go-sign-in-required/).
+
+Launcher giữ cache Metro và tải sẵn bundle Android/iOS qua localhost, tránh lần biên dịch đầu vượt thời gian chờ của tunnel. Chờ dòng `Bundle Android/iOS đã sẵn sàng` trước khi quét. Chỉ xoá cache khi cần bằng `pnpm go:tunnel:connected --clear`; launcher vẫn chuẩn bị lại hai bundle trước khi báo sẵn sàng.
+
+Đã chuẩn bị `pnpm go:tunnel:connected`: Expo tunnel chuyển cả bundle và đường `/__bluesteps_api/v1/*` tới backend loopback. Chỉ bật proxy khi launcher đặt `BLUESTEPS_DEV_API_PROXY=1`; mặc định proxy tắt. Các route cần đăng nhập vẫn do API kiểm token/ownership. Database URL và khóa backend không được gửi trong manifest/bundle. Phiên này tạo URL truy cập qua internet, cần được người vận hành chủ động cho phép trước khi mở. Chưa có bằng chứng điện thoại chạy thành công qua tunnel này.
+
+Người dùng đã cho phép mở tunnel tạm thời trong phiên sửa lỗi timeout. Sau khi sửa việc chuyển tiếp callback `next` của Metro, đã kiểm tra qua URL HTTPS công khai: manifest Android/iOS trả 200 và dùng proxy, hai bundle native tải thành công (khoảng 8,53 MB Android / 7,86 MB iOS), readiness và danh mục trả 200; `/v1/me` khi chưa có token vẫn trả 401. Chưa xác nhận điện thoại của người dùng mở app thành công; cần quét QR HTTPS mới của phiên đang chạy. URL thay đổi khi khởi động lại.
+
+Trước khi dùng, dừng phiên Expo cũ để nhường cổng 8081. Khi chạy, dùng QR/URL mới do chính Expo in ra, không dùng QR LAN cũ hoặc URL `/_expo/loading`. Tunnel được đóng khi dừng launcher.
+
+Trên iPhone thật, Expo Go và Expo CLI cần đăng nhập cùng tài khoản Expo. Xem tài khoản CLI bằng `pnpm --filter @bluesteps/mobile exec expo whoami`; đăng nhập bằng `pnpm --filter @bluesteps/mobile exec expo login` nếu cần. Không nhầm tài khoản Expo với tài khoản BlueSteps. [Hướng dẫn Expo](https://docs.expo.dev/get-started/start-developing/).
+
+## Đăng nhập và camera
+
+Tạo tài khoản từ app, đọc mã xác minh trong `apps/api/.local/mail/*.json` do worker local tạo rồi xác minh. Tài khoản không có điểm hoặc nội dung mẫu. Chỉ nội dung thật đã công bố mới xuất hiện.
+
+Camera/picker xin quyền thực và hiển thị ảnh đã chọn. Theo chỉ đạo dự án, mọi ảnh chụp/chọn hiện trả kết quả **Chai nhựa**; không gọi mô hình AI hoặc tự tải ảnh lên server. Trang chi tiết có xác nhận phân loại để ghi nhận/nhận điểm qua API, chống xác nhận trùng và xem lại bằng scanId. `BLUESTEPS_FIXED_SCAN_ITEM_CODE` ở backend cần trỏ mục sổ tay chai đã công bố, không synthetic; khi chưa có mục hợp lệ, giao diện báo chưa ghi nhận điểm. Có thể chọn thủ công mục sổ tay lấy từ API để ghi nhận phân loại. Native credentials dùng Expo SecureStore. Cấu hình backup loại secure storage khỏi bản sao Android; plugin áp dụng khi build app riêng. Expo Go dùng quyền của Expo Go.
+
+## Giới hạn kiểm chứng
+
+Lượt tích hợp này kiểm tra browser thật, native bundle và cấu hình permission/secure storage. Cần kiểm tra đăng nhập, bàn phím, camera, đổi mạng và khôi phục phiên trên thiết bị trước phát hành. Bằng chứng mở Expo Go trong các báo cáo cũ thuộc giai đoạn demo và không thay thế kiểm thử tích hợp native hiện tại.

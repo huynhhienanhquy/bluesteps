@@ -1,1 +1,1 @@
-export { ChangePasswordScreen as default } from '../src/features/auth/ChangePasswordScreen';
+export { ChangePasswordScreen as default } from '../src/features/live/AuthScreens';

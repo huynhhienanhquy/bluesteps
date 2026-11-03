@@ -1,0 +1,213 @@
+{
+  "title": "routing preview navigation live GPS and handover finish a real route",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 14664,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/waste-materials",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/routes",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/waste-materials",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/routes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e/plan",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e/start",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e/plan",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e/stops/3b1eddfa-bc60-4848-821b-6f1d3e00d1e5/arrive",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e/stops/3b1eddfa-bc60-4848-821b-6f1d3e00d1e5/handover",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/15ad4ce6-7b05-42aa-a95b-f074ca5f2d9e",
+      "status": 200
+    }
+  ]
+}

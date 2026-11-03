@@ -1,0 +1,485 @@
+[
+  {
+    "section": "category",
+    "code": "recycle",
+    "title": "Rác tái chế",
+    "summary": "Phân loại theo vật liệu và kiểm tra nơi tiếp nhận tại địa phương.",
+    "handling": [
+      "Tách thức ăn và chất lỏng còn lại.",
+      "Làm sạch bao bì; giữ giấy và carton khô.",
+      "Làm phẳng hộp carton khi nơi tiếp nhận yêu cầu."
+    ],
+    "sources": [
+      {
+        "title": "US EPA — Các vật liệu thường gặp",
+        "url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables"
+      }
+    ],
+    "revision": 1,
+    "reviewedOn": "2026-11-02",
+    "warning": "Pin và vật sắc nhọn cần luồng thu gom riêng.",
+    "example": "Chai, giấy, carton, thủy tinh hoặc kim loại được tiếp nhận tùy chương trình.",
+    "relatedKinds": [
+      "plastic",
+      "paper",
+      "glass",
+      "metal"
+    ],
+    "itemDonts": [
+      "Không để thức ăn hoặc chất lỏng còn lại trong bao bì."
+    ],
+    "itemTips": [
+      "Xác nhận với nơi thu gom trước khi mang tới."
+    ]
+  },
+  {
+    "section": "category",
+    "code": "organic",
+    "title": "Rác hữu cơ",
+    "summary": "Một số phụ phẩm thực vật phù hợp để ủ tại nhà.",
+    "handling": [
+      "Có thể dùng vỏ rau quả, bã cà phê và lá khô.",
+      "Trộn vật liệu ẩm với vật liệu khô và duy trì không khí.",
+      "Không cho dầu mỡ, thịt hoặc sữa vào đống ủ gia đình."
+    ],
+    "sources": [
+      {
+        "title": "US EPA — Ủ hữu cơ tại nhà",
+        "url": "https://www.epa.gov/recycle/composting-home"
+      }
+    ],
+    "revision": 1,
+    "reviewedOn": "2026-11-02",
+    "example": "Vỏ trái cây cùng lá khô có thể trở thành nguyên liệu ủ.",
+    "warning": "Cơ sở ủ công nghiệp có thể nhận vật liệu khác; kiểm tra trước khi giao.",
+    "itemDonts": [
+      "Không cho dầu mỡ, thịt hoặc sữa vào đống ủ gia đình."
+    ],
+    "itemTips": [
+      "Kiểm tra vật liệu cơ sở ủ tiếp nhận."
+    ]
+  },
+  {
+    "section": "category",
+    "code": "inorganic",
+    "title": "Rác vô cơ",
+    "summary": "Tìm luồng xử lý đúng cho vật phẩm không được chương trình tái chế tiếp nhận.",
+    "handling": [
+      "Hỏi đơn vị thu gom về vật liệu khó xử lý.",
+      "Không trộn pin hoặc rác điện tử vào thùng tái chế chung."
+    ],
+    "sources": [
+      {
+        "title": "US EPA — Các vật liệu thường gặp",
+        "url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables"
+      }
+    ],
+    "revision": 1,
+    "reviewedOn": "2026-11-02",
+    "warning": "Không mặc định mọi đồ nhựa đều được tái chế tại cùng một nơi.",
+    "relatedKinds": [
+      "rubber",
+      "ceramic",
+      "textile",
+      "battery"
+    ]
+  },
+  {
+    "section": "material",
+    "code": "plastic",
+    "title": "Các loại rác thải nhựa phổ biến",
+    "summary": "Ký hiệu nhựa giúp nhận biết vật liệu, không bảo đảm nơi thu gom sẽ tiếp nhận.",
+    "handling": [
+      "Kiểm tra nhãn và hướng dẫn của nơi tiếp nhận."
+    ],
+    "sources": [
+      {
+        "title": "US EPA — Nhựa, tái chế và ủ phân",
+        "url": "https://www.epa.gov/trash-free-waters/frequently-asked-questions-about-plastic-recycling-and-composting"
+      },
+      {
+        "title": "UNEP — Vật liệu thay thế và các loại nhựa",
+        "url": "https://apps1.unep.org/resolutions/uploads/unep-aheg-2018-1-inf-6_alternatives_material_rev1.pdf"
+      }
+    ],
+    "revision": 1,
+    "reviewedOn": "2026-11-02",
+    "relatedKinds": [
+      "battery",
+      "bag",
+      "medical"
+    ],
+    "entries": [
+      {
+        "code": "pet",
+        "title": "PET",
+        "composition": "Polyethylene terephthalate",
+        "examples": [
+          "Chai đồ uống"
+        ],
+        "handling": [],
+        "itemQuery": "PET",
+        "illustration": "pet",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "hdpe",
+        "title": "HDPE",
+        "composition": "High-density polyethylene",
+        "examples": [
+          "Một số chai, can"
+        ],
+        "handling": [],
+        "itemQuery": "HDPE",
+        "illustration": "hdpe",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "pvc",
+        "title": "PVC",
+        "composition": "Polyvinyl chloride",
+        "examples": [
+          "Một số ống nhựa"
+        ],
+        "handling": [],
+        "itemQuery": "PVC",
+        "illustration": "pvc",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "ldpe",
+        "title": "LDPE",
+        "composition": "Low-density polyethylene",
+        "examples": [
+          "Một số túi và màng nhựa"
+        ],
+        "handling": [],
+        "itemQuery": "LDPE",
+        "illustration": "ldpe",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "pp",
+        "title": "PP",
+        "composition": "Polypropylene",
+        "examples": [
+          "Một số hộp và nắp"
+        ],
+        "handling": [],
+        "itemQuery": "PP",
+        "illustration": "pp",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      }
+    ],
+    "itemDonts": [
+      "Không mặc định mọi loại nhựa đều được cùng một nơi tiếp nhận."
+    ],
+    "itemTips": [
+      "Kiểm tra ký hiệu vật liệu và hướng dẫn địa phương."
+    ]
+  },
+  {
+    "section": "material",
+    "code": "bag",
+    "title": "Các loại túi và màng phổ biến",
+    "summary": "Đọc nhãn sản phẩm và kiểm tra luồng thu gom dành cho túi, màng nhựa.",
+    "handling": [
+      "Túi nhựa thường cần điểm tiếp nhận riêng.",
+      "Không mặc định nhựa tự hủy hoặc compostable phù hợp để ủ tại nhà."
+    ],
+    "sources": [
+      {
+        "title": "US EPA — Nhựa, tái chế và ủ phân",
+        "url": "https://www.epa.gov/trash-free-waters/frequently-asked-questions-about-plastic-recycling-and-composting"
+      }
+    ],
+    "revision": 1,
+    "reviewedOn": "2026-11-02",
+    "relatedKinds": [
+      "plastic",
+      "medical"
+    ],
+    "entries": [
+      {
+        "code": "pe",
+        "title": "Túi polyethylene",
+        "composition": "PE",
+        "examples": [
+          "Túi và màng nhựa"
+        ],
+        "handling": [],
+        "itemQuery": "túi",
+        "illustration": "ldpe",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "biobased",
+        "title": "Nhựa có nguồn gốc sinh học",
+        "composition": "Thành phần tùy sản phẩm",
+        "examples": [
+          "Kiểm tra nhãn vật liệu"
+        ],
+        "handling": [
+          "Nguồn gốc sinh học không đồng nghĩa tự phân hủy."
+        ],
+        "itemQuery": "",
+        "illustration": "bag",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "compostable",
+        "title": "Túi có nhãn compostable",
+        "composition": "Thành phần và điều kiện theo nhãn",
+        "examples": [
+          "Sản phẩm có hướng dẫn ủ"
+        ],
+        "handling": [
+          "Hỏi cơ sở ủ trước khi gửi; không cho vào luồng nhựa tái chế."
+        ],
+        "itemQuery": "",
+        "illustration": "bag",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      }
+    ],
+    "itemDonts": [
+      "Không cho túi compostable vào luồng tái chế nhựa."
+    ],
+    "itemTips": [
+      "Túi và màng nhựa thường cần điểm tiếp nhận riêng."
+    ]
+  },
+  {
+    "section": "material",
+    "code": "battery",
+    "title": "Các loại pin thường gặp",
+    "summary": "Nhận biết pin theo nhãn và thành phần; kiểm tra nơi tiếp nhận chuyên biệt.",
+    "handling": [
+      "Không tự tháo pin được nhà sản xuất chỉ định không thể tháo.",
+      "Pin lithium-ion không đi cùng rác sinh hoạt hoặc thùng tái chế chung."
+    ],
+    "sources": [
+      {
+        "title": "US EPA — Pin dùng trong gia đình",
+        "url": "https://www.epa.gov/recycle/used-household-batteries"
+      },
+      {
+        "title": "US EPA — Pin lithium-ion",
+        "url": "https://www.epa.gov/recycle/frequent-questions-lithium-ion-batteries"
+      }
+    ],
+    "revision": 1,
+    "reviewedOn": "2026-11-02",
+    "relatedKinds": [
+      "bag",
+      "plastic"
+    ],
+    "entries": [
+      {
+        "code": "zinc-carbon",
+        "title": "Pin kẽm-carbon",
+        "composition": "Kẽm / manganese dioxide",
+        "examples": [
+          "Pin dùng một lần"
+        ],
+        "handling": [
+          "Kiểm tra hướng dẫn thu gom theo loại pin."
+        ],
+        "itemQuery": "pin",
+        "illustration": "battery",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "alkaline",
+        "title": "Pin kiềm",
+        "composition": "Kẽm / manganese dioxide (kiềm)",
+        "examples": [
+          "Pin dùng một lần"
+        ],
+        "handling": [
+          "Đọc nhãn hóa học trước khi phân loại."
+        ],
+        "itemQuery": "pin",
+        "illustration": "battery",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "nicd",
+        "title": "Pin nickel-cadmium",
+        "composition": "Nickel / cadmium",
+        "examples": [
+          "Một số pin sạc"
+        ],
+        "handling": [
+          "Đưa đến nơi tiếp nhận pin sạc."
+        ],
+        "itemQuery": "pin",
+        "illustration": "battery",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "lead-acid",
+        "title": "Ắc quy chì-axit",
+        "composition": "Chì / axit sulfuric",
+        "examples": [
+          "Một số ắc quy"
+        ],
+        "handling": [
+          "Liên hệ nơi bán hoặc điểm xử lý chuyên biệt."
+        ],
+        "itemQuery": "ắc quy",
+        "illustration": "battery",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      },
+      {
+        "code": "lithium-ion",
+        "title": "Pin lithium-ion",
+        "composition": "Lithium-ion; thành phần tùy loại",
+        "examples": [
+          "Điện thoại và thiết bị sạc"
+        ],
+        "handling": [
+          "Cách điện đầu cực theo hướng dẫn; mang đến điểm thu gom riêng."
+        ],
+        "itemQuery": "pin",
+        "illustration": "battery",
+        "decomposition": {
+          "label": "Chưa có mốc năm được kiểm chứng",
+          "conditions": "Phụ thuộc vật liệu và môi trường xử lý; không suy ra từ hình dạng sản phẩm."
+        }
+      }
+    ],
+    "itemDonts": [
+      "Không cho pin lithium-ion vào rác sinh hoạt hoặc thùng tái chế chung."
+    ],
+    "itemTips": [
+      "Đọc nhãn pin và hỏi điểm tiếp nhận chuyên biệt."
+    ]
+  },
+  {
+    "section": "material",
+    "code": "medical",
+    "title": "Phân loại chất thải y tế",
+    "summary": "Nguy cơ phụ thuộc việc sử dụng và nhiễm bẩn, không chỉ vật liệu cấu tạo.",
+    "handling": [
+      "Hỏi cơ sở y tế hoặc đơn vị tiếp nhận về luồng xử lý."
+    ],
+    "sources": [
+      {
+        "title": "WHO — Chất thải y tế",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/health-care-waste"
+      },
+      {
+        "title": "FDA — Xử lý vật sắc nhọn đã dùng",
+        "url": "https://www.fda.gov/medical-devices/safely-using-sharps-needles-and-syringes-home-work-and-travel/dos-and-donts-proper-sharps-disposal"
+      }
+    ],
+    "revision": 1,
+    "reviewedOn": "2026-11-02",
+    "warning": "Kim và vật sắc nhọn đã dùng không được cho vào thùng tái chế.",
+    "relatedKinds": [
+      "plastic",
+      "bag"
+    ],
+    "entries": [
+      {
+        "code": "sharps",
+        "title": "Kim và vật sắc nhọn",
+        "composition": "Vật liệu tùy dụng cụ",
+        "examples": [
+          "Kim tiêm, lưỡi sắc"
+        ],
+        "handling": [
+          "Đặt ngay vật đã dùng vào hộp chuyên dụng chống đâm xuyên.",
+          "Không bẻ, uốn hoặc đậy lại kim bằng tay."
+        ],
+        "itemQuery": "kim",
+        "illustration": "medical",
+        "decomposition": null
+      },
+      {
+        "code": "infectious",
+        "title": "Vật liệu có nguy cơ lây nhiễm",
+        "composition": "Vật liệu tùy sản phẩm",
+        "examples": [
+          "Vật dính máu hoặc dịch"
+        ],
+        "handling": [
+          "Giữ riêng và hỏi đơn vị y tế về tiếp nhận."
+        ],
+        "itemQuery": "",
+        "illustration": "medical",
+        "decomposition": null
+      },
+      {
+        "code": "general-medical",
+        "title": "Vật phẩm y tế không nguy hại",
+        "composition": "Cần đánh giá theo cách dùng",
+        "examples": [
+          "Bao bì không nhiễm bẩn"
+        ],
+        "handling": [
+          "Không tự suy ra mức nguy hại từ màu hoặc hình dạng."
+        ],
+        "itemQuery": "",
+        "illustration": "medical",
+        "decomposition": null
+      },
+      {
+        "code": "chemical",
+        "title": "Chất thải hóa học từ y tế",
+        "composition": "Tùy hóa chất",
+        "examples": [
+          "Một số hóa chất và vật chứa"
+        ],
+        "handling": [
+          "Liên hệ đơn vị chuyên trách; không trộn luồng tái chế."
+        ],
+        "itemQuery": "",
+        "illustration": "medical",
+        "decomposition": null
+      }
+    ],
+    "itemDonts": [
+      "Không cho kim và vật sắc nhọn đã dùng vào thùng tái chế."
+    ],
+    "itemTips": [
+      "Hỏi cơ sở y tế về luồng xử lý phù hợp."
+    ]
+  }
+]

@@ -1,0 +1,1608 @@
+{
+  "title": "Figma layout candidates render at both mobile widths with database content",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 156151,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/statistics",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/badges",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/insights",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications/summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/leaderboard",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/achievement-summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/badges",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/waste-items",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/f2a97f13-19c0-4ee6-b48b-d7e7f1f7c632/engagement",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news-calendar",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news-calendar",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-briefs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-briefs",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-list",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/f2a97f13-19c0-4ee6-b48b-d7e7f1f7c632/engagement",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-searches",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-topics",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-topics",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/4a415e3b-b421-4d9d-8078-807975d7921a/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/engagement",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/check-in-access",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/calendar",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/0d01018f-b111-4bd2-9488-9acefd835eda/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/remindable-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-reminders",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/summary",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/sessions",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/reward-program",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/reward-program",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/daily-claims",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/rewards",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/redemptions",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/reward-program",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/statistics",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/badges",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/insights",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/leaderboard",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/achievement-summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications/summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/badges",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/waste-items",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/f2a97f13-19c0-4ee6-b48b-d7e7f1f7c632/engagement",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news-calendar",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/news-calendar",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-briefs",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-briefs",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-list",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/f2a97f13-19c0-4ee6-b48b-d7e7f1f7c632/engagement",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-searches",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-topics",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/article-topics",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/4a415e3b-b421-4d9d-8078-807975d7921a/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/engagement",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/check-in-access",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/calendar",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/0d01018f-b111-4bd2-9488-9acefd835eda/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/remindable-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-reminders",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3c2064f8-165f-4716-9a54-c085e16df785/summary",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/sessions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/reward-program",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/reward-program",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/rewards",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/daily-claims",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/redemptions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/reward-program",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    }
+  ]
+}

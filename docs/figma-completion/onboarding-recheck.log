@@ -1,0 +1,15 @@
+
+Running 6 tests using 1 worker
+
+(node:11704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\onboarding.spec.ts:58:5 › first launch visits every introduction page before login and remembers completion (5.6s)
+  ok 2 e2e\onboarding.spec.ts:80:7 › an unfinished introduction cannot be bypassed through /login (2.5s)
+  ok 3 e2e\onboarding.spec.ts:80:7 › an unfinished introduction cannot be bypassed through /register (2.5s)
+  ok 4 e2e\onboarding.spec.ts:80:7 › an unfinished introduction cannot be bypassed through /onboarding?step=9 (2.4s)
+  ok 5 e2e\onboarding.spec.ts:90:5 › the last page can open registration after completing the introduction (2.5s)
+  ok 6 e2e\onboarding.spec.ts:99:5 › a restored account keeps access to its preference setup (1.3s)
+
+  6 passed (18.1s)

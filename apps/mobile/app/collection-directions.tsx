@@ -1,1 +1,1 @@
-export { CollectionDirectionsScreen as default } from '../src/features/collection/CollectionDirectionsScreen';
+export { DirectionsScreen as default } from '../src/features/live/RouteDirections';

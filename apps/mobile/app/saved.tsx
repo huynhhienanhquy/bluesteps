@@ -1,4 +1,4 @@
-import { EventListScreen } from '../src/features/events/EventScreens';
-export default function Page() {
-  return <EventListScreen savedOnly />;
+import { EventsScreen } from '../src/features/live/EventScreens';
+export default function SavedPage() {
+  return <EventsScreen saved />;
 }

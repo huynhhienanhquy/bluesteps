@@ -1,1 +1,1 @@
-export { RewardsHistoryDesignScreen as default } from '../src/features/rewards/RewardsDesignScreens';
+export { HistoryScreen as default } from '../src/features/live/RewardScreens';

@@ -1,1 +1,1 @@
-export { NewsSearchScreen as default } from '../../src/features/content/NewsSearchScreen';
+export { NewsSearchScreen as default } from '../../src/features/live/NewsWorkflows';

@@ -1,0 +1,1575 @@
+{
+  "frames": [
+    {
+      "id": "386:13263",
+      "name": "SoTayRac",
+      "texts": [
+        "Sổ tay rác",
+        "Tìm kiếm.....",
+        "Rác hữu cơ",
+        "Rác vô cơ",
+        "Rác tái chế",
+        "Xem tất cả",
+        "Nếu chưa \nbiết rác loại nào \n-hãy vào đây"
+      ],
+      "interactions": [
+        {
+          "id": "386:13277",
+          "name": "Group 36893",
+          "label": "Rác hữu cơ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13782",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13282",
+          "name": "Group 36894",
+          "label": "Rác vô cơ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13289",
+          "name": "Group 36892",
+          "label": "Rác tái chế",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13929",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13294",
+          "name": "Group 36875",
+          "label": "Xem tất cả",
+          "reactions": [
+            {
+              "trigger": "ON_HOVER",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13313",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13313",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13311",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13312;306:9830;2560:21254",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13312;306:9830;2560:21258",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13312;306:9830;2560:21263",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13312;306:9830;2560:21267",
+          "name": "Vector",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13312;306:9830;2560:21268",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4828",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4830",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4832",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4834",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4836",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13313",
+      "name": "SoTayRac1",
+      "texts": [
+        "Tìm kiếm.....",
+        "Rác hữu cơ",
+        "Rác tái chế",
+        "Xem tất cả",
+        "Nếu chưa \nbiết rác loại nào \n-hãy vào đây",
+        "Rác vô cơ",
+        "Sổ tay rác"
+      ],
+      "interactions": [
+        {
+          "id": "386:13337",
+          "name": "Group 36875",
+          "label": "Xem tất cả",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13364",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13354",
+          "name": "Group 36894",
+          "label": "Rác vô cơ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13361;306:9830;2560:21254",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13361;306:9830;2560:21258",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13361;306:9830;2560:21263",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13361;306:9830;2560:21267",
+          "name": "Vector",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13361;306:9830;2560:21268",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13364",
+      "name": "AllSoTayRac",
+      "texts": [
+        "Tìm kiếm.....",
+        "Rác tái\nchế",
+        "Rác hữu\ncơ",
+        "Rác vô\ncơ",
+        "Hãy để rác vào đúng thùng – Giữ môi trường luôn xanh sạch nhé!",
+        "Chai nhựa",
+        "Đồ ăn thừa - Vỏ \ntrái cây",
+        "Giấy - Báo \nTạp chí",
+        "Ni lông",
+        "Pin - Ắc quy",
+        "Dụng cụ y tế",
+        "Hộp carton",
+        "Thủy tinh",
+        "Áo quần-giày dép",
+        "Đồ nhựa",
+        "Lon bia-nước ngọt",
+        "Lá cây - Cành khô",
+        "Giấy ăn -  Khăn giấy ",
+        "Bã cà phê - Bã trà",
+        "Đồ dùng bằng \ncao su",
+        "Gốm, sữ vỡ",
+        "Bóng đèn hỏng\n(loại thường)",
+        "Đèn huỳnh quang \nĐèn Led",
+        "Sổ tay rác"
+      ],
+      "interactions": [
+        {
+          "id": "386:13416",
+          "name": "Group 36807",
+          "label": "Chai nhựa",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14521",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13425",
+          "name": "Group 36808",
+          "label": "Đồ ăn thừa - Vỏ \ntrái cây",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14820",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13434",
+          "name": "Group 36809",
+          "label": "Giấy - Báo \nTạp chí",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14970",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13443",
+          "name": "Group 36810",
+          "label": "Ni lông",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17077",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13452",
+          "name": "Group 36811",
+          "label": "Pin - Ắc quy",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17145",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13461",
+          "name": "Group 36812",
+          "label": "Dụng cụ y tế",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17005",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13470",
+          "name": "Group 36813",
+          "label": "Hộp carton",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14595",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13478",
+          "name": "Group 36814",
+          "label": "Thủy tinh",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14895",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13487",
+          "name": "Group 36815",
+          "label": "Áo quần-giày dép",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14670",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13496",
+          "name": "Group 36816",
+          "label": "Đồ nhựa",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16931",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13505",
+          "name": "Group 36817",
+          "label": "Lon bia-nước ngọt",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13929",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13514",
+          "name": "Group 36818",
+          "label": "Chai nhựa",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16931",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13523",
+          "name": "Group 36820",
+          "label": "Lá cây - Cành khô",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14820",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13532",
+          "name": "Group 36821",
+          "label": "Giấy ăn -  Khăn giấy ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13541",
+          "name": "Group 36822",
+          "label": "Bã cà phê - Bã trà",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14820",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13550",
+          "name": "Group 36823",
+          "label": "Đồ dùng bằng \ncao su",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13559",
+          "name": "Group 36824",
+          "label": "Gốm, sữ vỡ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13568",
+          "name": "Group 36825",
+          "label": "Bóng đèn hỏng\n(loại thường)",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13581",
+          "name": "Group 36826",
+          "label": "Đèn huỳnh quang \nĐèn Led",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17145",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13590;306:9830;2560:21254",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13590;306:9830;2560:21258",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13590;306:9830;2560:21263",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13590;306:9830;2560:21267",
+          "name": "Vector",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13590;306:9830;2560:21268",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13592",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13593",
+      "name": "RacVoCo",
+      "texts": [
+        "Tìm kiếm.....",
+        "Rác vô cơ",
+        "Đồ dùng bằng cao su",
+        "Gốm, sữ vỡ",
+        "Bóng đèn hỏng\n(loại thường)",
+        "Đồ nhựa - Áo quần không thể tái chế",
+        "Pin - Ắc quy",
+        "Dụng cụ y tế",
+        "Đèn huỳnh quang - Đèn Led",
+        "Dầu nhớt",
+        "Vô cơ là rác không thể tái chế hoặc phân hủy sinh học. Hãy phân loại đúng để báo về môi trường và  giảm lượng rác vô cơ bằng cách tái sử dụng khi có thể.",
+        "Sổ tay rác"
+      ],
+      "interactions": [
+        {
+          "id": "386:13680",
+          "name": "time",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13685",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21254",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21258",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21263",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21267",
+          "name": "Vector",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13682;306:9830;2560:21268",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13684",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13364",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13685",
+      "name": "RacVoCo1",
+      "texts": [
+        "Sổ tay rác",
+        "Tìm kiếm.....",
+        "Rác vô cơ",
+        "Đồ dùng bằng cao su",
+        "Gốm, sữ vỡ",
+        "Bóng đèn hỏng\n(loại thường)",
+        "Đồ nhựa - Áo quần không thể tái chế",
+        "Vô cơ là rác không thể tái chế hoặc phân hủy sinh học. Hãy phân loại đúng để báo về môi trường và  giảm lượng rác vô cơ bằng cách tái sử dụng khi có thể.",
+        "Cho vào túi kín để tránh phát tán bụi và mùi.\nKhông nên đốt vì sinh ra khói độc hại.\nNếu có thể tái sử dụng (ví dụ túi ni lông còn tốt), hãy dùng lại thay vì vứt bỏ.\nĐưa đến các điểm xử lý rác vô cơ hoặc chôn lấp đúng quy định.\n\n     Ví dụ: Rửa chai nước suối, phơi khô rồi bỏ vào thùng rác tái chế.",
+        "Cách xử lý:"
+      ],
+      "interactions": [
+        {
+          "id": "386:13770",
+          "name": "time",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13593",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13782",
+      "name": "RacHuuCo",
+      "texts": [
+        "Tìm kiếm.....",
+        "Rác hữu cơ",
+        "Đồ ăn thừa - Vỏ trái cây",
+        "Lá cây - Cành khô",
+        "Giấy ăn -  Khăn giấy ",
+        "Bã cà phê - Bã trà",
+        "Hữu cơ là rác dễ phân hủy. Bạn có thể ủ để tạo phân bón tự nhiên, giúp cây phát triển và giảm ô nhiễm.",
+        "Sổ tay rác"
+      ],
+      "interactions": [
+        {
+          "id": "386:13833",
+          "name": "time",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13838",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21254",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21258",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21263",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21267",
+          "name": "Vector",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:13835;306:9830;2560:21268",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:13837",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13838",
+      "name": "RacHuuCo1",
+      "texts": [
+        "Sổ tay rác",
+        "Tìm kiếm.....",
+        "Rác hữu cơ",
+        "Đồ ăn thừa - Vỏ trái cây",
+        "Lá cây - Cành khô",
+        "Giấy ăn -  Khăn giấy ",
+        "Bã cà phê - Bã trà",
+        "Hữu cơ là rác dễ phân hủy. Bạn có thể ủ để tạo phân bón tự nhiên, giúp cây phát triển và giảm ô nhiễm.",
+        "Bỏ riêng rác hữu cơ vào túi hoặc thùng có nắp đậy để tránh ruồi muỗi.\nCó thể ủ thành phân compost để trồng cây, cải tạo đất.\nNếu không tự ủ được, hãy cho vào thùng rác hữu cơ để được xử lý làm phân vi sinh tại cơ sở môi trường.\n\n     Ví dụ: Gom vỏ rau củ, cơm thừa rồi cho vào    thùng rác hữu cơ.",
+        "Cách xử lý:"
+      ],
+      "interactions": [
+        {
+          "id": "386:13921",
+          "name": "time",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13782",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:13929",
+      "name": "RacTaiChe",
+      "texts": [
+        "Tìm kiếm.....",
+        "Chai nhựa",
+        "Giấy - Báo - Tạp chí",
+        "Ni lông",
+        "Hộp carton",
+        "Thủy tinh(chai lọ)",
+        "Áo quần-giày dép",
+        "Đồ nhựa",
+        "Lon bia-nước ngọt",
+        "Vui lòng tách rác tái chế khỏi rác hữu cơ và nguy hại. Đảm bảo không lẫn pin, kim tiêm hoặc chất độc hại.",
+        "Rác tái chế",
+        "Sổ tay rác"
+      ],
+      "interactions": [
+        {
+          "id": "386:14032",
+          "name": "time",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14037",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21254",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21258",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21263",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21267",
+          "name": "Vector",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14034;306:9830;2560:21268",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:14036",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13263",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14037",
+      "name": "RacTaiChe1",
+      "texts": [
+        "Sổ tay rác",
+        "Tìm kiếm.....",
+        "Chai nhựa",
+        "Giấy - Báo - Tạp chí",
+        "Ni lông",
+        "Hộp carton",
+        "Thủy tinh(chai lọ)",
+        "Áo quần-giày dép",
+        "Đồ nhựa",
+        "Lon bia-nước ngọt",
+        "Vui lòng tách rác tái chế khỏi rác hữu cơ và nguy hại. Đảm bảo không lẫn pin, kim tiêm hoặc chất độc hại.",
+        "Rác tái chế",
+        "Rửa sạch rác trước khi bỏ đi để tránh mùi và nấm mốc.\nPhân loại riêng theo chất liệu (nhựa, giấy, kim loại, thủy tinh).\nLàm khô, bó gọn hoặc nén lại để tiết kiệm diện tích.\nGửi đến các điểm thu gom, đổi rác lấy quà hoặc cửa hàng thu hồi tái chế.\nKhông vứt lẫn với rác ướt (rác thực phẩm) vì sẽ làm hỏng khả năng tái chế.\n\n     Ví dụ: Rửa chai nước suối, phơi khô rồi bỏ vào thùng rác tái chế.",
+        "Cách xử lý:"
+      ],
+      "interactions": [
+        {
+          "id": "386:14189",
+          "name": "time",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:13929",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:14194",
+      "name": "Scan",
+      "texts": [
+        "Scan your waste",
+        "Scan your item",
+        "Sẵn sàng quét rác chưa?",
+        "nhấn “Scan your waste” để bắt đầu nhé!"
+      ],
+      "interactions": [
+        {
+          "id": "386:14201",
+          "name": "Group 36728",
+          "label": "Scan your waste",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14221",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21254",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21258",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21263",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:14218;306:9830;2560:21267",
+          "name": "Vector",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:14219",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4740",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4742",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4744",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4746",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

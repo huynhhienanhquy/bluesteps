@@ -1,223 +1,243 @@
 import {
   createContext,
+  useCallback,
   useContext,
+  useEffect,
+  useMemo,
+  useRef,
   useState,
   type PropsWithChildren,
-  type Dispatch,
-  type SetStateAction,
 } from 'react';
 import { AppState, Platform, useColorScheme } from 'react-native';
-import { QueryClient, QueryClientProvider, focusManager } from '@tanstack/react-query';
+import { QueryClient, QueryClientProvider, focusManager, useQuery } from '@tanstack/react-query';
 import { palettes, type Colors } from '@bluesteps/design-tokens';
-import { initialPosts } from './services/fixtures';
-import type { DemoState } from './services/demo';
-import { appendDemoMessage, createDemoSession, type DemoSession } from './services/demo-session';
-import { initialExperience, type ExperiencePreferences } from './services/experience';
-import { defaultCollectionFilters, type CollectionFilters } from './services/collection';
-import type { CollectionProposalDraft } from './services/collection-forms';
-import { createNewsSession, type NewsSession } from './services/news';
-import { RewardsUiProvider, useRewardsUi } from './features/rewards/RewardsUiProvider';
-import { CommunityUiProvider, useCommunityUi } from './features/community/CommunityUiProvider';
-import { ChatUiProvider, useChatUi } from './features/messages/ChatUiProvider';
-import { BotUiProvider, useBotUi } from './features/assistant/BotUiProvider';
-import {
-  NotificationUiProvider,
-  useNotificationUi,
-} from './features/notifications/NotificationUiProvider';
-import {
-  createEventPlanning,
-  removeSavedEvent,
-  type EventPlanning,
-} from './services/event-planning';
+import { ApiError, createApiClient } from '@bluesteps/api-client';
+import { apiBaseUrl, errorMessage, type Schemas } from './services/api';
+import { createSessionTransport, sessionSignedOutKey } from './services/session-storage';
+import { PinProvider } from './features/live/PinProvider';
+import { LocalProfileProvider } from './features/live/LocalProfileProvider';
 
-focusManager.setEventListener((handleFocus) => {
+export type ApiClient = ReturnType<typeof createApiClient>;
+type Theme = 'system' | 'light' | 'dark';
+type SessionStatus = 'loading' | 'authenticated' | 'guest' | 'error';
+type AppContextValue = {
+  api: ApiClient;
+  user: Schemas['Profile'] | null;
+  status: SessionStatus;
+  sessionError: string | null;
+  login: (email: string, password: string) => Promise<void>;
+  logout: () => Promise<void>;
+  restore: () => Promise<void>;
+  reloadProfile: () => Promise<void>;
+  theme: Theme;
+  colors: Colors;
+  dark: boolean;
+  feedback: () => void;
+};
+const AppContext = createContext<AppContextValue | null>(null);
+focusManager.setEventListener((handle) => {
   if (Platform.OS === 'web') {
-    const listener = () => handleFocus(document.visibilityState === 'visible');
+    if (typeof document === 'undefined') return () => {};
+    const listener = () => handle(document.visibilityState === 'visible');
     document.addEventListener('visibilitychange', listener);
     return () => document.removeEventListener('visibilitychange', listener);
   }
-  const subscription = AppState.addEventListener('change', (state) =>
-    handleFocus(state === 'active'),
-  );
+  const subscription = AppState.addEventListener('change', (state) => handle(state === 'active'));
   return () => subscription.remove();
 });
 
-type ThemeMode = 'system' | 'light' | 'dark';
-type Post = (typeof initialPosts)[number];
-type DemoContextValue = {
-  news: NewsSession;
-  setNews: Dispatch<SetStateAction<NewsSession>>;
-  eventPlanning: EventPlanning;
-  setEventPlanning: Dispatch<SetStateAction<EventPlanning>>;
-  pointProposalDraft: CollectionProposalDraft | null;
-  setPointProposalDraft: (draft: CollectionProposalDraft | null) => void;
-  collectionFilters: CollectionFilters;
-  setCollectionFilters: Dispatch<SetStateAction<CollectionFilters>>;
-  selectedPoint: string;
-  setSelectedPoint: (id: string) => void;
-  experience: ExperiencePreferences;
-  setExperience: Dispatch<SetStateAction<ExperiencePreferences>>;
-  colors: Colors;
-  dark: boolean;
-  theme: ThemeMode;
-  setTheme: (theme: ThemeMode) => void;
-  saved: string[];
-  toggleSaved: (id: string) => void;
-  liked: string[];
-  toggleLiked: (id: string) => void;
-  stops: string[];
-  setStops: (ids: string[]) => void;
-  posts: Post[];
-  addPost: (text: string) => void;
-  notifications: DemoSession['notifications'];
-  markNotificationRead: (id?: string) => void;
-  conversations: DemoSession['conversations'];
-  sendMessage: (id: string, text: string) => void;
-  readConversation: (id: string) => void;
-  resetDemo: () => void;
-  state: DemoState;
-  setState: (state: DemoState) => void;
-};
-const DemoContext = createContext<DemoContextValue | null>(null);
-export function AppProviders(props: PropsWithChildren<{ queryClient?: QueryClient }>) {
-  return (
-    <RewardsUiProvider>
-      <NotificationUiProvider>
-        <CommunityUiProvider>
-          <ChatUiProvider>
-            <BotUiProvider>
-              <AppStateProviders {...props} />
-            </BotUiProvider>
-          </ChatUiProvider>
-        </CommunityUiProvider>
-      </NotificationUiProvider>
-    </RewardsUiProvider>
-  );
-}
-function AppStateProviders({
+export function AppProviders({
   children,
   queryClient,
-}: PropsWithChildren<{ queryClient?: QueryClient }>) {
-  const { reset: resetRewards } = useRewardsUi();
-  const { reset: resetNotificationUi } = useNotificationUi();
-  const { reset: resetCommunityUi } = useCommunityUi();
-  const { reset: resetChatUi } = useChatUi();
-  const { reset: resetBotUi } = useBotUi();
+  apiClient,
+}: PropsWithChildren<{ queryClient?: QueryClient; apiClient?: ApiClient }>) {
   const [client] = useState(
     () =>
       queryClient ??
       new QueryClient({
         defaultOptions: {
-          queries: { retry: false, staleTime: 30_000 },
+          queries: { retry: false, staleTime: 15_000 },
           mutations: { retry: false },
         },
       }),
   );
-  const system = useColorScheme();
-  const [theme, setTheme] = useState<ThemeMode>('system');
-  const [session, setSession] = useState(createDemoSession);
-  const [news, setNews] = useState(createNewsSession);
-  const [eventPlanning, setEventPlanning] = useState(createEventPlanning);
-  const [state, setState] = useState<DemoState>('content');
-  const [experience, setExperience] = useState(initialExperience);
-  const [collectionFilters, setCollectionFilters] = useState(defaultCollectionFilters);
-  const [selectedPoint, setSelectedPoint] = useState('green-hub');
-  const [pointProposalDraft, setPointProposalDraft] = useState<CollectionProposalDraft | null>(
-    null,
+  const [user, setUser] = useState<Schemas['Profile'] | null>(null);
+  const [status, setStatus] = useState<SessionStatus>('loading');
+  const [sessionError, setSessionError] = useState<string | null>(null);
+  const epoch = useRef(0);
+  const systemTheme = useColorScheme();
+  const [api] = useState(() => {
+    if (apiClient) return apiClient;
+    const baseUrl = apiBaseUrl();
+    return createApiClient({
+      baseUrl,
+      ...createSessionTransport(baseUrl),
+    });
+  });
+  useEffect(
+    () =>
+      api.subscribeSessionLost(() => {
+        epoch.current++;
+        setUser(null);
+        setStatus('guest');
+        void client.cancelQueries().then(() => client.clear());
+      }),
+    [api, client],
   );
-  const dark = theme === 'dark' || (theme === 'system' && system === 'dark');
-  const toggle = (values: string[], id: string) =>
-    values.includes(id) ? values.filter((value) => value !== id) : [...values, id];
+  useEffect(() => {
+    if (Platform.OS !== 'web' || typeof window === 'undefined') return;
+    const signedOut = (event: StorageEvent) => {
+      if (event.key !== sessionSignedOutKey(apiBaseUrl()) || !event.newValue) return;
+      epoch.current++;
+      api.invalidatePendingRequests();
+      setUser(null);
+      setStatus('guest');
+      void api
+        .logout()
+        .catch(() => {})
+        .finally(() => client.cancelQueries().then(() => client.clear()));
+    };
+    window.addEventListener('storage', signedOut);
+    return () => window.removeEventListener('storage', signedOut);
+  }, [api, client]);
+  const loadProfile = useCallback(async () => {
+    const snapshot = epoch.current;
+    const profile = await api.me();
+    if (snapshot !== epoch.current) return;
+    setUser(profile);
+    setStatus('authenticated');
+    setSessionError(null);
+  }, [api]);
+  const restore = useCallback(async () => {
+    const snapshot = ++epoch.current;
+    setStatus('loading');
+    setSessionError(null);
+    try {
+      await api.refresh();
+      if (snapshot !== epoch.current) return;
+      await loadProfile();
+    } catch (error) {
+      if (snapshot !== epoch.current) return;
+      if (error instanceof ApiError && error.status === 401) {
+        setUser(null);
+        setStatus('guest');
+      } else {
+        setStatus('error');
+        setSessionError(errorMessage(error));
+      }
+    }
+  }, [api, loadProfile]);
+  useEffect(() => {
+    let active = true;
+    const snapshot = epoch.current;
+    void api
+      .refresh()
+      .then(() => {
+        if (active && snapshot === epoch.current) return loadProfile();
+      })
+      .catch((error) => {
+        if (!active || snapshot !== epoch.current) return;
+        if (error instanceof ApiError && error.status === 401) {
+          setUser(null);
+          setStatus('guest');
+        } else {
+          setStatus('error');
+          setSessionError(errorMessage(error));
+        }
+      });
+    return () => {
+      active = false;
+    };
+  }, [api, loadProfile]);
+  const preferences = useQuery(
+    {
+      queryKey: ['api', user?.id ?? 'guest', '/v1/me/preferences'],
+      enabled: status === 'authenticated',
+      queryFn: ({ signal }) =>
+        api.request<Schemas['Preferences']>('/v1/me/preferences', { signal }),
+    },
+    client,
+  );
+  const effectiveTheme = preferences.data?.theme ?? 'system';
+  const value = useMemo<AppContextValue>(
+    () => ({
+      api,
+      user,
+      status,
+      sessionError,
+      feedback: () => {
+        if (preferences.data)
+          void import('./services/feedback')
+            .then(({ playFeedback }) => playFeedback(preferences.data!))
+            .catch(() => {});
+      },
+      restore,
+      reloadProfile: loadProfile,
+      theme: effectiveTheme,
+      dark: effectiveTheme === 'dark' || (effectiveTheme === 'system' && systemTheme === 'dark'),
+      colors:
+        palettes[
+          effectiveTheme === 'dark' || (effectiveTheme === 'system' && systemTheme === 'dark')
+            ? 'dark'
+            : 'light'
+        ],
+      async login(email, password) {
+        api.invalidatePendingRequests();
+        const snapshot = ++epoch.current;
+        if (user) await api.logout();
+        await client.cancelQueries();
+        client.clear();
+        setUser(null);
+        setStatus('guest');
+        try {
+          await api.login({ email, password, deviceLabel: Platform.OS });
+          if (snapshot === epoch.current) await loadProfile();
+        } catch (error) {
+          if (snapshot === epoch.current) setStatus('guest');
+          throw error;
+        }
+      },
+      async logout() {
+        api.invalidatePendingRequests();
+        const snapshot = ++epoch.current;
+        try {
+          await api.logout();
+        } finally {
+          if (snapshot === epoch.current) {
+            await client.cancelQueries();
+            client.clear();
+            setUser(null);
+            setStatus('guest');
+          }
+        }
+      },
+    }),
+    [
+      api,
+      user,
+      status,
+      sessionError,
+      restore,
+      loadProfile,
+      effectiveTheme,
+      systemTheme,
+      client,
+      preferences.data,
+    ],
+  );
   return (
     <QueryClientProvider client={client}>
-      <DemoContext.Provider
-        value={{
-          news,
-          setNews,
-          eventPlanning,
-          setEventPlanning,
-          pointProposalDraft,
-          setPointProposalDraft,
-          collectionFilters,
-          setCollectionFilters,
-          selectedPoint,
-          setSelectedPoint,
-          experience,
-          setExperience,
-          colors: palettes[dark ? 'dark' : 'light'],
-          dark,
-          theme,
-          setTheme,
-          ...session,
-          setStops: (stops) => setSession((current) => ({ ...current, stops: [...stops] })),
-          state,
-          setState,
-          toggleSaved: (id) => {
-            if (session.saved.includes(id)) {
-              setEventPlanning((current) => removeSavedEvent(current, id));
-            }
-            setSession((current) => ({ ...current, saved: toggle(current.saved, id) }));
-          },
-          toggleLiked: (id) =>
-            setSession((current) => ({ ...current, liked: toggle(current.liked, id) })),
-          markNotificationRead: (id) =>
-            setSession((current) => ({
-              ...current,
-              notifications: current.notifications.map((notification) =>
-                !id || notification.id === id ? { ...notification, read: true } : notification,
-              ),
-            })),
-          readConversation: (id) =>
-            setSession((current) => ({
-              ...current,
-              conversations: current.conversations.map((conversation) =>
-                conversation.id === id ? { ...conversation, unreadCount: 0 } : conversation,
-              ),
-            })),
-          sendMessage: (id, text) =>
-            setSession((current) => ({
-              ...current,
-              conversations: appendDemoMessage(current.conversations, id, text),
-            })),
-          resetDemo: () => {
-            resetRewards();
-            resetNotificationUi();
-            resetCommunityUi();
-            resetChatUi();
-            resetBotUi();
-            setPointProposalDraft(null);
-            setCollectionFilters(defaultCollectionFilters());
-            setSelectedPoint('green-hub');
-            setExperience(initialExperience());
-            setSession(createDemoSession());
-            setNews(createNewsSession());
-            setEventPlanning(createEventPlanning());
-            setState('content');
-          },
-          addPost: (text) =>
-            setSession((current) => ({
-              ...current,
-              posts: [
-                {
-                  id: `draft-${current.posts.length + 1}`,
-                  author: 'Bạn · Demo',
-                  avatar: 'B',
-                  time: 'Vừa xong · chỉ trong phiên này',
-                  text,
-                  likes: 0,
-                },
-                ...current.posts,
-              ],
-            })),
-        }}
-      >
-        {children}
-      </DemoContext.Provider>
+      <AppContext.Provider value={value}>
+        <PinProvider userId={user?.id ?? null} logout={value.logout}>
+          <LocalProfileProvider account={user}>{children}</LocalProfileProvider>
+        </PinProvider>
+      </AppContext.Provider>
     </QueryClientProvider>
   );
 }
+
 export function useApp() {
-  const context = useContext(DemoContext);
-  if (!context) throw new Error('AppProviders is required');
-  return context;
+  const value = useContext(AppContext);
+  if (!value) throw new Error('AppProviders is required');
+  return value;
 }

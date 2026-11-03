@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bluesteps-api"
+version = "0.1.0"
+description = "BlueSteps Python Identity and application API for PostgreSQL/Supabase"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "fastapi>=0.121,<1",
+  "uvicorn>=0.34,<1",
+  "pydantic-settings>=2.7,<3",
+  "sqlalchemy>=2.0.38,<2.1",
+  "psycopg[binary]>=3.2,<4",
+  "argon2-cffi>=23.1,<26",
+  "PyJWT[crypto]>=2.10,<3",
+  "email-validator>=2.2,<3",
+  "python-dotenv>=1.0,<2",
+  "segno>=1.6.6,<2",
+  "pillow>=12,<14",
+  "av>=16,<19",
+  "httpx>=0.28,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3,<10", "httpx>=0.28,<1", "ruff>=0.11,<1", "mypy>=1.15,<2", "jsonschema>=4.23,<5", "types-jsonschema>=4.23"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["postgres: requires a disposable PostgreSQL database with PostGIS", "mobile_e2e: opt-in full browser/API/PostGIS integration"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["B008"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bluesteps_api"]

@@ -1,0 +1,5 @@
+$ node scripts/backend.cjs schema && pnpm --filter @bluesteps/api-client generate
+Exported 125 paths
+$ openapi-typescript openapi.json -o src/schema.ts
+✨ openapi-typescript 7.10.1
+🚀 openapi.json → src/schema.ts [1s]

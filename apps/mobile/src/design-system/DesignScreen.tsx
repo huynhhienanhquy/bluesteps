@@ -1,73 +1,38 @@
-import type { ComponentProps, PropsWithChildren, ReactNode } from 'react';
-import { Platform, Pressable, ScrollView, StyleSheet, View, type ViewStyle } from 'react-native';
+import type { ComponentProps, PropsWithChildren, ReactNode, Ref } from 'react';
+import {
+  KeyboardAvoidingView,
+  Platform,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  View,
+  type ViewStyle,
+} from 'react-native';
 import { Image } from 'expo-image';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Label, Typography, type FontFamily } from './ui';
 import { router } from 'expo-router';
 import { useApp } from '../providers';
-import { Label } from './ui';
-import { homeAssets } from './figma-assets';
-import { assets386_7420 } from './screen-assets';
-
 export function Artwork({
   source,
   width,
   height = width,
   style,
   fit = 'contain',
-  testID,
 }: {
   source: ComponentProps<typeof Image>['source'];
   width: number;
   height?: number;
   style?: ComponentProps<typeof Image>['style'];
-  fit?: 'cover' | 'contain' | 'fill';
-  testID?: string;
+  fit?: 'contain' | 'cover' | 'fill';
 }) {
   return (
-    <Image
-      source={source}
-      testID={testID}
-      style={[{ width, height }, style]}
-      contentFit={fit}
-      transition={0}
-      accessible={false}
-    />
+    <Image source={source} style={[{ width, height }, style]} contentFit={fit} accessible={false} />
   );
 }
-
-export function StatusSpace({
-  inverse = false,
-  source = homeAssets.imgSongWiFiPin,
-  iconWidth = 76,
-}: {
-  inverse?: boolean;
-  source?: ComponentProps<typeof Image>['source'];
-  iconWidth?: number;
-}) {
+export function StatusSpace() {
   const insets = useSafeAreaInsets();
-  const { colors } = useApp();
-  if (Platform.OS !== 'web') return <View style={{ height: insets.top }} />;
-  return (
-    <View
-      style={{
-        height: 54,
-        paddingHorizontal: 24,
-        paddingTop: 17,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-      }}
-    >
-      <Label
-        size={14}
-        weight="semibold"
-        color={inverse ? '#FFFFFF' : colors.text}
-        style={{ lineHeight: 20 }}
-      >
-        9:41
-      </Label>
-      <Artwork source={source} width={iconWidth} height={20} />
-    </View>
-  );
+  return <View style={{ height: Platform.OS === 'web' ? 54 : insets.top }} />;
 }
 
 export function DesignIconButton({
@@ -102,6 +67,7 @@ export function DesignIconButton({
   );
 }
 
+/** Figma's 54 px system inset + 82 px header; native uses the real system inset. */
 export function DesignScreen({
   children,
   title,
@@ -109,74 +75,83 @@ export function DesignScreen({
   action,
   back = true,
   contentStyle,
+  family = 'montserrat',
+  background,
+  footer,
+  headerStyle,
+  scrollRef,
 }: PropsWithChildren<{
   title?: string;
   header?: ReactNode;
   action?: ReactNode;
   back?: boolean;
   contentStyle?: ViewStyle;
+  family?: FontFamily;
+  background?: string;
+  footer?: ReactNode;
+  headerStyle?: ViewStyle;
+  scrollRef?: Ref<ScrollView>;
 }>) {
   const { colors } = useApp();
   return (
-    <View style={{ flex: 1, backgroundColor: colors.background }}>
-      <StatusSpace />
-      <View style={{ height: 82, paddingTop: 8, paddingHorizontal: 24 }}>
-        {header ?? (
-          <View
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'space-between',
-              gap: 12,
-            }}
+    <Typography.Provider value={family}>
+      <View style={{ flex: 1, backgroundColor: background ?? colors.background }}>
+        <StatusSpace />
+        <View
+          style={[
+            { minHeight: 82, paddingTop: 8, paddingBottom: 26, paddingHorizontal: 24 },
+            headerStyle,
+          ]}
+        >
+          {header ?? (
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+              {back ? (
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel="Quay lại"
+                  onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
+                  style={{ width: 48, height: 48, alignItems: 'center', justifyContent: 'center' }}
+                >
+                  <Artwork
+                    source={require('../../assets/figma/386-7390/imgIconBack.svg')}
+                    width={24}
+                  />
+                </Pressable>
+              ) : (
+                <View style={{ width: 48 }} />
+              )}
+              <Label
+                size={19}
+                bold
+                heading
+                style={{ flex: 1, textAlign: 'center', lineHeight: 27 }}
+              >
+                {title}
+              </Label>
+              {action ?? <View style={{ width: 48 }} />}
+            </View>
+          )}
+        </View>
+        <KeyboardAvoidingView
+          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+          style={{ flex: 1 }}
+        >
+          <ScrollView
+            ref={scrollRef}
+            style={{ flex: 1 }}
+            showsVerticalScrollIndicator={false}
+            keyboardShouldPersistTaps="handled"
+            contentContainerStyle={[
+              { paddingHorizontal: 24, paddingTop: 8, paddingBottom: 32, gap: 24 },
+              contentStyle,
+            ]}
           >
-            {back ? (
-              <DesignIconButton
-                source={assets386_7420.imgIconBack}
-                label="Quay lại"
-                onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
-              />
-            ) : (
-              <View style={{ width: 48 }} />
-            )}
-            <Label size={19} bold heading style={{ flex: 1, textAlign: 'center', lineHeight: 27 }}>
-              {title}
-            </Label>
-            {action ?? <View style={{ width: 48 }} />}
-          </View>
-        )}
+            {children}
+          </ScrollView>
+        </KeyboardAvoidingView>
+        {footer}
       </View>
-      <ScrollView
-        style={{ flex: 1 }}
-        showsVerticalScrollIndicator={false}
-        keyboardShouldPersistTaps="handled"
-        contentContainerStyle={[
-          { paddingHorizontal: 24, paddingTop: 8, paddingBottom: 32, gap: 24 },
-          contentStyle,
-        ]}
-      >
-        {children}
-      </ScrollView>
-    </View>
-  );
-}
-
-export function DesignLink({
-  children,
-  onPress,
-  style,
-}: PropsWithChildren<{ onPress: () => void; style?: ViewStyle }>) {
-  const { colors } = useApp();
-  return (
-    <Pressable
-      onPress={onPress}
-      accessibilityRole="button"
-      style={[{ minHeight: 48, justifyContent: 'center' }, style]}
-    >
-      <Label size={13} weight="semibold" color={colors.brand} style={{ lineHeight: 18 }}>
-        {children}
-      </Label>
-    </Pressable>
+    </Typography.Provider>
   );
 }
 
@@ -196,9 +171,10 @@ export function DesignSection({
         alignItems: 'center',
         justifyContent: 'space-between',
         minHeight: action ? 48 : 27,
+        gap: 8,
       }}
     >
-      <Label size={19} bold heading style={{ lineHeight: 27 }}>
+      <Label size={19} bold heading style={{ lineHeight: 27, flexShrink: 1 }}>
         {title}
       </Label>
       {action && onPress ? <DesignLink onPress={onPress}>{action}</DesignLink> : null}
@@ -209,7 +185,7 @@ export function DesignSection({
 export const designStyles = StyleSheet.create({
   row: { flexDirection: 'row', alignItems: 'center' },
   whiteButton: {
-    height: 48,
+    minHeight: 48,
     backgroundColor: '#FFFFFF',
     borderWidth: 1,
     borderColor: '#D2E7F4',
@@ -218,3 +194,21 @@ export const designStyles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+export function DesignLink({
+  children,
+  onPress,
+  style,
+}: PropsWithChildren<{ onPress: () => void; style?: ComponentProps<typeof View>['style'] }>) {
+  const { colors } = useApp();
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={onPress}
+      style={[{ minHeight: 44, justifyContent: 'center' }, style]}
+    >
+      <Label size={13} weight="semibold" color={colors.brand}>
+        {children}
+      </Label>
+    </Pressable>
+  );
+}

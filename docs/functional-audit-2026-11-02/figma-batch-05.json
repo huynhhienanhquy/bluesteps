@@ -1,0 +1,1631 @@
+{
+  "frames": [
+    {
+      "id": "386:9575",
+      "name": "hoạt động 3",
+      "texts": [
+        "Giờ Học: Bé Vui Phân Loại Rác!",
+        "Trường Tiểu Học Vành Khuyên, TP Đà Nẵng",
+        "10+",
+        "Quan tâm",
+        "50+",
+        "+ 50 trẻ\ntham gia",
+        "6 - 10\ntuổi",
+        "45–60 \nphút",
+        "Hôm nay, các bạn nhỏ đã có một buổi học thực hành vô cùng ý nghĩa: trải nghiệm tự tay phân loại rác thải.\nThay vì chỉ học qua tranh ảnh, các bé đã trực tiếp \"biến\" rác thành những tài nguyên có ích bằng cách bỏ rác vào đúng các thùng quy định: \"Rác Hữu Cơ\", \"Rác Vô Cơ\" và \"Rác Tái Chế\".\nHoạt động thực hành này không chỉ giúp các em nhận biết và ghi nhớ các loại rác, mà quan trọng hơn là xây dựng ý thức bảo vệ môi trường ngay từ những năm tháng đầu đời. Nhìn những bàn tay nhỏ bé cẩn thận, hào hứng tham gia, chúng ta tin rằng một thế hệ \"chiến binh xanh\" đang lớn lên!",
+        "Chung Tay Thực Hành Phân Loại Rác Vì Trái Đất Xanh",
+        "Hoạt động khác",
+        "Tất cả",
+        "200+",
+        "Giờ giải lao - Trồng cây xanh ",
+        "Trường THCS Thanh An , Quảng Trị",
+        "Thanh niên làm sạch môi trường biển",
+        "Bãi biển Mỹ Khê , Đà Nẵng",
+        "250+",
+        "Giờ học xanh – Bé tập phân loại rác",
+        "Trường Mầm Non Tuổi Xanh , TP HCM"
+      ],
+      "interactions": [
+        {
+          "id": "386:9595",
+          "name": "Group 36810",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10122",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9607",
+          "name": "button",
+          "label": "Quan tâm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9681",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9650",
+          "name": "work",
+          "label": "200+ | Giờ giải lao - Trồng cây xanh  | Trường THCS Thanh An , Quảng Trị",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9651",
+          "name": "work",
+          "label": "Thanh niên làm sạch môi trường biển | Bãi biển Mỹ Khê , Đà Nẵng | 250+",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9652",
+          "name": "work",
+          "label": "200+ | Giờ học xanh – Bé tập phân loại rác | Trường Mầm Non Tuổi Xanh , TP HCM",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9655",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9470",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9662",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9666",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9671",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9674",
+          "name": "Group 37108",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9677",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9681",
+      "name": "hoạt động 5",
+      "texts": [
+        "Giờ Học: Bé Vui Phân Loại Rác!",
+        "Trường Tiểu Học Vành Khuyên, TP Đà Nẵng",
+        "10+",
+        "Đã Quan Tâm",
+        "50+",
+        "+ 50 trẻ\ntham gia",
+        "6 - 10\ntuổi",
+        "45–60 \nphút",
+        "Hôm nay, các bạn nhỏ đã có một buổi học thực hành vô cùng ý nghĩa: trải nghiệm tự tay phân loại rác thải.\nThay vì chỉ học qua tranh ảnh, các bé đã trực tiếp \"biến\" rác thành những tài nguyên có ích bằng cách bỏ rác vào đúng các thùng quy định: \"Rác Hữu Cơ\", \"Rác Vô Cơ\" và \"Rác Tái Chế\".\nHoạt động thực hành này không chỉ giúp các em nhận biết và ghi nhớ các loại rác, mà quan trọng hơn là xây dựng ý thức bảo vệ môi trường ngay từ những năm tháng đầu đời. Nhìn những bàn tay nhỏ bé cẩn thận, hào hứng tham gia, chúng ta tin rằng một thế hệ \"chiến binh xanh\" đang lớn lên!",
+        "Chung Tay Thực Hành Phân Loại Rác Vì Trái Đất Xanh",
+        "Hoạt động khác",
+        "Tất cả",
+        "200+",
+        "Giờ giải lao - Trồng cây xanh ",
+        "Trường THCS Thanh An , Quảng Trị",
+        "Thanh niên làm sạch môi trường biển",
+        "Bãi biển Mỹ Khê , Đà Nẵng",
+        "250+",
+        "Giờ học xanh – Bé tập phân loại rác",
+        "Trường Mầm Non Tuổi Xanh , TP HCM"
+      ],
+      "interactions": [
+        {
+          "id": "386:9701",
+          "name": "Group 36810",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10122",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9713",
+          "name": "button",
+          "label": "Đã Quan Tâm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9756",
+          "name": "work",
+          "label": "200+ | Giờ giải lao - Trồng cây xanh  | Trường THCS Thanh An , Quảng Trị",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9757",
+          "name": "work",
+          "label": "Thanh niên làm sạch môi trường biển | Bãi biển Mỹ Khê , Đà Nẵng | 250+",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9758",
+          "name": "work",
+          "label": "200+ | Giờ học xanh – Bé tập phân loại rác | Trường Mầm Non Tuổi Xanh , TP HCM",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9761",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9575",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9768",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9772",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9777",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9783",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9787",
+      "name": "27. tin tức mới nhất ",
+      "texts": [
+        "Tìm kiếm...",
+        "Ca Sỹ Thủy Tiên tham \ngia chủ nhật xanh ",
+        "2.2k",
+        "170",
+        "Người dân tham gia \ndọn rác sau bão số 13",
+        "1.2k",
+        "50",
+        "Các bạn trẻ của nhóm \nSài Gòn Xanh dọn rác ở ..",
+        "Làm sạch rác thải tại \nVịnh Hạ Long",
+        "1.7k",
+        "20",
+        "Cập nhật hôm nay, bảo vệ mai sau",
+        "1",
+        "CẬP NHẬT TIN TỨC \nVÌ MỘT HÀNH TINH XANH",
+        "2",
+        "Bắt đầu hành trình xanh",
+        "3",
+        "Tìm hiểu ngay",
+        "Xem thêm",
+        "Cộng đồng xanh",
+        "Hàng nghìn người đã quan tâm đến môi trường",
+        "Tin mới nhất",
+        "“Cùng BlueSteps – Phân loại rác, bảo vệ hành tinh xanh”",
+        "Tất cả",
+        "Sự kiện sắp tới"
+      ],
+      "interactions": [
+        {
+          "id": "386:9788",
+          "name": "search",
+          "label": "Tìm kiếm...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "609:5165",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:9793;2244:2013",
+          "name": "menu",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "612:5286",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9796",
+          "name": "item",
+          "label": "Ca Sỹ Thủy Tiên tham \ngia chủ nhật xanh  | 2.2k | 170",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10737",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9805",
+          "name": "item",
+          "label": "Người dân tham gia \ndọn rác sau bão số 13 | 1.2k | 50",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17887",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9814",
+          "name": "item",
+          "label": "Các bạn trẻ của nhóm \nSài Gòn Xanh dọn rác ở .. | 1.2k | 50",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10828",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9815",
+          "name": "item",
+          "label": "Làm sạch rác thải tại \nVịnh Hạ Long | 1.7k | 20",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17978",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9827",
+          "name": "Group 36983",
+          "label": "Cập nhật hôm nay, bảo vệ mai sau | 1 | CẬP NHẬT TIN TỨC \nVÌ MỘT HÀNH TINH XANH | 2 | Bắt đầu hành trình xanh | 3 | Tìm hiểu ngay | Xem thêm | Cộng đồng xanh | Hàng nghìn người đã quan tâm đến môi trường | Xem thêm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "612:5441",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9873",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9877",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9882",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9888",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9892",
+          "name": "Group 37222",
+          "label": "Tất cả",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:24796",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9895",
+          "name": "sukiensaptoi",
+          "label": "Sự kiện sắp tới",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9901",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9901",
+      "name": "28. sự kiện sắp tới",
+      "texts": [
+        "Tìm kiếm...",
+        "Cập nhật hôm nay, bảo vệ mai sau",
+        "1",
+        "CẬP NHẬT TIN TỨC \nVÌ MỘT HÀNH TINH XANH",
+        "2",
+        "Bắt đầu hành trình xanh",
+        "3",
+        "Tìm hiểu ngay",
+        "Xem thêm",
+        "Cộng đồng xanh",
+        "Hàng nghìn người đã quan tâm đến môi trường",
+        "Sự kiện sắp tới",
+        "Tin mới nhất",
+        "Tất cả",
+        "Mỗi ngày, thế giới \nthải ra khoảng 11 triệu...",
+        "1.2k",
+        "50",
+        "Các bạn trẻ với \nnhững ý tưởng xử lý ...",
+        "1.9k",
+        "20",
+        "Người dân địa phương tham gia thu gom rác ...",
+        "1.5k",
+        "40",
+        "Làm sạch rác thải tại \nVịnh Hạ Long",
+        "Tham gia làm sạch các điểm thu hút khách du li.."
+      ],
+      "interactions": [
+        {
+          "id": "386:9902",
+          "name": "search",
+          "label": "Tìm kiếm...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "609:5165",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I386:9907;2244:2013",
+          "name": "menu",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "612:5286",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9912",
+          "name": "Group 36984",
+          "label": "Cập nhật hôm nay, bảo vệ mai sau | 1 | CẬP NHẬT TIN TỨC \nVÌ MỘT HÀNH TINH XANH | 2 | Bắt đầu hành trình xanh | 3 | Tìm hiểu ngay | Xem thêm | Cộng đồng xanh | Hàng nghìn người đã quan tâm đến môi trường | Xem thêm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "612:5362",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9947",
+          "name": "Group 37221",
+          "label": "Tin mới nhất",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9787",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9950",
+          "name": "Group 37222",
+          "label": "Tất cả",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:24796",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9954",
+          "name": "item",
+          "label": "Mỗi ngày, thế giới \nthải ra khoảng 11 triệu... | 1.2k | 50",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17608",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9963",
+          "name": "item",
+          "label": "Các bạn trẻ với \nnhững ý tưởng xử lý ... | 1.9k | 20",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10644",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9972",
+          "name": "item",
+          "label": "Người dân địa phương tham gia thu gom rác ... | 1.5k | 40",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17794",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9981",
+          "name": "item",
+          "label": "Làm sạch rác thải tại \nVịnh Hạ Long | 1.2k | 50",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17978",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9990",
+          "name": "item",
+          "label": "Tham gia làm sạch các điểm thu hút khách du li.. | 1.2k | 50",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10919",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10007",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10011",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10016",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10022",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10026",
+      "name": "hoạt động 1",
+      "texts": [
+        "10+",
+        "CÙNG NHAU LÀM VƯỜN SẠCH",
+        "Trường THCS Thanh An , Quảng Trị",
+        "Hôm nay, các bạn của Trường THCS Thanh An cùng nhau tham gia hoạt động “Giờ học xanh” thật vui! 🌿  Dưới sự hướng dẫn của thầy cô, từng bạn học sinh tự tay vun đất, tưới nước và trồng nên những cây non đầu tiên. Qua đó, bé học được cách yêu thiên nhiên, biết chăm sóc cây cối và hiểu rằng mỗi hành động nhỏ đều góp phần làm cho Trái Đất thêm xanh hơn. 💚  Đây không chỉ là buổi học, mà còn là hành trình gieo mầm ý thức bảo vệ môi trường ngay từ tuổi thơ!",
+        "Cùng Nhau Trồng Cây Xanh Nhé",
+        "Hoạt động khác",
+        "Tất cả",
+        "250+",
+        "Trải nghiệm phân loại rác thực tế",
+        "Trường Tiểu Học Vành Khuyên, TP Đà Nẵng",
+        "Thanh niên làm sạch môi trường biển ",
+        "Bãi biển Mỹ Khê , Đà Nẵng",
+        "200+",
+        "Giờ học xanh – Bé tập phân loại rác",
+        "Trường Mầm Non Tuổi Xanh , TP HCM",
+        "+ 100 trẻ\ntham gia",
+        "10 - 15\ntuổi",
+        "40–60 \nphút",
+        "102+",
+        "Quan tâm"
+      ],
+      "interactions": [
+        {
+          "id": "386:10039",
+          "name": "Group 36810",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10122",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10064",
+          "name": "work",
+          "label": "250+ | Trải nghiệm phân loại rác thực tế | Trường Tiểu Học Vành Khuyên, TP Đà Nẵng",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:10065",
+          "name": "work",
+          "label": "Thanh niên làm sạch môi trường biển  | Bãi biển Mỹ Khê , Đà Nẵng | 250+",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:10066",
+          "name": "work",
+          "label": "200+ | Giờ học xanh – Bé tập phân loại rác | Trường Mầm Non Tuổi Xanh , TP HCM",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:10085",
+          "name": "people - btn",
+          "label": "102+ | Quan tâm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17299",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10093",
+          "name": "btn",
+          "label": "Quan tâm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:10096",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9376",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10103",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10107",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10112",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10115",
+          "name": "Group 37108",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10118",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10122",
+      "name": "yêu thích",
+      "texts": [
+        "Đã Thêm Vào Yêu Thích",
+        "Đi đến mục yêu thích"
+      ],
+      "interactions": [
+        {
+          "id": "386:10122",
+          "name": "yêu thích",
+          "label": "Đã Thêm Vào Yêu Thích | Đi đến mục yêu thích",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10130",
+          "name": "Group 36824",
+          "label": "Đi đến mục yêu thích",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:18069",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10131",
+      "name": "xóa hoạt động",
+      "texts": [
+        "Hoạt động yêu thích đã xóa"
+      ],
+      "interactions": [
+        {
+          "id": "386:10131",
+          "name": "xóa hoạt động",
+          "label": "Hoạt động yêu thích đã xóa",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            },
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "CLOSE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10136",
+      "name": "map",
+      "texts": [
+        "Rẻ phải vào đường Lê Duẩn",
+        "100m - 1 phút",
+        "Sau đó ",
+        "5 phút",
+        "2 km",
+        "11:00",
+        "Tìm điểm thay thế",
+        "Đã đến nơi"
+      ],
+      "interactions": [
+        {
+          "id": "386:10154",
+          "name": "Ellipse 86",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10167",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10171",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10176",
+          "name": "Group 37109",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10182",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:5045",
+          "name": "action-find-replacement",
+          "label": "Tìm điểm thay thế",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48869",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:5050",
+          "name": "action-arrived",
+          "label": "Đã đến nơi",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48955",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10186",
+      "name": "map",
+      "texts": [
+        "Vô cơ",
+        "Tái chế",
+        "+4",
+        "Hữu cơ",
+        "Công viên cộng đồng A",
+        " 460 Trần Đại Nghĩa,Ngũ Hành Sơn,TP. Đà Nẵng",
+        "Liên quan đến nội dung tìm kiếm của bạn",
+        "Chỉ đường",
+        "4.5",
+        "Mở cửa",
+        "023928465725",
+        "congviencongdong.com.vn",
+        "Mở cửa suốt ngày",
+        "Tình trạng: Còn trống",
+        "Tổng quan",
+        "Bài đánh giá",
+        "Báo cáo vấn đề"
+      ],
+      "interactions": [
+        {
+          "id": "386:10201",
+          "name": "Group 182",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10213",
+          "name": "Chỉ đường",
+          "label": "Chỉ đường",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10279",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26929",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26933",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26938",
+          "name": "Group 37109",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26944",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:10279",
+      "name": "map",
+      "texts": [
+        "Vị trí hiện tại của bạn",
+        "Công viên cộng đồng A",
+        "Thêm điểm dừng",
+        "Lái xe",
+        "Lập hành trình nhiều điểm",
+        "Bắt đầu",
+        "Chia sẻ"
+      ],
+      "interactions": [
+        {
+          "id": "386:10314",
+          "name": "Line 25",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "MOUSE_UP",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10351",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10316",
+          "name": "Group 36937",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8569",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:4932",
+          "name": "Lập hành trình nhiều điểm",
+          "label": "Lập hành trình nhiều điểm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:48774",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10319",
+          "name": "Rectangle 944",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10136",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10332",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10336",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10341",
+          "name": "Group 37109",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:10347",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

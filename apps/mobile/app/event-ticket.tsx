@@ -1,1 +1,1 @@
-export { EventTicketScreen as default } from '../src/features/events/EventParticipationScreens';
+export { TicketScreen as default } from '../src/features/live/EventScreens';

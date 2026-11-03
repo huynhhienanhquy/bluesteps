@@ -1,0 +1,11 @@
+
+Running 2 tests using 1 worker
+
+(node:24808) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24808) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\news-layout.spec.ts:78:7 › news assets, cards and navigation stay within 428px viewport (5.2s)
+  ok 2 e2e\news-layout.spec.ts:78:7 › news assets, cards and navigation stay within 390px viewport (4.9s)
+
+  2 passed (11.5s)

@@ -1,3 +1,5 @@
+> Báo cáo lịch sử của giai đoạn trước tích hợp. Trạng thái hiện hành và kiểm chứng nằm trong [live-integration](live-integration.md).
+
 # Frontend delivery — 29/10/2026
 
 ## Nhóm Hoạt động và phạm vi backuped — 31/10/2026

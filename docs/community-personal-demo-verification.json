@@ -1,0 +1,37 @@
+{
+  "verified_at": "2026-11-03T09:08:20.349653+00:00",
+  "user_id": "37c3c91a-0ff1-4ce6-8d7c-9c9c4c5d770d",
+  "method": "TestClient, identity dependency override; real runtime database and endpoint queries; no new login session",
+  "views": [
+    {
+      "path": "/v1/posts?feed=following",
+      "status": 200,
+      "visible_count": 1,
+      "demo_id": "b74d6084-4bd4-5de0-8009-f89cd6f1d819"
+    },
+    {
+      "path": "/v1/me/saved-posts",
+      "status": 200,
+      "visible_count": 1,
+      "demo_id": "1b0da992-5a62-5401-912e-6bcb4e242084"
+    },
+    {
+      "path": "/v1/me/hidden-posts",
+      "status": 200,
+      "visible_count": 1,
+      "demo_id": "821ad8c0-0099-5cef-b5bb-f67c8fb19bad"
+    },
+    {
+      "path": "/v1/me/blocked-members",
+      "status": 200,
+      "visible_count": 1,
+      "demo_id": "4dcd5792-49c8-57ec-a74a-7aa82aec03c7"
+    },
+    {
+      "path": "/v1/me/friends",
+      "status": 200,
+      "visible_count": 1,
+      "demo_id": "6667fe51-cf4f-568f-ae67-acf6f55329bc"
+    }
+  ]
+}

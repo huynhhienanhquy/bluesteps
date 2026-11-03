@@ -1,1 +1,1 @@
-export { ArticlesScreen as default } from '../../src/features/content/ContentScreens';
+export { NewsScreen as default } from '../../src/features/live/NewsScreens';

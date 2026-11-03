@@ -1,0 +1,2680 @@
+[
+  {
+    "route": "/collection",
+    "source": "\\(tabs)\\collection.tsx",
+    "screenshot": "routes/01-_collection.png",
+    "headings": [
+      "Khám phá"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Bộ lọc",
+        "disabled": false
+      },
+      {
+        "label": "Hành trình",
+        "disabled": false
+      },
+      {
+        "label": "Đề xuất địa điểm",
+        "disabled": false
+      },
+      {
+        "label": "Phóng to bản đồ",
+        "disabled": false
+      },
+      {
+        "label": "Xem trên bản đồ: Điểm tiếp nhận ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Điểm tiếp nhận ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Chỉ đường đến Điểm tiếp nhận ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Khám phá\nBộ lọc\nHành trình\nĐề xuất địa điểm\nĐiểm thu gom\n\nĐiểm tiếp nhận ec488bc504db\nChưa rõ sức chứa\nĐịa chỉ trên cơ sở dữ liệu\n\nSo sánh\nChỉ đường\n© OpenStreetMap contributors",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/",
+    "source": "\\(tabs)\\index.tsx",
+    "screenshot": "routes/02-home.png",
+    "headings": [
+      "Chào Người dùng A ec488bc504db!",
+      "Bạn muốn làm gì?",
+      "Hoạt động xanh",
+      "Sổ tay phân loại",
+      "Góc sống xanh"
+    ],
+    "buttons": [
+      {
+        "label": "Hồ sơ cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Thông báo",
+        "disabled": false
+      },
+      {
+        "label": "Quét rác ngay",
+        "disabled": false
+      },
+      {
+        "label": "Phân loại",
+        "disabled": false
+      },
+      {
+        "label": "Thu gom",
+        "disabled": false
+      },
+      {
+        "label": "Cộng đồng",
+        "disabled": false
+      },
+      {
+        "label": "Tin tức",
+        "disabled": false
+      },
+      {
+        "label": "Đổi quà →",
+        "disabled": false
+      },
+      {
+        "label": "Bắt đầu",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động trùng lịch ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Nhựa",
+        "disabled": false
+      },
+      {
+        "label": "Giấy",
+        "disabled": false
+      },
+      {
+        "label": "Pin",
+        "disabled": false
+      },
+      {
+        "label": "Xem thêm",
+        "disabled": false
+      },
+      {
+        "label": "Bài đọc hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Ghé cộng đồng →",
+        "disabled": false
+      },
+      {
+        "label": "Tin nhắn →",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "N\nChào Người dùng A ec488bc504db!\nHôm nay, mình cùng sống xanh nhé.\nBLUENSTEPS · MỖI NGÀY XANH\nPhân loại rác.\nGieo mầm xanh.\nBắt đầu từ một món đồ nhỏ.\nTạo nên những thay đổi lớn.\nQuét rác ngay\nBạn muốn làm gì?\nPhân loại\nThu gom\nCộng đồng\nTin tức\nĐIỂM XANH CỦA BẠN\n0\nĐổi quà →\nPhân loại rác mỗi ngày\nBắt đầu\nHoạt động xanh\nĐã lưu\n\nHoạt động hệ thống ec488bc504db\nĐịa điểm đã công bố\n0 người tham gia\n\nHoạt động trùng lịch ec488bc504db\nĐịa điểm thứ hai\n0 người tham gia\nSổ tay phân loại\nTất cả\nNhựa\nGiấy\nPin\nGóc sống xanh\nXem thêm\n\nKết nối\nBài đọc hệ thống ec488bc504db\nĐi cùng nhau,\nxanh hơn mỗi ngày.\nChia sẻ một hành động nhỏ để lan tỏa\ncảm hứng sống xanh đến mọi người.\nGhé cộng đồng →\nTin nhắn →\nMỗi bước nhỏ của bạn đều có ý nghĩa.\nTrang chủ\nThu gom\nQuét rác\nĐổi quà\nCá nhân",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/profile",
+    "source": "\\(tabs)\\profile.tsx",
+    "screenshot": "routes/03-_profile.png",
+    "headings": [
+      "Cá nhân",
+      "Hành trình của bạn",
+      "Tài khoản của bạn",
+      "Hoạt động gần đây"
+    ],
+    "buttons": [
+      {
+        "label": "Về trang chủ",
+        "disabled": false
+      },
+      {
+        "label": "Cài đặt",
+        "disabled": false
+      },
+      {
+        "label": "Chỉnh sửa hồ sơ",
+        "disabled": false
+      },
+      {
+        "label": "Chỉnh sửa hồ sơ",
+        "disabled": false
+      },
+      {
+        "label": "Điểm hiện có",
+        "disabled": false
+      },
+      {
+        "label": "Hành động phân loại",
+        "disabled": false
+      },
+      {
+        "label": "Thành tích",
+        "disabled": false
+      },
+      {
+        "label": "Lịch sử",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Thống kê",
+        "disabled": false
+      },
+      {
+        "label": "Thông tin cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Thông báo",
+        "disabled": false
+      },
+      {
+        "label": "Cài đặt ứng dụng",
+        "disabled": false
+      },
+      {
+        "label": "Xem tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Ghé thăm cộng đồng →",
+        "disabled": false
+      },
+      {
+        "label": "Đăng xuất",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Cá nhân\nN\nNgười dùng A ec488bc504db\nalice-ec488bc504db@example.com\nTHÀNH VIÊN BLUESTEPS\nHồ sơ lưu PostgreSQL ec488bc504db\nChỉnh sửa hồ sơ\n0\nĐiểm hiện có\n1\nHành động phân loại\nHành trình của bạn\nThành tích\nLịch sử\nĐã lưu\nThống kê\nTài khoản của bạn\nThông tin cá nhân\nCập nhật tên, email và giới thiệu\nThông báo\nTheo dõi các cập nhật dành cho bạn\nCài đặt ứng dụng\nGiao diện, bảo mật và tùy chọn khác\nHoạt động gần đây\nXem tất cả\n\nChưa có giao dịch điểm\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nHành trình xanh,\ncùng nhau sẽ vui hơn.\nGhé thăm cộng đồng →\nĐăng xuất\nMột hành động nhỏ, một phiên bản tốt hơn.\nTrang chủ\nThu gom\nQuét rác\nĐổi quà\nCá nhân",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/rewards",
+    "source": "\\(tabs)\\rewards.tsx",
+    "screenshot": "routes/04-_rewards.png",
+    "headings": [
+      "Tích điểm & phần thưởng"
+    ],
+    "buttons": [
+      {
+        "label": "Hồ sơ cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Cách tính điểm",
+        "disabled": false
+      },
+      {
+        "label": "Phần thưởng",
+        "disabled": false
+      },
+      {
+        "label": "Lịch sử",
+        "disabled": false
+      },
+      {
+        "label": "Khám phá phần thưởng",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Tích điểm & phần thưởng\nNgười dùng A ec488bc504db\nCùng BlueSteps sống xanh mỗi ngày\n\nTổng điểm tích lũy: 0 điểm\nChưa mở hệ thống cấp bậc\nĐiểm hiện tại của bạn:\n0 điểm\nLộ trình minh họa · Chưa cấp thành tích\n\nMầm xanh\n\nNgười Bảo Vệ Trái Đất\n\nChiến Binh Tái Chế\n\nĐại sứ xanh\n\nNgười Gìn Giữ Hành Tinh\n\nAnh Hùng Sinh Thái\n\nHộ Vệ Thiên Nhiên\n\nTinh Linh Môi Trường\n\nĐại sứ xanh\n\nNgười Gìn Giữ Hành Tinh\n\nAnh Hùng Sinh Thái\nCách tính điểm\nPhần thưởng\nLịch sử\nCấp bậc và chương trình thưởng chưa được mở. Số dư và lịch sử hiển thị theo tài khoản của bạn.\nKhám phá phần thưởng",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/scan",
+    "source": "\\(tabs)\\scan.tsx",
+    "screenshot": "routes/05-_scan.png",
+    "headings": [
+      "Phân loại rác"
+    ],
+    "buttons": [
+      {
+        "label": "Mở camera",
+        "disabled": false
+      },
+      {
+        "label": "Chọn ảnh từ thư viện",
+        "disabled": false
+      },
+      {
+        "label": "Vật phẩm hệ thống ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Phân loại rác\nMở camera\nChọn ảnh từ thư viện\nChọn vật phẩm để xem hướng dẫn và ghi nhận phân loại\n\n\nVật phẩm hệ thống ec488bc504db\nNhựa\n",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/achievements",
+    "source": "\\achievements.tsx",
+    "screenshot": "routes/06-_achievements.png",
+    "headings": [
+      "Thành tích"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Thử lại",
+        "disabled": false
+      }
+    ],
+    "alerts": [
+      "Quy tắc huy hiệu chưa được công bố."
+    ],
+    "text": "\nThành tích\nQuy tắc huy hiệu chưa được công bố.\nThử lại",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/briefs",
+    "source": "\\articles\\briefs.tsx",
+    "screenshot": "routes/07-_articles_briefs.png",
+    "headings": [
+      "Bản tin nhanh",
+      "Tất cả bài viết"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Mở menu tin tức",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Tin mới nhất",
+        "disabled": false
+      },
+      {
+        "label": "Sự kiện sắp tới",
+        "disabled": false
+      },
+      {
+        "label": "Xem tất cả bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Bài đọc hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ thích bài viết",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Bản tin nhanh\n♥ Đã lưu\nTất cả\nTin mới nhất\nSự kiện sắp tới\nTất cả bài viết\nXem thêm →\n\nBài đọc hệ thống ec488bc504db\nKết nối\n\n1",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/calendar",
+    "source": "\\articles\\calendar.tsx",
+    "screenshot": "routes/08-_articles_calendar.png",
+    "headings": [
+      "Khám phá hoạt động",
+      "Dành cho cuối tuần của bạn"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Khu vực",
+        "disabled": false
+      },
+      {
+        "label": "Tuần này",
+        "disabled": false
+      },
+      {
+        "label": "Chủ đề",
+        "disabled": false
+      },
+      {
+        "label": "Dọn rác",
+        "disabled": false
+      },
+      {
+        "label": "Trồng cây",
+        "disabled": false
+      },
+      {
+        "label": "Phân loại",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động trùng lịch ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Lên lịch cho một tuần xanh",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Bộ sưu tập",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Khám phá hoạt động\nMột việc nhỏ,\nmột thay đổi xanh.\nTìm hoạt động ý nghĩa, cùng cộng đồng.\nTìm hoạt động\nKhu vực\nTuần này\nChủ đề\nDọn rác\nTrồng cây\nPhân loại\nDành cho cuối tuần của bạn\n\nHoạt động hệ thống ec488bc504db\nĐịa điểm đã công bố\n\n09:00 04-11\n0 người tham gia · Còn 10 chỗ\n\nHoạt động trùng lịch ec488bc504db\nĐịa điểm thứ hai\n\n09:30 04-11\n0 người tham gia · Còn 10 chỗ\nLên lịch cho một tuần xanh\nXem hoạt động theo ngày, tránh trùng lịch.\nĐã lưu\nBộ sưu tập",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/discussion?id=9d56e121-4b27-4dd8-9be7-c99a43524504",
+    "source": "\\articles\\discussion.tsx",
+    "screenshot": "routes/09-_articles_discussion.png",
+    "headings": [
+      "Thảo luận bài đọc"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Gửi bình luận",
+        "disabled": true
+      },
+      {
+        "label": "Trả lời Người dùng A ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Xóa bình luận",
+        "disabled": false
+      },
+      {
+        "label": "Trả lời Người dùng A ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nThảo luận bài đọc\nNội dung bình luận\nGửi bình luận\nNgười dùng A ec488bc504db\nTrả lời ec488bc504db\n10:30:28 2/11/2026\nTrả lời Người dùng A ec488bc504db\nXóa bình luận\nNgười dùng A ec488bc504db\nBình luận đã xóa\n10:30:27 2/11/2026\nTrả lời Người dùng A ec488bc504db",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/events/fb2b9a61-f273-4cd8-b835-30e35d34bc2e",
+    "source": "\\articles\\events\\[id].tsx",
+    "screenshot": "routes/10-_articles_events_fb2b9a61-f273-4cd8-b835-30e35d34bc2e.png",
+    "headings": [
+      "HOẠT ĐỘNG HỆ THỐNG EC488BC504DB",
+      "Về hoạt động",
+      "Hoạt động khác"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu yêu thích",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Khám phá tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Lịch hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Đăng ký tham gia",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động trùng lịch ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nHOẠT ĐỘNG HỆ THỐNG EC488BC504DB\nĐịa điểm đã công bố\n0 người đã đăng ký\nĐã quan tâm\n10/10\nchỗ còn lại\nChưa rõ\nđộ tuổi\n60\nphút\nKhám phá tất cả\nLịch hoạt động\nĐăng ký tham gia\nVề hoạt động\nThông tin hoạt động trên hệ thống\n04/11/2026 • 09:00–10:00 · Asia/Ho_Chi_Minh\nHoạt động khác\nTất cả\n\nHoạt động trùng lịch ec488bc504db\nĐịa điểm thứ hai",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles",
+    "source": "\\articles\\index.tsx",
+    "screenshot": "routes/11-_articles.png",
+    "headings": [
+      "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH",
+      "Tất cả bài viết"
+    ],
+    "buttons": [
+      {
+        "label": "Tìm hiểu ngay",
+        "disabled": false
+      },
+      {
+        "label": "Cộng đồng xanh",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Mở menu tin tức",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Tin mới nhất",
+        "disabled": false
+      },
+      {
+        "label": "Sự kiện sắp tới",
+        "disabled": false
+      },
+      {
+        "label": "Xem thêm bài nổi bật",
+        "disabled": false
+      },
+      {
+        "label": "Bài đọc hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ thích bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Xem tất cả bài viết",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH\n1\nCập nhật hôm nay, bảo vệ mai sau\n2\nBắt đầu hành trình xanh\n3\nTìm hiểu ngay\nCộng đồng xanh\nHành động nhỏ, tương lai xanh\n♥ Đã lưu\nTất cả\nTin mới nhất\nSự kiện sắp tới\nBài nổi bật\nXem thêm\n\nBài đọc hệ thống ec488bc504db\nKết nối\n\n1\nTất cả bài viết\nXem thêm →\n\nChưa có bài viết khác được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/reading-list",
+    "source": "\\articles\\reading-list.tsx",
+    "screenshot": "routes/12-_articles_reading-list.png",
+    "headings": [
+      "Bài viết đã lưu",
+      "Bài đọc đã lưu"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Mở menu tin tức",
+        "disabled": false
+      },
+      {
+        "label": "Xem tất cả bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Bài đọc hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ thích bài viết",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Bài viết đã lưu\n♥ Đã lưu\nBài đọc đã lưu\nXem thêm →\n\nBài đọc hệ thống ec488bc504db\nKết nối\n\n1",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/saved",
+    "source": "\\articles\\saved.tsx",
+    "screenshot": "routes/13-_articles_saved.png",
+    "headings": [
+      "Bài viết đã lưu",
+      "Bài đọc đã lưu"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Mở menu tin tức",
+        "disabled": false
+      },
+      {
+        "label": "Xem tất cả bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Bài đọc hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ thích bài viết",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Bài viết đã lưu\n♥ Đã lưu\nBài đọc đã lưu\nXem thêm →\n\nBài đọc hệ thống ec488bc504db\nKết nối\n\n1",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/search",
+    "source": "\\articles\\search.tsx",
+    "screenshot": "routes/14-_articles_search.png",
+    "headings": [
+      "Tìm kiếm và kết quả",
+      "Tất cả bài viết"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Mở menu tin tức",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Tin mới nhất",
+        "disabled": false
+      },
+      {
+        "label": "Sự kiện sắp tới",
+        "disabled": false
+      },
+      {
+        "label": "Xem tất cả bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Bài đọc hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ thích bài viết",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Tìm kiếm và kết quả\n♥ Đã lưu\nTất cả\nTin mới nhất\nSự kiện sắp tới\nTất cả bài viết\nXem thêm →\n\nBài đọc hệ thống ec488bc504db\nKết nối\n\n1",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/topics",
+    "source": "\\articles\\topics.tsx",
+    "screenshot": "routes/15-_articles_topics.png",
+    "headings": [
+      "Chủ đề bài đọc"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Kết nối",
+        "disabled": false
+      },
+      {
+        "label": "Theo dõi",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nChủ đề bài đọc\n\nKết nối\n1 bài viết\n\nTheo dõi",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/articles/9d56e121-4b27-4dd8-9be7-c99a43524504",
+    "source": "\\articles\\[id].tsx",
+    "screenshot": "routes/16-_articles_9d56e121-4b27-4dd8-9be7-c99a43524504.png",
+    "headings": [
+      "Bài đọc hệ thống ec488bc504db"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ thích bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Thảo luận",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nBài đọc hệ thống ec488bc504db\n\nKết nối · 10:29:02 2/11/2026\nNội dung bài đọc từ cơ sở dữ liệu ec488bc504db\n1 lượt thích\nBỏ thích bài viết\nBỏ lưu bài viết\nThảo luận",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/assistant",
+    "source": "\\assistant.tsx",
+    "screenshot": "routes/17-_assistant.png",
+    "headings": [
+      "Trợ lý phân loại"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Kết nối trợ lý",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nTrợ lý phân loại\nTrợ lý chỉ trả lời khi hệ thống có dịch vụ và nguồn tri thức đã duyệt.\nCâu hỏi của bạn\nKết nối trợ lý",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/calendar",
+    "source": "\\calendar.tsx",
+    "screenshot": "routes/18-_calendar.png",
+    "headings": [
+      "Lịch hoạt động",
+      "Tháng 11, 2026",
+      "Thứ Hai, 2 tháng 11",
+      "Lịch sử tham gia",
+      "Vé của tôi"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Tháng",
+        "disabled": false
+      },
+      {
+        "label": "Tuần",
+        "disabled": false
+      },
+      {
+        "label": "Khám phá hoạt động để thêm vào lịch",
+        "disabled": false
+      },
+      {
+        "label": "Tháng trước",
+        "disabled": false
+      },
+      {
+        "label": "Tháng sau",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 26 tháng 10 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 27 tháng 10 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 28 tháng 10 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 29 tháng 10 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 30 tháng 10 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 31 tháng 10 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 1 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 2 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 3 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 4 tháng 11 năm 2026, 2 hoạt động đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 5 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 6 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 7 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 8 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 9 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 10 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 11 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 12 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 13 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 14 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 15 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 16 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 17 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 18 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 19 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 20 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 21 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 22 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 23 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 24 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 25 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 26 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 27 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 28 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 29 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 30 tháng 11 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 1 tháng 12 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 2 tháng 12 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 3 tháng 12 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 4 tháng 12 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 5 tháng 12 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Ngày 6 tháng 12 năm 2026",
+        "disabled": false
+      },
+      {
+        "label": "Khám phá và lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Xem tổng kết hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Xem vé tham gia",
+        "disabled": false
+      },
+      {
+        "label": "Về hôm nay",
+        "disabled": false
+      },
+      {
+        "label": "Cài đặt nhắc lịch",
+        "disabled": false
+      },
+      {
+        "label": "Xem hoạt động ngày 2/11",
+        "disabled": false
+      },
+      {
+        "label": "Khám phá thêm hoạt động",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Lịch hoạt động\nTháng\nTuần\nTháng 11, 2026\nT2\nT3\nT4\nT5\nT6\nT7\nCN\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\nCó hoạt động đã lưu\nThứ Hai, 2 tháng 11\nChưa có hoạt động đã lưu trong ngày này\nKhám phá và lưu hoạt động\nLịch sử tham gia\nHoạt động đã tham gia\nTổng kết sẽ xuất hiện khi có kết quả đã xác minh.\nXem tổng kết hoạt động\nVé của tôi\nVé của tôi\nVé chỉ xuất hiện sau khi hệ thống xác nhận đăng ký. Chỉ lưu hoặc quan tâm sẽ chưa có vé.\nXem vé tham gia\nVề hôm nay\nCài đặt nhắc lịch\nMúi giờ: Asia/Bangkok\nXem hoạt động ngày 2/11\nKhám phá thêm hoạt động",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/change-password",
+    "source": "\\change-password.tsx",
+    "screenshot": "routes/19-_change-password.png",
+    "headings": [
+      "Thay đổi mật khẩu"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Hiện mật khẩu hiện tại",
+        "disabled": false
+      },
+      {
+        "label": "Quên mật khẩu hiện tại?",
+        "disabled": false
+      },
+      {
+        "label": "Hiện mật khẩu mới",
+        "disabled": false
+      },
+      {
+        "label": "Hiện mật khẩu xác nhận",
+        "disabled": false
+      },
+      {
+        "label": "Đổi mật khẩu",
+        "disabled": true
+      },
+      {
+        "label": "Hủy",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "BẢO MẬT TÀI KHOẢN\nThay đổi mật khẩu\nXác nhận bằng mật khẩu hiện tại, sau đó\ntạo mật khẩu mới cho tài khoản của bạn.\nMật khẩu hiện tại\nQuên mật khẩu hiện tại?\nMật khẩu mới\nSử dụng từ 8 đến 128 ký tự.\nXác nhận mật khẩu mới\nMật khẩu mới nên khác mật khẩu đang dùng.\nCập nhật mật khẩu\nHủy",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-arrival?id=29acee96-7438-4e19-817a-ef298601fdfc&stopId=c02e2ed8-365f-4a3b-9f3a-d940fc09389f",
+    "source": "\\collection-arrival.tsx",
+    "screenshot": "routes/20-_collection-arrival.png",
+    "headings": [
+      "Bàn giao tại điểm"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nBàn giao tại điểm\nĐiểm tiếp nhận ec488bc504db\nĐịa chỉ trên cơ sở dữ liệu\nTrạng thái: self_reported\nBàn giao do bạn tự khai, chưa phải khối lượng được đơn vị tiếp nhận xác minh.\nĐã lưu bàn giao tự khai. Chưa có điểm thưởng được cấp.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-compare?ids=820dd52c-5f65-4050-bc25-ada9c0289a08",
+    "source": "\\collection-compare.tsx",
+    "screenshot": "routes/21-_collection-compare.png",
+    "headings": [
+      "So sánh điểm thu gom"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Xem chi tiết điểm",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nSo sánh điểm thu gom\nĐiểm tiếp nhận ec488bc504db\nĐịa chỉ trên cơ sở dữ liệu\nNhựa\nXem chi tiết điểm",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-directions?id=29acee96-7438-4e19-817a-ef298601fdfc",
+    "source": "\\collection-directions.tsx",
+    "screenshot": "routes/22-_collection-directions.png",
+    "headings": [
+      "Chi tiết hành trình"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đến điểm và bàn giao",
+        "disabled": false
+      },
+      {
+        "label": "Hủy hành trình",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nChi tiết hành trình\nTrạng thái: active\nChưa có dịch vụ tính đường và thời gian di chuyển. Các điểm được giữ theo thứ tự bạn chọn.\n1. Điểm tiếp nhận ec488bc504db\nĐịa chỉ trên cơ sở dữ liệu\nself_reported\nĐến điểm và bàn giao\nHủy hành trình",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-explore",
+    "source": "\\collection-explore.tsx",
+    "screenshot": "routes/23-_collection-explore.png",
+    "headings": [
+      "Khám phá"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Bộ lọc",
+        "disabled": false
+      },
+      {
+        "label": "Hành trình",
+        "disabled": false
+      },
+      {
+        "label": "Đề xuất địa điểm",
+        "disabled": false
+      },
+      {
+        "label": "Phóng to bản đồ",
+        "disabled": false
+      },
+      {
+        "label": "Xem trên bản đồ: Điểm tiếp nhận ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Điểm tiếp nhận ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Chỉ đường đến Điểm tiếp nhận ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Khám phá\nBộ lọc\nHành trình\nĐề xuất địa điểm\nĐiểm thu gom\n\nĐiểm tiếp nhận ec488bc504db\nChưa rõ sức chứa\nĐịa chỉ trên cơ sở dữ liệu\n\nSo sánh\nChỉ đường\n© OpenStreetMap contributors",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-filters",
+    "source": "\\collection-filters.tsx",
+    "screenshot": "routes/24-_collection-filters.png",
+    "headings": [
+      "Lọc điểm thu gom"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Nhận tất cả vật liệu",
+        "disabled": false
+      },
+      {
+        "label": "Nhận một trong các vật liệu",
+        "disabled": false
+      },
+      {
+        "label": "Nhựa",
+        "disabled": false
+      },
+      {
+        "label": "Áp dụng bộ lọc",
+        "disabled": false
+      },
+      {
+        "label": "Xóa bộ lọc",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nLọc điểm thu gom\nNhận tất cả vật liệu\nNhận một trong các vật liệu\nNhựa\nÁp dụng bộ lọc\nXóa bộ lọc",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-navigation?id=29acee96-7438-4e19-817a-ef298601fdfc",
+    "source": "\\collection-navigation.tsx",
+    "screenshot": "routes/25-_collection-navigation.png",
+    "headings": [
+      "Chi tiết hành trình"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đến điểm và bàn giao",
+        "disabled": false
+      },
+      {
+        "label": "Hủy hành trình",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nChi tiết hành trình\nTrạng thái: active\nChưa có dịch vụ tính đường và thời gian di chuyển. Các điểm được giữ theo thứ tự bạn chọn.\n1. Điểm tiếp nhận ec488bc504db\nĐịa chỉ trên cơ sở dữ liệu\nself_reported\nĐến điểm và bàn giao\nHủy hành trình",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-replacement?id=29acee96-7438-4e19-817a-ef298601fdfc",
+    "source": "\\collection-replacement.tsx",
+    "screenshot": "routes/26-_collection-replacement.png",
+    "headings": [
+      "Chỉnh sửa hành trình"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nChỉnh sửa hành trình\nChỉ có thể sửa hành trình chưa bắt đầu.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/collection-route?id=29acee96-7438-4e19-817a-ef298601fdfc",
+    "source": "\\collection-route.tsx",
+    "screenshot": "routes/27-_collection-route.png",
+    "headings": [
+      "Chi tiết hành trình"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đến điểm và bàn giao",
+        "disabled": false
+      },
+      {
+        "label": "Hủy hành trình",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nChi tiết hành trình\nTrạng thái: active\nChưa có dịch vụ tính đường và thời gian di chuyển. Các điểm được giữ theo thứ tự bạn chọn.\n1. Điểm tiếp nhận ec488bc504db\nĐịa chỉ trên cơ sở dữ liệu\nself_reported\nĐến điểm và bàn giao\nHủy hành trình",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/community",
+    "source": "\\community.tsx",
+    "screenshot": "routes/28-_community.png",
+    "headings": [
+      "Cộng đồng"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Viết bài",
+        "disabled": false
+      },
+      {
+        "label": "Bảng tin",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Người dùng A ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nCộng đồng\nViết bài\nBảng tin\nĐã lưu\n\nNgười dùng A ec488bc504db\nRiêng tư ec488bc504db\n",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/compose",
+    "source": "\\compose.tsx",
+    "screenshot": "routes/29-_compose.png",
+    "headings": [
+      "Viết bài"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Công khai",
+        "disabled": false
+      },
+      {
+        "label": "Chỉ mình tôi",
+        "disabled": false
+      },
+      {
+        "label": "Đăng bài viết",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nViết bài\nNội dung bài viết\nCông khai\nChỉ mình tôi\nĐăng bài viết",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/connected-account",
+    "source": "\\connected-account.tsx",
+    "screenshot": "routes/30-_connected-account.png",
+    "headings": [
+      "Lịch sử đăng nhập"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      },
+      {
+        "label": "Thu hồi phiên",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Lịch sử đăng nhập\nXem các thiết bị đã truy cập tài khoản của bạn.\nweb\nThiết bị hiện tại\n10:35:02 2/11/2026\nweb\n10:31:34 2/11/2026\nThu hồi phiên\nweb\n10:31:26 2/11/2026\nThu hồi phiên\nweb\n10:31:20 2/11/2026\nThu hồi phiên\nweb\n10:31:15 2/11/2026\nThu hồi phiên\nweb\n10:31:09 2/11/2026\nThu hồi phiên\nweb\n10:30:53 2/11/2026\nThu hồi phiên\nweb\n10:30:24 2/11/2026\nThu hồi phiên\nweb\n10:30:12 2/11/2026\nThu hồi phiên\nKhông nhận ra thiết bị? Hãy đăng xuất phiên đó và đổi mật khẩu để bảo vệ tài khoản.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/conversation?id=7d2b9c42-e97d-459b-b485-b8c9586a474d",
+    "source": "\\conversation.tsx",
+    "screenshot": "routes/31-_conversation.png",
+    "headings": [
+      "Hội thoại"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Làm mới tin nhắn",
+        "disabled": false
+      },
+      {
+        "label": "Gửi tin nhắn",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nHội thoại\nNgười dùng B ec488bc504db\nLàm mới tin nhắn\nBạn\nTin nhắn lưu server ec488bc504db\n10:30:45 2/11/2026\nNội dung tin nhắn\nGửi tin nhắn",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/discussion?id=e07ad9aa-8e41-488a-be3a-6c9943336774",
+    "source": "\\discussion.tsx",
+    "screenshot": "routes/32-_discussion.png",
+    "headings": [
+      "Bài viết"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Thích",
+        "disabled": false
+      },
+      {
+        "label": "Lưu bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Sửa bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Xóa bài viết",
+        "disabled": false
+      },
+      {
+        "label": "Gửi bình luận",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nBài viết\nNgười dùng A ec488bc504db\n10:30:34 2/11/2026\nRiêng tư ec488bc504db\n0 lượt thích\nThích\nLưu bài viết\nSửa bài viết\nXóa bài viết\nNội dung bình luận\nGửi bình luận\n\nChưa có bình luận\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/edit-profile",
+    "source": "\\edit-profile.tsx",
+    "screenshot": "routes/33-_edit-profile.png",
+    "headings": [
+      "Chỉnh sửa"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Thông tin ảnh đại diện",
+        "disabled": false
+      },
+      {
+        "label": "Đổi mật khẩu",
+        "disabled": false
+      },
+      {
+        "label": "Chỉnh sửa giới thiệu",
+        "disabled": false
+      },
+      {
+        "label": "Lưu hồ sơ",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Chỉnh sửa\nN\nTên\nEmail\nMật khẩu\nĐổi mật khẩu\n\nNgày sinh\nQuốc gia\nChỉnh sửa giới thiệu\nLưu thay đổi",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/event-collections",
+    "source": "\\event-collections.tsx",
+    "screenshot": "routes/34-_event-collections.png",
+    "headings": [
+      "Bộ sưu tập yêu thích",
+      "Những kế hoạch xanh của bạn",
+      "Kế hoạch ec488bc504db mới • Đang chọn 0 hoạt động",
+      "Chuyển đến bộ sưu tập"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Tùy chọn Kế hoạch ec488bc504db mới",
+        "disabled": false
+      },
+      {
+        "label": "Chọn Kế hoạch ec488bc504db mới",
+        "disabled": false
+      },
+      {
+        "label": "Mở tạo bộ sưu tập",
+        "disabled": false
+      },
+      {
+        "label": "Nhắc lịch",
+        "disabled": false
+      },
+      {
+        "label": "Chọn bộ sưu tập đích để chuyển",
+        "disabled": true
+      },
+      {
+        "label": "Hủy chọn",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "Bộ sưu tập yêu thích\nNhững kế hoạch xanh của bạn\n2 hoạt động đã lưu • 1 bộ sưu tập\nKế hoạch ec488bc504db mới\n1 hoạt động\n\nTạo bộ sưu tập\nKế hoạch ec488bc504db mới • Đang chọn 0 hoạt động\n\nHoạt động hệ thống ec488bc504db\n04/11/2026 • 09:00–10:00\nCòn 1 hoạt động chưa chọn trong bộ sưu tập này.\nNhắc lịch\nXem thời gian hoạt động; nhắc tự động chưa mở.\nChuyển đến bộ sưu tập\nTạo thêm bộ sưu tập để chuyển hoạt động.\nChọn bộ sưu tập đích để chuyển\nHủy chọn",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/event-reminders?events=fb2b9a61-f273-4cd8-b835-30e35d34bc2e",
+    "source": "\\event-reminders.tsx",
+    "screenshot": "routes/35-_event-reminders.png",
+    "headings": [
+      "Cài đặt nhắc lịch",
+      "Đừng bỏ lỡ hẹn xanh",
+      "Áp dụng cho hoạt động",
+      "Nhắc trước khi bắt đầu",
+      "Cách nhận thông báo",
+      "Giờ yên lặng"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Chọn thêm từ bộ sưu tập",
+        "disabled": false
+      },
+      {
+        "label": "Lưu cài đặt nhắc lịch",
+        "disabled": true
+      },
+      {
+        "label": "Về hoạt động yêu thích",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Cài đặt nhắc lịch\nĐừng bỏ lỡ hẹn xanh\nNhắc bạn về những hoạt động đã lưu.\nBật nhắc lịch hoạt động\nNhắc lịch tự động chưa khả dụng. Chưa có cài đặt nào được lưu hoặc lời nhắc được lên lịch.\nÁp dụng cho hoạt động\nHoạt động hệ thống ec488bc504db\n04/11/2026 • 09:00–10:00\nChọn thêm từ bộ sưu tập\nNhắc trước khi bắt đầu\n1 giờ\n3 giờ\n1 ngày\nTùy chỉnh\nThời điểm nhắc sẽ được chọn khi tính năng được mở.\nCách nhận thông báo\nThông báo trên điện thoại\nChưa hỗ trợ nhắc hoạt động\nEmail nhắc lịch\nalice-ec488bc504db@example.com\nÂm thanh và rung\nChưa áp dụng cho lời nhắc hoạt động\nGiờ yên lặng\nChưa có cấu hình nhắc lịch\nLời nhắc tiếp theo\nChưa có lời nhắc được lên lịch. Lưu hoạt động không đồng nghĩa với đăng ký tham gia.\nLưu cài đặt nhắc lịch\nVề hoạt động yêu thích",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/event-summary?id=fb2b9a61-f273-4cd8-b835-30e35d34bc2e",
+    "source": "\\event-summary.tsx",
+    "screenshot": "routes/36-_event-summary.png",
+    "headings": [
+      "Tổng kết hoạt động",
+      "Cảm ơn bạn đã gieo mầm xanh!",
+      "Cùng nhau, chúng ta đã làm được",
+      "Trải nghiệm của bạn thế nào?"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Gửi đánh giá",
+        "disabled": true
+      },
+      {
+        "label": "Xem album hoạt động",
+        "disabled": true
+      },
+      {
+        "label": "Khám phá hoạt động khác",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Tổng kết hoạt động\n\nCảm ơn bạn đã gieo mầm xanh!\nHoạt động hệ thống ec488bc504db • 04/11/2026\nĐịa điểm đã công bố\nCùng nhau, chúng ta đã làm được\n—\nNgười được hướng dẫn\n—\nTình nguyện viên\n—\nGóc phân loại\nDấu ấn của Người dùng A ec488bc504db\nChưa có đóng góp hoặc kết quả hoạt động đã xác minh để hiển thị.\nTrải nghiệm của bạn thế nào?\nChức năng đánh giá chưa được mở.\nTổ chức tốt\nHọc được điều mới\nCần thêm học cụ\nChia sẻ cảm nhận\nChưa có báo cáo được xác minh. Không dùng số liệu minh họa làm kết quả hoạt động.\nGửi đánh giá\nXem album hoạt động\nKhám phá hoạt động khác",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/event-ticket?id=fb2b9a61-f273-4cd8-b835-30e35d34bc2e",
+    "source": "\\event-ticket.tsx",
+    "screenshot": "routes/37-_event-ticket.png",
+    "headings": [
+      "Vé tham gia"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Gọi ban tổ chức",
+        "disabled": true
+      },
+      {
+        "label": "Lưu vé vào thiết bị",
+        "disabled": true
+      },
+      {
+        "label": "Về lịch hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Cài đặt nhắc lịch",
+        "disabled": false
+      },
+      {
+        "label": "Thông tin đăng ký",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Vé tham gia\nVÉ THAM GIA\nHoạt động hệ thống ec488bc504db\nĐịa điểm đã công bố\nNgười dùng A ec488bc504db\nChưa có đăng ký được xác nhận\n\nChưa có mã check-in\nChưa cấp vé\nHiện chưa mở cấp vé và check-in. Không có mã QR hay vé để tải xuống.\n04/11/2026 • 09:00–10:00\nThời gian có mặt theo hướng dẫn của ban tổ chức.\nĐịa điểm đã công bố\nĐiểm hẹn sẽ được ban tổ chức xác nhận.\nLiên hệ ban tổ chức\nChưa công bố thông tin liên hệ\nLưu vé vào thiết bị\nVề lịch hoạt động\nCài đặt nhắc lịch\nThông tin đăng ký",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/events",
+    "source": "\\events\\index.tsx",
+    "screenshot": "routes/38-_events.png",
+    "headings": [
+      "Khám phá hoạt động",
+      "Dành cho cuối tuần của bạn"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Khu vực",
+        "disabled": false
+      },
+      {
+        "label": "Tuần này",
+        "disabled": false
+      },
+      {
+        "label": "Chủ đề",
+        "disabled": false
+      },
+      {
+        "label": "Dọn rác",
+        "disabled": false
+      },
+      {
+        "label": "Trồng cây",
+        "disabled": false
+      },
+      {
+        "label": "Phân loại",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động trùng lịch ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Lên lịch cho một tuần xanh",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Bộ sưu tập",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Khám phá hoạt động\nMột việc nhỏ,\nmột thay đổi xanh.\nTìm hoạt động ý nghĩa, cùng cộng đồng.\nTìm hoạt động\nKhu vực\nTuần này\nChủ đề\nDọn rác\nTrồng cây\nPhân loại\nDành cho cuối tuần của bạn\n\nHoạt động hệ thống ec488bc504db\nĐịa điểm đã công bố\n\n09:00 04-11\n0 người tham gia · Còn 10 chỗ\n\nHoạt động trùng lịch ec488bc504db\nĐịa điểm thứ hai\n\n09:30 04-11\n0 người tham gia · Còn 10 chỗ\nLên lịch cho một tuần xanh\nXem hoạt động theo ngày, tránh trùng lịch.\nĐã lưu\nBộ sưu tập",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/events/fb2b9a61-f273-4cd8-b835-30e35d34bc2e",
+    "source": "\\events\\[id].tsx",
+    "screenshot": "routes/39-_events_fb2b9a61-f273-4cd8-b835-30e35d34bc2e.png",
+    "headings": [
+      "HOẠT ĐỘNG HỆ THỐNG EC488BC504DB",
+      "Về hoạt động",
+      "Hoạt động khác"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu yêu thích",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Khám phá tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Lịch hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Đăng ký tham gia",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động trùng lịch ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nHOẠT ĐỘNG HỆ THỐNG EC488BC504DB\nĐịa điểm đã công bố\n0 người đã đăng ký\nĐã quan tâm\n10/10\nchỗ còn lại\nChưa rõ\nđộ tuổi\n60\nphút\nKhám phá tất cả\nLịch hoạt động\nĐăng ký tham gia\nVề hoạt động\nThông tin hoạt động trên hệ thống\n04/11/2026 • 09:00–10:00 · Asia/Ho_Chi_Minh\nHoạt động khác\nTất cả\n\nHoạt động trùng lịch ec488bc504db\nĐịa điểm thứ hai",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/forgot-password",
+    "source": "\\forgot-password.tsx",
+    "screenshot": "routes/40-_forgot-password.png",
+    "headings": [
+      "Quên mật khẩu?"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Gửi mã xác minh",
+        "disabled": true
+      },
+      {
+        "label": "Quay lại đăng nhập",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "KHÔI PHỤC TÀI KHOẢN\nQuên mật khẩu?\nĐừng lo, chúng tôi sẽ gửi mã xác thực để giúp bạn lấy lại quyền truy cập.\nEmail đã đăng ký\nChúng tôi chỉ gửi mã đến email\nđược liên kết với tài khoản của bạn.\nGửi mã xác thực\nQuay lại đăng nhập",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/game",
+    "source": "\\game.tsx",
+    "screenshot": "routes/41-_game.png",
+    "headings": [
+      "Trò chơi"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Thử lại",
+        "disabled": false
+      }
+    ],
+    "alerts": [
+      "Trò chơi chưa được mở trên hệ thống."
+    ],
+    "text": "\nTrò chơi\nTrò chơi chưa được mở trên hệ thống.\nThử lại",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/handbook/category/recycle",
+    "source": "\\handbook\\category\\[category].tsx",
+    "screenshot": "routes/42-_handbook_category_recycle.png",
+    "headings": [
+      "Sổ tay rác",
+      "Tái chế"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Vật phẩm hệ thống ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nTái chế\nVật phẩm hệ thống ec488bc504db\nNhựa",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/handbook",
+    "source": "\\handbook\\index.tsx",
+    "screenshot": "routes/43-_handbook.png",
+    "headings": [
+      "Sổ tay rác",
+      "Tra cứu vật phẩm"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Rác tái chế",
+        "disabled": false
+      },
+      {
+        "label": "Rác hữu cơ",
+        "disabled": false
+      },
+      {
+        "label": "Rác vô cơ",
+        "disabled": false
+      },
+      {
+        "label": "Xem tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Vật phẩm hệ thống ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nRác tái chế\nRác hữu cơ\nRác vô cơ\nNếu chưa\nbiết rác loại nào\n-hãy vào đây\nXem tất cả\nTra cứu vật phẩm\nVật phẩm hệ thống ec488bc504db\nNhựa",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/handbook/list",
+    "source": "\\handbook\\list.tsx",
+    "screenshot": "routes/44-_handbook_list.png",
+    "headings": [
+      "Sổ tay rác",
+      "Tất cả vật phẩm"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Vật phẩm hệ thống ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nTất cả vật phẩm\nVật phẩm hệ thống ec488bc504db\nNhựa",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/handbook/types/plastic",
+    "source": "\\handbook\\types\\[kind].tsx",
+    "screenshot": "routes/45-_handbook_types_plastic.png",
+    "headings": [
+      "Sổ tay rác",
+      "Nhựa"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Vật phẩm hệ thống ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nNhựa\nVật phẩm hệ thống ec488bc504db\nNhựa",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/handbook/253486f4-7ce1-434f-ab6b-5c88a50b70e5",
+    "source": "\\handbook\\[id].tsx",
+    "screenshot": "routes/46-_handbook_253486f4-7ce1-434f-ab6b-5c88a50b70e5.png",
+    "headings": [
+      "Vật phẩm hệ thống ec488bc504db",
+      "Vật phẩm hệ thống ec488bc504db",
+      "Hướng dẫn phân loại"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Ghi nhận đã phân loại",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Vật phẩm hệ thống ec488bc504db\nVật phẩm hệ thống ec488bc504db\nNhựa · Tái chế\nHướng dẫn phân loại\n1\n1. Hướng dẫn từ dữ liệu đã công bố.\nGhi nhận đã phân loại",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/history",
+    "source": "\\history.tsx",
+    "screenshot": "routes/47-_history.png",
+    "headings": [
+      "Lịch sử",
+      "Lịch sử tích điểm và đổi quà",
+      "Quà đã đổi"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Tùy chọn điểm xanh",
+        "disabled": false
+      },
+      {
+        "label": "Tìm thêm điểm",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Tháng này",
+        "disabled": false
+      },
+      {
+        "label": "Tuần này",
+        "disabled": false
+      },
+      {
+        "label": "Khám phá phần thưởng",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Lịch sử\n\n0 điểm\nTìm thêm điểm\n\nLịch sử tích điểm và đổi quà\n🌱 Phân loại rác - Sống xanh mỗi ngày cùng BlueSteps ♻\nTất cả\nTháng này\nTuần này\n0\nĐiểm tuần này\n0\nĐiểm tháng này\n0\nĐiểm tổng tích lũy\n\nChưa có giao dịch điểm trong thời gian này\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nQuà đã đổi\n\nChưa có quà đã đổi trong thời gian này\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nKhám phá phần thưởng",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/journey",
+    "source": "\\journey.tsx",
+    "screenshot": "routes/48-_journey.png",
+    "headings": [
+      "Hành trình thu gom",
+      "Hành trình đã lưu",
+      "Tạo hành trình"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Hành trình 10:31:04 2/11/2026",
+        "disabled": false
+      },
+      {
+        "label": "Điểm tiếp nhận ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Lưu hành trình",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nHành trình thu gom\nHành trình đã lưu\n\nHành trình 10:31:04 2/11/2026\nactive\n\nTạo hành trình\nĐiểm tiếp nhận ec488bc504db\nLưu hành trình",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/legal",
+    "source": "\\legal.tsx",
+    "screenshot": "routes/49-_legal.png",
+    "headings": [
+      "Điều khoản và bảo mật"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nĐiều khoản và bảo mật\nỨng dụng lưu thông tin tài khoản và các thao tác bạn gửi đến hệ thống. Không công khai email, ngày sinh hoặc nội dung hội thoại cho người ngoài.\nĐiều khoản pháp lý đầy đủ sẽ được đơn vị vận hành công bố trước khi mở dịch vụ cho người dùng thật.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/login",
+    "source": "\\login.tsx",
+    "screenshot": "routes/50-_login.png",
+    "headings": [
+      "Chào bạn,\nmừng trở lại!"
+    ],
+    "buttons": [
+      {
+        "label": "Hiện mật khẩu",
+        "disabled": false
+      },
+      {
+        "label": "Quên mật khẩu?",
+        "disabled": false
+      },
+      {
+        "label": "Đăng nhập",
+        "disabled": false
+      },
+      {
+        "label": "Tiếp tục với Google",
+        "disabled": false
+      },
+      {
+        "label": "Tiếp tục với Facebook",
+        "disabled": false
+      },
+      {
+        "label": "Chưa có tài khoản? Đăng ký ngay",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "BlueSteps\nChào bạn,\nmừng trở lại!\nTiếp tục những bước nhỏ\nvì một hành tinh xanh.\nEmail\nMật khẩu\nPhiên được lưu an toàn\nQuên mật khẩu?\nĐăng nhập\nhoặc tiếp tục với\nGoogle\nFacebook\nChưa có tài khoản? Đăng ký ngay\nThông tin của bạn được bảo vệ",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/messages",
+    "source": "\\messages.tsx",
+    "screenshot": "routes/51-_messages.png",
+    "headings": [
+      "Tin nhắn"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Người dùng B ec488bc504db",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nTin nhắn\n\n\nNgười dùng B ec488bc504db\n0 tin nhắn chưa đọc\n",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/notifications",
+    "source": "\\notifications.tsx",
+    "screenshot": "routes/52-_notifications.png",
+    "headings": [
+      "Thông báo"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đánh dấu tất cả đã đọc",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nThông báo\nĐánh dấu tất cả đã đọc\n\nChưa có thông báo\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/onboarding",
+    "source": "\\onboarding.tsx",
+    "screenshot": "routes/53-_onboarding.png",
+    "headings": [
+      "Bạn muốn bắt đầu\ntừ điều gì?"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ qua",
+        "disabled": false
+      },
+      {
+        "label": "Tiếp tục",
+        "disabled": false
+      },
+      {
+        "label": "Tôi sẽ chọn sau",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "‹\nDÀNH RIÊNG CHO BẠN · 1/5\nBỏ qua\nBạn muốn bắt đầu\ntừ điều gì?\nChọn những chủ đề bạn quan tâm. Bạn có thể thay đổi sau trong cài đặt.\nPhân loại rác\nHiểu đúng, làm dễ\n✓\nĐiểm thu gom\nTìm nơi gửi rác\nHoạt động xanh\nCùng nhau góp sức\nTin tức\nCập nhật sống xanh\nChọn nhiều chủ đề để có gợi ý phù hợp hơn.\nTiếp tục\nTôi sẽ chọn sau",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/point-proposal",
+    "source": "\\point-proposal.tsx",
+    "screenshot": "routes/54-_point-proposal.png",
+    "headings": [
+      "Đề xuất điểm thu gom"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Nhựa",
+        "disabled": false
+      },
+      {
+        "label": "Lưu đề xuất nháp",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nĐề xuất điểm thu gom\nTên điểm thu gom\nĐịa chỉ\nVĩ độ\nKinh độ\nNhựa\nĐề xuất được lưu nháp. Cần bổ sung ảnh đã xác minh trước khi gửi xét duyệt; hiện chưa mở dịch vụ ảnh.\nLưu đề xuất nháp",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/point-report?id=820dd52c-5f65-4050-bc25-ada9c0289a08",
+    "source": "\\point-report.tsx",
+    "screenshot": "routes/55-_point-report.png",
+    "headings": [
+      "Báo cáo điểm thu gom"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đóng cửa",
+        "disabled": false
+      },
+      {
+        "label": "Đã đầy",
+        "disabled": false
+      },
+      {
+        "label": "Sai địa chỉ",
+        "disabled": false
+      },
+      {
+        "label": "Không an toàn",
+        "disabled": false
+      },
+      {
+        "label": "Khác",
+        "disabled": false
+      },
+      {
+        "label": "Gửi báo cáo",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nBáo cáo điểm thu gom\nĐóng cửa\nĐã đầy\nSai địa chỉ\nKhông an toàn\nKhác\nMô tả tình trạng\nGửi báo cáo",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/points/820dd52c-5f65-4050-bc25-ada9c0289a08",
+    "source": "\\points\\[id].tsx",
+    "screenshot": "routes/56-_points_820dd52c-5f65-4050-bc25-ada9c0289a08.png",
+    "headings": [
+      "Điểm tiếp nhận ec488bc504db",
+      "Đánh giá"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Mở vị trí trên bản đồ",
+        "disabled": false
+      },
+      {
+        "label": "Báo cáo thông tin điểm",
+        "disabled": false
+      },
+      {
+        "label": "1 sao",
+        "disabled": false
+      },
+      {
+        "label": "2 sao",
+        "disabled": false
+      },
+      {
+        "label": "3 sao",
+        "disabled": false
+      },
+      {
+        "label": "4 sao",
+        "disabled": false
+      },
+      {
+        "label": "5 sao",
+        "disabled": false
+      },
+      {
+        "label": "Gửi đánh giá",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nĐiểm tiếp nhận ec488bc504db\n\nĐịa chỉ trên cơ sở dữ liệu\nNhựa\nChưa có dữ liệu sức chứa được xác minh.\nMở vị trí trên bản đồ\nBáo cáo thông tin điểm\nĐánh giá\n\nChưa có đánh giá được duyệt\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\n1 sao\n2 sao\n3 sao\n4 sao\n5 sao\nNội dung đánh giá\nGửi đánh giá",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/register",
+    "source": "\\register.tsx",
+    "screenshot": "routes/57-_register.png",
+    "headings": [
+      "Bắt đầu cùng\nBlueSteps."
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Hiện mật khẩu",
+        "disabled": false
+      },
+      {
+        "label": "Tạo tài khoản",
+        "disabled": false
+      },
+      {
+        "label": "Đã có tài khoản? Đăng nhập",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "TẠO TÀI KHOẢN\nBắt đầu cùng\nBlueSteps.\nLưu hành trình sống xanh và nhận những gợi ý dành riêng cho bạn.\nHọ và tên\nEmail\nMật khẩu\nTôi đồng ý với Điều khoản và Chính sách bảo mật.\nTạo tài khoản\nĐã có tài khoản? Đăng nhập\nMột tài khoản. Nhiều hành động có ý nghĩa.",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/registration?id=fb2b9a61-f273-4cd8-b835-30e35d34bc2e",
+    "source": "\\registration.tsx",
+    "screenshot": "routes/58-_registration.png",
+    "headings": [
+      "Đăng ký tham gia",
+      "Thông tin người tham gia",
+      "Thông tin liên hệ",
+      "Chuẩn bị trước khi tham gia"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Giảm số người",
+        "disabled": true
+      },
+      {
+        "label": "Tăng số người",
+        "disabled": false
+      },
+      {
+        "label": "Chọn vai trò tình nguyện",
+        "disabled": true
+      },
+      {
+        "label": "Kiểm tra đăng ký",
+        "disabled": false
+      },
+      {
+        "label": "Quay lại hoạt động",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Đăng ký tham gia\nKẾT NỐI\nHoạt động hệ thống ec488bc504db\n04/11/2026 • 09:00–10:00\nĐịa điểm đã công bố\nĐăng ký tham gia hoạt động\nLưu hoặc quan tâm hoạt động chưa phải là đăng ký. Hệ thống hiện chưa mở đăng ký và cấp vé; thông tin bên dưới chưa được gửi.\nThông tin người tham gia\nHọ và tên *\nSố người tham gia\nBao gồm bạn · Còn 10 chỗ\n1\nVai trò tình nguyện\nBan tổ chức chưa công bố vai trò\nThông tin liên hệ\nSố điện thoại *\nEmail nhận vé *\nChuẩn bị trước khi tham gia\nHãy xem hướng dẫn do ban tổ chức công bố và xác nhận thời gian, địa điểm trước khi tham gia.\nTôi đã đọc yêu cầu và đồng ý tuân thủ hướng dẫn an toàn của ban tổ chức.\nCho phép dùng thông tin liên hệ để gửi vé và thông báo về hoạt động này khi đăng ký được mở.\nPhí và điều kiện tham gia theo thông báo của ban tổ chức.\nKiểm tra đăng ký\nQuay lại hoạt động",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/reset-password",
+    "source": "\\reset-password.tsx",
+    "screenshot": "routes/59-_reset-password.png",
+    "headings": [
+      "Đặt mật khẩu\nmới cho bạn."
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Khôi phục mật khẩu",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "MẬT KHẨU MỚI\nĐặt mật khẩu\nmới cho bạn.\nTạo mật khẩu mới để tiếp tục hành trình sống xanh của bạn.\nHãy xác minh email trước khi đặt lại mật khẩu.\nKhôi phục mật khẩu",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/rewards/catalog",
+    "source": "\\rewards\\catalog.tsx",
+    "screenshot": "routes/60-_rewards_catalog.png",
+    "headings": [
+      "Phần thưởng",
+      "ĐỔI CÁC PHẦN QUÀ"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Tùy chọn điểm xanh",
+        "disabled": false
+      },
+      {
+        "label": "Lịch sử",
+        "disabled": false
+      },
+      {
+        "label": "Nhắc tôi điểm danh",
+        "disabled": false
+      },
+      {
+        "label": "Điểm danh",
+        "disabled": false
+      },
+      {
+        "label": "Tất cả",
+        "disabled": false
+      },
+      {
+        "label": "Đồ tái chế",
+        "disabled": false
+      },
+      {
+        "label": "Phần quà hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Cách quy đổi điểm xanh",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Phần thưởng\n\n0 điểm\nLịch sử\n\nĐiểm danh mỗi ngày\nNhắc tôi\nHôm nay\nNgày 2\nNgày 3\nNgày 4\nNgày 5\nNgày 6\nNgày 7\nChương trình chưa mở\nĐỔI CÁC PHẦN QUÀ\nGom rác, tích xanh - Đổi quà thật nhanh!\nTất cả\nĐồ tái chế\n🌱 Phân loại rác - Sống xanh mỗi ngày cùng BlueSteps ♻\n\nPhần quà hệ thống ec488bc504db\nQuà công bố từ PostgreSQL\n\n40 điểm\nCòn 7\nCách quy đổi điểm xanh",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/rewards/guide",
+    "source": "\\rewards\\guide.tsx",
+    "screenshot": "routes/61-_rewards_guide.png",
+    "headings": [
+      "Quy đổi điểm xanh",
+      "Cách tính điểm / 1 lần quét"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Tùy chọn điểm xanh",
+        "disabled": false
+      },
+      {
+        "label": "Đổi thưởng",
+        "disabled": false
+      },
+      {
+        "label": "Xem ví",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Quy đổi điểm xanh\n\n0 điểm\nTổng điểm tích lũy\n0 điểm\nChương trình chưa mở\nCách tính điểm / 1 lần quét\nHãy cùng chung tay bảo vệ môi trường!\nHành động phân loại tự ghi nhận hiện không được cấp điểm. Quy tắc tích điểm và đổi quà sẽ được công bố khi chương trình mở.\nRác tái chế\nRác vô cơ\nRác hữu cơ\nĐổi thưởng\n\nChỉ các hành động đủ điều kiện theo quy tắc công bố mới được cấp điểm. Chưa có chương trình thưởng đang mở.\nXem ví",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/rewards/1104d5ea-0f17-46d7-b4fc-f0382b763aa4",
+    "source": "\\rewards\\[id].tsx",
+    "screenshot": "routes/62-_rewards_1104d5ea-0f17-46d7-b4fc-f0382b763aa4.png",
+    "headings": [
+      "Phần quà hệ thống ec488bc504db"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Đổi quà",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "\nPhần quà hệ thống ec488bc504db\n\nQuà công bố từ PostgreSQL\n40 điểm\nCòn 7 quà\nHệ thống chưa mở đổi quà.\nĐổi quà",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/saved",
+    "source": "\\saved.tsx",
+    "screenshot": "routes/63-_saved.png",
+    "headings": [
+      "Hoạt động đã lưu",
+      "Hoạt động yêu thích"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Khu vực",
+        "disabled": false
+      },
+      {
+        "label": "Tuần này",
+        "disabled": false
+      },
+      {
+        "label": "Chủ đề",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động hệ thống ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Hoạt động trùng lịch ec488bc504db",
+        "disabled": false
+      },
+      {
+        "label": "Bỏ lưu hoạt động",
+        "disabled": false
+      },
+      {
+        "label": "Lên lịch cho một tuần xanh",
+        "disabled": false
+      },
+      {
+        "label": "Đã lưu",
+        "disabled": false
+      },
+      {
+        "label": "Bộ sưu tập",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Hoạt động đã lưu\nTìm hoạt động\nKhu vực\nTuần này\nChủ đề\nHoạt động yêu thích\n\nHoạt động hệ thống ec488bc504db\nĐịa điểm đã công bố\n\n09:00 04-11\n0 người tham gia · Còn 10 chỗ\n\nHoạt động trùng lịch ec488bc504db\nĐịa điểm thứ hai\n\n09:30 04-11\n0 người tham gia · Còn 10 chỗ\nLên lịch cho một tuần xanh\nXem hoạt động theo ngày, tránh trùng lịch.\nĐã lưu\nBộ sưu tập",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/settings",
+    "source": "\\settings.tsx",
+    "screenshot": "routes/64-_settings.png",
+    "headings": [
+      "Cài đặt"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Tìm kiếm cài đặt",
+        "disabled": false
+      },
+      {
+        "label": "Hồ sơ cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Âm thanh và rung",
+        "disabled": false
+      },
+      {
+        "label": "Thông báo",
+        "disabled": false
+      },
+      {
+        "label": "Thay đổi mật khẩu",
+        "disabled": false
+      },
+      {
+        "label": "Sửa thông tin cá nhân",
+        "disabled": false
+      },
+      {
+        "label": "Lịch sử đăng nhập",
+        "disabled": false
+      },
+      {
+        "label": "Thiết lập mật mã",
+        "disabled": false
+      },
+      {
+        "label": "Đăng xuất",
+        "disabled": false
+      },
+      {
+        "label": "Múi giờ · Asia/Bangkok",
+        "disabled": false
+      },
+      {
+        "label": "Dùng giao diện hệ thống ✓",
+        "disabled": false
+      },
+      {
+        "label": "Điều khoản và bảo mật",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "Cài đặt\nNgười dùng A ec488bc504db\nalice-ec488bc504db@example.com\nN\nGiao diện tối\nChế độ ban đêm · Đỡ mỏi mắt\nGiao diện sáng\nChế độ ban ngày · Rõ ràng, sáng sủa\nÂm thanh và rung\nChế độ âm thanh · Phản hồi thao tác\nThông báo\nCập nhật trong ứng dụng\nThay đổi mật khẩu\nSửa thông tin cá nhân\nLịch sử đăng nhập\nThiết lập mật mã\nĐăng xuất\nMúi giờ · Asia/Bangkok\nDùng giao diện hệ thống ✓\nĐiều khoản và bảo mật",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/statistics",
+    "source": "\\statistics.tsx",
+    "screenshot": "routes/65-_statistics.png",
+    "headings": [
+      "Thống kê"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      }
+    ],
+    "alerts": [],
+    "text": "\nThống kê\n1\nHành động phân loại đã tự ghi nhận\nKhối lượng xác minh\nChưa có dữ liệu xác minh\nSố dư: 0 điểm\nTổng tích lũy: 0 điểm",
+    "width": 390,
+    "documentWidth": 390
+  },
+  {
+    "route": "/verify-email",
+    "source": "\\verify-email.tsx",
+    "screenshot": "routes/66-_verify-email.png",
+    "headings": [
+      "Kiểm tra email nhé!"
+    ],
+    "buttons": [
+      {
+        "label": "Quay lại",
+        "disabled": false
+      },
+      {
+        "label": "Nhập hoặc dán mã từ email",
+        "disabled": false
+      },
+      {
+        "label": "Xác nhận mã",
+        "disabled": true
+      }
+    ],
+    "alerts": [],
+    "text": "XÁC THỰC EMAIL\nKiểm tra email nhé!\nNhập mã xác thực gồm 6 chữ số đã gửi đến\nemail của bạn\n—\n—\n—\n—\n—\n—\nNhập hoặc dán mã từ email\nXác thực và tiếp tục\nĐừng quên kiểm tra thư mục Spam / Thư rác.",
+    "width": 390,
+    "documentWidth": 390
+  }
+]

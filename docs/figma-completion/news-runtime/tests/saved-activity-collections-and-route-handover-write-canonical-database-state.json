@@ -1,0 +1,613 @@
+{
+  "title": "saved activity collections and route handover write canonical database state",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 14152,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568/check-in-access",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/saved-events/bd33df56-052e-4d87-830a-7ef0a5492568",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568/check-in-access",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/bd33df56-052e-4d87-830a-7ef0a5492568/check-in-access",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/event-collections",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/saved-events/bd33df56-052e-4d87-830a-7ef0a5492568",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/event-collections",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/be7a7b55-5076-4853-b1ea-cec315c660bc/events",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/saved-events/bd33df56-052e-4d87-830a-7ef0a5492568",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/be7a7b55-5076-4853-b1ea-cec315c660bc/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/be7a7b55-5076-4853-b1ea-cec315c660bc/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/saved-events/bd33df56-052e-4d87-830a-7ef0a5492568",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/be7a7b55-5076-4853-b1ea-cec315c660bc/events",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/be7a7b55-5076-4853-b1ea-cec315c660bc/events",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/me/event-collections/be7a7b55-5076-4853-b1ea-cec315c660bc",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/be7a7b55-5076-4853-b1ea-cec315c660bc/events",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/event-collections/1e904f72-1270-4fe7-b277-b33fdb323ff4/events",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/routes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/routes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779/start",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/routes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779/stops/0d0e766a-9a6e-4bd4-af1b-129c158db954/arrive",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/routes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779/stops/0d0e766a-9a6e-4bd4-af1b-129c158db954/handover",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/routes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/routes/be9220fa-c344-4571-b5dc-6d21c619c779",
+      "status": 200
+    }
+  ]
+}

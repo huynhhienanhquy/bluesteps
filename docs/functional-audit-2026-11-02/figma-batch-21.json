@@ -1,0 +1,287 @@
+{
+  "frames": [
+    {
+      "id": "773:6609",
+      "name": "76. Chat / Chọn tệp",
+      "texts": [
+        "Nguyễn Thị Linh Chi",
+        "8 phút trước",
+        "10 thg 10, 2026",
+        "Xin chào, rất vui được làm quen",
+        "Mình cũng rất vui",
+        "Xem trang cá nhân",
+        "Bạn thấy ứng dụng này có hay và hữu ích không nhỉ không chỉ giúp mình phân loại rác mà là như 1 mạng xã hội thu nhỏ vậy!",
+        "Nhắn tin...",
+        "☺",
+        "‹",
+        "Chọn tệp",
+        "Tệp gần đây",
+        "📄",
+        "Huong-dan-phan-loai-rac.pdf",
+        "PDF · 1,2 MB",
+        "Lich-thu-gom-thang-10.pdf",
+        "PDF · 860 KB",
+        "Ghi-chu-tai-che.docx",
+        "DOCX · 32 KB",
+        "Chọn tệp để gửi trong cuộc trò chuyện"
+      ],
+      "interactions": [
+        {
+          "id": "773:6616",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8086",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6631",
+          "name": "Iconly/Regular/Bulk/Camera",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6632",
+          "name": "Nhắn tin...",
+          "label": "Nhắn tin...",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "772:6456",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6633",
+          "name": "Iconly/Regular/Light/Voice",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6514",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6634",
+          "name": "Iconly/Regular/Light/Image 3",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6144",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6635",
+          "name": "Iconly/Regular/Light/Document",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6636",
+          "name": "Iconly/Regular/Light/Plus",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6108",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6637",
+          "name": "Mở bảng emoji",
+          "label": "☺",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6023",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6639",
+          "name": "Files back",
+          "label": "‹",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8151",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6642",
+          "name": "File row 0",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6480",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6645",
+          "name": "File name 0",
+          "label": "Huong-dan-phan-loai-rac.pdf",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6480",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6647",
+          "name": "File row 1",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6480",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6650",
+          "name": "File name 1",
+          "label": "Lich-thu-gom-thang-10.pdf",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6480",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6652",
+          "name": "File row 2",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6480",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "773:6655",
+          "name": "File name 2",
+          "label": "Ghi-chu-tai-che.docx",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "771:6480",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

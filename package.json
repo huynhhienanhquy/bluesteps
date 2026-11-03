@@ -4,15 +4,25 @@
   "private": true,
   "packageManager": "pnpm@11.25.0",
   "scripts": {
+    "api:dev": "node scripts/backend.cjs dev",
+    "api:lan": "node scripts/backend.cjs lan",
+    "api:worker": "node scripts/backend.cjs worker",
+    "api:migrate": "node scripts/backend.cjs migrate",
+    "api:test": "node scripts/backend.cjs test",
+    "api:check": "node scripts/backend.cjs check",
+    "api:types": "node scripts/backend.cjs schema && pnpm --filter @bluesteps/api-client generate",
     "dev": "pnpm --filter @bluesteps/mobile start",
+    "dev:connected": "node scripts/dev-connected.cjs",
     "go": "pnpm --filter @bluesteps/mobile go",
+    "go:connected": "node scripts/dev-connected.cjs --go",
+    "go:tunnel:connected": "node scripts/dev-connected.cjs --go --tunnel",
     "go:tunnel": "pnpm --filter @bluesteps/mobile go:tunnel",
     "go:link": "pnpm --filter @bluesteps/mobile go:link",
     "web": "pnpm --filter @bluesteps/mobile web",
-    "demo": "pnpm web",
     "typecheck": "pnpm --filter @bluesteps/mobile typecheck",
     "lint": "pnpm --filter @bluesteps/mobile lint",
     "test": "pnpm --filter @bluesteps/mobile test",
+    "check:live-data": "pnpm --filter @bluesteps/mobile check:live-data",
     "test:e2e": "pnpm --filter @bluesteps/mobile test:e2e",
     "preview": "pnpm --filter @bluesteps/mobile preview",
     "bundle:native": "pnpm --filter @bluesteps/mobile exec expo export --platform android --platform ios --output-dir dist-native",
@@ -20,7 +30,7 @@
     "build": "pnpm --filter @bluesteps/mobile build",
     "format": "pnpm --filter @bluesteps/mobile format",
     "format:check": "pnpm --filter @bluesteps/mobile format:check",
-    "check:app": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm bundle:native && pnpm check:native-config",
-    "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm build && pnpm check:native-config"
+    "check:app": "pnpm check:live-data && pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm bundle:native && pnpm check:native-config",
+    "check": "pnpm check:live-data && pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm build && pnpm check:native-config"
   }
 }

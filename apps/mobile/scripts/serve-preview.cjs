@@ -13,6 +13,7 @@ const types = {
   '.jpeg': 'image/jpeg',
   '.webp': 'image/webp',
   '.json': 'application/json',
+  '.wav': 'audio/wav',
 };
 http
   .createServer((req, res) => {

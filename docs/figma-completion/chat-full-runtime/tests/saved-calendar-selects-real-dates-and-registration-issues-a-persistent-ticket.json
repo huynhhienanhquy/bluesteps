@@ -1,0 +1,203 @@
+{
+  "title": "saved calendar selects real dates and registration issues a persistent ticket",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 11089,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3fc79529-1853-48d3-b9f2-cdf185342826",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3fc79529-1853-48d3-b9f2-cdf185342826/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3fc79529-1853-48d3-b9f2-cdf185342826/check-in-access",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/saved-events/3fc79529-1853-48d3-b9f2-cdf185342826",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3fc79529-1853-48d3-b9f2-cdf185342826",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3fc79529-1853-48d3-b9f2-cdf185342826/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/3fc79529-1853-48d3-b9f2-cdf185342826/check-in-access",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/calendar",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/calendar",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/calendar",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/ac79b31a-7bb9-4764-a6a3-bb229ed53a08",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/events/ac79b31a-7bb9-4764-a6a3-bb229ed53a08/registrations",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/ac79b31a-7bb9-4764-a6a3-bb229ed53a08",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/ac79b31a-7bb9-4764-a6a3-bb229ed53a08/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events/ac79b31a-7bb9-4764-a6a3-bb229ed53a08/ticket",
+      "status": 200
+    }
+  ]
+}

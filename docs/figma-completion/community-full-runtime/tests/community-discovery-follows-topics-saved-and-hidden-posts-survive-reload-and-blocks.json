@@ -1,0 +1,628 @@
+{
+  "title": "community discovery follows, topics, saved and hidden posts survive reload and blocks",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 44169,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posts",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/5a050db8-b21b-47ee-82fe-25fefac41f30/comments",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/5a050db8-b21b-47ee-82fe-25fefac41f30",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/statistics",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/followed-members/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/posts/5a050db8-b21b-47ee-82fe-25fefac41f30/reaction",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/topics",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/topics",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/saved-posts/5a050db8-b21b-47ee-82fe-25fefac41f30",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-posts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-posts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/hidden-posts/5a050db8-b21b-47ee-82fe-25fefac41f30",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/hidden-posts",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/me/hidden-posts/5a050db8-b21b-47ee-82fe-25fefac41f30",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/hidden-posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-posts",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/me/saved-posts/5a050db8-b21b-47ee-82fe-25fefac41f30",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/blocks/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/5a050db8-b21b-47ee-82fe-25fefac41f30/comments",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/5a050db8-b21b-47ee-82fe-25fefac41f30",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/blocked-members",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/me/blocks/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/blocked-members",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/b2e42dc1-9b79-4c88-9f68-54333a08cbe6",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    }
+  ]
+}

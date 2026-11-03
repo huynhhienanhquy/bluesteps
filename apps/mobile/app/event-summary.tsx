@@ -1,1 +1,1 @@
-export { EventSummaryScreen as default } from '../src/features/events/EventParticipationScreens';
+export { EventSummaryScreen as default } from '../src/features/live/EventScreens';

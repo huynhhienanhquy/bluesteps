@@ -1,4 +1,11 @@
-import { Stack, usePathname } from 'expo-router';
+import {
+  router,
+  Stack,
+  useGlobalSearchParams,
+  usePathname,
+  useRootNavigationState,
+} from 'expo-router';
+import { useEffect, useRef } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { AppProviders, useApp } from '../src/providers';
@@ -22,10 +29,41 @@ import { Poppins_500Medium } from '@expo-google-fonts/poppins/500Medium';
 import { Poppins_400Regular } from '@expo-google-fonts/poppins/400Regular';
 import { Poppins_700Bold } from '@expo-google-fonts/poppins/700Bold';
 import { Mulish_400Regular } from '@expo-google-fonts/mulish/400Regular';
+import { Loading } from '../src/design-system/ui';
+import { OnboardingProvider, useOnboarding } from '../src/features/live/OnboardingProvider';
+import { NotificationRuntime } from '../src/features/live/NotificationRuntime';
+import { PinGate } from '../src/features/live/PinGate';
+import { isAuthPage, safeAuthReturn, screenAddress } from '../src/services/auth-return';
 
 function Navigation() {
-  const { dark, colors } = useApp();
+  const { dark, colors, status } = useApp();
+  const { completed } = useOnboarding();
   const pathname = usePathname();
+  const params = useGlobalSearchParams();
+  const address = screenAddress(pathname, params);
+  const previousPage = useRef<string | undefined>(undefined);
+  const navigation = useRootNavigationState();
+  const restoring = completed === null || status === 'loading';
+  const needsOnboarding = !restoring && !completed && status !== 'authenticated';
+  const redirecting = needsOnboarding && pathname !== '/onboarding';
+  useEffect(() => {
+    if (!navigation?.key || restoring) return;
+    const returnTo = safeAuthReturn(params.returnTo);
+    if (redirecting) {
+      const destination = returnTo ?? safeAuthReturn(address) ?? previousPage.current;
+      router.replace({
+        pathname: '/onboarding',
+        params: {
+          ...(destination ? { returnTo: destination } : {}),
+          ...(pathname === '/register' || pathname === '/forgot-password'
+            ? { nextAuth: pathname }
+            : {}),
+        },
+      });
+    } else if (isAuthPage(pathname)) {
+      if (!returnTo && previousPage.current) router.setParams({ returnTo: previousPage.current });
+    } else previousPage.current = safeAuthReturn(address);
+  }, [navigation?.key, redirecting, restoring, pathname, address, params.returnTo]);
   const routeCorners =
     Platform.OS === 'web' &&
     (['/collection-directions', '/collection-route'].includes(pathname) ||
@@ -43,8 +81,9 @@ function Navigation() {
     '/connected-account',
   ].includes(pathname);
   return (
-    <>
+    <PinGate>
       <StatusBar style={dark ? 'light' : 'dark'} />
+      <NotificationRuntime />
       <View
         style={{
           flex: 1,
@@ -69,14 +108,31 @@ function Navigation() {
           borderBottomRightRadius: routeCorners ? 50 : undefined,
         }}
       >
-        <Stack
-          screenOptions={{
-            headerShown: false,
-            contentStyle: { backgroundColor: colors.background },
-          }}
-        />
+        <View
+          style={{ flex: 1, opacity: restoring || redirecting ? 0 : 1 }}
+          pointerEvents={restoring || redirecting ? 'none' : 'auto'}
+        >
+          <Stack
+            screenOptions={{
+              headerShown: false,
+              contentStyle: { backgroundColor: colors.background },
+            }}
+          />
+        </View>
+        {restoring || redirecting ? (
+          <View
+            style={{
+              position: 'absolute',
+              inset: 0,
+              backgroundColor: colors.background,
+              justifyContent: 'center',
+            }}
+          >
+            <Loading />
+          </View>
+        ) : null}
       </View>
-    </>
+    </PinGate>
   );
 }
 export default function RootLayout() {
@@ -115,7 +171,9 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <AppProviders>
-        <Navigation />
+        <OnboardingProvider>
+          <Navigation />
+        </OnboardingProvider>
       </AppProviders>
     </SafeAreaProvider>
   );

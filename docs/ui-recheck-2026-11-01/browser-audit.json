@@ -1,0 +1,5480 @@
+{
+  "capturedAt": "2026-11-01T16:45:57.843Z",
+  "platform": "Headless Chrome / React Native Web; not native acceptance",
+  "baseURL": "http://127.0.0.1:4173",
+  "viewport": {
+    "width": 428,
+    "height": 926
+  },
+  "session": "guest; no login, no data mutations or interception",
+  "publicReads": {
+    "events": {
+      "status": 200,
+      "publishedItemsInFirstPage": 0
+    },
+    "articles": {
+      "status": 200,
+      "publishedItemsInFirstPage": 0
+    },
+    "waste-items": {
+      "status": 200,
+      "publishedItemsInFirstPage": 0
+    },
+    "collection-points": {
+      "status": 200,
+      "publishedItemsInFirstPage": 0
+    },
+    "rewards": {
+      "status": 200,
+      "publishedItemsInFirstPage": 0
+    }
+  },
+  "knownResourceSamples": [],
+  "routes": [
+    {
+      "route": "/collection",
+      "url": "/collection",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Bản đồ sẽ hiển thị khi có điểm thu gom được công bố.\nKhám phá\nBộ lọc\nHành trình\nĐề xuất địa điểm\nĐiểm thu gom\n\nChưa có điểm thu gom được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Khám phá",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 13,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 80,
+          "height": 80
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 45,
+          "height": 45
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/01-collection.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/collection-points",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "url": "/",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nChào bạn!\nHôm nay, mình cùng sống xanh nhé.\nBLUENSTEPS · MỖI NGÀY XANH\nPhân loại rác.\nGieo mầm xanh.\nBắt đầu từ một món đồ nhỏ.\nTạo nên những thay đổi lớn.\nQuét rác ngay\nBạn muốn làm gì?\nPhân loại\nThu gom\nCộng đồng\nTin tức\nĐIỂM XANH CỦA BẠN\n—\nĐăng nhập\nPhân loại rác mỗi ngày\nBắt đầu\nHoạt động xanh\nĐã lưu\n\nChưa có hoạt động được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nSổ tay phân loại\nTất cả\nNhựa\nGiấy\nPin\nGóc sống xanh\nXem thêm\n\nChưa có bài đọc được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nĐi cùng nhau,\nxanh hơn mỗi ngày.\nChia sẻ một hành động nhỏ để lan tỏa\ncảm hứng sống xanh đến mọi người.\nGhé cộng đồng →\nTin nhắn →\nMỗi bước nhỏ của bạn đều có ý nghĩa.\nTrang chủ\nThu gom\nQuét rác\nĐổi quà\nCá nhân",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chào bạn!",
+          "font": "Montserrat_700Bold",
+          "size": "21px"
+        },
+        {
+          "text": "Bạn muốn làm gì?",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Hoạt động xanh",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Sổ tay phân loại",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Góc sống xanh",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 122,
+          "height": 145
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 585,
+          "height": 585
+        },
+        {
+          "loaded": true,
+          "width": 239,
+          "height": 239
+        },
+        {
+          "loaded": true,
+          "width": 649,
+          "height": 640
+        },
+        {
+          "loaded": true,
+          "width": 38,
+          "height": 38
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        }
+      ],
+      "screenshot": "screenshots/02-home.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/articles",
+          "status": 200
+        },
+        {
+          "path": "/v1/events",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/profile",
+      "url": "/profile",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Cá nhân\n\nChào bạn!\nĐăng nhập để lưu hành trình\nBLUESTEPS · MỖI NGÀY XANH\nMột hành động nhỏ mỗi ngày.\nĐăng nhập\n—\nĐiểm hiện có\n—\nHành động phân loại\nHành trình của bạn\nThành tích\nLịch sử\nĐã lưu\nThống kê\nTài khoản của bạn\nThông tin cá nhân\nCập nhật tên, email và giới thiệu\nThông báo\nTheo dõi các cập nhật dành cho bạn\nCài đặt ứng dụng\nGiao diện, bảo mật và tùy chọn khác\nHoạt động gần đây\nXem tất cả\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nHành trình xanh,\ncùng nhau sẽ vui hơn.\nGhé thăm cộng đồng →\nMột hành động nhỏ, một phiên bản tốt hơn.\nTrang chủ\nThu gom\nQuét rác\nĐổi quà\nCá nhân",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Cá nhân",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Hành trình của bạn",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Tài khoản của bạn",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Hoạt động gần đây",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 82,
+          "height": 94
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 19,
+          "height": 19
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 19,
+          "height": 19
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 19,
+          "height": 19
+        },
+        {
+          "loaded": true,
+          "width": 36,
+          "height": 36
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        }
+      ],
+      "screenshot": "screenshots/03-profile.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/rewards",
+      "url": "/rewards",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Tích điểm & phần thưởng\nHành trình xanh của bạn\nCùng BlueSteps sống xanh mỗi ngày\n\nTổng điểm tích lũy: — điểm\nChưa mở hệ thống cấp bậc\nĐiểm hiện tại của bạn:\n— điểm\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nLộ trình minh họa · Chưa cấp thành tích\n\nMầm xanh\n\nNgười Bảo Vệ Trái Đất\n\nChiến Binh Tái Chế\n\nĐại sứ xanh\n\nNgười Gìn Giữ Hành Tinh\n\nAnh Hùng Sinh Thái\n\nHộ Vệ Thiên Nhiên\n\nTinh Linh Môi Trường\n\nĐại sứ xanh\n\nNgười Gìn Giữ Hành Tinh\n\nAnh Hùng Sinh Thái\nCách tính điểm\nPhần thưởng\nLịch sử\nCấp bậc và chương trình thưởng chưa được mở. Số dư và lịch sử hiển thị theo tài khoản của bạn.\nKhám phá phần thưởng",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Tích điểm & phần thưởng",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 735,
+          "height": 1104
+        },
+        {
+          "loaded": true,
+          "width": 395,
+          "height": 632
+        },
+        {
+          "loaded": true,
+          "width": 85,
+          "height": 39
+        },
+        {
+          "loaded": true,
+          "width": 146,
+          "height": 144
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 500,
+          "height": 500
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 440,
+          "height": 568
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 249,
+          "height": 249
+        }
+      ],
+      "screenshot": "screenshots/04-rewards.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/scan",
+      "url": "/scan",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Phân loại rác\nMở camera\nChọn ảnh từ thư viện\nChọn vật phẩm để xem hướng dẫn và ghi nhận phân loại\n\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Phân loại rác",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/05-scan.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/achievements",
+      "url": "/achievements",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nThành tích\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Thành tích",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/06-achievements.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/briefs",
+      "url": "/articles/briefs",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Bản tin nhanh\n♥ Đã lưu\nTất cả\nTin mới nhất\nSự kiện sắp tới\nTất cả bài viết\nXem thêm →\n\nChưa có bài viết khác được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Bản tin nhanh",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        },
+        {
+          "text": "Tất cả bài viết",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/07-articles-briefs.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/articles",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/calendar",
+      "url": "/articles/calendar",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Khám phá hoạt động\nMột việc nhỏ,\nmột thay đổi xanh.\nTìm hoạt động ý nghĩa, cùng cộng đồng.\nTìm hoạt động\nKhu vực\nTuần này\nChủ đề\nDọn rác\nTrồng cây\nPhân loại\nDành cho cuối tuần của bạn\n\nChưa có hoạt động phù hợp\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nLên lịch cho một tuần xanh\nXem hoạt động theo ngày, tránh trùng lịch.\nĐã lưu\nBộ sưu tập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Khám phá hoạt động",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        },
+        {
+          "text": "Dành cho cuối tuần của bạn",
+          "font": "Inter_600SemiBold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/08-articles-calendar.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/events",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/discussion",
+      "url": "/articles/discussion",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nThảo luận bài đọc\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nDữ liệu không hợp lệ.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Thảo luận bài đọc",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/09-articles-discussion.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/articles/undefined/comments",
+          "status": 422
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/events/[id]",
+      "url": "/articles/events/00000000-0000-4000-8000-000000000001",
+      "status": 200,
+      "displayState": "missing-resource",
+      "text": "\n\nKhông tìm thấy tài nguyên.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1980,
+          "height": 1992
+        },
+        {
+          "loaded": true,
+          "width": 1980,
+          "height": 1992
+        },
+        {
+          "loaded": true,
+          "width": 1980,
+          "height": 1992
+        },
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 87,
+          "height": 47
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 249,
+          "height": 249
+        }
+      ],
+      "screenshot": "screenshots/10-articles-events--id-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/events",
+          "status": 200
+        },
+        {
+          "path": "/v1/events/00000000-0000-4000-8000-000000000001",
+          "status": 404
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles",
+      "url": "/articles",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH\n1\nCập nhật hôm nay, bảo vệ mai sau\n2\nBắt đầu hành trình xanh\n3\nTìm hiểu ngay\nCộng đồng xanh\nHành động nhỏ, tương lai xanh\n♥ Đã lưu\nTất cả\nTin mới nhất\nSự kiện sắp tới\nBài nổi bật\nXem thêm\n\nChưa có bài viết nổi bật\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nTất cả bài viết\nXem thêm →\n\nChưa có bài viết khác được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        },
+        {
+          "text": "Tất cả bài viết",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1024,
+          "height": 535
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 14,
+          "height": 14
+        },
+        {
+          "loaded": true,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 14,
+          "height": 14
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 87,
+          "height": 47
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/11-articles.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/articles",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/reading-list",
+      "url": "/articles/reading-list",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/12-articles-reading-list.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/saved",
+      "url": "/articles/saved",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/13-articles-saved.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/search",
+      "url": "/articles/search",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Tìm kiếm và kết quả\n♥ Đã lưu\nTất cả\nTin mới nhất\nSự kiện sắp tới\nTất cả bài viết\nXem thêm →\n\nChưa có bài viết khác được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Tìm kiếm và kết quả",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        },
+        {
+          "text": "Tất cả bài viết",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/14-articles-search.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/articles",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/topics",
+      "url": "/articles/topics",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nChủ đề bài đọc\n\nChưa có dữ liệu\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chủ đề bài đọc",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/15-articles-topics.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/article-topics",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/articles/[id]",
+      "url": "/articles/00000000-0000-4000-8000-000000000001",
+      "status": 200,
+      "displayState": "missing-resource",
+      "text": "\nBài viết\nKhông tìm thấy tài nguyên.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Bài viết",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/16-articles--id-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/articles/00000000-0000-4000-8000-000000000001/engagement",
+          "status": 404
+        },
+        {
+          "path": "/v1/articles/00000000-0000-4000-8000-000000000001",
+          "status": 404
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/assistant",
+      "url": "/assistant",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nTrợ lý phân loại\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Trợ lý phân loại",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/17-assistant.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/calendar",
+      "url": "/calendar",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Lịch hoạt động\nTháng\nTuần\nTháng 11, 2026\nT2\nT3\nT4\nT5\nT6\nT7\nCN\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\nCó hoạt động đã lưu\nChủ Nhật, 1 tháng 11\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nLịch sử tham gia\nHoạt động đã tham gia\nTổng kết sẽ xuất hiện khi có kết quả đã xác minh.\nXem tổng kết hoạt động\nVé của tôi\nVé của tôi\nVé chỉ xuất hiện sau khi hệ thống xác nhận đăng ký. Chỉ lưu hoặc quan tâm sẽ chưa có vé.\nXem vé tham gia\nVề hôm nay\nCài đặt nhắc lịch\nMúi giờ: Asia/Ho_Chi_Minh\nXem hoạt động ngày 1/11\nKhám phá thêm hoạt động",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Lịch hoạt động",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        },
+        {
+          "text": "Tháng 11, 2026",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        },
+        {
+          "text": "Chủ Nhật, 1 tháng 11",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        },
+        {
+          "text": "Lịch sử tham gia",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        },
+        {
+          "text": "Vé của tôi",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "loaded": true,
+          "width": 14,
+          "height": 14
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 4,
+          "height": 4
+        }
+      ],
+      "screenshot": "screenshots/18-calendar.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/change-password",
+      "url": "/change-password",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "BẢO MẬT TÀI KHOẢN\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "screenshot": "screenshots/19-change-password.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-arrival",
+      "url": "/collection-arrival",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nBàn giao tại điểm\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Bàn giao tại điểm",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/20-collection-arrival.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-compare",
+      "url": "/collection-compare",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nSo sánh điểm thu gom\nChọn ít nhất hai điểm trong danh sách thu gom để so sánh.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "So sánh điểm thu gom",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/21-collection-compare.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-directions",
+      "url": "/collection-directions",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nChi tiết hành trình\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chi tiết hành trình",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/22-collection-directions.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-explore",
+      "url": "/collection-explore",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Bản đồ sẽ hiển thị khi có điểm thu gom được công bố.\nKhám phá\nBộ lọc\nHành trình\nĐề xuất địa điểm\nĐiểm thu gom\n\nChưa có điểm thu gom được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Khám phá",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 13,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 80,
+          "height": 80
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 45,
+          "height": 45
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/23-collection-explore.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/collection-points",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-filters",
+      "url": "/collection-filters",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nLọc điểm thu gom\nNhận tất cả vật liệu\nNhận một trong các vật liệu\n\nChưa có dữ liệu\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nÁp dụng bộ lọc\nXóa bộ lọc",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Lọc điểm thu gom",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/24-collection-filters.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-materials",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-navigation",
+      "url": "/collection-navigation",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nChi tiết hành trình\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chi tiết hành trình",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/25-collection-navigation.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-replacement",
+      "url": "/collection-replacement",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nChỉnh sửa hành trình\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chỉnh sửa hành trình",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/26-collection-replacement.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/collection-points",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/collection-route",
+      "url": "/collection-route",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nChi tiết hành trình\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chi tiết hành trình",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/27-collection-route.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/community",
+      "url": "/community",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nCộng đồng\nViết bài\nBảng tin\nĐã lưu\n\nChưa có bài viết\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Cộng đồng",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/28-community.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/posts",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/compose",
+      "url": "/compose",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nViết bài\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Viết bài",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/29-compose.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/connected-account",
+      "url": "/connected-account",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Lịch sử đăng nhập\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Lịch sử đăng nhập",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "screenshot": "screenshots/30-connected-account.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/conversation",
+      "url": "/conversation",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nHội thoại\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Hội thoại",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/31-conversation.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/discussion",
+      "url": "/discussion",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nBài viết\nDữ liệu không hợp lệ.\nThử lại\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nDữ liệu không hợp lệ.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Bài viết",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/32-discussion.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/posts/undefined",
+          "status": 422
+        },
+        {
+          "path": "/v1/posts/undefined/comments",
+          "status": 422
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/edit-profile",
+      "url": "/edit-profile",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Chỉnh sửa\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chỉnh sửa",
+          "font": "Inter_700Bold",
+          "size": "32px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "screenshot": "screenshots/33-edit-profile.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/event-collections",
+      "url": "/event-collections",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nBộ sưu tập hoạt động\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Bộ sưu tập hoạt động",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/34-event-collections.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/event-reminders",
+      "url": "/event-reminders",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nNhắc lịch hoạt động\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Nhắc lịch hoạt động",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/35-event-reminders.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/event-summary",
+      "url": "/event-summary",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nTổng kết hoạt động\nChưa có báo cáo kết quả hoạt động đã xác minh để hiển thị.\nXem hoạt động",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Tổng kết hoạt động",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/36-event-summary.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/event-ticket",
+      "url": "/event-ticket",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nVé tham gia\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Vé tham gia",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/37-event-ticket.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/events",
+      "url": "/events",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Khám phá hoạt động\nMột việc nhỏ,\nmột thay đổi xanh.\nTìm hoạt động ý nghĩa, cùng cộng đồng.\nTìm hoạt động\nKhu vực\nTuần này\nChủ đề\nDọn rác\nTrồng cây\nPhân loại\nDành cho cuối tuần của bạn\n\nChưa có hoạt động phù hợp\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nLên lịch cho một tuần xanh\nXem hoạt động theo ngày, tránh trùng lịch.\nĐã lưu\nBộ sưu tập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Khám phá hoạt động",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        },
+        {
+          "text": "Dành cho cuối tuần của bạn",
+          "font": "Inter_600SemiBold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/38-events.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/events",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/events/[id]",
+      "url": "/events/00000000-0000-4000-8000-000000000001",
+      "status": 200,
+      "displayState": "missing-resource",
+      "text": "\n\nKhông tìm thấy tài nguyên.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1980,
+          "height": 1992
+        },
+        {
+          "loaded": true,
+          "width": 1980,
+          "height": 1992
+        },
+        {
+          "loaded": true,
+          "width": 1980,
+          "height": 1992
+        },
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 87,
+          "height": 47
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 249,
+          "height": 249
+        }
+      ],
+      "screenshot": "screenshots/39-events--id-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/events",
+          "status": 200
+        },
+        {
+          "path": "/v1/events/00000000-0000-4000-8000-000000000001",
+          "status": 404
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/forgot-password",
+      "url": "/forgot-password",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "KHÔI PHỤC TÀI KHOẢN\nQuên mật khẩu?\nĐừng lo, chúng tôi sẽ gửi mã xác thực để giúp bạn lấy lại quyền truy cập.\nEmail đã đăng ký\nChúng tôi chỉ gửi mã đến email\nđược liên kết với tài khoản của bạn.\nGửi mã xác thực\nQuay lại đăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Quên mật khẩu?",
+          "font": "Montserrat_700Bold",
+          "size": "32px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 280,
+          "height": 214
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        }
+      ],
+      "screenshot": "screenshots/40-forgot-password.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/game",
+      "url": "/game",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nTrò chơi\nTrò chơi chưa được mở trên hệ thống.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Trò chơi",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/41-game.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/games",
+          "status": 503
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/handbook/category/[category]",
+      "url": "/handbook/category/recycle",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nRác tái chế\n\nChưa có vật phẩm trong nhóm này\nNhóm sẽ hiển thị khi có hướng dẫn được công bố.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Sổ tay rác",
+          "font": "Roboto_800ExtraBold",
+          "size": "32px"
+        },
+        {
+          "text": "Rác tái chế",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 12,
+          "height": 20
+        },
+        {
+          "loaded": true,
+          "width": 489,
+          "height": 510
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": "screenshots/42-handbook-category--category-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-categories",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/handbook",
+      "url": "/handbook",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nRác tái chế\nRác hữu cơ\nRác vô cơ\nNếu chưa\nbiết rác loại nào\n-hãy vào đây\nXem tất cả\nTra cứu vật phẩm\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Sổ tay rác",
+          "font": "Roboto_800ExtraBold",
+          "size": "32px"
+        },
+        {
+          "text": "Tra cứu vật phẩm",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 12,
+          "height": 20
+        },
+        {
+          "loaded": true,
+          "width": 489,
+          "height": 510
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 246,
+          "height": 246
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 61,
+          "height": 51
+        },
+        {
+          "loaded": true,
+          "width": 113,
+          "height": 86
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": "screenshots/43-handbook.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/handbook/list",
+      "url": "/handbook/list",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nTất cả vật phẩm\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Sổ tay rác",
+          "font": "Roboto_800ExtraBold",
+          "size": "32px"
+        },
+        {
+          "text": "Tất cả vật phẩm",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 12,
+          "height": 20
+        },
+        {
+          "loaded": true,
+          "width": 489,
+          "height": 510
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": "screenshots/44-handbook-list.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/handbook/types/[kind]",
+      "url": "/handbook/types/plastic",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nNhựa\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Sổ tay rác",
+          "font": "Roboto_800ExtraBold",
+          "size": "32px"
+        },
+        {
+          "text": "Nhựa",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 12,
+          "height": 20
+        },
+        {
+          "loaded": true,
+          "width": 489,
+          "height": 510
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": "screenshots/45-handbook-types--kind-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/handbook/[id]",
+      "url": "/handbook/00000000-0000-4000-8000-000000000001",
+      "status": 200,
+      "displayState": "missing-resource",
+      "text": "Chi tiết vật phẩm\nKhông tìm thấy tài nguyên.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chi tiết vật phẩm",
+          "font": "Inter_700Bold",
+          "size": "19px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": "screenshots/46-handbook--id-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items/00000000-0000-4000-8000-000000000001",
+          "status": 404
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/history",
+      "url": "/history",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Lịch sử\n\n— điểm\nTìm thêm điểm\n\nLịch sử tích điểm và đổi quà\n🌱 Phân loại rác - Sống xanh mỗi ngày cùng BlueSteps ♻\nTất cả\nTháng này\nTuần này\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nKhám phá phần thưởng",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Lịch sử",
+          "font": "Inter_700Bold",
+          "size": "28px"
+        },
+        {
+          "text": "Lịch sử tích điểm và đổi quà",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 249,
+          "height": 249
+        }
+      ],
+      "screenshot": "screenshots/47-history.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/journey",
+      "url": "/journey",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nHành trình thu gom\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Hành trình thu gom",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/48-journey.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/collection-points",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/legal",
+      "url": "/legal",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nĐiều khoản và bảo mật\nỨng dụng lưu thông tin tài khoản và các thao tác bạn gửi đến hệ thống. Không công khai email, ngày sinh hoặc nội dung hội thoại cho người ngoài.\nĐiều khoản pháp lý đầy đủ sẽ được đơn vị vận hành công bố trước khi mở dịch vụ cho người dùng thật.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Điều khoản và bảo mật",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/49-legal.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/login",
+      "url": "/login",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "BlueSteps\nChào bạn,\nmừng trở lại!\nTiếp tục những bước nhỏ\nvì một hành tinh xanh.\nEmail\nMật khẩu\nPhiên được lưu an toàn\nQuên mật khẩu?\nĐăng nhập\nhoặc tiếp tục với\nGoogle\nFacebook\nChưa có tài khoản? Đăng ký ngay\nThông tin của bạn được bảo vệ",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chào bạn,\nmừng trở lại!",
+          "font": "Montserrat_700Bold",
+          "size": "29px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 150,
+          "height": 150
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        }
+      ],
+      "screenshot": "screenshots/50-login.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/messages",
+      "url": "/messages",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nTin nhắn\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Tin nhắn",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/51-messages.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/notifications",
+      "url": "/notifications",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nThông báo\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Thông báo",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/52-notifications.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/onboarding",
+      "url": "/onboarding",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "BlueSteps\nBƯỚC NHỎ · THAY ĐỔI LỚN\nCùng bạn nuôi dưỡng hành tinh xanh",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "BlueSteps",
+          "font": "Montserrat_700Bold",
+          "size": "39px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 380,
+          "height": 300
+        }
+      ],
+      "screenshot": "screenshots/53-onboarding.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/point-proposal",
+      "url": "/point-proposal",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nĐề xuất điểm thu gom\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Đề xuất điểm thu gom",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/54-point-proposal.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-materials",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/point-report",
+      "url": "/point-report",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nBáo cáo điểm thu gom\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Báo cáo điểm thu gom",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/55-point-report.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/points/[id]",
+      "url": "/points/00000000-0000-4000-8000-000000000001",
+      "status": 200,
+      "displayState": "missing-resource",
+      "text": "\nĐiểm thu gom\nKhông tìm thấy tài nguyên.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Điểm thu gom",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/56-points--id-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/collection-points/00000000-0000-4000-8000-000000000001",
+          "status": 404
+        },
+        {
+          "path": "/v1/collection-points/00000000-0000-4000-8000-000000000001/reviews",
+          "status": 404
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/register",
+      "url": "/register",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "TẠO TÀI KHOẢN\nBắt đầu cùng\nBlueSteps.\nLưu hành trình sống xanh và nhận những gợi ý dành riêng cho bạn.\nHọ và tên\nEmail\nMật khẩu\nTôi đồng ý với Điều khoản và Chính sách bảo mật.\nTạo tài khoản\nĐã có tài khoản? Đăng nhập\nMột tài khoản. Nhiều hành động có ý nghĩa.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Bắt đầu cùng\nBlueSteps.",
+          "font": "Montserrat_700Bold",
+          "size": "32px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 54,
+          "height": 54
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "screenshot": "screenshots/57-register.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/registration",
+      "url": "/registration",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Đăng ký tham gia\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Đăng ký tham gia",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "screenshot": "screenshots/58-registration.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/reset-password",
+      "url": "/reset-password",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "MẬT KHẨU MỚI\nĐặt mật khẩu\nmới cho bạn.\nTạo mật khẩu mới để tiếp tục hành trình sống xanh của bạn.\nHãy xác minh email trước khi đặt lại mật khẩu.\nKhôi phục mật khẩu",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Đặt mật khẩu\nmới cho bạn.",
+          "font": "Montserrat_700Bold",
+          "size": "32px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 280,
+          "height": 180
+        }
+      ],
+      "screenshot": "screenshots/59-reset-password.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/rewards/catalog",
+      "url": "/rewards/catalog",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Phần thưởng\n\n— điểm\nLịch sử\n\nĐiểm danh mỗi ngày\nNhắc tôi\nHôm nay\nNgày 2\nNgày 3\nNgày 4\nNgày 5\nNgày 6\nNgày 7\nChương trình chưa mở\nĐỔI CÁC PHẦN QUÀ\nGom rác, tích xanh - Đổi quà thật nhanh!\nTất cả\n🌱 Phân loại rác - Sống xanh mỗi ngày cùng BlueSteps ♻\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\n\nChưa có quà được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nCách quy đổi điểm xanh",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Phần thưởng",
+          "font": "Inter_700Bold",
+          "size": "28px"
+        },
+        {
+          "text": "ĐỔI CÁC PHẦN QUÀ",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 2019,
+          "height": 2019
+        },
+        {
+          "loaded": true,
+          "width": 2019,
+          "height": 2019
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 500,
+          "height": 401
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 249,
+          "height": 249
+        }
+      ],
+      "screenshot": "screenshots/60-rewards-catalog.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/rewards",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/rewards/guide",
+      "url": "/rewards/guide",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Quy đổi điểm xanh\n\n— điểm\nTổng điểm tích lũy\n— điểm\nChương trình chưa mở\nCách tính điểm / 1 lần quét\nHãy cùng chung tay bảo vệ môi trường!\nHành động phân loại tự ghi nhận hiện không được cấp điểm. Quy tắc tích điểm và đổi quà sẽ được công bố khi chương trình mở.\nRác tái chế\nRác vô cơ\nRác hữu cơ\nĐổi thưởng\n\nChỉ các hành động đủ điều kiện theo quy tắc công bố mới được cấp điểm. Chưa có chương trình thưởng đang mở.\nXem ví",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Quy đổi điểm xanh",
+          "font": "Inter_700Bold",
+          "size": "28px"
+        },
+        {
+          "text": "Cách tính điểm / 1 lần quét",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 960,
+          "height": 1610
+        },
+        {
+          "loaded": true,
+          "width": 500,
+          "height": 500
+        },
+        {
+          "loaded": true,
+          "width": 239,
+          "height": 239
+        },
+        {
+          "loaded": true,
+          "width": 39,
+          "height": 45
+        },
+        {
+          "loaded": true,
+          "width": 239,
+          "height": 239
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 239,
+          "height": 239
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 239,
+          "height": 239
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 450,
+          "height": 450
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 212,
+          "height": 238
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 249,
+          "height": 249
+        }
+      ],
+      "screenshot": "screenshots/61-rewards-guide.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/rewards/[id]",
+      "url": "/rewards/00000000-0000-4000-8000-000000000001",
+      "status": 200,
+      "displayState": "missing-resource",
+      "text": "\nChi tiết quà\nKhông tìm thấy tài nguyên.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Chi tiết quà",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/62-rewards--id-.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/rewards/00000000-0000-4000-8000-000000000001",
+          "status": 404
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/saved",
+      "url": "/saved",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Hoạt động đã lưu\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Hoạt động đã lưu",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/63-saved.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/settings",
+      "url": "/settings",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Cài đặt\nChào bạn!\nĐăng nhập để lưu cài đặt\n\nGiao diện tối\nChế độ ban đêm · Đỡ mỏi mắt\nGiao diện sáng\nChế độ ban ngày · Rõ ràng, sáng sủa\nÂm thanh và rung\nChế độ âm thanh · Phản hồi thao tác\nThông báo\nCập nhật trong ứng dụng\nThay đổi mật khẩu\nSửa thông tin cá nhân\nLịch sử đăng nhập\nThiết lập mật mã\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nĐiều khoản và bảo mật",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Cài đặt",
+          "font": "Inter_700Bold",
+          "size": "32px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        }
+      ],
+      "screenshot": "screenshots/64-settings.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/statistics",
+      "url": "/statistics",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nThống kê\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Thống kê",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/65-statistics.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "route": "/verify-email",
+      "url": "/verify-email",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "XÁC THỰC EMAIL\nKiểm tra email nhé!\nNhập mã xác thực gồm 6 chữ số đã gửi đến\nemail của bạn\n—\n—\n—\n—\n—\n—\nNhập hoặc dán mã từ email\nXác thực và tiếp tục\nĐừng quên kiểm tra thư mục Spam / Thư rác.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Kiểm tra email nhé!",
+          "font": "Montserrat_700Bold",
+          "size": "32px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 280,
+          "height": 164
+        }
+      ],
+      "screenshot": "screenshots/66-verify-email.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "variants": [
+    {
+      "url": "/onboarding?step=0",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "BlueSteps\nBƯỚC NHỎ · THAY ĐỔI LỚN\nCùng bạn nuôi dưỡng hành tinh xanh",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "BlueSteps",
+          "font": "Montserrat_700Bold",
+          "size": "39px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 380,
+          "height": 300
+        }
+      ],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": [],
+      "textHash": "9926e18ed0bd730c729f780592c15f25c13c0ff4f7af36f556decb88cff7a16b"
+    },
+    {
+      "url": "/onboarding?step=9",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "‹\nDÀNH RIÊNG CHO BẠN · 5/5\nHành trình xanh\nbắt đầu từ bạn.\nTrải nghiệm của bạn đã sẵn sàng. Cùng biến ý định tốt thành hành động nhỏ.\nMỤC TIÊU KHỞI ĐẦU\nChọn mục tiêu khi bạn sẵn sàng\nBắt đầu nhẹ nhàng, duy trì mỗi ngày.\nTạo tài khoản\nKhám phá trước",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Hành trình xanh\nbắt đầu từ bạn.",
+          "font": "Montserrat_700Bold",
+          "size": "32px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 380,
+          "height": 228
+        },
+        {
+          "loaded": true,
+          "width": 36,
+          "height": 36
+        }
+      ],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": [],
+      "textHash": "976f23c2e7365c0054d07ff37a9d77529b855b34896083f4f404aebe60147282"
+    },
+    {
+      "url": "/community?frame=722:5635",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nCộng đồng\nViết bài\nBảng tin\nĐã lưu\n\nChưa có bài viết\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Cộng đồng",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/posts",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "textHash": "145b1a4c89b615d5b1b0dd0de57209018721f535724b2ad713dc1436c8621858"
+    },
+    {
+      "url": "/community?frame=722:5699",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nCộng đồng\nViết bài\nBảng tin\nĐã lưu\n\nChưa có bài viết\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Cộng đồng",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/posts",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "textHash": "145b1a4c89b615d5b1b0dd0de57209018721f535724b2ad713dc1436c8621858"
+    },
+    {
+      "url": "/notifications?frame=703:5399",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nThông báo\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Thông báo",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": [],
+      "textHash": "5ce4bc01029bbf403fa09ff53b9e98be4497e967931e60fcfb8c871f92ebb1ab"
+    },
+    {
+      "url": "/notifications?frame=703:5524",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nThông báo\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Thông báo",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": [],
+      "textHash": "5ce4bc01029bbf403fa09ff53b9e98be4497e967931e60fcfb8c871f92ebb1ab"
+    },
+    {
+      "url": "/messages?frame=771:6023",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nTin nhắn\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Tin nhắn",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": [],
+      "textHash": "b8356903722d642bb278e8fd3b376b21bbad5ba81d3ce2b6a939e02871d61147"
+    },
+    {
+      "url": "/messages?frame=771:6514",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "\nTin nhắn\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Tin nhắn",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": [],
+      "textHash": "b8356903722d642bb278e8fd3b376b21bbad5ba81d3ce2b6a939e02871d61147"
+    },
+    {
+      "url": "/game?frame=386:18241",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nTrò chơi\nTrò chơi chưa được mở trên hệ thống.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Trò chơi",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/games",
+          "status": 503
+        }
+      ],
+      "errors": [],
+      "textHash": "9da94ebe8ba2044fe3dae849674832c664891ca4144fc4d7e35d2cb61cdf5355"
+    },
+    {
+      "url": "/game?frame=427:19392",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nTrò chơi\nTrò chơi chưa được mở trên hệ thống.\nThử lại",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Trò chơi",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/games",
+          "status": 503
+        }
+      ],
+      "errors": [],
+      "textHash": "9da94ebe8ba2044fe3dae849674832c664891ca4144fc4d7e35d2cb61cdf5355"
+    },
+    {
+      "url": "/scan?frame=386:14194",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Phân loại rác\nMở camera\nChọn ảnh từ thư viện\nChọn vật phẩm để xem hướng dẫn và ghi nhận phân loại\n\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Phân loại rác",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "textHash": "ad3d95b9008b28e500edb161fbd910d7a9fbbca0a2d5e4edba45a707d9373688"
+    },
+    {
+      "url": "/scan?frame=386:14264",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Phân loại rác\nMở camera\nChọn ảnh từ thư viện\nChọn vật phẩm để xem hướng dẫn và ghi nhận phân loại\n\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Phân loại rác",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "textHash": "ad3d95b9008b28e500edb161fbd910d7a9fbbca0a2d5e4edba45a707d9373688"
+    },
+    {
+      "url": "/handbook/types/plastic",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nNhựa\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Sổ tay rác",
+          "font": "Roboto_800ExtraBold",
+          "size": "32px"
+        },
+        {
+          "text": "Nhựa",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 12,
+          "height": 20
+        },
+        {
+          "loaded": true,
+          "width": 489,
+          "height": 510
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "textHash": "746df1dd4ce8045715606b0850de79ca26fd62d178439147866b38136bb70f02"
+    },
+    {
+      "url": "/handbook/types/medical",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nDụng cụ y tế\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Sổ tay rác",
+          "font": "Roboto_800ExtraBold",
+          "size": "32px"
+        },
+        {
+          "text": "Dụng cụ y tế",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 12,
+          "height": 20
+        },
+        {
+          "loaded": true,
+          "width": 489,
+          "height": 510
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": [],
+      "textHash": "140145b797e80cac22180381003ad3a6aed293602d4c31e261b1a5ce9353637e"
+    },
+    {
+      "url": "/design-preview?frame=386:8558",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nKhông tìm thấy trang\n\nĐường dẫn không tồn tại\nQuay về để tiếp tục hành trình xanh.\nVề trang chủ",
+      "documentWidth": 428,
+      "width": 428,
+      "headings": [
+        {
+          "text": "Không tìm thấy trang",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": null,
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": [],
+      "textHash": "a5b18c0384a78eb60de52f9da8a185de8c2947a0ba49ecf5acff75150b114ab8"
+    }
+  ],
+  "narrow": [
+    {
+      "url": "/",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nChào bạn!\nHôm nay, mình cùng sống xanh nhé.\nBLUENSTEPS · MỖI NGÀY XANH\nPhân loại rác.\nGieo mầm xanh.\nBắt đầu từ một món đồ nhỏ.\nTạo nên những thay đổi lớn.\nQuét rác ngay\nBạn muốn làm gì?\nPhân loại\nThu gom\nCộng đồng\nTin tức\nĐIỂM XANH CỦA BẠN\n—\nĐăng nhập\nPhân loại rác mỗi ngày\nBắt đầu\nHoạt động xanh\nĐã lưu\n\nChưa có hoạt động được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nSổ tay phân loại\nTất cả\nNhựa\nGiấy\nPin\nGóc sống xanh\nXem thêm\n\nChưa có bài đọc được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nĐi cùng nhau,\nxanh hơn mỗi ngày.\nChia sẻ một hành động nhỏ để lan tỏa\ncảm hứng sống xanh đến mọi người.\nGhé cộng đồng →\nTin nhắn →\nMỗi bước nhỏ của bạn đều có ý nghĩa.\nTrang chủ\nThu gom\nQuét rác\nĐổi quà\nCá nhân",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Chào bạn!",
+          "font": "Montserrat_700Bold",
+          "size": "21px"
+        },
+        {
+          "text": "Bạn muốn làm gì?",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Hoạt động xanh",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Sổ tay phân loại",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Góc sống xanh",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 122,
+          "height": 145
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 585,
+          "height": 585
+        },
+        {
+          "loaded": true,
+          "width": 239,
+          "height": 239
+        },
+        {
+          "loaded": true,
+          "width": 649,
+          "height": 640
+        },
+        {
+          "loaded": true,
+          "width": 38,
+          "height": 38
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        }
+      ],
+      "screenshot": "screenshots/390-home.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/events",
+          "status": 200
+        },
+        {
+          "path": "/v1/articles",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/handbook",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nRác tái chế\nRác hữu cơ\nRác vô cơ\nNếu chưa\nbiết rác loại nào\n-hãy vào đây\nXem tất cả\nTra cứu vật phẩm\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Sổ tay rác",
+          "font": "Roboto_800ExtraBold",
+          "size": "32px"
+        },
+        {
+          "text": "Tra cứu vật phẩm",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 12,
+          "height": 20
+        },
+        {
+          "loaded": true,
+          "width": 489,
+          "height": 510
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 246,
+          "height": 246
+        },
+        {
+          "loaded": true,
+          "width": 499,
+          "height": 499
+        },
+        {
+          "loaded": true,
+          "width": 61,
+          "height": 51
+        },
+        {
+          "loaded": true,
+          "width": 113,
+          "height": 86
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 11,
+          "height": 11
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 27,
+          "height": 17
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 29
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 27
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        },
+        {
+          "loaded": true,
+          "width": 32,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 141,
+          "height": 3
+        }
+      ],
+      "screenshot": "screenshots/390-handbook.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/articles",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH\n1\nCập nhật hôm nay, bảo vệ mai sau\n2\nBắt đầu hành trình xanh\n3\nTìm hiểu ngay\nCộng đồng xanh\nHành động nhỏ, tương lai xanh\n♥ Đã lưu\nTất cả\nTin mới nhất\nSự kiện sắp tới\nBài nổi bật\nXem thêm\n\nChưa có bài viết nổi bật\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nTất cả bài viết\nXem thêm →\n\nChưa có bài viết khác được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        },
+        {
+          "text": "Tất cả bài viết",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1024,
+          "height": 535
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 56,
+          "height": 56
+        },
+        {
+          "loaded": true,
+          "width": 14,
+          "height": 14
+        },
+        {
+          "loaded": true,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 14,
+          "height": 14
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 87,
+          "height": 47
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/390-articles.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/articles",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/events",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Khám phá hoạt động\nMột việc nhỏ,\nmột thay đổi xanh.\nTìm hoạt động ý nghĩa, cùng cộng đồng.\nTìm hoạt động\nKhu vực\nTuần này\nChủ đề\nDọn rác\nTrồng cây\nPhân loại\nDành cho cuối tuần của bạn\n\nChưa có hoạt động phù hợp\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.\nLên lịch cho một tuần xanh\nXem hoạt động theo ngày, tránh trùng lịch.\nĐã lưu\nBộ sưu tập",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Khám phá hoạt động",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        },
+        {
+          "text": "Dành cho cuối tuần của bạn",
+          "font": "Inter_600SemiBold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/390-events.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/events",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/collection",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Bản đồ sẽ hiển thị khi có điểm thu gom được công bố.\nKhám phá\nBộ lọc\nHành trình\nĐề xuất địa điểm\nĐiểm thu gom\n\nChưa có điểm thu gom được công bố\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Khám phá",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 13,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 80,
+          "height": 80
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 45,
+          "height": 45
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/390-collection.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/collection-points",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/calendar",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Lịch hoạt động\nTháng\nTuần\nTháng 11, 2026\nT2\nT3\nT4\nT5\nT6\nT7\nCN\n26\n27\n28\n29\n30\n31\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n1\n2\n3\n4\n5\n6\nCó hoạt động đã lưu\nChủ Nhật, 1 tháng 11\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nLịch sử tham gia\nHoạt động đã tham gia\nTổng kết sẽ xuất hiện khi có kết quả đã xác minh.\nXem tổng kết hoạt động\nVé của tôi\nVé của tôi\nVé chỉ xuất hiện sau khi hệ thống xác nhận đăng ký. Chỉ lưu hoặc quan tâm sẽ chưa có vé.\nXem vé tham gia\nVề hôm nay\nCài đặt nhắc lịch\nMúi giờ: Asia/Ho_Chi_Minh\nXem hoạt động ngày 1/11\nKhám phá thêm hoạt động",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Lịch hoạt động",
+          "font": "Inter_700Bold",
+          "size": "18px"
+        },
+        {
+          "text": "Tháng 11, 2026",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        },
+        {
+          "text": "Chủ Nhật, 1 tháng 11",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        },
+        {
+          "text": "Lịch sử tham gia",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        },
+        {
+          "text": "Vé của tôi",
+          "font": "Inter_700Bold",
+          "size": "16px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 40,
+          "height": 40
+        },
+        {
+          "loaded": true,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "loaded": true,
+          "width": 14,
+          "height": 14
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 18,
+          "height": 18
+        },
+        {
+          "loaded": true,
+          "width": 4,
+          "height": 4
+        }
+      ],
+      "screenshot": "screenshots/390-calendar.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/profile",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Cá nhân\n\nChào bạn!\nĐăng nhập để lưu hành trình\nBLUESTEPS · MỖI NGÀY XANH\nMột hành động nhỏ mỗi ngày.\nĐăng nhập\n—\nĐiểm hiện có\n—\nHành động phân loại\nHành trình của bạn\nThành tích\nLịch sử\nĐã lưu\nThống kê\nTài khoản của bạn\nThông tin cá nhân\nCập nhật tên, email và giới thiệu\nThông báo\nTheo dõi các cập nhật dành cho bạn\nCài đặt ứng dụng\nGiao diện, bảo mật và tùy chọn khác\nHoạt động gần đây\nXem tất cả\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nHành trình xanh,\ncùng nhau sẽ vui hơn.\nGhé thăm cộng đồng →\nMột hành động nhỏ, một phiên bản tốt hơn.\nTrang chủ\nThu gom\nQuét rác\nĐổi quà\nCá nhân",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Cá nhân",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Hành trình của bạn",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Tài khoản của bạn",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        },
+        {
+          "text": "Hoạt động gần đây",
+          "font": "Montserrat_700Bold",
+          "size": "19px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 24,
+          "height": 24
+        },
+        {
+          "loaded": true,
+          "width": 82,
+          "height": 94
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 19,
+          "height": 19
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 19,
+          "height": 19
+        },
+        {
+          "loaded": true,
+          "width": 22,
+          "height": 22
+        },
+        {
+          "loaded": true,
+          "width": 19,
+          "height": 19
+        },
+        {
+          "loaded": true,
+          "width": 36,
+          "height": 36
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 26,
+          "height": 26
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        },
+        {
+          "loaded": true,
+          "width": 25,
+          "height": 25
+        }
+      ],
+      "screenshot": "screenshots/390-profile.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/rewards",
+      "status": 200,
+      "displayState": "auth-gated",
+      "text": "Tích điểm & phần thưởng\nHành trình xanh của bạn\nCùng BlueSteps sống xanh mỗi ngày\n\nTổng điểm tích lũy: — điểm\nChưa mở hệ thống cấp bậc\nĐiểm hiện tại của bạn:\n— điểm\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập\nLộ trình minh họa · Chưa cấp thành tích\n\nMầm xanh\n\nNgười Bảo Vệ Trái Đất\n\nChiến Binh Tái Chế\n\nĐại sứ xanh\n\nNgười Gìn Giữ Hành Tinh\n\nAnh Hùng Sinh Thái\n\nHộ Vệ Thiên Nhiên\n\nTinh Linh Môi Trường\n\nĐại sứ xanh\n\nNgười Gìn Giữ Hành Tinh\n\nAnh Hùng Sinh Thái\nCách tính điểm\nPhần thưởng\nLịch sử\nCấp bậc và chương trình thưởng chưa được mở. Số dư và lịch sử hiển thị theo tài khoản của bạn.\nKhám phá phần thưởng",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Tích điểm & phần thưởng",
+          "font": "Inter_700Bold",
+          "size": "20px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 735,
+          "height": 1104
+        },
+        {
+          "loaded": true,
+          "width": 395,
+          "height": 632
+        },
+        {
+          "loaded": true,
+          "width": 85,
+          "height": 39
+        },
+        {
+          "loaded": true,
+          "width": 146,
+          "height": 144
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 500,
+          "height": 500
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 440,
+          "height": 568
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 75,
+          "height": 46
+        },
+        {
+          "loaded": true,
+          "width": 477,
+          "height": 523
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 100,
+          "height": 100
+        },
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 249,
+          "height": 249
+        }
+      ],
+      "screenshot": "screenshots/390-rewards.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/scan",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "Phân loại rác\nMở camera\nChọn ảnh từ thư viện\nChọn vật phẩm để xem hướng dẫn và ghi nhận phân loại\n\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Phân loại rác",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [
+        {
+          "loaded": true,
+          "width": 95,
+          "height": 67
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 32
+        },
+        {
+          "loaded": true,
+          "width": 30,
+          "height": 30
+        },
+        {
+          "loaded": true,
+          "width": 28,
+          "height": 28
+        },
+        {
+          "loaded": true,
+          "width": 83,
+          "height": 83
+        }
+      ],
+      "screenshot": "screenshots/390-scan.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/waste-items",
+          "status": 200
+        }
+      ],
+      "errors": []
+    },
+    {
+      "url": "/game",
+      "status": 200,
+      "displayState": "rendered",
+      "text": "\nTrò chơi\nTrò chơi chưa được mở trên hệ thống.\nThử lại",
+      "documentWidth": 390,
+      "width": 390,
+      "headings": [
+        {
+          "text": "Trò chơi",
+          "font": "Montserrat_700Bold",
+          "size": "24px"
+        }
+      ],
+      "images": [],
+      "screenshot": "screenshots/390-game.png",
+      "apiResponses": [
+        {
+          "path": "/v1/auth/web/refresh",
+          "status": 401
+        },
+        {
+          "path": "/v1/games",
+          "status": 503
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "errors": []
+}

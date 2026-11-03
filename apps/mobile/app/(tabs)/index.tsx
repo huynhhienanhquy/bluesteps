@@ -1,1 +1,1 @@
-export { HomeScreen as default } from '../../src/features/home/HomeScreen';
+export { HomeScreen as default } from '../../src/features/live/HomeScreen';

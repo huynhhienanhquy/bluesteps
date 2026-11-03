@@ -1,1 +1,1 @@
-export { CollectionExploreScreen as default } from '../src/features/collection/CollectionExploreScreen';
+export { CollectionScreen as default } from '../src/features/live/CollectionScreens';

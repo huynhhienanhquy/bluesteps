@@ -1,1 +1,1 @@
-export { NewsBriefsScreen as default } from '../../src/features/content/NewsExploreScreens';
+export { NewsBriefsScreen as default } from '../../src/features/live/NewsWorkflows';

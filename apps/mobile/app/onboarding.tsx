@@ -1,1 +1,1 @@
-export { OnboardingScreen as default } from '../src/features/auth/OnboardingScreen';
+export { OnboardingScreen as default } from '../src/features/live/ProfileScreens';

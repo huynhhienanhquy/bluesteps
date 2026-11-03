@@ -1,0 +1,80 @@
+Applied 202610310001_core.sql
+Applied 202610310002_geo_and_permissions.sql
+Applied 202610310003_outbox_leases.sql
+Applied 202610310004_recipient_cooldown.sql
+Applied 202610310005_live_mobile.sql
+_expo/static/js/web/discussion-bd869e993deacc03dda02d9849cfdb1c.js (267B)
+_expo/static/js/web/edit-profile-21a209abcaaeb1d87da4e9d8d417deb2.js (210B)
+_expo/static/js/web/entry-fb075e0ea7bedfc670615dbb600bb661.js (1.1MB)
+_expo/static/js/web/event-collections-3a2514fc8800bcb4ec2e393e28974c9b.js (215B)
+_expo/static/js/web/event-reminders-3313024234570b0f8e541a39ec841e48.js (213B)
+_expo/static/js/web/event-summary-6195dfca97403e6553820e1ccadfd57f.js (211B)
+_expo/static/js/web/event-ticket-665a80d42e8f84787f7002b72c530619.js (205B)
+_expo/static/js/web/forgot-password-dff58f4e68715d07949e047b705e0660.js (213B)
+_expo/static/js/web/game-1795356eb33e6c3a577a703d43370bb4.js (204B)
+_expo/static/js/web/guide-61b6d0625ec54016dc322e9fee3ac475.js (211B)
+_expo/static/js/web/history-ab855005b54ce5422aea82ca48f8ec80.js (206B)
+_expo/static/js/web/index-0949c6af04dc4e11fe6536699296b2a6.js (207B)
+_expo/static/js/web/index-4e0febfb87cd44a659eb4a11bcfc120f.js (11KB)
+_expo/static/js/web/index-5d951240f927840f317748398debbb56.js (203B)
+_expo/static/js/web/index-e47dc0768d1464a33fdb1fc5b9b30c91.js (205B)
+_expo/static/js/web/index-e9fa26744e4568748710176a2c6e02a9.js (45KB)
+_expo/static/js/web/journey-078e7712ae590ebed257f154a83f7f8f.js (206B)
+_expo/static/js/web/legal-51d951ef1d73bb690ee8060eb0dceab3.js (204B)
+_expo/static/js/web/list-126b6a4640d55cdf59ce9847182cbefa.js (207B)
+_expo/static/js/web/login-ae41ea47fd818c0d3d18e77eb2ccdd70.js (203B)
+_expo/static/js/web/messages-fedd1b9b1cb0c85d39d7c18792f026d4.js (207B)
+_expo/static/js/web/notifications-8965cfacbe2e9f705029d129d230f8f1.js (212B)
+_expo/static/js/web/onboarding-94af5ea8e31b05970fdaa7616aaa19fc.js (209B)
+_expo/static/js/web/point-proposal-43f1895ae794cdbf55e217f04a509632.js (212B)
+_expo/static/js/web/point-report-61fa804463f7d9c61a829b5859d2d26c.js (210B)
+_expo/static/js/web/profile-6380ecd750a2777db1f7149ecb4bd94e.js (206B)
+_expo/static/js/web/reading-list-49dd0b43241325122ca3e6a582b51a23.js (259B)
+_expo/static/js/web/register-60a8a9e2acb97a5d5ddb136af056fb83.js (266B)
+_expo/static/js/web/registration-72585966e3748ec3060bc2f6f01c4ee9.js (211B)
+_expo/static/js/web/reset-password-49909d9f5b89e973de9409091b99f56b.js (212B)
+_expo/static/js/web/rewards-e33ba3f46d3307e62048d9e7eb612f77.js (206B)
+_expo/static/js/web/saved-7445c887bee79e566bf4ae1bbe49d48c.js (259B)
+_expo/static/js/web/saved-a3b83f89c770a03e378adc83e1ac726b.js (261B)
+_expo/static/js/web/scan-470e55f7de47265224ab2221d086046c.js (38KB)
+_expo/static/js/web/search-1d07b2f34c96f36368324b8d35c4035c.js (203B)
+_expo/static/js/web/settings-f5aa629a259cce43d8bae1fe1ce30a14.js (207B)
+_expo/static/js/web/statistics-628083ca707e226913ffa1df8b82846b.js (209B)
+_expo/static/js/web/topics-fb9c01e15dbf00ee6b48ecbad81098ca.js (205B)
+_expo/static/js/web/verify-email-83017dfca9f00d03868202972d7dadeb.js (210B)
+
+� Files (2):
+index.html (1.4KB)
+metadata.json (49B)
+
+Exported: dist
+$ playwright test live-backend.spec.ts
+
+Running 12 tests using 1 worker
+
+(node:24948) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24948) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\live-backend.spec.ts:33:5 � public catalogs come from database IDs and never expose synthetic seeds (7.9s)
+  ok  2 e2e\live-backend.spec.ts:63:5 � register, real outbox email verification and login issue a browser cookie (5.8s)
+  ok  3 e2e\live-backend.spec.ts:119:5 � profile, zero wallet and manual sorting remain canonical after reload (9.5s)
+  ok  4 e2e\live-backend.spec.ts:146:5 � article save, reaction and discussion survive a new page instance (7.8s)
+  ok  5 e2e\live-backend.spec.ts:177:5 � community writes are server-owned and account switching hides private state (10.6s)
+  ok  6 e2e\live-backend.spec.ts:202:5 � messages and inbox delivery persist through the real worker (11.2s)
+  ok  7 e2e\live-backend.spec.ts:229:5 � saved activity collections and route handover write canonical database state (10.5s)
+  ok  8 e2e\live-backend.spec.ts:262:5 � offline reads fail visibly without demo fallback and service gates are real API errors (6.5s)
+  ok  9 e2e\live-backend.spec.ts:292:5 � settings and onboarding choices persist across full reloads (9.1s)
+  ok 10 e2e\live-backend.spec.ts:338:5 � every application route renders with the live provider (1.3m)
+  ok 11 e2e\live-backend.spec.ts:379:5 � Figma layout candidates render at both mobile widths with database content (40.9s)
+  ok 12 e2e\live-backend.spec.ts:438:5 � password recovery uses the real email code and permits login with the new password (5.0s)
+
+  12 passed (3.4m)
+.
+============================== warnings summary ===============================
+apps\api\.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\BlueSteps\apps\api\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1 passed, 1 warning in 243.41s (0:04:03)

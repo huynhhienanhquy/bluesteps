@@ -5,7 +5,8 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useApp } from '../../src/providers';
 import { Label } from '../../src/design-system/ui';
 import { Artwork } from '../../src/design-system/DesignScreen';
-import { homeAssets } from '../../src/design-system/figma-assets';
+import { homeAssets } from '../../src/design-system/app-assets';
+import { CurvedNavigation } from '../../src/features/live/DesignParts';
 
 const items = [
   { name: 'index', title: 'Trang chủ', source: homeAssets.imgIconHome },
@@ -21,8 +22,13 @@ const DesignTabBar: NonNullable<ComponentProps<typeof Tabs>['tabBar']> = ({
 }) => {
   const { colors } = useApp();
   const insets = useSafeAreaInsets();
-  if (['scan', 'collection', 'rewards'].includes(state.routes[state.index]?.name ?? ''))
-    return null;
+  const current = state.routes[state.index]?.name;
+  // Scan owns navigation by phase: camera/photo fills the screen; detail has its own footer.
+  if (current === 'scan') return null;
+  if (current === 'collection' || current === 'rewards')
+    return (
+      <CurvedNavigation selected={current} variant={current === 'rewards' ? 'rewards' : 'news'} />
+    );
   return (
     <View
       style={{

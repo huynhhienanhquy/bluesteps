@@ -1,1 +1,1 @@
-export { CollectionMapScreen as default } from '../../src/features/collection/CollectionMapScreen';
+export { CollectionScreen as default } from '../../src/features/live/CollectionScreens';

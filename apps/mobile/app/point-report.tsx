@@ -1,1 +1,1 @@
-export { CollectionReportScreen as default } from '../src/features/collection/CollectionReportScreen';
+export { PointReportScreen as default } from '../src/features/live/CollectionScreens';

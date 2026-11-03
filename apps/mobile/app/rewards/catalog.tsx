@@ -1,1 +1,1 @@
-export { RewardsCatalogScreen as default } from '../../src/features/rewards/RewardsDesignScreens';
+export { RewardsScreen as default } from '../../src/features/live/RewardScreens';

@@ -1,0 +1,1170 @@
+{
+  "frames": [
+    {
+      "id": "386:9071",
+      "name": "Frame 36844",
+      "texts": [],
+      "interactions": [
+        {
+          "id": "386:9114",
+          "name": "pause",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9115",
+      "name": "Frame 36836",
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "interactions": [
+        {
+          "id": "386:9122",
+          "name": "X",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9124",
+          "name": "Stop",
+          "label": "Stop",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9125",
+          "name": "Mask group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9228",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9152",
+      "name": "Frame 36843",
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "interactions": [
+        {
+          "id": "386:9152",
+          "name": "Frame 36843",
+          "label": "Listening... | Start |  | Stop",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9115",
+                  "navigation": "SWAP"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9154",
+          "name": "Rectangle 1101",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9115",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9159",
+          "name": "X",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9191",
+      "name": "Frame 36838",
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "interactions": [
+        {
+          "id": "386:9194",
+          "name": "Rectangle 1102",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9198",
+          "name": "X",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9201",
+          "name": "Mask group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9265",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9228",
+      "name": "Frame 36837",
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "interactions": [
+        {
+          "id": "386:9231",
+          "name": "Rectangle 1102",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9235",
+          "name": "X",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9238",
+          "name": "Mask group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9191",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9265",
+      "name": "Frame 36840",
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "interactions": [
+        {
+          "id": "386:9268",
+          "name": "Rectangle 1102",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9272",
+          "name": "X",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9275",
+          "name": "Mask group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9302",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9302",
+      "name": "Frame 36841",
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "interactions": [
+        {
+          "id": "386:9305",
+          "name": "Rectangle 1102",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9309",
+          "name": "X",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9312",
+          "name": "Mask group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9339",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9155",
+          "name": "Rectangle 1102",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17222",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_DRAG",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9339",
+      "name": "Frame 36842",
+      "texts": [
+        "Listening...",
+        "Start",
+        "",
+        "Stop"
+      ],
+      "interactions": [
+        {
+          "id": "386:9342",
+          "name": "Rectangle 1102",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8977",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9346",
+          "name": "X",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8930",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9349",
+          "name": "Mask group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "AFTER_TIMEOUT",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9115",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9376",
+      "name": "hoạt động",
+      "texts": [
+        "GIỜ HỌC XANH",
+        "Trường Mầm non Tuổi Xanh, TP HCM",
+        "10+",
+        "+ 200 trẻ\ntham gia",
+        "3-5\ntuổi",
+        "45–60\nphút",
+        "Quan tâm",
+        "232+",
+        "Hoạt động nhặt rác của các bạn nhỏ trường Mầm non Tuổi Xanh không chỉ là một hoạt động ngoại khóa, mà là một phần quan trọng trong việc giáo dục thế hệ mầm non tương lai về trách nhiệm với môi trường sống. Góp phần hình thành nên những công dân có ý thức, biết yêu quý và bảo vệ hành tinh xanh của chúng ta ngay từ khi còn bé 💚.\nTrong “Giờ học xanh”, các bé hát về Trái Đất, nghe chuyện “Những người bạn thùng rác vui vẻ” và học cách phân loại rác. Các em tham gia trò chơi “Ai nhanh – Ai đúng”, thi đua phân loại rác đúng màu. Kết thúc buổi học, các “chiến binh xanh nhí” nhận huy hiệu, chụp ảnh lưu niệm và hứa giữ gìn môi trường sạch đẹp.",
+        "Bé Ơi, Cùng Nhau Phân Loại Rác Nhé!",
+        "Hoạt động khác",
+        "Tất cả",
+        "250+",
+        "Trải nghiệm phân loại rác thực tế",
+        "Trường Tiểu Học Vành Khuyên, TP Đà Nẵng",
+        "Thanh niên làm sạch môi trường biển",
+        "Bãi biển Mỹ Khê , Đà Nẵng",
+        "200+",
+        "Cùng nhau làm vườn sạch\n",
+        "Trường THCS Thanh An , Quảng Trị",
+        "Khám phá tất cả",
+        "Lịch hoạt động",
+        "Đăng ký tham gia"
+      ],
+      "interactions": [
+        {
+          "id": "386:9394",
+          "name": "Group 36810",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10122",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9422",
+          "name": "people-btn",
+          "label": "Quan tâm | 232+",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7054",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9423",
+          "name": "button",
+          "label": "Quan tâm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9439",
+          "name": "work",
+          "label": "250+ | Trải nghiệm phân loại rác thực tế | Trường Tiểu Học Vành Khuyên, TP Đà Nẵng",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9575",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9440",
+          "name": "work",
+          "label": "Thanh niên làm sạch môi trường biển | Bãi biển Mỹ Khê , Đà Nẵng | 250+",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:9470",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9441",
+          "name": "work",
+          "label": "200+ | Cùng nhau làm vườn sạch\n | Trường THCS Thanh An , Quảng Trị",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10026",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            },
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9444",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4796",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4798",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4800",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4802",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4804",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:4962",
+          "name": "nut-kham-pha",
+          "label": "Khám phá tất cả",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49034",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:4964",
+          "name": "nut-lich",
+          "label": "Lịch hoạt động",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49166",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:4966",
+          "name": "nut-dang-ky",
+          "label": "Đăng ký tham gia",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "534:49326",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26879",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26883",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26888",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26891",
+          "name": "Group 37108",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "539:26894",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "386:9470",
+      "name": "hoạt động 2",
+      "texts": [
+        "10+",
+        "Thanh Niên Làm Sạch Môi Tr..",
+        "Bải biển Mỹ Khê Đà Nẵng ",
+        "Quan tâm",
+        "300+",
+        "+ 300 người\ntham gia",
+        "> 20 \ntuổi",
+        "45–60 \nphút",
+        "Sáng nay, các đoàn viên thanh niên đã ra quân trong chiến dịch “Giờ Học Xanh” với tinh thần đầy nhiệt huyết.   Dưới cái nắng rực rỡ, mọi người cùng nhau thu gom rác, phân loại chất thải và làm sạch khu vực công cộng. Hoạt động không chỉ góp phần bảo vệ môi trường, mà còn lan tỏa thông điệp sống xanh, sống trách nhiệm đến cộng đồng.   Những bàn tay lấm lem đất nhưng ánh mắt vẫn ánh lên niềm vui – hình ảnh đẹp của tuổi trẻ hành động vì Trái Đất xanh – sạch – đẹp! ",
+        "Khi cần Thanh Niên có Khi khó có Thanh Niên",
+        "Hoạt động khác",
+        "Tất cả",
+        "250+",
+        "Trải nghiệm phân loại rác thực tế",
+        "Trường Tiểu Học Cần Thơ",
+        "Giờ giải lao - Trồng cây xanh ",
+        "Trường THCS Thanh An , Quảng Trị",
+        "200+",
+        "Giờ học xanh – Bé tập phân loại rác",
+        "Trường Mầm Non Tuổi Xanh , TP HCM"
+      ],
+      "interactions": [
+        {
+          "id": "386:9484",
+          "name": "Group 36810",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:10122",
+                  "navigation": "OVERLAY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9499",
+          "name": "chevron_backward",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "BACK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9503",
+          "name": "button",
+          "label": "Quan tâm",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:17397",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9545",
+          "name": "work",
+          "label": "250+ | Trải nghiệm phân loại rác thực tế | Trường Tiểu Học Cần Thơ",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9546",
+          "name": "work",
+          "label": "Giờ giải lao - Trồng cây xanh  | Trường THCS Thanh An , Quảng Trị | 250+",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9547",
+          "name": "work",
+          "label": "200+ | Giờ học xanh – Bé tập phân loại rác | Trường Mầm Non Tuổi Xanh , TP HCM",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": []
+            }
+          ]
+        },
+        {
+          "id": "386:9556",
+          "name": "Group 36722",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9560",
+          "name": "Group 36703",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9565",
+          "name": "Group",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "386:9571",
+          "name": "Group 36731",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4807",
+          "name": "Prototype / Nav / Trang chủ",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "391:25197",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4809",
+          "name": "Prototype / Nav / Thu gom",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:8633",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4811",
+          "name": "Prototype / Nav / Quét rác",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:14194",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4813",
+          "name": "Prototype / Nav / Đổi quà",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:16253",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "478:4815",
+          "name": "Prototype / Nav / Cá nhân",
+          "label": "",
+          "reactions": [
+            {
+              "trigger": "ON_CLICK",
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "386:7420",
+                  "navigation": "NAVIGATE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

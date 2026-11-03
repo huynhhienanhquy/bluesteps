@@ -1,0 +1,16 @@
+.git
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.ruff_cache
+**/dist
+**/dist-native
+.backend-tools
+.pnpm-store
+.native-qa
+**/.local
+**/.env
+**/.env.*
+!**/.env.example

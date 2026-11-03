@@ -1,0 +1,1298 @@
+{
+  "bytes": 14719,
+  "frames": [
+    {
+      "id": "391:25197",
+      "name": "17 · Home — Trang chủ",
+      "width": 428,
+      "height": 926,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.95686274766922,
+            "g": 0.9843137264251709,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:439:4816"
+            }
+          }
+        }
+      ],
+      "fonts": {
+        "Montserrat SemiBold 14": 4,
+        "Montserrat Bold 21": 1,
+        "Montserrat Medium 11": 5,
+        "Montserrat SemiBold 10": 2,
+        "Montserrat Bold 24": 1,
+        "Montserrat Regular 12": 2,
+        "Montserrat SemiBold 15": 1,
+        "Montserrat Bold 19": 4,
+        "Montserrat SemiBold 11": 4,
+        "Montserrat Bold 30": 1,
+        "Montserrat SemiBold 13": 9,
+        "Montserrat SemiBold 12": 1,
+        "Montserrat Medium 9": 2,
+        "Montserrat SemiBold 9": 6,
+        "Montserrat Bold 20": 1
+      },
+      "textCount": 44,
+      "headings": [
+        {
+          "id": "476:5061",
+          "text": "Chào Linh Chi!",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 21,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 29
+          },
+          "bounds": {
+            "x": -494.5,
+            "y": 2919.5,
+            "width": 235,
+            "height": 29
+          }
+        },
+        {
+          "id": "476:5072",
+          "text": "Phân loại rác.\nGieo mầm xanh.",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 34
+          },
+          "bounds": {
+            "x": -547,
+            "y": 3049,
+            "width": 238,
+            "height": 68
+          }
+        },
+        {
+          "id": "476:5120",
+          "text": "180",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 30,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 42
+          },
+          "bounds": {
+            "x": -491,
+            "y": 3446,
+            "width": 150,
+            "height": 42
+          }
+        },
+        {
+          "id": "476:5196",
+          "text": "Đi cùng nhau,\nxanh hơn mỗi ngày.",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "bounds": {
+            "x": -495,
+            "y": 4353,
+            "width": 280,
+            "height": 56
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "476:5049",
+          "name": "Thanh trạng thái",
+          "type": "FRAME",
+          "x": 24,
+          "y": 17,
+          "width": 380,
+          "height": 20
+        },
+        {
+          "id": "476:5057",
+          "name": "En-tête · Chào Linh Chi",
+          "type": "FRAME",
+          "x": 24,
+          "y": 62,
+          "width": 380,
+          "height": 48
+        },
+        {
+          "id": "476:5068",
+          "name": "Nội dung Home · Cuộn dọc",
+          "type": "FRAME",
+          "x": 0,
+          "y": 136,
+          "width": 428,
+          "height": 686
+        },
+        {
+          "id": "476:5202",
+          "name": "Điều hướng chính · Cố định",
+          "type": "FRAME",
+          "x": 0,
+          "y": 822,
+          "width": 428,
+          "height": 104
+        },
+        {
+          "id": "476:5234",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "x": 150,
+          "y": 905,
+          "width": 128,
+          "height": 5
+        }
+      ]
+    },
+    {
+      "id": "386:7184",
+      "name": "11 · Đăng nhập",
+      "width": 428,
+      "height": 926,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.95686274766922,
+            "g": 0.9843137264251709,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:439:4816"
+            }
+          }
+        }
+      ],
+      "fonts": {
+        "Montserrat SemiBold 14": 1,
+        "Montserrat Bold 20": 1,
+        "Montserrat Bold 29": 1,
+        "Montserrat Regular 13": 1,
+        "Montserrat SemiBold 13": 7,
+        "Montserrat Regular 14": 2,
+        "Montserrat Medium 12": 2,
+        "Montserrat SemiBold 15": 1,
+        "Montserrat Medium 11": 1
+      },
+      "textCount": 17,
+      "headings": [
+        {
+          "id": "461:5194",
+          "text": "BlueSteps",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 28
+          },
+          "bounds": {
+            "x": 8162,
+            "y": 2934,
+            "width": 220,
+            "height": 28
+          }
+        },
+        {
+          "id": "461:5196",
+          "text": "Chào bạn,\nmừng trở lại!",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 29,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 41
+          },
+          "bounds": {
+            "x": 8126,
+            "y": 2994,
+            "width": 260,
+            "height": 82
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "461:5181",
+          "name": "Bandeau de marque",
+          "type": "FRAME",
+          "x": 0,
+          "y": 0,
+          "width": 428,
+          "height": 314
+        },
+        {
+          "id": "461:5182",
+          "name": "Thanh trạng thái",
+          "type": "FRAME",
+          "x": 24,
+          "y": 17,
+          "width": 380,
+          "height": 20
+        },
+        {
+          "id": "461:5190",
+          "name": "GreenSteps",
+          "type": "FRAME",
+          "x": 24,
+          "y": 77,
+          "width": 260,
+          "height": 28
+        },
+        {
+          "id": "461:5195",
+          "name": "Chào mừng trở lại",
+          "type": "FRAME",
+          "x": 24,
+          "y": 137,
+          "width": 260,
+          "height": 128
+        },
+        {
+          "id": "461:5198",
+          "name": "Mầm cây chào mừng",
+          "type": "FRAME",
+          "x": 268,
+          "y": 122,
+          "width": 150,
+          "height": 150
+        },
+        {
+          "id": "461:5204",
+          "name": "Formulaire de connexion",
+          "type": "FRAME",
+          "x": 0,
+          "y": 276,
+          "width": 428,
+          "height": 650
+        },
+        {
+          "id": "461:5259",
+          "name": "Bảo mật",
+          "type": "FRAME",
+          "x": 24,
+          "y": 848,
+          "width": 380,
+          "height": 18
+        },
+        {
+          "id": "461:5264",
+          "name": "Mật khẩu đã cập nhật",
+          "type": "FRAME",
+          "x": 24,
+          "y": 831,
+          "width": 380,
+          "height": 52
+        },
+        {
+          "id": "461:5266",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "x": 150,
+          "y": 905,
+          "width": 128,
+          "height": 5
+        }
+      ]
+    },
+    {
+      "id": "386:8569",
+      "name": "map",
+      "width": 428,
+      "height": 926,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "fonts": {
+        "Inter Regular 10": 2,
+        "Inter Regular 11": 6,
+        "Inter Semi Bold 11": 2,
+        "Inter Regular 16": 1,
+        "Inter Bold 20": 2,
+        "Inter Semi Bold 14": 1,
+        "Inter Regular 12": 1,
+        "Inter Semi Bold 12": 1,
+        "Inter Semi Bold 15": 1
+      },
+      "textCount": 17,
+      "headings": [
+        {
+          "id": "386:8601",
+          "text": "Gần bạn",
+          "fontName": {
+            "family": "Inter",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "slnt": 0
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "bounds": {
+            "x": 12950,
+            "y": 3464,
+            "width": 81,
+            "height": 24
+          }
+        },
+        {
+          "id": "386:8603",
+          "text": "Khám phá",
+          "fontName": {
+            "family": "Inter",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "slnt": 0
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "bounds": {
+            "x": 13079,
+            "y": 2915,
+            "width": 98,
+            "height": 24
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "386:8570",
+          "name": "time",
+          "type": "GROUP",
+          "x": 144,
+          "y": 926,
+          "width": 141,
+          "height": 0
+        },
+        {
+          "id": "386:8573",
+          "name": "image 79",
+          "type": "RECTANGLE",
+          "x": 525,
+          "y": 0,
+          "width": 896,
+          "height": 626
+        },
+        {
+          "id": "386:8574",
+          "name": "Frame 36723",
+          "type": "FRAME",
+          "x": 29,
+          "y": 626,
+          "width": 230,
+          "height": 179
+        },
+        {
+          "id": "386:8579",
+          "name": "Frame 36722",
+          "type": "FRAME",
+          "x": 38,
+          "y": 645,
+          "width": 211,
+          "height": 142
+        },
+        {
+          "id": "386:8584",
+          "name": "Frame 36725",
+          "type": "FRAME",
+          "x": 274,
+          "y": 626,
+          "width": 230,
+          "height": 179
+        },
+        {
+          "id": "386:8595",
+          "name": "Rectangle 765",
+          "type": "RECTANGLE",
+          "x": 30,
+          "y": 103,
+          "width": 364,
+          "height": 50
+        },
+        {
+          "id": "386:8596",
+          "name": "Iconly/Regular/Light/Voice",
+          "type": "INSTANCE",
+          "x": 355,
+          "y": 113,
+          "width": 24,
+          "height": 24.85529136657715
+        },
+        {
+          "id": "386:8597",
+          "name": "Công viên gần nhất",
+          "type": "TEXT",
+          "x": 49,
+          "y": 119,
+          "width": 147,
+          "height": 19
+        },
+        {
+          "id": "386:8598",
+          "name": "Frame 36724",
+          "type": "FRAME",
+          "x": 352,
+          "y": 586,
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "386:8601",
+          "name": "Gần bạn",
+          "type": "TEXT",
+          "x": 29,
+          "y": 607,
+          "width": 81,
+          "height": 24
+        },
+        {
+          "id": "386:8602",
+          "name": "Chevron left",
+          "type": "INSTANCE",
+          "x": 22,
+          "y": 50,
+          "width": 43,
+          "height": 43
+        },
+        {
+          "id": "386:8603",
+          "name": "Khám phá",
+          "type": "TEXT",
+          "x": 158,
+          "y": 58,
+          "width": 98,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "534:49034",
+      "name": "Khám phá hoạt động",
+      "width": 428,
+      "height": 1084,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:439:4818"
+            }
+          }
+        }
+      ],
+      "fonts": {
+        "Inter Bold 18": 1,
+        "Inter Bold 27": 1,
+        "Inter Regular 14": 2,
+        "Inter Medium 14": 7,
+        "Inter Semi Bold 16": 2,
+        "Inter Semi Bold 14": 2,
+        "Inter Regular 10": 2,
+        "Inter Regular 12": 5
+      },
+      "textCount": 22,
+      "headings": [
+        {
+          "id": "534:49064",
+          "text": "Một việc nhỏ,\nmột thay đổi xanh.",
+          "fontName": {
+            "family": "Inter",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "slnt": 0
+            }
+          },
+          "fontSize": 27,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "bounds": {
+            "x": 5421,
+            "y": -1935,
+            "width": 380,
+            "height": 66
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "534:49035",
+          "name": "Nội dung màn hình",
+          "type": "FRAME",
+          "x": 0,
+          "y": 0,
+          "width": 428,
+          "height": 960
+        },
+        {
+          "id": "534:49139",
+          "name": "Thao tác cuối trang",
+          "type": "FRAME",
+          "x": 0,
+          "y": 960,
+          "width": 428,
+          "height": 124
+        }
+      ]
+    },
+    {
+      "id": "386:13263",
+      "name": "SoTayRac",
+      "width": 428,
+      "height": 926,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "fonts": {
+        "Roboto ExtraBold 32": 1,
+        "Inter Regular 12": 1,
+        "Mulish Bold 16": 4,
+        "Mulish Light 12": 1
+      },
+      "textCount": 7,
+      "headings": [
+        {
+          "id": "386:13272",
+          "text": "Sổ tay rác",
+          "fontName": {
+            "family": "Roboto",
+            "style": "ExtraBold",
+            "variationSettings": {
+              "wght": 800,
+              "wdth": 100
+            }
+          },
+          "fontSize": 32,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "bounds": {
+            "x": 16987,
+            "y": 17212,
+            "width": 159,
+            "height": 38
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "386:13264",
+          "name": "Rectangle 812",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 0,
+          "width": 428,
+          "height": 198
+        },
+        {
+          "id": "386:13265",
+          "name": "Group 1",
+          "type": "GROUP",
+          "x": 0,
+          "y": 0,
+          "width": 428,
+          "height": 49
+        },
+        {
+          "id": "386:13267",
+          "name": "line",
+          "type": "GROUP",
+          "x": 144,
+          "y": 918,
+          "width": 141,
+          "height": 0
+        },
+        {
+          "id": "386:13269",
+          "name": "Progress Indicator/Indeterminate Spinner/Regular",
+          "type": "INSTANCE",
+          "x": 199,
+          "y": 779.624755859375,
+          "width": 30,
+          "height": 73.0482177734375
+        },
+        {
+          "id": "386:13270",
+          "name": "Group 36734",
+          "type": "GROUP",
+          "x": 287,
+          "y": 42,
+          "width": 88.61671447753906,
+          "height": 81.1417236328125
+        },
+        {
+          "id": "386:13272",
+          "name": "Sổ tay rác",
+          "type": "TEXT",
+          "x": 128,
+          "y": 49,
+          "width": 159,
+          "height": 38
+        },
+        {
+          "id": "386:13273",
+          "name": "Group 36991",
+          "type": "GROUP",
+          "x": 27,
+          "y": 120,
+          "width": 375,
+          "height": 56
+        },
+        {
+          "id": "386:13277",
+          "name": "Group 36893",
+          "type": "GROUP",
+          "x": 227,
+          "y": 234,
+          "width": 167,
+          "height": 151
+        },
+        {
+          "id": "386:13282",
+          "name": "Group 36894",
+          "type": "GROUP",
+          "x": 119,
+          "y": 410,
+          "width": 189.5546875,
+          "height": 151
+        },
+        {
+          "id": "386:13289",
+          "name": "Group 36892",
+          "type": "GROUP",
+          "x": 34,
+          "y": 234,
+          "width": 167,
+          "height": 151
+        },
+        {
+          "id": "386:13294",
+          "name": "Group 36875",
+          "type": "GROUP",
+          "x": 56,
+          "y": 676,
+          "width": 316,
+          "height": 62
+        },
+        {
+          "id": "386:13303",
+          "name": "Group 36793",
+          "type": "GROUP",
+          "x": 265,
+          "y": 573,
+          "width": 151.828125,
+          "height": 129.9705047607422
+        }
+      ]
+    },
+    {
+      "id": "391:24796",
+      "name": "26. tin tức",
+      "width": 428,
+      "height": 1686,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9411764740943909,
+            "g": 0.9764705896377563,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "fonts": {
+        "Inter Bold 20": 1,
+        "Inter Bold 10": 17,
+        "Inter Semi Bold 12": 9,
+        "Inter Bold 12": 7,
+        "Inter Regular 10": 1,
+        "Inter Regular 14": 1,
+        "Inter Bold 13": 1,
+        "Inter Semi Bold 13": 2,
+        "Inter Bold 18": 1,
+        "Inter Bold 16": 1,
+        "Inter Semi Bold 11": 1
+      },
+      "textCount": 42,
+      "headings": [
+        {
+          "id": "391:24799",
+          "text": "CẬP NHẬT TIN TỨC\nVÌ MỘT HÀNH TINH XANH",
+          "fontName": {
+            "family": "Inter",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "slnt": 0
+            }
+          },
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "bounds": {
+            "x": 9896,
+            "y": 108,
+            "width": 356,
+            "height": 48
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "391:24797",
+          "name": "iPhone/Status Bar",
+          "type": "INSTANCE",
+          "x": 16,
+          "y": 0,
+          "width": 396,
+          "height": 49
+        },
+        {
+          "id": "391:24798",
+          "name": "hero-banner",
+          "type": "FRAME",
+          "x": 16,
+          "y": 65,
+          "width": 396,
+          "height": 268
+        },
+        {
+          "id": "391:24825",
+          "name": "search-bar",
+          "type": "FRAME",
+          "x": 16,
+          "y": 349,
+          "width": 396,
+          "height": 44
+        },
+        {
+          "id": "391:24831",
+          "name": "tabs",
+          "type": "FRAME",
+          "x": 16,
+          "y": 409,
+          "width": 396,
+          "height": 32
+        },
+        {
+          "id": "391:24838",
+          "name": "featured-article",
+          "type": "FRAME",
+          "x": 16,
+          "y": 457,
+          "width": 396,
+          "height": 302
+        },
+        {
+          "id": "391:24857",
+          "name": "grid-section",
+          "type": "FRAME",
+          "x": 16,
+          "y": 775,
+          "width": 396,
+          "height": 763
+        },
+        {
+          "id": "391:24875",
+          "name": "Điều hướng gốc",
+          "type": "FRAME",
+          "x": 0,
+          "y": 1570,
+          "width": 428,
+          "height": 116
+        },
+        {
+          "id": "478:4839",
+          "name": "Prototype / Nav / Trang chủ",
+          "type": "FRAME",
+          "x": 16,
+          "y": 1612,
+          "width": 66,
+          "height": 54
+        },
+        {
+          "id": "478:4841",
+          "name": "Prototype / Nav / Thu gom",
+          "type": "FRAME",
+          "x": 100,
+          "y": 1612,
+          "width": 66,
+          "height": 54
+        },
+        {
+          "id": "478:4843",
+          "name": "Prototype / Nav / Quét rác",
+          "type": "FRAME",
+          "x": 180,
+          "y": 1570,
+          "width": 68,
+          "height": 70
+        },
+        {
+          "id": "478:4845",
+          "name": "Prototype / Nav / Đổi quà",
+          "type": "FRAME",
+          "x": 264,
+          "y": 1612,
+          "width": 66,
+          "height": 54
+        },
+        {
+          "id": "478:4847",
+          "name": "Prototype / Nav / Cá nhân",
+          "type": "FRAME",
+          "x": 348,
+          "y": 1612,
+          "width": 66,
+          "height": 54
+        }
+      ]
+    },
+    {
+      "id": "386:18241",
+      "name": "Trò chơi",
+      "width": 428,
+      "height": 926,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "fonts": {
+        "Inter Regular 16": 1,
+        "Inter Regular 14": 8,
+        "Inter Regular 10": 4,
+        "Inter Bold 14": 4,
+        "Inter Bold 30": 1
+      },
+      "textCount": 18,
+      "headings": [
+        {
+          "id": "386:18284",
+          "text": "Trò chơi",
+          "fontName": {
+            "family": "Inter",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700,
+              "slnt": 0
+            }
+          },
+          "fontSize": 30,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "bounds": {
+            "x": 5940,
+            "y": 15858,
+            "width": 119,
+            "height": 36
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "386:18242",
+          "name": "chevron_backward",
+          "type": "INSTANCE",
+          "x": 10,
+          "y": 66,
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "386:18243",
+          "name": "Group 1",
+          "type": "GROUP",
+          "x": -2,
+          "y": 0,
+          "width": 428,
+          "height": 60
+        },
+        {
+          "id": "386:18245",
+          "name": "Nhấn để đổi thưởng",
+          "type": "TEXT",
+          "x": 100,
+          "y": 929,
+          "width": 150,
+          "height": 19
+        },
+        {
+          "id": "386:18246",
+          "name": "Rectangle 796",
+          "type": "RECTANGLE",
+          "x": 18,
+          "y": 118,
+          "width": 139,
+          "height": 178
+        },
+        {
+          "id": "386:18247",
+          "name": "Iconly/Regular/Light/Plus",
+          "type": "INSTANCE",
+          "x": 57,
+          "y": 168,
+          "width": 48,
+          "height": 50
+        },
+        {
+          "id": "386:18248",
+          "name": "Tạo phòng",
+          "type": "TEXT",
+          "x": 46,
+          "y": 260,
+          "width": 70,
+          "height": 17
+        },
+        {
+          "id": "386:18249",
+          "name": "Frame 36797",
+          "type": "FRAME",
+          "x": 172,
+          "y": 118,
+          "width": 139,
+          "height": 178
+        },
+        {
+          "id": "386:18254",
+          "name": "Rectangle 810",
+          "type": "RECTANGLE",
+          "x": 227,
+          "y": 660,
+          "width": 171,
+          "height": 130
+        },
+        {
+          "id": "386:18255",
+          "name": "Rectangle 811",
+          "type": "RECTANGLE",
+          "x": 227,
+          "y": 790,
+          "width": 171,
+          "height": 48
+        },
+        {
+          "id": "386:18256",
+          "name": "Đua vịt",
+          "type": "TEXT",
+          "x": 289,
+          "y": 799,
+          "width": 47,
+          "height": 17
+        },
+        {
+          "id": "386:18257",
+          "name": "Group 37229",
+          "type": "GROUP",
+          "x": 25,
+          "y": 660,
+          "width": 171,
+          "height": 178
+        },
+        {
+          "id": "386:18263",
+          "name": "5 người tham gia",
+          "type": "TEXT",
+          "x": 273,
+          "y": 816,
+          "width": 80,
+          "height": 12
+        }
+      ]
+    },
+    {
+      "id": "386:7420",
+      "name": "18 · Profile — Cá nhân",
+      "width": 428,
+      "height": 926,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.95686274766922,
+            "g": 0.9843137264251709,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:439:4816"
+            }
+          }
+        }
+      ],
+      "fonts": {
+        "Montserrat SemiBold 14": 6,
+        "Montserrat Bold 19": 4,
+        "Montserrat Bold 26": 1,
+        "Montserrat Medium 12": 1,
+        "Montserrat SemiBold 9": 6,
+        "Montserrat SemiBold 13": 6,
+        "Montserrat SemiBold 15": 1,
+        "Montserrat Bold 29": 1,
+        "Montserrat Medium 11": 4,
+        "Montserrat Bold 23": 1,
+        "Montserrat Medium 10": 4,
+        "Montserrat SemiBold 11": 4,
+        "Montserrat Bold 18": 1,
+        "Montserrat Medium 25": 1
+      },
+      "textCount": 41,
+      "headings": [
+        {
+          "id": "489:4809",
+          "text": "Linh Chi",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 26,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 36
+          },
+          "bounds": {
+            "x": 1778,
+            "y": 8814,
+            "width": 244,
+            "height": 36
+          }
+        },
+        {
+          "id": "489:4825",
+          "text": "180",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 29,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 41
+          },
+          "bounds": {
+            "x": 1672,
+            "y": 9079,
+            "width": 151,
+            "height": 41
+          }
+        },
+        {
+          "id": "489:4832",
+          "text": "120 / 200",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 23,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 32
+          },
+          "bounds": {
+            "x": 1869,
+            "y": 9079,
+            "width": 155,
+            "height": 32
+          }
+        },
+        {
+          "id": "489:4973",
+          "text": "×",
+          "fontName": {
+            "family": "Montserrat",
+            "style": "Medium",
+            "variationSettings": {
+              "wght": 500
+            }
+          },
+          "fontSize": 25,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 35
+          },
+          "bounds": {
+            "x": 1986,
+            "y": 9400,
+            "width": 44,
+            "height": 35
+          }
+        }
+      ],
+      "children": [
+        {
+          "id": "489:4783",
+          "name": "Thanh trạng thái",
+          "type": "FRAME",
+          "x": 24,
+          "y": 17,
+          "width": 380,
+          "height": 20
+        },
+        {
+          "id": "489:4791",
+          "name": "Thanh tiêu đề cá nhân",
+          "type": "FRAME",
+          "x": 24,
+          "y": 62,
+          "width": 380,
+          "height": 48
+        },
+        {
+          "id": "489:4802",
+          "name": "Nội dung Profile · Cuộn dọc",
+          "type": "FRAME",
+          "x": 0,
+          "y": 136,
+          "width": 428,
+          "height": 686
+        },
+        {
+          "id": "489:4937",
+          "name": "Điều hướng chính · Cố định",
+          "type": "FRAME",
+          "x": 0,
+          "y": 822,
+          "width": 428,
+          "height": 104
+        },
+        {
+          "id": "489:4969",
+          "name": "Rectangle",
+          "type": "RECTANGLE",
+          "x": 150,
+          "y": 905,
+          "width": 128,
+          "height": 5
+        },
+        {
+          "id": "489:4970",
+          "name": "Thông báo lưu hồ sơ",
+          "type": "FRAME",
+          "x": 24,
+          "y": 744,
+          "width": 380,
+          "height": 58
+        }
+      ]
+    }
+  ]
+}

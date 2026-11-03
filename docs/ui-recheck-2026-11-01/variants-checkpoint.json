@@ -1,0 +1,640 @@
+[
+  {
+    "url": "/onboarding?step=0",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "BlueSteps\nBƯỚC NHỎ · THAY ĐỔI LỚN\nCùng bạn nuôi dưỡng hành tinh xanh",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "BlueSteps",
+        "font": "Montserrat_700Bold",
+        "size": "39px"
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "width": 380,
+        "height": 300
+      }
+    ],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      }
+    ],
+    "errors": [],
+    "textHash": "9926e18ed0bd730c729f780592c15f25c13c0ff4f7af36f556decb88cff7a16b"
+  },
+  {
+    "url": "/onboarding?step=9",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "‹\nDÀNH RIÊNG CHO BẠN · 5/5\nHành trình xanh\nbắt đầu từ bạn.\nTrải nghiệm của bạn đã sẵn sàng. Cùng biến ý định tốt thành hành động nhỏ.\nMỤC TIÊU KHỞI ĐẦU\nChọn mục tiêu khi bạn sẵn sàng\nBắt đầu nhẹ nhàng, duy trì mỗi ngày.\nTạo tài khoản\nKhám phá trước",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Hành trình xanh\nbắt đầu từ bạn.",
+        "font": "Montserrat_700Bold",
+        "size": "32px"
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "width": 380,
+        "height": 228
+      },
+      {
+        "loaded": true,
+        "width": 36,
+        "height": 36
+      }
+    ],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      }
+    ],
+    "errors": [],
+    "textHash": "976f23c2e7365c0054d07ff37a9d77529b855b34896083f4f404aebe60147282"
+  },
+  {
+    "url": "/community?frame=722:5635",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "\nCộng đồng\nViết bài\nBảng tin\nĐã lưu\n\nChưa có bài viết\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Cộng đồng",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/posts",
+        "status": 200
+      }
+    ],
+    "errors": [],
+    "textHash": "145b1a4c89b615d5b1b0dd0de57209018721f535724b2ad713dc1436c8621858"
+  },
+  {
+    "url": "/community?frame=722:5699",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "\nCộng đồng\nViết bài\nBảng tin\nĐã lưu\n\nChưa có bài viết\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Cộng đồng",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/posts",
+        "status": 200
+      }
+    ],
+    "errors": [],
+    "textHash": "145b1a4c89b615d5b1b0dd0de57209018721f535724b2ad713dc1436c8621858"
+  },
+  {
+    "url": "/notifications?frame=703:5399",
+    "status": 200,
+    "displayState": "auth-gated",
+    "text": "\nThông báo\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Thông báo",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      }
+    ],
+    "errors": [],
+    "textHash": "5ce4bc01029bbf403fa09ff53b9e98be4497e967931e60fcfb8c871f92ebb1ab"
+  },
+  {
+    "url": "/notifications?frame=703:5524",
+    "status": 200,
+    "displayState": "auth-gated",
+    "text": "\nThông báo\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Thông báo",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      }
+    ],
+    "errors": [],
+    "textHash": "5ce4bc01029bbf403fa09ff53b9e98be4497e967931e60fcfb8c871f92ebb1ab"
+  },
+  {
+    "url": "/messages?frame=771:6023",
+    "status": 200,
+    "displayState": "auth-gated",
+    "text": "\nTin nhắn\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Tin nhắn",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      }
+    ],
+    "errors": [],
+    "textHash": "b8356903722d642bb278e8fd3b376b21bbad5ba81d3ce2b6a939e02871d61147"
+  },
+  {
+    "url": "/messages?frame=771:6514",
+    "status": 200,
+    "displayState": "auth-gated",
+    "text": "\nTin nhắn\n\nĐăng nhập để tiếp tục\nDữ liệu cá nhân được lưu trong tài khoản của bạn.\nĐăng nhập",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Tin nhắn",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      }
+    ],
+    "errors": [],
+    "textHash": "b8356903722d642bb278e8fd3b376b21bbad5ba81d3ce2b6a939e02871d61147"
+  },
+  {
+    "url": "/game?frame=386:18241",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "\nTrò chơi\nTrò chơi chưa được mở trên hệ thống.\nThử lại",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Trò chơi",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/games",
+        "status": 503
+      }
+    ],
+    "errors": [],
+    "textHash": "9da94ebe8ba2044fe3dae849674832c664891ca4144fc4d7e35d2cb61cdf5355"
+  },
+  {
+    "url": "/game?frame=427:19392",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "\nTrò chơi\nTrò chơi chưa được mở trên hệ thống.\nThử lại",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Trò chơi",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/games",
+        "status": 503
+      }
+    ],
+    "errors": [],
+    "textHash": "9da94ebe8ba2044fe3dae849674832c664891ca4144fc4d7e35d2cb61cdf5355"
+  },
+  {
+    "url": "/scan?frame=386:14194",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "Phân loại rác\nMở camera\nChọn ảnh từ thư viện\nChọn vật phẩm để xem hướng dẫn và ghi nhận phân loại\n\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Phân loại rác",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "width": 95,
+        "height": 67
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 30
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 32
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 30
+      },
+      {
+        "loaded": true,
+        "width": 28,
+        "height": 28
+      },
+      {
+        "loaded": true,
+        "width": 83,
+        "height": 83
+      }
+    ],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/waste-items",
+        "status": 200
+      }
+    ],
+    "errors": [],
+    "textHash": "ad3d95b9008b28e500edb161fbd910d7a9fbbca0a2d5e4edba45a707d9373688"
+  },
+  {
+    "url": "/scan?frame=386:14264",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "Phân loại rác\nMở camera\nChọn ảnh từ thư viện\nChọn vật phẩm để xem hướng dẫn và ghi nhận phân loại\n\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Phân loại rác",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "width": 95,
+        "height": 67
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 30
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 32
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 30
+      },
+      {
+        "loaded": true,
+        "width": 28,
+        "height": 28
+      },
+      {
+        "loaded": true,
+        "width": 83,
+        "height": 83
+      }
+    ],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/waste-items",
+        "status": 200
+      }
+    ],
+    "errors": [],
+    "textHash": "ad3d95b9008b28e500edb161fbd910d7a9fbbca0a2d5e4edba45a707d9373688"
+  },
+  {
+    "url": "/handbook/types/plastic",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nNhựa\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Sổ tay rác",
+        "font": "Roboto_800ExtraBold",
+        "size": "32px"
+      },
+      {
+        "text": "Nhựa",
+        "font": "Inter_700Bold",
+        "size": "20px"
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "width": 12,
+        "height": 20
+      },
+      {
+        "loaded": true,
+        "width": 489,
+        "height": 510
+      },
+      {
+        "loaded": true,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "loaded": true,
+        "width": 95,
+        "height": 67
+      },
+      {
+        "loaded": true,
+        "width": 11,
+        "height": 11
+      },
+      {
+        "loaded": true,
+        "width": 28,
+        "height": 28
+      },
+      {
+        "loaded": true,
+        "width": 27,
+        "height": 17
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 29
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 25
+      },
+      {
+        "loaded": true,
+        "width": 28,
+        "height": 27
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 30
+      },
+      {
+        "loaded": true,
+        "width": 83,
+        "height": 83
+      },
+      {
+        "loaded": true,
+        "width": 32,
+        "height": 32
+      },
+      {
+        "loaded": true,
+        "width": 141,
+        "height": 3
+      }
+    ],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/waste-items",
+        "status": 200
+      }
+    ],
+    "errors": [],
+    "textHash": "746df1dd4ce8045715606b0850de79ca26fd62d178439147866b38136bb70f02"
+  },
+  {
+    "url": "/handbook/types/medical",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "Sổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nSổ tay rác\nDụng cụ y tế\n\nChưa có vật phẩm trong sổ tay\nNội dung sẽ xuất hiện khi có dữ liệu được công bố trên hệ thống.",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Sổ tay rác",
+        "font": "Roboto_800ExtraBold",
+        "size": "32px"
+      },
+      {
+        "text": "Dụng cụ y tế",
+        "font": "Inter_700Bold",
+        "size": "20px"
+      }
+    ],
+    "images": [
+      {
+        "loaded": true,
+        "width": 12,
+        "height": 20
+      },
+      {
+        "loaded": true,
+        "width": 489,
+        "height": 510
+      },
+      {
+        "loaded": true,
+        "width": 24,
+        "height": 24
+      },
+      {
+        "loaded": true,
+        "width": 95,
+        "height": 67
+      },
+      {
+        "loaded": true,
+        "width": 11,
+        "height": 11
+      },
+      {
+        "loaded": true,
+        "width": 28,
+        "height": 28
+      },
+      {
+        "loaded": true,
+        "width": 27,
+        "height": 17
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 29
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 25
+      },
+      {
+        "loaded": true,
+        "width": 28,
+        "height": 27
+      },
+      {
+        "loaded": true,
+        "width": 30,
+        "height": 30
+      },
+      {
+        "loaded": true,
+        "width": 83,
+        "height": 83
+      },
+      {
+        "loaded": true,
+        "width": 32,
+        "height": 32
+      },
+      {
+        "loaded": true,
+        "width": 141,
+        "height": 3
+      }
+    ],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      },
+      {
+        "path": "/v1/waste-items",
+        "status": 200
+      }
+    ],
+    "errors": [],
+    "textHash": "140145b797e80cac22180381003ad3a6aed293602d4c31e261b1a5ce9353637e"
+  },
+  {
+    "url": "/design-preview?frame=386:8558",
+    "status": 200,
+    "displayState": "rendered",
+    "text": "\nKhông tìm thấy trang\n\nĐường dẫn không tồn tại\nQuay về để tiếp tục hành trình xanh.\nVề trang chủ",
+    "documentWidth": 428,
+    "width": 428,
+    "headings": [
+      {
+        "text": "Không tìm thấy trang",
+        "font": "Montserrat_700Bold",
+        "size": "24px"
+      }
+    ],
+    "images": [],
+    "screenshot": null,
+    "apiResponses": [
+      {
+        "path": "/v1/auth/web/refresh",
+        "status": 401
+      }
+    ],
+    "errors": [],
+    "textHash": "a5b18c0384a78eb60de52f9da8a185de8c2947a0ba49ecf5acff75150b114ab8"
+  }
+]

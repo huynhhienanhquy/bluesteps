@@ -1,1 +1,1 @@
-export { CollectionCompareScreen as default } from '../src/features/collection/CollectionCompareScreen';
+export { CollectionCompareScreen as default } from '../src/features/live/CollectionScreens';

@@ -1,1 +1,1 @@
-export { ScanScreen as default } from '../../src/features/scan/ScanScreen';
+export { ScanScreen as default } from '../../src/features/live/ScanScreen';

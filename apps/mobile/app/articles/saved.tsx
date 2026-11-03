@@ -1,4 +1,4 @@
-import { ArticlesScreen } from '../../src/features/content/NewsScreens';
-export default function SavedArticlesPage() {
-  return <ArticlesScreen savedOnly />;
+import { NewsScreen } from '../../src/features/live/NewsScreens';
+export default function SavedPage() {
+  return <NewsScreen saved />;
 }

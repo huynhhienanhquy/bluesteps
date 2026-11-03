@@ -1,0 +1,373 @@
+{
+  "title": "messages and inbox delivery persist through the real worker",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 14690,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/users",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/conversations",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/users",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/messages",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/messages",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/users",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/messages",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/read",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/messages",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/read",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/statistics",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/messages",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/conversations/b4823046-414a-4e56-9d25-a98f1b252afc/read",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications/summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications/8bdd0382-6893-48ab-a968-011ec70b3ff1",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/v1/me/notifications/8bdd0382-6893-48ab-a968-011ec70b3ff1",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications/summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications/8bdd0382-6893-48ab-a968-011ec70b3ff1",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications/summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/me/notifications/read-all",
+      "status": 204
+    }
+  ]
+}

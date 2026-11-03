@@ -1,1 +1,0 @@
-export { NewsDiscussionScreen } from './NewsDiscussionView';

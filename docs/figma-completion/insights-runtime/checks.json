@@ -1,0 +1,794 @@
+[
+  {
+    "name": "home",
+    "route": "/",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "profile",
+    "route": "/profile",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "statistics",
+    "route": "/statistics",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "achievements",
+    "route": "/achievements",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "handbook",
+    "route": "/handbook",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news",
+    "route": "/articles",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-calendar",
+    "route": "/articles/calendar",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-briefs",
+    "route": "/articles/briefs",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-reading",
+    "route": "/articles/reading-list",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-search",
+    "route": "/articles/search",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-topics",
+    "route": "/articles/topics",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "events",
+    "route": "/events",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-detail",
+    "route": "/events/64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-registration",
+    "route": "/registration?id=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-calendar",
+    "route": "/calendar",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-collections",
+    "route": "/event-collections",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-reminders",
+    "route": "/event-reminders?events=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-ticket",
+    "route": "/event-ticket?id=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-summary",
+    "route": "/event-summary?id=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "collection",
+    "route": "/collection",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": false,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings",
+    "route": "/settings",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-sound",
+    "route": "/settings?overlay=sound",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-search",
+    "route": "/settings?overlay=search",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-history",
+    "route": "/settings?overlay=history",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-pin",
+    "route": "/settings?overlay=pin",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "edit-profile",
+    "route": "/edit-profile",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "change-password",
+    "route": "/change-password",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "forgot-password",
+    "route": "/forgot-password",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "rewards",
+    "route": "/rewards",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "reward-catalog",
+    "route": "/rewards/catalog",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "reward-history",
+    "route": "/history",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "reward-guide",
+    "route": "/rewards/guide",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "onboarding",
+    "route": "/onboarding?step=5",
+    "viewport": {
+      "width": 428,
+      "height": 926
+    },
+    "width": 428,
+    "documentWidth": 428,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "home",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "profile",
+    "route": "/profile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "statistics",
+    "route": "/statistics",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "achievements",
+    "route": "/achievements",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "handbook",
+    "route": "/handbook",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news",
+    "route": "/articles",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-calendar",
+    "route": "/articles/calendar",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-briefs",
+    "route": "/articles/briefs",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-reading",
+    "route": "/articles/reading-list",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-search",
+    "route": "/articles/search",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "news-topics",
+    "route": "/articles/topics",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "events",
+    "route": "/events",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-detail",
+    "route": "/events/64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-registration",
+    "route": "/registration?id=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-calendar",
+    "route": "/calendar",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-collections",
+    "route": "/event-collections",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-reminders",
+    "route": "/event-reminders?events=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-ticket",
+    "route": "/event-ticket?id=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "event-summary",
+    "route": "/event-summary?id=64cc91c5-08a8-4d4a-9696-33a1c4831074",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "collection",
+    "route": "/collection",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": false,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings",
+    "route": "/settings",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-sound",
+    "route": "/settings?overlay=sound",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-search",
+    "route": "/settings?overlay=search",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-history",
+    "route": "/settings?overlay=history",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "settings-pin",
+    "route": "/settings?overlay=pin",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "edit-profile",
+    "route": "/edit-profile",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "change-password",
+    "route": "/change-password",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "forgot-password",
+    "route": "/forgot-password",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "rewards",
+    "route": "/rewards",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "reward-catalog",
+    "route": "/rewards/catalog",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "reward-history",
+    "route": "/history",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "reward-guide",
+    "route": "/rewards/guide",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  },
+  {
+    "name": "onboarding",
+    "route": "/onboarding?step=5",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "width": 390,
+    "documentWidth": 390,
+    "mapLoaded": null,
+    "source": "isolated PostgreSQL API; no request mocking"
+  }
+]

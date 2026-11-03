@@ -1,0 +1,87 @@
+Applied 202610310001_core.sql
+Applied 202610310002_geo_and_permissions.sql
+Applied 202610310003_outbox_leases.sql
+Applied 202610310004_recipient_cooldown.sql
+Applied 202610310005_live_mobile.sql
+Applied 202611020001_event_participation.sql
+Applied 202611020002_reminders.sql
+_expo/static/js/web/edit-profile-6ac0b4fc50e9d687788bde5dc598c409.js (210B)
+_expo/static/js/web/entry-6a11daf2dae37276bce2bd867975af57.js (1.1MB)
+_expo/static/js/web/event-check-in-a9c99678b9907316db6bf383b7221039.js (2.3KB)
+_expo/static/js/web/event-collections-eef748a9a90830fe5cff90d1d5a23ef5.js (215B)
+_expo/static/js/web/event-reminders-cee4c449b301f84039e38eab3a6931d3.js (213B)
+_expo/static/js/web/event-summary-f5f8fb41fe2edef286df5aae69b3763d.js (211B)
+_expo/static/js/web/event-ticket-0d41fdff575c66a1213950bf474740c2.js (205B)
+_expo/static/js/web/forgot-password-ef3faae349766351afe3b411e1eea00e.js (213B)
+_expo/static/js/web/game-e1578e1cb6b5fd40eeb45a293dce39e4.js (204B)
+_expo/static/js/web/guide-1794372a0a857b60779e2857a9947b59.js (211B)
+_expo/static/js/web/history-59ea3d9fa1b6158d63fc7712cc317d6f.js (206B)
+_expo/static/js/web/index-3d260989587d455fdef265c65d06403e.js (203B)
+_expo/static/js/web/index-7f523af9af4d412caa4838336aacaacd.js (11KB)
+_expo/static/js/web/index-8f1eb837396a65fd4d3b02c55ba3a6c3.js (205B)
+_expo/static/js/web/index-d9d9e4743a9ce923ad9bf685575bfa2d.js (207B)
+_expo/static/js/web/index-ef1916e3d754b3e45dd6804a8e4aff90.js (45KB)
+_expo/static/js/web/journey-14ad8fb2d1549adcbbe4351107d85edb.js (206B)
+_expo/static/js/web/legal-4383c2594cf23bf383b2bac4c6a557de.js (204B)
+_expo/static/js/web/list-e2ddbbe8a1dd0034001b610b7af06b03.js (207B)
+_expo/static/js/web/login-10297f70ab30bf9b540a627b29e494a1.js (203B)
+_expo/static/js/web/messages-e568c2261fafc97f1528b1606d1fdf18.js (207B)
+_expo/static/js/web/notifications-b7920a1c583b6bd26307553a9368e755.js (212B)
+_expo/static/js/web/onboarding-4c3cc6374b4a3ce567f709b3be012918.js (209B)
+_expo/static/js/web/point-proposal-4e21c3e83c57da27cb5bb73d2f4c80ef.js (212B)
+_expo/static/js/web/point-report-6eb91c25f5047c03494901b92670e128.js (210B)
+_expo/static/js/web/profile-fa59c6027afd66c72e80522cbaf5783a.js (206B)
+_expo/static/js/web/reading-list-a019215c82fe13a33eb84f8a2a37882f.js (259B)
+_expo/static/js/web/register-09fa2a36655394b114db2ea208b1e4fe.js (266B)
+_expo/static/js/web/registration-930bf11c4dc62d1710fc79c6075bb6ab.js (211B)
+_expo/static/js/web/reset-password-d9f0d37a7e87308644312341b1b92dc9.js (212B)
+_expo/static/js/web/rewards-edf21584e44849b0a54ca787c721b30a.js (206B)
+_expo/static/js/web/saved-4d13eb0fc315a4521935f1ed24c3d942.js (261B)
+_expo/static/js/web/saved-96fa4a72c344a1f8cb7ff2752065475d.js (259B)
+_expo/static/js/web/scan-32d06dc4e23dcd1c60f0766bdc77c2e9.js (14KB)
+_expo/static/js/web/search-c935ee48864b48307a4a25a30115e71b.js (203B)
+_expo/static/js/web/settings-d2b84e871df3b0cc61fec295a70081b4.js (207B)
+_expo/static/js/web/statistics-1554e5d96c91d750e87fa91baa4a0dbe.js (209B)
+_expo/static/js/web/topics-5559fc963d30e3fa5bb0800f515bce7c.js (205B)
+_expo/static/js/web/verify-email-6effa220ee04a7853061407495dc3bc1.js (210B)
+
+� Files (2):
+index.html (1.4KB)
+metadata.json (49B)
+
+Exported: dist
+$ playwright test live-backend.spec.ts
+
+Running 15 tests using 1 worker
+
+(node:10584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 e2e\live-backend.spec.ts:88:5 � public catalogs come from database IDs and never expose synthetic seeds (5.9s)
+  ok  2 e2e\live-backend.spec.ts:118:5 � register, real outbox email verification and login issue a browser cookie (4.3s)
+  ok  3 e2e\live-backend.spec.ts:174:5 � profile, zero wallet and manual sorting remain canonical after reload (8.7s)
+  ok  4 e2e\live-backend.spec.ts:201:5 � article save, reaction and discussion survive a new page instance (7.4s)
+  ok  5 e2e\live-backend.spec.ts:232:5 � community writes are server-owned and account switching hides private state (9.8s)
+  ok  6 e2e\live-backend.spec.ts:258:5 � messages and inbox delivery persist through the real worker (10.6s)
+  ok  7 e2e\live-backend.spec.ts:287:5 � saved activity collections and route handover write canonical database state (14.2s)
+  ok  8 e2e\live-backend.spec.ts:369:5 � saved calendar selects real dates and registration issues a persistent ticket (7.9s)
+  ok  9 e2e\live-backend.spec.ts:444:5 � ticket and summary render participation state without fabricating results (6.8s)
+  ok 10 e2e\live-backend.spec.ts:482:5 � offline reads fail visibly without demo fallback and service gates are real API errors (5.6s)
+  ok 11 e2e\live-backend.spec.ts:512:5 � settings and onboarding choices persist across full reloads (8.4s)
+  ok 12 e2e\live-backend.spec.ts:558:5 � reward catalog uses published stock and server gates without awarding sample points (6.0s)
+  ok 13 e2e\live-backend.spec.ts:584:5 � every application route renders with the live provider (4.6m)
+  ok 14 e2e\live-backend.spec.ts:675:5 � Figma layout candidates render at both mobile widths with database content (1.1m)
+  ok 15 e2e\live-backend.spec.ts:800:5 � password recovery uses the real email code and permits login with the new password (5.4s)
+
+  Slow test file: e2e\live-backend.spec.ts (7.4m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  15 passed (7.4m)
+.
+============================== warnings summary ===============================
+apps\api\.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\BlueSteps\apps\api\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1 passed, 1 warning in 463.44s (0:07:43)

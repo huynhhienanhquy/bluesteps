@@ -1,1 +1,1 @@
-export { HandbookList as default } from '../../src/features/handbook/HandbookList';
+export { HandbookScreen as default } from '../../src/features/live/HandbookScreens';

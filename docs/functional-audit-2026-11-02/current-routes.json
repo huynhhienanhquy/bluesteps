@@ -1,0 +1,743 @@
+[
+  {
+    "pattern": "/collection",
+    "file": "apps/mobile/app/(tabs)/collection.tsx",
+    "sha256": "3bca377e1bb7d471c91548516c784a835e5b21fe69351946bfa3d8f96a37564a",
+    "component": "CollectionScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 28,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/",
+    "file": "apps/mobile/app/(tabs)/index.tsx",
+    "sha256": "d70ba764603c4778caa7d5e057f792c2130ac117f948942739460a10c7ebcdc8",
+    "component": "HomeScreen",
+    "source": "apps/mobile/src/features/live/HomeScreen.tsx",
+    "line": 26,
+    "exportChain": [
+      "apps/mobile/src/features/live/HomeScreen.tsx"
+    ]
+  },
+  {
+    "pattern": "/profile",
+    "file": "apps/mobile/app/(tabs)/profile.tsx",
+    "sha256": "d72458215081d514f28866be64a29ba32c2261bbe9a701cb59c25033192703df",
+    "component": "ProfileOverview",
+    "source": "apps/mobile/src/features/live/ProfileOverview.tsx",
+    "line": 44,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx",
+      "apps/mobile/src/features/live/ProfileOverview.tsx"
+    ]
+  },
+  {
+    "pattern": "/rewards",
+    "file": "apps/mobile/app/(tabs)/rewards.tsx",
+    "sha256": "68c8345161001c1ccd36072ee22987adcf2a3e3ca28f1f8192236d8247ff93ea",
+    "component": "RewardsScreen",
+    "source": "apps/mobile/src/features/live/RewardScreens.tsx",
+    "line": 10,
+    "exportChain": [
+      "apps/mobile/src/features/live/RewardScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/scan",
+    "file": "apps/mobile/app/(tabs)/scan.tsx",
+    "sha256": "f2b2f5ab3fe960ca983438d248f7d591fb4f5703a8fbdc159e2aa020b3134147",
+    "component": "ScanScreen",
+    "source": "apps/mobile/src/features/live/ScanScreen.tsx",
+    "line": 17,
+    "exportChain": [
+      "apps/mobile/src/features/live/ScanScreen.tsx"
+    ]
+  },
+  {
+    "pattern": "/achievements",
+    "file": "apps/mobile/app/achievements.tsx",
+    "sha256": "9f7875dcf94b6dbcb0c66a7e7953715b8ae5ad4de766ecb6b9d3b2f1449fc459",
+    "component": "AchievementsScreen",
+    "source": "apps/mobile/src/features/live/ProfileScreens.tsx",
+    "line": 49,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/briefs",
+    "file": "apps/mobile/app/articles/briefs.tsx",
+    "sha256": "e83cdcf5c74a7034484743ea2503b1905a2ef95310268fa51211fece4603b1a6",
+    "component": "NewsScreen",
+    "source": "apps/mobile/src/features/live/NewsScreens.tsx",
+    "line": 31,
+    "exportChain": [
+      "apps/mobile/src/features/live/NewsScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/calendar",
+    "file": "apps/mobile/app/articles/calendar.tsx",
+    "sha256": "06b41d856e7ef9ea9f39cbb02a85a349486801867294a5979ac10d42df4e0536",
+    "component": "EventsScreen",
+    "source": "apps/mobile/src/features/live/EventScreens.tsx",
+    "line": 27,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/discussion",
+    "file": "apps/mobile/app/articles/discussion.tsx",
+    "sha256": "76c4e2a1f7dc29d6cae6009bf8ca144bee257bdbc41cf37ee5fc269c69d40e83",
+    "component": "DiscussionScreen",
+    "source": "apps/mobile/src/features/live/SocialScreens.tsx",
+    "line": 123,
+    "exportChain": [
+      "apps/mobile/src/features/live/SocialScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/events/[id]",
+    "file": "apps/mobile/app/articles/events/[id].tsx",
+    "sha256": "8e5fbf778e6a647a7ba88c2e79b1f31a7f93b398ae482a8abc1cb269ef085a24",
+    "component": "EventDetailScreen",
+    "source": "apps/mobile/src/features/live/EventDetail.tsx",
+    "line": 17,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventDetail.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles",
+    "file": "apps/mobile/app/articles/index.tsx",
+    "sha256": "e83cdcf5c74a7034484743ea2503b1905a2ef95310268fa51211fece4603b1a6",
+    "component": "NewsScreen",
+    "source": "apps/mobile/src/features/live/NewsScreens.tsx",
+    "line": 31,
+    "exportChain": [
+      "apps/mobile/src/features/live/NewsScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/reading-list",
+    "file": "apps/mobile/app/articles/reading-list.tsx",
+    "sha256": "dd882a11175a7c37de61e2a4faeed02e4145a7d6471547f95760e542c5bdd680",
+    "component": "NewsScreen",
+    "source": "apps/mobile/src/features/live/NewsScreens.tsx",
+    "line": 31,
+    "exportChain": [
+      "apps/mobile/src/features/live/NewsScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/saved",
+    "file": "apps/mobile/app/articles/saved.tsx",
+    "sha256": "dd882a11175a7c37de61e2a4faeed02e4145a7d6471547f95760e542c5bdd680",
+    "component": "NewsScreen",
+    "source": "apps/mobile/src/features/live/NewsScreens.tsx",
+    "line": 31,
+    "exportChain": [
+      "apps/mobile/src/features/live/NewsScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/search",
+    "file": "apps/mobile/app/articles/search.tsx",
+    "sha256": "e83cdcf5c74a7034484743ea2503b1905a2ef95310268fa51211fece4603b1a6",
+    "component": "NewsScreen",
+    "source": "apps/mobile/src/features/live/NewsScreens.tsx",
+    "line": 31,
+    "exportChain": [
+      "apps/mobile/src/features/live/NewsScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/topics",
+    "file": "apps/mobile/app/articles/topics.tsx",
+    "sha256": "3e42b43325789421b89faaa058e6cc7bb3dbb56219d53a08c92f7a348cd72ad7",
+    "component": "TopicsScreen",
+    "source": "apps/mobile/src/features/live/NewsScreens.tsx",
+    "line": 680,
+    "exportChain": [
+      "apps/mobile/src/features/live/NewsScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/articles/[id]",
+    "file": "apps/mobile/app/articles/[id].tsx",
+    "sha256": "9216538b4ee1056f3ae35709d0dc3568911243dcafa0e239c770ed2e14fe9783",
+    "component": "ArticleScreen",
+    "source": "apps/mobile/src/features/live/NewsScreens.tsx",
+    "line": 595,
+    "exportChain": [
+      "apps/mobile/src/features/live/NewsScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/assistant",
+    "file": "apps/mobile/app/assistant.tsx",
+    "sha256": "d57da74dfc405ffa82a9b3712fc4733beb13deaab0bdbb9edf87894f2cf93717",
+    "component": "AssistantScreen",
+    "source": "apps/mobile/src/features/live/ServiceScreens.tsx",
+    "line": 7,
+    "exportChain": [
+      "apps/mobile/src/features/live/ServiceScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/calendar",
+    "file": "apps/mobile/app/calendar.tsx",
+    "sha256": "45503309c2d3136f1a3168e4e4aa6a2663ea8bbed6465316389801752ace17f8",
+    "component": "CalendarScreen",
+    "source": "apps/mobile/src/features/live/EventCalendar.tsx",
+    "line": 22,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventCalendar.tsx"
+    ]
+  },
+  {
+    "pattern": "/change-password",
+    "file": "apps/mobile/app/change-password.tsx",
+    "sha256": "6a508c6a188adf79adfdc014c2462a3a59c98e0798ee7bd104e1bcc212cd2267",
+    "component": "ChangePasswordScreen",
+    "source": "apps/mobile/src/features/live/AuthScreens.tsx",
+    "line": 369,
+    "exportChain": [
+      "apps/mobile/src/features/live/AuthScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-arrival",
+    "file": "apps/mobile/app/collection-arrival.tsx",
+    "sha256": "a34d461563d90a845bfba66dd883bfa2cd35dae681ecbfe06c381f944cab503f",
+    "component": "ArrivalScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 776,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-compare",
+    "file": "apps/mobile/app/collection-compare.tsx",
+    "sha256": "5821299f72b248684181653ab99fd535d1430fae46e072fc7e7410f51d75fc26",
+    "component": "CollectionCompareScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 573,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-directions",
+    "file": "apps/mobile/app/collection-directions.tsx",
+    "sha256": "f281a7f258e4d09992e9c1eebed1faefc82fce1dc060b5faf261e371a9c713a1",
+    "component": "RouteScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 671,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-explore",
+    "file": "apps/mobile/app/collection-explore.tsx",
+    "sha256": "30e8b0b997d6884324cb386a8d7261af77cac491bcb59910e88740c29de6c87b",
+    "component": "CollectionScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 28,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-filters",
+    "file": "apps/mobile/app/collection-filters.tsx",
+    "sha256": "f832d27d622bf222f6e3118529405e0347a50e251e07899c593c91c984c1a06a",
+    "component": "CollectionFiltersScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 401,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-navigation",
+    "file": "apps/mobile/app/collection-navigation.tsx",
+    "sha256": "f281a7f258e4d09992e9c1eebed1faefc82fce1dc060b5faf261e371a9c713a1",
+    "component": "RouteScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 671,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-replacement",
+    "file": "apps/mobile/app/collection-replacement.tsx",
+    "sha256": "d3568c625fa00e04031768e0a1a5db9b029736449aa68493fb2d95de389bd7a7",
+    "component": "RouteEditorScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 829,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/collection-route",
+    "file": "apps/mobile/app/collection-route.tsx",
+    "sha256": "f281a7f258e4d09992e9c1eebed1faefc82fce1dc060b5faf261e371a9c713a1",
+    "component": "RouteScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 671,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/community",
+    "file": "apps/mobile/app/community.tsx",
+    "sha256": "15803215295c76cb4a61be36bbf1186e6f0611b08a4a1874468fefaa63fb5212",
+    "component": "CommunityScreen",
+    "source": "apps/mobile/src/features/live/SocialScreens.tsx",
+    "line": 20,
+    "exportChain": [
+      "apps/mobile/src/features/live/SocialScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/compose",
+    "file": "apps/mobile/app/compose.tsx",
+    "sha256": "f6215c1a31b9a976d4cf55200f2a4859d8f9ac65f592c5aac38c93c7fc72976f",
+    "component": "ComposerScreen",
+    "source": "apps/mobile/src/features/live/SocialScreens.tsx",
+    "line": 55,
+    "exportChain": [
+      "apps/mobile/src/features/live/SocialScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/connected-account",
+    "file": "apps/mobile/app/connected-account.tsx",
+    "sha256": "aa09727621b03e873f80cdceb84697f23d9f6c4adc4e6433fe80a732065175eb",
+    "component": "SessionsScreen",
+    "source": "apps/mobile/src/features/live/SettingsScreen.tsx",
+    "line": 663,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx",
+      "apps/mobile/src/features/live/SettingsScreen.tsx"
+    ]
+  },
+  {
+    "pattern": "/conversation",
+    "file": "apps/mobile/app/conversation.tsx",
+    "sha256": "31da149423f0e566c8120742531ffbeac5c5639af1ea059713a358c7ca809a3a",
+    "component": "ConversationScreen",
+    "source": "apps/mobile/src/features/live/SocialScreens.tsx",
+    "line": 388,
+    "exportChain": [
+      "apps/mobile/src/features/live/SocialScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/discussion",
+    "file": "apps/mobile/app/discussion.tsx",
+    "sha256": "961404c783ddfc9c68488f5fb3e1e05f7c3bd58036c05caa49bd2fb6cf40cb28",
+    "component": "DiscussionScreen",
+    "source": "apps/mobile/src/features/live/SocialScreens.tsx",
+    "line": 123,
+    "exportChain": [
+      "apps/mobile/src/features/live/SocialScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/edit-profile",
+    "file": "apps/mobile/app/edit-profile.tsx",
+    "sha256": "1c8ff4822d19316a425a9fa7b2daad946ecf4b4601461a8adee4b67653cbd2da",
+    "component": "EditProfileScreen",
+    "source": "apps/mobile/src/features/live/EditProfileScreen.tsx",
+    "line": 13,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx",
+      "apps/mobile/src/features/live/EditProfileScreen.tsx"
+    ]
+  },
+  {
+    "pattern": "/event-collections",
+    "file": "apps/mobile/app/event-collections.tsx",
+    "sha256": "1ca24933e648aafc5608e22e3bc51cd9986dbee1c862ade0715221f2f9150fe5",
+    "component": "EventCollectionsScreen",
+    "source": "apps/mobile/src/features/live/EventCollections.tsx",
+    "line": 38,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventCollections.tsx"
+    ]
+  },
+  {
+    "pattern": "/event-reminders",
+    "file": "apps/mobile/app/event-reminders.tsx",
+    "sha256": "cacbad8bb00391d8a0db030f535161f04635251de5c572d17e14d5cc4901e5a0",
+    "component": "EventRemindersScreen",
+    "source": "apps/mobile/src/features/live/EventSupportScreens.tsx",
+    "line": 40,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventSupportScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/event-summary",
+    "file": "apps/mobile/app/event-summary.tsx",
+    "sha256": "4ec772edc60c2ed8b8ad54673497e4642a3baeb7234e3ebd408dddeb25f2315f",
+    "component": "EventSummaryScreen",
+    "source": "apps/mobile/src/features/live/EventSupportScreens.tsx",
+    "line": 393,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventSupportScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/event-ticket",
+    "file": "apps/mobile/app/event-ticket.tsx",
+    "sha256": "4230a7f62154bff405683b61afd59107798eac476be63ca1a18fe2853bb6d681",
+    "component": "TicketScreen",
+    "source": "apps/mobile/src/features/live/EventSupportScreens.tsx",
+    "line": 206,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventSupportScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/events",
+    "file": "apps/mobile/app/events/index.tsx",
+    "sha256": "06b41d856e7ef9ea9f39cbb02a85a349486801867294a5979ac10d42df4e0536",
+    "component": "EventsScreen",
+    "source": "apps/mobile/src/features/live/EventScreens.tsx",
+    "line": 27,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/events/[id]",
+    "file": "apps/mobile/app/events/[id].tsx",
+    "sha256": "0b123b55e1edb032861ac80cfd3086cd560aebfe0709e59de37880ff1fadd012",
+    "component": "EventDetailScreen",
+    "source": "apps/mobile/src/features/live/EventDetail.tsx",
+    "line": 17,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventDetail.tsx"
+    ]
+  },
+  {
+    "pattern": "/forgot-password",
+    "file": "apps/mobile/app/forgot-password.tsx",
+    "sha256": "4c63c30a17676e9d67b02264fa8254eda22b244d6e48c5f8dd42f2bc4418245c",
+    "component": "ForgotPasswordScreen",
+    "source": "apps/mobile/src/features/live/AuthScreens.tsx",
+    "line": 23,
+    "exportChain": [
+      "apps/mobile/src/features/live/AuthScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/game",
+    "file": "apps/mobile/app/game.tsx",
+    "sha256": "cf1e7e87b672b10527a58bf9bce1c59367c7efaec31eb980d4cf2df57f724840",
+    "component": "GamesScreen",
+    "source": "apps/mobile/src/features/live/ServiceScreens.tsx",
+    "line": 38,
+    "exportChain": [
+      "apps/mobile/src/features/live/ServiceScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/handbook/category/[category]",
+    "file": "apps/mobile/app/handbook/category/[category].tsx",
+    "sha256": "2ad404b65d87d51d8c068fb89ce37b687dd1847a8d2cb6ef465b301d6e92aef6",
+    "component": "HandbookScreen",
+    "source": "apps/mobile/src/features/live/HandbookScreens.tsx",
+    "line": 69,
+    "exportChain": [
+      "apps/mobile/src/features/live/HandbookScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/handbook",
+    "file": "apps/mobile/app/handbook/index.tsx",
+    "sha256": "787cab1c0472fee2d33608d02a14e5380d5e5792a2bc0c88a33fabd964eb2748",
+    "component": "HandbookScreen",
+    "source": "apps/mobile/src/features/live/HandbookScreens.tsx",
+    "line": 69,
+    "exportChain": [
+      "apps/mobile/src/features/live/HandbookScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/handbook/list",
+    "file": "apps/mobile/app/handbook/list.tsx",
+    "sha256": "787cab1c0472fee2d33608d02a14e5380d5e5792a2bc0c88a33fabd964eb2748",
+    "component": "HandbookScreen",
+    "source": "apps/mobile/src/features/live/HandbookScreens.tsx",
+    "line": 69,
+    "exportChain": [
+      "apps/mobile/src/features/live/HandbookScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/handbook/types/[kind]",
+    "file": "apps/mobile/app/handbook/types/[kind].tsx",
+    "sha256": "2ad404b65d87d51d8c068fb89ce37b687dd1847a8d2cb6ef465b301d6e92aef6",
+    "component": "HandbookScreen",
+    "source": "apps/mobile/src/features/live/HandbookScreens.tsx",
+    "line": 69,
+    "exportChain": [
+      "apps/mobile/src/features/live/HandbookScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/handbook/[id]",
+    "file": "apps/mobile/app/handbook/[id].tsx",
+    "sha256": "ef34a56dfef2707de752220726fb93235442ab9bad9fc15692c8f53b97fed2ab",
+    "component": "WasteDetailScreen",
+    "source": "apps/mobile/src/features/live/HandbookScreens.tsx",
+    "line": 424,
+    "exportChain": [
+      "apps/mobile/src/features/live/HandbookScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/history",
+    "file": "apps/mobile/app/history.tsx",
+    "sha256": "053fc2e3eaa41fce1b3c75bbc69c7448d211f11fa55bfb2172c9fa9cbb8232cf",
+    "component": "HistoryScreen",
+    "source": "apps/mobile/src/features/live/RewardHistory.tsx",
+    "line": 27,
+    "exportChain": [
+      "apps/mobile/src/features/live/RewardScreens.tsx",
+      "apps/mobile/src/features/live/RewardHistory.tsx"
+    ]
+  },
+  {
+    "pattern": "/journey",
+    "file": "apps/mobile/app/journey.tsx",
+    "sha256": "8d351abe1cb88f2b2747f509f9d211d151034f8349b6484ebe1eb273ee0828e0",
+    "component": "JourneyScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 589,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/legal",
+    "file": "apps/mobile/app/legal.tsx",
+    "sha256": "7a62db1d4e620f1184ed1029e4b9140c4e00076a9e97578558ee1e6d800656ff",
+    "component": "LegalScreen",
+    "source": "apps/mobile/src/features/live/ProfileScreens.tsx",
+    "line": 116,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/login",
+    "file": "apps/mobile/app/login.tsx",
+    "sha256": "1a0d2a1231e5987e6ed7a75eb9a9118d3ffa6ce6f75d37fa7aa2b126cf3ef66e",
+    "component": "AuthScreen",
+    "source": "apps/mobile/src/features/auth/AuthForm.tsx",
+    "line": 37,
+    "exportChain": [
+      "apps/mobile/src/features/auth/AuthForm.tsx"
+    ]
+  },
+  {
+    "pattern": "/messages",
+    "file": "apps/mobile/app/messages.tsx",
+    "sha256": "0b0cad2115cd1adb25955027dfc82eecdd950b4b9f077eff509a2d077790a7de",
+    "component": "MessagesScreen",
+    "source": "apps/mobile/src/features/live/SocialScreens.tsx",
+    "line": 326,
+    "exportChain": [
+      "apps/mobile/src/features/live/SocialScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/notifications",
+    "file": "apps/mobile/app/notifications.tsx",
+    "sha256": "6d0420a5de02491f1b4df833bbd0da00b71dc5afebec1c5b018b219136ab4840",
+    "component": "NotificationsScreen",
+    "source": "apps/mobile/src/features/live/ProfileScreens.tsx",
+    "line": 62,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/onboarding",
+    "file": "apps/mobile/app/onboarding.tsx",
+    "sha256": "4dc905ab0de8f637378d7a31a20f8b90e9c5a6348a6cdd410fe7b3e9ef2bede0",
+    "component": "OnboardingScreen",
+    "source": "apps/mobile/src/features/live/OnboardingScreen.tsx",
+    "line": 137,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx",
+      "apps/mobile/src/features/live/OnboardingScreen.tsx"
+    ]
+  },
+  {
+    "pattern": "/point-proposal",
+    "file": "apps/mobile/app/point-proposal.tsx",
+    "sha256": "43361172832473e3ed7f2d3ddb023d67ced46079387932a76b679021bf5b9891",
+    "component": "PointProposalScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 916,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/point-report",
+    "file": "apps/mobile/app/point-report.tsx",
+    "sha256": "bdd81660b26d197a910d7081bbadc68dd9b2fe7355ee8931947afe8a49cf9637",
+    "component": "PointReportScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 989,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/points/[id]",
+    "file": "apps/mobile/app/points/[id].tsx",
+    "sha256": "e1d383b0a3207f31a99a536f1feccacd5478b17b031cf13bdf66bca2c066c052",
+    "component": "PointDetailScreen",
+    "source": "apps/mobile/src/features/live/CollectionScreens.tsx",
+    "line": 457,
+    "exportChain": [
+      "apps/mobile/src/features/live/CollectionScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/register",
+    "file": "apps/mobile/app/register.tsx",
+    "sha256": "87738c21e2f4f13eacee4b3ce310097381b9f09083330c28484e2fe73be44486",
+    "component": "AuthScreen",
+    "source": "apps/mobile/src/features/auth/AuthForm.tsx",
+    "line": 37,
+    "exportChain": [
+      "apps/mobile/src/features/auth/AuthForm.tsx"
+    ]
+  },
+  {
+    "pattern": "/registration",
+    "file": "apps/mobile/app/registration.tsx",
+    "sha256": "348f16fa350fe4f8a578df815306ded236e1463219c8b291059fd902ac5a1819",
+    "component": "RegistrationScreen",
+    "source": "apps/mobile/src/features/live/EventRegistration.tsx",
+    "line": 15,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx",
+      "apps/mobile/src/features/live/EventRegistration.tsx"
+    ]
+  },
+  {
+    "pattern": "/reset-password",
+    "file": "apps/mobile/app/reset-password.tsx",
+    "sha256": "94eb6f8dabfe35c3c7f7fdb91f784b0e73103bbde96aa3fbd0ae0f4d24527707",
+    "component": "ResetPasswordScreen",
+    "source": "apps/mobile/src/features/live/AuthScreens.tsx",
+    "line": 263,
+    "exportChain": [
+      "apps/mobile/src/features/live/AuthScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/rewards/catalog",
+    "file": "apps/mobile/app/rewards/catalog.tsx",
+    "sha256": "68c8345161001c1ccd36072ee22987adcf2a3e3ca28f1f8192236d8247ff93ea",
+    "component": "RewardsScreen",
+    "source": "apps/mobile/src/features/live/RewardScreens.tsx",
+    "line": 10,
+    "exportChain": [
+      "apps/mobile/src/features/live/RewardScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/rewards/guide",
+    "file": "apps/mobile/app/rewards/guide.tsx",
+    "sha256": "066486fe9ab9c712a13f6a0a5d300341227bf4427eedfbde15f3833144629320",
+    "component": "RewardsGuideScreen",
+    "source": "apps/mobile/src/features/live/RewardGuide.tsx",
+    "line": 12,
+    "exportChain": [
+      "apps/mobile/src/features/live/RewardScreens.tsx",
+      "apps/mobile/src/features/live/RewardGuide.tsx"
+    ]
+  },
+  {
+    "pattern": "/rewards/[id]",
+    "file": "apps/mobile/app/rewards/[id].tsx",
+    "sha256": "805e7aaed21a8d975282957675f79550a264355281bf02b9c432f00901d40a6a",
+    "component": "RewardDetailScreen",
+    "source": "apps/mobile/src/features/live/RewardScreens.tsx",
+    "line": 18,
+    "exportChain": [
+      "apps/mobile/src/features/live/RewardScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/saved",
+    "file": "apps/mobile/app/saved.tsx",
+    "sha256": "b4b1fd5389ad8a04861fd38e96af5bea9a87490eca1fcbea0b974acbd803ddd1",
+    "component": "EventsScreen",
+    "source": "apps/mobile/src/features/live/EventScreens.tsx",
+    "line": 27,
+    "exportChain": [
+      "apps/mobile/src/features/live/EventScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/settings",
+    "file": "apps/mobile/app/settings.tsx",
+    "sha256": "a0764b04a3a45cacb611cdf97992a0ecd7f21793a93be05fe7fdb56fc27228b8",
+    "component": "SettingsScreen",
+    "source": "apps/mobile/src/features/live/SettingsScreen.tsx",
+    "line": 70,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx",
+      "apps/mobile/src/features/live/SettingsScreen.tsx"
+    ]
+  },
+  {
+    "pattern": "/statistics",
+    "file": "apps/mobile/app/statistics.tsx",
+    "sha256": "4e7634b73fdf18b0f850d34000ce2cc4ee752093fa946fcce9636ab0a07d22f6",
+    "component": "StatisticsScreen",
+    "source": "apps/mobile/src/features/live/ProfileScreens.tsx",
+    "line": 11,
+    "exportChain": [
+      "apps/mobile/src/features/live/ProfileScreens.tsx"
+    ]
+  },
+  {
+    "pattern": "/verify-email",
+    "file": "apps/mobile/app/verify-email.tsx",
+    "sha256": "7a34e9814e35d8e7cdb182ad51c45bb819896d95920f8e810873650b26471fd9",
+    "component": "VerifyEmailScreen",
+    "source": "apps/mobile/src/features/live/AuthScreens.tsx",
+    "line": 105,
+    "exportChain": [
+      "apps/mobile/src/features/live/AuthScreens.tsx"
+    ]
+  }
+]

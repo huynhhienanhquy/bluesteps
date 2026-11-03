@@ -1,1 +1,1 @@
-export { CollectionNavigationScreen as default } from '../src/features/collection/CollectionNavigationScreen';
+export { NavigationScreen as default } from '../src/features/live/RouteDirections';

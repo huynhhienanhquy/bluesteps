@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-11-01T13:50:42.122Z",
+  "checks": {
+    "all211Frames": true,
+    "all66Routes": true,
+    "noJavaScriptErrors": true,
+    "noRouteNavigationFailures": true,
+    "noDocumentOverflow": true,
+    "noConnectionFailures": true,
+    "noUnexpectedServerFailures": true,
+    "allScreenshotsPresent": true,
+    "sevenLiveFigmaScreenshots": true
+  },
+  "expectedServiceGate": {
+    "path": "/v1/games",
+    "status": 503
+  },
+  "limitations": [
+    "Source-level verdict for all frames; not 211 full-image comparisons",
+    "Guest web inspection; no authenticated or native acceptance"
+  ]
+}

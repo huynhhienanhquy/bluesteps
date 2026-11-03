@@ -1,0 +1,683 @@
+{
+  "title": "composer media draft, preview and accepted friends preserve private files across reload",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 32758,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/post-draft",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/collection-points",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/media-assets",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/media-assets",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1/parts/0",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e/parts/0",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1/complete",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e/complete",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/media-assets",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c/parts/0",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c/complete",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e/content",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/post-draft",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/post-draft",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/post-draft",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1/content",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posts",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/post-draft",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149/comments",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1/content",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/cd8b102f-a65b-4230-b635-0c0f418a8efd",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/friend-requests/cd8b102f-a65b-4230-b635-0c0f418a8efd",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/cd8b102f-a65b-4230-b635-0c0f418a8efd",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/point-transactions",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/statistics",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/logout",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/post-draft",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149/comments",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149",
+      "status": 404
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/friends",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/friends/3d4eff18-1b98-4f80-9e4b-cce773952aba",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/friends",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149/comments",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1/content",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/3d4eff18-1b98-4f80-9e4b-cce773952aba",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1/content",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e/content",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/me/friends/3d4eff18-1b98-4f80-9e4b-cce773952aba",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members/3d4eff18-1b98-4f80-9e4b-cce773952aba",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/180df0fb-2c55-4532-92a7-deb5982b9ae1",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/community/members",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/31589169-c203-49c5-af73-d5348243b16c",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/media-assets/a42685c5-e027-4b29-a293-26f62d2f529e",
+      "status": 404
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149/comments",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/v1/posts/766e733f-a50c-41f6-8038-6d544159f149",
+      "status": 404
+    }
+  ]
+}

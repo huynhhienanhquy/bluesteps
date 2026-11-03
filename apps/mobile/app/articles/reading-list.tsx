@@ -1,1 +1,1 @@
-export { NewsReadingListScreen as default } from '../../src/features/content/NewsReadingListScreen';
+export { ReadingListScreen as default } from '../../src/features/live/NewsWorkflows';

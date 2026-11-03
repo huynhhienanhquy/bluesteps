@@ -3,6 +3,7 @@ node_modules/
 .expo/
 dist/
 dist-native/
+dist-native-check/
 .native-qa/
 coverage/
 .env
@@ -22,3 +23,15 @@ Desktop.ini
 .DS_Store
 
 codex-agent-kit/
+
+# Python/backend local environments and disposable database tooling.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.backend-tools/
+.local/
+.uv-cache/
+*.egg-info/

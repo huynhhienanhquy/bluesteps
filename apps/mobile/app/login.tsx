@@ -1,1 +1,1 @@
-export { AuthScreen as default } from '../src/features/auth/AuthScreens';
+export { AuthScreen as default } from '../src/features/auth/AuthForm';

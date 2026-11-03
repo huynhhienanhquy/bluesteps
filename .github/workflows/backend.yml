@@ -1,0 +1,51 @@
+name: Application integration
+on:
+  push:
+    paths: ['apps/api/**', 'apps/mobile/**', 'supabase/**', 'packages/**', 'scripts/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', 'package.json', '.github/workflows/backend.yml']
+  pull_request:
+    paths: ['apps/api/**', 'apps/mobile/**', 'supabase/**', 'packages/**', 'scripts/**', 'pnpm-lock.yaml', 'pnpm-workspace.yaml', 'package.json', '.github/workflows/backend.yml']
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgis/postgis:17-3.6
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: local-ci-only
+          POSTGRES_DB: postgres
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      BLUESTEPS_TEST_ADMIN_URL: postgresql+psycopg://postgres:local-ci-only@127.0.0.1:5432/postgres
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.13.6'
+          python-version: '3.12'
+      - run: uv sync --frozen
+        working-directory: apps/api
+      - run: uv run ruff check . && uv run ruff format --check . && uv run mypy src && uv run pytest
+        working-directory: apps/api
+      - uses: pnpm/action-setup@v4
+        with:
+          version: '11.25.0'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pnpm install --frozen-lockfile
+      - run: uv run python -m bluesteps_api.cli export-openapi
+        working-directory: apps/api
+      - run: pnpm --filter @bluesteps/api-client generate
+      - run: git diff --exit-code -- packages/api-client/openapi.json packages/api-client/src/schema.ts
+      - run: pnpm --filter @bluesteps/api-client typecheck && pnpm --filter @bluesteps/api-client test
+      - run: pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm --filter @bluesteps/mobile check:live-data
+      - run: pnpm --filter @bluesteps/mobile exec playwright install --with-deps chromium
+      - run: uv run pytest tests/test_mobile_e2e.py -s -q
+        working-directory: apps/api
+        env:
+          BLUESTEPS_RUN_MOBILE_E2E: '1'
+      - run: pnpm bundle:native && pnpm check:native-config

@@ -1,0 +1,438 @@
+{
+  "title": "article save, reaction and discussion survive a new page instance",
+  "status": "passed",
+  "expectedStatus": "passed",
+  "durationMs": 10256,
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/wallet",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/events",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/notifications",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/saved-articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-list",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-list",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/reaction",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-summary",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/reading-list",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "PUT",
+      "path": "/v1/comments/92588d9f-ad0e-40e5-b493-fd27a9218480/reaction",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/article-reading/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/comments/92588d9f-ad0e-40e5-b493-fd27a9218480/reaction",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 201
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "DELETE",
+      "path": "/v1/comments/92588d9f-ad0e-40e5-b493-fd27a9218480",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/comments",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/v1/auth/web/refresh",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/preferences",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/me/saved-articles",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/v1/articles/a1f2b482-0731-4c55-a12c-a4c7ee6ae6e7/engagement",
+      "status": 200
+    }
+  ]
+}

@@ -1,1 +1,1 @@
-export { PointDetailScreen as default } from '../../src/features/collection/PointDetailScreen';
+export { PointDetailScreen as default } from '../../src/features/live/CollectionScreens';

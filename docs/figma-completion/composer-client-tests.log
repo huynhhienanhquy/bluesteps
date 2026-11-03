@@ -1,0 +1,66 @@
+$ tsc --outDir dist && node --test tests/*.test.mjs
+TAP version 13
+# Subtest: parallel unauthorized requests rotate the refresh token once
+ok 1 - parallel unauthorized requests rotate the refresh token once
+  ---
+  duration_ms: 51.4228
+  ...
+# Subtest: refresh network failures preserve the stored pair
+ok 2 - refresh network failures preserve the stored pair
+  ---
+  duration_ms: 0.7683
+  ...
+# Subtest: refresh reuse rejection clears credentials
+ok 3 - refresh reuse rejection clears credentials
+  ---
+  duration_ms: 0.4362
+  ...
+# Subtest: sorting retries preserve the idempotency key and body
+ok 4 - sorting retries preserve the idempotency key and body
+  ---
+  duration_ms: 1.2208
+  ...
+# Subtest: an in-flight refresh cannot restore credentials after logout
+ok 5 - an in-flight refresh cannot restore credentials after logout
+  ---
+  duration_ms: 0.5043
+  ...
+# Subtest: wrong current password is a command error, not a revoked session
+ok 6 - wrong current password is a command error, not a revoked session
+  ---
+  duration_ms: 0.6638
+  ...
+# Subtest: late reads from the old account cannot populate the new account cache
+ok 7 - late reads from the old account cannot populate the new account cache
+  ---
+  duration_ms: 1.0048
+  ...
+# Subtest: a cookie changed by another tab cannot refresh the previous account in place
+ok 8 - a cookie changed by another tab cannot refresh the previous account in place
+  ---
+  duration_ms: 0.3047
+  ...
+# Subtest: private binary downloads refresh credentials and preserve actual bytes
+ok 9 - private binary downloads refresh credentials and preserve actual bytes
+  ---
+  duration_ms: 1.7663
+  ...
+# Subtest: private download failures return API errors instead of an error blob
+ok 10 - private download failures return API errors instead of an error blob
+  ---
+  duration_ms: 0.5874
+  ...
+# Subtest: an account switch while binary data is arriving discards the old download
+ok 11 - an account switch while binary data is arriving discards the old download
+  ---
+  duration_ms: 0.3811
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 155.6012
