@@ -16,6 +16,7 @@
     "go": "pnpm --filter @bluesteps/mobile go",
     "go:connected": "node scripts/dev-connected.cjs --go",
     "go:tunnel:connected": "node scripts/dev-connected.cjs --go --tunnel",
+    "go:tunnel:ngrok:connected": "node scripts/dev-connected.cjs --go --tunnel --ngrok",
     "go:tunnel": "pnpm --filter @bluesteps/mobile go:tunnel",
     "go:link": "pnpm --filter @bluesteps/mobile go:link",
     "web": "pnpm --filter @bluesteps/mobile web",

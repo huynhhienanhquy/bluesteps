@@ -53,6 +53,18 @@ Trước khi dùng, dừng phiên Expo cũ để nhường cổng 8081. Khi ch�
 
 Trên iPhone thật, Expo Go và Expo CLI cần đăng nhập cùng tài khoản Expo. Xem tài khoản CLI bằng `pnpm --filter @bluesteps/mobile exec expo whoami`; đăng nhập bằng `pnpm --filter @bluesteps/mobile exec expo login` nếu cần. Không nhầm tài khoản Expo với tài khoản BlueSteps. [Hướng dẫn Expo](https://docs.expo.dev/get-started/start-developing/).
 
+### Lỗi TLS khi app tải dữ liệu trên iPhone
+
+Nếu đã vào giao diện nhưng gặp `fetch failed: A TLS error caused the secure connection to fail`, mở `https://<host-tunnel-hiện-tại>/__bluesteps_api/health/ready` bằng Safari trên chính iPhone. Địa chỉ phải trả `{"status":"ready"}`. Nếu Safari cũng lỗi, cần kiểm tra kết nối HTTPS từ điện thoại tới tunnel; API trả 200 trên máy tính chưa chứng minh đường kết nối của iPhone hoạt động. Thử đổi Wi-Fi sang dữ liệu di động rồi mở lại cùng địa chỉ.
+
+SDK 58 hỗ trợ chọn nhà cung cấp tunnel. Sau khi người vận hành cho phép chuyển bundle và API qua ngrok, dừng launcher cũ bằng Ctrl+C rồi chạy:
+
+```powershell
+pnpm go:tunnel:ngrok:connected
+```
+
+Lệnh dùng `expo start --go --tunnel ngrok`, giữ proxy API qua loopback và chuẩn bị cả hai bundle native như lệnh tunnel mặc định. Quét QR mới; không dùng lại địa chỉ `.on.expo.app` của phiên trước. Nếu thử bằng HTTPS, dùng cổng HTTPS mặc định, không thêm `:80`. Không tắt kiểm tra chứng chỉ TLS hoặc thêm ngoại lệ ATS để xử lý lỗi này. Việc chuyển nhà cung cấp chỉ là phương án thử kết nối; cần xác nhận trên iPhone trước khi kết luận đã khắc phục.
+
 ## Đăng nhập và camera
 
 Tạo tài khoản từ app, đọc mã xác minh trong `apps/api/.local/mail/*.json` do worker local tạo rồi xác minh. Tài khoản không có điểm hoặc nội dung mẫu. Chỉ nội dung thật đã công bố mới xuất hiện.

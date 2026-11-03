@@ -12,7 +12,8 @@ const python = path.join(
   process.platform === 'win32' ? '.venv/Scripts/python.exe' : '.venv/bin/python',
 );
 const children = [];
-const tunnel = process.argv.includes('--tunnel');
+const tunnelProvider = process.argv.includes('--ngrok') ? 'ngrok' : 'expo';
+const tunnel = process.argv.includes('--tunnel') || process.argv.includes('--ngrok');
 const native = process.argv.includes('--go') || tunnel;
 const addresses = Object.entries(os.networkInterfaces()).flatMap(([name, entries]) =>
   (entries ?? [])
@@ -179,7 +180,7 @@ except Exception:
     [
       expo,
       'start',
-      ...(tunnel ? ['--go', '--tunnel'] : native ? ['--go', '--lan'] : ['--web']),
+      ...(tunnel ? ['--go', '--tunnel', tunnelProvider] : native ? ['--go', '--lan'] : ['--web']),
       ...(process.argv.includes('--clear') ? ['--clear'] : []),
       '--port',
       '8081',
@@ -194,7 +195,7 @@ except Exception:
   );
   console.log(
     tunnel
-      ? 'Expo Go tunnel: dùng URL/QR HTTPS mới do Expo in bên dưới. Bundle và API dùng chung tunnel; iPhone cần đăng nhập cùng tài khoản Expo với CLI.'
+      ? `Expo Go tunnel (${tunnelProvider}): dùng URL/QR mới do Expo in bên dưới. Bundle và API dùng chung tunnel; iPhone cần đăng nhập cùng tài khoản Expo với CLI.`
       : native
         ? `Expo Go: exp://${lan}:8081 — Quét QR trong terminal bằng điện thoại cùng Wi-Fi.\nAPI điện thoại: ${apiUrl}/health/ready\nKiểm tra LAN trên điện thoại: http://${lan}:8081/status — cần hiện packager-status:running. Nếu không tải được, dừng phiên này rồi chạy pnpm go:tunnel:connected.`
         : 'Frontend development: http://localhost:8081 — Ctrl+C để dừng các process của lệnh này.',
