@@ -272,7 +272,7 @@ function ChatBody({ id, sharePost }: { id: string; sharePost: string | null }) {
             <Icon name="chevron-back" size={24} />
           ) : (
             <Artwork
-              source={require('../../../assets/figma/chat/common/chatchevronbackward.svg')}
+              source={require('../../../assets/icons/chat/chatchevronbackward.svg')}
               width={10.7917}
               height={17.5}
             />

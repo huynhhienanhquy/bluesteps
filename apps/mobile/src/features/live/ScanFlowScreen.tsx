@@ -7,6 +7,7 @@ import { Button, Icon, Label, MenuItem, Notice, Search } from '../../design-syst
 import { useApp } from '../../providers';
 import { errorMessage, operationKey, type Schemas } from '../../services/api';
 import { useCommand, usePages, useResource } from '../../services/queries';
+import { scanImageBase64 } from '../../services/scan-image';
 import { More, QueryState, RequireAuth } from './common';
 import { CurvedNavigation } from './DesignParts';
 import { ScanCapture } from './ScanCapture';
@@ -46,10 +47,11 @@ export function ScanScreen() {
 
 function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
   const { api } = useApp();
-  const { scanId, pendingImageId, pendingInput } = useLocalSearchParams<{
+  const { scanId, pendingImageId, pendingInput, pendingToken } = useLocalSearchParams<{
     scanId?: string;
     pendingImageId?: string;
     pendingInput?: string;
+    pendingToken?: string;
   }>();
   const resumed = scanDraft(pendingImageId, pendingInput);
   const [cameraOpen, setCameraOpen] = useState(false);
@@ -59,6 +61,9 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
   const [error, setError] = useState('');
   const [picking, setPicking] = useState(false);
   const [saved, setSaved] = useState<Schemas['ScanResult'] | null>(null);
+  const [prediction, setPrediction] = useState<Schemas['ScanPrediction'] | null>(null);
+  const [recognizing, setRecognizing] = useState(!!resumed && !!pendingToken);
+  const inference = useRef<AbortController | null>(null);
   const [receipt, setReceipt] = useState<Schemas['SortingResponse'] | null>(null);
   const [weight, setWeight] = useState('');
   const [confirming, setConfirming] = useState(false);
@@ -71,6 +76,7 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
     active.current = true;
     return () => {
       active.current = false;
+      inference.current?.abort();
     };
   }, []);
   useFocusEffect(
@@ -91,13 +97,79 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
     !!scanId,
   );
   const scan = remote.data?.confirmation ? remote.data : (saved ?? remote.data);
-  const pending = picking || confirming || create.isPending || confirm.isPending;
+  const pending = picking || recognizing || confirming || create.isPending || confirm.isPending;
+
+  useEffect(() => {
+    const draft = scanDraft(pendingImageId, pendingInput);
+    if (!draft || !pendingToken) return;
+    const controller = new AbortController();
+    inference.current = controller;
+    api
+      .request<Schemas['ScanPrediction']>(
+        '/v1/scans/prediction',
+        {
+          method: 'POST',
+          signal: controller.signal,
+          body: JSON.stringify({
+            inputKind: draft.inputKind,
+            clientImageId: draft.imageId,
+            predictionToken: pendingToken,
+          }),
+        },
+        false,
+      )
+      .then((value) => {
+        if (!controller.signal.aborted) setPrediction(value);
+      })
+      .catch((cause: unknown) => {
+        if (!controller.signal.aborted) setError(errorMessage(cause));
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setRecognizing(false);
+      });
+    return () => controller.abort();
+  }, [api, pendingImageId, pendingInput, pendingToken]);
+
+  async function recognizePhoto() {
+    if (!photo || prediction || inference.current) return;
+    const controller = new AbortController();
+    inference.current = controller;
+    setRecognizing(true);
+    setError('');
+    try {
+      const imageBase64 = await scanImageBase64(photo.uri, photo.imageId);
+      if (controller.signal.aborted) return;
+      const result = await api.request<Schemas['ScanPrediction']>(
+        '/v1/scans/recognize',
+        {
+          method: 'POST',
+          signal: controller.signal,
+          body: JSON.stringify({
+            inputKind: photo.inputKind,
+            clientImageId: photo.imageId,
+            imageBase64,
+          }),
+        },
+        false,
+      );
+      if (active.current && !controller.signal.aborted) setPrediction(result);
+    } catch (cause) {
+      if (active.current && !controller.signal.aborted) setError(errorMessage(cause));
+    } finally {
+      if (inference.current === controller) inference.current = null;
+      if (active.current && !controller.signal.aborted) setRecognizing(false);
+    }
+  }
 
   function reset() {
     if (pending || confirmingRef.current || pickingRef.current) return;
     clearSelection();
   }
   function clearSelection() {
+    inference.current?.abort();
+    inference.current = null;
+    setRecognizing(false);
+    setPrediction(null);
     setPhoto(null);
     setDetails(false);
     setCameraOpen(false);
@@ -112,6 +184,7 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
       reviewFrom: undefined,
       pendingImageId: undefined,
       pendingInput: undefined,
+      pendingToken: undefined,
     });
   }
   function showResult(uri: string, inputKind: SelectedPhoto['inputKind']) {
@@ -169,11 +242,15 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
     try {
       if (!current) {
         const input = photo ?? resumed;
-        if (!input) return;
+        if (!input || !prediction || prediction.status !== 'completed') return;
         current = await create.mutateAsync({
           path: '/v1/scans',
           key: input.imageId,
-          body: { inputKind: input.inputKind, clientImageId: input.imageId },
+          body: {
+            inputKind: input.inputKind,
+            clientImageId: input.imageId,
+            predictionToken: prediction.predictionToken,
+          },
         });
         if (!active.current) return;
         setSaved(current);
@@ -239,6 +316,7 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
     return (
       <ScanDetails
         scan={scan}
+        prediction={prediction}
         pending={pending}
         error={error}
         weight={weight}
@@ -250,6 +328,7 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
           else if (input) {
             params.set('pendingImageId', input.imageId);
             params.set('pendingInput', input.inputKind);
+            if (prediction) params.set('pendingToken', prediction.predictionToken);
           }
           const query = params.toString();
           router.push({
@@ -279,6 +358,8 @@ function ScanFlow({ returnTo }: { returnTo?: '/history' | '/notifications' }) {
       <ScanPhotoResult
         key={photo.imageId}
         photo={photo}
+        prediction={prediction}
+        recognize={() => void recognizePhoto()}
         error={error}
         pending={pending}
         back={reset}

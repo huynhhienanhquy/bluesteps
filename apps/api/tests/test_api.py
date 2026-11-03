@@ -89,6 +89,8 @@ def test_registration_verification_and_password_reset(
     assert reset.status_code == 202, reset.text
     reset_id = reset.json()["challengeId"]
     reset_code = email_code(owner, settings, reset_id)
+    if environment == "development":
+        assert reset_code == "123456"
     # A reset code cannot verify an email challenge, even if both code strings match.
     assert (
         client.post(

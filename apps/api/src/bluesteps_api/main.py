@@ -102,6 +102,9 @@ def create_app(settings: Settings | None = None, *, engine: Engine | None = None
                     cross join app_private.point_proposals proposal
                     cross join app_private.routes r limit 0""")
                 )
+                connection.execute(
+                    text("select predicted_class,confidence,model_name from app_private.scans limit 0")
+                )
                 connection.execute(text("select lease_token from app_private.outbox_events limit 1"))
                 connection.execute(text("select 1 from app_private.auth_recipient_cooldowns limit 1"))
                 connection.execute(text("select interests,goal from app_private.user_preferences limit 1"))
@@ -133,6 +136,15 @@ def create_app(settings: Settings | None = None, *, engine: Engine | None = None
                 if role["rolsuper"] or role["rolbypassrls"] or role["schema_owner"] or not role["runtime_member"]:
                     raise ValueError("API must use a non-owner runtime login")
         except Exception as exc:
+            if (
+                getattr(getattr(exc, "orig", None), "sqlstate", None) == "42703"
+                and "from app_private.scans" in getattr(exc, "statement", "")
+            ):
+                raise APIError(
+                    503,
+                    "DATABASE_MIGRATION_REQUIRED",
+                    "Database thiếu schema nhận diện rác. Cần áp dụng migration 202611030023_waste_model_scans.sql.",
+                ) from exc
             raise APIError(
                 503, "NOT_READY", "Database chưa sẵn sàng. Kiểm tra kết nối, migration và role runtime."
             ) from exc

@@ -18,10 +18,10 @@ type Point = Pick<
   'id' | 'name' | 'address' | 'latitude' | 'longitude' | 'hours' | 'materials'
 >;
 const art = {
-  brand: require('../../../assets/figma/534-48774/imgNhDiDin.png'),
-  check: require('../../../assets/figma/534-48774/imgCheck.svg'),
-  locate: require('../../../assets/figma/534-48774/imgLocateFixed.svg'),
-  plus: require('../../../assets/figma/common/journey-plus.svg'),
+  brand: require('../../../assets/icons/collection/journey/brand.png'),
+  check: require('../../../assets/icons/collection/journey/check.svg'),
+  locate: require('../../../assets/icons/collection/journey/locate.svg'),
+  plus: require('../../../assets/icons/common/plus.svg'),
 };
 export function JourneyScreen() {
   const { user } = useApp();
@@ -92,7 +92,7 @@ function PlannerPage({ children, dragging }: PropsWithChildren<{ dragging: boole
             style={{ width: 24, height: 36, justifyContent: 'center' }}
           >
             <Artwork
-              source={require('../../../assets/figma/common/collection-back.svg')}
+              source={require('../../../assets/icons/common/back.svg')}
               width={24}
             />
           </Pressable>

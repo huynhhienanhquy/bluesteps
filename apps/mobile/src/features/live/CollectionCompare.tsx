@@ -12,10 +12,10 @@ import { CommandError, QueryState, RequireAuth } from './common';
 import { handoverMaterials } from './journey-materials';
 
 const art = {
-  brand: require('../../../assets/figma/534-48505/imgNhDiDin.png'),
-  point: require('../../../assets/figma/534-48505/imgNhMinhHa.png'),
-  check: require('../../../assets/figma/534-48505/imgCheck.svg'),
-  info: require('../../../assets/figma/534-48505/imgInfo.svg'),
+  brand: require('../../../assets/icons/collection/compare/brand.png'),
+  point: require('../../../assets/images/collection/compare/point.png'),
+  check: require('../../../assets/icons/collection/compare/check.svg'),
+  info: require('../../../assets/icons/collection/compare/info.svg'),
 };
 const capacity = {
   unknown: 'Chưa rõ sức chứa',

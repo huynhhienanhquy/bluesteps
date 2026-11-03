@@ -14,10 +14,10 @@ import { AssetView, PostMedia } from './PostMedia';
 import { PrivateModal } from './PrivateModal';
 
 const art = {
-  back: require('../../../assets/figma/386-10186/imgGroup182.svg'),
-  share: require('../../../assets/figma/386-10186/imgVector.svg'),
-  star: require('../../../assets/figma/386-10186/imgGroup36925.svg'),
-  halfStar: require('../../../assets/figma/386-10186/imgGroup36929.svg'),
+  back: require('../../../assets/icons/collection/point/back.svg'),
+  share: require('../../../assets/icons/collection/point/share.svg'),
+  star: require('../../../assets/icons/collection/point/star.svg'),
+  halfStar: require('../../../assets/icons/collection/point/half-star.svg'),
 };
 
 export function CollectionPointPage({

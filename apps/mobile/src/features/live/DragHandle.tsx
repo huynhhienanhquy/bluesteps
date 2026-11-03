@@ -37,7 +37,7 @@ export function DragHandle(p: DragHandleProps) {
       style={{ padding: 8, opacity: p.disabled ? 0.4 : 1 }}
     >
       <Artwork
-        source={require('../../../assets/figma/534-48774/imgGripVertical.svg')}
+        source={require('../../../assets/icons/collection/journey/grip-vertical.svg')}
         width={18}
         height={18}
       />

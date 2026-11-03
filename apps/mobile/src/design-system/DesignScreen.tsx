@@ -113,7 +113,7 @@ export function DesignScreen({
                   style={{ width: 48, height: 48, alignItems: 'center', justifyContent: 'center' }}
                 >
                   <Artwork
-                    source={require('../../assets/figma/386-7390/imgIconBack.svg')}
+                    source={require('../../assets/icons/auth/login/icon-back.svg')}
                     width={24}
                   />
                 </Pressable>

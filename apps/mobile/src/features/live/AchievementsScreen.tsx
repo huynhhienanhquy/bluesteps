@@ -13,10 +13,10 @@ import { useOptionalLocalProfile } from './LocalProfileProvider';
 import { UserAvatar } from './UserAvatar';
 
 const art = {
-  leaf: require('../../../assets/figma/386-7550/imgImage17.png'),
-  crown: require('../../../assets/figma/386-7550/imgImage19.png'),
-  notificationFrame: require('../../../assets/figma/386-7550/imgFrame36714.svg'),
-  bell: require('../../../assets/figma/386-7550/imgIconlySharpLightNotification.svg'),
+  leaf: require('../../../assets/images/achievements/leaf.png'),
+  crown: require('../../../assets/icons/achievements/crown.png'),
+  notificationFrame: require('../../../assets/icons/achievements/notification-frame.svg'),
+  bell: require('../../../assets/icons/achievements/bell.svg'),
 };
 
 function Avatar({ userId, name, size }: { userId?: string; name: string; size: number }) {

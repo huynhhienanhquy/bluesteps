@@ -2,6 +2,7 @@ FROM python:3.12-slim
 WORKDIR /workspace
 COPY --from=ghcr.io/astral-sh/uv:0.13.6 /uv /usr/local/bin/uv
 COPY apps/api /workspace/apps/api
+COPY EfficientNetB0_FastKAN_Export /workspace/EfficientNetB0_FastKAN_Export
 WORKDIR /workspace/apps/api
 RUN uv sync --frozen --no-dev
 RUN useradd --system --uid 10001 bluesteps

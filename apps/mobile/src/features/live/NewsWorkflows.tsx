@@ -21,9 +21,9 @@ import { articleCoverUrl, estimatedReadingMinutes } from './article-reading';
 export { estimatedReadingMinutes } from './article-reading';
 
 const badges = [
-  require('../../../assets/figma/612-5441/imgSTin.svg'),
-  require('../../../assets/figma/612-5441/imgSTin1.svg'),
-  require('../../../assets/figma/612-5441/imgSTin2.svg'),
+  require('../../../assets/icons/news/digest/stin.svg'),
+  require('../../../assets/icons/news/digest/stin1.svg'),
+  require('../../../assets/icons/news/digest/stin2.svg'),
 ];
 
 export function NewsPage({
@@ -818,7 +818,7 @@ export function NewsTopicsScreen() {
             }}
           >
             <Artwork
-              source={require('../../../assets/figma/612-5286/imgFrame.png')}
+              source={require('../../../assets/images/news/calendar/calendar-illustration.png')}
               width={220}
               height={200}
               fit="cover"
@@ -875,7 +875,7 @@ export function NewsTopicsScreen() {
                   style={{ width: 46, height: 46, alignItems: 'center', justifyContent: 'center' }}
                 >
                   <Artwork
-                    source={require('../../../assets/figma/612-5286/imgBiuTng.svg')}
+                    source={require('../../../assets/icons/news/calendar/biu-tng.svg')}
                     width={46}
                     height={46}
                     style={{ position: 'absolute', inset: 0 }}

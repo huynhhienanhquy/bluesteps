@@ -64,6 +64,24 @@ test.afterEach(({ page }, info) => {
 
 async function login(page: Page, account: 'ALICE' | 'BOB' = 'ALICE') {
   await page.goto('/login');
+  const email = page.getByRole('textbox', { name: 'Email', exact: true });
+  const welcome = page.getByRole('button', { name: 'Bắt đầu hành trình', exact: true });
+  await expect(email.or(welcome)).toBeVisible();
+  if (await welcome.isVisible()) {
+    // Introduction completion is per guest session; the old storage marker is ignored.
+    for (const name of [
+      'Bắt đầu hành trình',
+      'Tiếp tục',
+      'Thử phân loại rác',
+      'Để sau',
+      'Tiếp tục',
+      'Chọn mục tiêu này',
+      'Để sau',
+      'Bỏ qua bước này',
+      'Đăng nhập',
+    ])
+      await page.getByRole('button', { name, exact: true }).click();
+  }
   await expect(page.getByRole('button', { name: /Google|Facebook/ })).toHaveCount(0);
   await page
     .getByRole('textbox', { name: 'Email', exact: true })
@@ -445,7 +463,7 @@ test('collection proposals photos draft submit moderation and reports persist th
   const photo = {
     name: 'evidence.png',
     mimeType: 'image/png',
-    buffer: readFileSync(join(process.cwd(), 'assets/figma/386-14379/imgRectangle89.png')),
+    buffer: readFileSync(join(process.cwd(), 'assets/images/scan/leaf.png')),
   };
   let chooser = page.waitForEvent('filechooser');
   await page.getByRole('button', { name: 'Thêm ảnh địa điểm', exact: true }).click();
@@ -832,7 +850,7 @@ test('chat emoji media and live replies persist for two real accounts', async ({
     ).setFiles({
       name: 'chat.png',
       mimeType: 'image/png',
-      buffer: readFileSync(join(process.cwd(), 'assets/figma/386-14379/imgRectangle89.png')),
+      buffer: readFileSync(join(process.cwd(), 'assets/images/scan/leaf.png')),
     });
     await expect(page.getByRole('button', { name: 'Gỡ tệp chat.png', exact: true })).toBeVisible();
     await page.getByRole('button', { name: 'Đóng', exact: true }).click();
@@ -1512,7 +1530,7 @@ test('composer media draft, preview and accepted friends preserve private files 
     {
       name: 'picked.png',
       mimeType: 'image/png',
-      buffer: readFileSync(join(process.cwd(), 'assets/figma/386-14379/imgRectangle89.png')),
+      buffer: readFileSync(join(process.cwd(), 'assets/images/scan/leaf.png')),
     },
     { name: 'clip.webm', mimeType: 'video/webm', buffer: clip },
   ]);
@@ -1699,7 +1717,7 @@ test('handbook category handling, material variants and Dos/Donts persist throug
   expect(mutations).toHaveLength(0);
 });
 
-test('a chosen photo follows fixed bottle detail, explicit reward, reload and owner checks', async ({
+test('a chosen photo follows model recognition, explicit reward, reload and owner checks', async ({
   page,
 }) => {
   await login(page, 'BOB');
@@ -1710,6 +1728,9 @@ test('a chosen photo follows fixed bottle detail, explicit reward, reload and ow
     if (request.method() === 'POST' && ['/v1/scans', '/v1/sorting-actions'].includes(path))
       writes.push({ path, body: request.postDataJSON() });
   });
+  const predictionResponse = page.waitForResponse(
+    (response) => new URL(response.url()).pathname === '/v1/scans/recognize',
+  );
   const chooser = page.waitForEvent('filechooser');
   await page.getByRole('button', { name: 'Chọn ảnh từ thư viện', exact: true }).click();
   await (
@@ -1717,13 +1738,18 @@ test('a chosen photo follows fixed bottle detail, explicit reward, reload and ow
   ).setFiles({
     name: 'leaf.png',
     mimeType: 'image/png',
-    buffer: readFileSync(join(process.cwd(), 'assets/figma/386-14379/imgRectangle89.png')),
+    buffer: readFileSync(join(process.cwd(), 'assets/images/scan/leaf.png')),
   });
+  const prediction = await (await predictionResponse).json();
+  expect(prediction.status).toBe('completed');
+  expect(prediction.resultItem.code).toBe(`scan-${prediction.predictedClass}`);
   await expect(page.getByRole('heading', { name: 'Quét thành công!', exact: true })).toBeVisible();
   if (auditOutput) await page.screenshot({ path: join(auditOutput, 'scan-success-390.png') });
   await expect(page.getByRole('button', { name: 'Xem kết quả', exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Xem kết quả', exact: true }).click();
-  await expect(page.getByRole('heading', { name: 'Chai nhựa', exact: true })).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: prediction.resultLabel, exact: true }),
+  ).toBeVisible();
   const capture = async (name: string) => {
     for (const viewport of [
       { width: 390, height: 844 },
@@ -1759,7 +1785,11 @@ test('a chosen photo follows fixed bottle detail, explicit reward, reload and ow
   await expect(page.getByText('Bạn nhận được 5 điểm', { exact: true })).toBeVisible();
   await capture('reward');
   expect(writes.map((item) => item.path)).toEqual(['/v1/scans', '/v1/sorting-actions']);
-  expect(Object.keys(writes[0]!.body).sort()).toEqual(['clientImageId', 'inputKind']);
+  expect(Object.keys(writes[0]!.body).sort()).toEqual([
+    'clientImageId',
+    'inputKind',
+    'predictionToken',
+  ]);
   expect(writes[1]!.body.source).toBe('scan');
   const savedUrl = page.url();
   expect(savedUrl).toContain('scanId=');
@@ -1771,7 +1801,7 @@ test('a chosen photo follows fixed bottle detail, explicit reward, reload and ow
   expect(writes).toHaveLength(2);
   await capture('restored');
   await page.getByRole('button', { name: 'Đóng kết quả nhận điểm', exact: true }).click();
-  await page.getByRole('button', { name: 'Xem điểm thu gom', exact: true }).click();
+  await page.getByRole('button', { name: /^Xem điểm thu gom/ }).click();
   await expect(page).toHaveURL(/\/collection\?materials=.*matchMode=all/);
   await page.goto('/profile');
   await page.getByRole('button', { name: 'Đăng xuất', exact: true }).click();
@@ -2030,7 +2060,11 @@ test('password recovery uses the real email code and permits login with the new 
       return false;
     })
     .toBe(true);
-  await page.getByRole('textbox', { name: 'Mã xác minh', exact: true }).fill(code);
+  const codeInput = page.getByRole('textbox', { name: 'Mã xác minh', exact: true });
+  await codeInput.click();
+  await expect(codeInput).toBeFocused();
+  await page.keyboard.type(code);
+  await expect(codeInput).toHaveValue(code);
   await page.screenshot({
     path: join(process.cwd(), '../../docs/ui-implementation-2026-11-01/live-visual/otp-390.png'),
   });

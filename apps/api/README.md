@@ -2,7 +2,9 @@
 
 Backend local dùng Python 3.12, FastAPI/Pydantic, SQLAlchemy Core và psycopg 3. Database là PostgreSQL 17/PostGIS, tương thích Supabase Database; Python sở hữu toàn bộ identity, không dùng Supabase Auth. Dependency chính xác nằm trong `uv.lock`. Schema chuẩn duy nhất nằm trong `../../supabase/migrations`; không dùng ORM `create_all` hoặc Alembic.
 
-Frontend đã dùng API thật; đây chưa phải toàn bộ roadmap production. Xem trạng thái và bằng chứng hiện hành tại [báo cáo tích hợp](../../docs/live-integration.md). [Báo cáo backend](../../docs/backend-implementation.md) là bằng chứng lịch sử của giai đoạn nền tảng.
+Frontend kết nối trực tiếp với API.
+
+Quét rác dùng checkpoint `EfficientNetB0_FastKAN_Export` trên CPU, với kiến trúc đúng notebook Kaggle của tác giả. Chạy `uv sync --frozen` để cài PyTorch/torchvision; áp dụng migration `202611030023_waste_model_scans.sql` trước khi mở app. Biến `BLUESTEPS_SCAN_MODEL_DIRECTORY` cho phép đổi thư mục export; mặc định dùng thư mục ở root repository. Xem [luồng nhận diện và kiểm chứng](../../docs/waste-model-integration.md).
 
 ## Chạy trong workspace hiện tại
 
@@ -15,7 +17,7 @@ pnpm api:dev
 pnpm api:worker
 ```
 
-API: `http://127.0.0.1:8000`; Swagger: `http://127.0.0.1:8000/docs`. Trong môi trường `development`, mã xác minh email khi đăng ký hoặc gửi lại luôn là `123456`, có hiệu lực 5 phút. Đăng ký tài khoản, lấy `challengeId`, gọi verify với mã này rồi login. Worker phục vụ inbox và email local tại `apps/api/.local/mail/*.json`, không gửi email thật. Mã đặt lại mật khẩu và mã trong môi trường `test`/`production` vẫn được tạo ngẫu nhiên. Nếu không chạy worker, mã vẫn ở outbox chờ giao.
+API: `http://127.0.0.1:8000`; Swagger: `http://127.0.0.1:8000/docs`. Trong môi trường `development`, mã xác minh email khi đăng ký, gửi lại hoặc đặt lại mật khẩu luôn là `123456`, có hiệu lực 5 phút. Đăng ký tài khoản, lấy `challengeId`, gọi verify với mã này rồi login. Worker phục vụ inbox và email local tại `apps/api/.local/mail/*.json`, không gửi email thật. Mã trong môi trường `test`/`production` vẫn được tạo ngẫu nhiên. Nếu không chạy worker, mã vẫn ở outbox chờ giao.
 
 Đăng ký lại email chưa xác minh sẽ cấp yêu cầu xác minh mới và vô hiệu hóa mã cũ; mật khẩu và thông tin đăng ký ban đầu được giữ nguyên. `pnpm dev:connected` và các biến thể Go tự reload API khi sửa mã backend. Nếu API được chạy trực tiếp không có `--reload`, cần khởi động lại để nạp thay đổi.
 

@@ -47,9 +47,10 @@ class MediaBodyLimit:
         self.app = app
 
     async def __call__(self, scope: Scope, receive: Receive, send: Send) -> None:
+        scan = scope["type"] == "http" and scope["path"] == "/v1/scans/recognize"
         if (
             scope["type"] != "http"
-            or not scope["path"].startswith("/v1/media-assets")
+            or not (scope["path"].startswith("/v1/media-assets") or scan)
             or scope["method"] not in ("POST", "PUT")
         ):
             await self.app(scope, receive, send)
@@ -61,12 +62,12 @@ class MediaBodyLimit:
             if message["type"] == "http.disconnect":
                 return
             size += len(message.get("body", b""))
-            if size > 400000:
+            if size > (11_200_000 if scan else 400000):
                 response = JSONResponse(
                     {
                         "error": {
-                            "code": "MEDIA_REQUEST_TOO_LARGE",
-                            "message": "Mỗi phần tải lên vượt giới hạn dữ liệu.",
+                            "code": "SCAN_IMAGE_TOO_LARGE" if scan else "MEDIA_REQUEST_TOO_LARGE",
+                            "message": "Ảnh vượt giới hạn 8 MB." if scan else "Mỗi phần tải lên vượt giới hạn dữ liệu.",
                             "retryable": False,
                             "requestId": scope.get("state", {}).get("request_id", ""),
                         }

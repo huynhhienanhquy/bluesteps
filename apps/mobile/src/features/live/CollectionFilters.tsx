@@ -157,7 +157,7 @@ export function CollectionFiltersScreen() {
     <DesignScreen
       family="inter"
       title="Bộ lọc điểm thu gom"
-      action={<Artwork source={require('../../../assets/figma/534-48401/imgNhDiDin.png')} width={32} />}
+      action={<Artwork source={require('../../../assets/icons/collection/filters/brand.png')} width={32} />}
       contentStyle={{ gap: 14 }}
     >
       <Label size={14} color={colors.muted}>Tìm điểm phù hợp với loại rác bạn mang theo.</Label>

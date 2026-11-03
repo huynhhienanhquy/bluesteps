@@ -20,18 +20,18 @@ import { CatalogHeader, CurvedNavigation, MediaSlot } from './DesignParts';
 import { isCalendarDate } from './calendar-model';
 
 const art = {
-  folder: require('../../../assets/figma/386-18069/imgFolder.svg'),
-  bell: require('../../../assets/figma/386-18069/imgBell.svg'),
-  pin: require('../../../assets/figma/386-18069/imgMapPin.svg'),
+  folder: require('../../../assets/icons/events/saved/folder.svg'),
+  bell: require('../../../assets/icons/events/saved/bell.svg'),
+  pin: require('../../../assets/icons/events/saved/pin.svg'),
   pink:
     Platform.OS === 'web'
-      ? require('../../../assets/figma/386-18069/imgEllipse78.svg')
-      : require('../../../assets/figma/386-18069/imgEllipse78.native.png'),
+      ? require('../../../assets/images/events/saved/ellipse78.svg')
+      : require('../../../assets/images/events/saved/ellipse78.native.png'),
   blue:
     Platform.OS === 'web'
-      ? require('../../../assets/figma/386-18069/imgEllipse79.svg')
-      : require('../../../assets/figma/386-18069/imgEllipse79.native.png'),
-  removed: require('../../../assets/figma/386-10131/imgTwemojiCrossMark.svg'),
+      ? require('../../../assets/images/events/saved/ellipse79.svg')
+      : require('../../../assets/images/events/saved/ellipse79.native.png'),
+  removed: require('../../../assets/icons/events/saved/removed.svg'),
 };
 
 export function SavedEventsScreen() {

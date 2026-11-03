@@ -143,7 +143,7 @@ export function StopOrder({
                 style={{ padding: 4 }}
               >
                 <Artwork
-                  source={require('../../../assets/figma/common/journey-close.svg')}
+                  source={require('../../../assets/icons/common/journey-close.svg')}
                   width={24}
                   height={24}
                 />

@@ -4,7 +4,7 @@
 
 Ngày 02/11/2026, thêm **3 dòng mẫu vào mỗi bảng trong 48 bảng `app_private`**, tổng cộng **144 dòng** trên Supabase đang cấu hình trong `apps/api/.env`. Dữ liệu có sẵn được giữ nguyên, vì vậy một số bảng có tổng số dòng lớn hơn 3. Schema hệ thống Supabase, bảng migration và PostGIS không thuộc bộ dữ liệu này.
 
-Xem bằng Supabase Dashboard → Table Editor → chọn schema **`app_private`**. Kết quả đọc lại sau commit nằm trong [sample-data-verification.json](sample-data-verification.json), gồm số dòng trước/sau, số dòng thêm và số dòng mẫu của từng bảng.
+Xem bằng Supabase Dashboard → Table Editor → chọn schema **`app_private`**. Kết quả đọc lại sau commit nằm trong sample-data-verification.json, gồm số dòng trước/sau, số dòng thêm và số dòng mẫu của từng bảng.
 
 Script [seed_sample.py](../apps/api/scripts/seed_sample.py) dùng UUID ổn định và khóa chính để tránh trùng khi chạy lại. Tất cả thao tác thêm chạy trong một giao dịch; lỗi ràng buộc sẽ rollback. Script không được gọi bởi startup hay migration và không thay đổi quyền database.
 

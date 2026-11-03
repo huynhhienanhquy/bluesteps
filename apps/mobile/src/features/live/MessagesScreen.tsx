@@ -342,7 +342,7 @@ function MessagesBody() {
           }}
         >
           <Artwork
-            source={require('../../../assets/figma/bot/386-8930/imgEllipse295.png')}
+            source={require('../../../assets/images/assistant/avatar.png')}
             width={42}
           />
           <View style={{ flex: 1, gap: 4 }}>

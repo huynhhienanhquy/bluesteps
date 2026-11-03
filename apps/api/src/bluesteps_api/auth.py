@@ -60,7 +60,7 @@ def settings_for(request: Request) -> Settings:
 
 def challenge(db: Session, settings: Settings, user_id: UUID, email: str, purpose: str) -> UUID:
     challenge_id, code = uuid4(), f"{secrets.randbelow(1000000):06d}"
-    if settings.environment == "development" and purpose == "verify_email":
+    if settings.environment == "development" and purpose in ("verify_email", "password_reset"):
         code = "123456"
     run(
         db,

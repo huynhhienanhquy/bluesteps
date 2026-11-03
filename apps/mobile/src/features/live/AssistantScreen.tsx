@@ -25,11 +25,11 @@ import {
 import { AssistantAnswer } from './AssistantAnswer';
 
 const art = {
-  background: require('../../../assets/figma/bot/386-8930/imgChat.png'),
-  avatar: require('../../../assets/figma/bot/386-8930/imgEllipse295.png'),
-  close: require('../../../assets/figma/bot/386-8930/imgOut.svg'),
-  send: require('../../../assets/figma/bot/386-8930/imgBtnSend.svg'),
-  microphone: require('../../../assets/figma/bot/common/botMic.svg'),
+  background: require('../../../assets/images/assistant/background.png'),
+  avatar: require('../../../assets/images/assistant/avatar.png'),
+  close: require('../../../assets/icons/assistant/close.svg'),
+  send: require('../../../assets/icons/assistant/send.svg'),
+  microphone: require('../../../assets/icons/assistant/microphone.svg'),
 };
 type Turn = { question: string; answer?: AssistantGuides; error?: string; cancelled?: boolean };
 type AssistantHistory = { question: string; turns: Turn[]; scrollOffset: number | null };

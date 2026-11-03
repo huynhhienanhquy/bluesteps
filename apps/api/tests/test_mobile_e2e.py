@@ -69,6 +69,9 @@ def test_browser_api_database(
     with Session(owner) as db, db.begin():
         for table in ["waste_items", "collection_points", "events", "articles", "rewards"]:
             run(db, f"update app_private.{table} set synthetic=true")
+        if scope in ("all", "scan"):
+            source = (ROOT / "supabase/migrations/202611030023_waste_model_scans.sql").read_text(encoding="utf-8")
+            db.connection().exec_driver_sql(source[source.index("insert into app_private.waste_categories") :])
         hashed = passwords.hash(password)
         for name in ("alice", "bob"):
             run(
@@ -294,7 +297,7 @@ def test_browser_api_database(
                     pytest.fail("Isolated backend did not become ready")
             browser = pnpm + ["--filter", "@bluesteps/mobile", "test:e2e:live"]
             if scope == "scan":
-                browser += ["--grep", "a chosen photo follows fixed bottle"]
+                browser += ["--grep", "a chosen photo follows model recognition"]
             elif scope == "handbook":
                 browser += ["--grep", "handbook category handling"]
             elif scope == "community":

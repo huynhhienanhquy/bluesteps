@@ -15,11 +15,11 @@ import { PostMedia } from './PostMedia';
 type Photo = Schemas['MediaAsset'];
 type Proposal = Schemas['ProposalDetail'];
 const art = {
-  brand: require('../../../assets/figma/534-48595/imgNhDiDin.png'),
-  info: require('../../../assets/figma/534-48595/imgInfo.svg'),
-  check: require('../../../assets/figma/534-48595/imgCheck1.svg'),
-  clock: require('../../../assets/figma/534-48595/imgClock.svg'),
-  pin: require('../../../assets/figma/534-48595/imgMapPin.svg'),
+  brand: require('../../../assets/icons/collection/forms/brand.png'),
+  info: require('../../../assets/icons/collection/forms/info.svg'),
+  check: require('../../../assets/icons/collection/forms/check.svg'),
+  clock: require('../../../assets/icons/collection/forms/clock.svg'),
+  pin: require('../../../assets/icons/collection/forms/pin.svg'),
 };
 const states = {
   draft: 'Bản nháp',
@@ -742,7 +742,7 @@ function ReportForm({
                 }}
               >
                 <Artwork
-                  source={require('../../../assets/figma/534-48690/imgNhMinhHa.png')}
+                  source={require('../../../assets/images/collection/forms/point-illustration.png')}
                   width={80}
                   height={80}
                 />

@@ -1,14 +1,14 @@
 export const forgotArtwork = {
-  back: require('../../assets/figma/386-7225/imgIconBack.svg'),
-  hero: require('../../assets/figma/386-7225/imgMinhHaBoMt.svg'),
-  shield: require('../../assets/figma/386-7225/imgIconShield.svg'),
+  back: require('../../assets/icons/auth/recovery/back.svg'),
+  hero: require('../../assets/images/auth/recovery/security-illustration.svg'),
+  shield: require('../../assets/icons/auth/recovery/shield.svg'),
 };
 export const otpArtwork = {
-  back: require('../../assets/figma/386-7266/imgIconBack.svg'),
-  hero: require('../../assets/figma/386-7266/imgMinhHaBoMt.svg'),
+  back: require('../../assets/icons/auth/verification/back.svg'),
+  hero: require('../../assets/images/auth/verification/verification-illustration.svg'),
 };
 export const resetArtwork = {
-  back: require('../../assets/figma/386-7307/imgIconBack.svg'),
-  hero: require('../../assets/figma/386-7307/imgMinhHaBoMt.svg'),
-  eye: require('../../assets/figma/386-7307/imgIconEye.svg'),
+  back: require('../../assets/icons/auth/reset/back.svg'),
+  hero: require('../../assets/images/auth/reset/reset-illustration.svg'),
+  eye: require('../../assets/icons/auth/reset/eye.svg'),
 };

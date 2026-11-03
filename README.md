@@ -1,6 +1,6 @@
 # BlueSteps
 
-Ứng dụng Expo/React Native đã nối API Python/FastAPI và PostgreSQL/PostGIS. Nội dung và dữ liệu cá nhân được đọc/ghi qua HTTP; danh mục chưa có dữ liệu công bố sẽ hiển thị trạng thái trống. Theo yêu cầu hiện tại, màn phân loại luôn hiển thị kết quả cố định **Chai nhựa** sau khi chụp hoặc chọn ảnh, kèm hướng dẫn phân loại. Kết quả này chạy trên thiết bị, không phụ thuộc dữ liệu sổ tay hay dịch vụ nhận diện.
+Ứng dụng Expo/React Native đã nối API Python/FastAPI và PostgreSQL/PostGIS. Chức năng quét rác gửi ảnh chụp hoặc ảnh thư viện tới API để nhận diện bằng trọng số **EfficientNetB0_FastKAN** đã train, hiển thị 10 nhóm rác, độ tin cậy và hướng dẫn phân loại tương ứng. Xem [cấu hình và kiểm chứng mô hình](docs/waste-model-integration.md).
 
 Bộ dữ liệu hiển thị đã có đủ 3 nhóm rác, 9 vật phẩm, bài đọc, hoạt động, điểm thu gom, quà và ảnh minh họa; dữ liệu cá nhân được thêm vào đúng tài khoản đã chọn. Xem [hướng dẫn và bằng chứng](docs/display-data.md).
 
@@ -35,7 +35,7 @@ Frontend chỉ nhận `EXPO_PUBLIC_API_URL`, tuyệt đối không nhận DB URL
 - Sổ tay, bài đọc, chủ đề theo dõi, lưu/thích và thảo luận; bài cộng đồng, hội thoại, tin nhắn và thông báo.
 - Điểm thu gom, đánh giá/báo cáo, đề xuất nháp; hành trình và bàn giao tự khai; hoạt động, lịch và bộ sưu tập đã lưu.
 
-AI/nhận diện ảnh, media upload, chỉ đường theo provider, OAuth, vé/check-in, nhắc lịch, game và giao dịch thưởng vẫn bị khóa theo cấu hình/quyết định nghiệp vụ trong docs. UI hiển thị lỗi hoặc trạng thái chưa mở từ server. Không tự tính điểm, dựng câu trả lời hay tạo giao dịch giả.
+Quét nhận diện dùng mô hình thật trên CPU của backend. Độ tin cậy dưới 60% yêu cầu chụp lại hoặc tra cứu thủ công. Chỉ thao tác xác nhận đã phân loại mới tạo giao dịch tính điểm theo chính sách máy chủ; ảnh nhận diện không được lưu vào database. Các khả năng khác phụ thuộc cấu hình provider và chính sách nghiệp vụ hiện hành.
 
 ## Kiểm tra
 
@@ -49,8 +49,8 @@ pnpm --filter @bluesteps/api-client typecheck
 pnpm --filter @bluesteps/api-client test
 ```
 
-Các test PostgreSQL cần `BLUESTEPS_TEST_ADMIN_URL` trỏ đến server local dùng riêng. Bộ kiểm thử browser thật tự tạo database, API và worker riêng; xem lệnh và bằng chứng trong [báo cáo tích hợp](docs/live-integration.md). `pnpm test:e2e` trực tiếp không thay thế harness này.
+Các test PostgreSQL cần `BLUESTEPS_TEST_ADMIN_URL` trỏ đến server local dùng riêng. Bộ kiểm thử browser thật tự tạo database, API và worker riêng; chạy bằng `apps/api/.venv/Scripts/python.exe -m pytest apps/api/tests/test_mobile_e2e.py`. `pnpm test:e2e` trực tiếp không thay thế harness này.
 
 `pnpm build` xuất web vào `apps/mobile/dist`; `pnpm preview` phục vụ bản xuất tại `http://127.0.0.1:4173`. `pnpm bundle:native` xuất bundle Android/iOS, không tạo APK/IPA hoặc thay kiểm thử trên thiết bị.
 
-Route nằm trong `apps/mobile/app`, màn hình trong `src/features/live`, kết nối trong `src/services`, contract trong `packages/api-client`, SQL chuẩn trong `supabase/migrations`. Các báo cáo UI và công cụ sinh thiết kế cũ ở docs là lịch sử của giai đoạn demo, không phải bằng chứng tích hợp hiện tại. Không có triển khai Supabase cloud hoặc production trong lượt này.
+Route nằm trong `apps/mobile/app`, màn hình trong `src/features/live`, kết nối trong `src/services`, contract trong `packages/api-client`, SQL chuẩn trong `supabase/migrations`.

@@ -29,8 +29,8 @@ class Settings(BaseSettings):
     smtp_password: SecretStr = SecretStr("")
     mail_from: str = ""
     local_mail_directory: str = ""
-    # A published catalog record curated for the fixed bottle flow, never an inference provider.
-    fixed_scan_item_code: str = Field(default="bottle", min_length=1, max_length=100)
+    scan_model_directory: str = ""
+    scan_confidence_threshold: float = Field(default=0.6, ge=0, le=1)
     # Local development has a keyless default; production sets an explicit provider URL.
     routing_url: str = ""
     routing_client_id: str = Field(default="bluesteps-local-development", min_length=3, max_length=200)

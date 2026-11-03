@@ -6,31 +6,31 @@ import { useApp } from '../../providers';
 type Action = 'camera' | 'emoji' | 'record' | 'images' | 'file' | 'attach';
 const icons = {
   camera: {
-    source: require('../../../assets/figma/chat/common/chatIconlyRegularBulkCamera.svg'),
+    source: require('../../../assets/icons/chat/source.svg'),
     width: 20,
     height: 18,
     name: 'camera',
   },
   record: {
-    source: require('../../../assets/figma/chat/common/chatIconlyRegularLightVoice.svg'),
+    source: require('../../../assets/icons/chat/source-5.svg'),
     width: 17.5,
     height: 22.2127,
     name: 'mic-outline',
   },
   images: {
-    source: require('../../../assets/figma/chat/common/chatIconlyRegularLightImage3.svg'),
+    source: require('../../../assets/icons/chat/source-3.svg'),
     width: 19.9573,
     height: 20.6116,
     name: 'image-outline',
   },
   file: {
-    source: require('../../../assets/figma/chat/common/chatIconlyRegularLightDocument.svg'),
+    source: require('../../../assets/icons/chat/source-2.svg'),
     width: 18.165,
     height: 20.5661,
     name: 'document-text-outline',
   },
   attach: {
-    source: require('../../../assets/figma/chat/common/chatIconlyRegularLightPlus.svg'),
+    source: require('../../../assets/icons/chat/source-4.svg'),
     width: 21.5,
     height: 22.2127,
     name: 'add-circle-outline',

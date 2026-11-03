@@ -12,9 +12,9 @@ import { PointMap } from './PointMap';
 import { handoverMaterials } from './journey-materials';
 
 const art = {
-  brand: require('../../../assets/figma/534-48869/imgNhDiDin.png'),
-  alert: require('../../../assets/figma/534-48869/imgTriangleAlert.svg'),
-  check: require('../../../assets/figma/534-48869/imgCheck.svg'),
+  brand: require('../../../assets/icons/collection/replacement/brand.png'),
+  alert: require('../../../assets/icons/collection/replacement/alert.svg'),
+  check: require('../../../assets/icons/collection/replacement/check.svg'),
 };
 const capacity = {
   unknown: 'Chưa rõ sức chứa',

@@ -38,7 +38,7 @@ function WasteGuide({ id, mode, fromScan }: { id: string; mode?: string; fromSca
         <View style={{ alignItems: 'center' }}>
           {data?.item.handbookKind === 'plastic' ? (
             <Artwork
-              source={require('../../../assets/figma/386-14521/imgImage8.png')}
+              source={require('../../../assets/images/handbook/waste-guide/waste-guide-illustration.png')}
               width={220}
               height={140}
             />

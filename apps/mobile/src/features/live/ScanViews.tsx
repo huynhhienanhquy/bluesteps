@@ -18,19 +18,15 @@ import { CurvedNavigation } from './DesignParts';
 import { CollectionMaterialLink } from './CollectionMaterialLink';
 
 const art = {
-  bottle: require('../../../assets/figma/386-14309/imgImage13.png'),
-  leaf: require('../../../assets/figma/386-14379/imgRectangle89.png'),
-  gradient: require('../../../assets/figma/386-14346/gradient386_14347.svg'),
+  leaf: require('../../../assets/images/scan/leaf.png'),
+  gradient: require('../../../assets/images/scan/gradient.svg'),
 };
-const steps = [
-  'Đổ hết chất lỏng còn lại trong chai.',
-  'Súc sạch chai và để ráo.',
-  'Tách nắp, ép gọn chai nếu điểm thu gom yêu cầu. Kiểm tra loại nhựa được tiếp nhận.',
-];
 export type SelectedPhoto = { uri: string; inputKind: 'camera' | 'library'; imageId: string };
 
 export function ScanPhotoResult({
   photo,
+  prediction,
+  recognize,
   error,
   pending,
   back,
@@ -39,6 +35,8 @@ export function ScanPhotoResult({
   retry,
 }: {
   photo: SelectedPhoto;
+  prediction: Schemas['ScanPrediction'] | null;
+  recognize: () => void;
   error: string;
   pending: boolean;
   back: () => void;
@@ -64,6 +62,7 @@ export function ScanPhotoResult({
             onLoad={() => {
               setLoading(false);
               setFailed(false);
+              recognize();
             }}
             onError={() => {
               setLoading(false);
@@ -135,7 +134,7 @@ export function ScanPhotoResult({
               <Notice tone="error">{error}</Notice>
             </View>
           )}
-          {loading ? (
+          {loading || pending ? (
             <View
               accessibilityLiveRegion="polite"
               style={{
@@ -149,7 +148,7 @@ export function ScanPhotoResult({
             >
               <ActivityIndicator color="#FFFFFF" size="large" />
               <Label bold color="#FFFFFF">
-                Đang mở ảnh…
+                {loading ? 'Đang mở ảnh…' : 'Đang nhận diện rác…'}
               </Label>
             </View>
           ) : failed ? (
@@ -165,6 +164,29 @@ export function ScanPhotoResult({
                   variant="secondary"
                   onPress={() => router.push('/handbook')}
                 />
+              </Card>
+            </View>
+          ) : !prediction ? (
+            <View style={{ position: 'absolute', top: '34%', left: 24, right: 24 }}>
+              <Card>
+                <Label bold>Chưa nhận diện được ảnh</Label>
+                <Button title="Thử nhận diện lại" onPress={recognize} />
+                <Button
+                  title="Sổ tay rác"
+                  variant="secondary"
+                  onPress={() => router.push('/handbook')}
+                />
+              </Card>
+            </View>
+          ) : prediction.status === 'unrecognized' ? (
+            <View style={{ position: 'absolute', top: '34%', left: 24, right: 24 }}>
+              <Card>
+                <Label bold>Chưa đủ độ tin cậy</Label>
+                <Label>
+                  Dự đoán: {prediction.resultLabel} ({(prediction.confidence * 100).toFixed(1)}%).
+                  Hãy chụp rõ một vật phẩm hoặc tra cứu thủ công.
+                </Label>
+                <Button title="Sổ tay rác" onPress={() => router.push('/handbook')} />
               </Card>
             </View>
           ) : !acknowledged ? (
@@ -202,14 +224,15 @@ export function ScanPhotoResult({
                   gap: 20,
                 }}
               >
-                <Artwork source={art.bottle} width={64} height={80} />
+                <Icon name={prediction.resultItem?.icon ?? 'scan-outline'} size={54} />
                 <View style={{ flex: 1, gap: 6 }}>
                   <Label size={14} color="#8C8686">
                     Kết quả
                   </Label>
                   <Label size={20} bold color="#515152" heading>
-                    Chai nhựa
+                    {prediction.resultLabel}
                   </Label>
+                  <Label size={12}>Độ tin cậy: {(prediction.confidence * 100).toFixed(1)}%</Label>
                 </View>
               </View>
               <Button title="Chi tiết" onPress={details} />
@@ -241,6 +264,7 @@ export function ScanPhotoResult({
 
 export function ScanDetails({
   scan,
+  prediction,
   pending,
   error,
   weight,
@@ -254,6 +278,7 @@ export function ScanDetails({
   openReceipt,
 }: {
   scan: Schemas['ScanResult'] | null | undefined;
+  prediction: Schemas['ScanPrediction'] | null;
   pending: boolean;
   error: string;
   weight: string;
@@ -269,6 +294,8 @@ export function ScanDetails({
   const { colors, status } = useApp(),
     { width, height } = useWindowDimensions();
   const [confirmation, setConfirmation] = useState(false);
+  const result = scan ?? prediction;
+  const item = result?.resultItem;
   const close = () => {
     if (!pending) setConfirmation(false);
   };
@@ -326,14 +353,17 @@ export function ScanDetails({
               backgroundColor: '#FFFFFF',
             }}
           >
-            <Artwork source={art.bottle} width={62} height={84} />
+            <Icon name={item?.icon ?? 'scan-outline'} size={54} />
             <View style={{ flex: 1, gap: 8 }}>
               <Label size={20} bold color="#515152">
-                Chai nhựa
+                {result?.resultLabel ?? 'Chưa có kết quả nhận diện'}
               </Label>
               <Label size={16} bold color="#515152">
-                ♻ {scan?.resultItem?.category ?? 'Rác tái chế'}
+                {item?.category ?? 'Tra cứu sổ tay để xem hướng dẫn'}
               </Label>
+              {result?.confidence != null && (
+                <Label size={12}>Độ tin cậy: {(result.confidence * 100).toFixed(1)}%</Label>
+              )}
             </View>
           </View>
           <View style={{ gap: 24, paddingTop: 10 }}>
@@ -341,10 +371,10 @@ export function ScanDetails({
               style={{ borderRadius: 20, backgroundColor: '#EAF6FCDD', borderColor: '#ABBCC4' }}
             >
               <Label size={14}>
-                Dấu hiệu: chai nhựa đựng đồ uống; kiểm tra ký hiệu vật liệu trên bao bì.
+                Kết quả gợi ý nhóm vật liệu từ ảnh. Hãy kiểm tra lại vật phẩm trước khi phân loại.
               </Label>
             </Card>
-            {(scan?.resultItem?.steps.length ? scan.resultItem.steps : steps).map((step, index) => (
+            {(item?.steps ?? []).map((step, index) => (
               <Card
                 key={index}
                 style={{ borderRadius: 20, backgroundColor: '#EAF6FCDD', borderColor: '#ABBCC4' }}
@@ -355,13 +385,20 @@ export function ScanDetails({
               </Card>
             ))}
           </View>
-          <CollectionMaterialLink material={scan?.resultItem?.material ?? 'Nhựa'} />
+          {item ? (
+            <CollectionMaterialLink material={item.material} />
+          ) : (
+            <Notice>
+              Chưa có mục sổ tay được công bố cho kết quả này. Bạn có thể tra cứu thủ công; chưa ghi
+              nhận điểm.
+            </Notice>
+          )}
           <Button
             title="Sổ tay rác"
             variant="secondary"
             onPress={() =>
-              scan?.resultItem
-                ? router.push({ pathname: '/handbook/[id]', params: { id: scan.resultItem.id } })
+              item
+                ? router.push({ pathname: '/handbook/[id]', params: { id: item.id } })
                 : router.push('/handbook')
             }
           />
@@ -378,6 +415,7 @@ export function ScanDetails({
                 <Button
                   title="Tích điểm xanh"
                   pending={pending}
+                  disabled={!item || result?.status !== 'completed'}
                   onPress={() => setConfirmation(true)}
                 />
               )}
@@ -420,8 +458,8 @@ export function ScanDetails({
                 Xác nhận phân loại
               </Label>
               <Label>
-                Chỉ xác nhận sau khi bạn đã xử lý chai nhựa theo hướng dẫn. Ảnh được giữ trên thiết
-                bị.
+                Chỉ xác nhận sau khi bạn đã xử lý {result?.resultLabel.toLocaleLowerCase('vi-VN')}{' '}
+                theo hướng dẫn. Ảnh được gửi tới máy chủ để nhận diện và không được lưu lại.
               </Label>
               <Field
                 label="Khối lượng đã cân (kg, không bắt buộc)"
@@ -469,7 +507,9 @@ export function ScanDetails({
               <Label size={20} bold heading style={{ textAlign: 'center' }}>
                 {Number(receipt?.award.points) > 0 ? 'CHÚC MỪNG' : 'ĐÃ LƯU PHÂN LOẠI'}
               </Label>
-              <Label style={{ textAlign: 'center' }}>Bạn đã xác nhận phân loại chai nhựa.</Label>
+              <Label style={{ textAlign: 'center' }}>
+                Bạn đã xác nhận phân loại {result?.resultLabel.toLocaleLowerCase('vi-VN')}.
+              </Label>
               <Artwork source={art.leaf} width={104} height={104} />
               <Label size={18}>Bạn nhận được {receipt?.award.points ?? '0'} điểm</Label>
               {receipt?.award.reason === 'DAILY_LIMIT_REACHED' ? (

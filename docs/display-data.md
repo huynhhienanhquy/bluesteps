@@ -1,8 +1,10 @@
 # Dữ liệu hiển thị của BlueSteps
 
+Cập nhật 03/11/2026: đã bổ sung 9 quà cho Voucher, Giải trí và Khác (3 quà mỗi nhóm), kèm tồn kho và ảnh. Xem [danh mục phần thưởng và kiểm chứng](reward-catalog.md).
+
 Cập nhật 02/11/2026 theo yêu cầu bổ sung dữ liệu cho các màn hình và tài khoản người dùng đã chỉ định.
 
-Theo yêu cầu tiếp theo, đã bỏ nhãn và chữ “Mẫu” khỏi toàn bộ dữ liệu trình bày: 69 bản ghi được cập nhật, kiểm tra 94 bản ghi thuộc 18 bảng, không còn nhãn trong các trường hiển thị. Các script sinh dữ liệu, fixture và nhãn lịch sử điểm cũng được cập nhật. Xem [kết quả làm sạch](label-cleanup-verification.json).
+Theo yêu cầu tiếp theo, đã bỏ nhãn và chữ “Mẫu” khỏi toàn bộ dữ liệu trình bày: 69 bản ghi được cập nhật, kiểm tra 94 bản ghi thuộc 18 bảng, không còn nhãn trong các trường hiển thị. Các script sinh dữ liệu, fixture và nhãn lịch sử điểm cũng được cập nhật. Xem kết quả làm sạch.
 
 ## Đã sửa nguyên nhân trống dữ liệu
 
@@ -55,9 +57,9 @@ API chạy tại `http://127.0.0.1:8000`; bản web kiểm tra tại `http://127
 ## Kiểm chứng
 
 - [Dữ liệu sau commit](display-data-verification.json).
-- [Đọc lại qua HTTP/API thực](display-api-verification.json), bao gồm chi tiết danh mục, đủ ba nhóm rác, mục đã lưu, lịch, tin nhắn, điểm dừng, lịch sử và thống kê.
-- [Đối chiếu dữ liệu cá nhân và số dư](display-personal-verification.json): số dư 0 được giữ nguyên, 4 dòng ledger có tổng thay đổi 0; chạy lại bằng rollback không tạo dữ liệu trùng.
-- [Kiểm tra browser](display-browser-verification.json), cùng [ảnh bằng chứng](display-data-evidence).
+- Đọc lại qua HTTP/API thực, bao gồm chi tiết danh mục, đủ ba nhóm rác, mục đã lưu, lịch, tin nhắn, điểm dừng, lịch sử và thống kê.
+- Đối chiếu dữ liệu cá nhân và số dư: số dư 0 được giữ nguyên, 4 dòng ledger có tổng thay đổi 0; chạy lại bằng rollback không tạo dữ liệu trùng.
+- Kiểm tra browser lưu ảnh vào `docs/display-data-evidence/` khi chạy lại.
 - Script `verify_display_data.py` cấp phiên QA tạm, không thay mật khẩu; credentials chỉ ở `.local` bị gitignore. Sau browser, chạy `scripts/verify_display_data.py --revoke` để thu hồi đúng phiên này.
 - Browser opt-in: `BLUESTEPS_VERIFY_DISPLAY=1 pnpm exec playwright test display-data.spec.ts` (PowerShell: đặt biến môi trường trước lệnh).
 

@@ -23,48 +23,48 @@ import { isCalendarDate } from './calendar-model';
 import { UserAvatar } from './UserAvatar';
 
 const art = {
-  mission: require('../../../assets/figma/final/386-18241/imgRectangle797.png'),
-  duck: require('../../../assets/figma/final/386-18241/imgRectangle810.png'),
-  xo: require('../../../assets/figma/final/386-18241/imgRectangle798.png'),
-  lobby: require('../../../assets/figma/final/386-18285/n386_18289_imgRectangle851.png'),
-  park: require('../../../assets/figma/final/386-18364/imgRectangle855.png'),
-  trophy: require('../../../assets/figma/final/386-18428/imgRectangle88.png'),
+  mission: require('../../../assets/images/games/mission.png'),
+  duck: require('../../../assets/images/games/duck.png'),
+  xo: require('../../../assets/images/games/xo.png'),
+  lobby: require('../../../assets/images/games/lobby.png'),
+  park: require('../../../assets/images/games/sorting/park.png'),
+  trophy: require('../../../assets/images/games/trophy.png'),
 };
 const bins = [
-  { name: 'Hữu cơ', image: require('../../../assets/figma/final/386-18364/imgRectangle856.png') },
-  { name: 'Tái chế', image: require('../../../assets/figma/final/386-18364/imgRectangle857.png') },
-  { name: 'Vô cơ', image: require('../../../assets/figma/final/386-18364/imgRectangle858.png') },
+  { name: 'Hữu cơ', image: require('../../../assets/images/games/sorting/rectangle856.png') },
+  { name: 'Tái chế', image: require('../../../assets/images/games/sorting/rectangle857.png') },
+  { name: 'Vô cơ', image: require('../../../assets/images/games/sorting/rectangle858.png') },
 ] as const;
 const items = [
   {
     name: 'Rau củ thừa',
     bin: 0,
-    image: require('../../../assets/figma/final/386-18364/imgImage36.png'),
+    image: require('../../../assets/images/games/sorting/image-5.png'),
   },
   {
     name: 'Vỏ chuối',
     bin: 0,
-    image: require('../../../assets/figma/final/386-18364/imgImage34.png'),
+    image: require('../../../assets/images/games/sorting/image-4.png'),
   },
   {
     name: 'Bìa carton sạch',
     bin: 1,
-    image: require('../../../assets/figma/final/386-18364/imgImage32.png'),
+    image: require('../../../assets/images/games/sorting/image-3.png'),
   },
   {
     name: 'Chai nhựa sạch',
     bin: 1,
-    image: require('../../../assets/figma/final/386-18364/imgRectangle863.png'),
+    image: require('../../../assets/images/games/sorting/image-6.png'),
   },
   {
     name: 'Giấy vệ sinh đã dùng',
     bin: 2,
-    image: require('../../../assets/figma/final/386-18364/imgDownload231.png'),
+    image: require('../../../assets/images/games/sorting/image-2.png'),
   },
   {
     name: 'Túi rác bẩn',
     bin: 2,
-    image: require('../../../assets/figma/final/386-18364/imgDownload112.png'),
+    image: require('../../../assets/images/games/sorting/image.png'),
   },
 ];
 const games = [
@@ -579,15 +579,15 @@ function GameSession({ userId }: { userId?: string }) {
               {[
                 {
                   name: 'Cao nhân giải đố',
-                  source: require('../../../assets/figma/final/386-18241/imgEllipse41.png'),
+                  source: require('../../../assets/images/games/source.png'),
                 },
                 {
                   name: 'Chiến thần tốc độ',
-                  source: require('../../../assets/figma/final/386-18241/imgEllipse42.png'),
+                  source: require('../../../assets/images/games/source-2.png'),
                 },
                 {
                   name: 'Bậc thầy phân loại rác',
-                  source: require('../../../assets/figma/final/386-18241/imgEllipse43.png'),
+                  source: require('../../../assets/images/games/source-3.png'),
                 },
               ].map((badge, index) => (
                 <View key={badge.name} style={{ flex: 1, alignItems: 'center', gap: 6 }}>

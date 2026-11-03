@@ -20,9 +20,9 @@ import { CurvedNavigation } from './DesignParts';
 import { calendarDateKey, isCalendarDate, shiftCalendarDate } from './calendar-model';
 
 const art = {
-  back: require('../../../assets/figma/final/391-25009/imgGroup36750.svg'),
-  check: require('../../../assets/figma/final/391-25009/imgCheckContained.svg'),
-  add: require('../../../assets/figma/final/391-25009/imgAddSquare02.svg'),
+  back: require('../../../assets/icons/statistics/back.svg'),
+  check: require('../../../assets/icons/statistics/check.svg'),
+  add: require('../../../assets/icons/statistics/add.svg'),
 };
 const palette = ['#0EA5E9', '#FBC900', '#F9373B', '#7DAFCA', '#F97316'];
 const color = (code: string) =>

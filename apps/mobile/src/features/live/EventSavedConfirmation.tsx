@@ -6,16 +6,16 @@ import { Label } from '../../design-system/ui';
 import { PrivateModal } from './PrivateModal';
 
 const art = {
-  circle: require('../../../assets/figma/386-10122/imgEllipse67.svg'),
-  heart: require('../../../assets/figma/386-10122/imgImage26.png'),
+  circle: require('../../../assets/images/events/saved-confirmation/circle.svg'),
+  heart: require('../../../assets/icons/events/saved-confirmation/heart.png'),
   blue:
     Platform.OS === 'web'
-      ? require('../../../assets/figma/386-10122/imgEllipse80.svg')
-      : require('../../../assets/figma/386-10122/imgEllipse80.native.png'),
+      ? require('../../../assets/images/events/saved-confirmation/ellipse80.svg')
+      : require('../../../assets/images/events/saved-confirmation/ellipse80.native.png'),
   pink:
     Platform.OS === 'web'
-      ? require('../../../assets/figma/386-10122/imgEllipse81.svg')
-      : require('../../../assets/figma/386-10122/imgEllipse81.native.png'),
+      ? require('../../../assets/images/events/saved-confirmation/ellipse81.svg')
+      : require('../../../assets/images/events/saved-confirmation/ellipse81.native.png'),
 };
 
 export function EventSavedConfirmation({

@@ -4,7 +4,7 @@ Ngày 03/11/2026: đã áp dụng thêm 19 migration còn thiếu, từ `2026110
 
 Đã chuẩn bị danh mục và dữ liệu cá nhân để hiển thị trong app; xem [báo cáo dữ liệu hiện hành](display-data.md). API và bản web kiểm tra chạy local, database lưu trên Supabase.
 
-Cập nhật 02/11/2026: đã thêm 3 dòng mẫu cho mỗi bảng trong 48 bảng `app_private` (144 dòng), giữ nguyên dữ liệu có sẵn. Xem [hướng dẫn dữ liệu mẫu](sample-data.md) và [kết quả kiểm chứng](sample-data-verification.json). Các ghi nhận database trống bên dưới là trạng thái tại thời điểm chuyển kết nối ban đầu.
+Cập nhật 02/11/2026: đã thêm 3 dòng mẫu cho mỗi bảng trong 48 bảng `app_private` (144 dòng), giữ nguyên dữ liệu có sẵn. Xem [hướng dẫn dữ liệu mẫu](sample-data.md) và kết quả kiểm chứng. Các ghi nhận database trống bên dưới là trạng thái tại thời điểm chuyển kết nối ban đầu.
 
 Đã chuyển backend workspace sang Supabase project `dpfaimkykjibpzbwksaf` qua Session pooler `aws-0-eu-west-1.pooler.supabase.com:5432`. Frontend vẫn gọi API Python; không kết nối trực tiếp database và không nhận credentials Supabase.
 

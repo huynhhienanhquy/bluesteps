@@ -244,7 +244,9 @@ def sorting(body: SortingRequest, db: DB, actor: User, key: Key = None) -> Any:
                 raise not_found()
             if scan["status"] not in ("completed", "unrecognized"):
                 raise APIError(409, "SCAN_NOT_READY", "Kết quả quét chưa sẵn sàng.")
-            if scan["result_mode"] == "fixed":
+            if scan["result_mode"] in ("fixed", "model"):
+                if scan["status"] != "completed":
+                    raise APIError(409, "SCAN_NOT_RECOGNIZED", "Hãy chụp lại ảnh hoặc chọn vật phẩm thủ công.")
                 if not scan["result_item_id"]:
                     raise APIError(409, "SCAN_CATALOG_UNAVAILABLE", "Chưa có mục sổ tay được công bố cho kết quả này.")
                 if scan["result_item_id"] != body.item_id:

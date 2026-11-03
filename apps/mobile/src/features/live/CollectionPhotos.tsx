@@ -147,7 +147,7 @@ export function CollectionPhotos({
         }}
       >
         <Artwork
-          source={require('../../../assets/figma/534-48595/imgCamera.svg')}
+          source={require('../../../assets/icons/collection/forms/camera.svg')}
           width={28}
           height={28}
         />
@@ -162,7 +162,7 @@ export function CollectionPhotos({
           </Label>
         </View>
         <Artwork
-          source={require('../../../assets/figma/534-48595/imgPlus.svg')}
+          source={require('../../../assets/icons/collection/forms/plus.svg')}
           width={22}
           height={22}
         />

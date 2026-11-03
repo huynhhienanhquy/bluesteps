@@ -93,14 +93,14 @@ export function ChatNote() {
           <>
             <View style={{ position: 'absolute', left: 25, top: 47 }}>
               <Artwork
-                source={require('../../../assets/figma/chat/386-8086/imgEllipse29.svg')}
+                source={require('../../../assets/icons/chat/notes/ellipse29.svg')}
                 width={11}
                 height={6}
               />
             </View>
             <View style={{ position: 'absolute', left: 34, top: 53 }}>
               <Artwork
-                source={require('../../../assets/figma/chat/386-8086/imgEllipse30.svg')}
+                source={require('../../../assets/icons/chat/notes/ellipse30.svg')}
                 width={3}
                 height={3}
               />

@@ -213,6 +213,7 @@ function Verification(params: {
           accessibilityElementsHidden
           importantForAccessibility="no-hide-descendants"
           aria-hidden
+          pointerEvents="none"
           style={{ flexDirection: 'row', gap: 10 }}
         >
           {Array.from({ length: 6 }, (_, index) => (
@@ -254,7 +255,18 @@ function Verification(params: {
           autoComplete="one-time-code"
           textContentType="oneTimeCode"
           editable={!verified && !busy}
-          style={{ position: 'absolute', width: '100%', height: 66, opacity: 0 }}
+          caretHidden
+          underlineColorAndroid="transparent"
+          style={{
+            position: 'absolute',
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0,
+            color: 'transparent',
+            backgroundColor: 'transparent',
+            fontSize: 16,
+          }}
         />
       </View>
       <DesignLink

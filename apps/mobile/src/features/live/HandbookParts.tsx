@@ -104,16 +104,16 @@ export function MaterialPicture({
   size?: number;
 }) {
   const plastic = {
-    pet: require('../../../assets/figma/386-16931/imgRectangle1097.png'),
-    hdpe: require('../../../assets/figma/386-16931/imgDownload91.png'),
-    pvc: require('../../../assets/figma/386-16931/imgDownload101.png'),
-    ldpe: require('../../../assets/figma/386-16931/imgDownload111.png'),
-    pp: require('../../../assets/figma/386-16931/imgDownload131.png'),
-    'zinc-carbon': require('../../../assets/figma/386-17145/imgDownload141.png'),
-    alkaline: require('../../../assets/figma/386-17145/imgDownload141.png'),
-    nicd: require('../../../assets/figma/386-17145/imgDownload161.png'),
-    'lead-acid': require('../../../assets/figma/386-17145/imgDownload171.png'),
-    'lithium-ion': require('../../../assets/figma/386-17145/imgPngtreeLithiumPolymerBatteryWhitePngImage107393061.png'),
+    pet: require('../../../assets/images/handbook/plastic/pet.png'),
+    hdpe: require('../../../assets/images/handbook/plastic/hdpe.png'),
+    pvc: require('../../../assets/images/handbook/plastic/pvc.png'),
+    ldpe: require('../../../assets/images/handbook/plastic/ldpe.png'),
+    pp: require('../../../assets/images/handbook/plastic/pp.png'),
+    'zinc-carbon': require('../../../assets/images/handbook/batteries/zinc-carbon.png'),
+    alkaline: require('../../../assets/images/handbook/batteries/zinc-carbon.png'),
+    nicd: require('../../../assets/images/handbook/batteries/nicd.png'),
+    'lead-acid': require('../../../assets/images/handbook/batteries/lead-acid.png'),
+    'lithium-ion': require('../../../assets/images/handbook/batteries/lithium-ion.png'),
   };
   const source =
     code && code in plastic

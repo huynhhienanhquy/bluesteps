@@ -11,10 +11,10 @@ import { PointMap } from './PointMap';
 import { handoverMaterials } from './journey-materials';
 
 const art = {
-  brand: require('../../../assets/figma/534-48955/imgNhDiDin.png'),
-  arrived: require('../../../assets/figma/534-48955/imgMapPinCheck.svg'),
-  door: require('../../../assets/figma/534-48955/imgDoorOpen.svg'),
-  check: require('../../../assets/figma/534-48955/imgCheck.svg'),
+  brand: require('../../../assets/icons/collection/arrival/brand.png'),
+  arrived: require('../../../assets/icons/collection/arrival/arrived.svg'),
+  door: require('../../../assets/icons/collection/arrival/door.svg'),
+  check: require('../../../assets/icons/collection/arrival/check.svg'),
 };
 const checklist = [
   'Tách riêng nhựa, giấy và các loại khác',

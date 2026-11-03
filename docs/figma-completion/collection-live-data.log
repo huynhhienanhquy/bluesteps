@@ -1,3 +1,0 @@
-$ pnpm --filter @bluesteps/mobile check:live-data
-$ node scripts/check-live-data.cjs
-Live-data source audit passed: 165 runtime files; no fixture adapters, seeded identities or database credentials.

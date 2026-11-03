@@ -6816,6 +6816,228 @@
         ]
       }
     },
+    "/v1/scans/prediction": {
+      "post": {
+        "tags": [
+          "scans"
+        ],
+        "summary": "Restore Prediction",
+        "operationId": "scan_prediction",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScanCreateRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScanPrediction"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/scans/recognize": {
+      "post": {
+        "tags": [
+          "scans"
+        ],
+        "summary": "Recognize",
+        "operationId": "scan_recognize",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScanRecognizeRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ScanPrediction"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Error envelope",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v1/scans": {
       "post": {
         "tags": [
@@ -32200,15 +32422,109 @@
             "type": "string",
             "format": "uuid",
             "title": "Clientimageid"
+          },
+          "predictionToken": {
+            "type": "string",
+            "maxLength": 4096,
+            "minLength": 1,
+            "title": "Predictiontoken"
           }
         },
         "additionalProperties": false,
         "type": "object",
         "required": [
           "inputKind",
-          "clientImageId"
+          "clientImageId",
+          "predictionToken"
         ],
         "title": "ScanCreateRequest"
+      },
+      "ScanPrediction": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "completed",
+              "unrecognized"
+            ],
+            "title": "Status"
+          },
+          "predictedClass": {
+            "type": "string",
+            "title": "Predictedclass"
+          },
+          "resultLabel": {
+            "type": "string",
+            "title": "Resultlabel"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence"
+          },
+          "modelName": {
+            "type": "string",
+            "title": "Modelname"
+          },
+          "resultItem": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/WasteItem"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "predictionToken": {
+            "type": "string",
+            "title": "Predictiontoken"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "predictedClass",
+          "resultLabel",
+          "confidence",
+          "modelName",
+          "resultItem",
+          "predictionToken"
+        ],
+        "title": "ScanPrediction"
+      },
+      "ScanRecognizeRequest": {
+        "properties": {
+          "inputKind": {
+            "type": "string",
+            "enum": [
+              "camera",
+              "library"
+            ],
+            "title": "Inputkind"
+          },
+          "clientImageId": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Clientimageid"
+          },
+          "imageBase64": {
+            "type": "string",
+            "maxLength": 11184812,
+            "minLength": 4,
+            "title": "Imagebase64"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "inputKind",
+          "clientImageId",
+          "imageBase64"
+        ],
+        "title": "ScanRecognizeRequest"
       },
       "ScanResult": {
         "properties": {
@@ -32219,19 +32535,56 @@
           },
           "status": {
             "type": "string",
-            "const": "completed",
+            "enum": [
+              "completed",
+              "unrecognized"
+            ],
             "title": "Status"
           },
           "resultMode": {
             "type": "string",
-            "const": "fixed",
+            "enum": [
+              "fixed",
+              "model"
+            ],
             "title": "Resultmode"
           },
           "resultLabel": {
             "type": "string",
-            "const": "Chai nhựa",
-            "title": "Resultlabel",
-            "default": "Chai nhựa"
+            "title": "Resultlabel"
+          },
+          "predictedClass": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Predictedclass"
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence"
+          },
+          "modelName": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modelname"
           },
           "inputKind": {
             "type": "string",
@@ -32273,6 +32626,7 @@
           "id",
           "status",
           "resultMode",
+          "resultLabel",
           "inputKind",
           "createdAt",
           "resultItem",

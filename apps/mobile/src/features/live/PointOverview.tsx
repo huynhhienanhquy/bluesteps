@@ -9,10 +9,10 @@ import { pointCapacityLabel } from './collection-point-status';
 import { pointWebsite } from './point-website';
 
 const art = {
-  clock: require('../../../assets/figma/386-10186/imgGroup36772.svg'),
-  capacity: require('../../../assets/figma/386-10186/imgRectangle925.png'),
-  call: require('../../../assets/figma/386-10186/imgVector31.svg'),
-  report: require('../../../assets/figma/386-10186/imgAlertCircle.svg'),
+  clock: require('../../../assets/icons/collection/point/clock.svg'),
+  capacity: require('../../../assets/icons/collection/point/capacity.png'),
+  call: require('../../../assets/icons/collection/point/call.svg'),
+  report: require('../../../assets/icons/collection/point/report.svg'),
 };
 
 export function PointOverview({

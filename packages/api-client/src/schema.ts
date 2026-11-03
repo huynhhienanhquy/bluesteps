@@ -860,6 +860,40 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/v1/scans/prediction": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Restore Prediction */
+        post: operations["scan_prediction"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/v1/scans/recognize": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Recognize */
+        post: operations["scan_recognize"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/v1/scans": {
         parameters: {
             query?: never;
@@ -2885,6 +2919,21 @@ export interface components {
             /** Saved */
             saved: boolean;
         };
+        /** ArticleImage */
+        ArticleImage: {
+            /** Url */
+            url: string;
+            /**
+             * Alt
+             * @default
+             */
+            alt: string;
+            /**
+             * Caption
+             * @default
+             */
+            caption: string;
+        };
         /** ArticleTopic */
         ArticleTopic: {
             /** Id */
@@ -2970,8 +3019,11 @@ export interface components {
             websiteUrl?: string | null;
             /** Averagerating */
             averageRating?: number | null;
-            /** Reviewcount */
-            reviewCount?: number;
+            /**
+             * Reviewcount
+             * @default 0
+             */
+            reviewCount: number;
             /** Name */
             name: string;
             /** Address */
@@ -3044,6 +3096,15 @@ export interface components {
             /** Parentid */
             parentId?: string | null;
         };
+        /** CommentsPage */
+        CommentsPage: {
+            /** Items */
+            items: components["schemas"]["ListedComment"][];
+            /** Nextcursor */
+            nextCursor?: string | null;
+            /** Totalcount */
+            totalCount: number;
+        };
         /** CommunityMember */
         CommunityMember: {
             /**
@@ -3091,15 +3152,6 @@ export interface components {
              * Format: date-time
              */
             createdAt: string;
-        };
-        /** ArticleImage */
-        ArticleImage: {
-            /** Url */
-            url: string;
-            /** Alt */
-            alt?: string;
-            /** Caption */
-            caption?: string;
         };
         /** ContentBlock */
         ContentBlock: {
@@ -3160,7 +3212,6 @@ export interface components {
             unreadCount: number;
             /** Updatedat */
             updatedAt?: string | null;
-            /** Lastmessage */
             lastMessage?: components["schemas"]["Message"] | null;
         };
         /** Coordinate */
@@ -3314,13 +3365,6 @@ export interface components {
              */
             createdAt: string;
         };
-        /** EventFilterOptions */
-        EventFilterOptions: {
-            /** Locations */
-            locations: string[];
-            /** Topics */
-            topics: string[];
-        };
         /** EventFeedback */
         EventFeedback: {
             /** Rating */
@@ -3374,6 +3418,13 @@ export interface components {
              * @default
              */
             body: string;
+        };
+        /** EventFilterOptions */
+        EventFilterOptions: {
+            /** Locations */
+            locations: string[];
+            /** Topics */
+            topics: string[];
         };
         /** EventRegistration */
         EventRegistration: {
@@ -3624,6 +3675,30 @@ export interface components {
             handover: components["schemas"]["SelfReportedHandover"];
             award: components["schemas"]["HandoverAward"];
         };
+        /** HistorySummary */
+        HistorySummary: {
+            /** Timezone */
+            timezone: string;
+            /**
+             * Asof
+             * Format: date
+             */
+            asOf: string;
+            /**
+             * Weekstartson
+             * Format: date
+             */
+            weekStartsOn: string;
+            /**
+             * Monthstartson
+             * Format: date
+             */
+            monthStartsOn: string;
+            /** Weeklyearned */
+            weeklyEarned: string;
+            /** Monthlyearned */
+            monthlyEarned: string;
+        };
         /** Insights */
         Insights: {
             /** Timezone */
@@ -3776,15 +3851,6 @@ export interface components {
             /** Name */
             name: string;
         };
-        /** HistorySummary */
-        HistorySummary: {
-            timezone: string;
-            asOf: string;
-            weekStartsOn: string;
-            monthStartsOn: string;
-            weeklyEarned: string;
-            monthlyEarned: string;
-        };
         /** MediaAsset */
         MediaAsset: {
             /**
@@ -3919,10 +3985,7 @@ export interface components {
         MoveEventsRequest: {
             /** Eventids */
             eventIds: string[];
-            /**
-             * Targetcollectionid
-             * Format: uuid
-             */
+            /** Targetcollectionid */
             targetCollectionId: string | null;
         };
         /** NameRequest */
@@ -4167,15 +4230,6 @@ export interface components {
             items: components["schemas"]["LeaderboardEntry"][];
             /** Nextcursor */
             nextCursor?: string | null;
-        };
-        /** CommentsPage */
-        CommentsPage: {
-            /** Items */
-            items: components["schemas"]["ListedComment"][];
-            /** Nextcursor */
-            nextCursor?: string | null;
-            /** Totalcount */
-            totalCount: number;
         };
         /** Page[MediaLibraryItem] */
         Page_MediaLibraryItem_: {
@@ -4742,8 +4796,11 @@ export interface components {
             hours: string;
             /** Mediaids */
             mediaIds?: string[];
-            /** Publishphotos */
-            publishPhotos?: boolean;
+            /**
+             * Publishphotos
+             * @default false
+             */
+            publishPhotos: boolean;
             /**
              * Id
              * Format: uuid
@@ -4789,8 +4846,11 @@ export interface components {
             hours: string;
             /** Mediaids */
             mediaIds?: string[];
-            /** Publishphotos */
-            publishPhotos?: boolean;
+            /**
+             * Publishphotos
+             * @default false
+             */
+            publishPhotos: boolean;
         };
         /** ProposalSubmit */
         ProposalSubmit: {
@@ -4821,8 +4881,11 @@ export interface components {
             hours: string;
             /** Mediaids */
             mediaIds?: string[];
-            /** Publishphotos */
-            publishPhotos?: boolean;
+            /**
+             * Publishphotos
+             * @default false
+             */
+            publishPhotos: boolean;
             /** Expectedversion */
             expectedVersion: number;
         };
@@ -5303,8 +5366,6 @@ export interface components {
         };
         /** RouteDetail */
         RouteDetail: {
-            /** Prefer avoiding toll roads */
-            preferNoTolls?: boolean;
             /**
              * Id
              * Format: uuid
@@ -5327,6 +5388,11 @@ export interface components {
              * Format: date-time
              */
             createdAt: string;
+            /**
+             * Prefernotolls
+             * @default false
+             */
+            preferNoTolls: boolean;
             /** Materialids */
             materialIds?: string[];
             /** Stops */
@@ -5556,6 +5622,42 @@ export interface components {
              * Format: uuid
              */
             clientImageId: string;
+            /** Predictiontoken */
+            predictionToken: string;
+        };
+        /** ScanPrediction */
+        ScanPrediction: {
+            /**
+             * Status
+             * @enum {string}
+             */
+            status: "completed" | "unrecognized";
+            /** Predictedclass */
+            predictedClass: string;
+            /** Resultlabel */
+            resultLabel: string;
+            /** Confidence */
+            confidence: number;
+            /** Modelname */
+            modelName: string;
+            resultItem: components["schemas"]["WasteItem"] | null;
+            /** Predictiontoken */
+            predictionToken: string;
+        };
+        /** ScanRecognizeRequest */
+        ScanRecognizeRequest: {
+            /**
+             * Inputkind
+             * @enum {string}
+             */
+            inputKind: "camera" | "library";
+            /**
+             * Clientimageid
+             * Format: uuid
+             */
+            clientImageId: string;
+            /** Imagebase64 */
+            imageBase64: string;
         };
         /** ScanResult */
         ScanResult: {
@@ -5566,20 +5668,22 @@ export interface components {
             id: string;
             /**
              * Status
-             * @constant
+             * @enum {string}
              */
-            status: "completed";
+            status: "completed" | "unrecognized";
             /**
              * Resultmode
-             * @constant
+             * @enum {string}
              */
-            resultMode: "fixed";
-            /**
-             * Resultlabel
-             * @default Chai nhựa
-             * @constant
-             */
-            resultLabel: "Chai nhựa";
+            resultMode: "fixed" | "model";
+            /** Resultlabel */
+            resultLabel: string;
+            /** Predictedclass */
+            predictedClass?: string | null;
+            /** Confidence */
+            confidence?: number | null;
+            /** Modelname */
+            modelName?: string | null;
             /**
              * Inputkind
              * @enum {string}
@@ -8870,7 +8974,7 @@ export interface operations {
     rewards_list: {
         parameters: {
             query?: {
-                category?: "recycled" | "voucher" | "entertainment" | "other" | null;
+                category?: ("recycled" | "voucher" | "entertainment" | "other") | null;
                 cursor?: string | null;
                 limit?: number;
             };
@@ -11145,6 +11249,198 @@ export interface operations {
                 };
                 content: {
                     "application/json": components["schemas"]["AchievementSummary"];
+                };
+            };
+            /** @description Error envelope */
+            400: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            401: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            403: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            404: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            429: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            503: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+        };
+    };
+    scan_prediction: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ScanCreateRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ScanPrediction"];
+                };
+            };
+            /** @description Error envelope */
+            400: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            401: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            403: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            404: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            429: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            503: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+        };
+    };
+    scan_recognize: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["ScanRecognizeRequest"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ScanPrediction"];
                 };
             };
             /** @description Error envelope */
@@ -18739,36 +19035,6 @@ export interface operations {
             };
         };
     };
-    point_photos_list: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Response */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["MediaAsset"][];
-                };
-            };
-            400: operations["point_reviews_list"]["responses"][400];
-            401: operations["point_reviews_list"]["responses"][401];
-            403: operations["point_reviews_list"]["responses"][403];
-            404: operations["point_reviews_list"]["responses"][404];
-            409: operations["point_reviews_list"]["responses"][409];
-            422: operations["point_reviews_list"]["responses"][422];
-            429: operations["point_reviews_list"]["responses"][429];
-            503: operations["point_reviews_list"]["responses"][503];
-        };
-    };
     point_review_create: {
         parameters: {
             query?: never;
@@ -18791,6 +19057,100 @@ export interface operations {
                 };
                 content: {
                     "application/json": unknown;
+                };
+            };
+            /** @description Error envelope */
+            400: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            401: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            403: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            404: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            429: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+            /** @description Error envelope */
+            503: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["Error"];
+                };
+            };
+        };
+    };
+    point_photos_list: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                id: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["MediaAsset"][];
                 };
             };
             /** @description Error envelope */
