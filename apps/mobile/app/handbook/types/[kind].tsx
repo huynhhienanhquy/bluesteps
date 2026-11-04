@@ -1,1 +1,1 @@
-export { MaterialTypesScreen as default } from '../../../src/features/live/HandbookGuides';
+export { MaterialTypesScreen as default } from '../../../src/features/handbook/HandbookGuides';

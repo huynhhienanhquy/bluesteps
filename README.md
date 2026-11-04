@@ -53,4 +53,4 @@ Các test PostgreSQL cần `BLUESTEPS_TEST_ADMIN_URL` trỏ đến server local 
 
 `pnpm build` xuất web vào `apps/mobile/dist`; `pnpm preview` phục vụ bản xuất tại `http://127.0.0.1:4173`. `pnpm bundle:native` xuất bundle Android/iOS, không tạo APK/IPA hoặc thay kiểm thử trên thiết bị.
 
-Route nằm trong `apps/mobile/app`, màn hình trong `src/features/live`, kết nối trong `src/services`, contract trong `packages/api-client`, SQL chuẩn trong `supabase/migrations`.
+Route nằm trong `apps/mobile/app`, màn hình và logic được chia theo chức năng trong `apps/mobile/src/features` ([cấu trúc thư mục](apps/mobile/src/features/README.md)), kết nối trong `apps/mobile/src/services`, contract trong `packages/api-client`, SQL chuẩn trong `supabase/migrations`.

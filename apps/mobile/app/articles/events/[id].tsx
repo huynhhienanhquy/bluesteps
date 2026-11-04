@@ -1,1 +1,1 @@
-export { NewsEventDetailScreen as default } from '../../../src/features/live/NewsEventDetailScreen';
+export { NewsEventDetailScreen as default } from '../../../src/features/news/NewsEventDetailScreen';

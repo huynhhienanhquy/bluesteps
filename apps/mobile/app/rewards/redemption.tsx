@@ -1,1 +1,1 @@
-export { RedemptionScreen as default } from '../../src/features/live/RewardScreens';
+export { RedemptionScreen as default } from '../../src/features/rewards/RewardScreens';

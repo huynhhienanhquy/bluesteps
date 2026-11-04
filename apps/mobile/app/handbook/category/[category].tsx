@@ -1,1 +1,1 @@
-export { HandbookCategoryScreen as default } from '../../../src/features/live/HandbookGuides';
+export { HandbookCategoryScreen as default } from '../../../src/features/handbook/HandbookGuides';

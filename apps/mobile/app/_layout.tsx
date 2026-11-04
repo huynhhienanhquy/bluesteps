@@ -30,9 +30,9 @@ import { Poppins_400Regular } from '@expo-google-fonts/poppins/400Regular';
 import { Poppins_700Bold } from '@expo-google-fonts/poppins/700Bold';
 import { Mulish_400Regular } from '@expo-google-fonts/mulish/400Regular';
 import { Loading } from '../src/design-system/ui';
-import { OnboardingProvider, useOnboarding } from '../src/features/live/OnboardingProvider';
-import { NotificationRuntime } from '../src/features/live/NotificationRuntime';
-import { PinGate } from '../src/features/live/PinGate';
+import { OnboardingProvider, useOnboarding } from '../src/features/onboarding/OnboardingProvider';
+import { NotificationRuntime } from '../src/features/notifications/NotificationRuntime';
+import { PinGate } from '../src/features/auth/PinGate';
 import { isAuthPage, safeAuthReturn, screenAddress } from '../src/services/auth-return';
 
 function Navigation() {

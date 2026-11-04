@@ -1,1 +1,1 @@
-export { ProfileScreen as default } from '../../src/features/live/ProfileScreens';
+export { ProfileOverview as default } from '../../src/features/profile/ProfileOverview';

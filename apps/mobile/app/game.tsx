@@ -1,1 +1,1 @@
-export { GamesScreen as default } from '../src/features/live/GamesScreen';
+export { GamesScreen as default } from '../src/features/games/GamesScreen';

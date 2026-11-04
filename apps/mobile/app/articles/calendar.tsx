@@ -1,1 +1,1 @@
-export { NewsCalendarScreen as default } from '../../src/features/live/NewsWorkflows';
+export { NewsCalendarScreen as default } from '../../src/features/news/NewsWorkflows';

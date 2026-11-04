@@ -14,8 +14,8 @@ import { palettes, type Colors } from '@bluesteps/design-tokens';
 import { ApiError, createApiClient } from '@bluesteps/api-client';
 import { apiBaseUrl, errorMessage, type Schemas } from './services/api';
 import { createSessionTransport, sessionSignedOutKey } from './services/session-storage';
-import { PinProvider } from './features/live/PinProvider';
-import { LocalProfileProvider } from './features/live/LocalProfileProvider';
+import { PinProvider } from './features/auth/PinProvider';
+import { LocalProfileProvider } from './features/profile/LocalProfileProvider';
 
 export type ApiClient = ReturnType<typeof createApiClient>;
 type Theme = 'system' | 'light' | 'dark';

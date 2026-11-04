@@ -1,1 +1,1 @@
-export { AchievementsScreen as default } from '../src/features/live/AchievementsScreen';
+export { AchievementsScreen as default } from '../src/features/profile/AchievementsScreen';

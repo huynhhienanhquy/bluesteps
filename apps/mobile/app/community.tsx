@@ -1,1 +1,1 @@
-export { CommunityScreen as default } from '../src/features/live/SocialScreens';
+export { CommunityScreen as default } from '../src/features/community/CommunityScreens';

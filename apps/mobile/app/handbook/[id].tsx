@@ -1,1 +1,1 @@
-export { WasteDetailScreen as default } from '../../src/features/live/HandbookScreens';
+export { WasteDetailScreen as default } from '../../src/features/handbook/HandbookScreens';

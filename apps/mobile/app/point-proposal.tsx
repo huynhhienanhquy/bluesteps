@@ -1,1 +1,1 @@
-export { PointProposalScreen as default } from '../src/features/live/CollectionScreens';
+export { PointProposalScreen as default } from '../src/features/collection/CollectionScreens';

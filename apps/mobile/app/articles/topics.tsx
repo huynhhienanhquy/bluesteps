@@ -1,1 +1,1 @@
-export { NewsTopicsScreen as default } from '../../src/features/live/NewsWorkflows';
+export { NewsTopicsScreen as default } from '../../src/features/news/NewsWorkflows';

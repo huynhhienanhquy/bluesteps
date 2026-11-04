@@ -1,1 +1,1 @@
-export { RegistrationScreen as default } from '../src/features/live/EventScreens';
+export { RegistrationScreen as default } from '../src/features/events/EventScreens';

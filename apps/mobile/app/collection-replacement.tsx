@@ -1,1 +1,1 @@
-export { RouteEditorScreen as default } from '../src/features/live/CollectionScreens';
+export { RouteEditorScreen as default } from '../src/features/collection/CollectionScreens';

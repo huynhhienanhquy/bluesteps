@@ -1,1 +1,1 @@
-export { AssistantScreen as default } from '../src/features/live/AssistantScreen';
+export { AssistantScreen as default } from '../src/features/assistant/AssistantScreen';

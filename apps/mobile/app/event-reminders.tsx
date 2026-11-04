@@ -1,1 +1,1 @@
-export { EventRemindersScreen as default } from '../src/features/live/EventScreens';
+export { EventRemindersScreen as default } from '../src/features/events/EventScreens';

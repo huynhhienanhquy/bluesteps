@@ -1,1 +1,1 @@
-export { NotificationsScreen as default } from '../src/features/live/ProfileScreens';
+export { NotificationsScreen as default } from '../src/features/notifications/NotificationsScreen';

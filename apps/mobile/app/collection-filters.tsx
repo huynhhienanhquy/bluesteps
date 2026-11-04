@@ -1,1 +1,1 @@
-export { CollectionFiltersScreen as default } from '../src/features/live/CollectionScreens';
+export { CollectionFiltersScreen as default } from '../src/features/collection/CollectionScreens';

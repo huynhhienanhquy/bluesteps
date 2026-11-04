@@ -1,1 +1,1 @@
-export { RewardDetailScreen as default } from '../../src/features/live/RewardScreens';
+export { RewardDetailScreen as default } from '../../src/features/rewards/RewardScreens';

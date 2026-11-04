@@ -1,1 +1,1 @@
-export { StatisticsScreen as default } from '../src/features/live/StatisticsScreen';
+export { StatisticsScreen as default } from '../src/features/profile/StatisticsScreen';

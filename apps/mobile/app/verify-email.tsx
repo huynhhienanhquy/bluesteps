@@ -1,1 +1,1 @@
-export { VerifyEmailScreen as default } from '../src/features/live/AuthScreens';
+export { VerifyEmailScreen as default } from '../src/features/auth/AuthScreens';

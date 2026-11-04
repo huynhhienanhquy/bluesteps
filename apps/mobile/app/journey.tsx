@@ -1,1 +1,1 @@
-export { JourneyScreen as default } from '../src/features/live/CollectionScreens';
+export { JourneyScreen as default } from '../src/features/collection/CollectionScreens';

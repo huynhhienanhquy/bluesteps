@@ -1,1 +1,1 @@
-export { ForgotPasswordScreen as default } from '../src/features/live/AuthScreens';
+export { ForgotPasswordScreen as default } from '../src/features/auth/AuthScreens';

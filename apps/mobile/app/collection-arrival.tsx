@@ -1,1 +1,1 @@
-export { ArrivalScreen as default } from '../src/features/live/CollectionScreens';
+export { ArrivalScreen as default } from '../src/features/collection/CollectionScreens';

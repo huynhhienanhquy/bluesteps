@@ -33,7 +33,20 @@ for (const route of files(path.join(root, 'app')).filter(
   (file) => /\.tsx$/.test(file) && !/(_layout|\+not-found)\.tsx$/.test(file),
 )) {
   const source = fs.readFileSync(route, 'utf8');
-  if (!/src\/features\/(live\/|auth\/AuthForm)/.test(source)) violations.push(route);
+  const featureImports = [
+    ...source.matchAll(
+      /(?:^|\n)\s*(?:import|export)\s+[^;'"]*?\sfrom\s*['"]((?:\.\.\/)+src\/features\/[a-z][a-z0-9-]*\/[A-Za-z][A-Za-z0-9-]*)['"]/g,
+    ),
+  ];
+  if (
+    !featureImports.length ||
+    featureImports.some((match) => {
+      const target = path.resolve(path.dirname(route), match[1]);
+      return !['.ts', '.tsx'].some((extension) => fs.existsSync(target + extension));
+    })
+  ) {
+    violations.push(route);
+  }
 }
 if (violations.length) {
   console.error(

@@ -1,1 +1,1 @@
-export { EventCheckInScreen as default } from '../src/features/live/EventCheckInScreen';
+export { EventCheckInScreen as default } from '../src/features/events/EventCheckInScreen';

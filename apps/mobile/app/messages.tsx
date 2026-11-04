@@ -1,1 +1,1 @@
-export { MessagesScreen as default } from '../src/features/live/SocialScreens';
+export { MessagesScreen as default } from '../src/features/messages/MessagesScreen';

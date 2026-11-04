@@ -6,7 +6,7 @@ import { useApp } from '../../src/providers';
 import { Label } from '../../src/design-system/ui';
 import { Artwork } from '../../src/design-system/DesignScreen';
 import { homeAssets } from '../../src/design-system/app-assets';
-import { CurvedNavigation } from '../../src/features/live/DesignParts';
+import { CurvedNavigation } from '../../src/features/shared/DesignParts';
 
 const items = [
   { name: 'index', title: 'Trang chủ', source: homeAssets.imgIconHome },

@@ -1,1 +1,1 @@
-export { EventCollectionsScreen as default } from '../src/features/live/EventScreens';
+export { EventCollectionsScreen as default } from '../src/features/events/EventScreens';
