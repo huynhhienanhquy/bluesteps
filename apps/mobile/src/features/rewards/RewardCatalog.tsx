@@ -1,12 +1,13 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Pressable, ScrollView, View, useWindowDimensions } from 'react-native';
-import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { Artwork, DesignLink } from '../../design-system/DesignScreen';
 import { rewardArtwork as a } from '../../design-system/reward-artwork';
 import { Button, Icon, Label } from '../../design-system/ui';
 import { useApp } from '../../providers';
 import type { Schemas } from '../../services/api';
 import { usePages, useResource } from '../../services/queries';
+import { useRefreshOnFocus } from '../../services/query-focus';
 import { CommandError, More, QueryState, RequireAuth } from '../shared/common';
 import { MediaSlot } from '../shared/DesignParts';
 import { RewardPage, RewardPill } from './RewardParts';
@@ -33,14 +34,7 @@ export function RewardCatalog() {
   const catalog = usePages<Schemas['Reward']>(
     category ? `/v1/rewards?category=${category}` : '/v1/rewards',
   );
-  const { refetch: refreshCatalog } = catalog;
-  const { refetch: refreshWallet } = wallet;
-  useFocusEffect(
-    useCallback(() => {
-      void refreshCatalog();
-      if (status === 'authenticated') void refreshWallet();
-    }, [status, refreshCatalog, refreshWallet]),
-  );
+  useRefreshOnFocus([status !== 'loading' && catalog, status === 'authenticated' && wallet]);
   const [offer, setOffer] = useState<{ reward: Schemas['Reward']; account: string } | null>(null);
   useEffect(() => {
     setOffer(null);

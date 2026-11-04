@@ -1,3 +1,4 @@
+import json
 from datetime import date, datetime, time, timedelta
 from decimal import Decimal
 from typing import Annotated, Any, Literal
@@ -124,8 +125,9 @@ def target_progress(db: Session, actor: Actor, target: Any) -> Decimal:
     return Decimal(value["value"] if value else 0)
 
 
-def target_result(db: Session, actor: Actor, target: Any) -> dict[str, Any]:
-    progress = target_progress(db, actor, target)
+def target_result(db: Session, actor: Actor, target: Any, *, progress: Decimal | None = None) -> dict[str, Any]:
+    if progress is None:
+        progress = target_progress(db, actor, target)
     return {
         **{key: value for key, value in target.items() if key not in ("user_id", "archived_at")},
         "progress": str(progress),
@@ -135,17 +137,42 @@ def target_result(db: Session, actor: Actor, target: Any) -> dict[str, Any]:
 
 @router.get("/me/targets", response_model=list[PersonalTarget], operation_id="targets_list")
 def targets(db: DB, actor: User) -> Any:
-    return wire(
-        [
-            target_result(db, actor, item)
-            for item in rows(
-                db,
-                """select * from app_private.personal_targets
+    items = rows(
+        db,
+        """select * from app_private.personal_targets
         where user_id=:uid and archived_at is null order by created_at desc,id desc""",
-                uid=actor.user_id,
-            )
-        ]
+        uid=actor.user_id,
     )
+    if not items:
+        return []
+    # Keep ZoneInfo's boundary handling, including DST, while fetching all progress
+    # in one round trip rather than one query for every personal target.
+    periods = []
+    for item in items:
+        start, stop = boundaries(item["starts_on"], item["ends_on"], item["timezone"])
+        periods.append(
+            {"id": str(item["id"]), "metric": item["metric"], "start": start.isoformat(), "stop": stop.isoformat()}
+        )
+    progress = {
+        item["id"]: Decimal(item["progress"])
+        for item in rows(
+            db,
+            """select t.id,case when t.metric='event_checkins' then
+              (select count(*) from app_private.event_registrations r where r.user_id=:uid
+                and r.status='registered' and r.checked_in_at>=t.start and r.checked_in_at<t.stop)
+            else
+              (select case when t.metric='sorting_actions' then count(*)
+                else coalesce(sum(a.reported_weight_kg),0) end
+               from app_private.sorting_actions a where a.user_id=:uid
+                and a.created_at>=t.start and a.created_at<t.stop)
+            end as progress
+            from jsonb_to_recordset(cast(:periods as jsonb))
+              as t(id uuid,metric text,start timestamptz,stop timestamptz)""",
+            uid=actor.user_id,
+            periods=json.dumps(periods),
+        )
+    }
+    return wire([target_result(db, actor, item, progress=progress[item["id"]]) for item in items])
 
 
 @router.post("/me/targets", response_model=PersonalTarget, status_code=201, operation_id="target_create")

@@ -1,5 +1,5 @@
-import { useCallback, useRef } from 'react';
-import { router, useFocusEffect, useScrollToTop, type Href } from 'expo-router';
+import { useRef } from 'react';
+import { router, useScrollToTop, type Href } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, View, useWindowDimensions } from 'react-native';
 import { useApp } from '../../providers';
 import { Button, Label, Icon, Notice } from '../../design-system/ui';
@@ -14,6 +14,7 @@ import {
 import { homeAssets as a } from '../../design-system/app-assets';
 import { materialArtwork } from '../../design-system/catalog-artwork';
 import { usePages, useResource } from '../../services/queries';
+import { useRefreshOnFocus } from '../../services/query-focus';
 import type { Schemas } from '../../services/api';
 import { QueryState } from '../shared/common';
 import { MediaSlot } from '../shared/DesignParts';
@@ -44,21 +45,12 @@ export function HomeScreen() {
   const articles = usePages<Schemas['Article']>('/v1/articles');
   const notifications = useResource<{ unread: number }>('/v1/me/notifications/summary', true);
   const unread = (notifications.data?.unread ?? 0) > 0;
-  const { refetch: refreshWallet } = wallet;
-  const { refetch: refreshNotifications } = notifications;
-  const { refetch: refreshEvents } = events;
-  const { refetch: refreshArticles } = articles;
-  useFocusEffect(
-    useCallback(() => {
-      if (status === 'loading') return;
-      void refreshEvents();
-      void refreshArticles();
-      if (status === 'authenticated') {
-        void refreshWallet();
-        void refreshNotifications();
-      }
-    }, [refreshArticles, refreshEvents, refreshNotifications, refreshWallet, status]),
-  );
+  useRefreshOnFocus([
+    status !== 'loading' && events,
+    status !== 'loading' && articles,
+    status === 'authenticated' && wallet,
+    status === 'authenticated' && notifications,
+  ]);
   const eventItems = events.data?.pages.flatMap((page) => page.items).slice(0, 2) ?? [];
   const article = articles.data?.pages.flatMap((page) => page.items)[0];
   return (

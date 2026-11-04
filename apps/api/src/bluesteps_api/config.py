@@ -20,7 +20,6 @@ class Settings(BaseSettings):
     access_ttl_seconds: int = Field(default=900, ge=60, le=900)
     refresh_ttl_seconds: int = Field(default=2592000, ge=3600, le=2592000)
     pool_size: int = Field(default=5, ge=1, le=20)
-    # Delivery adapters are deliberately unconfigured: no pretend email/AI success.
     registration_enabled: bool = False
     terms_version: str = "2026-10-31"
     smtp_host: str = ""
@@ -29,6 +28,8 @@ class Settings(BaseSettings):
     smtp_password: SecretStr = SecretStr("")
     mail_from: str = ""
     local_mail_directory: str = ""
+    openai_api_key: SecretStr = SecretStr("")
+    openai_model: str = Field(default="gpt-5.4-mini", min_length=1)
     scan_model_directory: str = ""
     scan_confidence_threshold: float = Field(default=0.6, ge=0, le=1)
     # Local development has a keyless default; production sets an explicit provider URL.

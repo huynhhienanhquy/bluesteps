@@ -58,9 +58,10 @@ REWARD_SELECT = """select r.id,r.code,r.name,r.description,r.category,r.cost_poi
 
 @router.get("/bootstrap", operation_id="bootstrap")
 def bootstrap(request: Request) -> dict[str, Any]:
+    settings = request.app.state.settings
     return {
         "apiVersion": "v1",
-        "termsVersion": request.app.state.settings.terms_version,
+        "termsVersion": settings.terms_version,
         "identity": "python",
         "features": {
             "recognition": False,
@@ -69,7 +70,7 @@ def bootstrap(request: Request) -> dict[str, Any]:
             "dailyClaims": True,
             "eventRegistration": True,
             "routingProvider": False,
-            "assistant": False,
+            "assistant": bool(settings.openai_api_key.get_secret_value()),
             "push": False,
             "friendsVisibility": True,
             "postMedia": True,

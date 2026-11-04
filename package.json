@@ -23,6 +23,7 @@
     "typecheck": "pnpm --filter @bluesteps/mobile typecheck",
     "lint": "pnpm --filter @bluesteps/mobile lint",
     "test": "pnpm --filter @bluesteps/mobile test",
+    "test:expo-start": "node --test scripts/expo-ready.test.cjs scripts/expo-process.test.cjs",
     "check:live-data": "pnpm --filter @bluesteps/mobile check:live-data",
     "test:e2e": "pnpm --filter @bluesteps/mobile test:e2e",
     "preview": "pnpm --filter @bluesteps/mobile preview",

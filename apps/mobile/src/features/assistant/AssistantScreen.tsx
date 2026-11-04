@@ -31,7 +31,13 @@ const art = {
   send: require('../../../assets/icons/assistant/send.svg'),
   microphone: require('../../../assets/icons/assistant/microphone.svg'),
 };
-type Turn = { question: string; answer?: AssistantGuides; error?: string; cancelled?: boolean };
+type Turn = {
+  question: string;
+  answer?: AssistantGuides;
+  generatedAnswer?: string;
+  error?: string;
+  cancelled?: boolean;
+};
 type AssistantHistory = { question: string; turns: Turn[]; scrollOffset: number | null };
 const suggestions = ['Phân loại rác nhựa', 'Xử lý pin cũ', 'Rác nguy hại'];
 
@@ -68,13 +74,14 @@ function Conversation({ userId, initialQuestion }: { userId: string; initialQues
   const scrollOffset = useRef(initialQuestion ? null : (restored?.scrollOffset ?? null));
   const restoreOffset = useRef(scrollOffset.current);
   const followLatest = useRef(scrollOffset.current == null);
-  const pending = !!turns.length && !turns.at(-1)?.answer && !turns.at(-1)?.error;
+  const latest = turns.at(-1);
+  const pending = !!latest && !latest.answer && !latest.generatedAnswer && !latest.error;
   useEffect(() => {
     cache.setQueryData(['assistant-history', userId], {
       question,
       scrollOffset: scrollOffset.current,
       turns: turns.map((turn) =>
-        turn.answer || turn.error
+        turn.answer || turn.generatedAnswer || turn.error
           ? turn
           : { ...turn, error: 'Tra cứu đã dừng. Bạn có thể thử lại.', cancelled: true },
       ),
@@ -118,6 +125,27 @@ function Conversation({ userId, initialQuestion }: { userId: string; initialQues
       ]);
     }, 30_000);
     try {
+      const messages = history
+        .flatMap(({ question, generatedAnswer }) =>
+          generatedAnswer
+            ? [
+                { role: 'user' as const, content: question },
+                {
+                  role: 'assistant' as const,
+                  content: Array.from(generatedAnswer).slice(0, 2_000).join(''),
+                },
+              ]
+            : [],
+        )
+        .slice(-10);
+      messages.push({ role: 'user', content: text });
+      const response = await api.assistant({ messages }, controller.signal).catch(() => null);
+      if (controller.signal.aborted) return;
+      const generatedAnswer = response?.answer?.trim();
+      if (generatedAnswer) {
+        setTurns((history) => [...history.slice(0, -1), { question: text, generatedAnswer }]);
+        return;
+      }
       let answer = await findAssistantGuides(api, text, controller.signal);
       if (!answer.items.length && !answer.guides.length && contextItem)
         answer = { ...answer, items: [contextItem] };
@@ -235,7 +263,7 @@ function Conversation({ userId, initialQuestion }: { userId: string; initialQues
                 Chào bạn! Mình là RecycleBot. Bạn muốn tra cách phân loại món gì?
               </Label>
               <Label size={12} color="#456476">
-                Mình tra cứu hướng dẫn từ Sổ tay BlueSteps.
+                Mình có thể giúp bạn tìm cách phân loại và xử lý rác.
               </Label>
             </View>
             {turns.map((turn, index) => (
@@ -259,10 +287,14 @@ function Conversation({ userId, initialQuestion }: { userId: string; initialQues
                         />
                       ) : null}
                     </>
+                  ) : turn.generatedAnswer ? (
+                    <Label size={14} color="#172B3D">
+                      {turn.generatedAnswer}
+                    </Label>
                   ) : !turn.answer ? (
                     <>
                       <Label size={14} color="#456476">
-                        Đang tra sổ tay…
+                        Đang tìm câu trả lời…
                       </Label>
                       <Button title="Dừng tra cứu" variant="quiet" onPress={cancel} />
                     </>

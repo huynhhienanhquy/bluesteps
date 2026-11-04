@@ -6,6 +6,8 @@ Bộ dữ liệu hiển thị đã có đủ 3 nhóm rác, 9 vật phẩm, bài 
 
 Backend trong workspace đã chuyển sang Supabase PostgreSQL qua Session pooler, TLS `verify-full` và login runtime riêng. Database local cũ được giữ nguyên; cấu hình trước chuyển đổi được sao lưu trong thư mục `.local` bị gitignore. Xem [báo cáo kết nối Supabase](docs/supabase-connection.md).
 
+Đã tối ưu tải dữ liệu ở API và khi quay lại màn hình; xem [kết quả đo hiệu năng](docs/data-loading-performance.md).
+
 ## Chạy local
 
 Yêu cầu Node 22.14+, pnpm 11.25.0, Python 3.12 và PostgreSQL 17/PostGIS. Workspace hiện tại đã có môi trường backend và database local cổng 55432. Cài mới theo [hướng dẫn API](apps/api/README.md).

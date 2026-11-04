@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import Engine, text
 
 from . import (
+    assistant,
     auth,
     catalog,
     collection,
@@ -165,6 +166,7 @@ def create_app(settings: Settings | None = None, *, engine: Engine | None = None
         friends.router,
         media.router,
         collection.router,
+        assistant.router,
         mobile.router,
         games.router,
         participation.router,

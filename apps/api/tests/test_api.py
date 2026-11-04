@@ -7,6 +7,7 @@ from uuid import uuid4
 import pytest
 from fastapi.testclient import TestClient
 from psycopg import OperationalError as PsycopgOperationalError
+from pydantic import SecretStr
 from sqlalchemy import Engine, text
 from sqlalchemy.exc import DBAPIError, OperationalError
 
@@ -739,14 +740,16 @@ def test_database_runtime_grants_and_constraints(
         conn.execute(text("update app_private.wallets set balance=-1"))
 
 
-def test_unconfigured_commands_never_commit_fake_success(
+def test_unconfigured_assistant_never_commits_fake_success(
     client: TestClient, users: dict[str, Any], owner: Engine
 ) -> None:
-    headers = users["alice"]["headers"]
-    for path in [
+    client.app.state.settings = client.app.state.settings.model_copy(update={"openai_api_key": SecretStr("")})
+    response = client.post(
         "/v1/assistant/conversations",
-    ]:
-        response = client.post(path, headers=headers, json={})
-        assert response.status_code == 503, response.text
+        headers=users["alice"]["headers"],
+        json={"messages": [{"role": "user", "content": "Cách phân loại chai nhựa?"}]},
+    )
+    assert response.status_code == 503, response.text
+    assert response.json()["error"]["code"] == "PROVIDER_UNAVAILABLE"
     assert scalar(owner, "select count(*) from app_private.redemptions") == 0
     assert scalar(owner, "select count(*) from app_private.point_ledger") == 0

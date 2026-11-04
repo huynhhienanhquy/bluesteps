@@ -14,6 +14,7 @@ import { palettes, type Colors } from '@bluesteps/design-tokens';
 import { ApiError, createApiClient } from '@bluesteps/api-client';
 import { apiBaseUrl, errorMessage, type Schemas } from './services/api';
 import { createSessionTransport, sessionSignedOutKey } from './services/session-storage';
+import { resetSessionCache } from './services/query-cache';
 import { PinProvider } from './features/auth/PinProvider';
 import { LocalProfileProvider } from './features/profile/LocalProfileProvider';
 
@@ -80,7 +81,7 @@ export function AppProviders({
         epoch.current++;
         setUser(null);
         setStatus('guest');
-        void client.cancelQueries().then(() => client.clear());
+        void resetSessionCache(client);
       }),
     [api, client],
   );
@@ -95,7 +96,7 @@ export function AppProviders({
       void api
         .logout()
         .catch(() => {})
-        .finally(() => client.cancelQueries().then(() => client.clear()));
+        .finally(() => resetSessionCache(client));
     };
     window.addEventListener('storage', signedOut);
     return () => window.removeEventListener('storage', signedOut);
@@ -185,8 +186,7 @@ export function AppProviders({
         api.invalidatePendingRequests();
         const snapshot = ++epoch.current;
         if (user) await api.logout();
-        await client.cancelQueries();
-        client.clear();
+        await resetSessionCache(client);
         setUser(null);
         setStatus('guest');
         try {
@@ -204,8 +204,7 @@ export function AppProviders({
           await api.logout();
         } finally {
           if (snapshot === epoch.current) {
-            await client.cancelQueries();
-            client.clear();
+            await resetSessionCache(client);
             setUser(null);
             setStatus('guest');
           }

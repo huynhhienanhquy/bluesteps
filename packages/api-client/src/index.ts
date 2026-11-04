@@ -175,6 +175,12 @@ export function createApiClient(options: {
       request<Schemas['Page_GreenEvent_']>('/v1/events', { signal }, false),
     articles: (signal?: AbortSignal) =>
       request<Schemas['Page_Article_']>('/v1/articles', { signal }, false),
+    assistant: (body: Schemas['AssistantRequest'], signal?: AbortSignal) =>
+      request<Schemas['AssistantResponse']>('/v1/assistant/conversations', {
+        method: 'POST',
+        body: JSON.stringify(body),
+        signal,
+      }),
     sorting: (body: Schemas['ManualSortingRequest'] | Schemas['ScanSortingRequest'], key: string) =>
       request<Schemas['SortingResponse']>('/v1/sorting-actions', {
         method: 'POST',

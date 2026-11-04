@@ -43,7 +43,23 @@ pnpm go:tunnel:connected
 
 Quét QR mới của phiên tunnel, không dùng QR chứa IP LAN. Tunnel chuyển cả bundle và API qua cùng địa chỉ HTTPS; `pnpm go:tunnel` riêng lẻ không nối API. Cần giữ phiên terminal chạy khi thử điện thoại. Expo Go phải hỗ trợ SDK 58; trên iPhone, đăng nhập cùng tài khoản Expo CLI. Xem [hướng dẫn kết nối Expo](https://docs.expo.dev/get-started/start-developing/) và [yêu cầu tài khoản iPhone](https://docs.expo.dev/troubleshooting/expo-go-sign-in-required/).
 
-Launcher giữ cache Metro và tải sẵn bundle Android/iOS qua localhost, tránh lần biên dịch đầu vượt thời gian chờ của tunnel. Chờ dòng `Bundle Android/iOS đã sẵn sàng` trước khi quét. Chỉ xoá cache khi cần bằng `pnpm go:tunnel:connected --clear`; launcher vẫn chuẩn bị lại hai bundle trước khi báo sẵn sàng.
+Launcher giữ cache Metro và tải sẵn bundle Android/iOS qua localhost, tránh lần biên dịch đầu vượt thời gian chờ của tunnel. Chờ dòng báo tunnel và cả hai bundle đã sẵn sàng trước khi quét. Chỉ xoá cache khi cần bằng `pnpm go:tunnel:connected --clear`; launcher vẫn chuẩn bị lại hai bundle trước khi báo sẵn sàng.
+
+### `AggregateError [ETIMEDOUT]` hoặc `fetch failed` khi khởi động
+
+Đây là lỗi kết nối của Node/Expo; đường dẫn `expo-router/entry.js` trong thanh tiến độ là entry của bundle, chưa đủ để kết luận Router bị lỗi. Giữ cache và chạy lại:
+
+```powershell
+pnpm go:tunnel:connected
+```
+
+Launcher chỉ báo sẵn sàng khi manifest Android/iOS cùng trỏ tới tunnel công khai, sau đó đã tải xong cả hai bundle qua localhost. Bước chờ tunnel có giới hạn 90 giây, tránh báo thành công khi Expo còn dùng URL LAN dự phòng. Bundle được chuẩn bị lần lượt để giảm tải Metro. Lỗi kết nối tạm thời hoặc HTTP 503 ở bước tải manifest/bundle được thử lại tối đa 3 lần và ghi rõ nền tảng, giai đoạn; lỗi biên dịch HTTP 400/500 vẫn dừng ngay để sửa mã nguồn.
+
+Nếu Expo thoát với mã lỗi mạng như `ETIMEDOUT` trước khi sẵn sàng, launcher khởi động lại Expo tối đa một lần, giữ API/worker đang chạy. Sau khi app đã sẵn sàng, launcher không tự đổi phiên tunnel. Cơ chế này giữ đăng nhập Expo và kiểm tra TLS; không bật offline mode cho tunnel. Nếu dịch vụ Expo vẫn không kết nối được, lỗi sẽ chỉ rõ giai đoạn; có thể dùng LAN bằng `pnpm go:connected` hoặc phương án ngrok đã mô tả bên dưới.
+
+Kiểm tra các tình huống timeout, ngắt stream, lỗi biên dịch và khởi động lại bằng `pnpm test:expo-start`. Ngày 04/11/2026 đã kiểm tra qua HTTPS công khai: manifest và bundle Android/iOS trả 200, proxy API `/health/ready` trả 200. Việc này chưa thay thế kiểm thử trên iPhone thật.
+
+Trong lượt kiểm tra cuối, manifest + bundle Android mất khoảng 2,6 giây, iOS khoảng 61,3 giây; Metro chuẩn bị bundle tương ứng trong khoảng 2,1 và 1,4 giây. Thời gian qua tunnel vẫn dao động theo kết nối mạng. Bản sửa xử lý lỗi khởi động tạm thời và báo đúng trạng thái, không đảm bảo tốc độ dịch vụ tunnel bên ngoài.
 
 Đã chuẩn bị `pnpm go:tunnel:connected`: Expo tunnel chuyển cả bundle và đường `/__bluesteps_api/v1/*` tới backend loopback. Chỉ bật proxy khi launcher đặt `BLUESTEPS_DEV_API_PROXY=1`; mặc định proxy tắt. Các route cần đăng nhập vẫn do API kiểm token/ownership. Database URL và khóa backend không được gửi trong manifest/bundle. Phiên này tạo URL truy cập qua internet, cần được người vận hành chủ động cho phép trước khi mở. Chưa có bằng chứng điện thoại chạy thành công qua tunnel này.
 

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState, type ComponentRef } from 'react';
+import { useEffect, useRef, useState, type ComponentRef } from 'react';
 import {
   Platform,
   Pressable,
@@ -12,12 +12,13 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Artwork } from '../../design-system/DesignScreen';
 import { newsArtwork as a } from '../../design-system/catalog-artwork';
 import { CatalogHeader, CurvedNavigation, MediaSlot } from '../shared/DesignParts';
-import { router, useFocusEffect, useLocalSearchParams, usePathname } from 'expo-router';
+import { router, useLocalSearchParams, usePathname } from 'expo-router';
 import { Button, Card, Icon, IconButton, Label, Typography } from '../../design-system/ui';
 import { useApp } from '../../providers';
 import { dateLabel, type Schemas } from '../../services/api';
 import { screenAddress } from '../../services/auth-return';
 import { useCommand, usePages, useResource } from '../../services/queries';
+import { useRefreshOnFocus } from '../../services/query-focus';
 import { CommandError, More, QueryState, RequireAuth } from '../shared/common';
 import { ArticleContent, expandableArticleIntro } from './ArticleContent';
 import { ArticleReadPage } from './ArticleReadPage';
@@ -50,12 +51,7 @@ export function NewsScreen({ saved = false }: { saved?: boolean }) {
     view === 'events' && !saved,
   );
   const { dark, colors, status } = useApp();
-  const { refetch: refreshArticles } = query;
-  useFocusEffect(
-    useCallback(() => {
-      if (saved && status === 'authenticated') void refreshArticles();
-    }, [refreshArticles, saved, status]),
-  );
+  useRefreshOnFocus([saved && status === 'authenticated' && query]);
   const items = (query.data?.pages.flatMap((page) => page.items) ?? []).sort(
     (left, right) => new Date(right.createdAt).getTime() - new Date(left.createdAt).getTime(),
   );

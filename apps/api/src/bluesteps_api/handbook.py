@@ -6,7 +6,7 @@ from fastapi import APIRouter, Depends
 from pydantic import Field, model_validator
 from sqlalchemy.orm import Session
 
-from .catalog import waste_get
+from .catalog import WASTE_SELECT
 from .common import not_found, wire
 from .db import db_session, one
 from .schemas import Model, Source, WasteItem
@@ -106,25 +106,32 @@ def material_guide(code: MaterialKind, db: DB) -> Any:
 
 @router.get("/waste-items/{id}/guide", response_model=WasteGuide, operation_id="waste_guide_get")
 def item_guide(id: UUID, db: DB) -> Any:
-    item = waste_get(id, db)
-    row = one(db, "select guide_details from app_private.waste_items where id=:id", id=id)
-    assert row is not None
-    details = WasteGuideDetails.model_validate(row["guide_details"])
+    row = one(
+        db,
+        f"""select item.*,w.guide_details,reference.content as guide_reference
+        from ({WASTE_SELECT} and w.id=:id) item
+        join app_private.waste_items w on w.id=item.id
+        left join lateral (
+          select content from app_private.handbook_guides
+          where published and ((section='material' and code=item.handbook_kind)
+            or (section='category' and code=item.category_key))
+          order by case when section='material' then 0 else 1 end limit 1
+        ) reference on true""",
+        id=id,
+    )
+    if row is None:
+        raise not_found()
+    item_data = dict(row)
+    details = WasteGuideDetails.model_validate(item_data.pop("guide_details"))
+    reference = item_data.pop("guide_reference")
+    item = wire(item_data)
     if not details.dos:
         details.dos = item["steps"]
     if not details.related_kinds and item.get("handbookKind"):
         details.related_kinds = [item["handbookKind"]]
-    reference = one(
-        db,
-        """select content from app_private.handbook_guides
-        where published and ((section='material' and code=:kind) or (section='category' and code=:category))
-        order by case when section='material' then 0 else 1 end limit 1""",
-        kind=item.get("handbookKind"),
-        category=item.get("categoryKey"),
-    )
     sources = list(item["sources"])
-    if reference:
-        approved = HandbookGuide.model_validate(reference["content"])
+    if reference is not None:
+        approved = HandbookGuide.model_validate(reference)
         if not details.donts:
             details.donts = approved.item_donts
         if not details.tips:

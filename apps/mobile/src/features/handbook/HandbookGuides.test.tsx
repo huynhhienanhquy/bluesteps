@@ -4,6 +4,7 @@ import { router, useLocalSearchParams } from 'expo-router';
 import { useApp } from '../../providers';
 import { useCommand, usePages, useResource } from '../../services/queries';
 import { HandbookCategoryScreen, MaterialTypesScreen } from './HandbookGuides';
+import { HandbookScreen } from './HandbookScreens';
 import { WasteDetailScreen } from './WasteGuideScreen';
 import type { Schemas } from '../../services/api';
 
@@ -73,6 +74,21 @@ beforeEach(() => {
       }) as ReturnType<typeof useResource>,
   );
 });
+
+test.each(['recycle', 'organic', 'inorganic'])(
+  'category list %s loads items without waiting for a category lookup',
+  async (category) => {
+    jest.mocked(useLocalSearchParams).mockReturnValue({ category });
+    await render(<HandbookScreen />);
+    expect(useResource).toHaveBeenCalledWith('/v1/waste-categories', false, false);
+    expect(usePages).toHaveBeenLastCalledWith(
+      `/v1/waste-items?q=&category_key=${category}`,
+      false,
+      true,
+    );
+    expect(screen.getByRole('button', { name: item.name })).toBeVisible();
+  },
+);
 
 test.each(['recycle', 'organic', 'inorganic'])(
   'category %s has a reloadable handling overlay and links actual items',

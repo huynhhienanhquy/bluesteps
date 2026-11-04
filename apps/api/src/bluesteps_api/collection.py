@@ -770,8 +770,3 @@ def route_plan(id: UUID, body: RoutePlanRequest, request: Request, db: DB, actor
         prefer_no_tolls=body.prefer_no_tolls,
     )
     return route_read(db, actor, id)
-
-
-@router.post("/assistant/conversations", operation_id="assistant_conversation_create")
-def assistant_create(actor: User) -> None:
-    raise APIError(503, "PROVIDER_UNAVAILABLE", "Chưa cấu hình trợ lý và nguồn tri thức đã duyệt.")

@@ -82,10 +82,11 @@ export function HandbookScreen() {
   const landing = path === '/handbook';
   const search = params.query ?? '';
   const setSearch = (query: string) => router.setParams({ query });
+  const knownCategory = categories.find((category) => category.code === params.category);
   const categoryList = useResource<Page<Category>>(
     '/v1/waste-categories',
     false,
-    !!params.category,
+    !!params.category && !knownCategory,
   );
   const selectedCategory = params.category
     ? categoryList.data?.items.find(
@@ -102,10 +103,14 @@ export function HandbookScreen() {
   const query = usePages<Schemas['WasteItem']>(
     '/v1/waste-items?q=' +
       encodeURIComponent(search) +
-      (selectedCategory ? '&category=' + encodeURIComponent(selectedCategory.id) : '') +
+      (knownCategory
+        ? '&category_key=' + knownCategory.code
+        : selectedCategory
+          ? '&category=' + encodeURIComponent(selectedCategory.id)
+          : '') +
       (params.kind ? '&kind=' + encodeURIComponent(params.kind) : ''),
     false,
-    (!params.category || !!selectedCategory) && (!params.kind || !!kind),
+    (!params.category || !!knownCategory || !!selectedCategory) && (!params.kind || !!kind),
   );
   const all = query.data?.pages.flatMap((page) => page.items) ?? [];
   const items = all;
@@ -113,7 +118,8 @@ export function HandbookScreen() {
   const insets = useSafeAreaInsets();
   const width = Math.min(428, useWindowDimensions().width);
   const headerHeight = (Platform.OS === 'web' ? 54 : insets.top) + 144;
-  const categoryMissing = !!params.category && categoryList.isSuccess && !selectedCategory;
+  const categoryMissing =
+    !!params.category && !knownCategory && categoryList.isSuccess && !selectedCategory;
   const submit = () => {
     if (!landing) return;
     router.push({
@@ -319,7 +325,7 @@ export function HandbookScreen() {
               {landing ? 'Tra cứu vật phẩm' : title}
             </Label>
             {landing ? <RelatedMaterials kinds={['plastic', 'medical', 'bag', 'battery']} /> : null}
-            {params.category && !categoryList.isSuccess ? (
+            {params.category && !knownCategory && !categoryList.isSuccess ? (
               <QueryState query={categoryList} />
             ) : params.kind && !kind ? (
               <Empty

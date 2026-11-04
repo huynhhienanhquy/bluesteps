@@ -2,27 +2,50 @@ import { useInfiniteQuery, useQuery, useMutation, useQueryClient } from '@tansta
 import { useRef, useState } from 'react';
 import { useApp } from '../providers';
 import { ApiError, operationKey, type Page } from './api';
+import { publicReferenceScope } from './query-cache';
+
+// These reference endpoints never include account-specific fields.
+function isPublicReference(path: string, personal: boolean) {
+  return (
+    !personal &&
+    /^\/v1\/(?:waste-(?:categories|materials|items)|handbook\/(?:categories|materials))(?:[/?]|$)/.test(
+      path,
+    )
+  );
+}
 
 export function useResource<T>(path: string, personal = false, enabled = true) {
   const { api, user, status } = useApp();
+  const publicReference = isPublicReference(path, personal);
   return useQuery({
-    queryKey: ['api', user?.id ?? 'guest', path],
-    enabled: enabled && status !== 'loading' && (!personal || status === 'authenticated'),
-    queryFn: ({ signal }) => api.request<T>(path, { signal }, status === 'authenticated'),
+    queryKey: ['api', publicReference ? publicReferenceScope : (user?.id ?? 'guest'), path],
+    enabled:
+      enabled &&
+      (publicReference || (status !== 'loading' && (!personal || status === 'authenticated'))),
+    queryFn: ({ signal }) =>
+      api.request<T>(path, { signal }, !publicReference && status === 'authenticated'),
   });
 }
 
 export function usePages<T>(path: string, personal = false, enabled = true) {
   const { api, user, status } = useApp();
+  const publicReference = isPublicReference(path, personal);
   return useInfiniteQuery({
-    queryKey: ['api', user?.id ?? 'guest', 'pages', path],
+    queryKey: [
+      'api',
+      publicReference ? publicReferenceScope : (user?.id ?? 'guest'),
+      'pages',
+      path,
+    ],
     initialPageParam: '',
-    enabled: enabled && status !== 'loading' && (!personal || status === 'authenticated'),
+    enabled:
+      enabled &&
+      (publicReference || (status !== 'loading' && (!personal || status === 'authenticated'))),
     queryFn: ({ signal, pageParam }) =>
       api.request<Page<T>>(
         `${path}${path.includes('?') ? '&' : '?'}limit=20${pageParam ? `&cursor=${encodeURIComponent(pageParam)}` : ''}`,
         { signal },
-        status === 'authenticated',
+        !publicReference && status === 'authenticated',
       ),
     getNextPageParam: (last) => last.nextCursor ?? undefined,
   });

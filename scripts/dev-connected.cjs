@@ -3,7 +3,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const os = require('node:os');
 const { isIPv4, createServer } = require('node:net');
-const { warmExpoBundles } = require('./expo-ready.cjs');
+const { warmExpoBundles, waitExpoTunnel } = require('./expo-ready.cjs');
+const { startExpoProcess } = require('./expo-process.cjs');
 
 const root = path.resolve(__dirname, '..');
 const apiDirectory = path.join(root, 'apps/api');
@@ -175,24 +176,36 @@ except Exception:
   // Outbox leases permit multiple workers; this launcher owns and stops only its own worker.
   start(python, ['-m', 'bluesteps_api.worker'], apiDirectory);
   const expo = require.resolve('expo/bin/cli', { paths: [path.join(root, 'apps/mobile')] });
-  start(
-    process.execPath,
-    [
-      expo,
-      'start',
-      ...(tunnel ? ['--go', '--tunnel', tunnelProvider] : native ? ['--go', '--lan'] : ['--web']),
-      ...(process.argv.includes('--clear') ? ['--clear'] : []),
-      '--port',
-      '8081',
-    ],
-    path.join(root, 'apps/mobile'),
-    {
-      ...process.env,
-      EXPO_PUBLIC_API_URL: tunnel ? '' : apiUrl,
-      BLUESTEPS_DEV_API_PROXY: tunnel ? '1' : '0',
-      REACT_NATIVE_PACKAGER_HOSTNAME: native && !tunnel ? lan : '',
-    },
-  );
+  const expoArgs = [
+    expo,
+    'start',
+    ...(tunnel ? ['--go', '--tunnel', tunnelProvider] : native ? ['--go', '--lan'] : ['--web']),
+    ...(process.argv.includes('--clear') ? ['--clear'] : []),
+    '--port',
+    '8081',
+  ];
+  const expoDirectory = path.join(root, 'apps/mobile');
+  const expoEnv = {
+    ...process.env,
+    EXPO_PUBLIC_API_URL: tunnel ? '' : apiUrl,
+    BLUESTEPS_DEV_API_PROXY: tunnel ? '1' : '0',
+    REACT_NATIVE_PACKAGER_HOSTNAME: native && !tunnel ? lan : '',
+  };
+  let expoGeneration = 0;
+  const expoProcess = tunnel
+    ? startExpoProcess({
+        args: expoArgs,
+        cwd: expoDirectory,
+        env: expoEnv,
+        onSpawn: (child) => {
+          children.push(child);
+          expoGeneration++;
+        },
+        onExit: (code) => stop(code ?? 1),
+        isStopping: () => stopping,
+      })
+    : null;
+  if (!tunnel) start(process.execPath, expoArgs, expoDirectory, expoEnv);
   console.log(
     tunnel
       ? `Expo Go tunnel (${tunnelProvider}): dùng URL/QR mới do Expo in bên dưới. Bundle và API dùng chung tunnel; iPhone cần đăng nhập cùng tài khoản Expo với CLI.`
@@ -202,10 +215,27 @@ except Exception:
   );
   if (tunnel) {
     console.log(
-      'Đang chuẩn bị bundle Android/iOS qua localhost; chờ thông báo sẵn sàng rồi quét QR.',
+      'Đang chờ tunnel rồi chuẩn bị bundle Android/iOS; chờ thông báo sẵn sàng rồi quét QR.',
     );
-    await warmExpoBundles();
-    console.log('Bundle Android/iOS đã sẵn sàng. Quét QR tunnel mới ở trên bằng Expo Go.');
+    const prepare = async () => {
+      // The supervisor allows one restart. Only the current child's tunnel and
+      // both of its bundles can satisfy readiness, even if a retry changes URL.
+      for (let attempt = 0; attempt < 2; attempt++) {
+        const generation = expoGeneration;
+        try {
+          await waitExpoTunnel();
+          await warmExpoBundles();
+          const origin = await waitExpoTunnel();
+          if (generation === expoGeneration) return origin;
+        } catch (error) {
+          if (generation === expoGeneration) throw error;
+        }
+      }
+      throw new Error('Expo đã đổi phiên trong lúc chuẩn bị. Vui lòng chạy lại launcher.');
+    };
+    const origin = await Promise.race([prepare(), expoProcess.startupFailure]);
+    expoProcess.markReady();
+    console.log(`Tunnel ${origin} và bundle Android/iOS đã sẵn sàng. Quét QR mới bằng Expo Go.`);
   }
 }
 main().catch((error) => {

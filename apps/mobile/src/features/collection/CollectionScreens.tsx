@@ -1,4 +1,4 @@
-import { useCallback, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Linking, Platform, Pressable, ScrollView, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useApp } from '../../providers';
@@ -6,7 +6,7 @@ import { Artwork } from '../../design-system/DesignScreen';
 import { collectionArtwork as a } from '../../design-system/catalog-artwork';
 import { CurvedNavigation, MediaSlot } from '../shared/DesignParts';
 import { PointMap } from './PointMap';
-import { router, useFocusEffect, useLocalSearchParams, usePathname } from 'expo-router';
+import { router, useLocalSearchParams, usePathname } from 'expo-router';
 import {
   Button,
   Icon,
@@ -22,6 +22,7 @@ import {
 } from '../../design-system/ui';
 import { type Schemas } from '../../services/api';
 import { useCommand, usePages, useResource } from '../../services/queries';
+import { useRefreshOnFocus } from '../../services/query-focus';
 import { CommandError, More, QueryState, RequireAuth } from '../shared/common';
 import { collectionFilterQuery, type CollectionFilterParams } from './CollectionFilters';
 import { useForegroundLocation } from '../../services/foreground-location';
@@ -489,16 +490,7 @@ function PointDetails({ id, materials }: { id: string; materials?: string }) {
   const sending = useRef(false);
   const command = useCommand<{ state: string }>();
   const carried = [...new Set(materials?.split(',').filter(Boolean) ?? [])];
-  const { refetch: refreshPoint } = query;
-  const { refetch: refreshReviews } = reviews;
-  const { refetch: refreshPhotos } = photos;
-  useFocusEffect(
-    useCallback(() => {
-      void refreshPoint();
-      void refreshReviews();
-      void refreshPhotos();
-    }, [refreshPoint, refreshReviews, refreshPhotos]),
-  );
+  useRefreshOnFocus([query, reviews, photos]);
   return (
     <CollectionPointPage
       point={query.data}

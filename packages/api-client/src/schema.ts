@@ -2945,6 +2945,26 @@ export interface components {
             /** Followed */
             followed: boolean;
         };
+        /** AssistantMessage */
+        AssistantMessage: {
+            /**
+             * Role
+             * @enum {string}
+             */
+            role: "user" | "assistant";
+            /** Content */
+            content: string;
+        };
+        /** AssistantRequest */
+        AssistantRequest: {
+            /** Messages */
+            messages: components["schemas"]["AssistantMessage"][];
+        };
+        /** AssistantResponse */
+        AssistantResponse: {
+            /** Answer */
+            answer: string;
+        };
         /** Breakdown */
         Breakdown: {
             /**
@@ -21072,7 +21092,11 @@ export interface operations {
             path?: never;
             cookie?: never;
         };
-        requestBody?: never;
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["AssistantRequest"];
+            };
+        };
         responses: {
             /** @description Successful Response */
             200: {
@@ -21080,7 +21104,7 @@ export interface operations {
                     [name: string]: unknown;
                 };
                 content: {
-                    "application/json": unknown;
+                    "application/json": components["schemas"]["AssistantResponse"];
                 };
             };
             /** @description Error envelope */

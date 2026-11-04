@@ -1107,7 +1107,7 @@ test('ticket and summary render participation state without fabricating results'
   await expect(page.getByText('200', { exact: true })).toHaveCount(0);
 });
 
-test('offline reads fail visibly without demo fallback and service gates are real API errors', async ({
+test('offline reads fail visibly and the assistant can fall back to the live handbook', async ({
   page,
   context,
 }) => {
@@ -1128,11 +1128,24 @@ test('offline reads fail visibly without demo fallback and service gates are rea
     page.getByRole('button', { name: env.BLUESTEPS_E2E_ARTICLE_NAME!, exact: true }),
   ).toBeVisible();
   await page.goto('/assistant');
-  await page
-    .getByRole('textbox', { name: 'Câu hỏi của bạn', exact: true })
-    .fill('Hướng dẫn phân loại');
-  await page.getByRole('button', { name: 'Kết nối trợ lý', exact: true }).click();
-  await expect(page.getByRole('alert')).toContainText('Chưa cấu hình');
+  const assistantPath = '/v1/assistant/conversations';
+  await page.route(`**${assistantPath}`, (route) =>
+    route.request().method() === 'POST'
+      ? route.fulfill({
+          status: 503,
+          headers: { 'Access-Control-Allow-Origin': new URL(page.url()).origin },
+          json: { error: { code: 'PROVIDER_UNAVAILABLE' } },
+        })
+      : route.continue(),
+  );
+  const assistantResponse = page.waitForResponse(
+    (response) => response.url().endsWith(assistantPath) && response.request().method() === 'POST',
+  );
+  await page.getByRole('button', { name: 'Phân loại rác nhựa', exact: true }).click();
+  expect((await assistantResponse).status()).toBe(503);
+  await expect(
+    page.getByRole('button', { name: 'Xem hướng dẫn · Các loại rác thải nhựa phổ biến' }),
+  ).toBeVisible();
   await page.goto('/game');
   await expect(page.getByRole('alert')).toContainText('chưa được mở');
 });
